@@ -1,0 +1,41 @@
+{
+  "@@locale": "ko",
+  "appTitle": "한국사 한입",
+  "@appTitle": {
+    "description": "앱 제목"
+  },
+  "home": "홈",
+  "progress": "진행률",
+  "settings": "설정",
+  "startStudy": "오늘의 학습 시작하기",
+  "continueStudy": "학습 이어하기",
+  "todayStudy": "오늘의 학습",
+  "questionsCompleted": "{completed}문제 중 {total}문제 완료",
+  "@questionsCompleted": {
+    "placeholders": {
+      "completed": {"type": "int"},
+      "total": {"type": "int"}
+    }
+  },
+  "streakDays": "연속 {days}일째 학습 중!",
+  "@streakDays": {
+    "placeholders": {
+      "days": {"type": "int"}
+    }
+  },
+  "wrongReview": "오답 복습",
+  "spacedReview": "복습",
+  "newLearning": "신규",
+  "correct": "정답",
+  "wrong": "오답",
+  "nextQuestion": "다음 문제",
+  "sessionComplete": "오늘의 학습 완료!",
+  "accuracyRate": "정답률 {rate}%",
+  "@accuracyRate": {
+    "placeholders": {
+      "rate": {"type": "int"}
+    }
+  },
+  "goHome": "홈으로 돌아가기",
+  "additionalStudy": "추가 학습하기"
+}

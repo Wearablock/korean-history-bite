@@ -1,0 +1,38 @@
+{
+  "@@locale": "en",
+  "appTitle": "Korean History Bite",
+  "home": "Home",
+  "progress": "Progress",
+  "settings": "Settings",
+  "startStudy": "Start Today's Study",
+  "continueStudy": "Continue Study",
+  "todayStudy": "Today's Study",
+  "questionsCompleted": "{completed} of {total} questions completed",
+  "@questionsCompleted": {
+    "placeholders": {
+      "completed": {"type": "int"},
+      "total": {"type": "int"}
+    }
+  },
+  "streakDays": "{days} day streak!",
+  "@streakDays": {
+    "placeholders": {
+      "days": {"type": "int"}
+    }
+  },
+  "wrongReview": "Wrong Review",
+  "spacedReview": "Review",
+  "newLearning": "New",
+  "correct": "Correct",
+  "wrong": "Wrong",
+  "nextQuestion": "Next Question",
+  "sessionComplete": "Today's Study Complete!",
+  "accuracyRate": "Accuracy: {rate}%",
+  "@accuracyRate": {
+    "placeholders": {
+      "rate": {"type": "int"}
+    }
+  },
+  "goHome": "Go Home",
+  "additionalStudy": "Study More"
+}
