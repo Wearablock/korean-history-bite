@@ -64,5 +64,18 @@ flutter:
 
   assets:
     - assets/data/
+    - assets/data/chapters/
     - assets/data/questions/
     - assets/images/
+    - assets/images/artifacts/
+    - assets/images/documents/
+    - assets/images/illustrations/
+    - assets/images/maps/
+    - assets/images/monuments/
+    - assets/images/murals/
+    - assets/images/paintings/
+    - assets/images/people/
+    - assets/images/photos/
+    - assets/images/portraits/
+    - assets/images/sculptures/
+    - assets/images/sites/

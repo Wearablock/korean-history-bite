@@ -1,0 +1,358 @@
+{
+  "ch_prehistoric_01": {
+    "title": "Paleolítico",
+    "theory": "O Paleolítico começou há cerca de 700.000 anos. Eram utilizados instrumentos de pedra lascada (bifaces, choppers) e vivia-se em cavernas ou abrigos junto aos rios. Sobrevivia-se através da caça e recolha, vivendo em grupos.\n\n• Sítios importantes: Jeongok-ri em Yeoncheon (bifaces acheulenses), Seokjang-ri em Gongju, Geomeunmoru em Sangwon, Durubong em Cheongwon\n• Características: Vida nómada, sociedade igualitária, uso do fogo"
+  },
+  "ch_prehistoric_02": {
+    "title": "Neolítico",
+    "theory": "O Neolítico começou há cerca de 10.000 anos (cerca de 8000 a.C.). Eram utilizados instrumentos de pedra polida e cerâmica com decoração em pente. A agricultura e a pecuária começaram, levando a uma vida sedentária em casas semi-enterradas.\n\n• Sítios importantes: Amsa-dong em Seul, Dongsam-dong em Busan, Osan-ri em Yangyang\n• Crenças: Animismo, totemismo, xamanismo\n• Características: Fusaiolas e agulhas de osso (tecelagem primitiva), concheiros"
+  },
+  "ch_prehistoric_03": {
+    "title": "Idade do Bronze",
+    "theory": "A Idade do Bronze começou por volta de 2000-1500 a.C. O bronze era utilizado principalmente para armas e objetos rituais, enquanto os instrumentos agrícolas ainda eram de pedra (facas de pedra em forma de meia-lua). A rizicultura intensificou-se e surgiram classes sociais.\n\n• Cerâmica: Cerâmica sem decoração, cerâmica estilo Misong-ri\n• Objetos de bronze: Punhais em forma de bandolim, espelhos com padrões grosseiros\n• Túmulos: Dólmenes (tipo mesa/tipo tabuleiro), túmulos com caixa de pedra\n• Sociedade: Sociedade de chefes, crença no povo eleito"
+  },
+  "ch_prehistoric_04": {
+    "title": "Idade do Ferro",
+    "theory": "A Idade do Ferro começou por volta do século V-IV a.C. O ferro era utilizado para instrumentos agrícolas e armas, aumentando a produtividade agrícola e intensificando as guerras de conquista. O comércio com a China expandiu-se.\n\n• Objetos de ferro: Instrumentos agrícolas de ferro (foices, enxadas), armas de ferro\n• Objetos de bronze: Punhais afiados, espelhos com padrões finos (estilo coreano)\n• Túmulos: Túmulos de madeira, túmulos em jarra\n• Mudanças: Afluxo de moedas chinesas (Mingdaoqian, Banliang), uso da escrita a pincel"
+  },
+  "ch_gojoseon_01": {
+    "title": "Fundação e Desenvolvimento de Gojoseon",
+    "theory": "Gojoseon foi fundado em 2333 a.C. por Dangun Wanggeom (segundo o Samguk Yusa). Desenvolveu-se na região de Liaoning e no norte da península coreana com base na cultura do bronze.\n\n• Desenvolvimento: Dangun Joseon → Gija Joseon (lendário) → Wiman Joseon\n• Wiman Joseon: Fundado em 194 a.C. após Wiman derrubar o rei Jun\n• Apogeu: Adoção da cultura do ferro, comércio intermediário entre Han e Jin\n• Queda: Invasão pelo imperador Wu de Han em 108 a.C., estabelecimento das Quatro Comandarias de Han"
+  },
+  "ch_gojoseon_02": {
+    "title": "Sociedade e Cultura de Gojoseon",
+    "theory": "Gojoseon mantinha a ordem social através dos 8 Artigos de lei (Beomgeum 8jo). Apenas 3 artigos são conhecidos hoje.\n\n• Os 8 Artigos (conhecidos):\n  - Quem mata será executado\n  - Quem fere outros deverá compensar com cereais\n  - Quem rouba tornar-se-á escravo (resgate de 500.000 moedas)\n\n• Significado: Respeito pela vida, proteção da propriedade privada, importância da mão-de-obra\n• Sociedade: Sociedade de classes, existência de leis costumeiras penais"
+  },
+  "ch_gojoseon_03": {
+    "title": "Crescimento dos Vários Reinos",
+    "theory": "Após a queda de Gojoseon, vários reinos desenvolveram-se na Manchúria e na península coreana.\n\n• Buyeo: Confederação de 5 tribos, Yeonggo (festival de dezembro), enterro de seguidores, 1 livro 12 leis\n• Goguryeo: Confederação de 5 tribos, Dongmaeng (outubro), Seookje (sistema do genro residente)\n• Okjeo: Tributo a Goguryeo, costume de criação da jovem noiva, Goljangje (túmulo familiar comum)\n• Dongye: Mucheon (outubro), exogamia clânica, Chaekhwa (compensação por violação de fronteira)\n• Samhan: Mahan, Jinhan, Byeonhan, Sodo (lugar sagrado com Cheongun), festivais de maio e outubro"
+  },
+  "ch_three_kingdoms_01": {
+    "title": "Fundação e Crescimento de Goguryeo",
+    "theory": "Goguryeo foi fundado em 37 a.C. por Jumong em Jolbon. Desenvolveu-se nas regiões montanhosas do rio Yalu, tornando-se um estado conquistador.\n\n• Rei Taejo: Conquista de Okjeo, tentativa de expansão para Liaodong\n• Rei Gogukcheon: Jindebeop (ajuda aos pobres), reorganização do sistema dos 5 Bu\n• Rei Dongcheon: Crise pela invasão de Guanqiujian de Wei\n• Características: Conselho dos Jega, Gyeongdang (educação dos jovens), Seookje"
+  },
+  "ch_three_kingdoms_02": {
+    "title": "Apogeu de Goguryeo",
+    "theory": "Nos séculos IV-V, Goguryeo tornou-se uma potência da Ásia Oriental.\n\n• Rei Sosurim: Adoção do budismo (372), fundação do Taehak, promulgação do código jurídico\n• Rei Gwanggaeto: Expansão territorial (Manchúria, norte da península), ajuda a Silla (derrota dos Wa)\n• Rei Jangsu: Transferência da capital para Pyongyang (427), política de expansão para sul, controlo da bacia do rio Han\n• Estela do rei Gwanggaeto: Arquivos da história de Goguryeo, situada em Jilin, Manchúria\n• Território máximo: Da Manchúria ao centro da península (até Chungju)"
+  },
+  "ch_three_kingdoms_03": {
+    "title": "Resistência Externa e Queda de Goguryeo",
+    "theory": "Nos séculos VI-VII, Goguryeo combateu as invasões Sui e Tang.\n\n• Eulji Mundeok: Batalha de Salsu (612), derrota de 300.000 soldados do imperador Yang de Sui\n• Yeon Gaesomun: Construção da Grande Muralha de mil li, derrota do imperador Taizong de Tang (batalha de Ansi, 645)\n• Resistência estrangeira: Repelidas 4 invasões Sui, 3 invasões Tang\n• Queda: 668, conquistado pela aliança Silla-Tang\n• Causas: Divisão da classe dirigente, lutas de poder após a morte de Yeon Gaesomun"
+  },
+  "ch_three_kingdoms_04": {
+    "title": "Fundação e Crescimento de Baekje",
+    "theory": "Baekje foi fundado em 18 a.C. por Onjo em Wirye (bacia do rio Han). Desenvolveu-se com base na bacia do rio Han.\n\n• Rei Goi: Organização do sistema de postos e uniformes oficiais, promulgação do código jurídico, 6 Jwapyeong\n• Rei Geunchogo: Unificação de Mahan, ataque a Goguryeo (morte do rei Gogugwon)\n• Território: Expansão para Liaoxi, Shandong, Kyushu (espada de sete ramos)\n• Características: Comércio marítimo desenvolvido, intercâmbios com as dinastias do Sul"
+  },
+  "ch_three_kingdoms_05": {
+    "title": "Apogeu e Renascimento de Baekje",
+    "theory": "Baekje atingiu o apogeu no século IV sob o rei Geunchogo, mas declinou devido à expansão para sul de Goguryeo.\n\n• Rei Geunchogo: Conquista de Mahan, controlo de Hwanghae-do e Jeolla-do, oferta da espada de sete ramos ao Japão\n• Rei Gaero: Queda de Hanseong (475), morto pelo rei Jangsu de Goguryeo\n• Transferência para Ungjin (475): Deslocação da capital para Gongju\n• Rei Muryeong: Renascimento, envio de 22 Damno (governadores locais), intercâmbios com Liang\n• Rei Seong: Transferência para Sabi (538), nome do país Nambuyeo, tentativa de reconquistar a bacia do Han (morte em Gwansanseong)"
+  },
+  "ch_three_kingdoms_06": {
+    "title": "Movimento de Restauração e Queda de Baekje",
+    "theory": "No século VII, Baekje foi conquistado pela aliança Silla-Tang.\n\n• Rei Uija: Ataque a Silla (queda de Daeyaseong), desordem política no final do reinado\n• Queda: 660, queda de Sabiseong pela aliança Silla-Tang (Kim Yu-sin, Su Dingfang)\n• Movimento de restauração: Liderado por Boksin, Dochim, Heukchi Sangji, com apoio do Japão\n• Batalha de Baekgang (663): Derrota da marinha japonesa, fracasso do movimento de restauração\n• Significado: Alguns refugiados de Baekje emigraram para o Japão e Silla, difundindo a cultura"
+  },
+  "ch_three_kingdoms_07": {
+    "title": "Fundação e Desenvolvimento de Silla",
+    "theory": "Silla foi fundado em 57 a.C. por Bak Hyeokgeose em Saroguk (Gyeongju). Foi o mais lento dos Três Reinos a desenvolver-se.\n\n• Rei Naemul: Estabelecimento da sucessão hereditária do clã Kim, título de Maripgan\n• Rei Beopheung: Reconhecimento oficial do budismo (martírio de Ichadon), promulgação do código jurídico, organização do sistema Golpum, anexação de Geumgwan Gaya\n• Rei Jinheung: Reorganização do Hwarangdo, controlo da bacia do Han, conquista da planície de Hamheung e Daegaya\n• Estelas de inspeção: Estela de Bukhansan, estela de Changnyeong, estela de Maun-ryeong, estela de Hwangcho-ryeong"
+  },
+  "ch_three_kingdoms_08": {
+    "title": "Apogeu de Silla e Unificação dos Três Reinos",
+    "theory": "No século VII, Silla aliou-se a Tang para unificar os Três Reinos.\n\n• Rainha Seondeok: Construção de Cheomseongdae, pagode de 9 andares de Hwangnyongsa\n• Rei Taejong Muyeol (Kim Chun-chu): Primeiro rei Jingol, aliança com Tang\n• Rei Munmu: Após a queda de Baekje (660) e Goguryeo (668), expulsão de Tang\n• Guerra Silla-Tang: Batalhas de Maeso-seong e Gibeolpo (676), derrota de Tang\n• Significado: Unificação a sul da linha Daedong-Wonsan, base da cultura nacional"
+  },
+  "ch_three_kingdoms_09": {
+    "title": "Fundação e Desenvolvimento de Gaya",
+    "theory": "Gaya era um reino confederado que se desenvolveu na bacia do rio Nakdong. Prosperou graças à produção de ferro e ao comércio marítimo.\n\n• Gaya anterior: Centrado em Geumgwan Gaya (Gimhae), sucessão de Byeonhan\n• Gaya posterior: Centrado em Daegaya (Goryeong), apogeu nos séculos V-VI\n• Características: Exportação de ferro (para o Japão e Lelang), reino confederado (falha na unificação)\n• Queda: Geumgwan Gaya (532, rei Beopheung), Daegaya (562, rei Jinheung)\n• Cultura: Gayageum (cítara), armaduras de ferro, costume de enterro de seguidores"
+  },
+  "ch_three_kingdoms_10": {
+    "title": "Budismo e Pensamento dos Três Reinos",
+    "theory": "O budismo contribuiu para o fortalecimento do poder real e para a unificação nacional.\n\n• Goguryeo: 372, trazido por Sundo do Qin anterior (rei Sosurim)\n• Baekje: 384, trazido por Malananta do Jin oriental (rei Chimnyu)\n• Silla: 527, reconhecido oficialmente após o martírio de Ichadon (rei Beopheung)\n• Características: Budismo protetor do estado, adoção a nível nacional"
+  },
+  "ch_three_kingdoms_11": {
+    "title": "Túmulos e Sítios dos Três Reinos",
+    "theory": "Os túmulos dos Três Reinos mostram as características culturais de cada reino.\n\n• Goguryeo: Cairns → túmulos de corredor, frescos (túmulos dos Dançarinos, dos Lutadores, dos Dois Pilares)\n• Baekje: Túmulos de corredor, túmulo do rei Muryeong (túmulo de tijolos), pinturas dos Quatro Guardiões\n• Silla: Túmulos de acumulação de madeira e pedras (túmulo do Cavalo celeste, Hwangnam Daechong), coroas de ouro descobertas\n• Silla unificado: Túmulos de corredor (influência da cremação)\n• Balhae: Túmulo da princesa Jeonghyo (túmulo de corredor), sucessão de Goguryeo"
+  },
+  "ch_three_kingdoms_12": {
+    "title": "Artes e Ciências dos Três Reinos",
+    "theory": "Os Três Reinos desenvolveram artes e tecnologias científicas originais.\n\n• Goguryeo: Frescos funerários (Quatro Guardiões), cena de caça do túmulo dos Dançarinos\n• Baekje: Queimador de incenso em bronze dourado, Budas esculpidos na rocha de Seosan, pagode de pedra de Mireuksa\n• Silla: Cheomseongdae (mais antigo observatório da Ásia Oriental), pagode de 9 andares de Hwangnyongsa, coroas de ouro\n• Ciências: Observação astronómica, uso do calendário, desenvolvimento da construção naval\n• Transmissão ao Japão: Ajikgi e Wani (caracteres chineses, confucionismo), Damjing (papel, tinta, cores)"
+  },
+  "ch_north_south_states_01": {
+    "title": "Política de Silla Unificado",
+    "theory": "Silla unificado estabeleceu um forte poder real e um sistema centralizado.\n\n• Rei Sinmun: Abolição do Nogeup, distribuição do Gwanryojeon, fundação do Gukhak, 9 províncias e 5 capitais secundárias\n• Sistema de governo: Jipsabu (instituição máxima), Sangdaedeung (representante da aristocracia)\n• Administração local: 9 províncias, 5 capitais secundárias, Oesajeong (inspetores), Hyang, Bugok (distritos administrativos especiais)\n• Exército: 9 Seodang (exército central), 10 Jeong (exército local)\n• Período tardio: Lutas pelo trono, ascensão dos senhores locais, resistência dos Duupum 6"
+  },
+  "ch_north_south_states_02": {
+    "title": "Economia de Silla Unificado",
+    "theory": "A economia de Silla unificado desenvolveu-se graças à expansão territorial.\n\n• Sistema fundiário: Gwanryojeon (direitos de cobrança para funcionários), Jeongjeon (terras dos camponeses)\n• Documento Minjeong: Recenseamento das aldeias (população, terras, gado) a cada 3 anos, descoberto no Shōsōin no Japão\n• Comércio: Mercados este e oeste de Gyeongju, portos internacionais (Cheonghaejin, porto de Ulsan)\n• Jang Bogo: Fundação de Cheonghaejin (828), controlo marítimo, comércio intermediário Tang-Silla-Japão\n• Artesanato: Trabalho do ouro e da prata, tecelagem da seda"
+  },
+  "ch_north_south_states_03": {
+    "title": "Sociedade de Silla Unificado",
+    "theory": "Silla unificado era uma sociedade de castas baseada no sistema Golpum.\n\n• Sistema Golpum: Seonggol → Jingol → Duupum 6 a 1, restrições nos postos oficiais e na vida quotidiana\n• Jingol: Aristocracia máxima, direito de sucessão ao trono, Duupum 5 e inferiores limitados nos postos\n• Duupum 6: Carreiras nos estudos e na religião, estudantes na China, intelectuais críticos\n• Perturbações tardias: Lutas pelo trono, conflitos internos dos Jingol, resistência dos Duupum 6\n• Ascensão dos senhores locais: Crescimento autónomo dos poderes locais, base dos Três Reinos posteriores"
+  },
+  "ch_north_south_states_04": {
+    "title": "Cultura de Silla Unificado",
+    "theory": "Silla unificado fundiu as culturas dos Três Reinos para desenvolver uma cultura nacional.\n\n• Budismo: Escola Hwaeom (Uisang), desenvolvimento das escolas doutrinais, popularidade do Seon (período tardio)\n• Wonhyo: Pensamento Hwajaeng, difusão do budismo, Muaega\n• Arquitetura: Bulguksa, Seokguram (Buda principal), pagodes Dabotap e Seokgatap\n• Sinos: Sino do rei Seongdeok (sino Emille), sino de Sangwonsa\n• Literatura: Hyangga (Cheoyongga, Jemangmaega), Seol Chong (organização do Idu)"
+  },
+  "ch_north_south_states_05": {
+    "title": "Fundação e Política de Balhae",
+    "theory": "Balhae foi fundado em 698 por Dae Joyeong em Dongmosan. Era um país fundado pelos sobreviventes de Goguryeo e pelos Mohe.\n\n• Dae Joyeong: Antigo general de Goguryeo, fundação após vitória contra Tang\n• Rei Mu: Conflito com Tang, ataque de Jang Munhyu à península de Shandong\n• Rei Mun: Relações amigáveis com Tang, transferência da capital para Sanggyeong, organização dos 3 Seong 6 Bu\n• Rei Seon: Território máximo, título de 'Reino próspero do Oriente'\n• Queda: 926, conquistado pelos Khitan"
+  },
+  "ch_north_south_states_06": {
+    "title": "Sociedade e Cultura de Balhae",
+    "theory": "Balhae herdou a cultura de Goguryeo recebendo também a influência de Tang.\n\n• Governo: 3 Seong 6 Bu (sistema Tang), 5 capitais, 15 prefeituras, 62 distritos\n• Herança de Goguryeo: Ondol, lanternas de pedra, estátuas de Buda sentado, estrutura do túmulo da princesa Jeonghyo\n• Influência Tang: Jujagam (educação confuciana), participação nos exames Bingongkwa\n• Relações externas: Intercâmbios com Tang, Silla e Japão, rota de Silla (rota comercial)\n• Património cultural: Ruínas de Sanggyeong Yongcheonbu, túmulos das princesas Jeonghye e Jeonghyo"
+  },
+  "ch_goryeo_01": {
+    "title": "Fundação e Sistema de Governo de Goryeo",
+    "theory": "Em 918, Wang Geon derrubou Gungye e fundou Goryeo. Unificou os Três Reinos posteriores (936) e integrou os senhores locais.\n\n• Integração dos senhores: Política matrimonial (29 esposas), concessão de apelidos, sistema Giin, sistema Sasimgwan\n• 10 Instruções: Conselhos deixados aos futuros reis\n• Sistema de governo: 2 Seong (Jungseomunhaseong, Sangseo-seong), 6 Bu, Chungcheowon, Samsa\n• Dobyeongmasa, Sikmokdogam: Instituições próprias de Goryeo\n• Administração local: 5 Do, 2 Gye, Hyang, Bugok, So (distritos administrativos especiais)"
+  },
+  "ch_goryeo_02": {
+    "title": "Formação e Declínio da Sociedade Aristocrática",
+    "theory": "O período inicial de Goryeo era dominado pela aristocracia das grandes famílias.\n\n• Aristocracia: Monopólio dos postos através de exames e Emseo, herança do Gongeumjeon\n• Revolta de Yi Jagyeom (1126): Tentativa de monopólio do poder pelo clã materno\n• Revolta de Myocheong (1135): Proposta de transferência da capital para Seogyeong e título imperial, reprimida por Kim Bu-sik\n• Características: Formação de grandes famílias como os Yi de Gyeongwon, casamentos fechados\n• Declínio: Enfraquecimento do poder real, discriminação crescente contra os militares"
+  },
+  "ch_goryeo_03": {
+    "title": "Formação e Desenvolvimento do Regime Militar",
+    "theory": "Em 1170, Jeong Jung-bu e outros lideraram um golpe de estado militar, estabelecendo o regime militar.\n\n• Causas: Mau governo do rei Uijong, discriminação contra os militares (incidente de Bohyeonwon)\n• Desenvolvimento: Jeong Jung-bu → Gyeong Dae-seung → Yi Ui-min → Choe Chung-heon\n• Regime Choe: Gyojeongdogam (instância máxima de poder), Sambyeolcho (exército privado), Jeongbang (controlo das nomeações)\n• Revoltas camponesas: Revolta de Manjeok, revolta de Mangi e Mangsoi\n• Resultados: Enfraquecimento do poder real, monopólio do poder pelos militares"
+  },
+  "ch_goryeo_04": {
+    "title": "Resistência Contra os Mongóis e Sambyeolcho",
+    "theory": "No século XIII, Goryeo resistiu às invasões mongóis (Yuan).\n\n• Transferência para Ganghwa (1232): Vontade de resistência do regime militar, 39 anos de resistência\n• Resistência popular: Fortaleza de Cheorin (Kim Yun-hu), fortaleza de Chungju, fortaleza de Gwiju\n• Tripitaka Koreana: Oração para repelir os Mongóis através do poder do Buda\n• Regresso a Gaegyeong (1270): Rei Wonjong, colapso do regime militar\n• Resistência do Sambyeolcho: Bae Jung-son, Jindo → ilha de Jeju, reprimida em 1273"
+  },
+  "ch_goryeo_05": {
+    "title": "Período de Intervenção Yuan e Famílias Poderosas",
+    "theory": "Durante o período de intervenção Yuan (1270-1356), Goryeo sofreu ingerência interna de Yuan.\n\n• Intervenção: Estabelecimento do Secretariado de Jeongdong, envio de Darugachi, exigências de tributo e falcoaria\n• Família real: Casamentos com princesas Yuan, reis criados em Yuan\n• Rebaixamento de títulos: Wang → Chungyeol-wang, Pyeha → Jeonha, 6 Bu → 4 Sa\n• Famílias poderosas: Pró-Yuan, grandes proprietários de terras, controlo do Dopyeonguisasa\n• Mudanças sociais: Moda mongol, introdução do algodão e da pólvora"
+  },
+  "ch_goryeo_06": {
+    "title": "Reformas do Rei Gongmin e os Novos Letrados",
+    "theory": "O rei Gongmin (1351-1374) prosseguiu uma política anti-Yuan e o fortalecimento do poder real.\n\n• Política anti-Yuan: Abolição do Secretariado de Jeongdong, recuperação de Ssangseong, abandono dos títulos e do calendário Yuan\n• Reformas internas: Jeonminbyeonjeongdogam (recuperação das terras das famílias poderosas), emprego de Sindon\n• Novos letrados: Diplomados nos exames, neoconfucianos, críticos das famílias poderosas\n• Limites: Invasões dos Turbantes Vermelhos e dos piratas japoneses, caos político após eliminação de Sindon\n• Yi Seong-gye: Retirada de Wihwa-do (1388), aliança com os novos letrados"
+  },
+  "ch_goryeo_07": {
+    "title": "Economia de Goryeo",
+    "theory": "Goryeo tinha uma economia centrada na agricultura e um comércio internacional desenvolvido.\n\n• Sistema fundiário: Jeonsi-gwa (direitos de cobrança para funcionários e militares), Gongeumjeon (herança para 5º posto e superiores)\n• Agricultura: Rotação em 2 anos com 3 culturas, desenvolvimento de fertilizantes, Nongsangjibyo (manual agrícola de Yuan)\n• Comércio: Mercados de Gaegyeong, Byeokrando (porto internacional), mercadores da Arábia (Daesikgukin)\n• Artesanato: Artesanato oficial, So (produção especializada)\n• Moeda: Geonwon Jungbo, lingotes de prata (Hwalgok), circulação limitada"
+  },
+  "ch_goryeo_08": {
+    "title": "Sistema de Castas e Sociedade de Goryeo",
+    "theory": "Goryeo era uma sociedade de castas com aristocratas, classe média, camponeses e servos.\n\n• Aristocratas: Grandes famílias, famílias poderosas, monopólio dos exames e do Emseo\n• Classe média: Hyangni (administração local), Namban (classe militar), funcionários\n• Camponeses: Camponeses (Baekjeong), encargos fiscais, corveia e tributos\n• Servos: Escravos (Ilcheonjeukcheon), habitantes de Hyang, Bugok, So\n• Características: Estatuto relativamente elevado das mulheres, possibilidade de novo casamento para mulheres aristocráticas"
+  },
+  "ch_goryeo_09": {
+    "title": "Budismo de Goryeo",
+    "theory": "Em Goryeo, o budismo era a religião de estado e influenciava toda a sociedade.\n\n• Budismo de estado: Yeondeunghoe e Palgwanhoe (cerimónias nacionais), exames monásticos\n• Escolas: Escolas doutrinais (Hwaeom, Beopsang), escola Seon (Jogyejong)\n• Uicheon: Fundação da escola Cheontae, Gyogwangyeomsu, compilação do Sokjanggyeong\n• Jinul: Reorganização do Jogyejong, Jeonghyessangsu, Dono Jeomsu, movimento de reforma de Suseonsa\n• Tripitaka: Primeiro Tripitaka (oração para repelir os Khitan), Tripitaka Koreana (oração para repelir os Mongóis)"
+  },
+  "ch_goryeo_10": {
+    "title": "Confucionismo e Obras Históricas de Goryeo",
+    "theory": "No final de Goryeo, o neoconfucionismo foi introduzido e tornou-se a base ideológica dos novos letrados.\n\n• Confucionismo: Gukjagam (instituição educativa máxima), organização dos exames\n• Neoconfucionismo: Introduzido por An Hyang (rei Chungnyeol), transmitido por Baek I-jeong, Yi Jehyeon, Yi Saek, Jeong Mongju\n• Obras históricas: Samguk Sagi (Kim Bu-sik, obra histórica mais antiga existente, perspetiva confuciana)\n• Samguk Yusa (Ilyeon), Jewang Ungi (Yi Seunghyu): Relatos de Dangun, consciência nacional\n• 7 Anais reais: Já não existem"
+  },
+  "ch_goryeo_11": {
+    "title": "Ciências e Impressão de Goryeo",
+    "theory": "Goryeo possuía tecnologias de impressão e metalurgia de nível mundial.\n\n• Impressão: Tripitaka Koreana (maior coleção de tábuas de madeira existente), Jikji (livro impresso com caracteres metálicos mais antigo existente)\n• Celadon com incrustação: Desenvolvido no século XII, técnica original de Goryeo\n• Bússola: Desenvolvimento da navegação\n• Pólvora: Choe Mu-seon, estabelecimento do Escritório de Armas de Fogo, derrota dos piratas japoneses\n• Outros: Observação astronómica, pesquisa calendária, desenvolvimento médico"
+  },
+  "ch_goryeo_12": {
+    "title": "Artes de Goryeo",
+    "theory": "Goryeo desenvolveu artes originais baseadas na cultura budista e aristocrática.\n\n• Celadon: Celadon puro → celadon com incrustação (séc. XII), vaso Maebyeong com motivo de nuvens e garças\n• Pintura budista: Cores vivas, Gwangyeongbyeonsangdo\n• Arquitetura: Estilo Jusimpo (Geungnakjeon de Bongjeongsa, Muryangsujeon de Buseoksa)\n• Pagodes: Estilos variados (pagode octogonal de 9 andares de Woljeongsa, pagode de 10 andares de Gyeongcheonsa)\n• Artesanato: Técnica de incrustação de prata, laca com incrustação de madrepérola"
+  },
+  "ch_joseon_early_01": {
+    "title": "Fundação e Sistema de Governo de Joseon",
+    "theory": "Em 1392, Yi Seong-gye fundou Joseon. O neoconfucionismo era a ideologia de governo.\n\n• Fundação: Retirada de Wihwa-do (1388) → implementação da lei Gwajeon → fundação de Joseon\n• Rei Taejo: Transferência da capital para Hanyang, construção do palácio Gyeongbok\n• Rei Taejong: Sistema de relatório direto dos 6 ministérios, abolição dos exércitos privados, lei das placas de identidade\n• Sistema de governo: Uijeongbu e 6 ministérios, 3 Gabinetes (Saheonbu, Saganwon, Hongmungwan)\n• Administração local: 8 províncias, envio de governadores e magistrados, controlo dos Hyangni"
+  },
+  "ch_joseon_early_02": {
+    "title": "Política de Sejong a Seongjong",
+    "theory": "Os primeiros reis de Joseon estabeleceram a política confuciana e desenvolveram a cultura.\n\n• Rei Sejong: Jiphyeonjeon, Hunminjeongeum, estabelecimento das 4 guarnições e 6 postos, sistema de deliberação do Uijeongbu\n• Rei Sejo: Abolição do Jiphyeonjeon, sistema de relatório direto dos 6 ministérios, início da compilação do Gyeongguk Daejeon\n• Rei Seongjong: Conclusão e promulgação do Gyeongguk Daejeon, estabelecimento do Hongmungwan, emprego dos Sarim\n• Direção política: Equilíbrio entre poder real e ministerial\n• Jiphyeonjeon: Instituição de pesquisa académica do rei Sejong"
+  },
+  "ch_joseon_early_03": {
+    "title": "Ascensão dos Sarim e as Purgas",
+    "theory": "Após o rei Seongjong, os Sarim cresceram mas entraram em conflito com os Hungu, causando purgas.\n\n• Sarim: Linhagem de Kim Jong-jik, base rural, Seowon e Hyangyak, importância do estudo moral\n• Hungu: Forças meritórias do rei Sejo, controlo da política central\n• 4 grandes purgas: Muo (1498), Gapja (1504), Gimyo (1519), Eulsa (1545)\n• Purga Muo: Texto fúnebre de Kim Jong-jik, rei Yeonsangun\n• Purga Gimyo: Reformas de Jo Gwangjo (Hyeollyangkwa, abolição do Sogyeokseo), rei Jungjong"
+  },
+  "ch_joseon_early_04": {
+    "title": "Início da Política das Fações",
+    "theory": "Sob o rei Seonjo, os Sarim no poder iniciaram a política das fações.\n\n• Formação das fações: Questão de nomeação do Ijo Jeonrang, Dongin (Kim Hyo-won) e Seoin (Sim Ui-gyeom)\n• Divisão dos Dongin: Rebelião de Jeong Yeo-rip → Namin (moderados) e Bukin (radicais)\n• Seoin: Linhagem de Yi I e Seong Hon, região Giho\n• Dongin: Linhagem de Yi Hwang, região Yeongnam\n• Características: Base académica e regional, crítica e controlo mútuos, importância da opinião pública"
+  },
+  "ch_joseon_early_05": {
+    "title": "Guerra Imjin",
+    "theory": "Em 1592, a guerra Imjin eclodiu na sequência da invasão japonesa de Joseon.\n\n• Causas: Ambições continentais de Toyotomi Hideyoshi\n• Fase inicial: Queda de Busan e Dongnae, Hanseong tomada em 20 dias\n• Marinha: Feitos de Yi Sun-sin (batalhas de Hansan-do e Myeongnyang)\n• Exércitos de justiça: Gwak Jae-u, Jo Heon, Go Gyeong-myeong, mestre Seosan, mestre Samyeong\n• Resultados: Devastação do território, diminuição da população, pilhagem cultural, desenvolvimento cultural do Japão"
+  },
+  "ch_joseon_early_06": {
+    "title": "Invasão Manchu e Teoria da Expedição para Norte",
+    "theory": "Em 1636, a invasão manchu eclodiu na sequência da invasão Qing.\n\n• Invasão Jeongmyo (1627): Invasão dos Jin posteriores, estabelecimento de relações fraternais\n• Invasão manchu (1636): Invasão Qing, resistência na fortaleza de Namhan, humilhação de Samjeondo\n• Resultados: Submissão aos Qing, príncipes Sohyeon e Bongrim como reféns, estela de Samjeondo\n• Teoria da expedição para Norte: Rei Hyojong e Song Si-yeol, projeto de punir os Qing, nunca realizado\n• Influência: Consciência anti-Qing, teoria da aprendizagem do Norte (adoção da cultura Qing)"
+  },
+  "ch_joseon_early_07": {
+    "title": "Economia do Primeiro Joseon",
+    "theory": "O primeiro Joseon estabeleceu um sistema económico centrado na agricultura.\n\n• Sistema fundiário: Lei Gwajeon (terras de Gyeonggi), lei Jikjeon (rei Sejo), sistema Gwansu-gwangeup (rei Seongjong)\n• Agricultura: Nongsa Jikseol (rei Sejong), sistemas de classificação Yeonbun 9deung e Jeonbun 6deung, rotação em 2 anos com 3 culturas\n• Comércio: Mercados Sijeon (Jongno), supervisão do Gyeongsiseo, circulação limitada do Jeohua e do Joseon Tongbo\n• Artesanato: Centrado no artesanato oficial, sistema de registo dos artesãos\n• Minas: Extração de prata e cobre, refinação do ouro e da prata"
+  },
+  "ch_joseon_early_08": {
+    "title": "Sistema de Castas e Sociedade do Primeiro Joseon",
+    "theory": "Joseon era uma sociedade de castas com Yangban, classe média, camponeses e servos.\n\n• Yangban: Funcionários civis e militares, exames e Emseo, privilégios de isenção\n• Classe média: Funcionários técnicos (intérpretes, médicos, matemáticos), filhos de concubinas\n• Camponeses: Camponeses, comerciantes, artesãos, encargos fiscais e corveia\n• Servos: Escravos (Ilcheonjeukcheon), Baekjeong, saltimbancos, etc.\n• Família: Reforço do sistema patrilinear, compilação de genealogias, difusão do sistema Jongbeop"
+  },
+  "ch_joseon_early_09": {
+    "title": "Neoconfucionismo e Educação do Primeiro Joseon",
+    "theory": "O neoconfucionismo era a ideologia de governo e a norma social de Joseon.\n\n• Neoconfucionismo: Teoria do Li e do Qi (dualismo de Yi Hwang, monismo de Yi I)\n• Instituições educativas: Seonggyungwan (educação máxima), 4 escolas (secundária), Hyanggyo (local)\n• Seowon: Instituições educativas dos Sarim, primeiro Seowon Baekundong de Ju Se-bung\n• Exames: Exames civis, militares e técnicos, Saengwon e Jinsa (exames preliminares)\n• Rituais: Garye (rituais de Zhu Xi), difusão das cerimónias de passagem, casamento, funeral e comemoração"
+  },
+  "ch_joseon_early_10": {
+    "title": "Obras Históricas e Geográficas do Primeiro Joseon",
+    "theory": "Joseon conduziu vários projetos de compilação sob a direção do estado.\n\n• Obras históricas: Anais de Joseon (UNESCO), Goryeosa e Goryeosa Jeolyo\n• Obras geográficas: Dongguk Yeoji Seungnam, Sinjeung Dongguk Yeoji Seungnam\n• Códigos jurídicos: Gyeongguk Daejeon (rei Seongjong), Daejeon Songnok e Daejeon Husongnok\n• Obras rituais: Gukjo Oryeui (de Sejong a Seongjong)\n• Obras agrícolas: Nongsa Jikseol (rei Sejong)"
+  },
+  "ch_joseon_early_11": {
+    "title": "Ciências e Técnicas do Primeiro Joseon",
+    "theory": "A era do rei Sejong conheceu uma idade de ouro das ciências e técnicas.\n\n• Astronomia: Honcheonui, Ganui, Angbuilgu, Jagyeongnu (Jang Yeong-sil)\n• Pluviómetro: Primeiro instrumento de medição de precipitação do mundo\n• Impressão: Caracteres Gyemija e Gapinja (caracteres metálicos), rei Sejong\n• Cartografia: Honil Gangni Yeokdae Gukdo Jido (mapa do mundo mais antigo existente)\n• Medicina: Hyangyak Jipseongbang (rei Sejong), Uibang Yuchwi, Dongui Bogam (rei Gwanghaegun)"
+  },
+  "ch_joseon_early_12": {
+    "title": "Artes do Primeiro Joseon",
+    "theory": "As artes do primeiro Joseon refletiam a ideologia neoconfuciana.\n\n• Pintura: An Gyeon (Sonho de viagem ao país dos pêssegos), Gang Hui-an, desenvolvimento da pintura letrada\n• Cerâmica: Buncheong → porcelana branca (séc. XVI), beleza simples e sóbria\n• Arquitetura: Arquitetura confuciana (palácios, Jongmyo), Sungnyemun, palácio Gyeongbok\n• Música: Organização da música ritual (Bak Yeon), notação Jeongganbo (rei Sejong)\n• Artesanato: Trabalho da madeira, laca com incrustação de madrepérola"
+  },
+  "ch_joseon_late_01": {
+    "title": "Degeneração da Política das Fações",
+    "theory": "No final do século XVII, a política das fações degenerou em monopólio de um só partido.\n\n• Controvérsia dos ritos fúnebres: Questão de luto após a morte do rei Hyojong, Seoin vs Namin\n• Mudança Gyeongshin (1680): Afastamento dos Namin, poder dos Seoin\n• Mudança Gisa (1689): Afastamento dos Seoin, poder dos Namin, execução de Song Si-yeol\n• Mudança Gapsul (1694): Afastamento dos Namin, poder dos Seoin (Noron e Soron)\n• Resultados: Perda da função de controlo mútuo, monopólio de um só partido"
+  },
+  "ch_joseon_late_02": {
+    "title": "Política de Equilíbrio",
+    "theory": "Os reis Yeongjo e Jeongjo implementaram a política de equilíbrio para superar os males das fações.\n\n• Rei Yeongjo: Equilíbrio moderado (emprego dos moderados), enfraquecimento do poder do Ijo Jeonrang, lei Gyunyeok\n• Rei Jeongjo: Equilíbrio rigoroso (baseado nas competências), estabelecimento do Gyujanggak, Jangyongyeong, fortaleza de Suwon Hwaseong\n• Reformas de Jeongjo: Sistema Chogyemunsin, permissão aos filhos de concubinas, abolição dos privilégios dos mercados (Sinhaetongong)\n• Limites: Crescimento das famílias poderosas, base da influência dos clãs maternos\n• Significado: Fortalecimento do poder real, renascimento cultural"
+  },
+  "ch_joseon_late_03": {
+    "title": "Política dos Poderosos Clãs",
+    "theory": "Após o rei Sunjo, os clãs maternos monopolizaram o poder na política dos poderosos clãs.\n\n• Clãs poderosos: Kim de Andong (rei Sunjo), Jo de Pungyang (reis Heonjong e Cheoljong)\n• Desordem das três administrações: Desordens no imposto fundiário, serviço militar e sistema de empréstimos de grãos\n• Revoltas camponesas: Revolta de Hong Gyeong-nae (1811), revolta camponesa Imsul (1862, Jinju)\n• Perturbações sociais: Profecias e previsões populares, revoltas frequentes\n• Resultados: Enfraquecimento do poder real, relaxamento da disciplina nacional, atraso da modernização"
+  },
+  "ch_joseon_late_04": {
+    "title": "Mudanças Económicas do Joseon Tardio",
+    "theory": "No Joseon tardio, a economia de mercado e monetária desenvolveu-se.\n\n• Agricultura: Difusão do transplante, grandes explorações (camponeses ricos), culturas comerciais (tabaco, ginseng, algodão)\n• Artesanato: Privatização, sistema de crédito (fornecimento de matérias-primas pelos comerciantes)\n• Comércio: Comerciantes privados (fora dos mercados oficiais), comerciantes Song, Man, de Gaeseong, mercados dos 5 dias\n• Moeda: Circulação nacional do Sangpyeong Tongbo (rei Sukjong)\n• Minas: Sistema de concessões mineiras (gestão privada das minas)"
+  },
+  "ch_joseon_late_05": {
+    "title": "Perturbação do Sistema de Castas no Joseon Tardio",
+    "theory": "No Joseon tardio, o sistema de castas destabilizou-se e surgiram mudanças sociais.\n\n• Classe Yangban: Aumento dos Yangban decaídos, Yangban rurais e pobres\n• Classe média: Movimentos de ascensão social, exigência de direitos aos exames, petições\n• Filhos de concubinas: Exigência de permissão, acesso aos postos de Geomseogwan no Gyujanggak\n• Classe camponesa: Ascensão social através da compra de títulos e certificados de mérito\n• Escravos: Libertação dos escravos públicos (rei Sunjo, 1801), diminuição da população servil"
+  },
+  "ch_joseon_late_06": {
+    "title": "Desenvolvimento do Silhak",
+    "theory": "Nos séculos XVII-XVIII, o Silhak (estudos práticos) que promovia reformas sociais desenvolveu-se.\n\n• Escola Gyeongse Chiyong (agrária): Yu Hyeong-won (Bangye Surok), Yi Ik (Seongho Saseol), Jeong Yak-yong (Mongmin Simseo, Gyeongse Yupyo)\n• Escola Iyong Husaeng (comercial): Yu Su-won, Bak Ji-won (Diário de Rehe), Bak Je-ga (Discurso sobre a aprendizagem do Norte), Hong Dae-yong\n• Jeong Yak-yong: Grua de elevação (fortaleza de Suwon Hwaseong), sistema Yeojeonje e Jeongjeonje, Mongmin Simseo\n• Influência: Enriquecimento nacional e fortalecimento militar, estabilidade do povo, formação da consciência moderna\n• Limites: Não adotado pela classe dirigente"
+  },
+  "ch_joseon_late_07": {
+    "title": "Desenvolvimento dos Estudos Nacionais",
+    "theory": "No Joseon tardio, o interesse pela cultura e história nacionais aumentou.\n\n• Estudos linguísticos: Sin Gyeong-jun (Hunminjeongeum Unhae), Yu Hui (Eonmunji)\n• Obras históricas: An Jeong-bok (Dongsa Gangmok), Yi Geung-ik (Yeollyeosil Gisul), Han Chi-yun (Haedong Yeoksa)\n• Obras geográficas: Jeong Sang-gi (Dongguk Jido), Kim Jeong-ho (Daedong Yeojido)\n• Enciclopédias: Yi Ik (Seongho Saseol), Yi Deok-mu (Cheongjang Gwanjeon Seo)\n• Características: Pesquisa empírica e objetiva, exploração da identidade nacional"
+  },
+  "ch_joseon_late_08": {
+    "title": "Desenvolvimento da Cultura Popular",
+    "theory": "No Joseon tardio, a cultura popular desenvolveu-se graças à melhoria económica das classes inferiores.\n\n• Literatura: Romances em Hangeul (Hong Gil-dong, Chunhyangjeon), Pansori, Saseol Sijo\n• Pintura: Pinturas de género (Kim Hong-do, Sin Yun-bok), pinturas populares, paisagens realistas (Jeong Seon)\n• Espetáculos: Danças mascaradas (máscaras de Bongsan), Pansori, marionetas Kkokdu\n• Características: Sátira dos Yangban, crítica social, humor\n• Kim Jeong-hui: Caligrafia Chusa, Sehan-do (pintura letrada)"
+  },
+  "ch_joseon_late_09": {
+    "title": "Ciências e Técnicas do Joseon Tardio",
+    "theory": "No Joseon tardio, as ciências e técnicas desenvolveram-se sob a influência do Silhak.\n\n• Cartografia: Jeong Sang-gi (Dongguk Jido, escala 100 li), Kim Jeong-ho (Daedong Yeojido, gravura em madeira)\n• Medicina: Heo Jun (Dongui Bogam), Jeong Yak-yong (Magwa Hoetong)\n• Astronomia: Hong Dae-yong (teoria da rotação terrestre), adoção da astronomia ocidental\n• Agricultura: Bak Se-dang (Saekgyeong), inovações técnicas agrícolas\n• Técnicas: Grua de elevação (Jeong Yak-yong), roda hidráulica (promovida pela Escola da Aprendizagem do Norte)"
+  },
+  "ch_joseon_late_10": {
+    "title": "Aparecimento de Novas Religiões",
+    "theory": "No Joseon tardio, novas religiões e pensamentos surgiram.\n\n• Catolicismo: Introduzido no séc. XVII como estudos ocidentais, batismo de Yi Seung-hun (1784), perseguições Sinhae e Gihae\n• Donghak: Fundado em 1860 por Choe Je-u, Innaecheon (o homem é o céu), anti-feudalismo e anti-imperialismo\n• Pensamentos proféticos: Jeongamrok, profecias e previsões populares\n• Fé em Maitreya: Esperança de salvação do povo\n• Características: Crítica das contradições sociais, pensamento igualitário"
+  },
+  "ch_modern_01": {
+    "title": "Reformas do Daewongun",
+    "theory": "O Daewongun Heungseon conduziu reformas para fortalecer o poder real e estabilizar o povo.\n\n• Fortalecimento do poder real: Reconstrução do palácio Gyeongbok, abolição do Bibyeonsa, restauração do Samgunbu\n• Fim da política dos clãs: Afastamento do clã Kim de Andong, emprego de talentos\n• Reformas das três administrações: Hopoje (imposto militar para os Yangban), Sachangje (substituição do empréstimo de grãos)\n• Abolição dos Seowon: Apenas 47 conservados, abolição dos privilégios de isenção\n• Recusa de relações comerciais: Expedição francesa (1866), expedição americana (1871), estelas de resistência"
+  },
+  "ch_modern_02": {
+    "title": "Abertura e Tratados Desiguais",
+    "theory": "Em 1876, Joseon abriu-se com o tratado de Ganghwa.\n\n• Incidente do Unyo (1875): Navio de guerra japonês violando as águas de Ganghwa\n• Tratado de Ganghwa (1876): Primeiro tratado moderno, tratado desigual\n  - Abertura de Busan, Wonsan, Incheon, extraterritorialidade, direitos de levantamento costeiro\n• Tratado de Shufeldt (1882): Cláusula da nação mais favorecida, mediação\n• Tratados posteriores com Grã-Bretanha, Alemanha, Rússia e França\n• Impacto: Oportunidade de modernização, início da exploração económica"
+  },
+  "ch_modern_03": {
+    "title": "Movimento de Modernização e Resistência Conservadora",
+    "theory": "Após a abertura, reformadores e conservadores confrontaram-se.\n\n• Reformadores: Abertura, adoção da cultura ocidental, modernização\n  - Reformadores moderados (Dongdo Seogi): Kim Hong-jip, Eo Yun-jung\n  - Reformadores radicais (civilização): Kim Ok-gyun, Bak Yeong-hyo, Hong Yeong-sik\n• Resistência conservadora: Defesa do confucionismo, rejeição das potências estrangeiras\n  - Yi Hang-no, Gi Jeong-jin, Choe Ik-hyeon (teoria de unidade do Japão e do Ocidente)\n• Tongni Gimua-mun: Órgão de promoção das políticas de modernização"
+  },
+  "ch_modern_04": {
+    "title": "Motim Imo e Golpe de Estado Gapsin",
+    "theory": "Nos anos 1880, Joseon atravessou um período de convulsões políticas.\n\n• Motim Imo (1882): Revolta dos soldados tradicionais, regresso ao poder do Daewongun\n  - Intervenção Qing, rapto do Daewongun para a China, tratado de Jemulpo\n• Golpe de Estado Gapsin (1884): Golpe dos reformadores radicais, 14 artigos de reforma\n  - 3 dias no poder, fracasso por intervenção Qing, exílio de Kim Ok-gyun\n• Resultados: Reforço da ingerência Qing, teoria da neutralização de Joseon\n• Tratados de Hanseong e Tianjin: Equilíbrio das forças Japão-Qing"
+  },
+  "ch_modern_05": {
+    "title": "Movimento Camponês Donghak",
+    "theory": "Em 1894, os camponeses Donghak conduziram um movimento anti-feudal e anti-imperialista.\n\n• Contexto: Desordem das três administrações, exploração económica japonesa, movimento de reabilitação do fundador\n• Primeira revolta: Revolta de Gobu (Jeon Bong-jun), vitórias de Hwangtohyeon e Hwangnyongchon\n• Armistício de Jeonju: 12 artigos de reforma, estabelecimento dos Jipgangso\n• Segunda revolta: Resistência à ocupação japonesa do palácio Gyeongbok, derrota em Ugeumchi\n• Significado: Anti-feudalismo e anti-imperialismo, influência nas reformas Gabo"
+  },
+  "ch_modern_06": {
+    "title": "Reformas Gabo e Eulmi",
+    "theory": "De 1894 a 1896, foram conduzidas reformas modernas.\n\n• Reformas Gabo (1894): Gunguk Gimucheo, abolição dos exames, abolição do sistema de castas\n  - Padrão prata, unificação de pesos e medidas, estabelecimento de tribunais\n• Reformas Eulmi (1895): Calendário solar, decreto sobre o corte de cabelo, criação de escolas primárias\n• Incidente Eulmi (1895): Assassinato da rainha Myeongseong pelo Japão\n• Refúgio na legação russa (1896): Fuga do rei Gojong para a legação russa\n• Limites: Conduzidas pelo Japão, resistência popular (exército de justiça Eulmi)"
+  },
+  "ch_modern_07": {
+    "title": "Clube da Independência e Império Coreano",
+    "theory": "No final dos anos 1890, desenvolveram-se movimentos pela independência e modernização.\n\n• Clube da Independência (1896): Seo Jae-pil, jornal Dongnip Sinmun, construção da Porta da Independência\n  - Assembleia popular Manmin Gongdonghoe, movimento parlamentar, 6 artigos Heonui\n• Império Coreano (1897): Coroação do rei Gojong como imperador, reformas Gwangmu\n  - Gubonsincha (modernização baseada na tradição)\n  - Cadastro, emissão de títulos de propriedade, estabelecimento do Wonsubu\n• Limites: Reformas conservadoras, agravamento da exploração estrangeira"
+  },
+  "ch_modern_08": {
+    "title": "Movimento dos Exércitos de Justiça Anti-Japoneses",
+    "theory": "Após a abertura, movimentos de exércitos de justiça resistiram à invasão japonesa.\n\n• Exército de justiça Eulmi (1895): Resistência ao decreto sobre o cabelo e ao assassinato da rainha, liderado pelos letrados\n  - Yu In-seok, Yi So-eung e outros\n• Exército de justiça Eulsa (1905): Resistência ao tratado Eulsa, Min Jong-sik, Choe Ik-hyeon\n• Exército de justiça Jeongmi (1907): Resistência à dissolução do exército, adesão dos soldados dissolvidos\n  - Exército das 13 províncias (Yi In-yeong), operação de assalto a Seul\n• Limites: Enfraquecido pela campanha de pacificação japonesa no Sul (1909)"
+  },
+  "ch_modern_09": {
+    "title": "Movimento de Reforma Patriótico",
+    "theory": "Um movimento visando recuperar a soberania através do desenvolvimento das capacidades nacionais desenvolveu-se.\n\n• Organizações: Associação Boan (oposição às concessões de terras incultas), Heonjeong Yeongu-hoe, Daehan Jaganghoe\n• Sinminhoe (1907): An Chang-ho, Yang Gi-tak, sociedade secreta, objetivo republicano\n  - Escolas Osan e Daeseong, livraria Taegeuk, empresa Jagi\n• Educação: Criação de escolas privadas, educação nacional\n• Imprensa: Hwangseong Sinmun, Daehan Maeil Sinbo (Bethell), movimento de reembolso da dívida nacional\n• Limites: Ênfase no desenvolvimento das capacidades, repressão japonesa"
+  },
+  "ch_modern_10": {
+    "title": "Processo de Perda de Soberania",
+    "theory": "O Japão usurpou progressivamente a soberania de Joseon.\n\n• Tratado Eulsa (1905): Privação dos direitos diplomáticos, estabelecimento da Residência Geral (Ito Hirobumi)\n• Emissários secretos a Haia (1907): Yi Jun, Yi Sang-seol, Yi Wi-jong, abdicação forçada de Gojong\n• Tratado Jeongmi 7 artigos (1907): Privação dos assuntos internos, dissolução do exército\n• Memorando Giyu (1909): Privação dos direitos judiciais e de polícia\n• Anexação (29 de agosto de 1910): Tratado de anexação Japão-Coreia, perda de soberania\n• Resistência: Assassinato de Ito Hirobumi por An Jung-geun (1909)"
+  },
+  "ch_japanese_occupation_01": {
+    "title": "Governo Militar dos Anos 1910",
+    "theory": "Nos anos 1910, o Japão exerceu um governo militar com a gendarmaria.\n\n• Governo Geral da Coreia: Governador geral (general do exército ou da marinha), controlo legislativo, judicial e executivo\n• Polícia de gendarmaria: Poder de julgamento sumário (punição corporal), vigilância dos coreanos\n• Inquérito cadastral (1910-1918): Sistema de declaração, confiscação das terras não declaradas\n  - Estabelecimento da Companhia Oriental de Desenvolvimento, aumento dos proprietários japoneses\n• Lei sobre as sociedades: Sistema de autorização, repressão do capital nacional\n• Educação: Educação de embrutecimento, restrição do ensino do coreano"
+  },
+  "ch_japanese_occupation_02": {
+    "title": "Governo Cultural dos Anos 1920",
+    "theory": "Após o Movimento de 1 de Março, o Japão implementou um governo cultural (política de apaziguamento enganosa).\n\n• Polícia ordinária: Abolição da gendarmaria, na realidade aumento dos efetivos e equipamentos policiais\n• Imprensa e reuniões: Autorização do Chosun Ilbo e Dong-a Ilbo (com censura), atividades da Sociedade da Língua Coreana\n• Educação: Autorização de instituições universitárias (Universidade Imperial de Keijo, 1924), expansão das escolas primárias\n• Plano de aumento da produção de arroz: Aumento da produção para exportação para o Japão, escassez alimentar na Coreia\n• Limites: Formação de colaboracionistas, divisão da nação"
+  },
+  "ch_japanese_occupation_03": {
+    "title": "Política de Assimilação dos Anos 1930-40",
+    "theory": "A partir dos anos 1930, o Japão impôs uma política de assimilação para apoiar o esforço de guerra.\n\n• Japonização: Juramento do súbdito imperial, culto forçado ao santuário xintoísta, reverência ao palácio imperial\n• Destruição da cultura nacional: Proibição da língua coreana, repressão da Sociedade da Língua Coreana (1942)\n• Mudança de nome japonês (1940): Imposição de nomes japoneses\n• Exploração humana: Sistema de voluntariado → conscrição, voluntários estudantes, trabalho forçado\n• Exploração das mulheres: Mobilização forçada como \"mulheres de conforto\" do exército japonês\n• Exploração material: Sistema de requisição, confiscação forçada dos metais"
+  },
+  "ch_japanese_occupation_04": {
+    "title": "Movimento de 1 de Março",
+    "theory": "O Movimento de 1 de Março de 1919 foi o maior movimento nacional sob a ocupação japonesa.\n\n• Contexto: Princípio de autodeterminação de Wilson, Declaração de Independência de 8 de fevereiro (Tóquio), rumores de envenenamento de Gojong\n• Desenvolvimento: 1 de março no parque Tapgol, leitura da Declaração de Independência, manifestações de Mansé\n  - De estudantes e religiosos a todas as classes, expansão nacional depois internacional (Gando, Primorie)\n• Repressão japonesa: Massacre de Jeam-ri, incêndio da fortaleza de Suwon\n• Significado: Estabelecimento do Governo Provisório, passagem da não-violência à luta armada\n• Influência: Movimento de 4 de maio na China, movimento não-violento na Índia"
+  },
+  "ch_japanese_occupation_05": {
+    "title": "Governo Provisório da República da Coreia",
+    "theory": "Em 1919, o Governo Provisório da República da Coreia foi estabelecido em Xangai.\n\n• Estabelecimento: Xangai (governo unificado), regime democrático republicano, presidente Yi Seung-man\n• Atividades: Sistema Yeontongje e Gabinete de Transportes, jornal Dongnip Sinmun, gabinete de compilação histórica\n• Crise: Destituição de Yi Seung-man, divisão no Congresso Nacional dos Representantes (1923)\n• Direção de Kim Gu: Corpo Patriótico Coreano, atentado de Yun Bong-gil (1932)\n• Transferência para Chongqing (1940): Criação do Exército de Libertação da Coreia, declaração de guerra ao Japão\n• Significado: Centro do movimento de independência, tradição democrática republicana"
+  },
+  "ch_japanese_occupation_06": {
+    "title": "Luta Armada e Corpo Patriótico Coreano",
+    "theory": "A partir dos anos 1920, desenvolveram-se ações armadas individuais.\n\n• Corpo dos Justos (1919): Kim Won-bong, Sin Chae-ho (Declaração da Revolução Coreana), luta violenta\n  - Bak Jae-hyeok (delegacia de Busan), Kim Ik-sang (Governo Geral), Na Seok-ju (Companhia Oriental)\n• Corpo Patriótico Coreano (1931): Organizado por Kim Gu, operações especiais\n  - Yi Bong-chang: Atentado à bomba contra o imperador japonês (1932, falhado)\n  - Yun Bong-gil: Atentado no parque Hongkou de Xangai (1932), eliminação de generais japoneses\n• Significado: Demonstração da vontade de independência, catalisador do apoio chinês"
+  },
+  "ch_japanese_occupation_07": {
+    "title": "Guerra de Independência Armada",
+    "theory": "A partir dos anos 1920, uma guerra de independência armada desenvolveu-se na Manchúria e na China.\n\n• Batalha de Bongodong (1920): Hong Beom-do e o Exército de Independência Coreano, grande vitória sobre o exército japonês\n• Vitória de Cheongsan-ri (1920): Kim Jwa-jin e a Administração Militar do Norte, maior vitória\n• Massacre de Gando (1920): Massacre de coreanos em Gando pelo exército japonês\n• Incidente de Svobodny (1921): Sacrifício de combatentes independentistas pelo Exército Vermelho soviético\n• Unificação dos 3 governos: Chamui-bu, Jeongui-bu, Sinmin-bu → Gukmin-bu, Hyeoksin Uihoe\n• Exército de Libertação da Coreia (1940): Sob o Governo Provisório, preparação da operação de infiltração"
+  },
+  "ch_japanese_occupation_08": {
+    "title": "Movimentos Sociais e Económicos Nacionais",
+    "theory": "Sob a ocupação japonesa, desenvolveram-se vários movimentos sociais e económicos.\n\n• Movimento pelos produtos nacionais (1920): Jo Man-sik, uso dos produtos locais, \"A minha vida com os meus produtos\"\n• Movimento por uma universidade nacional (1922): Yi Sang-jae, recolha de fundos, obstrução japonesa\n• Movimento camponês: Conflitos de parceria (conflito de parceria de Amtae-do)\n• Movimento operário: Greve geral de Wonsan (1929), Federação Geral do Trabalho da Coreia\n• Singanhoe (1927): Partido único nacional, coligação esquerda-direita, apoio ao movimento estudantil de Gwangju"
+  },
+  "ch_japanese_occupation_09": {
+    "title": "Movimento de Preservação da Cultura Nacional",
+    "theory": "Sob a ocupação japonesa, continuaram esforços para preservar a cultura e identidade nacionais.\n\n• Estudos linguísticos: Sociedade da Língua Coreana (Regras de Ortografia Unificadas do Hangeul, língua padrão), instituição do Dia do Hangeul\n• Estudos históricos: Bak Eun-sik (História Dolorosa da Coreia), Sin Chae-ho (História Antiga da Coreia), historiografia nacionalista\n• Movimento de estudos coreanos: Jeong In-bo (estudos coreanos), Mun Il-pyeong, An Jae-hong\n• Educação: Escolas nacionais privadas (Osan, Daeseong), movimento de escolas noturnas\n• Religião: Cheondogyo, Daejonggyo, Won-budismo, despertar da consciência nacional"
+  },
+  "ch_japanese_occupation_10": {
+    "title": "Atividades dos Coreanos no Estrangeiro",
+    "theory": "Sob a ocupação japonesa, os coreanos no estrangeiro também participaram no movimento de independência.\n\n• Manchúria: Seogando (Gyeonghaksa, Escola Militar Sinheung), Bukgando (Escola Myeongdong, massacre de Gando)\n• Primorie: Gwoneopoe, Governo Militar de Libertação da Coreia, incidente de Svobodny\n• América: Associação Nacional Coreana, Bak Yong-man (treino militar), Yi Seung-man (atividades diplomáticas)\n• Havai: Trabalho nas plantações de cana-de-açúcar, apoio financeiro à independência\n• Japão: Declaração de Independência de 8 de fevereiro, movimento estudantil"
+  },
+  "ch_contemporary_01": {
+    "title": "Libertação e Divisão",
+    "theory": "A 15 de agosto de 1945, veio a libertação, mas a península coreana foi dividida.\n\n• Libertação: Rendição incondicional do Japão, fruto do movimento de independência\n• Divisão: Ocupação americana e soviética dividida no paralelo 38\n• Comité Preparatório para a Fundação do Estado: Yeo Un-hyeong, proclamação da República Popular (não reconhecida pelo governo militar americano)\n• Conferência dos Ministros dos Negócios Estrangeiros de Moscovo (1945): Estabelecimento de um governo provisório, tutela de 5 anos\n  - Pró-tutela (esquerda) vs anti-tutela (direita)\n• Comissão Conjunta Americano-Soviética: Fracasso, transferência para a ONU"
+  },
+  "ch_contemporary_02": {
+    "title": "Estabelecimento do Governo da República da Coreia",
+    "theory": "Em 1948, foi estabelecido o governo da República da Coreia.\n\n• Resolução da ONU: Eleições gerais proporcionais à população, recusa soviética\n• Negociações Norte-Sul (1948): Kim Gu, Kim Gyu-sik, visita a Pyongyang, fracasso\n• Eleições gerais de 10 de maio (1948): Sob supervisão da ONU, formação da Assembleia Constituinte\n• Constituição fundadora: República democrática, sistema presidencial misto com elementos parlamentares\n• Estabelecimento do governo (15 de agosto de 1948): Yi Seung-man primeiro presidente\n• Reconhecimento da ONU: Único governo legítimo da península coreana"
+  },
+  "ch_contemporary_03": {
+    "title": "Guerra da Coreia",
+    "theory": "A 25 de junho de 1950, a guerra eclodiu na sequência da invasão norte-coreana.\n\n• Contexto: Declaração da linha Acheson, preparativos de guerra norte-coreanos\n• Desenvolvimento: Invasão norte-coreana → linha de defesa do Nakdong → desembarque de Incheon → reconquista de Seul\n  → avanço para o Yalu → intervenção chinesa → retirada de 4 de janeiro → impasse no paralelo 38\n• Armistício (27 de julho de 1953): Panmunjeom, estado de armistício atual\n• Perdas: Milhões de vítimas, 10 milhões de famílias separadas, devastação do território\n• Impacto: Reforço da ideologia anticomunista, consolidação da divisão"
+  },
+  "ch_contemporary_04": {
+    "title": "Governo de Yi Seung-man e Revolução de 19 de Abril",
+    "theory": "Contra o longo reinado do governo de Yi Seung-man, eclodiu a Revolução de 19 de Abril.\n\n• Governo Yi Seung-man: Política anticomunista, emenda por extração (1952), emenda dos quatro arredondados (1954)\n• Eleições fraudulentas de 15 de março (1960): Fraude eleitoral do Partido Liberal para presidência e vice-presidência\n• Revolução de 19 de Abril: Manifestações de Masan → descoberta do corpo de Kim Ju-yeol → extensão nacional\n  - Exigências de democratização de estudantes e cidadãos, lei marcial, manifestação dos professores\n• Resultado: Demissão de Yi Seung-man, governo provisório de Heo Jeong, Segunda República (gabinete Chang Myeon)\n• Significado: Movimento de democratização de estudantes e cidadãos, primeira revolução democrática"
+  },
+  "ch_contemporary_05": {
+    "title": "Governo de Park Chung-hee",
+    "theory": "Em 1961, o governo de Park Chung-hee foi estabelecido através de um golpe de estado militar.\n\n• Golpe de Estado de 16 de maio (1961): Tomada do poder pelo exército, Conselho Supremo para a Reconstrução Nacional\n• Terceira República (1963): Regime presidencial, Planos Quinquenais de Desenvolvimento Económico\n• Acordo Coreia-Japão (1965): Normalização das relações, manifestações de 3 de junho (oposição)\n• Regime Yushin (1972): Yushin de outubro, poder de decretos de emergência, Conferência Nacional para a Unificação\n• Revolta democrática de Busan-Masan (1979): Manifestações em Busan e Masan\n• Incidente de 26 de outubro (1979): Assassinato de Park Chung-hee"
+  },
+  "ch_contemporary_06": {
+    "title": "Governo de Chun Doo-hwan e Movimento de Democratização",
+    "theory": "Em 1980, o novo grupo militar de Chun Doo-hwan tomou o poder.\n\n• Incidente de 12 de dezembro (1979): Tomada do comando militar pelo novo grupo de Chun Doo-hwan\n• Movimento de Democratização de 18 de maio (1980): Gwangju, resistência à extensão da lei marcial, organização de milícias cidadãs\n  - Repressão militar pelo novo grupo, centenas de vítimas\n• Quinta República: Presidente eleito indiretamente, mandato único de 7 anos\n• Revolta de Junho (1987): Exigências de abolição da constituição Hoheon e de eleição direta, sacrifício de Lee Han-yeol\n• Declaração de 29 de junho: Aceitação da emenda para eleição direta, Roh Tae-woo\n• Significado: Ponto de viragem decisivo para a democratização"
+  },
+  "ch_contemporary_07": {
+    "title": "Desenvolvimento da Democracia",
+    "theory": "Desde 1987, a democracia desenvolveu-se com alternâncias pacíficas do poder.\n\n• Sexta República (1988): Eleição presidencial direta, mandato único de 5 anos\n• Governo Roh Tae-woo: Diplomacia do Norte, relações com URSS e China, adesão simultânea das duas Coreias à ONU (1991)\n• Governo Kim Young-sam: Governo civil, sistema de nomes reais bancários, retificação histórica, crise do FMI\n• Governo Kim Dae-jung: Primeira alternância pacífica, cimeira intercoreana (2000), Declaração de 15 de junho\n• Desde então: Eleições democráticas, progresso dos direitos humanos e da liberdade de imprensa"
+  },
+  "ch_contemporary_08": {
+    "title": "Desenvolvimento Económico e Mudanças Sociais",
+    "theory": "A República da Coreia experimentou um rápido crescimento económico e mudanças sociais.\n\n• Desenvolvimento económico: 1º a 4º Planos Quinquenais (1962-1981)\n  - Da indústria ligeira à indústria pesada e química, crescimento impulsionado pelas exportações\n• Milagre do Han: De beneficiário a doador de ajuda, adesão à OCDE (1996)\n• Crise do FMI (1997): Crise cambial, reestruturação, superada\n• Mudanças sociais: Urbanização, família nuclear, envelhecimento, potência informática\n• Cultura: Hallyu (K-pop, dramas, cinema), ressonância mundial"
+  },
+  "ch_contemporary_09": {
+    "title": "Evolução da Política de Reunificação",
+    "theory": "A política de reunificação do governo sul-coreano evoluiu ao longo do tempo.\n\n• Yi Seung-man: Teoria da reunificação marchando para Norte (reunificação pela força)\n• Park Chung-hee: Declaração Conjunta de 4 de julho (1972), autonomia, paz, grande unidade nacional\n• Chun Doo-hwan: Reunião das famílias separadas (1985)\n• Roh Tae-woo: Diplomacia do Norte, Acordo Fundamental Intercoreano (1991)\n• Kim Dae-jung: Política do Raio de Sol, turismo no monte Geumgang, primeira cimeira intercoreana (2000)\n• Desde então: Zona industrial de Gaeseong, 2ª e 3ª cimeiras"
+  },
+  "ch_contemporary_10": {
+    "title": "Evolução da Coreia do Norte e Relações Intercoreanas",
+    "theory": "Desde a divisão, o regime norte-coreano e as relações intercoreanas evoluíram.\n\n• Regime norte-coreano: Kim Il-sung → Kim Jong-il → Kim Jong-un, sucessão em 3 gerações\n  - Ideologia Juche, política do Songun (prioridade militar), desenvolvimento nuclear\n• Relações intercoreanas: Confronto (1950-1970) → Diálogo (1970-) → Reconciliação e cooperação (1990-)\n  - Alternância de tensões e distensão\n• Eventos importantes: Atentado de Rangum (1983), Cheonan (2010), Yeonpyeong (2010)\n• Intercâmbios intercoreanos: Reuniões das famílias separadas, turismo no monte Geumgang, zona industrial de Gaeseong\n• Desafios: Estabelecimento da paz, preparação para a reunificação, reconciliação nacional"
+  }
+}

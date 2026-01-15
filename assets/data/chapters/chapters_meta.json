@@ -1,0 +1,918 @@
+{
+  "chapters": [
+    {
+      "id": "ch_prehistoric_01",
+      "era_id": "prehistoric",
+      "order": 1,
+      "question_count": 8,
+      "images": ["handaxe_acheulean", "chopper_paleolithic", "geumgul_cave"]
+    },
+    {
+      "id": "ch_prehistoric_02",
+      "era_id": "prehistoric",
+      "order": 2,
+      "question_count": 8,
+      "images": ["comb_pottery", "pit_house", "spindle_whorl", "shell_mound"]
+    },
+    {
+      "id": "ch_prehistoric_03",
+      "era_id": "prehistoric",
+      "order": 3,
+      "question_count": 8,
+      "images": [
+        "plain_pottery",
+        "misongni_pottery",
+        "mandolin_dagger",
+        "coarse_mirror",
+        "dolmen_table",
+        "dolmen_baduk",
+        "crescent_knife"
+      ]
+    },
+    {
+      "id": "ch_prehistoric_04",
+      "era_id": "prehistoric",
+      "order": 4,
+      "question_count": 8,
+      "images": ["slender_dagger", "fine_mirror", "dahori_iron_tools", "mingdao_coin"]
+    },
+    {
+      "id": "ch_gojoseon_01",
+      "era_id": "gojoseon",
+      "order": 1,
+      "question_count": 8,
+      "images": ["dangun_painting", "mandolin_dagger", "dolmen_table", "hwasun_bronze_collection", "nonggyeongmun_bronze"]
+    },
+    {
+      "id": "ch_gojoseon_02",
+      "era_id": "gojoseon",
+      "order": 2,
+      "question_count": 8,
+      "images": ["gojoseon_territory_map"]
+    },
+    {
+      "id": "ch_gojoseon_03",
+      "era_id": "gojoseon",
+      "order": 3,
+      "question_count": 8,
+      "images": ["buyeo_pottery", "dahori_ironware", "paljuryeong"]
+    },
+    {
+      "id": "ch_three_kingdoms_01",
+      "era_id": "three_kingdoms",
+      "order": 1,
+      "question_count": 8,
+      "images": ["goguryeo_fortress", "goguryeo_gaema_mural"]
+    },
+    {
+      "id": "ch_three_kingdoms_02",
+      "era_id": "three_kingdoms",
+      "order": 2,
+      "question_count": 8,
+      "images": ["gwanggaeto_stele", "goguryeo_territory_map", "jangsu_tomb"]
+    },
+    {
+      "id": "ch_three_kingdoms_03",
+      "era_id": "three_kingdoms",
+      "order": 3,
+      "question_count": 8,
+      "images": ["eulji_mundeok", "salsu_battle_painting", "ansi_battle_painting", "cheolli_jangseong_map"]
+    },
+    {
+      "id": "ch_three_kingdoms_04",
+      "era_id": "three_kingdoms",
+      "order": 4,
+      "question_count": 8,
+      "images": ["chilji_sword", "baekje_stone_beast", "baekje_brick"]
+    },
+    {
+      "id": "ch_three_kingdoms_05",
+      "era_id": "three_kingdoms",
+      "order": 5,
+      "question_count": 8,
+      "images": [
+        "muryeong_tomb",
+        "muryeong_crown_ornament",
+        "baekje_territory_map"
+      ]
+    },
+    {
+      "id": "ch_three_kingdoms_06",
+      "era_id": "three_kingdoms",
+      "order": 6,
+      "question_count": 8,
+      "images": ["gyebaek", "baekgang_battle_map", "sabi_fortress"]
+    },
+    {
+      "id": "ch_three_kingdoms_07",
+      "era_id": "three_kingdoms",
+      "order": 7,
+      "question_count": 8,
+      "images": [
+        "silla_gold_crown_geumgwan",
+        "jinheung_stele_bukhansan",
+        "jinheung_stele_changnyeong",
+        "hwarang_painting"
+      ]
+    },
+    {
+      "id": "ch_three_kingdoms_08",
+      "era_id": "three_kingdoms",
+      "order": 8,
+      "question_count": 8,
+      "images": [
+        "cheomseongdae",
+        "hwangnyongsa_9story",
+        "kim_yusin",
+        "unified_silla_territory_map"
+      ]
+    },
+    {
+      "id": "ch_three_kingdoms_09",
+      "era_id": "three_kingdoms",
+      "order": 9,
+      "question_count": 8,
+      "images": ["gaya_iron_armor", "gayageum", "gaya_crown", "gaya_pottery"]
+    },
+    {
+      "id": "ch_three_kingdoms_10",
+      "era_id": "three_kingdoms",
+      "order": 10,
+      "question_count": 8,
+      "images": [
+        "ichadon_stele",
+        "baekje_buddha_seosan",
+        "silla_buddha_pensive",
+        "goguryeo_buddha"
+      ]
+    },
+    {
+      "id": "ch_three_kingdoms_11",
+      "era_id": "three_kingdoms",
+      "order": 11,
+      "question_count": 8,
+      "images": [
+        "goguryeo_tomb_dancers",
+        "goguryeo_tomb_hunting",
+        "goguryeo_tomb_wrestling",
+        "goguryeo_tomb_sasindo",
+        "cheonmachong_painting",
+        "silla_gold_crown_hwangnam"
+      ]
+    },
+    {
+      "id": "ch_three_kingdoms_12",
+      "era_id": "three_kingdoms",
+      "order": 12,
+      "question_count": 8,
+      "images": [
+        "baekje_incense_burner",
+        "jeongnimsaji_pagoda",
+        "mireuksa_pagoda",
+        "baekje_roof_tile"
+      ]
+    },
+    {
+      "id": "ch_north_south_states_01",
+      "era_id": "north_south_states",
+      "order": 1,
+      "question_count": 8,
+      "images": ["munmu_tomb", "9ju_5sogyeong_map", "minjeong_document"]
+    },
+    {
+      "id": "ch_north_south_states_02",
+      "era_id": "north_south_states",
+      "order": 2,
+      "question_count": 8,
+      "images": ["cheonghaejen_map", "jangbogo_portrait"]
+    },
+    {
+      "id": "ch_north_south_states_03",
+      "era_id": "north_south_states",
+      "order": 3,
+      "question_count": 8,
+      "images": ["wang_ocheonchukguk_jeon"]
+    },
+    {
+      "id": "ch_north_south_states_04",
+      "era_id": "north_south_states",
+      "order": 4,
+      "question_count": 8,
+      "images": [
+        "wonhyo_portrait",
+        "uisang_portrait",
+        "bulguksa_temple",
+        "seokguram_buddha",
+        "dabotap",
+        "seokgatap",
+        "mugujeonggwang_darani",
+        "emille_bell"
+      ]
+    },
+    {
+      "id": "ch_north_south_states_05",
+      "era_id": "north_south_states",
+      "order": 5,
+      "question_count": 8,
+      "images": [
+        "daejoyeong_portrait",
+        "balhae_5gyeong_map",
+        "balhae_territory_map",
+        "sanggyeong_ruins",
+        "balhae_stone_lantern"
+      ]
+    },
+    {
+      "id": "ch_north_south_states_06",
+      "era_id": "north_south_states",
+      "order": 6,
+      "question_count": 8,
+      "images": ["jeonghyo_princess_mural", "balhae_dragon_stone", "balhae_buddha_twin", "balhae_ondol"]
+    },
+    {
+      "id": "ch_goryeo_01",
+      "era_id": "goryeo",
+      "order": 1,
+      "question_count": 12,
+      "images": [
+        "wanggeon_portrait",
+        "gwangjong",
+        "5do_yangge_map"
+      ]
+    },
+    {
+      "id": "ch_goryeo_02",
+      "era_id": "goryeo",
+      "order": 2,
+      "question_count": 12,
+      "images": [
+        "ajipdo_painting",
+        "seohui_portrait",
+        "gangdong_6ju_map",
+        "ganggamchan_portrait",
+        "guju_battle",
+        "byeolmuban",
+        "myocheong_rebellion_map"
+      ]
+    },
+    {
+      "id": "ch_goryeo_03",
+      "era_id": "goryeo",
+      "order": 3,
+      "question_count": 12,
+      "images": ["musin_regime_illustration", "choi_chungheon", "yi_gyubo_portrait"]
+    },
+    {
+      "id": "ch_goryeo_04",
+      "era_id": "goryeo",
+      "order": 4,
+      "question_count": 12,
+      "images": [
+        "tripitaka_koreana",
+        "ganghwa_palace",
+        "cheoin_battle_painting",
+        "sambyeolcho_route_map"
+      ]
+    },
+    {
+      "id": "ch_goryeo_05",
+      "era_id": "goryeo",
+      "order": 5,
+      "question_count": 12,
+      "images": [
+        "jokduri_artifact",
+        "yuan_interference_map",
+        "gongmin_noguk_portrait"
+      ]
+    },
+    {
+      "id": "ch_goryeo_06",
+      "era_id": "goryeo",
+      "order": 6,
+      "question_count": 12,
+      "images": [
+        "gongmin_king_portrait",
+        "ssangseong_recovery_map"
+      ]
+    },
+    {
+      "id": "ch_goryeo_07",
+      "era_id": "goryeo",
+      "order": 7,
+      "question_count": 12,
+      "images": ["byeokrando_map", "goryeo_coin_eunbyeong"]
+    },
+    {
+      "id": "ch_goryeo_08",
+      "era_id": "goryeo",
+      "order": 8,
+      "question_count": 12,
+      "images": ["manjeok_rebellion"]
+    },
+    {
+      "id": "ch_goryeo_09",
+      "era_id": "goryeo",
+      "order": 9,
+      "question_count": 12,
+      "images": ["chojobon_daejanggyeong", "tripitaka_koreana", "palgwanhoe_painting", "jinul_portrait"]
+    },
+    {
+      "id": "ch_goryeo_10",
+      "era_id": "goryeo",
+      "order": 10,
+      "question_count": 12,
+      "images": ["samguk_sagi", "samguk_yusa", "jewang_ungi"]
+    },
+    {
+      "id": "ch_goryeo_11",
+      "era_id": "goryeo",
+      "order": 11,
+      "question_count": 12,
+      "images": [
+        "jikji",
+        "sanggam_celadon_crane",
+        "hwatong",
+        "cheomseongdae_goryeo"
+      ]
+    },
+    {
+      "id": "ch_goryeo_12",
+      "era_id": "goryeo",
+      "order": 12,
+      "question_count": 12,
+      "images": [
+        "celadon_openwork_incense_burner",
+        "goryeo_buddhist_painting",
+        "buseoksa_muryangsujeon",
+        "woljeongsa_pagoda",
+        "gyeongcheonsa_pagoda"
+      ]
+    },
+    {
+      "id": "ch_joseon_early_01",
+      "era_id": "joseon_early",
+      "order": 1,
+      "question_count": 10,
+      "images": [
+        "taejo_portrait",
+        "taejong_portrait",
+        "gyeongbokgung"
+      ]
+    },
+    {
+      "id": "ch_joseon_early_02",
+      "era_id": "joseon_early",
+      "order": 2,
+      "question_count": 10,
+      "images": [
+        "sejong_portrait",
+        "hunminjeongeum",
+        "jiphyeonjeon",
+        "sejo_portrait",
+        "gyeongkuk_daejeon"
+      ]
+    },
+    {
+      "id": "ch_joseon_early_03",
+      "era_id": "joseon_early",
+      "order": 3,
+      "question_count": 10,
+      "images": ["sayuksin_painting", "jo_gwangjo_portrait"]
+    },
+    {
+      "id": "ch_joseon_early_04",
+      "era_id": "joseon_early",
+      "order": 4,
+      "question_count": 10,
+      "images": ["yi_hwang_portrait", "yi_i_portrait"]
+    },
+    {
+      "id": "ch_joseon_early_05",
+      "era_id": "joseon_early",
+      "order": 5,
+      "question_count": 10,
+      "images": [
+        "geobukseon",
+        "yi_sunsin_portrait",
+        "gwakjaewoo_bust",
+        "busanjin_battle_painting",
+        "hansando_battle_painting",
+        "haengju_battle"
+      ]
+    },
+    {
+      "id": "ch_joseon_early_06",
+      "era_id": "joseon_early",
+      "order": 6,
+      "question_count": 10,
+      "images": ["jeongmyo_horan", "namhansanseong", "byeongja_war_painting", "samjeondo_monument"]
+    },
+    {
+      "id": "ch_joseon_early_07",
+      "era_id": "joseon_early",
+      "order": 7,
+      "question_count": 10,
+      "images": ["nongsa_jikseol", "joseon_coin"]
+    },
+    {
+      "id": "ch_joseon_early_08",
+      "era_id": "joseon_early",
+      "order": 8,
+      "question_count": 10,
+      "images": ["yangban_attire", "jokbo_sample"]
+    },
+    {
+      "id": "ch_joseon_early_09",
+      "era_id": "joseon_early",
+      "order": 9,
+      "question_count": 10,
+      "images": ["seonggyungwan", "seowon_dosan", "hyanggyo"]
+    },
+    {
+      "id": "ch_joseon_early_10",
+      "era_id": "joseon_early",
+      "order": 10,
+      "question_count": 10,
+      "images": ["joseon_wangjo_sillok", "goryeosa", "dongguk_yeoji_seungram"]
+    },
+    {
+      "id": "ch_joseon_early_11",
+      "era_id": "joseon_early",
+      "order": 11,
+      "question_count": 10,
+      "images": [
+        "honil_gangni_map",
+        "4gun_6jin_map",
+        "angbuilgu",
+        "cheugugi",
+        "honcheonui",
+        "jagyeongnu"
+      ]
+    },
+    {
+      "id": "ch_joseon_early_12",
+      "era_id": "joseon_early",
+      "order": 12,
+      "question_count": 10,
+      "images": [
+        "mongyu_dowondo",
+        "buncheong_jar",
+        "white_porcelain_joseon",
+        "gyeongbokgung_geunjeongjeon"
+      ]
+    },
+    {
+      "id": "ch_joseon_late_01",
+      "era_id": "joseon_late",
+      "order": 1,
+      "question_count": 12,
+      "images": ["sukjong_portrait", "song_siyeol_portrait"]
+    },
+    {
+      "id": "ch_joseon_late_02",
+      "era_id": "joseon_late",
+      "order": 2,
+      "question_count": 12,
+      "images": [
+        "yeongjo_portrait",
+        "tangpyeongbi",
+        "gyunyeokbeop",
+        "jeongjo_portrait",
+        "daejeontongpyeon",
+        "suwon_hwaseong",
+        "gyujanggak",
+        "jangyongyeong_reenactment"
+      ]
+    },
+    {
+      "id": "ch_joseon_late_03",
+      "era_id": "joseon_late",
+      "order": 3,
+      "question_count": 12,
+      "images": [
+        "hong_gyeongnae_rebellion_soldiers",
+        "imsul_minran"
+      ]
+    },
+    {
+      "id": "ch_joseon_late_04",
+      "era_id": "joseon_late",
+      "order": 4,
+      "question_count": 12,
+      "images": [
+        "iyang_method",
+        "kim_hongdo_tajak",
+        "sangpyeong_tongbo",
+        "sinhaetong_gong",
+        "kim_haksu_jongno"
+      ]
+    },
+    {
+      "id": "ch_joseon_late_05",
+      "era_id": "joseon_late",
+      "order": 5,
+      "question_count": 12,
+      "images": ["gongmyeongcheop"]
+    },
+    {
+      "id": "ch_joseon_late_06",
+      "era_id": "joseon_late",
+      "order": 6,
+      "question_count": 12,
+      "images": [
+        "jeong_yakyong_portrait",
+        "mokmin_simseo",
+        "bangye_surok",
+        "yeolha_ilgi"
+      ]
+    },
+    {
+      "id": "ch_joseon_late_07",
+      "era_id": "joseon_late",
+      "order": 7,
+      "question_count": 12,
+      "images": ["baekdusan_jeonggyebi", "daedongyeojido", "dongguk_jido", "dongsa_gangmok"]
+    },
+    {
+      "id": "ch_joseon_late_08",
+      "era_id": "joseon_late",
+      "order": 8,
+      "question_count": 12,
+      "images": [
+        "kim_hongdo_ssireum",
+        "kim_hongdo_seodang",
+        "shin_yunbok_painting",
+        "jeong_seon_painting",
+        "sehando"
+      ]
+    },
+    {
+      "id": "ch_joseon_late_09",
+      "era_id": "joseon_late",
+      "order": 9,
+      "question_count": 12,
+      "images": ["daedongyeojido", "donguibogam", "geojunggi"]
+    },
+    {
+      "id": "ch_joseon_late_10",
+      "era_id": "joseon_late",
+      "order": 10,
+      "question_count": 12,
+      "images": ["sinyu_bakhae", "choe_jewu_portrait", "catholic_persecution"]
+    },
+    {
+      "id": "ch_modern_01",
+      "era_id": "modern",
+      "order": 1,
+      "question_count": 12,
+      "images": [
+        "heungseon_daewongun_portrait",
+        "gojong_emperor_portrait",
+        "gyeongbokgung_reconstruction",
+        "seowon_demolition"
+      ]
+    },
+    {
+      "id": "ch_modern_02",
+      "era_id": "modern",
+      "order": 2,
+      "question_count": 12,
+      "images": [
+        "byeongin_yangyo",
+        "sinmi_yangyo",
+        "cheokhwabi",
+        "ganghwado_battle",
+        "ganghwa_treaty_signing"
+      ]
+    },
+    {
+      "id": "ch_modern_03",
+      "era_id": "modern",
+      "order": 3,
+      "question_count": 12,
+      "images": ["kim_okgyun_portrait", "byeolgigun", "jemulpo_concession"]
+    },
+    {
+      "id": "ch_modern_04",
+      "era_id": "modern",
+      "order": 4,
+      "question_count": 12,
+      "images": ["jomi_suho_tongsang_joyak", "imo_mutiny_attack", "gapsin_coup_leaders"]
+    },
+    {
+      "id": "ch_modern_05",
+      "era_id": "modern",
+      "order": 5,
+      "question_count": 12,
+      "images": [
+        "jeon_bongjun_portrait",
+        "donghak_baeksan"
+      ]
+    },
+    {
+      "id": "ch_modern_06",
+      "era_id": "modern",
+      "order": 6,
+      "question_count": 12,
+      "images": ["myeongseong_empress_portrait", "danbalryeong", "agwan_pacheon"]
+    },
+    {
+      "id": "ch_modern_07",
+      "era_id": "modern",
+      "order": 7,
+      "question_count": 12,
+      "images": [
+        "dongnip_sinmun",
+        "dongnip_mun",
+        "daehan_jeguk",
+        "hwangudan",
+        "manmin_gongdonghoe"
+      ]
+    },
+    {
+      "id": "ch_modern_08",
+      "era_id": "modern",
+      "order": 8,
+      "question_count": 12,
+      "images": [
+        "choe_ikhyeon_portrait",
+        "yu_inseok_portrait",
+        "jeongmi_uibyeong",
+        "13do_army_monument"
+      ]
+    },
+    {
+      "id": "ch_modern_09",
+      "era_id": "modern",
+      "order": 9,
+      "question_count": 12,
+      "images": [
+        "sinminhoe_leaders",
+        "daehan_maeil_sinbo",
+        "gukchae_bosang",
+        "osan_school"
+      ]
+    },
+    {
+      "id": "ch_modern_10",
+      "era_id": "modern",
+      "order": 10,
+      "question_count": 12,
+      "images": [
+        "eulsa_treaty",
+        "ito_hirobumi_portrait",
+        "hague_emissary",
+        "an_junggeun_portrait",
+        "annexation_treaty"
+      ]
+    },
+    {
+      "id": "ch_japanese_occupation_01",
+      "era_id": "japanese_occupation",
+      "order": 1,
+      "question_count": 15,
+      "images": [
+        "joseon_chongdokbu",
+        "heonbyeong_police",
+        "land_survey",
+        "oriental_development_company"
+      ]
+    },
+    {
+      "id": "ch_japanese_occupation_02",
+      "era_id": "japanese_occupation",
+      "order": 2,
+      "question_count": 15,
+      "images": [
+        "cultural_rule_newspaper",
+        "sanmi_jeungsan",
+        "gyeongseong_university"
+      ]
+    },
+    {
+      "id": "ch_japanese_occupation_03",
+      "era_id": "japanese_occupation",
+      "order": 3,
+      "question_count": 15,
+      "images": [
+        "shinto_shrine_worship",
+        "changssigaemyeong",
+        "jiwonbyeong",
+        "peace_statue"
+      ]
+    },
+    {
+      "id": "ch_japanese_occupation_04",
+      "era_id": "japanese_occupation",
+      "order": 4,
+      "question_count": 15,
+      "images": [
+        "march_1st_declaration",
+        "tapgol_park",
+        "march_1st_crowd",
+        "jeamri_massacre"
+      ]
+    },
+    {
+      "id": "ch_japanese_occupation_05",
+      "era_id": "japanese_occupation",
+      "order": 5,
+      "question_count": 15,
+      "images": [
+        "provisional_government_building",
+        "kim_gu_portrait",
+        "korean_liberation_army",
+        "provisional_government_members"
+      ]
+    },
+    {
+      "id": "ch_japanese_occupation_06",
+      "era_id": "japanese_occupation",
+      "order": 6,
+      "question_count": 15,
+      "images": [
+        "kim_wonbong_portrait",
+        "yun_bonggil_portrait",
+        "yi_bongchang_portrait",
+        "hongkou_park_incident"
+      ]
+    },
+    {
+      "id": "ch_japanese_occupation_07",
+      "era_id": "japanese_occupation",
+      "order": 7,
+      "question_count": 15,
+      "images": [
+        "hong_beomdo_portrait",
+        "kim_jwajin_portrait",
+        "bongodong_battle",
+        "cheongsanri_battle"
+      ]
+    },
+    {
+      "id": "ch_japanese_occupation_08",
+      "era_id": "japanese_occupation",
+      "order": 8,
+      "question_count": 15,
+      "images": [
+        "mulsan_jangryeo",
+        "wonsan_strike",
+        "singanhoe_founding",
+        "amtaedo_struggle"
+      ]
+    },
+    {
+      "id": "ch_japanese_occupation_09",
+      "era_id": "japanese_occupation",
+      "order": 9,
+      "question_count": 15,
+      "images": [
+        "joseon_eohakhoe_members",
+        "urimal_sajeon",
+        "joseon_sangosa",
+        "shin_chaeho_portrait"
+      ]
+    },
+    {
+      "id": "ch_japanese_occupation_10",
+      "era_id": "japanese_occupation",
+      "order": 10,
+      "question_count": 15,
+      "images": [
+        "sinheung_military_school",
+        "independence_activists_manchuria",
+        "february_8_declaration"
+      ]
+    },
+    {
+      "id": "ch_contemporary_01",
+      "era_id": "contemporary",
+      "order": 1,
+      "question_count": 12,
+      "images": [
+        "liberation_celebration",
+        "38th_parallel_map",
+        "moscow_conference",
+        "usamgov_emblem"
+      ]
+    },
+    {
+      "id": "ch_contemporary_02",
+      "era_id": "contemporary",
+      "order": 2,
+      "question_count": 12,
+      "images": [
+        "may_10_election_poster",
+        "constitutional_assembly",
+        "rhee_syngman_inauguration",
+        "daehan_minguk_proclamation"
+      ]
+    },
+    {
+      "id": "ch_contemporary_03",
+      "era_id": "contemporary",
+      "order": 3,
+      "question_count": 12,
+      "images": [
+        "korean_war_refugee",
+        "incheon_landing",
+        "busan_perimeter",
+        "panmunjom_armistice"
+      ]
+    },
+    {
+      "id": "ch_contemporary_04",
+      "era_id": "contemporary",
+      "order": 4,
+      "question_count": 12,
+      "images": [
+        "april_19_protest",
+        "kim_juyeol_photo",
+        "rhee_resignation",
+        "april_revolution_monument"
+      ]
+    },
+    {
+      "id": "ch_contemporary_05",
+      "era_id": "contemporary",
+      "order": 5,
+      "question_count": 12,
+      "images": [
+        "park_chunghee_portrait",
+        "may_16_coup",
+        "gyeongbu_expressway",
+        "yushin_constitution"
+      ]
+    },
+    {
+      "id": "ch_contemporary_06",
+      "era_id": "contemporary",
+      "order": 6,
+      "question_count": 12,
+      "images": [
+        "may_18_movement",
+        "may_18_memorial_tower",
+        "june_democratic_movement",
+        "lee_hanyeol_photo"
+      ]
+    },
+    {
+      "id": "ch_contemporary_07",
+      "era_id": "contemporary",
+      "order": 7,
+      "question_count": 12,
+      "images": [
+        "june_29_declaration",
+        "kim_daejung_portrait",
+        "inter_korean_summit_2000",
+        "un_simultaneous_admission"
+      ]
+    },
+    {
+      "id": "ch_contemporary_08",
+      "era_id": "contemporary",
+      "order": 8,
+      "question_count": 12,
+      "images": [
+        "saemaul_movement",
+        "hangang_miracle",
+        "oecd_admission",
+        "imf_crisis"
+      ]
+    },
+    {
+      "id": "ch_contemporary_09",
+      "era_id": "contemporary",
+      "order": 9,
+      "question_count": 12,
+      "images": [
+        "july_4_statement",
+        "june_15_declaration",
+        "kaesong_industrial_complex",
+        "family_reunion"
+      ]
+    },
+    {
+      "id": "ch_contemporary_10",
+      "era_id": "contemporary",
+      "order": 10,
+      "question_count": 12,
+      "images": [
+        "north_korea_leaders",
+        "dmz_map",
+        "geumgangsan_tour"
+      ]
+    },
+    {
+      "id": "ch_contemporary_11",
+      "era_id": "contemporary",
+      "order": 11,
+      "question_count": 12,
+      "images": [
+        "seoul_olympics_1988",
+        "world_cup_2002",
+        "candlelight_protest_2016"
+      ]
+    }
+  ]
+}

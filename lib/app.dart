@@ -3,6 +3,7 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 import 'l10n/app_localizations.dart';
 
 import 'core/theme/app_theme.dart';
+import 'features/main/main_shell.dart';
 
 class KoreanHistoryApp extends StatelessWidget {
   const KoreanHistoryApp({super.key});
@@ -43,8 +44,8 @@ class KoreanHistoryApp extends StatelessWidget {
         Locale('ru'),
       ],
 
-      // 홈 화면
-      home: const Placeholder(), // TODO: HomeScreen으로 교체
+      // 메인 쉘 (바텀 네비게이션)
+      home: const MainShell(),
     );
   }
 }

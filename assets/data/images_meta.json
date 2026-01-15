@@ -1,0 +1,3352 @@
+{
+  "handaxe_acheulean": {
+    "category": "artifacts",
+    "path": "artifacts/handaxe_acheulean.webp",
+    "era": "prehistoric",
+    "caption": {
+      "ko": "아슐리안형 주먹도끼 (약 30만년 전, 전곡리)",
+      "en": "Acheulean-type Handaxe (c. 300,000 BP, Jeongok-ri)",
+      "ja": "アシュール型握斧（約30万年前、全谷里）"
+    }
+  },
+  "chopper_paleolithic": {
+    "category": "artifacts",
+    "path": "artifacts/chopper_paleolithic.webp",
+    "era": "prehistoric",
+    "caption": {
+      "ko": "구석기시대 찍개 (약 70만년 전)",
+      "en": "Paleolithic Chopper (c. 700,000 BP)",
+      "ja": "旧石器時代チョッパー（約70万年前）"
+    }
+  },
+  "geumgul_cave": {
+    "category": "sites",
+    "path": "sites/geumgul_cave.webp",
+    "era": "prehistoric",
+    "caption": {
+      "ko": "단양 금굴 유적 (약 70만~40만년 전)",
+      "en": "Geumgul Cave Site (c. 700,000-400,000 BP)",
+      "ja": "丹陽金窟遺跡（約70万~40万年前）"
+    }
+  },
+  "comb_pottery": {
+    "category": "artifacts",
+    "path": "artifacts/comb_pottery.webp",
+    "era": "prehistoric",
+    "caption": {
+      "ko": "빗살무늬 토기 (BC 6000~BC 1000, 암사동)",
+      "en": "Comb-pattern Pottery (BC 6000-1000, Amsa-dong)",
+      "ja": "櫛目文土器（BC6000~BC1000、岩寺洞）"
+    }
+  },
+  "pit_house": {
+    "category": "sites",
+    "path": "sites/pit_house.webp",
+    "era": "prehistoric",
+    "caption": {
+      "ko": "신석기시대 움집 (BC 8000~BC 1500)",
+      "en": "Neolithic Pit House (BC 8000-1500)",
+      "ja": "新石器時代竪穴住居（BC8000~BC1500）"
+    }
+  },
+  "spindle_whorl": {
+    "category": "artifacts",
+    "path": "artifacts/spindle_whorl.webp",
+    "era": "prehistoric",
+    "caption": {
+      "ko": "가락바퀴 (신석기, BC 6000~BC 1000)",
+      "en": "Spindle Whorl (Neolithic, BC 6000-1000)",
+      "ja": "紡錘車（新石器、BC6000~BC1000）"
+    }
+  },
+  "shell_mound": {
+    "category": "sites",
+    "path": "sites/shell_mound.webp",
+    "era": "prehistoric",
+    "caption": {
+      "ko": "패총 유적 (신석기, BC 6000~BC 1000)",
+      "en": "Shell Mound Site (Neolithic, BC 6000-1000)",
+      "ja": "貝塚遺跡（新石器、BC6000~BC1000）"
+    }
+  },
+  "plain_pottery": {
+    "category": "artifacts",
+    "path": "artifacts/plain_pottery.webp",
+    "era": "prehistoric",
+    "caption": {
+      "ko": "민무늬 토기 (청동기, BC 2000~BC 300)",
+      "en": "Plain Pottery (Bronze Age, BC 2000-300)",
+      "ja": "無文土器（青銅器、BC2000~BC300）"
+    }
+  },
+  "misongni_pottery": {
+    "category": "artifacts",
+    "path": "artifacts/misongni_pottery.webp",
+    "era": "prehistoric",
+    "caption": {
+      "ko": "미송리식 토기 (청동기, BC 10~BC 4세기)",
+      "en": "Misongni-type Pottery (Bronze Age, BC 10th-4th century)",
+      "ja": "美松里式土器（青銅器、BC10~BC4世紀）"
+    }
+  },
+  "mandolin_dagger": {
+    "category": "artifacts",
+    "path": "artifacts/mandolin_dagger.webp",
+    "era": "prehistoric",
+    "caption": {
+      "ko": "비파형 동검 (BC 10~BC 4세기)",
+      "en": "Mandolin-shaped Bronze Dagger (BC 10th-4th century)",
+      "ja": "琵琶形銅剣（BC10~BC4世紀）"
+    }
+  },
+  "coarse_mirror": {
+    "category": "artifacts",
+    "path": "artifacts/coarse_mirror.webp",
+    "era": "prehistoric",
+    "caption": {
+      "ko": "거친무늬 거울 (청동기, BC 8~BC 4세기)",
+      "en": "Coarse-patterned Bronze Mirror (BC 8th-4th century)",
+      "ja": "粗文鏡（青銅器、BC8~BC4世紀）"
+    }
+  },
+  "dolmen_table": {
+    "category": "sites",
+    "path": "sites/dolmen_table.webp",
+    "era": "prehistoric",
+    "caption": {
+      "ko": "탁자식 고인돌 (BC 1000~BC 300, 강화)",
+      "en": "Table-type Dolmen (BC 1000-300, Ganghwa)",
+      "ja": "テーブル式支石墓（BC1000~BC300、江華）"
+    }
+  },
+  "dolmen_baduk": {
+    "category": "sites",
+    "path": "sites/dolmen_baduk.webp",
+    "era": "prehistoric",
+    "caption": {
+      "ko": "바둑판식 고인돌 (BC 1000~BC 300, 고창)",
+      "en": "Go-board-type Dolmen (BC 1000-300, Gochang)",
+      "ja": "碁盤式支石墓（BC1000~BC300、高敞）"
+    }
+  },
+  "crescent_knife": {
+    "category": "artifacts",
+    "path": "artifacts/crescent_knife.webp",
+    "era": "prehistoric",
+    "caption": {
+      "ko": "반달 돌칼 (청동기, BC 10~BC 3세기)",
+      "en": "Crescent-shaped Stone Knife (BC 10th-3rd century)",
+      "ja": "半月形石刀（青銅器、BC10~BC3世紀）"
+    }
+  },
+  "slender_dagger": {
+    "category": "artifacts",
+    "path": "artifacts/slender_dagger.webp",
+    "era": "prehistoric",
+    "caption": {
+      "ko": "세형동검 (BC 4~BC 1세기, 한국식)",
+      "en": "Slender Bronze Dagger (BC 4th-1st century, Korean-style)",
+      "ja": "細形銅剣（BC4~BC1世紀、韓国式）"
+    }
+  },
+  "fine_mirror": {
+    "category": "artifacts",
+    "path": "artifacts/fine_mirror.webp",
+    "era": "prehistoric",
+    "caption": {
+      "ko": "잔무늬 거울 (BC 3~BC 1세기)",
+      "en": "Fine-patterned Bronze Mirror (BC 3rd-1st century)",
+      "ja": "細文鏡（BC3~BC1世紀）"
+    }
+  },
+  "dahori_iron_tools": {
+    "category": "artifacts",
+    "path": "artifacts/dahori_iron_tools.webp",
+    "era": "prehistoric",
+    "caption": {
+      "ko": "철제 농기구 (BC 1세기, 다호리)",
+      "en": "Iron Farming Tools (BC 1st century, Dahori)",
+      "ja": "鉄製農具（BC1世紀、茶戸里）"
+    }
+  },
+  "mingdao_coin": {
+    "category": "artifacts",
+    "path": "artifacts/mingdao_coin.webp",
+    "era": "gojoseon",
+    "caption": {
+      "ko": "명도전 (BC 4~BC 3세기, 고조선 교역)",
+      "en": "Mingdao Coin (BC 4th-3rd century, Gojoseon Trade)",
+      "ja": "明刀銭（BC4~BC3世紀、古朝鮮交易）"
+    }
+  },
+  "hwasun_bronze_collection": {
+    "category": "artifacts",
+    "path": "artifacts/hwasun_bronze_collection.webp",
+    "era": "gojoseon",
+    "caption": {
+      "ko": "화순 대곡리 청동기 (BC 4~BC 3세기, 국보)",
+      "en": "Hwasun Daegok-ri Bronzes (BC 4th-3rd century)",
+      "ja": "和順大谷里青銅器（BC4~BC3世紀、国宝）"
+    }
+  },
+  "nonggyeongmun_bronze": {
+    "category": "artifacts",
+    "path": "artifacts/nonggyeongmun_bronze.webp",
+    "era": "gojoseon",
+    "caption": {
+      "ko": "농경문 청동기 (BC 3~BC 2세기)",
+      "en": "Bronze with Agricultural Scenes (BC 3rd-2nd century)",
+      "ja": "農耕文青銅器（BC3~BC2世紀）"
+    }
+  },
+  "dangun_painting": {
+    "category": "portraits",
+    "path": "portraits/dangun_painting.webp",
+    "era": "gojoseon",
+    "caption": {
+      "ko": "단군왕검 (BC 2333 건국)",
+      "en": "Dangun Wanggeom (Founded in BC 2333)",
+      "ja": "檀君王倹（BC2333建国）"
+    }
+  },
+  "gojoseon_territory_map": {
+    "category": "maps",
+    "path": "maps/gojoseon_territory_map.webp",
+    "era": "gojoseon",
+    "caption": {
+      "ko": "고조선 세력 범위 (BC 2333~BC 108)",
+      "en": "Territory of Gojoseon (BC 2333-108)",
+      "ja": "古朝鮮勢力範囲（BC2333~BC108）"
+    }
+  },
+  "buyeo_pottery": {
+    "category": "artifacts",
+    "path": "artifacts/buyeo_pottery.webp",
+    "era": "gojoseon",
+    "caption": {
+      "ko": "부여 문화 토기 (BC 2세기~AD 5세기)",
+      "en": "Buyeo Culture Pottery (BC 2nd century-AD 5th century)",
+      "ja": "夫余文化土器（BC2世紀~AD5世紀）"
+    }
+  },
+  "dahori_ironware": {
+    "category": "artifacts",
+    "path": "artifacts/dahori_ironware.webp",
+    "era": "gojoseon",
+    "caption": {
+      "ko": "다호리 출토 철기 (BC 1세기)",
+      "en": "Ironware from Dahori Site (BC 1st century)",
+      "ja": "茶戸里出土鉄器（BC1世紀）"
+    }
+  },
+  "paljuryeong": {
+    "category": "artifacts",
+    "path": "artifacts/paljuryeong.webp",
+    "era": "gojoseon",
+    "caption": {
+      "ko": "팔주령 (BC 3~AD 3세기, 삼한 제의용)",
+      "en": "Paljuryeong (BC 3rd-AD 3rd century, Samhan Rituals)",
+      "ja": "八珠鈴（BC3~AD3世紀、三韓祭儀用）"
+    }
+  },
+  "goguryeo_fortress": {
+    "category": "sites",
+    "path": "sites/goguryeo_fortress.webp",
+    "era": "three_kingdoms",
+    "caption": {
+      "ko": "고구려 산성 유적 (백암성, 3-7세기)",
+      "en": "Goguryeo Mountain Fortress Ruins (Baekamseong, 3rd-7th century)",
+      "ja": "高句麗山城遺跡（白巖城、3-7世紀）"
+    }
+  },
+  "goguryeo_gaema_mural": {
+    "category": "murals",
+    "path": "murals/goguryeo_gaema_mural.webp",
+    "era": "three_kingdoms",
+    "caption": {
+      "ko": "고구려 개마무사 벽화 (5-6세기)",
+      "en": "Goguryeo Gaema Warrior Mural (5th-6th century)",
+      "ja": "高句麗鎧馬武士壁画（5-6世紀）"
+    }
+  },
+  "gwanggaeto_stele": {
+    "category": "monuments",
+    "path": "monuments/gwanggaeto_stele.webp",
+    "era": "three_kingdoms",
+    "caption": {
+      "ko": "광개토대왕릉비 (414)",
+      "en": "Stele of King Gwanggaeto (414)",
+      "ja": "広開土王碑（414年）"
+    }
+  },
+  "goguryeo_territory_map": {
+    "category": "maps",
+    "path": "maps/goguryeo_territory_map.webp",
+    "era": "three_kingdoms",
+    "caption": {
+      "ko": "고구려 최대 영토 (5세기, 장수왕)",
+      "en": "Maximum Territory of Goguryeo (5th century, King Jangsu)",
+      "ja": "高句麗最大領土（5世紀、長寿王）"
+    }
+  },
+  "jangsu_tomb": {
+    "category": "sites",
+    "path": "sites/jangsu_tomb.webp",
+    "era": "three_kingdoms",
+    "caption": {
+      "ko": "장군총 (5세기, 장수왕릉 추정)",
+      "en": "Jangguncho (5th century, Presumed Tomb of King Jangsu)",
+      "ja": "将軍塚（5世紀、長寿王陵推定）"
+    }
+  },
+  "salsu_battle_painting": {
+    "category": "paintings",
+    "path": "paintings/salsu_battle_painting.webp",
+    "era": "three_kingdoms",
+    "caption": {
+      "ko": "살수대첩 (612, 을지문덕)",
+      "en": "Battle of Salsu (612, General Eulji Mundeok)",
+      "ja": "薩水大捷（612年、乙支文徳）"
+    }
+  },
+  "ansi_battle_painting": {
+    "category": "paintings",
+    "path": "paintings/ansi_battle_painting.webp",
+    "era": "three_kingdoms",
+    "caption": {
+      "ko": "안시성 전투 (645, 양만춘)",
+      "en": "Battle of Ansi Fortress (645, Yang Manchun)",
+      "ja": "安市城の戦い（645年、楊萬春）"
+    }
+  },
+  "cheolli_jangseong_map": {
+    "category": "maps",
+    "path": "maps/cheolli_jangseong_map.webp",
+    "era": "three_kingdoms",
+    "caption": {
+      "ko": "천리장성 추정 위치도 (631, 연개소문)",
+      "en": "Cheolli Jangseong Map (631, Yeon Gaesomun)",
+      "ja": "千里長城推定位置図（631年、淵蓋蘇文）"
+    }
+  },
+  "chilji_sword": {
+    "category": "artifacts",
+    "path": "artifacts/chilji_sword.webp",
+    "era": "three_kingdoms",
+    "caption": {
+      "ko": "칠지도 (369, 근초고왕)",
+      "en": "Seven-Branched Sword (369, King Geunchogo)",
+      "ja": "七支刀（369年、近肖古王）"
+    }
+  },
+  "baekje_stone_beast": {
+    "category": "artifacts",
+    "path": "artifacts/baekje_stone_beast.webp",
+    "era": "three_kingdoms",
+    "caption": {
+      "ko": "석수 (무령왕릉, 525)",
+      "en": "Stone Guardian Beast (Tomb of King Muryeong, 525)",
+      "ja": "石獣（武寧王陵、525年）"
+    }
+  },
+  "baekje_brick": {
+    "category": "artifacts",
+    "path": "artifacts/baekje_brick.webp",
+    "era": "three_kingdoms",
+    "caption": {
+      "ko": "산수무늬 벽돌 (6-7세기, 부여)",
+      "en": "Landscape Patterned Brick (6th-7th century, Buyeo)",
+      "ja": "山水文様塼（6-7世紀、扶余）"
+    }
+  },
+  "muryeong_tomb": {
+    "category": "sites",
+    "path": "sites/muryeong_tomb.webp",
+    "era": "three_kingdoms",
+    "caption": {
+      "ko": "무령왕릉 (525, 공주)",
+      "en": "Tomb of King Muryeong (525, Gongju)",
+      "ja": "武寧王陵（525年、公州）"
+    }
+  },
+  "muryeong_crown_ornament": {
+    "category": "artifacts",
+    "path": "artifacts/muryeong_crown_ornament.webp",
+    "era": "three_kingdoms",
+    "caption": {
+      "ko": "무령왕 금제 관식 (525)",
+      "en": "Gold Crown Ornament of King Muryeong (525)",
+      "ja": "武寧王金製冠飾（525年）"
+    }
+  },
+  "baekje_territory_map": {
+    "category": "maps",
+    "path": "maps/baekje_territory_map.webp",
+    "era": "three_kingdoms",
+    "caption": {
+      "ko": "백제 최대 영토 (4세기, 근초고왕)",
+      "en": "Maximum Territory of Baekje (4th century, King Geunchogo)",
+      "ja": "百済最大領土（4世紀、近肖古王）"
+    }
+  },
+  "baekgang_battle_map": {
+    "category": "maps",
+    "path": "maps/baekgang_battle_map.webp",
+    "era": "three_kingdoms",
+    "caption": {
+      "ko": "백강 전투 지도 (663)",
+      "en": "Battle of Baekgang Map (663)",
+      "ja": "白江の戦い地図（663年）"
+    }
+  },
+  "sabi_fortress": {
+    "category": "sites",
+    "path": "sites/sabi_fortress.webp",
+    "era": "three_kingdoms",
+    "caption": {
+      "ko": "사비성 (538 천도, 성왕)",
+      "en": "Sabi Fortress (Capital moved 538, King Seong)",
+      "ja": "泗沘城（538年遷都、聖王）"
+    }
+  },
+  "silla_gold_crown_geumgwan": {
+    "category": "artifacts",
+    "path": "artifacts/silla_gold_crown_geumgwan.webp",
+    "era": "three_kingdoms",
+    "caption": {
+      "ko": "신라 금관 (5-6세기, 금관총)",
+      "en": "Silla Gold Crown (5th-6th century, Geumgwanchong)",
+      "ja": "新羅金冠（5-6世紀、金冠塚）"
+    }
+  },
+  "jinheung_stele_bukhansan": {
+    "category": "monuments",
+    "path": "monuments/jinheung_stele_bukhansan.webp",
+    "era": "three_kingdoms",
+    "caption": {
+      "ko": "진흥왕 순수비 (555, 북한산비)",
+      "en": "Stele of King Jinheung (555, Bukhansan)",
+      "ja": "真興王巡狩碑（555年、北漢山碑）"
+    }
+  },
+  "jinheung_stele_changnyeong": {
+    "category": "monuments",
+    "path": "monuments/jinheung_stele_changnyeong.webp",
+    "era": "three_kingdoms",
+    "caption": {
+      "ko": "진흥왕 순수비 (561, 창녕비)",
+      "en": "Stele of King Jinheung (561, Changnyeong)",
+      "ja": "真興王巡狩碑（561年、昌寧碑）"
+    }
+  },
+  "hwarang_painting": {
+    "category": "paintings",
+    "path": "paintings/hwarang_painting.webp",
+    "era": "three_kingdoms",
+    "caption": {
+      "ko": "화랑도 (6세기, 진흥왕)",
+      "en": "Hwarang Warriors (6th century, King Jinheung)",
+      "ja": "花郎徒（6世紀、真興王）"
+    }
+  },
+  "cheomseongdae": {
+    "category": "sites",
+    "path": "sites/cheomseongdae.webp",
+    "era": "three_kingdoms",
+    "caption": {
+      "ko": "첨성대 (634, 선덕여왕)",
+      "en": "Cheomseongdae Observatory (634, Queen Seondeok)",
+      "ja": "瞻星台（634年、善徳女王）"
+    }
+  },
+  "hwangnyongsa_9story": {
+    "category": "illustrations",
+    "path": "illustrations/hwangnyongsa_9story.webp",
+    "era": "three_kingdoms",
+    "caption": {
+      "ko": "황룡사 9층 목탑 (645, 선덕여왕)",
+      "en": "9-Story Wooden Pagoda of Hwangnyongsa (645, Queen Seondeok)",
+      "ja": "皇龍寺九重木塔（645年、善徳女王）"
+    }
+  },
+  "unified_silla_territory_map": {
+    "category": "maps",
+    "path": "maps/unified_silla_territory_map.webp",
+    "era": "three_kingdoms",
+    "caption": {
+      "ko": "삼국통일 지도 (676, 문무왕)",
+      "en": "Unification of Three Kingdoms Map (676, King Munmu)",
+      "ja": "三国統一地図（676年、文武王）"
+    }
+  },
+  "gaya_iron_armor": {
+    "category": "artifacts",
+    "path": "artifacts/gaya_iron_armor.webp",
+    "era": "three_kingdoms",
+    "caption": {
+      "ko": "가야 철제 갑옷 (4-5세기)",
+      "en": "Gaya Iron Armor (4th-5th century)",
+      "ja": "伽耶鉄製甲冑（4-5世紀）"
+    }
+  },
+  "gayageum": {
+    "category": "artifacts",
+    "path": "artifacts/gayageum.webp",
+    "era": "three_kingdoms",
+    "caption": {
+      "ko": "가야금 (6세기, 우륵)",
+      "en": "Gayageum (6th century, Ureuk)",
+      "ja": "伽倻琴（6世紀、于勒）"
+    }
+  },
+  "gaya_crown": {
+    "category": "artifacts",
+    "path": "artifacts/gaya_crown.webp",
+    "era": "three_kingdoms",
+    "caption": {
+      "ko": "가야 금동관 (5-6세기)",
+      "en": "Gaya Gilt-bronze Crown (5th-6th century)",
+      "ja": "伽耶金銅冠（5-6世紀）"
+    }
+  },
+  "gaya_pottery": {
+    "category": "artifacts",
+    "path": "artifacts/gaya_pottery.webp",
+    "era": "three_kingdoms",
+    "caption": {
+      "ko": "가야 토기 (4-6세기)",
+      "en": "Gaya Pottery (4th-6th century)",
+      "ja": "伽耶土器（4-6世紀）"
+    }
+  },
+  "baekje_buddha_seosan": {
+    "category": "sculptures",
+    "path": "sculptures/baekje_buddha_seosan.webp",
+    "era": "three_kingdoms",
+    "caption": {
+      "ko": "서산 마애삼존불 (6세기)",
+      "en": "Rock-carved Buddha Triad at Seosan (6th century)",
+      "ja": "瑞山磨崖三尊仏（6世紀）"
+    }
+  },
+  "silla_buddha_pensive": {
+    "category": "sculptures",
+    "path": "sculptures/silla_buddha_pensive.webp",
+    "era": "three_kingdoms",
+    "caption": {
+      "ko": "금동 미륵보살 반가사유상 (6-7세기)",
+      "en": "Gilt-bronze Pensive Bodhisattva (6th-7th century)",
+      "ja": "金銅弥勒菩薩半跏思惟像（6-7世紀）"
+    }
+  },
+  "goguryeo_buddha": {
+    "category": "sculptures",
+    "path": "sculptures/goguryeo_buddha.webp",
+    "era": "three_kingdoms",
+    "caption": {
+      "ko": "고구려 금동불상 (4-5세기)",
+      "en": "Goguryeo Gilt-bronze Buddha (4th-5th century)",
+      "ja": "高句麗金銅仏像（4-5世紀）"
+    }
+  },
+  "goguryeo_tomb_dancers": {
+    "category": "murals",
+    "path": "murals/goguryeo_tomb_dancers.webp",
+    "era": "three_kingdoms",
+    "caption": {
+      "ko": "무용총 무용도 (5세기)",
+      "en": "Dance Scene from Muyongchong Tomb (5th century)",
+      "ja": "舞踊塚舞踊図（5世紀）"
+    }
+  },
+  "goguryeo_tomb_hunting": {
+    "category": "murals",
+    "path": "murals/goguryeo_tomb_hunting.webp",
+    "era": "three_kingdoms",
+    "caption": {
+      "ko": "무용총 수렵도 (5세기)",
+      "en": "Hunting Scene from Muyongchong Tomb (5th century)",
+      "ja": "舞踊塚狩猟図（5世紀）"
+    }
+  },
+  "goguryeo_tomb_wrestling": {
+    "category": "murals",
+    "path": "murals/goguryeo_tomb_wrestling.webp",
+    "era": "three_kingdoms",
+    "caption": {
+      "ko": "각저총 씨름도 (5세기)",
+      "en": "Wrestling Scene from Gakjeochong Tomb (5th century)",
+      "ja": "角抵塚相撲図（5世紀）"
+    }
+  },
+  "goguryeo_tomb_sasindo": {
+    "category": "murals",
+    "path": "murals/goguryeo_tomb_sasindo.webp",
+    "era": "three_kingdoms",
+    "caption": {
+      "ko": "고구려 사신도 (6-7세기, 강서대묘)",
+      "en": "Four Guardian Deities Mural (6th-7th century, Gangseodaemyo)",
+      "ja": "高句麗四神図（6-7世紀、江西大墓）"
+    }
+  },
+  "cheonmachong_painting": {
+    "category": "artifacts",
+    "path": "artifacts/cheonmachong_painting.webp",
+    "era": "three_kingdoms",
+    "caption": {
+      "ko": "천마총 천마도 (5-6세기)",
+      "en": "Heavenly Horse Painting from Cheonmachong (5th-6th century)",
+      "ja": "天馬塚天馬図（5-6世紀）"
+    }
+  },
+  "silla_gold_crown_hwangnam": {
+    "category": "artifacts",
+    "path": "artifacts/silla_gold_crown_hwangnam.webp",
+    "era": "three_kingdoms",
+    "caption": {
+      "ko": "신라 금관 (5세기, 황남대총)",
+      "en": "Silla Gold Crown (5th century, Hwangnamdaechong)",
+      "ja": "新羅金冠（5世紀、皇南大塚）"
+    }
+  },
+  "baekje_incense_burner": {
+    "category": "artifacts",
+    "path": "artifacts/baekje_incense_burner.webp",
+    "era": "three_kingdoms",
+    "caption": {
+      "ko": "백제 금동대향로 (6-7세기)",
+      "en": "Baekje Gilt-bronze Incense Burner (6th-7th century)",
+      "ja": "百済金銅大香炉（6-7世紀）"
+    }
+  },
+  "mireuksa_pagoda": {
+    "category": "monuments",
+    "path": "monuments/mireuksa_pagoda.webp",
+    "era": "three_kingdoms",
+    "caption": {
+      "ko": "미륵사지 석탑 (639, 무왕)",
+      "en": "Stone Pagoda at Mireuksa (639, King Mu)",
+      "ja": "弥勒寺址石塔（639年、武王）"
+    }
+  },
+  "baekje_roof_tile": {
+    "category": "artifacts",
+    "path": "artifacts/baekje_roof_tile.webp",
+    "era": "three_kingdoms",
+    "caption": {
+      "ko": "백제 수막새 (6-7세기)",
+      "en": "Baekje Roof-end Tile (6th-7th century)",
+      "ja": "百済軒丸瓦（6-7世紀）"
+    }
+  },
+  "eulji_mundeok": {
+    "category": "portraits",
+    "path": "portraits/eulji_mundeok.webp",
+    "era": "three_kingdoms",
+    "caption": {
+      "ko": "을지문덕 초상 (살수대첩, 612)",
+      "en": "Portrait of Eulji Mundeok (Battle of Salsu, 612)",
+      "ja": "乙支文徳肖像（薩水大捷、612年）"
+    }
+  },
+  "gyebaek": {
+    "category": "portraits",
+    "path": "portraits/gyebaek.webp",
+    "era": "three_kingdoms",
+    "caption": {
+      "ko": "계백 초상 (황산벌 전투, 660)",
+      "en": "Portrait of Gyebaek (Battle of Hwangsanbeol, 660)",
+      "ja": "階伯肖像（黄山伐の戦い、660年）"
+    }
+  },
+  "kim_yusin": {
+    "category": "portraits",
+    "path": "portraits/kim_yusin.webp",
+    "era": "three_kingdoms",
+    "caption": {
+      "ko": "김유신 초상 (595-673, 삼국통일)",
+      "en": "Portrait of Kim Yu-sin (595-673, Unification)",
+      "ja": "金庾信肖像（595-673、三国統一）"
+    }
+  },
+  "ichadon_stele": {
+    "category": "monuments",
+    "path": "monuments/ichadon_stele.webp",
+    "era": "three_kingdoms",
+    "caption": {
+      "ko": "이차돈 순교비 (527, 법흥왕)",
+      "en": "Ichadon Martyrdom Stele (527, King Beopheung)",
+      "ja": "異次頓殉教碑（527年、法興王）"
+    }
+  },
+  "jeongnimsaji_pagoda": {
+    "category": "monuments",
+    "path": "monuments/jeongnimsaji_pagoda.webp",
+    "era": "three_kingdoms",
+    "caption": {
+      "ko": "정림사지 오층석탑 (6세기, 부여)",
+      "en": "Five-story Stone Pagoda at Jeongnimsa (6th century, Buyeo)",
+      "ja": "定林寺址五重石塔（6世紀、扶余）"
+    }
+  },
+  "wonhyo_portrait": {
+    "category": "portraits",
+    "path": "portraits/wonhyo_portrait.webp",
+    "era": "north_south_states",
+    "caption": {
+      "ko": "원효 초상 (617-686)",
+      "en": "Portrait of Wonhyo (617-686)",
+      "ja": "元暁肖像（617-686）"
+    }
+  },
+  "uisang_portrait": {
+    "category": "portraits",
+    "path": "portraits/uisang_portrait.webp",
+    "era": "north_south_states",
+    "caption": {
+      "ko": "의상 초상 (625-702)",
+      "en": "Portrait of Uisang (625-702)",
+      "ja": "義湘肖像（625-702）"
+    }
+  },
+  "munmu_tomb": {
+    "category": "sites",
+    "path": "sites/munmu_tomb.webp",
+    "era": "north_south_states",
+    "caption": {
+      "ko": "문무왕릉 / 대왕암 (682)",
+      "en": "Tomb of King Munmu / Daewangam (682)",
+      "ja": "文武王陵 / 大王岩（682年）"
+    }
+  },
+  "9ju_5sogyeong_map": {
+    "category": "maps",
+    "path": "maps/9ju_5sogyeong_map.webp",
+    "era": "north_south_states",
+    "caption": {
+      "ko": "9주 5소경 지도 (685, 신문왕)",
+      "en": "Map of 9 Provinces and 5 Secondary Capitals (685)",
+      "ja": "九州五小京地図（685年、神文王）"
+    }
+  },
+  "daejoyeong_portrait": {
+    "category": "portraits",
+    "path": "portraits/daejoyeong_portrait.webp",
+    "era": "north_south_states",
+    "caption": {
+      "ko": "대조영 초상 (재위 698-719)",
+      "en": "Portrait of Dae Joyeong (r. 698-719)",
+      "ja": "大祚栄肖像（在位698-719）"
+    }
+  },
+  "balhae_dragon_stone": {
+    "category": "sculptures",
+    "path": "sculptures/balhae_dragon_stone.webp",
+    "era": "north_south_states",
+    "caption": {
+      "ko": "발해 용머리 돌 (8세기)",
+      "en": "Balhae Dragon Head Stone (8th century)",
+      "ja": "渤海龍頭石（8世紀）"
+    }
+  },
+  "wang_ocheonchukguk_jeon": {
+    "category": "artifacts",
+    "path": "artifacts/wang_ocheonchukguk_jeon.webp",
+    "era": "north_south_states",
+    "caption": {
+      "ko": "왕오천축국전 (혜초, 727)",
+      "en": "Memoir of the Pilgrimage to the Five Regions of India (Hyecho, 727)",
+      "ja": "往五天竺国伝（慧超、727年）"
+    }
+  },
+  "bulguksa_temple": {
+    "category": "sites",
+    "path": "sites/bulguksa_temple.webp",
+    "era": "north_south_states",
+    "caption": {
+      "ko": "불국사 (751, 경덕왕)",
+      "en": "Bulguksa Temple (751)",
+      "ja": "仏国寺（751年、景徳王）"
+    }
+  },
+  "seokguram_buddha": {
+    "category": "sculptures",
+    "path": "sculptures/seokguram_buddha.webp",
+    "era": "north_south_states",
+    "caption": {
+      "ko": "석굴암 본존불 (751)",
+      "en": "Main Buddha of Seokguram Grotto (751)",
+      "ja": "石窟庵本尊仏（751年）"
+    }
+  },
+  "dabotap": {
+    "category": "monuments",
+    "path": "monuments/dabotap.webp",
+    "era": "north_south_states",
+    "caption": {
+      "ko": "다보탑 (751, 불국사)",
+      "en": "Dabotap Pagoda (751, Bulguksa)",
+      "ja": "多宝塔（751年、仏国寺）"
+    }
+  },
+  "seokgatap": {
+    "category": "monuments",
+    "path": "monuments/seokgatap.webp",
+    "era": "north_south_states",
+    "caption": {
+      "ko": "석가탑 (751, 불국사)",
+      "en": "Seokgatap Pagoda (751, Bulguksa)",
+      "ja": "釈迦塔（751年、仏国寺）"
+    }
+  },
+  "mugujeonggwang_darani": {
+    "category": "artifacts",
+    "path": "artifacts/mugujeonggwang_darani.webp",
+    "era": "north_south_states",
+    "caption": {
+      "ko": "무구정광대다라니경 (751, 세계 최고 목판 인쇄물)",
+      "en": "Mugujeonggwang Great Dharani Sutra (751, World's Oldest Woodblock Print)",
+      "ja": "無垢浄光大陀羅尼経（751年、世界最古の木版印刷物）"
+    }
+  },
+  "sanggyeong_ruins": {
+    "category": "sites",
+    "path": "sites/sanggyeong_ruins.webp",
+    "era": "north_south_states",
+    "caption": {
+      "ko": "발해 상경용천부 궁성 (756 천도)",
+      "en": "Balhae Sanggyeong Yongcheonbu Palace (Capital moved 756)",
+      "ja": "渤海上京竜泉府宮城（756年遷都）"
+    }
+  },
+  "emille_bell": {
+    "category": "artifacts",
+    "path": "artifacts/emille_bell.webp",
+    "era": "north_south_states",
+    "caption": {
+      "ko": "성덕대왕신종 (771, 에밀레종)",
+      "en": "Sacred Bell of King Seongdeok (771, Emille Bell)",
+      "ja": "聖徳大王神鍾（771年、エミレの鐘）"
+    }
+  },
+  "jeonghyo_princess_mural": {
+    "category": "murals",
+    "path": "murals/jeonghyo_princess_mural.webp",
+    "era": "north_south_states",
+    "caption": {
+      "ko": "정효공주묘 벽화 (792)",
+      "en": "Mural from Tomb of Princess Jeonghyo (792)",
+      "ja": "貞孝公主墓壁画（792年）"
+    }
+  },
+  "minjeong_document": {
+    "category": "documents",
+    "path": "documents/minjeong_document.webp",
+    "era": "north_south_states",
+    "caption": {
+      "ko": "신라 민정문서 (815, 촌락문서)",
+      "en": "Silla Village Census Document (815)",
+      "ja": "新羅民政文書（815年、村落文書）"
+    }
+  },
+  "balhae_territory_map": {
+    "category": "maps",
+    "path": "maps/balhae_territory_map.webp",
+    "era": "north_south_states",
+    "caption": {
+      "ko": "발해 최대 영토 (선왕, 818-830)",
+      "en": "Maximum Territory of Balhae (King Seon, 818-830)",
+      "ja": "渤海最大領土（宣王、818-830）"
+    }
+  },
+  "cheonghaejen_map": {
+    "category": "maps",
+    "path": "maps/cheonghaejen_map.webp",
+    "era": "north_south_states",
+    "caption": {
+      "ko": "청해진 위치도 (828)",
+      "en": "Location of Cheonghaejin (828)",
+      "ja": "清海鎮位置図（828年）"
+    }
+  },
+  "jangbogo_portrait": {
+    "category": "portraits",
+    "path": "portraits/jangbogo_portrait.webp",
+    "era": "north_south_states",
+    "caption": {
+      "ko": "장보고 (?-846)",
+      "en": "Jang Bogo (?-846)",
+      "ja": "張保皐（?-846）"
+    }
+  },
+  "balhae_5gyeong_map": {
+    "category": "maps",
+    "path": "maps/balhae_5gyeong_map.webp",
+    "era": "north_south_states",
+    "caption": {
+      "ko": "발해 5경 15부 62주 지도",
+      "en": "Map of Balhae's 5 Capitals, 15 Provinces, 62 Districts",
+      "ja": "渤海五京十五府六十二州図"
+    }
+  },
+  "balhae_stone_lantern": {
+    "category": "artifacts",
+    "path": "artifacts/balhae_stone_lantern.webp",
+    "era": "north_south_states",
+    "caption": {
+      "ko": "발해 석등 (8-9세기, 흥룡사지)",
+      "en": "Balhae Stone Lantern (8th-9th century, Heungyongsa)",
+      "ja": "渤海石灯籠（8-9世紀、興隆寺址）"
+    }
+  },
+  "balhae_buddha_twin": {
+    "category": "sculptures",
+    "path": "sculptures/balhae_buddha_twin.webp",
+    "era": "north_south_states",
+    "caption": {
+      "ko": "발해 이불병좌상 (8-9세기)",
+      "en": "Balhae Twin Buddha Statues (8th-9th century)",
+      "ja": "渤海二仏並坐像（8-9世紀）"
+    }
+  },
+  "balhae_ondol": {
+    "category": "sites",
+    "path": "sites/balhae_ondol.webp",
+    "era": "north_south_states",
+    "caption": {
+      "ko": "발해 온돌 유적 (7-10세기)",
+      "en": "Balhae Ondol Ruins (7th-10th century)",
+      "ja": "渤海オンドル遺跡（7-10世紀）"
+    }
+  },
+  "silla_horse_rider_pottery": {
+    "category": "artifacts",
+    "path": "artifacts/silla_horse_rider_pottery.webp",
+    "era": "three_kingdoms",
+    "caption": {
+      "ko": "기마인물형토기 (국보 제91호, 5-6세기)",
+      "en": "Horse-rider Shaped Pottery (National Treasure No. 91, 5th-6th century)",
+      "ja": "騎馬人物形土器（国宝第91号、5-6世紀）"
+    }
+  },
+  "wanggeon_portrait": {
+    "category": "portraits",
+    "path": "portraits/wanggeon_portrait.webp",
+    "era": "goryeo",
+    "caption": {
+      "ko": "왕건 어진 (재위 918-943)",
+      "en": "Portrait of King Wang Geon (r. 918-943)",
+      "ja": "王建御真（在位918-943）"
+    }
+  },
+  "gwangjong": {
+    "category": "paintings",
+    "path": "paintings/gwangjong.webp",
+    "era": "goryeo",
+    "caption": {
+      "ko": "광종 (재위 949-975)",
+      "en": "King Gwangjong (r. 949-975)",
+      "ja": "光宗（在位949-975）"
+    }
+  },
+  "seohui_portrait": {
+    "category": "portraits",
+    "path": "portraits/seohui_portrait.webp",
+    "era": "goryeo",
+    "caption": {
+      "ko": "서희 초상 (942-998)",
+      "en": "Portrait of Seo Hui (942-998)",
+      "ja": "徐熙肖像（942-998）"
+    }
+  },
+  "gangdong_6ju_map": {
+    "category": "maps",
+    "path": "maps/gangdong_6ju_map.webp",
+    "era": "goryeo",
+    "caption": {
+      "ko": "강동 6주 지도 (993)",
+      "en": "Map of Six Garrison Settlements East of the River (993)",
+      "ja": "江東六州地図（993年）"
+    }
+  },
+  "5do_yangge_map": {
+    "category": "maps",
+    "path": "maps/5do_yangge_map.webp",
+    "era": "goryeo",
+    "caption": {
+      "ko": "고려 5도 양계 지도 (995년 확립)",
+      "en": "Map of 5 Provinces and 2 Border Regions (Est. 995)",
+      "ja": "高麗五道両界地図（995年確立）"
+    }
+  },
+  "ganggamchan_portrait": {
+    "category": "portraits",
+    "path": "portraits/ganggamchan_portrait.webp",
+    "era": "goryeo",
+    "caption": {
+      "ko": "강감찬 초상 (948-1031)",
+      "en": "Portrait of Gang Gam-chan (948-1031)",
+      "ja": "姜邯賛肖像（948-1031）"
+    }
+  },
+  "chojobon_daejanggyeong": {
+    "category": "artifacts",
+    "path": "artifacts/chojobon_daejanggyeong.webp",
+    "era": "goryeo",
+    "caption": {
+      "ko": "초조대장경 (1011-1087)",
+      "en": "First Tripitaka Koreana (1011-1087)",
+      "ja": "初雕大蔵経（1011-1087年）"
+    }
+  },
+  "guju_battle": {
+    "category": "paintings",
+    "path": "paintings/guju_battle.webp",
+    "era": "goryeo",
+    "caption": {
+      "ko": "귀주대첩 기록화 (1019)",
+      "en": "Battle of Guju (1019)",
+      "ja": "亀州大捷記録画（1019年）"
+    }
+  },
+  "byeokrando_map": {
+    "category": "maps",
+    "path": "maps/byeokrando_map.webp",
+    "era": "goryeo",
+    "caption": {
+      "ko": "벽란도 위치 및 교역로 (고려 전기)",
+      "en": "Byeokrando Location and Trade Routes (Early Goryeo)",
+      "ja": "碧瀾渡の位置と交易路（高麗前期）"
+    }
+  },
+  "woljeongsa_pagoda": {
+    "category": "monuments",
+    "path": "monuments/woljeongsa_pagoda.webp",
+    "era": "goryeo",
+    "caption": {
+      "ko": "월정사 8각 9층 석탑 (고려 전기)",
+      "en": "Octagonal 9-story Stone Pagoda, Woljeongsa (Early Goryeo)",
+      "ja": "月精寺八角九重石塔（高麗前期）"
+    }
+  },
+  "goryeo_coin_eunbyeong": {
+    "category": "artifacts",
+    "path": "artifacts/goryeo_coin_eunbyeong.webp",
+    "era": "goryeo",
+    "caption": {
+      "ko": "은병 (1101)",
+      "en": "Eunbyeong Silver Vase Currency (1101)",
+      "ja": "銀瓶（1101年）"
+    }
+  },
+  "byeolmuban": {
+    "category": "paintings",
+    "path": "paintings/byeolmuban.webp",
+    "era": "goryeo",
+    "caption": {
+      "ko": "별무반 (윤관, 1104)",
+      "en": "Byeolmuban Special Army (Yun Gwan, 1104)",
+      "ja": "別武班（尹瓘、1104年）"
+    }
+  },
+  "sanggam_celadon_crane": {
+    "category": "artifacts",
+    "path": "artifacts/sanggam_celadon_crane.webp",
+    "era": "goryeo",
+    "caption": {
+      "ko": "청자 상감운학문 매병 (12세기)",
+      "en": "Celadon Vase with Inlaid Cloud and Crane Design (12th Century)",
+      "ja": "青磁象嵌雲鶴文梅瓶（12世紀）"
+    }
+  },
+  "myocheong_rebellion_map": {
+    "category": "maps",
+    "path": "maps/myocheong_rebellion_map.webp",
+    "era": "goryeo",
+    "caption": {
+      "ko": "묘청의 난 지도 (1135)",
+      "en": "Map of Myocheong's Rebellion (1135)",
+      "ja": "妙清の乱地図（1135年）"
+    }
+  },
+  "samguk_sagi": {
+    "category": "artifacts",
+    "path": "artifacts/samguk_sagi.webp",
+    "era": "goryeo",
+    "caption": {
+      "ko": "삼국사기 (김부식, 1145)",
+      "en": "Samguk Sagi (Kim Bu-sik, 1145)",
+      "ja": "三国史記（金富軾、1145年）"
+    }
+  },
+  "jinul_portrait": {
+    "category": "portraits",
+    "path": "portraits/jinul_portrait.webp",
+    "era": "goryeo",
+    "caption": {
+      "ko": "지눌 (1158-1210)",
+      "en": "Jinul (1158-1210)",
+      "ja": "知訥（1158-1210）"
+    }
+  },
+  "choi_chungheon": {
+    "category": "paintings",
+    "path": "paintings/choi_chungheon.webp",
+    "era": "goryeo",
+    "caption": {
+      "ko": "최충헌 (1149-1219)",
+      "en": "Choe Chung-heon (1149-1219)",
+      "ja": "崔忠献（1149-1219）"
+    }
+  },
+  "musin_regime_illustration": {
+    "category": "illustrations",
+    "path": "illustrations/musin_regime_illustration.webp",
+    "era": "goryeo",
+    "caption": {
+      "ko": "무신정권 (1170~1270)",
+      "en": "Military Regime (1170-1270)",
+      "ja": "武臣政権（1170〜1270）"
+    }
+  },
+  "yi_gyubo_portrait": {
+    "category": "portraits",
+    "path": "portraits/yi_gyubo_portrait.webp",
+    "era": "goryeo",
+    "caption": {
+      "ko": "이규보 초상 (1168-1241)",
+      "en": "Portrait of Yi Gyubo (1168-1241)",
+      "ja": "李奎報肖像（1168-1241）"
+    }
+  },
+  "manjeok_rebellion": {
+    "category": "illustrations",
+    "path": "illustrations/manjeok_rebellion.webp",
+    "era": "goryeo",
+    "caption": {
+      "ko": "만적의 난 (1198)",
+      "en": "Manjeok's Rebellion (1198)",
+      "ja": "万積の乱（1198）"
+    }
+  },
+  "cheoin_battle_painting": {
+    "category": "illustrations",
+    "path": "illustrations/cheoin_battle_painting.webp",
+    "era": "goryeo",
+    "caption": {
+      "ko": "처인성 전투 (1232)",
+      "en": "Battle of Cheoin Fortress (1232)",
+      "ja": "処仁城の戦い（1232年）"
+    }
+  },
+  "ganghwa_palace": {
+    "category": "sites",
+    "path": "sites/ganghwa_palace.webp",
+    "era": "goryeo",
+    "caption": {
+      "ko": "강화 고려궁지 (1232-1270)",
+      "en": "Goryeo Palace Site in Ganghwa (1232-1270)",
+      "ja": "江華高麗宮址（1232-1270年）"
+    }
+  },
+  "tripitaka_koreana": {
+    "category": "artifacts",
+    "path": "artifacts/tripitaka_koreana.webp",
+    "era": "goryeo",
+    "caption": {
+      "ko": "팔만대장경 (1236-1251)",
+      "en": "Tripitaka Koreana (1236-1251)",
+      "ja": "八万大蔵経（1236-1251年）"
+    }
+  },
+  "sambyeolcho_route_map": {
+    "category": "maps",
+    "path": "maps/sambyeolcho_route_map.webp",
+    "era": "goryeo",
+    "caption": {
+      "ko": "삼별초 항쟁 경로 (1270-1273)",
+      "en": "Route of Sambyeolcho Resistance (1270-1273)",
+      "ja": "三別抄抗争経路（1270-1273年）"
+    }
+  },
+  "yuan_interference_map": {
+    "category": "maps",
+    "path": "maps/yuan_interference_map.webp",
+    "era": "goryeo",
+    "caption": {
+      "ko": "원 간섭기 고려 영역 (1270-1356)",
+      "en": "Goryeo Territory during Yuan Interference (1270-1356)",
+      "ja": "元干渉期高麗領域（1270-1356年）"
+    }
+  },
+  "jokduri_artifact": {
+    "category": "artifacts",
+    "path": "artifacts/jokduri_artifact.webp",
+    "era": "goryeo",
+    "caption": {
+      "ko": "족두리 (원 간섭기 유래)",
+      "en": "Jokduri Headpiece (Yuan Interference Period)",
+      "ja": "チョクトゥリ（元干渉期由来）"
+    }
+  },
+  "samguk_yusa": {
+    "category": "artifacts",
+    "path": "artifacts/samguk_yusa.webp",
+    "era": "goryeo",
+    "caption": {
+      "ko": "삼국유사 (일연, 1281)",
+      "en": "Samguk Yusa (Iryeon, 1281)",
+      "ja": "三国遺事（一然、1281年）"
+    }
+  },
+  "jewang_ungi": {
+    "category": "artifacts",
+    "path": "artifacts/jewang_ungi.webp",
+    "era": "goryeo",
+    "caption": {
+      "ko": "제왕운기 (이승휴, 1287)",
+      "en": "Jewang Ungi (Yi Seung-hyu, 1287)",
+      "ja": "帝王韻紀（李承休、1287年）"
+    }
+  },
+  "buseoksa_muryangsujeon": {
+    "category": "sites",
+    "path": "sites/buseoksa_muryangsujeon.webp",
+    "era": "goryeo",
+    "caption": {
+      "ko": "부석사 무량수전 (13세기 재건)",
+      "en": "Muryangsujeon Hall, Buseoksa (Rebuilt 13th Century)",
+      "ja": "浮石寺無量寿殿（13世紀再建）"
+    }
+  },
+  "gyeongcheonsa_pagoda": {
+    "category": "monuments",
+    "path": "monuments/gyeongcheonsa_pagoda.webp",
+    "era": "goryeo",
+    "caption": {
+      "ko": "경천사지 10층 석탑 (1348)",
+      "en": "10-story Stone Pagoda from Gyeongcheonsa (1348)",
+      "ja": "敬天寺址十重石塔（1348年）"
+    }
+  },
+  "gongmin_king_portrait": {
+    "category": "portraits",
+    "path": "portraits/gongmin_king_portrait.webp",
+    "era": "goryeo",
+    "caption": {
+      "ko": "공민왕 어진 (재위 1351-1374)",
+      "en": "Portrait of King Gongmin (r. 1351-1374)",
+      "ja": "恭愍王御真（在位1351-1374）"
+    }
+  },
+  "ssangseong_recovery_map": {
+    "category": "maps",
+    "path": "maps/ssangseong_recovery_map.webp",
+    "era": "goryeo",
+    "caption": {
+      "ko": "쌍성총관부 수복 지도 (1356)",
+      "en": "Recovery of Ssangseong (1356)",
+      "ja": "双城総管府収復地図（1356年）"
+    }
+  },
+  "jikji": {
+    "category": "artifacts",
+    "path": "artifacts/jikji.webp",
+    "era": "goryeo",
+    "caption": {
+      "ko": "직지심체요절 (1377, 세계 최고 금속활자본)",
+      "en": "Jikji (1377, Oldest Metal Movable Type Book)",
+      "ja": "直指心体要節（1377年、世界最古の金属活字本）"
+    }
+  },
+  "gongmin_noguk_portrait": {
+    "category": "portraits",
+    "path": "portraits/gongmin_noguk_portrait.webp",
+    "era": "goryeo",
+    "caption": {
+      "ko": "공민왕과 노국대장공주 초상 (14세기)",
+      "en": "Portraits of King Gongmin and Princess Noguk (14th Century)",
+      "ja": "恭愍王と魯国大長公主肖像（14世紀）"
+    }
+  },
+  "ajipdo_painting": {
+    "category": "paintings",
+    "path": "paintings/ajipdo_painting.webp",
+    "era": "goryeo",
+    "caption": {
+      "ko": "아집도 (14세기)",
+      "en": "Ajipdo - Elegant Gathering (14th Century)",
+      "ja": "雅集図（14世紀）"
+    }
+  },
+  "hwatong": {
+    "category": "artifacts",
+    "path": "artifacts/hwatong.webp",
+    "era": "goryeo",
+    "caption": {
+      "ko": "화통 (최무선, 14세기)",
+      "en": "Hwatong Gunpowder Weapon (Choe Mu-seon, 14th Century)",
+      "ja": "火筒（崔茂宣、14世紀）"
+    }
+  },
+  "palgwanhoe_painting": {
+    "category": "illustrations",
+    "path": "illustrations/palgwanhoe_painting.webp",
+    "era": "goryeo",
+    "caption": {
+      "ko": "팔관회 (상상도)",
+      "en": "Palgwanhoe Festival (Illustration)",
+      "ja": "八関会（想像図）"
+    }
+  },
+  "celadon_openwork_incense_burner": {
+    "category": "artifacts",
+    "path": "artifacts/celadon_openwork_incense_burner.webp",
+    "era": "goryeo",
+    "caption": {
+      "ko": "청자 투각칠보문뚜껑 향로 (국보)",
+      "en": "Celadon Incense Burner with Openwork Chilbo Design Lid (National Treasure)",
+      "ja": "青磁透刻七宝文蓋香炉（国宝）"
+    }
+  },
+  "goryeo_buddhist_painting": {
+    "category": "paintings",
+    "path": "paintings/goryeo_buddhist_painting.webp",
+    "era": "goryeo",
+    "caption": {
+      "ko": "아미타불 삼존도 (고려 불화)",
+      "en": "Amitabha Buddha Triad (Goryeo Buddhist Painting)",
+      "ja": "阿弥陀仏三尊図（高麗仏画）"
+    }
+  },
+  "cheomseongdae_goryeo": {
+    "category": "sites",
+    "path": "sites/cheomseongdae_goryeo.webp",
+    "era": "goryeo",
+    "caption": {
+      "ko": "개성 첨성대 유적 (고려 천문 관측 시설)",
+      "en": "Gaegyeong Cheomseongdae Ruins (Goryeo Astronomical Observatory)",
+      "ja": "開城瞻星台遺跡（高麗天文観測施設）"
+    }
+  },
+  "taejo_portrait": {
+    "category": "portraits",
+    "path": "portraits/taejo_portrait.webp",
+    "era": "joseon_early",
+    "caption": {
+      "ko": "태조 이성계 어진 (재위 1392-1398)",
+      "en": "Portrait of King Taejo (r. 1392-1398)",
+      "ja": "太祖李成桂御真（在位1392-1398）"
+    }
+  },
+  "gyeongbokgung": {
+    "category": "sites",
+    "path": "sites/gyeongbokgung.webp",
+    "era": "joseon_early",
+    "caption": {
+      "ko": "경복궁 전경 (1395년 창건)",
+      "en": "Gyeongbokgung Palace (Built 1395)",
+      "ja": "景福宮全景（1395年創建）"
+    }
+  },
+  "gyeongbokgung_geunjeongjeon": {
+    "category": "sites",
+    "path": "sites/gyeongbokgung_geunjeongjeon.webp",
+    "era": "joseon_early",
+    "caption": {
+      "ko": "경복궁 근정전 (1395년 창건)",
+      "en": "Geunjeongjeon Hall, Gyeongbokgung (Built 1395)",
+      "ja": "景福宮勤政殿（1395年創建）"
+    }
+  },
+  "taejong_portrait": {
+    "category": "portraits",
+    "path": "portraits/taejong_portrait.webp",
+    "era": "joseon_early",
+    "caption": {
+      "ko": "태종 어진 (재위 1400-1418)",
+      "en": "Portrait of King Taejong (r. 1400-1418)",
+      "ja": "太宗御真（在位1400-1418）"
+    }
+  },
+  "honil_gangni_map": {
+    "category": "maps",
+    "path": "maps/honil_gangni_map.webp",
+    "era": "joseon_early",
+    "caption": {
+      "ko": "혼일강리역대국도지도 (1402)",
+      "en": "Honil Gangni World Map (1402)",
+      "ja": "混一疆理歴代国都之図（1402年）"
+    }
+  },
+  "joseon_wangjo_sillok": {
+    "category": "artifacts",
+    "path": "artifacts/joseon_wangjo_sillok.webp",
+    "era": "joseon_early",
+    "caption": {
+      "ko": "조선왕조실록 (1413년 시작)",
+      "en": "Annals of the Joseon Dynasty (Started 1413)",
+      "ja": "朝鮮王朝実録（1413年開始）"
+    }
+  },
+  "jiphyeonjeon": {
+    "category": "sites",
+    "path": "sites/jiphyeonjeon.webp",
+    "era": "joseon_early",
+    "caption": {
+      "ko": "집현전 (1420년 설치)",
+      "en": "Hall of Worthies (Est. 1420)",
+      "ja": "集賢殿（1420年設置）"
+    }
+  },
+  "joseon_coin": {
+    "category": "artifacts",
+    "path": "artifacts/joseon_coin.webp",
+    "era": "joseon_early",
+    "caption": {
+      "ko": "조선통보 (1423)",
+      "en": "Joseon Tongbo Coin (1423)",
+      "ja": "朝鮮通宝（1423年）"
+    }
+  },
+  "nongsa_jikseol": {
+    "category": "artifacts",
+    "path": "artifacts/nongsa_jikseol.webp",
+    "era": "joseon_early",
+    "caption": {
+      "ko": "농사직설 (1429)",
+      "en": "Nongsa Jikseol (1429)",
+      "ja": "農事直説（1429年）"
+    }
+  },
+  "honcheonui": {
+    "category": "artifacts",
+    "path": "artifacts/honcheonui.webp",
+    "era": "joseon_early",
+    "caption": {
+      "ko": "혼천의 (1433)",
+      "en": "Honcheonui Armillary Sphere (1433)",
+      "ja": "渾天儀（1433年）"
+    }
+  },
+  "4gun_6jin_map": {
+    "category": "maps",
+    "path": "maps/4gun_6jin_map.webp",
+    "era": "joseon_early",
+    "caption": {
+      "ko": "4군 6진 개척 지도 (1433-1443)",
+      "en": "Map of Four Forts and Six Garrisons (1433-1443)",
+      "ja": "四郡六鎮開拓図（1433-1443年）"
+    }
+  },
+  "angbuilgu": {
+    "category": "artifacts",
+    "path": "artifacts/angbuilgu.webp",
+    "era": "joseon_early",
+    "caption": {
+      "ko": "앙부일구 (1434)",
+      "en": "Angbuilgu Sundial (1434)",
+      "ja": "仰釜日晷（1434年）"
+    }
+  },
+  "jagyeongnu": {
+    "category": "artifacts",
+    "path": "artifacts/jagyeongnu.webp",
+    "era": "joseon_early",
+    "caption": {
+      "ko": "자격루 (1434)",
+      "en": "Jagyeongnu Water Clock (1434)",
+      "ja": "自撃漏（1434年）"
+    }
+  },
+  "cheugugi": {
+    "category": "artifacts",
+    "path": "artifacts/cheugugi.webp",
+    "era": "joseon_early",
+    "caption": {
+      "ko": "측우기 (1441, 세계 최초)",
+      "en": "Cheugugi Rain Gauge (1441, World's First)",
+      "ja": "測雨器（1441年、世界初）"
+    }
+  },
+  "hunminjeongeum": {
+    "category": "artifacts",
+    "path": "artifacts/hunminjeongeum.webp",
+    "era": "joseon_early",
+    "caption": {
+      "ko": "훈민정음 해례본 (1446)",
+      "en": "Hunminjeongeum Haerye (1446)",
+      "ja": "訓民正音解例本（1446年）"
+    }
+  },
+  "mongyu_dowondo": {
+    "category": "paintings",
+    "path": "paintings/mongyu_dowondo.webp",
+    "era": "joseon_early",
+    "caption": {
+      "ko": "몽유도원도 (안견, 1447)",
+      "en": "Dream Journey to the Peach Blossom Land (An Gyeon, 1447)",
+      "ja": "夢遊桃源図（安堅、1447年）"
+    }
+  },
+  "sejong_portrait": {
+    "category": "portraits",
+    "path": "portraits/sejong_portrait.webp",
+    "era": "joseon_early",
+    "caption": {
+      "ko": "세종대왕 어진 (재위 1418-1450)",
+      "en": "Portrait of King Sejong the Great (r. 1418-1450)",
+      "ja": "世宗大王御真（在位1418-1450）"
+    }
+  },
+  "goryeosa": {
+    "category": "artifacts",
+    "path": "artifacts/goryeosa.webp",
+    "era": "joseon_early",
+    "caption": {
+      "ko": "고려사 (1451)",
+      "en": "Goryeosa (1451)",
+      "ja": "高麗史（1451年）"
+    }
+  },
+  "sejo_portrait": {
+    "category": "portraits",
+    "path": "portraits/sejo_portrait.webp",
+    "era": "joseon_early",
+    "caption": {
+      "ko": "세조 어진 (재위 1455-1468)",
+      "en": "Portrait of King Sejo (r. 1455-1468)",
+      "ja": "世祖御真（在位1455-1468）"
+    }
+  },
+  "sayuksin_painting": {
+    "category": "paintings",
+    "path": "paintings/sayuksin_painting.webp",
+    "era": "joseon_early",
+    "caption": {
+      "ko": "사육신 (1456)",
+      "en": "The Six Martyred Ministers (1456)",
+      "ja": "死六臣（1456年）"
+    }
+  },
+  "dongguk_yeoji_seungram": {
+    "category": "artifacts",
+    "path": "artifacts/dongguk_yeoji_seungram.webp",
+    "era": "joseon_early",
+    "caption": {
+      "ko": "동국여지승람 (1481)",
+      "en": "Dongguk Yeoji Seungram (1481)",
+      "ja": "東国輿地勝覧（1481年）"
+    }
+  },
+  "jo_gwangjo_portrait": {
+    "category": "portraits",
+    "path": "portraits/jo_gwangjo_portrait.webp",
+    "era": "joseon_early",
+    "caption": {
+      "ko": "조광조 초상 (1482-1519)",
+      "en": "Portrait of Jo Gwangjo (1482-1519)",
+      "ja": "趙光祖肖像（1482-1519）"
+    }
+  },
+  "gyeongkuk_daejeon": {
+    "category": "artifacts",
+    "path": "artifacts/gyeongkuk_daejeon.webp",
+    "era": "joseon_early",
+    "caption": {
+      "ko": "경국대전 (1485)",
+      "en": "Gyeongkuk Daejeon (1485)",
+      "ja": "経国大典（1485年）"
+    }
+  },
+  "yi_hwang_portrait": {
+    "category": "portraits",
+    "path": "portraits/yi_hwang_portrait.webp",
+    "era": "joseon_early",
+    "caption": {
+      "ko": "이황 (퇴계) 초상 (1501-1570)",
+      "en": "Portrait of Yi Hwang (Toegye, 1501-1570)",
+      "ja": "李滉（退渓）肖像（1501-1570）"
+    }
+  },
+  "yi_i_portrait": {
+    "category": "portraits",
+    "path": "portraits/yi_i_portrait.webp",
+    "era": "joseon_early",
+    "caption": {
+      "ko": "이이 (율곡) 초상 (1536-1584)",
+      "en": "Portrait of Yi I (Yulgok, 1536-1584)",
+      "ja": "李珥（栗谷）肖像（1536-1584）"
+    }
+  },
+  "gwakjaewoo_bust": {
+    "category": "sculptures",
+    "path": "sculptures/gwakjaewoo_bust.webp",
+    "era": "joseon_early",
+    "caption": {
+      "ko": "곽재우 흉상 (1552-1617)",
+      "en": "Bust of Gwak Jae-woo (1552-1617)",
+      "ja": "郭再祐胸像（1552-1617）"
+    }
+  },
+  "seowon_dosan": {
+    "category": "sites",
+    "path": "sites/seowon_dosan.webp",
+    "era": "joseon_early",
+    "caption": {
+      "ko": "도산서원 (1574년 사액)",
+      "en": "Dosan Seowon (Royal Charter 1574)",
+      "ja": "陶山書院（1574年賜額）"
+    }
+  },
+  "geobukseon": {
+    "category": "illustrations",
+    "path": "illustrations/geobukseon.webp",
+    "era": "joseon_early",
+    "caption": {
+      "ko": "전라좌수영 거북선 (1592)",
+      "en": "Turtle Ship, Jeolla Left Naval Station (1592)",
+      "ja": "全羅左水営亀甲船（1592年）"
+    }
+  },
+  "yi_sunsin_portrait": {
+    "category": "portraits",
+    "path": "portraits/yi_sunsin_portrait.webp",
+    "era": "joseon_early",
+    "caption": {
+      "ko": "이순신 장군 표준영정 (1545-1598)",
+      "en": "Portrait of Admiral Yi Sun-sin (1545-1598)",
+      "ja": "李舜臣将軍標準影幀（1545-1598）"
+    }
+  },
+  "busanjin_battle_painting": {
+    "category": "paintings",
+    "path": "paintings/busanjin_battle_painting.webp",
+    "era": "joseon_early",
+    "caption": {
+      "ko": "부산진순절도 (1592)",
+      "en": "Battle of Busanjin (1592)",
+      "ja": "釜山鎭殉節図（1592年）"
+    }
+  },
+  "hansando_battle_painting": {
+    "category": "paintings",
+    "path": "paintings/hansando_battle_painting.webp",
+    "era": "joseon_early",
+    "caption": {
+      "ko": "한산도 대첩 기록화 (1592)",
+      "en": "Battle of Hansando (1592)",
+      "ja": "閑山島大捷記録画（1592年）"
+    }
+  },
+  "haengju_battle": {
+    "category": "paintings",
+    "path": "paintings/haengju_battle.webp",
+    "era": "joseon_early",
+    "caption": {
+      "ko": "행주대첩 기록화 (1593)",
+      "en": "Battle of Haengju (1593)",
+      "ja": "幸州大捷記録画（1593年）"
+    }
+  },
+  "namhansanseong": {
+    "category": "sites",
+    "path": "sites/namhansanseong.webp",
+    "era": "joseon_early",
+    "caption": {
+      "ko": "남한산성 (1624년 수축)",
+      "en": "Namhansanseong Fortress (Rebuilt 1624)",
+      "ja": "南漢山城（1624年修築）"
+    }
+  },
+  "jeongmyo_horan": {
+    "category": "maps",
+    "path": "maps/jeongmyo_horan.webp",
+    "era": "joseon_early",
+    "caption": {
+      "ko": "정묘호란 전황도 (1627)",
+      "en": "Jeongmyo War Battle Map (1627)",
+      "ja": "丁卯胡乱戦況図（1627年）"
+    }
+  },
+  "byeongja_war_painting": {
+    "category": "paintings",
+    "path": "paintings/byeongja_war_painting.webp",
+    "era": "joseon_early",
+    "caption": {
+      "ko": "병자호란 기록화 (1636-1637)",
+      "en": "Byeongja War (1636-1637)",
+      "ja": "丙子胡乱記録画（1636-1637年）"
+    }
+  },
+  "samjeondo_monument": {
+    "category": "monuments",
+    "path": "monuments/samjeondo_monument.webp",
+    "era": "joseon_early",
+    "caption": {
+      "ko": "삼전도비 (1639)",
+      "en": "Samjeondo Monument (1639)",
+      "ja": "三田渡碑（1639年）"
+    }
+  },
+  "seonggyungwan": {
+    "category": "sites",
+    "path": "sites/seonggyungwan.webp",
+    "era": "joseon_early",
+    "caption": {
+      "ko": "성균관 명륜당",
+      "en": "Myeongnyundang Hall, Seonggyungwan",
+      "ja": "成均館明倫堂"
+    }
+  },
+  "hyanggyo": {
+    "category": "sites",
+    "path": "sites/hyanggyo.webp",
+    "era": "joseon_early",
+    "caption": {
+      "ko": "향교",
+      "en": "Hyanggyo (Local Confucian School)",
+      "ja": "郷校"
+    }
+  },
+  "yangban_attire": {
+    "category": "illustrations",
+    "path": "illustrations/yangban_attire.webp",
+    "era": "joseon_early",
+    "caption": {
+      "ko": "양반의 복식 (갓과 도포)",
+      "en": "Yangban Attire (Gat and Dopo)",
+      "ja": "両班の服飾（カッと道袍）"
+    }
+  },
+  "jokbo_sample": {
+    "category": "artifacts",
+    "path": "artifacts/jokbo_sample.webp",
+    "era": "joseon_early",
+    "caption": {
+      "ko": "족보",
+      "en": "Jokbo (Genealogical Record)",
+      "ja": "族譜"
+    }
+  },
+  "buncheong_jar": {
+    "category": "artifacts",
+    "path": "artifacts/buncheong_jar.webp",
+    "era": "joseon_early",
+    "caption": {
+      "ko": "분청사기 (15세기)",
+      "en": "Buncheong Ware (15th Century)",
+      "ja": "粉青沙器（15世紀）"
+    }
+  },
+  "white_porcelain_joseon": {
+    "category": "artifacts",
+    "path": "artifacts/white_porcelain_joseon.webp",
+    "era": "joseon_early",
+    "caption": {
+      "ko": "조선 백자 (15-16세기)",
+      "en": "Joseon White Porcelain (15-16th Century)",
+      "ja": "朝鮮白磁（15-16世紀）"
+    }
+  },
+  "donguibogam": {
+    "category": "artifacts",
+    "path": "artifacts/donguibogam.webp",
+    "era": "joseon_late",
+    "caption": {
+      "ko": "동의보감 (허준, 1610)",
+      "en": "Dongui Bogam (Heo Jun, 1610)",
+      "ja": "東医宝鑑（許浚、1610年）"
+    }
+  },
+  "bangye_surok": {
+    "category": "artifacts",
+    "path": "artifacts/bangye_surok.webp",
+    "era": "joseon_late",
+    "caption": {
+      "ko": "반계수록 (유형원, 1670)",
+      "en": "Bangye Surok (Yu Hyeong-won, 1670)",
+      "ja": "磻渓随録（柳馨遠、1670年）"
+    }
+  },
+  "sangpyeong_tongbo": {
+    "category": "artifacts",
+    "path": "artifacts/sangpyeong_tongbo.webp",
+    "era": "joseon_late",
+    "caption": {
+      "ko": "상평통보 (숙종, 1678)",
+      "en": "Sangpyeong Tongbo Coin (King Sukjong, 1678)",
+      "ja": "常平通宝（粛宗、1678年）"
+    }
+  },
+  "sukjong_portrait": {
+    "category": "portraits",
+    "path": "portraits/sukjong_portrait.webp",
+    "era": "joseon_late",
+    "caption": {
+      "ko": "숙종 어진 (재위 1674-1720, 환국정치)",
+      "en": "Portrait of King Sukjong (Reign 1674-1720)",
+      "ja": "粛宗御真（在位1674-1720年、換局政治）"
+    }
+  },
+  "baekdusan_jeonggyebi": {
+    "category": "monuments",
+    "path": "monuments/baekdusan_jeonggyebi.webp",
+    "era": "joseon_late",
+    "caption": {
+      "ko": "백두산정계비 (1712, 조선-청 국경)",
+      "en": "Baekdusan Border Stele (1712)",
+      "ja": "白頭山定界碑（1712年、朝鮮・清国境）"
+    }
+  },
+  "song_siyeol_portrait": {
+    "category": "portraits",
+    "path": "portraits/song_siyeol_portrait.webp",
+    "era": "joseon_late",
+    "caption": {
+      "ko": "송시열 초상 (노론 영수)",
+      "en": "Portrait of Song Si-yeol (Noron Leader)",
+      "ja": "宋時烈肖像（老論領袖）"
+    }
+  },
+  "yeongjo_portrait": {
+    "category": "portraits",
+    "path": "portraits/yeongjo_portrait.webp",
+    "era": "joseon_late",
+    "caption": {
+      "ko": "영조 어진 (재위 1724-1776, 탕평정치)",
+      "en": "Portrait of King Yeongjo (Reign 1724-1776)",
+      "ja": "英祖御真（在位1724-1776年、蕩平政治）"
+    }
+  },
+  "tangpyeongbi": {
+    "category": "monuments",
+    "path": "monuments/tangpyeongbi.webp",
+    "era": "joseon_late",
+    "caption": {
+      "ko": "탕평비 (영조, 성균관)",
+      "en": "Tangpyeong Stele (King Yeongjo, Seonggyungwan)",
+      "ja": "蕩平碑（英祖、成均館）"
+    }
+  },
+  "gyunyeokbeop": {
+    "category": "artifacts",
+    "path": "artifacts/gyunyeokbeop.webp",
+    "era": "joseon_late",
+    "caption": {
+      "ko": "균역법 시행 (영조, 1750)",
+      "en": "Uniform Land Tax Law (King Yeongjo, 1750)",
+      "ja": "均役法施行（英祖、1750年）"
+    }
+  },
+  "jeongjo_portrait": {
+    "category": "portraits",
+    "path": "portraits/jeongjo_portrait.webp",
+    "era": "joseon_late",
+    "caption": {
+      "ko": "정조 어진 (재위 1776-1800)",
+      "en": "Portrait of King Jeongjo (Reign 1776-1800)",
+      "ja": "正祖御真（在位1776-1800年）"
+    }
+  },
+  "gyujanggak": {
+    "category": "sites",
+    "path": "sites/gyujanggak.webp",
+    "era": "joseon_late",
+    "caption": {
+      "ko": "규장각 (정조, 1776 설립)",
+      "en": "Gyujanggak Royal Library (Est. 1776)",
+      "ja": "奎章閣（正祖、1776年設立）"
+    }
+  },
+  "yeolha_ilgi": {
+    "category": "artifacts",
+    "path": "artifacts/yeolha_ilgi.webp",
+    "era": "joseon_late",
+    "caption": {
+      "ko": "열하일기 (박지원, 1780)",
+      "en": "Yeolha Ilgi (Park Ji-won, 1780)",
+      "ja": "熱河日記（朴趾源、1780年）"
+    }
+  },
+  "daejeontongpyeon": {
+    "category": "artifacts",
+    "path": "artifacts/daejeontongpyeon.webp",
+    "era": "joseon_late",
+    "caption": {
+      "ko": "대전통편 (정조, 1785)",
+      "en": "Daejeontongpyeon Legal Code (1785)",
+      "ja": "大典通編（正祖、1785年）"
+    }
+  },
+  "sinhaetong_gong": {
+    "category": "illustrations",
+    "path": "illustrations/sinhaetong_gong.webp",
+    "era": "joseon_late",
+    "caption": {
+      "ko": "신해통공 (정조, 1791, 금난전권 폐지)",
+      "en": "Sinhaetong-gong Commercial Reform (1791)",
+      "ja": "辛亥通共（正祖、1791年、禁難廛権廃止）"
+    }
+  },
+  "suwon_hwaseong": {
+    "category": "sites",
+    "path": "sites/suwon_hwaseong.webp",
+    "era": "joseon_late",
+    "caption": {
+      "ko": "수원 화성 (1794-1796 축조)",
+      "en": "Hwaseong Fortress (Built 1794-1796)",
+      "ja": "水原華城（1794-1796年築造）"
+    }
+  },
+  "geojunggi": {
+    "category": "documents",
+    "path": "documents/geojunggi.webp",
+    "era": "joseon_late",
+    "caption": {
+      "ko": "거중기 (정약용 설계, 화성 축조)",
+      "en": "Geojunggi Crane (Designed by Jeong Yak-yong)",
+      "ja": "挙重機（丁若鏞設計、華城築造）"
+    }
+  },
+  "jangyongyeong_reenactment": {
+    "category": "photos",
+    "path": "photos/jangyongyeong_reenactment.webp",
+    "era": "joseon_late",
+    "caption": {
+      "ko": "장용영 (정조의 친위 부대)",
+      "en": "Jangyongyeong (King Jeongjo's Royal Guard)",
+      "ja": "壮勇営（正祖の親衛隊）"
+    }
+  },
+  "jeong_yakyong_portrait": {
+    "category": "portraits",
+    "path": "portraits/jeong_yakyong_portrait.webp",
+    "era": "joseon_late",
+    "caption": {
+      "ko": "정약용 (다산, 실학 집대성)",
+      "en": "Jeong Yak-yong (Dasan, Silhak Scholar)",
+      "ja": "丁若鏞（茶山、実学集大成）"
+    }
+  },
+  "mokmin_simseo": {
+    "category": "artifacts",
+    "path": "artifacts/mokmin_simseo.webp",
+    "era": "joseon_late",
+    "caption": {
+      "ko": "목민심서 (정약용, 1818)",
+      "en": "Mokmin Simseo (Jeong Yak-yong, 1818)",
+      "ja": "牧民心書（丁若鏞、1818年）"
+    }
+  },
+  "dongsa_gangmok": {
+    "category": "artifacts",
+    "path": "artifacts/dongsa_gangmok.webp",
+    "era": "joseon_late",
+    "caption": {
+      "ko": "동사강목 (안정복, 1778)",
+      "en": "Dongsa Gangmok (An Jeong-bok, 1778)",
+      "ja": "東史綱目（安鼎福、1778年）"
+    }
+  },
+  "jeong_seon_painting": {
+    "category": "paintings",
+    "path": "paintings/jeong_seon_painting.webp",
+    "era": "joseon_late",
+    "caption": {
+      "ko": "금강전도 (정선, 진경산수화)",
+      "en": "View of Mt. Geumgang (Jeong Seon, True-view Landscape)",
+      "ja": "金剛全図（鄭敾、真景山水画）"
+    }
+  },
+  "kim_hongdo_ssireum": {
+    "category": "paintings",
+    "path": "paintings/kim_hongdo_ssireum.webp",
+    "era": "joseon_late",
+    "caption": {
+      "ko": "씨름 (김홍도, 풍속화)",
+      "en": "Ssireum Wrestling (Kim Hong-do, Genre Painting)",
+      "ja": "相撲（金弘道、風俗画）"
+    }
+  },
+  "kim_hongdo_seodang": {
+    "category": "paintings",
+    "path": "paintings/kim_hongdo_seodang.webp",
+    "era": "joseon_late",
+    "caption": {
+      "ko": "서당 (김홍도)",
+      "en": "Village School (Kim Hong-do)",
+      "ja": "書堂（金弘道）"
+    }
+  },
+  "kim_hongdo_tajak": {
+    "category": "paintings",
+    "path": "paintings/kim_hongdo_tajak.webp",
+    "era": "joseon_late",
+    "caption": {
+      "ko": "타작 (김홍도)",
+      "en": "Threshing (Kim Hong-do)",
+      "ja": "打作（金弘道）"
+    }
+  },
+  "shin_yunbok_painting": {
+    "category": "paintings",
+    "path": "paintings/shin_yunbok_painting.webp",
+    "era": "joseon_late",
+    "caption": {
+      "ko": "미인도 (신윤복)",
+      "en": "Portrait of a Beauty (Shin Yun-bok)",
+      "ja": "美人図（申潤福）"
+    }
+  },
+  "iyang_method": {
+    "category": "paintings",
+    "path": "paintings/iyang_method.webp",
+    "era": "joseon_late",
+    "caption": {
+      "ko": "이앙법 (모내기, 조선 후기 보급)",
+      "en": "Rice Transplanting Method (Late Joseon)",
+      "ja": "移秧法（田植え、朝鮮後期普及）"
+    }
+  },
+  "kim_haksu_jongno": {
+    "category": "paintings",
+    "path": "paintings/kim_haksu_jongno.webp",
+    "era": "joseon_late",
+    "caption": {
+      "ko": "종로 (김학수, 상업 발달)",
+      "en": "Jongno Street (Kim Hak-su, Commercial Development)",
+      "ja": "鍾路（金學洙、商業発達）"
+    }
+  },
+  "gongmyeongcheop": {
+    "category": "artifacts",
+    "path": "artifacts/gongmyeongcheop.webp",
+    "era": "joseon_late",
+    "caption": {
+      "ko": "공명첩 (납속책, 신분제 동요)",
+      "en": "Gongmyeongcheop Empty Title Certificate",
+      "ja": "空名帖（納粟策、身分制動揺）"
+    }
+  },
+  "sinyu_bakhae": {
+    "category": "illustrations",
+    "path": "illustrations/sinyu_bakhae.webp",
+    "era": "joseon_late",
+    "caption": {
+      "ko": "신유박해 (1801, 순조)",
+      "en": "Sinyu Persecution of Catholics (1801)",
+      "ja": "辛酉迫害（1801年、純祖）"
+    }
+  },
+  "hong_gyeongnae_rebellion_soldiers": {
+    "category": "illustrations",
+    "path": "illustrations/hong_gyeongnae_rebellion_soldiers.webp",
+    "era": "joseon_late",
+    "caption": {
+      "ko": "홍경래의 난 (1811, 평안도 차별)",
+      "en": "Hong Gyeong-nae's Rebellion (1811)",
+      "ja": "洪景来の乱（1811年、平安道差別）"
+    }
+  },
+  "sehando": {
+    "category": "paintings",
+    "path": "paintings/sehando.webp",
+    "era": "joseon_late",
+    "caption": {
+      "ko": "세한도 (김정희, 1844)",
+      "en": "Sehando (Kim Jeong-hui, 1844)",
+      "ja": "歳寒図（金正喜、1844年）"
+    }
+  },
+  "choe_jewu_portrait": {
+    "category": "portraits",
+    "path": "portraits/choe_jewu_portrait.webp",
+    "era": "joseon_late",
+    "caption": {
+      "ko": "최제우 (동학 창시, 1860)",
+      "en": "Choe Je-u (Founder of Donghak, 1860)",
+      "ja": "崔済愚（東学創始、1860年）"
+    }
+  },
+  "dongguk_jido": {
+    "category": "maps",
+    "path": "maps/dongguk_jido.webp",
+    "era": "joseon_late",
+    "caption": {
+      "ko": "동국지도 (정상기, 1740년대)",
+      "en": "Dongguk Jido (Jeong Sang-gi, 1740s)",
+      "ja": "東国地図（鄭尚驥、1740年代）"
+    }
+  },
+  "daedongyeojido": {
+    "category": "maps",
+    "path": "maps/daedongyeojido.webp",
+    "era": "joseon_late",
+    "caption": {
+      "ko": "대동여지도 (김정호, 1861)",
+      "en": "Daedongyeojido Map (Kim Jeong-ho, 1861)",
+      "ja": "大東輿地図（金正浩、1861年）"
+    }
+  },
+  "imsul_minran": {
+    "category": "illustrations",
+    "path": "illustrations/imsul_minran.webp",
+    "era": "joseon_late",
+    "caption": {
+      "ko": "임술민란 (1862, 진주민란, 삼정의 문란)",
+      "en": "Imsul Peasant Uprising (1862, Jinju)",
+      "ja": "壬戌民乱（1862年、晋州民乱、三政の紊乱）"
+    }
+  },
+  "catholic_persecution": {
+    "category": "illustrations",
+    "path": "illustrations/catholic_persecution.webp",
+    "era": "joseon_late",
+    "caption": {
+      "ko": "천주교 박해 (병인박해, 1866)",
+      "en": "Catholic Persecution (Byeongin, 1866)",
+      "ja": "天主教迫害（丙寅迫害、1866年）"
+    }
+  },
+  "heungseon_daewongun_portrait": {
+    "category": "portraits",
+    "path": "portraits/heungseon_daewongun_portrait.webp",
+    "era": "modern",
+    "caption": {
+      "ko": "흥선 대원군 (섭정 1863-1873)",
+      "en": "Heungseon Daewongun (Regent 1863-1873)",
+      "ja": "興宣大院君（摂政1863-1873年）"
+    }
+  },
+  "gojong_emperor_portrait": {
+    "category": "portraits",
+    "path": "portraits/gojong_emperor_portrait.webp",
+    "era": "modern",
+    "caption": {
+      "ko": "고종 황제 어진 (재위 1863-1907)",
+      "en": "Emperor Gojong (Reign 1863-1907)",
+      "ja": "高宗皇帝御真（在位1863-1907年）"
+    }
+  },
+  "gyeongbokgung_reconstruction": {
+    "category": "illustrations",
+    "path": "illustrations/gyeongbokgung_reconstruction.webp",
+    "era": "modern",
+    "caption": {
+      "ko": "경복궁 중건 (1865-1872)",
+      "en": "Reconstruction of Gyeongbokgung (1865-1872)",
+      "ja": "景福宮重建（1865-1872年）"
+    }
+  },
+  "byeongin_yangyo": {
+    "category": "illustrations",
+    "path": "illustrations/byeongin_yangyo.webp",
+    "era": "modern",
+    "caption": {
+      "ko": "병인양요 (1866, 프랑스 침략)",
+      "en": "French Campaign against Korea (1866)",
+      "ja": "丙寅洋擾（1866年、フランス侵略）"
+    }
+  },
+  "sinmi_yangyo": {
+    "category": "photos",
+    "path": "photos/sinmi_yangyo.webp",
+    "era": "modern",
+    "caption": {
+      "ko": "신미양요 (1871, 미국 침략)",
+      "en": "United States Expedition to Korea (1871)",
+      "ja": "辛未洋擾（1871年、アメリカ侵略）"
+    }
+  },
+  "cheokhwabi": {
+    "category": "photos",
+    "path": "photos/cheokhwabi.webp",
+    "era": "modern",
+    "caption": {
+      "ko": "척화비 (1871)",
+      "en": "Cheokhwabi - Anti-Foreign Stele (1871)",
+      "ja": "斥和碑（1871年）"
+    }
+  },
+  "seowon_demolition": {
+    "category": "illustrations",
+    "path": "illustrations/seowon_demolition.webp",
+    "era": "modern",
+    "caption": {
+      "ko": "서원 철폐 (1871, 47개소만 존속)",
+      "en": "Abolition of Seowon (1871, Only 47 Remained)",
+      "ja": "書院撤廃（1871年、47ヶ所のみ存続）"
+    }
+  },
+  "ganghwado_battle": {
+    "category": "illustrations",
+    "path": "illustrations/ganghwado_battle.webp",
+    "era": "modern",
+    "caption": {
+      "ko": "운요호 사건 (1875)",
+      "en": "Unyo Incident (1875)",
+      "ja": "雲揚号事件（1875年）"
+    }
+  },
+  "ganghwa_treaty_signing": {
+    "category": "photos",
+    "path": "photos/ganghwa_treaty_signing.webp",
+    "era": "modern",
+    "caption": {
+      "ko": "강화도 조약 체결 (1876.2.27, 최초 근대 조약)",
+      "en": "Treaty of Ganghwa (Feb 27, 1876, First Modern Treaty)",
+      "ja": "江華島条約締結（1876.2.27、最初の近代条約）"
+    }
+  },
+  "kim_okgyun_portrait": {
+    "category": "portraits",
+    "path": "portraits/kim_okgyun_portrait.webp",
+    "era": "modern",
+    "caption": {
+      "ko": "김옥균 (개화파 지도자)",
+      "en": "Kim Ok-gyun (Enlightenment Party Leader)",
+      "ja": "金玉均（開化派指導者）"
+    }
+  },
+  "byeolgigun": {
+    "category": "photos",
+    "path": "photos/byeolgigun.webp",
+    "era": "modern",
+    "caption": {
+      "ko": "별기군 (1881, 신식 군대)",
+      "en": "Byeolgigun - Modern Army Unit (1881)",
+      "ja": "別技軍（1881年、新式軍隊）"
+    }
+  },
+  "jomi_suho_tongsang_joyak": {
+    "category": "photos",
+    "path": "photos/jomi_suho_tongsang_joyak.webp",
+    "era": "modern",
+    "caption": {
+      "ko": "조미수호통상조약 (1882.5.22, 최초 서양 조약)",
+      "en": "Korea-US Treaty of Amity and Commerce (May 22, 1882)",
+      "ja": "朝米修好通商条約（1882.5.22、最初の西洋条約）"
+    }
+  },
+  "imo_mutiny_attack": {
+    "category": "illustrations",
+    "path": "illustrations/imo_mutiny_attack.webp",
+    "era": "modern",
+    "caption": {
+      "ko": "임오군란 (1882.6, 구식 군대 봉기)",
+      "en": "Imo Mutiny (Jun 1882, Old Army Uprising)",
+      "ja": "壬午軍乱（1882年6月、旧式軍隊蜂起）"
+    }
+  },
+  "gapsin_coup_leaders": {
+    "category": "photos",
+    "path": "photos/gapsin_coup_leaders.webp",
+    "era": "modern",
+    "caption": {
+      "ko": "갑신정변 주역들 (1884.12.4, 3일 천하)",
+      "en": "Leaders of Gapsin Coup (Dec 4, 1884)",
+      "ja": "甲申政変の主役たち（1884.12.4、三日天下）"
+    }
+  },
+  "jeon_bongjun_portrait": {
+    "category": "portraits",
+    "path": "portraits/jeon_bongjun_portrait.webp",
+    "era": "modern",
+    "caption": {
+      "ko": "전봉준 (동학농민운동 지도자)",
+      "en": "Jeon Bong-jun (Donghak Peasant Movement Leader)",
+      "ja": "全琫準（東学農民運動指導者）"
+    }
+  },
+  "donghak_baeksan": {
+    "category": "paintings",
+    "path": "paintings/donghak_baeksan.webp",
+    "era": "modern",
+    "caption": {
+      "ko": "동학 농민군 백산 봉기 (1894.3)",
+      "en": "Donghak Peasant Army Uprising at Baeksan (Mar 1894)",
+      "ja": "東学農民軍の白山蜂起（1894年3月）"
+    }
+  },
+  "myeongseong_empress_portrait": {
+    "category": "portraits",
+    "path": "portraits/myeongseong_empress_portrait.webp",
+    "era": "modern",
+    "caption": {
+      "ko": "명성황후 어진 (을미사변 시해, 1895.10.8)",
+      "en": "Empress Myeongseong (Assassinated Oct 8, 1895)",
+      "ja": "明成皇后御真（乙未事変弑害、1895.10.8）"
+    }
+  },
+  "yu_inseok_portrait": {
+    "category": "portraits",
+    "path": "portraits/yu_inseok_portrait.webp",
+    "era": "modern",
+    "caption": {
+      "ko": "유인석 (을미의병 호좌의병대장, 1895)",
+      "en": "Yu In-seok (Eulmi Righteous Army Commander, 1895)",
+      "ja": "柳麟錫（乙未義兵湖左義兵大将、1895年）"
+    }
+  },
+  "danbalryeong": {
+    "category": "illustrations",
+    "path": "illustrations/danbalryeong.webp",
+    "era": "modern",
+    "caption": {
+      "ko": "단발령 시행 (1895.12.30)",
+      "en": "Hair-cutting Edict (Dec 30, 1895)",
+      "ja": "断髪令施行（1895.12.30）"
+    }
+  },
+  "agwan_pacheon": {
+    "category": "sites",
+    "path": "sites/agwan_pacheon.webp",
+    "era": "modern",
+    "caption": {
+      "ko": "아관파천 (1896.2.11, 러시아 공사관 피신)",
+      "en": "Royal Refuge at Russian Legation (Feb 11, 1896)",
+      "ja": "俄館播遷（1896.2.11、ロシア公使館避難）"
+    }
+  },
+  "dongnip_sinmun": {
+    "category": "artifacts",
+    "path": "artifacts/dongnip_sinmun.webp",
+    "era": "modern",
+    "caption": {
+      "ko": "독립신문 창간 (1896.4.7, 서재필)",
+      "en": "The Independent Founding (Apr 7, 1896)",
+      "ja": "独立新聞創刊（1896.4.7、徐載弼）"
+    }
+  },
+  "dongnip_mun": {
+    "category": "monuments",
+    "path": "monuments/dongnip_mun.webp",
+    "era": "modern",
+    "caption": {
+      "ko": "독립문 (1897, 독립협회 건립)",
+      "en": "Independence Gate (1897, Built by Independence Club)",
+      "ja": "独立門（1897年、独立協会建立）"
+    }
+  },
+  "daehan_jeguk": {
+    "category": "illustrations",
+    "path": "illustrations/daehan_jeguk.webp",
+    "era": "modern",
+    "caption": {
+      "ko": "대한제국 선포 (1897.10.12, 광무개혁)",
+      "en": "Proclamation of Korean Empire (Oct 12, 1897)",
+      "ja": "大韓帝国宣布（1897.10.12、光武改革）"
+    }
+  },
+  "hwangudan": {
+    "category": "monuments",
+    "path": "monuments/hwangudan.webp",
+    "era": "modern",
+    "caption": {
+      "ko": "환구단 (1897, 황제 즉위식 거행)",
+      "en": "Hwangudan Altar (1897, Emperor Coronation Site)",
+      "ja": "圜丘壇（1897年、皇帝即位式挙行）"
+    }
+  },
+  "manmin_gongdonghoe": {
+    "category": "photos",
+    "path": "photos/manmin_gongdonghoe.webp",
+    "era": "modern",
+    "caption": {
+      "ko": "만민공동회 (1898, 독립협회 주도)",
+      "en": "Manmin Gongdonghoe Assembly (1898)",
+      "ja": "万民共同会（1898年、独立協会主導）"
+    }
+  },
+  "jemulpo_concession": {
+    "category": "photos",
+    "path": "photos/jemulpo_concession.webp",
+    "era": "modern",
+    "caption": {
+      "ko": "제물포 청·일 조계지 (개항장)",
+      "en": "Chinese and Japanese Concessions in Jemulpo",
+      "ja": "済物浦の清・日租界（開港場）"
+    }
+  },
+  "daehan_maeil_sinbo": {
+    "category": "artifacts",
+    "path": "artifacts/daehan_maeil_sinbo.webp",
+    "era": "modern",
+    "caption": {
+      "ko": "대한매일신보 창간 (1904, 베델·양기탁)",
+      "en": "Korea Daily News (1904, Bethell & Yang Gi-tak)",
+      "ja": "大韓毎日申報創刊（1904年、ベセル・梁起鐸）"
+    }
+  },
+  "eulsa_treaty": {
+    "category": "artifacts",
+    "path": "artifacts/eulsa_treaty.webp",
+    "era": "modern",
+    "caption": {
+      "ko": "을사늑약 (1905.11.17, 외교권 박탈)",
+      "en": "Eulsa Treaty (Nov 17, 1905)",
+      "ja": "乙巳条約（1905.11.17、外交権剝奪）"
+    }
+  },
+  "ito_hirobumi_portrait": {
+    "category": "photos",
+    "path": "photos/ito_hirobumi_portrait.webp",
+    "era": "modern",
+    "caption": {
+      "ko": "이토 히로부미 (초대 통감, 1906)",
+      "en": "Ito Hirobumi (First Resident-General, 1906)",
+      "ja": "伊藤博文（初代統監、1906年）"
+    }
+  },
+  "choe_ikhyeon_portrait": {
+    "category": "portraits",
+    "path": "portraits/choe_ikhyeon_portrait.webp",
+    "era": "modern",
+    "caption": {
+      "ko": "최익현 (을사의병 거병, 1906)",
+      "en": "Choe Ik-hyeon (Eulsa Righteous Army, 1906)",
+      "ja": "崔益鉉（乙巳義兵挙兵、1906年）"
+    }
+  },
+  "hague_emissary": {
+    "category": "photos",
+    "path": "photos/hague_emissary.webp",
+    "era": "modern",
+    "caption": {
+      "ko": "헤이그 특사 (1907, 이준·이상설·이위종)",
+      "en": "Hague Emissaries (1907)",
+      "ja": "ハーグ密使（1907年、李儁・李相卨・李瑋鍾）"
+    }
+  },
+  "jeongmi_uibyeong": {
+    "category": "photos",
+    "path": "photos/jeongmi_uibyeong.webp",
+    "era": "modern",
+    "caption": {
+      "ko": "정미의병 (1907, 군대 해산 후 봉기)",
+      "en": "Jeongmi Righteous Army (1907)",
+      "ja": "丁未義兵（1907年、軍隊解散後蜂起）"
+    }
+  },
+  "13do_army_monument": {
+    "category": "monuments",
+    "path": "monuments/13do_army_monument.webp",
+    "era": "modern",
+    "caption": {
+      "ko": "13도 창의군 기념탑 (1907, 서울 진공 작전)",
+      "en": "Monument of 13 Province Righteous Army (1907)",
+      "ja": "十三道倡義軍記念塔（1907年、ソウル進攻作戦）"
+    }
+  },
+  "sinminhoe_leaders": {
+    "category": "photos",
+    "path": "photos/sinminhoe_leaders.webp",
+    "era": "modern",
+    "caption": {
+      "ko": "신민회 (1907, 비밀결사 독립운동 단체)",
+      "en": "Sinminhoe (1907, Secret Independence Organization)",
+      "ja": "新民会（1907年、秘密結社独立運動団体）"
+    }
+  },
+  "gukchae_bosang": {
+    "category": "illustrations",
+    "path": "illustrations/gukchae_bosang.webp",
+    "era": "modern",
+    "caption": {
+      "ko": "국채보상운동 (1907, 대구에서 시작)",
+      "en": "National Debt Repayment Movement (1907, Started in Daegu)",
+      "ja": "国債報償運動（1907年、大邱で開始）"
+    }
+  },
+  "osan_school": {
+    "category": "photos",
+    "path": "photos/osan_school.webp",
+    "era": "modern",
+    "caption": {
+      "ko": "오산학교 (1907, 이승훈 설립)",
+      "en": "Osan School (1907, Founded by Yi Seung-hun)",
+      "ja": "五山学校（1907年、李昇薫設立）"
+    }
+  },
+  "an_junggeun_portrait": {
+    "category": "photos",
+    "path": "photos/an_junggeun_portrait.webp",
+    "era": "modern",
+    "caption": {
+      "ko": "안중근 의사 (이토 히로부미 저격, 1909.10.26)",
+      "en": "An Jung-geun (Assassination of Ito Hirobumi, Oct 26, 1909)",
+      "ja": "安重根義士（伊藤博文狙撃、1909.10.26）"
+    }
+  },
+  "annexation_treaty": {
+    "category": "artifacts",
+    "path": "artifacts/annexation_treaty.webp",
+    "era": "modern",
+    "caption": {
+      "ko": "한일병합조약 (1910.8.29, 경술국치)",
+      "en": "Japan-Korea Annexation Treaty (Aug 29, 1910)",
+      "ja": "韓国併合条約（1910.8.29、庚戌国恥）"
+    }
+  },
+  "joseon_chongdokbu": {
+    "category": "sites",
+    "path": "sites/joseon_chongdokbu.webp",
+    "era": "japanese_occupation",
+    "caption": {
+      "ko": "조선총독부 청사 (1910-1945)",
+      "en": "Government-General Building (1910-1945)",
+      "ja": "朝鮮総督府庁舎（1910-1945年）"
+    }
+  },
+  "heonbyeong_police": {
+    "category": "photos",
+    "path": "photos/heonbyeong_police.webp",
+    "era": "japanese_occupation",
+    "caption": {
+      "ko": "경술국치 전후 조선에 파견된 일본 헌병들 (1910)",
+      "en": "Japanese Military Police Dispatched to Korea (1910)",
+      "ja": "韓国併合前後に朝鮮に派遣された日本憲兵（1910年）"
+    }
+  },
+  "land_survey": {
+    "category": "photos",
+    "path": "photos/land_survey.webp",
+    "era": "japanese_occupation",
+    "caption": {
+      "ko": "토지조사 사업 (1910-1918)",
+      "en": "Japanese Land Survey (1910-1918)",
+      "ja": "土地調査事業（1910-1918年）"
+    }
+  },
+  "oriental_development_company": {
+    "category": "photos",
+    "path": "photos/oriental_development_company.webp",
+    "era": "japanese_occupation",
+    "caption": {
+      "ko": "동양척식주식회사 건물 (1908 설립)",
+      "en": "Oriental Development Company Building (Est. 1908)",
+      "ja": "東洋拓殖株式会社社屋（1908年設立）"
+    }
+  },
+  "sinheung_military_school": {
+    "category": "sites",
+    "path": "sites/sinheung_military_school.webp",
+    "era": "japanese_occupation",
+    "caption": {
+      "ko": "신흥무관학교 등용문 (1911-1920)",
+      "en": "Sinheung Military School Gate (1911-1920)",
+      "ja": "新興武官学校登龍門（1911-1920年）"
+    }
+  },
+  "ahn_changho_portrait": {
+    "category": "portraits",
+    "path": "portraits/ahn_changho_portrait.webp",
+    "era": "japanese_occupation",
+    "caption": {
+      "ko": "안창호 선생 (흥사단 1913 · 대한인국민회 창립)",
+      "en": "Ahn Chang-ho (Founder of Heungsadan 1913, Korean National Association)",
+      "ja": "安昌浩先生（興士団1913年・大韓人国民会創立）"
+    }
+  },
+  "february_8_declaration": {
+    "category": "artifacts",
+    "path": "artifacts/february_8_declaration.webp",
+    "era": "japanese_occupation",
+    "caption": {
+      "ko": "2·8 독립선언서 (1919.2.8)",
+      "en": "February 8th Declaration of Independence (Feb 8, 1919)",
+      "ja": "二・八独立宣言書（1919.2.8）"
+    }
+  },
+  "march_1st_declaration": {
+    "category": "artifacts",
+    "path": "artifacts/march_1st_declaration.webp",
+    "era": "japanese_occupation",
+    "caption": {
+      "ko": "3·1 독립 선언서 (1919.3.1)",
+      "en": "March 1st Declaration of Independence (Mar 1, 1919)",
+      "ja": "三・一独立宣言書（1919.3.1）"
+    }
+  },
+  "tapgol_park": {
+    "category": "sites",
+    "path": "sites/tapgol_park.webp",
+    "era": "japanese_occupation",
+    "caption": {
+      "ko": "탑골공원 (3·1 운동 발상지, 1919)",
+      "en": "Tapgol Park (Birthplace of March 1st Movement, 1919)",
+      "ja": "塔洞公園（三・一運動発祥地、1919年）"
+    }
+  },
+  "march_1st_crowd": {
+    "category": "illustrations",
+    "path": "illustrations/march_1st_crowd.webp",
+    "era": "japanese_occupation",
+    "caption": {
+      "ko": "3·1 운동 만세 시위 (1919)",
+      "en": "March 1st Movement Demonstration (1919)",
+      "ja": "三・一運動万歳デモ（1919年）"
+    }
+  },
+  "yu_gwansun_portrait": {
+    "category": "portraits",
+    "path": "portraits/yu_gwansun_portrait.webp",
+    "era": "japanese_occupation",
+    "caption": {
+      "ko": "유관순 열사 (아우내 장터 만세운동, 1919)",
+      "en": "Yu Gwan-sun (Aunae Marketplace Protest, 1919)",
+      "ja": "柳寛順烈士（アウネ市場万歳運動、1919年）"
+    }
+  },
+  "jeamri_massacre": {
+    "category": "sites",
+    "path": "sites/jeamri_massacre.webp",
+    "era": "japanese_occupation",
+    "caption": {
+      "ko": "일본군이 방화한 제암리 교회 (1919.4.15)",
+      "en": "Jeam-ri Church Burned by Japanese Soldiers (Apr 15, 1919)",
+      "ja": "日本軍が放火した堤岩里教会（1919.4.15）"
+    }
+  },
+  "provisional_government_building": {
+    "category": "sites",
+    "path": "sites/provisional_government_building.webp",
+    "era": "japanese_occupation",
+    "caption": {
+      "ko": "대한민국 임시정부 청사 (상하이, 1919)",
+      "en": "Provisional Government Building (Shanghai, 1919)",
+      "ja": "大韓民国臨時政府庁舎（上海、1919年）"
+    }
+  },
+  "kim_gu_portrait": {
+    "category": "portraits",
+    "path": "portraits/kim_gu_portrait.webp",
+    "era": "japanese_occupation",
+    "caption": {
+      "ko": "김구 선생 (임시정부 주석)",
+      "en": "Kim Gu (President of Provisional Government)",
+      "ja": "金九先生（臨時政府主席）"
+    }
+  },
+  "kim_wonbong_portrait": {
+    "category": "portraits",
+    "path": "portraits/kim_wonbong_portrait.webp",
+    "era": "japanese_occupation",
+    "caption": {
+      "ko": "김원봉 (의열단 창립, 1919)",
+      "en": "Kim Won-bong (Founder of Uiyeoldan, 1919)",
+      "ja": "金元鳳（義烈団創立、1919年）"
+    }
+  },
+  "cultural_rule_newspaper": {
+    "category": "artifacts",
+    "path": "artifacts/cultural_rule_newspaper.webp",
+    "era": "japanese_occupation",
+    "caption": {
+      "ko": "조선일보 창간 (1920.3.5)",
+      "en": "Chosun Ilbo Founding (Mar 5, 1920)",
+      "ja": "朝鮮日報創刊（1920.3.5）"
+    }
+  },
+  "sanmi_jeungsan": {
+    "category": "photos",
+    "path": "photos/sanmi_jeungsan.webp",
+    "era": "japanese_occupation",
+    "caption": {
+      "ko": "군산항의 쌀 포대 (산미증식계획, 1920-1934)",
+      "en": "Rice Bags at Gunsan Port (Rice Production Plan, 1920-1934)",
+      "ja": "群山港の米俵（産米増殖計画、1920-1934年）"
+    }
+  },
+  "hong_beomdo_portrait": {
+    "category": "portraits",
+    "path": "portraits/hong_beomdo_portrait.webp",
+    "era": "japanese_occupation",
+    "caption": {
+      "ko": "홍범도 장군 (봉오동·청산리 전투)",
+      "en": "General Hong Beom-do (Bongodong & Cheongsanri Battles)",
+      "ja": "洪範図将軍（鳳梧洞・青山里の戦い）"
+    }
+  },
+  "kim_jwajin_portrait": {
+    "category": "portraits",
+    "path": "portraits/kim_jwajin_portrait.webp",
+    "era": "japanese_occupation",
+    "caption": {
+      "ko": "김좌진 장군 (청산리 대첩)",
+      "en": "General Kim Jwa-jin (Battle of Cheongsanri)",
+      "ja": "金佐鎮将軍（青山里大捷）"
+    }
+  },
+  "bongodong_battle": {
+    "category": "illustrations",
+    "path": "illustrations/bongodong_battle.webp",
+    "era": "japanese_occupation",
+    "caption": {
+      "ko": "봉오동 전투 (1920.6)",
+      "en": "Battle of Bongodong (Jun 1920)",
+      "ja": "鳳梧洞の戦い（1920年6月）"
+    }
+  },
+  "cheongsanri_battle": {
+    "category": "illustrations",
+    "path": "illustrations/cheongsanri_battle.webp",
+    "era": "japanese_occupation",
+    "caption": {
+      "ko": "청산리 대첩 (1920.10)",
+      "en": "Battle of Cheongsanri (Oct 1920)",
+      "ja": "青山里大捷（1920年10月）"
+    }
+  },
+  "independence_activists_manchuria": {
+    "category": "photos",
+    "path": "photos/independence_activists_manchuria.webp",
+    "era": "japanese_occupation",
+    "caption": {
+      "ko": "임시정부 육군주만참의부 대원들 (1920년대)",
+      "en": "Members of Chameuibu in Manchuria (1920s)",
+      "ja": "臨時政府陸軍駐満参議府隊員（1920年代）"
+    }
+  },
+  "mulsan_jangryeo": {
+    "category": "artifacts",
+    "path": "artifacts/mulsan_jangryeo.webp",
+    "era": "japanese_occupation",
+    "caption": {
+      "ko": "물산장려운동 광고 (1920년대)",
+      "en": "Buy Korean Products Campaign Advertisement (1920s)",
+      "ja": "物産奨励運動広告（1920年代）"
+    }
+  },
+  "amtaedo_struggle": {
+    "category": "monuments",
+    "path": "monuments/amtaedo_struggle.webp",
+    "era": "japanese_occupation",
+    "caption": {
+      "ko": "암태도 소작인 항쟁 기념탑 (1923)",
+      "en": "Amtaedo Tenant Struggle Memorial Tower (1923)",
+      "ja": "岩太島小作人抗争記念塔（1923年）"
+    }
+  },
+  "gyeongseong_university": {
+    "category": "sites",
+    "path": "sites/gyeongseong_university.webp",
+    "era": "japanese_occupation",
+    "caption": {
+      "ko": "경성제국대학 (1926)",
+      "en": "Keijo Imperial University (1926)",
+      "ja": "京城帝国大学（1926年）"
+    }
+  },
+  "june_10_movement": {
+    "category": "photos",
+    "path": "photos/june_10_movement.webp",
+    "era": "japanese_occupation",
+    "caption": {
+      "ko": "6·10 만세운동 (1926.6.10, 순종 인산일)",
+      "en": "June 10th Independence Movement (Jun 10, 1926)",
+      "ja": "六・一〇万歳運動（1926.6.10、純宗国葬日）"
+    }
+  },
+  "na_seokju_portrait": {
+    "category": "portraits",
+    "path": "portraits/na_seokju_portrait.webp",
+    "era": "japanese_occupation",
+    "caption": {
+      "ko": "나석주 의사 (동양척식주식회사 의거, 1926.12.28)",
+      "en": "Na Seok-ju (Oriental Development Company Attack, Dec 28, 1926)",
+      "ja": "羅錫疇義士（東洋拓殖株式会社義挙、1926.12.28）"
+    }
+  },
+  "singanhoe_founding": {
+    "category": "photos",
+    "path": "photos/singanhoe_founding.webp",
+    "era": "japanese_occupation",
+    "caption": {
+      "ko": "신간회 창립 (1927.2.15)",
+      "en": "Founding of Singanhoe (Feb 15, 1927)",
+      "ja": "新幹会創立（1927.2.15）"
+    }
+  },
+  "geunuhoe_founding": {
+    "category": "artifacts",
+    "path": "artifacts/geunuhoe_founding.webp",
+    "era": "japanese_occupation",
+    "caption": {
+      "ko": "근우회 창립 (1927.5, 여성 독립운동 단체)",
+      "en": "Founding of Geunuhoe (May 1927, Women's Independence Organization)",
+      "ja": "槿友会創立（1927年5月、女性独立運動団体）"
+    }
+  },
+  "wonsan_strike": {
+    "category": "photos",
+    "path": "photos/wonsan_strike.webp",
+    "era": "japanese_occupation",
+    "caption": {
+      "ko": "원산 총파업 (1929.1-4)",
+      "en": "Wonsan General Strike (Jan-Apr 1929)",
+      "ja": "元山総罷業（1929年1-4月）"
+    }
+  },
+  "gwangju_student_movement": {
+    "category": "photos",
+    "path": "photos/gwangju_student_movement.webp",
+    "era": "japanese_occupation",
+    "caption": {
+      "ko": "광주학생항일운동 (1929.11.3)",
+      "en": "Gwangju Student Independence Movement (Nov 3, 1929)",
+      "ja": "光州学生抗日運動（1929.11.3）"
+    }
+  },
+  "shin_chaeho_portrait": {
+    "category": "portraits",
+    "path": "portraits/shin_chaeho_portrait.webp",
+    "era": "japanese_occupation",
+    "caption": {
+      "ko": "신채호 선생 (민족주의 역사학자)",
+      "en": "Shin Chae-ho (Nationalist Historian)",
+      "ja": "申采浩先生（民族主義歴史学者）"
+    }
+  },
+  "joseon_sangosa": {
+    "category": "artifacts",
+    "path": "artifacts/joseon_sangosa.webp",
+    "era": "japanese_occupation",
+    "caption": {
+      "ko": "조선상고사 (신채호, 1931)",
+      "en": "Ancient History of Korea (Shin Chae-ho, 1931)",
+      "ja": "朝鮮上古史（申采浩、1931年）"
+    }
+  },
+  "yi_bongchang_portrait": {
+    "category": "portraits",
+    "path": "portraits/yi_bongchang_portrait.webp",
+    "era": "japanese_occupation",
+    "caption": {
+      "ko": "이봉창 의사 (도쿄 의거, 1932.1.8)",
+      "en": "Yi Bong-chang (Tokyo Attack, Jan 8, 1932)",
+      "ja": "李奉昌義士（東京義挙、1932.1.8）"
+    }
+  },
+  "yun_bonggil_portrait": {
+    "category": "portraits",
+    "path": "portraits/yun_bonggil_portrait.webp",
+    "era": "japanese_occupation",
+    "caption": {
+      "ko": "윤봉길 의사 (훙커우 공원 의거, 1932.4.29)",
+      "en": "Yun Bong-gil (Hongkou Park Attack, Apr 29, 1932)",
+      "ja": "尹奉吉義士（虹口公園義挙、1932.4.29）"
+    }
+  },
+  "hongkou_park_incident": {
+    "category": "photos",
+    "path": "photos/hongkou_park_incident.webp",
+    "era": "japanese_occupation",
+    "caption": {
+      "ko": "훙커우 공원 의거 현장 (1932.4.29)",
+      "en": "Hongkou Park Bombing Scene (Apr 29, 1932)",
+      "ja": "虹口公園義挙現場（1932.4.29）"
+    }
+  },
+  "joseon_eohakhoe_members": {
+    "category": "photos",
+    "path": "photos/joseon_eohakhoe_members.webp",
+    "era": "japanese_occupation",
+    "caption": {
+      "ko": "조선어학회 회원 (1930년대)",
+      "en": "Members of Korean Language Society (1930s)",
+      "ja": "朝鮮語学会会員（1930年代）"
+    }
+  },
+  "urimal_sajeon": {
+    "category": "artifacts",
+    "path": "artifacts/urimal_sajeon.webp",
+    "era": "japanese_occupation",
+    "caption": {
+      "ko": "우리말 큰사전 (조선어학회)",
+      "en": "Great Dictionary of Korean Language",
+      "ja": "ウリマル大辞典（朝鮮語学会）"
+    }
+  },
+  "jiwonbyeong": {
+    "category": "photos",
+    "path": "photos/jiwonbyeong.webp",
+    "era": "japanese_occupation",
+    "caption": {
+      "ko": "조선인 육군특별지원병 훈련 (1938)",
+      "en": "Korean Army Special Volunteer Soldiers in Training (1938)",
+      "ja": "朝鮮人陸軍特別志願兵訓練（1938年）"
+    }
+  },
+  "changssigaemyeong": {
+    "category": "artifacts",
+    "path": "artifacts/changssigaemyeong.webp",
+    "era": "japanese_occupation",
+    "caption": {
+      "ko": "창씨개명 촉구 전단 (1940)",
+      "en": "Changssigaemyeong Promotion Flyer (1940)",
+      "ja": "創氏改名促進チラシ（1940年）"
+    }
+  },
+  "korean_liberation_army": {
+    "category": "photos",
+    "path": "photos/korean_liberation_army.webp",
+    "era": "japanese_occupation",
+    "caption": {
+      "ko": "한국광복군 (1940년 창설)",
+      "en": "Korean Liberation Army (Est. 1940)",
+      "ja": "韓国光復軍（1940年創設）"
+    }
+  },
+  "shinto_shrine_worship": {
+    "category": "photos",
+    "path": "photos/shinto_shrine_worship.webp",
+    "era": "japanese_occupation",
+    "caption": {
+      "ko": "신사 참배 강요 (1930-40년대)",
+      "en": "Forced Shinto Shrine Worship (1930s-40s)",
+      "ja": "神社参拝強要（1930-40年代）"
+    }
+  },
+  "peace_statue": {
+    "category": "sculptures",
+    "path": "sculptures/peace_statue.webp",
+    "era": "japanese_occupation",
+    "caption": {
+      "ko": "평화의 소녀상 (일본군 위안부 피해자 추모)",
+      "en": "Statue of Peace (Comfort Women Memorial)",
+      "ja": "平和の少女像（日本軍慰安婦被害者追悼）"
+    }
+  },
+  "provisional_government_members": {
+    "category": "photos",
+    "path": "photos/provisional_government_members.webp",
+    "era": "japanese_occupation",
+    "caption": {
+      "ko": "임시정부 요인 귀국 (1945.12.3)",
+      "en": "Return of Provisional Government Members (Dec 3, 1945)",
+      "ja": "臨時政府要人帰国（1945.12.3）"
+    }
+  },
+  "liberation_celebration": {
+    "category": "photos",
+    "path": "photos/liberation_celebration.webp",
+    "era": "contemporary",
+    "caption": {
+      "ko": "8·15 광복 축하 인파 (1945.8.16, 서울역)",
+      "en": "Liberation Day Celebration at Seoul Station (Aug 16, 1945)",
+      "ja": "八・一五光復祝賀人波（1945.8.16、ソウル駅）"
+    }
+  },
+  "38th_parallel_map": {
+    "category": "maps",
+    "path": "maps/38th_parallel_map.webp",
+    "era": "contemporary",
+    "caption": {
+      "ko": "38도선 분할",
+      "en": "Division at 38th Parallel",
+      "ja": "38度線分割"
+    }
+  },
+  "moscow_conference": {
+    "category": "photos",
+    "path": "photos/moscow_conference.webp",
+    "era": "contemporary",
+    "caption": {
+      "ko": "모스크바 3국 외상회의 (1945)",
+      "en": "Moscow Conference of Foreign Ministers (1945)",
+      "ja": "モスクワ三国外相会議（1945年）"
+    }
+  },
+  "usamgov_emblem": {
+    "category": "illustrations",
+    "path": "illustrations/usamgov_emblem.webp",
+    "era": "contemporary",
+    "caption": {
+      "ko": "재조선미국육군사령부군정청 휘장",
+      "en": "United States Army Military Government in Korea Emblem",
+      "ja": "在朝鮮米国陸軍司令部軍政庁の紋章"
+    }
+  },
+  "may_10_election_poster": {
+    "category": "artifacts",
+    "path": "artifacts/may_10_election_poster.webp",
+    "era": "contemporary",
+    "caption": {
+      "ko": "5·10 총선거 포스터 (국회선거위원회, 1948)",
+      "en": "May 10 General Election Poster (National Election Committee, 1948)",
+      "ja": "五・一〇総選挙ポスター（国会選挙委員会、1948年）"
+    }
+  },
+  "constitutional_assembly": {
+    "category": "photos",
+    "path": "photos/constitutional_assembly.webp",
+    "era": "contemporary",
+    "caption": {
+      "ko": "제헌국회 개원식 (1948.5.31)",
+      "en": "Opening Ceremony of the Constitutional Assembly (May 31, 1948)",
+      "ja": "制憲国会開院式（1948年5月31日）"
+    }
+  },
+  "rhee_syngman_inauguration": {
+    "category": "photos",
+    "path": "photos/rhee_syngman_inauguration.webp",
+    "era": "contemporary",
+    "caption": {
+      "ko": "이승만 대통령 취임식 (1948.7.24)",
+      "en": "Inauguration of President Rhee Syngman (July 24, 1948)",
+      "ja": "李承晩大統領就任式（1948年7月24日）"
+    }
+  },
+  "daehan_minguk_proclamation": {
+    "category": "photos",
+    "path": "photos/daehan_minguk_proclamation.webp",
+    "era": "contemporary",
+    "caption": {
+      "ko": "대한민국 정부 수립 선포 (1948.8.15)",
+      "en": "Proclamation of Republic of Korea (1948)",
+      "ja": "大韓民国政府樹立宣布（1948年）"
+    }
+  },
+  "busan_perimeter": {
+    "category": "maps",
+    "path": "maps/busan_perimeter.webp",
+    "era": "contemporary",
+    "caption": {
+      "ko": "낙동강 방어선 (1950)",
+      "en": "Pusan Perimeter (1950)",
+      "ja": "洛東江防衛線（1950年）"
+    }
+  },
+  "incheon_landing": {
+    "category": "photos",
+    "path": "photos/incheon_landing.webp",
+    "era": "contemporary",
+    "caption": {
+      "ko": "인천상륙작전 중 맥아더 장군 (1950.9.15)",
+      "en": "General MacArthur at Incheon Landing (September 15, 1950)",
+      "ja": "仁川上陸作戦中のマッカーサー将軍（1950年9月15日）"
+    }
+  },
+  "korean_war_refugee": {
+    "category": "photos",
+    "path": "photos/korean_war_refugee.webp",
+    "era": "contemporary",
+    "caption": {
+      "ko": "6·25 전쟁 피난민 (1950-1953)",
+      "en": "Korean War Refugee (1950-1953)",
+      "ja": "朝鮮戦争避難民（1950-1953年）"
+    }
+  },
+  "panmunjom_armistice": {
+    "category": "photos",
+    "path": "photos/panmunjom_armistice.webp",
+    "era": "contemporary",
+    "caption": {
+      "ko": "판문점 정전협정 (1953.7.27)",
+      "en": "Panmunjom Armistice (1953)",
+      "ja": "板門店停戦協定（1953年）"
+    }
+  },
+  "kim_juyeol_photo": {
+    "category": "portraits",
+    "path": "portraits/kim_juyeol_photo.webp",
+    "era": "contemporary",
+    "caption": {
+      "ko": "김주열 열사",
+      "en": "Kim Ju-yeol",
+      "ja": "金朱烈烈士"
+    }
+  },
+  "april_19_protest": {
+    "category": "photos",
+    "path": "photos/april_19_protest.webp",
+    "era": "contemporary",
+    "caption": {
+      "ko": "4·19 혁명 시위대 (1960.4.19)",
+      "en": "April 19 Revolution Protesters (1960)",
+      "ja": "四・一九革命デモ隊（1960年4月19日）"
+    }
+  },
+  "rhee_resignation": {
+    "category": "photos",
+    "path": "photos/rhee_resignation.webp",
+    "era": "contemporary",
+    "caption": {
+      "ko": "끌어내려진 이승만 동상 (1960.4)",
+      "en": "Toppled Statue of Rhee Syngman (April 1960)",
+      "ja": "引き倒された李承晩銅像（1960年4月）"
+    }
+  },
+  "april_revolution_monument": {
+    "category": "monuments",
+    "path": "monuments/april_revolution_monument.webp",
+    "era": "contemporary",
+    "caption": {
+      "ko": "4월학생혁명기념탑 (국립 4·19민주묘지)",
+      "en": "April Student Revolution Monument (National April 19 Democratic Cemetery)",
+      "ja": "四月学生革命記念塔（国立4・19民主墓地）"
+    }
+  },
+  "park_chunghee_portrait": {
+    "category": "portraits",
+    "path": "portraits/park_chunghee_portrait.webp",
+    "era": "contemporary",
+    "caption": {
+      "ko": "박정희 대통령",
+      "en": "President Park Chung-hee",
+      "ja": "朴正煕大統領"
+    }
+  },
+  "may_16_coup": {
+    "category": "photos",
+    "path": "photos/may_16_coup.webp",
+    "era": "contemporary",
+    "caption": {
+      "ko": "5·16 군사 정변 (1961)",
+      "en": "May 16 Military Coup (1961)",
+      "ja": "五・一六軍事政変（1961年）"
+    }
+  },
+  "saemaul_movement": {
+    "category": "photos",
+    "path": "photos/saemaul_movement.webp",
+    "era": "contemporary",
+    "caption": {
+      "ko": "새마을운동 (1970년대)",
+      "en": "Saemaul Movement (1970s)",
+      "ja": "セマウル運動（1970年代）"
+    }
+  },
+  "gyeongbu_expressway": {
+    "category": "sites",
+    "path": "sites/gyeongbu_expressway.webp",
+    "era": "contemporary",
+    "caption": {
+      "ko": "경부고속도로 개통 (1970.7.7)",
+      "en": "Gyeongbu Expressway Opening (July 7, 1970)",
+      "ja": "京釜高速道路開通（1970年7月7日）"
+    }
+  },
+  "july_4_statement": {
+    "category": "photos",
+    "path": "photos/july_4_statement.webp",
+    "era": "contemporary",
+    "caption": {
+      "ko": "이후락-김일성 회담 (1972.5, 7·4 남북 공동 성명)",
+      "en": "Lee Hu-rak meets Kim Il-sung (May 1972, July 4 Joint Statement)",
+      "ja": "李厚洛・金日成会談（1972年5月、7・4南北共同声明）"
+    }
+  },
+  "yushin_constitution": {
+    "category": "photos",
+    "path": "photos/yushin_constitution.webp",
+    "era": "contemporary",
+    "caption": {
+      "ko": "유신헌법 (선포 10.17 / 공포 12.27, 1972)",
+      "en": "Yushin Constitution (Declared Oct 17 / Promulgated Dec 27, 1972)",
+      "ja": "維新憲法（宣布10.17 / 公布12.27、1972年）"
+    }
+  },
+  "may_18_movement": {
+    "category": "photos",
+    "path": "photos/may_18_movement.webp",
+    "era": "contemporary",
+    "caption": {
+      "ko": "5·18 민주화 운동 (1980)",
+      "en": "May 18 Democratic Movement (1980)",
+      "ja": "五・一八民主化運動（1980年）"
+    }
+  },
+  "may_18_memorial_tower": {
+    "category": "monuments",
+    "path": "monuments/may_18_memorial_tower.webp",
+    "era": "contemporary",
+    "caption": {
+      "ko": "5·18민중항쟁추모탑 (국립 5·18민주묘지)",
+      "en": "May 18 Democratic Uprising Memorial Tower (National May 18 Democratic Cemetery)",
+      "ja": "5・18民衆抗争追慕塔（国立5・18民主墓地）"
+    }
+  },
+  "june_democratic_movement": {
+    "category": "photos",
+    "path": "photos/june_democratic_movement.webp",
+    "era": "contemporary",
+    "caption": {
+      "ko": "6월 민주 항쟁 (1987)",
+      "en": "June Democratic Movement (1987)",
+      "ja": "六月民主抗争（1987年）"
+    }
+  },
+  "lee_hanyeol_photo": {
+    "category": "portraits",
+    "path": "portraits/lee_hanyeol_photo.webp",
+    "era": "contemporary",
+    "caption": {
+      "ko": "이한열 열사",
+      "en": "Lee Han-yeol",
+      "ja": "李韓烈烈士"
+    }
+  },
+  "june_29_declaration": {
+    "category": "photos",
+    "path": "photos/june_29_declaration.webp",
+    "era": "contemporary",
+    "caption": {
+      "ko": "6·29 선언 (노태우, 1987.6.29)",
+      "en": "June 29 Declaration (Roh Tae-woo, 1987)",
+      "ja": "六・二九宣言（盧泰愚、1987年6月29日）"
+    }
+  },
+  "seoul_olympics_1988": {
+    "category": "photos",
+    "path": "photos/seoul_olympics_1988.webp",
+    "era": "contemporary",
+    "caption": {
+      "ko": "1988 서울 올림픽 개막식 (1988.9.17)",
+      "en": "1988 Seoul Olympics Opening Ceremony (September 17, 1988)",
+      "ja": "1988年ソウルオリンピック開会式（1988年9月17日）"
+    }
+  },
+  "un_simultaneous_admission": {
+    "category": "photos",
+    "path": "photos/un_simultaneous_admission.webp",
+    "era": "contemporary",
+    "caption": {
+      "ko": "남북 유엔 동시 가입 (1991)",
+      "en": "Simultaneous UN Admission (1991)",
+      "ja": "南北国連同時加盟（1991年）"
+    }
+  },
+  "hangang_miracle": {
+    "category": "photos",
+    "path": "photos/hangang_miracle.webp",
+    "era": "contemporary",
+    "caption": {
+      "ko": "한강의 기적",
+      "en": "Miracle on the Han River",
+      "ja": "漢江の奇跡"
+    }
+  },
+  "oecd_admission": {
+    "category": "photos",
+    "path": "photos/oecd_admission.webp",
+    "era": "contemporary",
+    "caption": {
+      "ko": "OECD 가입 - 김영삼 대통령과 OECD 사무총장 접견 (1996.10.25)",
+      "en": "OECD Admission - President Kim Young-sam meets OECD Secretary-General (October 25, 1996)",
+      "ja": "OECD加盟 - 金泳三大統領とOECD事務総長接見（1996年10月25日）"
+    }
+  },
+  "imf_crisis": {
+    "category": "photos",
+    "path": "photos/imf_crisis.webp",
+    "era": "contemporary",
+    "caption": {
+      "ko": "IMF 외환 위기 (1997)",
+      "en": "IMF Financial Crisis (1997)",
+      "ja": "IMF通貨危機（1997年）"
+    }
+  },
+  "kim_daejung_portrait": {
+    "category": "portraits",
+    "path": "portraits/kim_daejung_portrait.webp",
+    "era": "contemporary",
+    "caption": {
+      "ko": "김대중 대통령",
+      "en": "President Kim Dae-jung",
+      "ja": "金大中大統領"
+    }
+  },
+  "inter_korean_summit_2000": {
+    "category": "photos",
+    "path": "photos/inter_korean_summit_2000.webp",
+    "era": "contemporary",
+    "caption": {
+      "ko": "남북 정상회담 (2000)",
+      "en": "Inter-Korean Summit (2000)",
+      "ja": "南北首脳会談（2000年）"
+    }
+  },
+  "june_15_declaration": {
+    "category": "artifacts",
+    "path": "artifacts/june_15_declaration.webp",
+    "era": "contemporary",
+    "caption": {
+      "ko": "6·15 남북 공동 선언 (2000)",
+      "en": "June 15 Joint Declaration (2000)",
+      "ja": "六・一五南北共同宣言（2000年）"
+    }
+  },
+  "world_cup_2002": {
+    "category": "photos",
+    "path": "photos/world_cup_2002.webp",
+    "era": "contemporary",
+    "caption": {
+      "ko": "2002 한일 월드컵 거리응원",
+      "en": "2002 FIFA World Cup Street Cheering",
+      "ja": "2002年日韓ワールドカップ街頭応援"
+    }
+  },
+  "kaesong_industrial_complex": {
+    "category": "sites",
+    "path": "sites/kaesong_industrial_complex.webp",
+    "era": "contemporary",
+    "caption": {
+      "ko": "개성공단",
+      "en": "Kaesong Industrial Complex",
+      "ja": "開城工業団地"
+    }
+  },
+  "candlelight_protest_2016": {
+    "category": "photos",
+    "path": "photos/candlelight_protest_2016.webp",
+    "era": "contemporary",
+    "caption": {
+      "ko": "촛불집회 (2016-2017)",
+      "en": "Candlelight Vigil (2016-2017)",
+      "ja": "ろうそく集会（2016-2017年）"
+    }
+  },
+  "dmz_map": {
+    "category": "maps",
+    "path": "maps/dmz_map.webp",
+    "era": "contemporary",
+    "caption": {
+      "ko": "비무장지대 (DMZ)",
+      "en": "Demilitarized Zone (DMZ)",
+      "ja": "非武装地帯（DMZ）"
+    }
+  },
+  "north_korea_leaders": {
+    "category": "illustrations",
+    "path": "illustrations/north_korea_leaders.webp",
+    "era": "contemporary",
+    "caption": {
+      "ko": "북한 지도자 3대 세습",
+      "en": "Three Generations of North Korean Leaders",
+      "ja": "北朝鮮指導者三代世襲"
+    }
+  },
+  "family_reunion": {
+    "category": "photos",
+    "path": "photos/family_reunion.webp",
+    "era": "contemporary",
+    "caption": {
+      "ko": "이산가족 상봉",
+      "en": "Separated Families Reunion",
+      "ja": "離散家族再会"
+    }
+  },
+  "geumgangsan_tour": {
+    "category": "sites",
+    "path": "sites/geumgangsan_tour.webp",
+    "era": "contemporary",
+    "caption": {
+      "ko": "금강산 관광",
+      "en": "Mt. Geumgang Tourism",
+      "ja": "金剛山観光"
+    }
+  }
+}

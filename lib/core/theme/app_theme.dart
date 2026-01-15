@@ -28,15 +28,15 @@ class AppTheme {
         ),
 
         // Scaffold
-        scaffoldBackgroundColor: AppColors.backgroundLight,
+        scaffoldBackgroundColor: AppColors.white,
 
         // AppBar
         appBarTheme: const AppBarTheme(
-          backgroundColor: AppColors.primary,
-          foregroundColor: AppColors.white,
+          backgroundColor: AppColors.white,
+          foregroundColor: AppColors.textPrimaryLight,
           elevation: 0,
           centerTitle: true,
-          systemOverlayStyle: SystemUiOverlayStyle.light,
+          systemOverlayStyle: SystemUiOverlayStyle.dark,
         ),
 
         // Card
@@ -88,11 +88,37 @@ class AppTheme {
 
         // BottomNavigationBar
         bottomNavigationBarTheme: const BottomNavigationBarThemeData(
-          backgroundColor: AppColors.surfaceLight,
-          selectedItemColor: AppColors.primary,
+          backgroundColor: AppColors.white,
+          selectedItemColor: AppColors.secondary,
           unselectedItemColor: AppColors.textSecondaryLight,
           type: BottomNavigationBarType.fixed,
-          elevation: 8,
+          elevation: 0,
+        ),
+
+        // NavigationBar (Material 3)
+        navigationBarTheme: NavigationBarThemeData(
+          backgroundColor: AppColors.white,
+          indicatorColor: AppColors.secondary.withValues(alpha: 0.2),
+          elevation: 0,
+          labelTextStyle: WidgetStateProperty.resolveWith((states) {
+            if (states.contains(WidgetState.selected)) {
+              return const TextStyle(
+                fontSize: 12,
+                fontWeight: FontWeight.w600,
+                color: AppColors.secondary,
+              );
+            }
+            return const TextStyle(
+              fontSize: 12,
+              color: AppColors.textSecondaryLight,
+            );
+          }),
+          iconTheme: WidgetStateProperty.resolveWith((states) {
+            if (states.contains(WidgetState.selected)) {
+              return const IconThemeData(color: AppColors.secondary);
+            }
+            return const IconThemeData(color: AppColors.textSecondaryLight);
+          }),
         ),
 
         // Divider

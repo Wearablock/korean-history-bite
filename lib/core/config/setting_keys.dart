@@ -1,0 +1,69 @@
+/// 사용자 설정 키 상수
+/// 오타 방지 및 자동완성 지원
+abstract class SettingKeys {
+  // 학습 관련
+  static const String dailyGoal = 'daily_goal';
+  static const String reviewPriority = 'review_priority';
+  static const String shuffleOptions = 'shuffle_options';
+  static const String showExplanation = 'show_explanation';
+
+  // 알림 관련
+  static const String notificationEnabled = 'notification_enabled';
+  static const String notificationTime = 'notification_time';
+  static const String streakReminder = 'streak_reminder';
+
+  // 테마
+  static const String themeMode = 'theme_mode';
+
+  // 언어
+  static const String locale = 'locale';
+  static const String contentLocale = 'content_locale';
+
+  // 프리미엄
+  static const String isPremium = 'is_premium';
+  static const String premiumPurchasedAt = 'premium_purchased_at';
+
+  // 기타
+  static const String firstLaunchDate = 'first_launch_date';
+  static const String lastReviewPrompt = 'last_review_prompt';
+  static const String reviewPromptCount = 'review_prompt_count';
+  static const String onboardingCompleted = 'onboarding_completed';
+}
+
+/// 일일 학습 목표 옵션
+enum DailyGoalOption {
+  light(15, '가볍게'),
+  standard(30, '표준'),
+  intensive(50, '집중');
+
+  final int questionCount;
+  final String label;
+
+  const DailyGoalOption(this.questionCount, this.label);
+
+  static DailyGoalOption fromValue(int value) {
+    return DailyGoalOption.values.firstWhere(
+      (e) => e.questionCount == value,
+      orElse: () => DailyGoalOption.light,
+    );
+  }
+}
+
+/// 테마 모드 옵션
+enum ThemeModeOption {
+  system('system', '시스템 설정'),
+  light('light', '라이트 모드'),
+  dark('dark', '다크 모드');
+
+  final String value;
+  final String label;
+
+  const ThemeModeOption(this.value, this.label);
+
+  static ThemeModeOption fromValue(String value) {
+    return ThemeModeOption.values.firstWhere(
+      (e) => e.value == value,
+      orElse: () => ThemeModeOption.system,
+    );
+  }
+}
