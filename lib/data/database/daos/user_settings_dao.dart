@@ -1,4 +1,6 @@
 import 'package:drift/drift.dart';
+import 'package:flutter/material.dart';
+import '../../../core/config/constants.dart';
 import '../../../core/config/setting_keys.dart';
 import '../app_database.dart';
 import '../tables/user_settings.dart';
@@ -87,15 +89,16 @@ class UserSettingsDao extends DatabaseAccessor<AppDatabase>
   // 학습 설정 전용 메서드
   // ============================================================
 
-  /// 일일 학습 목표 조회
+  /// 일일 학습 목표 조회 (챕터 수)
   Future<int> getDailyGoal() async {
-    return getInt(SettingKeys.dailyGoal, defaultValue: 15);
+    return getInt(
+        SettingKeys.dailyGoal, defaultValue: StudyConstants.defaultDailyGoal);
   }
 
-  /// 일일 학습 목표 설정
-  Future<void> setDailyGoal(int count) {
-    // 유효한 값만 허용 (15, 30, 50)
-    final validCount = [15, 30, 50].contains(count) ? count : 15;
+  /// 일일 학습 목표 설정 (챕터 수)
+  Future<void> setDailyGoal(int chapterCount) {
+    // 1~5 챕터 범위로 제한
+    final validCount = chapterCount.clamp(1, StudyConstants.maxDailyGoalChapters);
     return setInt(SettingKeys.dailyGoal, validCount);
   }
 
@@ -115,7 +118,7 @@ class UserSettingsDao extends DatabaseAccessor<AppDatabase>
 
   /// 알림 활성화 여부 조회
   Future<bool> getNotificationEnabled() async {
-    return getBool(SettingKeys.notificationEnabled, defaultValue: true);
+    return getBool(SettingKeys.notificationEnabled, defaultValue: false);
   }
 
   /// 알림 활성화 설정
@@ -123,14 +126,18 @@ class UserSettingsDao extends DatabaseAccessor<AppDatabase>
     return setBool(SettingKeys.notificationEnabled, enabled);
   }
 
-  /// 알림 시간 조회
-  Future<String> getNotificationTime() async {
-    return getString(SettingKeys.notificationTime, defaultValue: '09:00');
+  /// 알림 시간 조회 (기본값: 20:00)
+  Future<TimeOfDay> getNotificationTime() async {
+    final hour = await getInt(SettingKeys.notificationHour, defaultValue: 20);
+    final minute =
+        await getInt(SettingKeys.notificationMinute, defaultValue: 0);
+    return TimeOfDay(hour: hour, minute: minute);
   }
 
-  /// 알림 시간 설정
-  Future<void> setNotificationTime(String time) {
-    return setString(SettingKeys.notificationTime, time);
+  /// 알림 시간 저장
+  Future<void> setNotificationTime(TimeOfDay time) async {
+    await setInt(SettingKeys.notificationHour, time.hour);
+    await setInt(SettingKeys.notificationMinute, time.minute);
   }
 
   // ============================================================
@@ -262,12 +269,13 @@ class UserSettingsDao extends DatabaseAccessor<AppDatabase>
   /// 기본값으로 초기화
   Future<void> resetToDefaults() async {
     await deleteAll();
-    await setInt(SettingKeys.dailyGoal, 15);
+    await setInt(SettingKeys.dailyGoal, StudyConstants.defaultDailyGoal);
     await setBool(SettingKeys.reviewPriority, true);
     await setBool(SettingKeys.shuffleOptions, true);
     await setBool(SettingKeys.showExplanation, true);
-    await setBool(SettingKeys.notificationEnabled, true);
-    await setString(SettingKeys.notificationTime, '09:00');
+    await setBool(SettingKeys.notificationEnabled, false);
+    await setInt(SettingKeys.notificationHour, 20);
+    await setInt(SettingKeys.notificationMinute, 0);
     await setBool(SettingKeys.streakReminder, true);
     await setString(SettingKeys.themeMode, 'system');
     await setString(SettingKeys.locale, 'ko');

@@ -1,0 +1,295 @@
+{
+  "q_gojoseon_01_001": {
+    "question": "Who founded Gojoseon, the first state of the Korean people?",
+    "correct": "Dangun Wanggeom",
+    "wrong": [
+      "Jumong",
+      "Onjo",
+      "Bak Hyeokgeose",
+      "Wiman"
+    ],
+    "hint": "He is a figure from the Dangun myth, the son of Hwanung.",
+    "explanation": "Gojoseon was founded by Dangun Wanggeom in 2333 BCE as the first state of the Korean people. Jumong founded Goguryeo, Onjo founded Baekje, Bak Hyeokgeose founded Silla, and Wiman later seized control of Gojoseon."
+  },
+  "q_gojoseon_01_002": {
+    "question": "Which statement about the figure depicted in this illustration is correct?",
+    "correct": "The founding myth is recorded in Samguk Yusa",
+    "wrong": [
+      "He introduced iron culture to strengthen national power",
+      "He fled from Yan state and seized the throne",
+      "He was destroyed by Emperor Wu of Han's invasion",
+      "He unified the Samhan and declared himself emperor"
+    ],
+    "hint": "In which historical text is the Dangun myth recorded?",
+    "explanation": "The illustration depicts Dangun Wanggeom. His founding myth is recorded in Samguk Yusa by Iryeon, containing the Hongik Ingan philosophy passed down from Hwanin to Hwanung to Dangun. The iron culture introduction and fleeing from Yan refer to Wiman."
+  },
+  "q_gojoseon_01_003": {
+    "question": "Which statement about Wiman Joseon is correct?",
+    "correct": "It became powerful by adopting iron culture",
+    "wrong": [
+      "It was founded by Dangun Wanggeom",
+      "It only used Bronze Age culture",
+      "Its founding myth is recorded in Samguk Yusa",
+      "It was destroyed by Goguryeo"
+    ],
+    "hint": "Wiman Joseon grew based on the culture that came after the 'Bronze Age'.",
+    "explanation": "Wiman Joseon was established in 194 BCE when Wiman overthrew King Jun. It actively adopted iron culture and became powerful through intermediary trade between Han China and Jin. It fell in 108 BCE due to Emperor Wu of Han's invasion."
+  },
+  "q_gojoseon_01_004": {
+    "question": "Based on the following source, which statement about this person is correct?",
+    "source": "A man from Yan state who fled and sought refuge with King Jun, but later overthrew King Jun and made himself king. He strengthened national power based on iron culture.",
+    "correct": "He gained economic benefits through intermediary trade",
+    "wrong": [
+      "He established the capital at Asadal",
+      "He enacted and promulgated the Eight Prohibitions Law",
+      "He founded Goguryeo",
+      "He unified the Samhan confederacies"
+    ],
+    "hint": "What role did Wiman play between Han and Jin?",
+    "explanation": "The source describes Wiman. As king of Gojoseon, Wiman conducted intermediary trade between Han and Jin based on iron culture, gaining economic benefits and strengthening national power."
+  },
+  "q_gojoseon_01_005": {
+    "question": "What can be determined from the distribution of this artifact?",
+    "correct": "The territorial extent of Gojoseon can be estimated",
+    "wrong": [
+      "The territory of Silla during the Three Kingdoms period can be known",
+      "The borders during the Goryeo period can be confirmed",
+      "The administrative districts of the Joseon Dynasty can be identified",
+      "The maximum territory of Balhae can be known"
+    ],
+    "hint": "Think about which state the lute-shaped bronze dagger represents.",
+    "explanation": "The photo shows a lute-shaped bronze dagger. Lute-shaped bronze daggers are distributed in the Liaoning region and northern Korean Peninsula, allowing estimation of Gojoseon's territorial extent."
+  },
+  "q_gojoseon_01_006": {
+    "question": "What did Emperor Wu of Han establish after the fall of Gojoseon?",
+    "correct": "Four Commanderies of Han",
+    "wrong": [
+      "Nine Provinces and Five Secondary Capitals",
+      "Twenty-two Damno",
+      "Five Provinces and Two Frontier Districts",
+      "Eight Provinces"
+    ],
+    "hint": "What are the four commanderies (gun) established by Han China called?",
+    "explanation": "In 108 BCE, Emperor Wu of Han destroyed Gojoseon and established the Four Commanderies of Han: Lelang, Zhenfan, Lintun, and Xuantu. Nine Provinces and Five Secondary Capitals belonged to Unified Silla, Twenty-two Damno to Baekje, Five Provinces and Two Frontier Districts to Goryeo, and Eight Provinces to Joseon."
+  },
+  "q_gojoseon_01_007": {
+    "question": "Which statement correctly describes the society during the era when this artifact was constructed?",
+    "correct": "Rulers emerged and a class society was formed",
+    "wrong": [
+      "An egalitarian communal society was maintained",
+      "A centralized state was established",
+      "Iron farming tools were widely distributed",
+      "Buddhism was adopted and royal authority was strengthened"
+    ],
+    "hint": "Building dolmens required 'someone' who could mobilize many people.",
+    "explanation": "The photo shows a dolmen (table-type). Dolmens were tombs of Bronze Age rulers, showing that a class society had formed during this period. Gojoseon was also founded based on this Bronze Age culture."
+  },
+  "q_gojoseon_01_008": {
+    "question": "What characteristic of Gojoseon can be understood from this artifact?",
+    "correct": "Bronze-making technology was well developed",
+    "wrong": [
+      "Only iron culture was used",
+      "Agriculture was not practiced",
+      "Writing was not used",
+      "A state system was not established"
+    ],
+    "hint": "What material are lute-shaped bronze daggers and coarse-patterned mirrors made of?",
+    "explanation": "The photo shows bronze artifacts excavated from Hwasun. Bronze artifacts such as lute-shaped bronze daggers and coarse-patterned mirrors demonstrate that Gojoseon had an advanced Bronze Age culture."
+  },
+  "q_gojoseon_02_001": {
+    "question": "What can be understood about Gojoseon society from the Eight Prohibitions Law?",
+    "correct": "Life was valued and private property was recognized",
+    "wrong": [
+      "It was an egalitarian society without classes",
+      "A monetary economy was developed",
+      "Buddhism was designated as the state religion",
+      "A civil service examination system was implemented"
+    ],
+    "hint": "Think about what the punishment provisions for murder, injury, and theft aimed to protect.",
+    "explanation": "The Eight Prohibitions Law contained provisions such as death penalty for murderers, grain compensation for those who cause injury, and enslavement for thieves. This shows that Gojoseon was a society that respected life, protected private property, and valued labor."
+  },
+  "q_gojoseon_02_002": {
+    "question": "How many provisions of Gojoseon's Eight Prohibitions Law have been passed down to the present?",
+    "correct": "3",
+    "wrong": [
+      "8",
+      "5",
+      "1",
+      "None have been passed down"
+    ],
+    "hint": "Murder, injury, theft... how many provisions are these?",
+    "explanation": "Of Gojoseon's Eight Prohibitions Law, only 3 provisions have been passed down to the present: death penalty for murderers, grain compensation for those who cause injury, and enslavement for thieves."
+  },
+  "q_gojoseon_02_003": {
+    "question": "Based on the following source, which characteristic of Gojoseon society is correct?",
+    "source": "Those who steal shall be made slaves. Those who wish to be pardoned must pay 500,000 coins.",
+    "correct": "It was a class society where slavery existed",
+    "wrong": [
+      "All people were equal",
+      "Currency was not used at all",
+      "Laws did not exist",
+      "There was no punishment system"
+    ],
+    "hint": "What social structure can you infer from the expression 'made slaves'?",
+    "explanation": "The source is part of Gojoseon's Eight Prohibitions Law. The provision that thieves be made slaves shows it was a class society with a slavery system. The redemption fine of 500,000 coins also suggests the use of currency."
+  },
+  "q_gojoseon_02_004": {
+    "question": "Which correctly arranges the stages of Gojoseon's development in order?",
+    "correct": "Dangun Joseon → Wiman Joseon → Establishment of Four Commanderies of Han",
+    "wrong": [
+      "Wiman Joseon → Dangun Joseon → Establishment of Four Commanderies of Han",
+      "Dangun Joseon → Samhan → Wiman Joseon",
+      "Wiman Joseon → Four Commanderies of Han → Dangun Joseon",
+      "Four Commanderies of Han → Dangun Joseon → Wiman Joseon"
+    ],
+    "hint": "Think about the order: Dangun Wanggeom founded → Wiman usurped throne → Emperor Wu of Han invaded.",
+    "explanation": "Gojoseon began with Dangun Joseon founded by Dangun Wanggeom, continued as Wiman Joseon when Wiman took power, and after falling to Emperor Wu of Han's invasion in 108 BCE, the Four Commanderies of Han were established."
+  },
+  "q_gojoseon_02_005": {
+    "question": "Which statement about the region marked on this map is correct?",
+    "correct": "Lute-shaped bronze daggers were excavated, suggesting it was Gojoseon territory",
+    "wrong": [
+      "Only slender bronze daggers were excavated, indicating an Iron Age site",
+      "Comb-pattern pottery was excavated, indicating a Neolithic site",
+      "Goryeo period ceramic kilns are located here",
+      "Joseon Dynasty Confucian academies were located here"
+    ],
+    "hint": "Recall the distribution area of the lute-shaped bronze dagger, Gojoseon's representative artifact.",
+    "explanation": "The map shows the territory of Gojoseon. Lute-shaped bronze daggers and table-type dolmens excavated from the Liaoning region and northern Korean Peninsula allow estimation of Gojoseon's territorial extent."
+  },
+  "q_gojoseon_02_006": {
+    "question": "Which artifacts symbolized the authority of Gojoseon rulers?",
+    "correct": "Lute-shaped bronze daggers and coarse-patterned mirrors",
+    "wrong": [
+      "Comb-pattern pottery and spindle whorls",
+      "Hand axes and choppers",
+      "Gold crowns and gold earrings",
+      "Three-legged crow decorations and gilt-bronze crowns"
+    ],
+    "hint": "Gojoseon was founded based on Bronze Age culture. What are representative Bronze Age artifacts?",
+    "explanation": "Lute-shaped bronze daggers and coarse-patterned mirrors were artifacts symbolizing the authority of Gojoseon rulers during the Bronze Age. Comb-pattern pottery is Neolithic, hand axes are Paleolithic, and gold crowns are Three Kingdoms period artifacts."
+  },
+  "q_gojoseon_02_007": {
+    "question": "According to Samguk Yusa, in what year was Gojoseon founded?",
+    "correct": "2333 BCE",
+    "wrong": [
+      "57 BCE",
+      "37 BCE",
+      "18 BCE",
+      "108 BCE"
+    ],
+    "hint": "This is the year associated with Gaecheonjeol (National Foundation Day, October 3rd).",
+    "explanation": "Samguk Yusa records that Gojoseon was founded by Dangun Wanggeom in 2333 BCE. 57 BCE is Silla's founding year, 37 BCE is Goguryeo's, and 18 BCE is Baekje's founding year."
+  },
+  "q_gojoseon_02_008": {
+    "question": "Based on the following source, which economic activity of Gojoseon is correct?",
+    "source": "Wiman conducted intermediary trade between Han and Jin, gaining substantial profits.",
+    "correct": "Trade with neighboring states was active",
+    "wrong": [
+      "Agriculture was not practiced at all",
+      "Only maritime trade was conducted",
+      "Currency was not used",
+      "Foreign trade was prohibited"
+    ],
+    "hint": "'Intermediary trade' means gaining profit by passing goods between two countries.",
+    "explanation": "The source describes Wiman Joseon's intermediary trade. Wiman Joseon gained economic benefits through intermediary trade between Han and Jin, showing that Gojoseon conducted active trade with neighboring states."
+  },
+  "q_gojoseon_03_001": {
+    "question": "What was Buyeo's heaven worship festival called?",
+    "correct": "Yeonggo",
+    "wrong": [
+      "Dongmaeng",
+      "Mucheon",
+      "Jecheon",
+      "Palgwanhoe"
+    ],
+    "hint": "Buyeo held a festival to worship heaven in December. It means 'to welcome'.",
+    "explanation": "Buyeo held a heaven worship festival called Yeonggo in December. Dongmaeng was Goguryeo's festival (October), and Mucheon was Dongye's festival (October). Palgwanhoe was a Goryeo state ceremony."
+  },
+  "q_gojoseon_03_002": {
+    "question": "What was Goguryeo's marriage custom called?",
+    "correct": "Seookje (Son-in-law house system)",
+    "wrong": [
+      "Minmyeoneuri-je (Child bride system)",
+      "Goljang-je (Bone burial system)",
+      "Chaekhwa",
+      "Sunjang (Burial of the living)"
+    ],
+    "hint": "This is a custom where the groom lives in a small house (seook) at the bride's home.",
+    "explanation": "Goguryeo had a marriage custom called Seookje (son-in-law house system). The groom lived in a small house (seook) at the bride's home, and after their children grew up, he would take his wife back to his own home. Minmyeoneuri-je was Okjeo's custom."
+  },
+  "q_gojoseon_03_003": {
+    "question": "Which statement about the state where this pottery was excavated is correct?",
+    "correct": "It was a federation of five tribes ruled by a king",
+    "wrong": [
+      "It produced iron and exported it to Lelang and Wa (Japan)",
+      "It had rulers called Sinji and Eupcha",
+      "It paid tribute to Goguryeo",
+      "It had sacred areas called Sodo"
+    ],
+    "hint": "Buyeo was a federation consisting of Maga, Uga, Jeoga, Guga, and a king.",
+    "explanation": "The photo shows Buyeo pottery. Buyeo was a federation of five tribes ruled by a king, with customs including the Yeonggo festival, burial of the living (sunjang), and the One Book Twelve Laws."
+  },
+  "q_gojoseon_03_004": {
+    "question": "Based on the following source, which state is being described?",
+    "source": "Every household has a storehouse called bugyeong. If men and women commit adultery or a wife is jealous, they are all killed. Jealousy is particularly hated, and after killing, the body is thrown on a mountain south of the country to rot.",
+    "correct": "Buyeo",
+    "wrong": [
+      "Goguryeo",
+      "Okjeo",
+      "Dongye",
+      "Samhan"
+    ],
+    "hint": "This state had storehouses called 'bugyeong' and strict criminal law (One Book Twelve Laws).",
+    "explanation": "The source describes Buyeo. Buyeo had storehouses called bugyeong, and its criminal law was strict, severely punishing adultery and jealousy. It had strict laws called the One Book Twelve Laws."
+  },
+  "q_gojoseon_03_005": {
+    "question": "What was Okjeo's funeral custom called?",
+    "correct": "Goljang-je (Bone burial system)",
+    "wrong": [
+      "Sunjang (Burial of the living)",
+      "Hwajang (Cremation)",
+      "Pungjang (Exposure burial)",
+      "Sujang (Water burial)"
+    ],
+    "hint": "This custom involves collecting only the bones and placing them in a family communal wooden coffin.",
+    "explanation": "Okjeo had a funeral custom called Goljang-je. Bodies were temporarily buried, then the bones were collected and placed in a large family communal wooden coffin. Sunjang was Buyeo's custom."
+  },
+  "q_gojoseon_03_006": {
+    "question": "Which statement correctly describes Dongye's custom called 'Chaekhwa'?",
+    "correct": "Those who violated another tribe's boundaries were made to pay compensation",
+    "wrong": [
+      "Criminals were protected in sacred areas",
+      "A heaven worship festival was held in October",
+      "Marriage was only allowed within the same tribe",
+      "Living people were buried with the dead"
+    ],
+    "hint": "Chaekhwa (責禍) means 'to hold responsible for calamity'.",
+    "explanation": "Chaekhwa was Dongye's custom where those who trespassed on another tribe's territory were made to compensate with slaves, cattle, or horses. This shows that Dongye strictly distinguished boundaries between tribes."
+  },
+  "q_gojoseon_03_007": {
+    "question": "What was the sacred area governed by the Cheongun (heavenly ruler) called in Samhan?",
+    "correct": "Sodo",
+    "wrong": [
+      "Seook",
+      "Bugyeong",
+      "Chaekhwa",
+      "Yeonggo"
+    ],
+    "hint": "This was a 'sacred place' where criminals who fled there could not be captured.",
+    "explanation": "Samhan had sacred areas called Sodo. Sodo was governed by the Cheongun, and criminals who fled there could not be captured. This demonstrates it was a society with separation of religion and politics."
+  },
+  "q_gojoseon_03_008": {
+    "question": "Based on the following source, which statement about this state is correct?",
+    "source": "Before a girl reaches ten years of age, marriage is arranged. The groom's family takes in the girl and raises her to adulthood to make her a wife. When the girl becomes an adult, she is sent back to her parents' home, and the parents' home demands and receives payment before sending her to the groom's family.",
+    "correct": "It was in a subordinate relationship paying tribute to Goguryeo",
+    "wrong": [
+      "It was a five-tribe federation governed by a king",
+      "It produced and exported iron",
+      "It held a heaven worship festival called Dongmaeng in October",
+      "It conducted intermediary trade between Han and Jin"
+    ],
+    "hint": "Which state had the custom of 'Minmyeoneuri-je' where a young bride was raised in advance?",
+    "explanation": "The source describes Okjeo's Minmyeoneuri-je (child bride system). Okjeo was in a subordinate position paying tribute to Goguryeo and had unique customs like Minmyeoneuri-je and Goljang-je."
+  }
+}

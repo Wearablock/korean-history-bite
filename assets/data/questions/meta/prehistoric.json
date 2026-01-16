@@ -1,0 +1,260 @@
+{
+  "questions": [
+    {
+      "id": "q_prehistoric_01_001",
+      "chapter_id": "ch_prehistoric_01",
+      "order": 1,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_prehistoric_01_002",
+      "chapter_id": "ch_prehistoric_01",
+      "order": 2,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "handaxe_acheulean"
+    },
+    {
+      "id": "q_prehistoric_01_003",
+      "chapter_id": "ch_prehistoric_01",
+      "order": 3,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_prehistoric_01_004",
+      "chapter_id": "ch_prehistoric_01",
+      "order": 4,
+      "difficulty": 3,
+      "type": "source",
+      "image_id": null
+    },
+    {
+      "id": "q_prehistoric_01_005",
+      "chapter_id": "ch_prehistoric_01",
+      "order": 5,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "chopper_paleolithic"
+    },
+    {
+      "id": "q_prehistoric_01_006",
+      "chapter_id": "ch_prehistoric_01",
+      "order": 6,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_prehistoric_01_007",
+      "chapter_id": "ch_prehistoric_01",
+      "order": 7,
+      "difficulty": 3,
+      "type": "image",
+      "image_id": "geumgul_cave"
+    },
+    {
+      "id": "q_prehistoric_01_008",
+      "chapter_id": "ch_prehistoric_01",
+      "order": 8,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_prehistoric_02_001",
+      "chapter_id": "ch_prehistoric_02",
+      "order": 1,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_prehistoric_02_002",
+      "chapter_id": "ch_prehistoric_02",
+      "order": 2,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "comb_pottery"
+    },
+    {
+      "id": "q_prehistoric_02_003",
+      "chapter_id": "ch_prehistoric_02",
+      "order": 3,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_prehistoric_02_004",
+      "chapter_id": "ch_prehistoric_02",
+      "order": 4,
+      "difficulty": 3,
+      "type": "source",
+      "image_id": null
+    },
+    {
+      "id": "q_prehistoric_02_005",
+      "chapter_id": "ch_prehistoric_02",
+      "order": 5,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "pit_house"
+    },
+    {
+      "id": "q_prehistoric_02_006",
+      "chapter_id": "ch_prehistoric_02",
+      "order": 6,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "spindle_whorl"
+    },
+    {
+      "id": "q_prehistoric_02_007",
+      "chapter_id": "ch_prehistoric_02",
+      "order": 7,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_prehistoric_02_008",
+      "chapter_id": "ch_prehistoric_02",
+      "order": 8,
+      "difficulty": 3,
+      "type": "image",
+      "image_id": "shell_mound"
+    },
+    {
+      "id": "q_prehistoric_03_001",
+      "chapter_id": "ch_prehistoric_03",
+      "order": 1,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_prehistoric_03_002",
+      "chapter_id": "ch_prehistoric_03",
+      "order": 2,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "mandolin_dagger"
+    },
+    {
+      "id": "q_prehistoric_03_003",
+      "chapter_id": "ch_prehistoric_03",
+      "order": 3,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_prehistoric_03_004",
+      "chapter_id": "ch_prehistoric_03",
+      "order": 4,
+      "difficulty": 3,
+      "type": "source",
+      "image_id": null
+    },
+    {
+      "id": "q_prehistoric_03_005",
+      "chapter_id": "ch_prehistoric_03",
+      "order": 5,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "dolmen_table"
+    },
+    {
+      "id": "q_prehistoric_03_006",
+      "chapter_id": "ch_prehistoric_03",
+      "order": 6,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "crescent_knife"
+    },
+    {
+      "id": "q_prehistoric_03_007",
+      "chapter_id": "ch_prehistoric_03",
+      "order": 7,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_prehistoric_03_008",
+      "chapter_id": "ch_prehistoric_03",
+      "order": 8,
+      "difficulty": 3,
+      "type": "image",
+      "image_id": "coarse_mirror"
+    },
+    {
+      "id": "q_prehistoric_04_001",
+      "chapter_id": "ch_prehistoric_04",
+      "order": 1,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_prehistoric_04_002",
+      "chapter_id": "ch_prehistoric_04",
+      "order": 2,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "slender_dagger"
+    },
+    {
+      "id": "q_prehistoric_04_003",
+      "chapter_id": "ch_prehistoric_04",
+      "order": 3,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_prehistoric_04_004",
+      "chapter_id": "ch_prehistoric_04",
+      "order": 4,
+      "difficulty": 3,
+      "type": "source",
+      "image_id": null
+    },
+    {
+      "id": "q_prehistoric_04_005",
+      "chapter_id": "ch_prehistoric_04",
+      "order": 5,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "dahori_iron_tools"
+    },
+    {
+      "id": "q_prehistoric_04_006",
+      "chapter_id": "ch_prehistoric_04",
+      "order": 6,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "mingdao_coin"
+    },
+    {
+      "id": "q_prehistoric_04_007",
+      "chapter_id": "ch_prehistoric_04",
+      "order": 7,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_prehistoric_04_008",
+      "chapter_id": "ch_prehistoric_04",
+      "order": 8,
+      "difficulty": 3,
+      "type": "image",
+      "image_id": "fine_mirror"
+    }
+  ]
+}

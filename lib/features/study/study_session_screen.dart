@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import '../../core/widgets/traditional_sign_title.dart';
 import '../../data/providers/chapter_providers.dart';
 import 'controllers/study_session_controller.dart';
 import 'study_result_screen.dart';
@@ -55,7 +56,11 @@ class _StudySessionScreenState extends ConsumerState<StudySessionScreen> {
       },
       child: Scaffold(
         appBar: AppBar(
-          title: Text(state.appBarTitle),
+          toolbarHeight: 72,
+          title: Padding(
+            padding: const EdgeInsets.symmetric(vertical: 8),
+            child: TraditionalSignTitle(title: state.appBarTitle),
+          ),
           leading: IconButton(
             icon: const Icon(Icons.close),
             onPressed: () => _handleClose(state),
@@ -144,6 +149,7 @@ class _StudySessionScreenState extends ConsumerState<StudySessionScreen> {
       case StudySessionStatus.inProgress:
         return Column(
           children: [
+            const SizedBox(height: 8),
             SessionProgressBar(progress: state.progress),
             Expanded(
               child: state.isTheory

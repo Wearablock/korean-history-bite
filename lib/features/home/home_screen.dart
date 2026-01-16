@@ -3,6 +3,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import '../../core/widgets/collapsing_app_bar_scaffold.dart';
 import '../../data/providers/study_providers.dart';
 import '../../services/study_service.dart';
 import '../study/study_session_screen.dart';
@@ -19,20 +20,25 @@ class HomeScreen extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final todaySummaryAsync = ref.watch(todaySummaryProvider);
 
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('한국사 한입'),
-      ),
+    return CollapsingAppBarScaffold(
+      title: '한국사 한입',
+      automaticallyImplyLeading: false,
       body: todaySummaryAsync.when(
-        loading: () => const Center(child: CircularProgressIndicator()),
-        error: (error, stack) => Center(child: Text('오류: $error')),
+        loading: () => const SizedBox(
+          height: 200,
+          child: Center(child: CircularProgressIndicator()),
+        ),
+        error: (error, stack) => SizedBox(
+          height: 200,
+          child: Center(child: Text('오류: $error')),
+        ),
         data: (summary) => _buildContent(context, ref, summary),
       ),
     );
   }
 
   Widget _buildContent(BuildContext context, WidgetRef ref, TodaySummary summary) {
-    return SingleChildScrollView(
+    return Padding(
       padding: const EdgeInsets.all(16),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -75,6 +81,8 @@ class HomeScreen extends ConsumerWidget {
               onRefresh: () => ref.invalidate(todaySummaryProvider),
             ),
           ],
+
+          const SizedBox(height: 32),
         ],
       ),
     );

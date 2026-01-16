@@ -72,6 +72,7 @@ class QuestionContent {
   final List<String> wrong;  // 4개의 오답
   final String explanation;
   final String? source;      // 사료형 문제의 경우
+  final String? hint;        // 힌트
 
   const QuestionContent({
     required this.question,
@@ -79,6 +80,7 @@ class QuestionContent {
     required this.wrong,
     required this.explanation,
     this.source,
+    this.hint,
   });
 
   factory QuestionContent.fromJson(Map<String, dynamic> json) {
@@ -88,6 +90,7 @@ class QuestionContent {
       wrong: List<String>.from(json['wrong'] as List),
       explanation: json['explanation'] as String,
       source: json['source'] as String?,
+      hint: json['hint'] as String?,
     );
   }
 
@@ -98,6 +101,7 @@ class QuestionContent {
       'wrong': wrong,
       'explanation': explanation,
       if (source != null) 'source': source,
+      if (hint != null) 'hint': hint,
     };
   }
 
@@ -128,6 +132,7 @@ class Question {
   final List<String> wrong;
   final String explanation;
   final String? source;
+  final String? hint;
 
   const Question({
     required this.id,
@@ -141,6 +146,7 @@ class Question {
     required this.wrong,
     required this.explanation,
     this.source,
+    this.hint,
   });
 
   /// 메타데이터와 콘텐츠를 결합하여 생성
@@ -160,6 +166,7 @@ class Question {
       wrong: content.wrong,
       explanation: content.explanation,
       source: content.source,
+      hint: content.hint,
     );
   }
 
@@ -196,6 +203,7 @@ class Question {
         wrong: wrong,
         explanation: explanation,
         source: source,
+        hint: hint,
       );
 
   /// 선지 섞어서 반환 (매번 다른 순서)
@@ -215,6 +223,9 @@ class Question {
 
   /// 이미지형 문제 여부
   bool get hasImage => imageId != null && imageId!.isNotEmpty;
+
+  /// 힌트 존재 여부
+  bool get hasHint => hint != null && hint!.isNotEmpty;
 
   @override
   String toString() {

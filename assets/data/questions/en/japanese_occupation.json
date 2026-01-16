@@ -1,0 +1,1813 @@
+{
+  "q_japanese_occupation_01_001": {
+    "question": "What was the ruling method implemented by Japan in the 1910s?",
+    "correct": "Military rule (Mudan Tongchi)",
+    "wrong": [
+      "Cultural rule",
+      "Ethnic annihilation rule",
+      "Naisen Ittai",
+      "Imperial subject transformation"
+    ],
+    "hint": "This was the period when military police also served as regular police, and teachers wore swords while teaching.",
+    "explanation": "Japan implemented military rule (Mudan Tongchi) in the 1910s based on the military police system, suppressing the basic rights of Koreans."
+  },
+  "q_japanese_occupation_01_002": {
+    "question": "Which statement about this building in the photo is correct?",
+    "correct": "It was Japan's highest governing institution for colonial rule over Korea",
+    "wrong": [
+      "It was an institution handling Korean Empire administration",
+      "It was a secret society where independence activists operated",
+      "It was the birthplace of the March 1st Movement",
+      "It was where national newspapers were located"
+    ],
+    "hint": "This was the highest governing institution established by Japan to rule Korea, where the Governor-General administered.",
+    "explanation": "The Government-General of Korea was the highest governing institution established by Japan for colonial rule over Korea. From the first Governor-General Terauchi Masatake onward, successive governors ruled from here."
+  },
+  "q_japanese_occupation_01_003": {
+    "question": "Which was NOT a characteristic of the 1910s military rule period?",
+    "correct": "Freedom of press, publication, assembly, and association was allowed for Koreans",
+    "wrong": [
+      "The military police system was implemented",
+      "Teachers also wore uniforms and carried swords",
+      "The Korean Flogging Ordinance was enforced",
+      "The Land Survey Project was implemented"
+    ],
+    "hint": "During military rule, all freedoms were suppressed. Be suspicious of any answer containing 'allowed'.",
+    "explanation": "During the 1910s military rule period, freedom of press, publication, assembly, and association was thoroughly suppressed, and the military police system was implemented where military police handled police duties."
+  },
+  "q_japanese_occupation_01_004": {
+    "question": "Which statement correctly describes the situation when this law was enforced?",
+    "correct": "Flogging was applied only to Koreans, showing severe ethnic discrimination",
+    "wrong": [
+      "Cultural rule was implemented guaranteeing press freedom",
+      "Korean language newspapers were allowed to be published",
+      "Koreans were granted political participation rights",
+      "The principle of national self-determination was spreading"
+    ],
+    "hint": "The Korean Flogging Ordinance was a discriminatory law that allowed corporal punishment only for Koreans.",
+    "explanation": "The Korean Flogging Ordinance was a discriminatory punishment applied only to Koreans, allowing summary flogging and violating Korean human rights.",
+    "source": "Korean Flogging Ordinance Article 1: Those who would be sentenced to imprisonment of 3 months or less or detention may be punished by flogging."
+  },
+  "q_japanese_occupation_01_005": {
+    "question": "Which statement about the Land Survey Project (1910-1918) is NOT correct?",
+    "correct": "It guaranteed land ownership rights for Korean farmers",
+    "wrong": [
+      "Land not reported within the deadline became Government-General property",
+      "The Oriental Development Company and others seized large amounts of land",
+      "Many farmers fell to tenant farmer status",
+      "It claimed to establish a modern land ownership system"
+    ],
+    "hint": "The Land Survey Project was an exploitative policy that 'seized' farmers' land. 'Guaranteed' is false.",
+    "explanation": "The Land Survey Project claimed to establish modern land ownership, but actually exploited the reporting requirement to make unreported land Government-General property, thus seizing Korean farmers' land."
+  },
+  "q_japanese_occupation_01_006": {
+    "question": "Which was NOT an economic exploitation policy of Japan in the 1910s?",
+    "correct": "Rice Production Increase Plan",
+    "wrong": [
+      "Land Survey Project",
+      "Company Law promulgation",
+      "Fisheries Ordinance promulgation",
+      "Forestry Ordinance promulgation"
+    ],
+    "hint": "The Rice Production Increase Program was implemented in the 1920s to exploit rice.",
+    "explanation": "The Rice Production Increase Plan was implemented in the 1920s. In the 1910s, economic exploitation was carried out through the Land Survey Project, Company Law, Fisheries Ordinance, and Forestry Ordinance."
+  },
+  "q_japanese_occupation_01_007": {
+    "question": "Which statement about this project related to the photo is correct?",
+    "correct": "Koreans were required to report within a deadline to prove land ownership",
+    "wrong": [
+      "Korean land was distributed free of charge",
+      "Japanese land acquisition was prohibited",
+      "Tenant farmers' rights were protected",
+      "It began after the March 1st Movement"
+    ],
+    "hint": "This was the Land Survey Project where land was seized if not registered within the deadline.",
+    "explanation": "In the Land Survey Project, land not reported within the deadline became Government-General property, and much land was seized through this method."
+  },
+  "q_japanese_occupation_01_008": {
+    "question": "Which statement about the Company Law (1910) is correct?",
+    "correct": "It suppressed Korean business activities by requiring Governor-General's permission to establish companies",
+    "wrong": [
+      "It actively encouraged Koreans to establish companies",
+      "Its purpose was to prevent Japanese companies from entering Korea",
+      "It was abolished after the March 1st Movement",
+      "It granted Koreans equal rights with Japanese companies"
+    ],
+    "hint": "Establishing a company required the Governor-General's 'permission', blocking Korean business activities.",
+    "explanation": "The Company Law required Governor-General's permission to establish companies, suppressing Korean business activities and promoting Japanese capital monopoly. In 1920, it was relaxed from a permission system to a notification system."
+  },
+  "q_japanese_occupation_01_009": {
+    "question": "Which was an ethnic annihilation policy of Japan in the 1910s?",
+    "correct": "Korean language use and Korean history education were restricted",
+    "wrong": [
+      "Name change (Sōshi-kaimei) was forced",
+      "Recitation of the Oath of Imperial Subjects was forced",
+      "Shinto shrine worship was forced",
+      "The Korean language subject was abolished"
+    ],
+    "hint": "Soshi-kaimei, the Imperial Subject's Oath, and Shinto shrine worship were policies from the 1930s-40s.",
+    "explanation": "In the 1910s, Korean language and Korean history education were restricted. Forced name change, Oath of Imperial Subjects, and Shinto shrine worship were policies of the 1930s-40s ethnic annihilation period."
+  },
+  "q_japanese_occupation_01_010": {
+    "question": "Which statement about the institution related to this photo is correct?",
+    "correct": "It was a national policy company that encouraged Japanese immigration and seized Korean land",
+    "wrong": [
+      "It was an institution that protected Korean interests",
+      "It was an institution established by the Korean Empire government",
+      "It was an organization that supported the March 1st Movement",
+      "It was an institution that helped Koreans establish companies"
+    ],
+    "hint": "The Oriental Development Company, called 'Dongcheok', was a representative exploitation institution that seized Korean land.",
+    "explanation": "The Oriental Development Company was a Japanese national policy company established in 1908 that purchased large amounts of Korean land and encouraged Japanese immigration, leading colonial management."
+  },
+  "q_japanese_occupation_01_011": {
+    "question": "Which was a result of the Land Survey Project?",
+    "correct": "Many farmers lost their land and became tenant farmers",
+    "wrong": [
+      "Farmers' land ownership was guaranteed",
+      "Land distribution was carried out fairly",
+      "Farmers' lives improved",
+      "Japanese landlords decreased"
+    ],
+    "hint": "Farmers who didn't know how to register lost their land and became tenant farmers working on others' land.",
+    "explanation": "As a result of the Land Survey Project, farmers who did not report or did not know the reporting procedures lost their land and fell to tenant farmer status."
+  },
+  "q_japanese_occupation_01_012": {
+    "question": "Which oppressive law did Japan promulgate in the 1910s?",
+    "correct": "Korean Flogging Ordinance",
+    "wrong": [
+      "Private University Ordinance",
+      "Korean-only Language Law",
+      "Farmland Reform Law",
+      "Basic Education Law"
+    ],
+    "hint": "This was a discriminatory law allowing flogging (corporal punishment) only for Koreans.",
+    "explanation": "The Korean Flogging Ordinance promulgated in 1912 was a discriminatory law that applied only to Koreans, allowing punishment by flogging."
+  },
+  "q_japanese_occupation_01_013": {
+    "question": "Which was NOT a form of independence movement in the 1910s?",
+    "correct": "Movement demanding cultural rule",
+    "wrong": [
+      "Continuation of righteous army struggle",
+      "Building overseas independence movement bases",
+      "Organizing secret societies",
+      "Domestic enlightenment movement"
+    ],
+    "hint": "Cultural rule was a policy implemented by Japan after the March 1st Movement, not demanded by independence activists.",
+    "explanation": "In the 1910s, activities such as organizing secret societies domestically and building independence movement bases overseas were carried out."
+  },
+  "q_japanese_occupation_01_014": {
+    "question": "Which secret independence movement organization was formed in the 1910s?",
+    "correct": "Korean National Liberation Corps (Daehan Gwangbokhoe)",
+    "wrong": [
+      "Singanhoe",
+      "Uiyeoldan",
+      "Korean Patriotic Corps",
+      "Korean Volunteer Corps"
+    ],
+    "hint": "This was a secret organization formed in Daegu in 1915 that punished pro-Japanese collaborators and raised military funds.",
+    "explanation": "The Korean National Liberation Corps was a secret independence movement organization formed in Daegu in 1915, engaging in punishing pro-Japanese wealthy persons and collecting military funds."
+  },
+  "q_japanese_occupation_01_015": {
+    "question": "Which was the content of the Company Law?",
+    "correct": "Koreans had to obtain the Governor-General's permission to establish companies",
+    "wrong": [
+      "It encouraged Koreans to establish companies",
+      "It prohibited Japanese companies from entering Korea",
+      "It only allowed joint Korean-Japanese companies",
+      "Only agricultural companies could be established"
+    ],
+    "hint": "Companies could only be established with the Governor-General's 'permission', blocking Korean business activities.",
+    "explanation": "The Company Law promulgated in 1910 regulated Korean company establishment under the Governor-General's permission system, suppressing the growth of national capital."
+  },
+  "q_japanese_occupation_02_001": {
+    "question": "In what year did the March 1st Movement occur?",
+    "correct": "1919",
+    "wrong": [
+      "1910",
+      "1920",
+      "1926",
+      "1929"
+    ],
+    "hint": "It's also called the 'Gimi Independence Movement' because it occurred in the year of Gimi (1919).",
+    "explanation": "The March 1st Movement was a large-scale independence demonstration that started on March 1, 1919 with the reading of the Declaration of Independence at Tapgol Park in Seoul and spread nationwide."
+  },
+  "q_japanese_occupation_02_002": {
+    "question": "Which statement about the event related to this photo is correct?",
+    "correct": "The Declaration of Independence signed by 33 national representatives was announced",
+    "wrong": [
+      "The Uiyeoldan threw bombs",
+      "The Provisional Government of the Republic of Korea was established",
+      "The Korean Liberation Army was founded",
+      "Singanhoe was formed"
+    ],
+    "hint": "This was a nationwide protest movement that began with the Declaration of Independence signed by 33 national representatives from Cheondogyo, Christianity, and Buddhism.",
+    "explanation": "On March 1, 1919, the Declaration of Independence signed by 33 national representatives was announced, triggering nationwide independence demonstrations."
+  },
+  "q_japanese_occupation_02_003": {
+    "question": "Which was NOT a background of the March 1st Movement?",
+    "correct": "Resistance against the Rice Production Increase Plan",
+    "wrong": [
+      "Wilson's principle of national self-determination",
+      "Rumors of Emperor Gojong's poisoning",
+      "February 8th Declaration of Independence",
+      "Resentment against Japanese military rule"
+    ],
+    "hint": "The Rice Production Increase Program was a rice exploitation policy implemented in the 1920s.",
+    "explanation": "The Rice Production Increase Plan was a policy implemented in the 1920s. Backgrounds of the March 1st Movement include the principle of national self-determination, Emperor Gojong poisoning rumors, February 8th Declaration of Independence, and resentment against military rule."
+  },
+  "q_japanese_occupation_02_004": {
+    "question": "Which event is related to the following declaration?",
+    "correct": "March 1st Movement",
+    "wrong": [
+      "Gapsin Coup",
+      "Donghak Peasant Movement",
+      "Uiyeoldan activities",
+      "Gwangju Student Anti-Japanese Movement"
+    ],
+    "hint": "This is the Gimi Declaration of Independence that 'declared Korea as an independent nation and Koreans as a free people'.",
+    "explanation": "This content is part of the Declaration of Independence announced during the 1919 March 1st Movement, declaring Korea as an independent nation and Koreans as a self-governing people.",
+    "source": "We hereby declare Korea an independent nation and Koreans a self-governing people. We announce this to all nations of the world to clarify the great principle of human equality..."
+  },
+  "q_japanese_occupation_02_005": {
+    "question": "Which was NOT a characteristic of the March 1st Movement?",
+    "correct": "It was conducted through armed struggle",
+    "wrong": [
+      "It began as a non-violent peaceful protest",
+      "People from all walks of life including students, farmers, and workers participated",
+      "It spread nationwide",
+      "Independence demonstrations also occurred overseas"
+    ],
+    "hint": "The March 1st Movement was a peaceful protest where people held Taegeukgi flags with bare hands and shouted 'Long live Korean independence'.",
+    "explanation": "The March 1st Movement began as a non-violent peaceful protest, and it was a nationwide movement with participation from all walks of life including students, farmers, workers, and merchants."
+  },
+  "q_japanese_occupation_02_006": {
+    "question": "Who wrote the Declaration of Independence for the March 1st Movement?",
+    "correct": "Choe Nam-seon",
+    "wrong": [
+      "Kim Gu",
+      "An Chang-ho",
+      "Yi Gwang-su",
+      "Sin Chae-ho"
+    ],
+    "hint": "A writer with the pen name Yukdang (六堂) who drafted the Declaration of Independence.",
+    "explanation": "The Declaration of Independence was written by Choe Nam-seon and signed by 33 national representatives. The declaration was signed by leaders of Cheondogyo, Christianity, and Buddhism."
+  },
+  "q_japanese_occupation_02_007": {
+    "question": "Which statement about this person in the photo is correct?",
+    "correct": "She led independence demonstrations at Aunae Market and was arrested and died in prison",
+    "wrong": [
+      "She wrote the Declaration of Independence",
+      "She was the first president of the Provisional Government",
+      "She organized the Uiyeoldan",
+      "She led the Battle of Cheongsanri"
+    ],
+    "hint": "A martyr from Ewha Hakdang who led the independence movement in her hometown Cheonan and died for the cause.",
+    "explanation": "Yu Gwan-sun led independence demonstrations at Aunae Market in Cheonan, South Chungcheong Province, was arrested, and died at Seodaemun Prison."
+  },
+  "q_japanese_occupation_02_008": {
+    "question": "Which was Japan's response to the March 1st Movement?",
+    "correct": "They mobilized military and police to suppress it by force",
+    "wrong": [
+      "They recognized Korean independence",
+      "They further strengthened military rule",
+      "They abolished the Government-General",
+      "They granted political participation rights"
+    ],
+    "hint": "They committed atrocities like trapping residents in a church and massacring them in Jeamri.",
+    "explanation": "Japan mobilized military and police to suppress the March 1st Movement by force, committing civilian massacres such as the Jeamri Massacre. Afterward, they shifted to cultural rule."
+  },
+  "q_japanese_occupation_02_009": {
+    "question": "Which was NOT a result of the March 1st Movement?",
+    "correct": "Japan approved Korean independence",
+    "wrong": [
+      "The Provisional Government of the Republic of Korea was established",
+      "Japan shifted to cultural rule",
+      "The Korean independence movement became known worldwide",
+      "The nation's will for independence was confirmed"
+    ],
+    "hint": "Japanese colonial rule continued even after the March 1st Movement, and independence was achieved only in 1945.",
+    "explanation": "As a result of the March 1st Movement, the Provisional Government of the Republic of Korea was established, and Japan shifted from military rule to cultural rule. However, Korean independence was not approved."
+  },
+  "q_japanese_occupation_02_010": {
+    "question": "Which statement about the event related to this document is correct?",
+    "correct": "It was a declaration of independence announced by Korean students in Tokyo, Japan",
+    "wrong": [
+      "It was announced domestically after the March 1st Movement",
+      "It was led by the 33 national representatives",
+      "It was announced by the Provisional Government",
+      "It was led by Singanhoe"
+    ],
+    "hint": "This declaration, announced in Tokyo on February 8, 1919, sparked the March 1st Movement.",
+    "explanation": "The February 8th Declaration of Independence was announced by Korean students in Tokyo, Japan on February 8, 1919, becoming a catalyst for the March 1st Movement.",
+    "source": "The Korean Youth Independence Corps, representing twenty million people, declares independence before all nations of the world that have achieved victory for justice and freedom."
+  },
+  "q_japanese_occupation_02_011": {
+    "question": "Who drafted the Declaration of Independence for the March 1st Movement?",
+    "correct": "Choe Nam-seon",
+    "wrong": [
+      "Son Byeong-hui",
+      "Han Yong-un",
+      "Yi Gwang-su",
+      "Kim Gu"
+    ],
+    "hint": "The person who 'wrote' the Declaration of Independence is different from those who 'signed' it. Find the writer.",
+    "explanation": "The Declaration of Independence was drafted by Choe Nam-seon and announced in the name of the 33 national representatives."
+  },
+  "q_japanese_occupation_02_012": {
+    "question": "What was the route of spread for the March 1st Movement demonstrations?",
+    "correct": "It started in Seoul and spread to cities and rural areas nationwide",
+    "wrong": [
+      "It started in rural areas and spread to cities",
+      "It started overseas and spread domestically",
+      "It occurred only in some regions",
+      "It proceeded with Japanese permission"
+    ],
+    "hint": "A nationwide protest movement that started from Tapgol Park and spread throughout the country.",
+    "explanation": "The March 1st Movement started at Tapgol Park in Seoul and spread to cities and rural areas nationwide."
+  },
+  "q_japanese_occupation_02_013": {
+    "question": "Where did Yu Gwan-sun lead the independence movement?",
+    "correct": "Aunae Market in Cheonan, South Chungcheong Province",
+    "wrong": [
+      "Tapgol Park in Seoul",
+      "Christian school in Pyongyang",
+      "Dongnae Market in Busan",
+      "Seomun Market in Daegu"
+    ],
+    "hint": "This is the name of the marketplace in Cheonan, the hometown of patriot Yu Gwan-sun.",
+    "explanation": "Yu Gwan-sun led the independence movement at Aunae Market in Cheonan, South Chungcheong Province, was arrested, and died in prison."
+  },
+  "q_japanese_occupation_02_014": {
+    "question": "Where did many casualties occur due to Japanese suppression during the March 1st Movement?",
+    "correct": "Jeamri",
+    "wrong": [
+      "Tapgol Park",
+      "Independence Gate",
+      "Gwanghwamun",
+      "Gyeongbokgung Palace"
+    ],
+    "hint": "This is where Japanese soldiers trapped residents in a church in Hwaseong and set it on fire.",
+    "explanation": "In April 1919, Japanese soldiers committed an atrocity at Jeamri in Hwaseong, trapping villagers in a church and massacring them."
+  },
+  "q_japanese_occupation_02_015": {
+    "question": "What was the international impact of the March 1st Movement?",
+    "correct": "It influenced China's May Fourth Movement",
+    "wrong": [
+      "Japan approved independence",
+      "The United States supported Korean independence",
+      "The League of Nations resolved Korean independence",
+      "It had no impact"
+    ],
+    "hint": "It influenced the May 4th anti-imperialist movement in China in 1919.",
+    "explanation": "The March 1st Movement influenced Asian national movements such as China's May Fourth Movement and India's independence movement."
+  },
+  "q_japanese_occupation_03_001": {
+    "question": "In what year and where was the Provisional Government of the Republic of Korea established?",
+    "correct": "1919, Shanghai, China",
+    "wrong": [
+      "1910, Seoul",
+      "1919, Vladivostok",
+      "1920, Manchuria",
+      "1945, Chongqing"
+    ],
+    "hint": "It was established in April, right after the March 1st Movement, in a major Chinese city.",
+    "explanation": "The Provisional Government of the Republic of Korea was established in April 1919 in Shanghai, China. It unified various provisional governments established domestically and abroad after the March 1st Movement."
+  },
+  "q_japanese_occupation_03_002": {
+    "question": "Which statement about this building in the photo is correct?",
+    "correct": "It is the building used by the Provisional Government of the Republic of Korea",
+    "wrong": [
+      "It is the Government-General building",
+      "It was the Uiyeoldan headquarters",
+      "It was an independence army training center",
+      "It is where the March 1st Movement started"
+    ],
+    "hint": "This building was used by the central organization of our independence movement in Shanghai.",
+    "explanation": "This building was the Provisional Government office in Shanghai, China, serving as the base of operations from 1919."
+  },
+  "q_japanese_occupation_03_003": {
+    "question": "Who was the first president of the Provisional Government of the Republic of Korea?",
+    "correct": "Rhee Syngman",
+    "wrong": [
+      "Kim Gu",
+      "An Chang-ho",
+      "Yi Dong-hwi",
+      "Park Eun-sik"
+    ],
+    "hint": "This person also became the first president after the establishment of the Republic of Korea.",
+    "explanation": "Rhee Syngman was the first president of the Provisional Government. Kim Gu later led the Provisional Government as its chairman."
+  },
+  "q_japanese_occupation_03_004": {
+    "question": "Which document contains the following content?",
+    "correct": "Provisional Constitution of the Republic of Korea",
+    "wrong": [
+      "Declaration of Independence",
+      "Korean Revolution Declaration",
+      "Japan-Korea Protocol",
+      "Eulsa Treaty"
+    ],
+    "hint": "This was Korea's first democratic constitution that first established the 'democratic republic' system.",
+    "explanation": "The Provisional Constitution was enacted by the Provisional Government in 1919, specifying democratic republicanism and popular sovereignty.",
+    "source": "Article 1: The Republic of Korea shall be a democratic republic. Article 2: The Republic of Korea shall be governed by the Provisional Government through resolutions of the Provisional Assembly."
+  },
+  "q_japanese_occupation_03_005": {
+    "question": "Which was NOT an activity of the Provisional Government?",
+    "correct": "It directly led the March 1st Movement domestically",
+    "wrong": [
+      "It published the Independence News",
+      "It organized the Liaison System and Transportation Bureau",
+      "It conducted diplomatic activities",
+      "It established the Korean Liberation Army"
+    ],
+    "hint": "The March 1st Movement (March 1, 1919) occurred first, and the Provisional Government (April 1919) was established afterward.",
+    "explanation": "The March 1st Movement (March 1, 1919) occurred before the Provisional Government was established (April 1919), so it was not directly led by the Provisional Government. The Provisional Government published the Independence News, organized the Liaison System, and conducted diplomatic activities."
+  },
+  "q_japanese_occupation_03_006": {
+    "question": "Which statement about this person in the photo is correct?",
+    "correct": "He served as chairman of the Provisional Government",
+    "wrong": [
+      "He wrote the Declaration of Independence",
+      "He led the Battle of Bongo-dong",
+      "He organized the Uiyeoldan",
+      "He led the Korean Language Society"
+    ],
+    "hint": "A representative leader of the Provisional Government with the pen name Baekbeom (白凡).",
+    "explanation": "Kim Gu served as chairman of the Provisional Government, organized the Korean Patriotic Corps, and led the establishment of the Korean Liberation Army."
+  },
+  "q_japanese_occupation_03_007": {
+    "question": "Which statement about the Liaison System (Yeontongje) is correct?",
+    "correct": "It was a secret administrative organization connecting the homeland with the Provisional Government",
+    "wrong": [
+      "It was an armed independence army organization",
+      "It was a press organization",
+      "It was an educational institution",
+      "It was a diplomatic agency"
+    ],
+    "hint": "An organization that 'connected (連)' the domestic area with the Provisional Government in Shanghai through 'communication (通)'.",
+    "explanation": "The Liaison System was a secret administrative organization created by the Provisional Government to connect with the homeland, responsible for collecting independence movement funds and transmitting information."
+  },
+  "q_japanese_occupation_03_008": {
+    "question": "What was the correct route of the Provisional Government's relocation?",
+    "correct": "Shanghai → Hangzhou → Chongqing",
+    "wrong": [
+      "Chongqing → Shanghai → Hangzhou",
+      "Manchuria → Shanghai → Chongqing",
+      "Seoul → Shanghai → Manchuria",
+      "Vladivostok → Shanghai → Seoul"
+    ],
+    "hint": "They continuously moved inland in China to escape the Second Sino-Japanese War, with Chongqing as the final settlement.",
+    "explanation": "The Provisional Government was established in Shanghai in 1919, then moved through Hangzhou, Nanjing, Changsha due to the Second Sino-Japanese War, and settled in Chongqing in 1940."
+  },
+  "q_japanese_occupation_03_009": {
+    "question": "Which was NOT a cause of the Provisional Government's period of stagnation?",
+    "correct": "Establishment of the Korean Liberation Army",
+    "wrong": [
+      "Conflicts over independence movement direction",
+      "Lack of funds",
+      "Japanese suppression",
+      "Rhee Syngman's League of Nations mandate petition issue"
+    ],
+    "hint": "The establishment of the Liberation Army (1940) was a positive event that revitalized the Provisional Government.",
+    "explanation": "The Korean Liberation Army establishment (1940) contributed to revitalizing the Provisional Government. In the 1920s, the Provisional Government experienced stagnation due to conflicts over independence movement direction, lack of funds, and Rhee Syngman's mandate petition issue."
+  },
+  "q_japanese_occupation_03_010": {
+    "question": "Which statement about this military force in the photo is correct?",
+    "correct": "It was the regular army under the Provisional Government, established in 1940",
+    "wrong": [
+      "It defeated Japanese forces at the Battle of Bongo-dong",
+      "It was organized right after the March 1st Movement",
+      "It operated domestically",
+      "It led the Battle of Cheongsanri"
+    ],
+    "hint": "The regular army of the Provisional Government established in Chongqing, with Ji Cheong-cheon as commander-in-chief.",
+    "explanation": "The Korean Liberation Army was the regular army under the Provisional Government established in Chongqing in 1940, with Ji Cheong-cheon as commander-in-chief."
+  },
+  "q_japanese_occupation_03_011": {
+    "question": "Who was the first president of the Provisional Government?",
+    "correct": "Rhee Syngman",
+    "wrong": [
+      "Kim Gu",
+      "An Chang-ho",
+      "Yi Dong-hwi",
+      "Sin Ik-hui"
+    ],
+    "hint": "An independence activist who engaged in diplomatic activities in America and became the first president of Korea after liberation.",
+    "explanation": "When the Provisional Government was established in 1919, Rhee Syngman was elected as the first president."
+  },
+  "q_japanese_occupation_03_012": {
+    "question": "Who proposed the Three Principles of Equality (Samgyun Juui) for the Provisional Government?",
+    "correct": "Jo So-ang",
+    "wrong": [
+      "Kim Gu",
+      "Rhee Syngman",
+      "An Chang-ho",
+      "Yeo Un-hyeong"
+    ],
+    "hint": "A philosophy advocating equality in politics, economy, and education, reflected in the National Foundation Program.",
+    "explanation": "Jo So-ang proposed the Three Principles of Equality advocating equality in politics, economy, and education, which was reflected in the National Foundation Platform."
+  },
+  "q_japanese_occupation_03_013": {
+    "question": "Why did the Provisional Government move through various cities?",
+    "correct": "To escape Japanese pursuit and the effects of the Second Sino-Japanese War",
+    "wrong": [
+      "Due to internal divisions",
+      "To receive American support",
+      "Due to Soviet invitation",
+      "For training independence forces"
+    ],
+    "hint": "They moved to find safe places to escape Japanese pursuit and wars in China.",
+    "explanation": "The Provisional Government moved through various cities from Shanghai to Chongqing to escape Japanese pursuit and the Second Sino-Japanese War."
+  },
+  "q_japanese_occupation_03_014": {
+    "question": "What was the Provisional Government's activity for collecting independence movement funds?",
+    "correct": "Operating the Liaison System and Transportation Bureau",
+    "wrong": [
+      "Korean Products Promotion Movement",
+      "National Debt Repayment Movement",
+      "Independence demonstrations",
+      "Self-strengthening movement"
+    ],
+    "hint": "Funds were collected through secret organizations connecting domestic Korea and the Provisional Government.",
+    "explanation": "The Provisional Government operated the Liaison System (secret administrative organization) and Transportation Bureau (communication network) to connect with the homeland and collect funds."
+  },
+  "q_japanese_occupation_03_015": {
+    "question": "What was the official newspaper of the Provisional Government?",
+    "correct": "Independence News (Dongnip Sinmun)",
+    "wrong": [
+      "Dong-A Ilbo",
+      "Chosun Ilbo",
+      "Maeil Sinbo",
+      "Hwangseong Sinmun"
+    ],
+    "hint": "This newspaper has the same name as the one founded by Seo Jae-pil in 1896, but it's a different publication.",
+    "explanation": "The Provisional Government published the Independence News to report independence movement news and inspire national consciousness."
+  },
+  "q_japanese_occupation_04_001": {
+    "question": "What ruling method did Japan implement in the 1920s?",
+    "correct": "Cultural rule",
+    "wrong": [
+      "Military rule",
+      "Ethnic annihilation rule",
+      "Naisen Ittai",
+      "Imperial subject transformation"
+    ],
+    "hint": "After the March 1st Movement, they pretended to allow 'culture' but it was actually more cunning control.",
+    "explanation": "After the March 1st Movement, Japan proclaimed cultural rule in the 1920s, but this was a deceptive policy aimed at dividing the nation and cultivating pro-Japanese collaborators."
+  },
+  "q_japanese_occupation_04_002": {
+    "question": "Which was NOT a characteristic of cultural rule?",
+    "correct": "Complete autonomy was allowed for Korea",
+    "wrong": [
+      "The regular police system was adopted",
+      "Publication of Korean language newspapers was permitted",
+      "Teachers' uniform wearing and sword carrying were abolished",
+      "In reality, the number of police and police budget increased"
+    ],
+    "hint": "Cultural rule only pretended to be relaxed on the surface; it never granted true autonomy.",
+    "explanation": "Cultural rule superficially promoted conciliatory policies, but in reality was a more cunning colonial policy with increased police numbers and cultivation of pro-Japanese collaborators. Korean autonomy was not allowed."
+  },
+  "q_japanese_occupation_04_003": {
+    "question": "Which statement about this photo is correct?",
+    "correct": "It was a Korean language newspaper founded in 1920 that contributed to inspiring national consciousness",
+    "wrong": [
+      "It was an official gazette published by Japan",
+      "It was founded during the military rule period",
+      "It was published only in Japanese",
+      "It directly reported on the March 1st Movement"
+    ],
+    "hint": "A representative national newspaper founded in 1920 along with Dong-A Ilbo.",
+    "explanation": "Chosun Ilbo was a Korean language newspaper founded in 1920, contributing to inspiring national consciousness along with Dong-A Ilbo as a national press."
+  },
+  "q_japanese_occupation_04_004": {
+    "question": "What was the purpose of this policy?",
+    "correct": "It was to extract Korean rice for Japan",
+    "wrong": [
+      "It was to help Korean farmers achieve food self-sufficiency",
+      "It was to promote Korean industrialization",
+      "It was to guarantee farmers' land ownership",
+      "It was to develop agricultural technology"
+    ],
+    "hint": "An exploitation policy to increase rice production and take it to Japan.",
+    "explanation": "The Rice Production Increase Plan was an extraction policy to increase rice production in Korea and transport it to Japan to solve Japan's rice shortage problem.",
+    "source": "Rice Production Increase Plan: Increase rice production in Korea to solve the food shortage in mainland Japan."
+  },
+  "q_japanese_occupation_04_005": {
+    "question": "Which was a result of the Rice Production Increase Plan?",
+    "correct": "Korean farmers' food situation worsened",
+    "wrong": [
+      "Korean farmers' lives improved",
+      "Korean rice consumption increased",
+      "Tenant farmers converted to owner-farmers",
+      "Rural economy developed"
+    ],
+    "hint": "Rice went to Japan, and Koreans had to eat millet imported from Manchuria.",
+    "explanation": "Under the Rice Production Increase Plan, although production increased, most was exported to Japan, worsening Korean farmers' food situation and forcing them to import millet from Manchuria."
+  },
+  "q_japanese_occupation_04_006": {
+    "question": "Which was Japan's education policy in the 1920s?",
+    "correct": "Elementary school years were extended and Korean was made a required subject",
+    "wrong": [
+      "The Korean language subject was completely abolished",
+      "All classes were conducted only in Japanese",
+      "Higher education for Koreans was prohibited",
+      "National education was fully permitted"
+    ],
+    "hint": "During cultural rule, Korean language was taught as a required subject. It was abolished during the 1930s ethnic annihilation period.",
+    "explanation": "During the cultural rule period, elementary school years were extended from 4 to 6 years and Korean was made a required subject, but this was done within the framework of colonial education."
+  },
+  "q_japanese_occupation_04_007": {
+    "question": "What was the reality of cultural rule?",
+    "correct": "The number of police actually increased and surveillance using informants was strengthened",
+    "wrong": [
+      "Political participation rights were granted to Koreans",
+      "Independence movements became completely legal",
+      "Japanese extraction stopped",
+      "Koreans and Japanese became equal"
+    ],
+    "hint": "Though appearing relaxed on the outside, they actually increased police and spies to strengthen surveillance.",
+    "explanation": "Cultural rule was a superficially conciliatory policy, but in reality more cunning colonial rule was carried out through increased police numbers, use of informants, and cultivation of pro-Japanese collaborators."
+  },
+  "q_japanese_occupation_04_008": {
+    "question": "What was Japan's intention during the cultural rule period?",
+    "correct": "They tried to divide the national movement and cultivate pro-Japanese collaborators",
+    "wrong": [
+      "They tried to prepare for Korean independence",
+      "They tried to preserve Korean culture",
+      "They tried to expand Korean political participation",
+      "They tried to support national movements"
+    ],
+    "hint": "By allowing Korean newspapers, they tried to divide the nationalist movement and cultivate pro-Japanese collaborators.",
+    "explanation": "Through cultural rule, Japan advocated allowing Korean newspapers and expanding educational opportunities, but the real purpose was dividing the national movement and cultivating pro-Japanese collaborators."
+  },
+  "q_japanese_occupation_04_009": {
+    "question": "Which statement about this photo is correct?",
+    "correct": "It is an elementary education institution established by Japan for colonial education",
+    "wrong": [
+      "It is a school established autonomously by Koreans",
+      "It is a higher education institution",
+      "It is a school that provided national education",
+      "It is an institution for training independence activists"
+    ],
+    "hint": "This was the elementary school for Koreans, with a different name from 'Elementary School' for Japanese.",
+    "explanation": "The Common School (Botong Hakgyo) was an elementary education institution established by Japan for Koreans, providing colonial education. It was discriminated from Japanese elementary schools."
+  },
+  "q_japanese_occupation_04_010": {
+    "question": "Which was a characteristic of national movements in the 1920s?",
+    "correct": "Self-strengthening movements and armed struggle were conducted simultaneously",
+    "wrong": [
+      "Only armed struggle was conducted",
+      "All national movements were made illegal",
+      "Only diplomatic independence theory was advocated",
+      "National movements were completely stopped"
+    ],
+    "hint": "Self-strengthening movements like the Korean Products Promotion Movement and armed struggle by independence armies happened simultaneously.",
+    "explanation": "In the 1920s, self-strengthening movements such as the Korean Products Promotion Movement and Private University Establishment Movement were conducted alongside armed struggle by independence armies."
+  },
+  "q_japanese_occupation_04_011": {
+    "question": "What was the reality of cultural rule?",
+    "correct": "It was only formal relaxation; surveillance and suppression were actually strengthened",
+    "wrong": [
+      "True autonomy was granted",
+      "Freedom of press and publication was guaranteed",
+      "Independence movements became legal",
+      "Ethnic discrimination was completely abolished"
+    ],
+    "hint": "They allowed Korean newspapers but censored them, while actually increasing police and informants.",
+    "explanation": "Cultural rule was merely formal relaxation; the number of police actually increased and surveillance through informants was strengthened."
+  },
+  "q_japanese_occupation_04_012": {
+    "question": "Which was a result of the Rice Production Increase Plan?",
+    "correct": "Rice exports to Japan increased and Korean food situation worsened",
+    "wrong": [
+      "Korean farmers' lives improved",
+      "Korean industry developed",
+      "Food self-sufficiency rate increased",
+      "Japanese landlords decreased"
+    ],
+    "hint": "Rice to Japan, Koreans to Manchurian millet... this was the result of exploitation.",
+    "explanation": "Under the Rice Production Increase Plan, rice production increased but most was exported to Japan, worsening the Korean food situation."
+  },
+  "q_japanese_occupation_04_013": {
+    "question": "Which Korean newspaper was NOT permitted in the 1920s?",
+    "correct": "Independence News (Dongnip Sinmun)",
+    "wrong": [
+      "Dong-A Ilbo",
+      "Chosun Ilbo",
+      "Sidae Ilbo",
+      "Jungoe Ilbo"
+    ],
+    "hint": "The Dongnip Sinmun was a newspaper founded by Seo Jae-pil in 1896, not in the 1920s.",
+    "explanation": "Independence News was a newspaper founded in 1896. In the 1920s, Dong-A Ilbo and Chosun Ilbo were founded."
+  },
+  "q_japanese_occupation_04_014": {
+    "question": "When did elementary school years increase from 4 to 6 years?",
+    "correct": "1920s",
+    "wrong": [
+      "1910s",
+      "1930s",
+      "After liberation",
+      "Korean Empire period"
+    ],
+    "hint": "It increased during cultural rule in 1922 with the Second Joseon Education Ordinance.",
+    "explanation": "During the cultural rule period, the Second Joseon Education Ordinance in 1922 increased elementary school years from 4 to 6 years."
+  },
+  "q_japanese_occupation_04_015": {
+    "question": "Which was NOT an example of the 1920s national culture movement?",
+    "correct": "Imperial subject transformation movement",
+    "wrong": [
+      "Korean Language Society activities",
+      "National history research",
+      "Folk studies research",
+      "Korean language promotion movement"
+    ],
+    "hint": "Imperial subject transformation was an ethnic annihilation policy forced by Japan in the 1930s.",
+    "explanation": "The imperial subject transformation movement was part of the 1930s ethnic annihilation policy. In the 1920s, national culture movements such as Korean language and national history research were conducted."
+  },
+  "q_japanese_occupation_05_001": {
+    "question": "What was the slogan of the Korean Products Promotion Movement?",
+    "correct": "My household with my own goods, Korean people Korean goods",
+    "wrong": [
+      "Learn, teach, all together",
+      "Independence through national education",
+      "Land to the farmers",
+      "Workers unite"
+    ],
+    "hint": "The slogan of this movement encouraging the use of domestically-made products.",
+    "explanation": "The Korean Products Promotion Movement raised slogans such as 'My household with my own goods' and 'Korean people Korean goods,' pursuing national economic independence through the use of domestic products."
+  },
+  "q_japanese_occupation_05_002": {
+    "question": "Which statement about the movement related to this photo is correct?",
+    "correct": "It was a movement pursuing national economic independence through the use of domestic products",
+    "wrong": [
+      "It was a movement that conducted armed struggle",
+      "It was a movement supported by Japan",
+      "It was a movement aimed at farmers recovering land",
+      "It was part of the labor movement"
+    ],
+    "hint": "A 'domestic products promotion' movement started in Pyongyang by Cho Man-sik and others.",
+    "explanation": "The Korean Products Promotion Movement was a self-strengthening movement led by Jo Man-sik and others in the 1920s, pursuing national economic independence through the use of domestic products."
+  },
+  "q_japanese_occupation_05_003": {
+    "question": "Which statement about the Private University Establishment Movement is correct?",
+    "correct": "It was a movement to establish a university through Korean efforts but failed due to Japanese obstruction",
+    "wrong": [
+      "Japan led the establishment of Keijo Imperial University",
+      "It was conducted before the March 1st Movement",
+      "It succeeded in establishing a university",
+      "It was part of armed struggle"
+    ],
+    "hint": "They raised funds with the slogan 'Ten million Koreans, one won per person' but failed due to Japanese interference.",
+    "explanation": "The Private University Establishment Movement led by Yi Sang-jae and others tried to establish a university through Korean efforts, but failed because Japan established Keijo Imperial University and obstructed fundraising."
+  },
+  "q_japanese_occupation_05_004": {
+    "question": "Which organization announced the following principles?",
+    "correct": "Singanhoe",
+    "wrong": [
+      "Uiyeoldan",
+      "Independence Club",
+      "Provisional Government",
+      "Korean Language Society"
+    ],
+    "hint": "An organization where nationalists and socialists united under the banner of 'rejecting opportunism'.",
+    "explanation": "Singanhoe was a united national front formed in 1927, with non-compromising nationalists and socialists united, proclaiming national unity and political/economic awakening as their principles.",
+    "source": "1. We promote political and economic awakening. 2. We strengthen our unity. 3. We reject all opportunism."
+  },
+  "q_japanese_occupation_05_005": {
+    "question": "Which statement about Singanhoe is NOT correct?",
+    "correct": "Armed struggle was its main activity",
+    "wrong": [
+      "Non-compromising nationalists and socialists united",
+      "It supported the Gwangju Student Anti-Japanese Movement",
+      "It established branches nationwide",
+      "It was dissolved in 1931"
+    ],
+    "hint": "Singanhoe was a legal nationalist organization that did not engage in armed struggle.",
+    "explanation": "Singanhoe was a legal national movement organization that conducted activities such as public enlightenment and eliminating ethnic discrimination rather than armed struggle."
+  },
+  "q_japanese_occupation_05_006": {
+    "question": "In what year did the Gwangju Student Anti-Japanese Movement occur?",
+    "correct": "1929",
+    "wrong": [
+      "1919",
+      "1926",
+      "1936",
+      "1940"
+    ],
+    "hint": "A student movement sparked by an incident where Japanese students harassed Korean female students.",
+    "explanation": "The Gwangju Student Anti-Japanese Movement began in 1929 in Gwangju, triggered by a Japanese student's harassment of Korean female students, and spread nationwide as a student movement."
+  },
+  "q_japanese_occupation_05_007": {
+    "question": "Which statement about this organization related to the photo is correct?",
+    "correct": "It was the largest national movement organization where nationalist and socialist forces united",
+    "wrong": [
+      "It conducted armed independence war",
+      "It was an organization under the Provisional Government",
+      "It was established by Japan",
+      "It only operated overseas"
+    ],
+    "hint": "The largest legal nationalist organization during Japanese occupation, formed through left-right coalition.",
+    "explanation": "Singanhoe was the largest national movement organization during the Japanese colonial period, formed in 1927 through the union of nationalist and socialist forces."
+  },
+  "q_japanese_occupation_05_008": {
+    "question": "What was a limitation of the 1920s self-strengthening movement?",
+    "correct": "It could not achieve significant results due to Japanese obstruction and lack of capital",
+    "wrong": [
+      "There was no public participation at all",
+      "It was completely disconnected from armed struggle",
+      "It was actively supported by Japan",
+      "It was only conducted overseas"
+    ],
+    "hint": "The purpose was good, but achieving goals was difficult due to Japanese interference and lack of funds.",
+    "explanation": "The Korean Products Promotion Movement, Private University Establishment Movement and other self-strengthening movements received public support but faced difficulties achieving significant results due to Japanese obstruction and lack of capital."
+  },
+  "q_japanese_occupation_05_009": {
+    "question": "Which statement about the June 10th Independence Movement is correct?",
+    "correct": "It was an independence demonstration conducted on the day of Emperor Sunjong's funeral",
+    "wrong": [
+      "It occurred in the same year as the March 1st Movement",
+      "It was triggered by Emperor Gojong's funeral",
+      "It started in Gwangju and spread nationwide",
+      "It was led by the Provisional Government"
+    ],
+    "hint": "A protest movement that occurred on the funeral day of the last emperor, Sunjong, in 1926.",
+    "explanation": "The June 10th Independence Movement was an independence demonstration conducted by students and socialists on June 10, 1926, the day of Emperor Sunjong's funeral (Insan-il)."
+  },
+  "q_japanese_occupation_05_010": {
+    "question": "Which statement about Geunuhoe is correct?",
+    "correct": "It was a women's movement organization aimed at improving women's status and unity",
+    "wrong": [
+      "It was an organization only men could join",
+      "It conducted armed struggle",
+      "It was a government-sponsored organization established by Japan",
+      "It was formed before the March 1st Movement"
+    ],
+    "hint": "A sister organization of Singanhoe, where 'Geunwoo (槿友)' means 'friends of the Rose of Sharon'.",
+    "explanation": "Geunuhoe was a women's movement organization formed in 1927 as a sister organization of Singanhoe, working to improve women's status and unity."
+  },
+  "q_japanese_occupation_05_011": {
+    "question": "What was pointed out as a limitation of the Korean Products Promotion Movement?",
+    "correct": "National capital was insufficient and it faced Japanese obstruction",
+    "wrong": [
+      "It received active support from Japan",
+      "It lacked support from the farming class",
+      "It was only conducted overseas",
+      "It was accompanied by armed struggle"
+    ],
+    "hint": "Even wanting to buy domestic products, there wasn't enough capital to make them, and Japan interfered.",
+    "explanation": "The Korean Products Promotion Movement had limitations due to lack of national capital, Japanese obstruction, and insufficient execution ability."
+  },
+  "q_japanese_occupation_05_012": {
+    "question": "What was the goal of the Private University Establishment Movement?",
+    "correct": "To nurture talent and inspire national consciousness through a Korean-founded university",
+    "wrong": [
+      "Establishing a university for Japanese education",
+      "Strengthening Japanese colonial education",
+      "Only handling foreign language education",
+      "Only handling technical education"
+    ],
+    "hint": "They wanted a university built by Korean efforts, not Japan's Keijo Imperial University.",
+    "explanation": "The 1920s Private University Establishment Movement aimed to establish a university by Koreans themselves to counter Japanese colonial education."
+  },
+  "q_japanese_occupation_05_013": {
+    "question": "Which was NOT an activity of the Korean Language Society (Joseon-eo Hakhoe)?",
+    "correct": "Conducting armed independence struggle",
+    "wrong": [
+      "Establishing unified Korean orthography",
+      "Standardizing the Korean language",
+      "Compiling the Great Korean Dictionary",
+      "Korean language promotion movement"
+    ],
+    "hint": "The Korean Language Society was an academic organization researching and promoting Hangeul, unrelated to armed struggle.",
+    "explanation": "The Korean Language Society worked on Korean language research and promotion; it was not an armed struggle organization."
+  },
+  "q_japanese_occupation_05_014": {
+    "question": "Which was a rural enlightenment movement?",
+    "correct": "V Narod Movement",
+    "wrong": [
+      "Korean Products Promotion Movement",
+      "Private University Establishment Movement",
+      "Armed independence struggle",
+      "National Debt Repayment Movement"
+    ],
+    "hint": "Meaning 'to the people' in Russian, students went to rural areas for enlightenment activities.",
+    "explanation": "The V Narod Movement, meaning 'to the people,' involved students going into rural areas to conduct literacy campaigns and enlightenment activities."
+  },
+  "q_japanese_occupation_05_015": {
+    "question": "What was the background of the 1920s self-strengthening movement?",
+    "correct": "Recognition that armed struggle alone had limitations after the March 1st Movement",
+    "wrong": [
+      "Strengthening of Japanese military rule",
+      "Complete abandonment of the independence movement",
+      "Seeking cooperation with Japan",
+      "Requesting direct support from foreign powers"
+    ],
+    "hint": "After independence movements failed to achieve independence, the idea spread that building strength was necessary.",
+    "explanation": "After the March 1st Movement, some believed the foundation for independence should be prepared by cultivating national strength, and conducted self-strengthening movements."
+  },
+  "q_japanese_occupation_06_001": {
+    "question": "Which statement about the Battle of Bongo-dong is correct?",
+    "correct": "It was a 1920 battle where the independence army decisively defeated Japanese forces",
+    "wrong": [
+      "It occurred immediately after the March 1st Movement in 1919",
+      "It was a battle fought domestically",
+      "It was directly commanded by the Provisional Government",
+      "It was a battle conducted by the Korean Liberation Army"
+    ],
+    "hint": "A battle where independence forces led by General Hong Beom-do greatly defeated Japanese troops in Manchuria.",
+    "explanation": "The Battle of Bongo-dong in June 1920 was a battle in Bongo-dong, Manchuria, where the Korean Independence Army led by Hong Beom-do decisively defeated Japanese forces."
+  },
+  "q_japanese_occupation_06_002": {
+    "question": "Which statement about this person in the photo is correct?",
+    "correct": "He led the Northern Route Military Government at the Battle of Cheongsanri and defeated Japanese forces",
+    "wrong": [
+      "He commanded the Battle of Bongo-dong",
+      "He organized the Uiyeoldan",
+      "He led the Korean Patriotic Corps",
+      "He was the first president of the Provisional Government"
+    ],
+    "hint": "The hero of the Cheongsanri Victory with the pen name Baekya (白冶).",
+    "explanation": "Kim Jwa-jin was the leader of the Northern Route Military Government who decisively defeated Japanese forces at the Battle of Cheongsanri in October 1920."
+  },
+  "q_japanese_occupation_06_003": {
+    "question": "Which statement about the Battle of Cheongsanri is correct?",
+    "correct": "It was a 1920 battle where the independence army led by Kim Jwa-jin and Hong Beom-do decisively defeated Japanese forces",
+    "wrong": [
+      "It occurred immediately after the March 1st Movement in 1919",
+      "It was a battle fought domestically",
+      "It was a battle where the independence army was defeated",
+      "It was a battle conducted by the Korean Liberation Army"
+    ],
+    "hint": "Along with the Battle of Fengwudong, this is counted as the greatest victory of the independence war.",
+    "explanation": "The Battle of Cheongsanri in October 1920 was the greatest victory of the independence war, where the Northern Route Military Government led by Kim Jwa-jin and the Korean Independence Army led by Hong Beom-do decisively defeated Japanese forces in the Cheongsanri area of Manchuria."
+  },
+  "q_japanese_occupation_06_004": {
+    "question": "Which statement about the Gando Massacre (Gyeongsin Massacre) is correct?",
+    "correct": "It was an incident where Japan indiscriminately massacred Koreans in Gando after the Battle of Cheongsanri defeat",
+    "wrong": [
+      "It was an incident suppressing the March 1st Movement",
+      "It was an incident where the independence army massacred Japanese",
+      "It occurred in 1910",
+      "It occurred domestically"
+    ],
+    "hint": "After losing at Cheongsanri, Japan massacred innocent Koreans out of revenge.",
+    "explanation": "The Gando Massacre (Gyeongsin Massacre) was an incident in 1920 where Japan indiscriminately massacred Koreans in the Gando region in retaliation for their defeat at the Battle of Cheongsanri."
+  },
+  "q_japanese_occupation_06_005": {
+    "question": "Which statement about the Free City Incident is correct?",
+    "correct": "It was an incident where the independence army was disarmed and suffered casualties at the hands of the Soviet Red Army",
+    "wrong": [
+      "It was an incident where the independence army was massacred by Japanese forces",
+      "It occurred domestically",
+      "It was a victorious battle for the independence army",
+      "It occurred in 1920"
+    ],
+    "hint": "A tragic event where independence forces were sacrificed by Soviet troops in the Russian city of Svobodny.",
+    "explanation": "The Free City Incident (Heukha Incident) was an incident in 1921 in Free City, Russia, where the independence army was disarmed by the Soviet Red Army and many were killed."
+  },
+  "q_japanese_occupation_06_006": {
+    "question": "Which was NOT an independence army unit?",
+    "correct": "Korean Language Society",
+    "wrong": [
+      "Korean Independence Army",
+      "Northern Route Military Government",
+      "Western Route Military Government",
+      "Uigunbu"
+    ],
+    "hint": "The Korean Language Society was an academic organization studying Hangeul, not a military force.",
+    "explanation": "The Korean Language Society was a Korean language research organization. The Korean Independence Army, Northern Route Military Government, Western Route Military Government, and Uigunbu were armed independence army units active in Manchuria."
+  },
+  "q_japanese_occupation_06_007": {
+    "question": "Which statement about this person in the photo is correct?",
+    "correct": "He led the Korean Independence Army at the Battle of Bongo-dong and defeated Japanese forces",
+    "wrong": [
+      "He led the Northern Route Military Government at the Battle of Cheongsanri",
+      "He organized the Uiyeoldan",
+      "He led the Korean Patriotic Corps",
+      "He wrote the Declaration of Independence"
+    ],
+    "hint": "The hero of Fengwudong with the nickname 'Flying General' (飛將軍).",
+    "explanation": "Hong Beom-do led the Korean Independence Army to a great victory over Japanese forces at the Battle of Bongo-dong in 1920 and also participated in the Battle of Cheongsanri."
+  },
+  "q_japanese_occupation_06_008": {
+    "question": "Which statement about this organization's activities is correct?",
+    "correct": "It was formed in the late 1920s in Manchuria as part of the movement for a unified national party",
+    "wrong": [
+      "It led the March 1st Movement",
+      "It was an organization that operated domestically",
+      "It was formed in the 1910s",
+      "It was an organization that compromised with Japan"
+    ],
+    "hint": "The result of the movement to unify the Three Prefectures: Chamui-bu, Jeongui-bu, and Sinmin-bu.",
+    "explanation": "As a result of the unification movement of the three governments (Chamui-bu, Jeongui-bu, Sinmin-bu), the National Council and Reform Assembly were formed in 1929, and later the Korean Independence Party and Korean Independence Army, Joseon Revolutionary Party and Joseon Revolutionary Army were organized.",
+    "source": "Unified National Party Movement: A movement to unite independence movement forces transcending left-right ideology"
+  },
+  "q_japanese_occupation_06_009": {
+    "question": "Which statement about Korean-Chinese joint operations in the 1930s is correct?",
+    "correct": "Yang Se-bong's Joseon Revolutionary Army allied with Chinese volunteer forces and won at the Battle of Yeongneungga",
+    "wrong": [
+      "All operations failed",
+      "They were only conducted domestically",
+      "They were operations supported by Japan",
+      "Only the Korean Liberation Army participated"
+    ],
+    "hint": "There were battles where the Korean Revolutionary Army and Korean Independence Army fought alongside Chinese forces and won.",
+    "explanation": "In the 1930s in Manchuria, Yang Se-bong's Joseon Revolutionary Army and Ji Cheong-cheon's Korean Independence Army allied with Chinese forces and defeated Japanese forces at battles such as Yeongneungga and Ssangseongbo."
+  },
+  "q_japanese_occupation_06_010": {
+    "question": "Which was NOT a cause of the decline of independence army activities?",
+    "correct": "Strengthened support from the Provisional Government",
+    "wrong": [
+      "Damage from the Gando Massacre",
+      "Damage from the Free City Incident",
+      "Japanese invasion of Manchuria (Manchurian Incident)",
+      "Internal divisions within the independence army"
+    ],
+    "hint": "The Provisional Government had difficulty supporting independence forces due to financial troubles.",
+    "explanation": "Causes for the decline of independence army activities included the Gando Massacre, Free City Incident, Manchurian Incident, and internal divisions. The Provisional Government had difficulty supporting the independence army due to financial difficulties."
+  },
+  "q_japanese_occupation_06_011": {
+    "question": "Who commanded the Battle of Cheongsanri?",
+    "correct": "Kim Jwa-jin",
+    "wrong": [
+      "Hong Beom-do",
+      "Kim Won-bong",
+      "An Jung-geun",
+      "Yi Bong-chang"
+    ],
+    "hint": "The general who led the Northern Route Army Command and was the key figure in the Cheongsanri Victory.",
+    "explanation": "The Battle of Cheongsanri in October 1920 was commanded by General Kim Jwa-jin of the Northern Route Military Government, achieving a great victory over Japanese forces."
+  },
+  "q_japanese_occupation_06_012": {
+    "question": "Which independence army unit commanded the Battle of Bongo-dong?",
+    "correct": "Korean Independence Army (Hong Beom-do)",
+    "wrong": [
+      "Northern Route Military Government",
+      "Western Route Military Government",
+      "Uiyeoldan",
+      "Korean Patriotic Corps"
+    ],
+    "hint": "A battle won by the united independence forces led by General Hong Beom-do.",
+    "explanation": "The Battle of Bongo-dong in June 1920 was a battle where the combined forces of the Korean Independence Army led by Hong Beom-do decisively defeated Japanese forces."
+  },
+  "q_japanese_occupation_06_013": {
+    "question": "Which statement about the Gando Massacre is correct?",
+    "correct": "After the Battle of Cheongsanri, Japan massacred Koreans in Manchuria",
+    "wrong": [
+      "It was an internal division incident within the independence army",
+      "It was an incident celebrating Japanese military victory",
+      "It was an incident where the independence army attacked Japanese civilians",
+      "It occurred immediately after the March 1st Movement"
+    ],
+    "hint": "A massacre also called 'Gyeongsin Massacre' because it occurred in the year of Gyeongsin (1920).",
+    "explanation": "In 1920, angered by their defeat at the Battle of Cheongsanri, Japan attacked Korean villages in Manchuria and massacred innocent civilians (Gyeongsin Massacre)."
+  },
+  "q_japanese_occupation_06_014": {
+    "question": "Who led the Northern Route Military Government?",
+    "correct": "Kim Jwa-jin",
+    "wrong": [
+      "Hong Beom-do",
+      "Kim Won-bong",
+      "Kim Gu",
+      "Rhee Syngman"
+    ],
+    "hint": "A Daejonggyo-affiliated independence army organization led by the general who commanded the Cheongsanri battle.",
+    "explanation": "The Northern Route Military Government was an independence army organization affiliated with Daejonggyo, led by General Kim Jwa-jin."
+  },
+  "q_japanese_occupation_06_015": {
+    "question": "Which organization was formed as a result of the reorganization of Manchurian independence armies in the 1920s?",
+    "correct": "Chamui-bu, Jeongui-bu, Sinmin-bu",
+    "wrong": [
+      "Uiyeoldan, Korean Patriotic Corps",
+      "Singanhoe, Geunuhoe",
+      "Korean Independence Corps only",
+      "Independence Club, Manmin Gongdonghoe"
+    ],
+    "hint": "The independence armies in Manchuria were reorganized into three 'Bu (府)' for their activities.",
+    "explanation": "In the mid-1920s, independence armies in Manchuria were reorganized into the three governments: Chamui-bu, Jeongui-bu, and Sinmin-bu."
+  },
+  "q_japanese_occupation_07_001": {
+    "question": "Who organized the Uiyeoldan?",
+    "correct": "Kim Won-bong",
+    "wrong": [
+      "Kim Gu",
+      "An Chang-ho",
+      "Yi Bong-chang",
+      "Yun Bong-gil"
+    ],
+    "hint": "The pioneer of righteous struggle with the pen name Yaksan (若山).",
+    "explanation": "The Uiyeoldan was an armed independence movement organization organized in Jilin, Manchuria in 1919, centered on Kim Won-bong."
+  },
+  "q_japanese_occupation_07_002": {
+    "question": "Which statement about this person in the photo is correct?",
+    "correct": "He organized the Uiyeoldan and established the Korean Volunteer Corps",
+    "wrong": [
+      "He organized the Korean Patriotic Corps",
+      "He led the Battle of Cheongsanri",
+      "He wrote the Declaration of Independence",
+      "He was the first president of the Provisional Government"
+    ],
+    "hint": "The leader of Uiyeoldan who fought Japan with bombs and assassinations, and founder of the Korean Volunteer Corps.",
+    "explanation": "Kim Won-bong organized the Uiyeoldan and conducted assassination and destruction activities against Japanese targets, and established the Korean Volunteer Corps in 1938."
+  },
+  "q_japanese_occupation_07_003": {
+    "question": "Who wrote the 'Korean Revolution Declaration,' the action guideline of the Uiyeoldan?",
+    "correct": "Sin Chae-ho",
+    "wrong": [
+      "Kim Won-bong",
+      "Kim Gu",
+      "An Chang-ho",
+      "Yi Gwang-su"
+    ],
+    "hint": "A nationalist historian with the pen name Danjae (丹齋).",
+    "explanation": "The 'Korean Revolution Declaration' (Uiyeoldan Declaration) was written by Sin Chae-ho in 1923, advocating direct popular revolution and violent struggle."
+  },
+  "q_japanese_occupation_07_004": {
+    "question": "Which describes the content of this document?",
+    "correct": "It criticized diplomatic and preparatory theories and advocated direct popular revolution",
+    "wrong": [
+      "It emphasized non-violent peaceful movement",
+      "It advocated compromise with Japan",
+      "It only emphasized self-strengthening movement",
+      "It supported diplomatic independence theory"
+    ],
+    "hint": "A declaration advocating direct revolution, not diplomacy or preparation, against 'robber Japan'.",
+    "explanation": "Sin Chae-ho's 'Korean Revolution Declaration' criticized diplomatic theory, preparatory theory, and cultural movement theory, advocating independence through direct popular revolution and violent struggle.",
+    "source": "Bandit Japan has eliminated our national name... We hereby declare that we abandon the illusions of 'diplomacy' and 'preparation' and take the means of direct popular revolution."
+  },
+  "q_japanese_occupation_07_005": {
+    "question": "Which was NOT an activity of the Uiyeoldan?",
+    "correct": "Participation in the Battle of Cheongsanri",
+    "wrong": [
+      "Bomb throwing at the Government-General building",
+      "Bomb throwing at Jongno Police Station",
+      "Bomb throwing at the Oriental Development Company",
+      "Bomb throwing at Miryang Police Station"
+    ],
+    "hint": "The Cheongsanri battle was conducted by independence army units led by Kim Jwa-jin and Hong Beom-do.",
+    "explanation": "The Battle of Cheongsanri was a battle conducted by independence army units led by Kim Jwa-jin and Hong Beom-do. The Uiyeoldan conducted bomb throwing and assassination activities against Japanese institutions and officials."
+  },
+  "q_japanese_occupation_07_006": {
+    "question": "Which statement about this person in the photo is correct?",
+    "correct": "He threw a bomb at Hongkou Park in Shanghai and executed Japanese officials",
+    "wrong": [
+      "He organized the Uiyeoldan",
+      "He threw a bomb at the Japanese Emperor in Tokyo",
+      "He threw a bomb at Jongno Police Station",
+      "He led the Battle of Cheongsanri"
+    ],
+    "hint": "A patriot who eliminated Japanese generals at the Emperor's birthday celebration with a lunchbox bomb.",
+    "explanation": "Yun Bong-gil threw a bomb at the Japanese Emperor's birthday celebration at Hongkou Park in Shanghai in 1932, executing Japanese military leaders."
+  },
+  "q_japanese_occupation_07_007": {
+    "question": "Which statement about the Korean Patriotic Corps is correct?",
+    "correct": "It was organized by Kim Gu and directed the Yi Bong-chang and Yun Bong-gil operations",
+    "wrong": [
+      "It was an organization organized by Kim Won-bong",
+      "It led the March 1st Movement",
+      "It participated in the Battle of Cheongsanri",
+      "It only operated domestically"
+    ],
+    "hint": "A righteous struggle organization formed by Baekbeom Kim Gu to revitalize the stagnant Provisional Government.",
+    "explanation": "The Korean Patriotic Corps was a militant struggle organization organized by Kim Gu in 1931, directing Yi Bong-chang's Tokyo operation and Yun Bong-gil's Shanghai operation."
+  },
+  "q_japanese_occupation_07_008": {
+    "question": "Which statement about the Yi Bong-chang operation is correct?",
+    "correct": "He threw a bomb at the Japanese Emperor in Tokyo in 1932 but failed",
+    "wrong": [
+      "He executed Japanese officials in Shanghai",
+      "He was active as a Uiyeoldan member",
+      "He led the Battle of Cheongsanri",
+      "He was active in 1919"
+    ],
+    "hint": "An attack that occurred in Tokyo throwing a grenade at the Japanese Emperor, before Yun Bong-gil's attack.",
+    "explanation": "Yi Bong-chang threw a bomb at Emperor Hirohito in Tokyo, Japan in January 1932, but failed. However, this incident showed the world the will of the Korean independence movement."
+  },
+  "q_japanese_occupation_07_009": {
+    "question": "Which statement about this person in the photo is correct?",
+    "correct": "As a member of the Korean Patriotic Corps, he threw a bomb at the Japanese Emperor in Tokyo",
+    "wrong": [
+      "He organized the Uiyeoldan",
+      "He threw a bomb at Hongkou Park in Shanghai",
+      "He led the Battle of Cheongsanri",
+      "He was the chairman of the Provisional Government"
+    ],
+    "hint": "A patriot who said 'I chose this for eternal happiness'.",
+    "explanation": "Yi Bong-chang was a member of the Korean Patriotic Corps who threw a bomb at the Japanese Emperor in Tokyo in 1932."
+  },
+  "q_japanese_occupation_07_010": {
+    "question": "Which was a result of the Yun Bong-gil operation?",
+    "correct": "The Chinese Nationalist government began actively supporting the Provisional Government",
+    "wrong": [
+      "Japan approved Korean independence",
+      "The Provisional Government was dissolved",
+      "The independence movement was completely suppressed",
+      "The March 1st Movement occurred again"
+    ],
+    "hint": "Chiang Kai-shek exclaimed that 'one Korean youth accomplished what a million Chinese soldiers couldn't'.",
+    "explanation": "After the Yun Bong-gil operation, the Chinese Nationalist government (Chiang Kai-shek) changed its perception of the Korean independence movement and began actively supporting the Provisional Government."
+  },
+  "q_japanese_occupation_07_011": {
+    "question": "Which document contained the action guidelines of the Uiyeoldan?",
+    "correct": "Korean Revolution Declaration",
+    "wrong": [
+      "Declaration of Independence",
+      "Declaration of Independence (1919)",
+      "Declaration of Great Unity",
+      "National Foundation Platform"
+    ],
+    "hint": "A declaration written by Sin Chae-ho advocating 'direct people's revolution'.",
+    "explanation": "The 'Korean Revolution Declaration' (1923) written by Sin Chae-ho became the action guideline of the Uiyeoldan."
+  },
+  "q_japanese_occupation_07_012": {
+    "question": "Who organized the Korean Patriotic Corps?",
+    "correct": "Kim Gu",
+    "wrong": [
+      "Kim Won-bong",
+      "An Chang-ho",
+      "Rhee Syngman",
+      "Yeo Un-hyeong"
+    ],
+    "hint": "The person who directed the Lee Bong-chang and Yun Bong-gil attacks as chairman of the Provisional Government.",
+    "explanation": "Kim Gu organized the Korean Patriotic Corps in 1931 to revitalize the stagnant independence movement."
+  },
+  "q_japanese_occupation_07_013": {
+    "question": "Where did the Yi Bong-chang operation take place?",
+    "correct": "Tokyo, Japan",
+    "wrong": [
+      "Shanghai, China",
+      "Fengtian, Manchuria",
+      "Seoul, Korea",
+      "Nanjing, China"
+    ],
+    "hint": "An attack that occurred in Japan's capital where the Emperor resided.",
+    "explanation": "In 1932, Yi Bong-chang threw a grenade at Japanese Emperor Hirohito in Tokyo, Japan."
+  },
+  "q_japanese_occupation_07_014": {
+    "question": "Which military organization did Kim Won-bong establish?",
+    "correct": "Korean Volunteer Corps",
+    "wrong": [
+      "Korean Liberation Army",
+      "Korean Independence Army",
+      "Northern Route Military Government",
+      "Western Route Military Government"
+    ],
+    "hint": "A military organization established in China proper in 1938, mainly composed of former Uiyeoldan members.",
+    "explanation": "In 1938, Kim Won-bong established the Korean Volunteer Corps in mainland China to conduct armed anti-Japanese struggle."
+  },
+  "q_japanese_occupation_07_015": {
+    "question": "Where did Na Seok-ju throw a bomb?",
+    "correct": "Oriental Development Company",
+    "wrong": [
+      "Government-General",
+      "Japanese Imperial Palace",
+      "Japanese warship",
+      "Hongkou Park, Shanghai"
+    ],
+    "hint": "An attack throwing a bomb at the representative colonial exploitation institution that seized Korean land.",
+    "explanation": "In 1926, Uiyeoldan member Na Seok-ju threw a bomb at the Oriental Development Company, a symbol of colonial exploitation."
+  },
+  "q_japanese_occupation_08_001": {
+    "question": "What ruling method did Japan implement in the 1930s-40s?",
+    "correct": "Ethnic annihilation rule",
+    "wrong": [
+      "Military rule",
+      "Cultural rule",
+      "Autonomous rule",
+      "Federal rule"
+    ],
+    "hint": "A period when Japan tried to eliminate Korean ethnic identity through Soshi-kaimei and Shinto shrine worship.",
+    "explanation": "From the 1930s, as Japan started the Second Sino-Japanese War and Pacific War, they implemented ethnic annihilation policies to destroy Korean ethnic identity."
+  },
+  "q_japanese_occupation_08_002": {
+    "question": "Which was the purpose of ethnic annihilation rule?",
+    "correct": "It was to mobilize Koreans for Japan's war of aggression",
+    "wrong": [
+      "It was to prepare for Korean independence",
+      "It was to preserve Korean culture",
+      "It was to protect Korean interests",
+      "It was to achieve ethnic harmony"
+    ],
+    "hint": "They tried to make Koreans like Japanese to mobilize manpower and materials for war.",
+    "explanation": "The purpose of ethnic annihilation rule was to destroy Korean ethnic identity and assimilate them as Japanese to mobilize manpower and materials for the war of aggression."
+  },
+  "q_japanese_occupation_08_003": {
+    "question": "Which statement about this policy related to the photo is correct?",
+    "correct": "It was a policy forcing Koreans to change their family and given names to Japanese style",
+    "wrong": [
+      "It was a policy encouraging the use of Korean language",
+      "It was a policy granting political participation rights to Koreans",
+      "It was a policy protecting Korean culture",
+      "It was a policy expanding educational opportunities for Koreans"
+    ],
+    "hint": "A ethnic annihilation policy meaning 'creating a family name (創氏) and changing names (改名)'.",
+    "explanation": "Sōshi-kaimei (name change, 1940) was an ethnic annihilation policy forcing Koreans to change their family and given names to Japanese style."
+  },
+  "q_japanese_occupation_08_004": {
+    "question": "Which was a policy of the period when this content was enforced?",
+    "correct": "Imperial subject transformation policy was implemented",
+    "wrong": [
+      "Cultural rule was implemented",
+      "Military rule was implemented",
+      "Korean language education was strengthened",
+      "Publication of national newspapers was permitted"
+    ],
+    "hint": "An ethnic annihilation policy forcing daily recitation of being 'subjects of the Emperor'.",
+    "explanation": "Forcing memorization of the Oath of Imperial Subjects was part of the 1930s-40s imperial subject transformation policy, an ethnic annihilation policy to make Koreans 'subjects of the Emperor.'",
+    "source": "Oath of Imperial Subjects: We are subjects of the Great Japanese Empire. We unite our hearts to pledge loyalty to His Majesty the Emperor."
+  },
+  "q_japanese_occupation_08_005": {
+    "question": "Which was NOT a policy of the ethnic annihilation period?",
+    "correct": "Permitting publication of Korean language newspapers",
+    "wrong": [
+      "Forcing name change (Sōshi-kaimei)",
+      "Forcing Shinto shrine worship",
+      "Abolishing Korean language education",
+      "Forcing memorization of the Oath of Imperial Subjects"
+    ],
+    "hint": "Actually, Korean newspapers like Chosun Ilbo and Dong-A Ilbo were shut down during this period.",
+    "explanation": "During the ethnic annihilation period, Korean language newspapers (Chosun Ilbo, Dong-A Ilbo) were forcibly closed. Name change, Shinto shrine worship, abolition of Korean language education, and forcing memorization of the Oath of Imperial Subjects were implemented."
+  },
+  "q_japanese_occupation_08_006": {
+    "question": "Which was NOT a wartime exploitation policy of Japan?",
+    "correct": "Land Survey Project",
+    "wrong": [
+      "Grain requisition system",
+      "Forced labor (징용)",
+      "Military conscription",
+      "Comfort women mobilization"
+    ],
+    "hint": "The Land Survey Project was a policy implemented in the 1910s.",
+    "explanation": "The Land Survey Project was a policy implemented in the 1910s. In the 1930s-40s, wartime exploitation policies such as grain requisition, forced labor, military conscription, and comfort women mobilization were implemented."
+  },
+  "q_japanese_occupation_08_007": {
+    "question": "Which statement about this photo is correct?",
+    "correct": "It shows Koreans forcibly mobilized by Japan for war purposes",
+    "wrong": [
+      "It shows Koreans who voluntarily participated",
+      "It occurred during the cultural rule period",
+      "It was part of the independence movement",
+      "Wages were paid to Koreans"
+    ],
+    "hint": "Forced mobilization where people were taken to coal mines and munitions factories and exploited.",
+    "explanation": "Japan forcibly mobilized (conscripted) Koreans for the Pacific War, working them to death in mines and munitions factories."
+  },
+  "q_japanese_occupation_08_008": {
+    "question": "Which statement about Japan's military conscription is correct?",
+    "correct": "From 1944, Koreans were forcibly incorporated into the Japanese military",
+    "wrong": [
+      "It was implemented from the 1920s",
+      "It only applied to volunteers",
+      "It was implemented after the war ended",
+      "It only applied to women"
+    ],
+    "hint": "A system more coercive than the volunteer soldier system (1938), mandating military service.",
+    "explanation": "Japan implemented the volunteer soldier system in 1938, followed by military conscription from 1944, forcibly incorporating Koreans into the Japanese military."
+  },
+  "q_japanese_occupation_08_009": {
+    "question": "Which was NOT human exploitation by Japan?",
+    "correct": "Rice Production Increase Plan",
+    "wrong": [
+      "Forced labor",
+      "Military conscription",
+      "Student volunteer soldiers",
+      "Japanese military 'comfort women' mobilization"
+    ],
+    "hint": "The Rice Production Increase Program exploited rice (materials), not people.",
+    "explanation": "The Rice Production Increase Plan was a rice exploitation policy. Forced labor, military conscription, student volunteer soldiers, and Japanese military 'comfort women' mobilization were forms of human exploitation."
+  },
+  "q_japanese_occupation_08_010": {
+    "question": "Which statement about Japanese military 'comfort women' is correct?",
+    "correct": "It was a war crime where Japan forcibly mobilized Korean women and made them sex slaves",
+    "wrong": [
+      "They were women who voluntarily participated",
+      "Adequate compensation was provided",
+      "Japan officially apologized after the war",
+      "It only occurred in some regions"
+    ],
+    "hint": "A crime against humanity where Japan deceived or forcibly took women as sex slaves.",
+    "explanation": "The Japanese military 'comfort women' issue is a war crime where Japan forcibly mobilized Korean women and made them sex slaves, constituting a universal human rights violation."
+  },
+  "q_japanese_occupation_08_011": {
+    "question": "Which was NOT part of the content of Japan's Oath of Imperial Subjects?",
+    "correct": "We are citizens of an independent Korean nation",
+    "wrong": [
+      "We are subjects of the Great Japanese Empire",
+      "We repay the military nation with loyalty",
+      "We train ourselves to become excellent Japanese",
+      "We pledge loyalty to the Emperor"
+    ],
+    "hint": "'Independent nation of Korea' is from the Gimi Declaration of Independence, not the Imperial Subject's Oath.",
+    "explanation": "The Oath of Imperial Subjects was part of Japan's enforced imperial subject transformation policy, intended to make Koreans subjects of the Japanese Emperor."
+  },
+  "q_japanese_occupation_08_012": {
+    "question": "Which was NOT related to Japan's military supply base policy?",
+    "correct": "Spread of national self-determination",
+    "wrong": [
+      "Military industry development",
+      "Underground resource extraction",
+      "Industrialization of northern Korea",
+      "Food requisition system"
+    ],
+    "hint": "National self-determination was advocated by Wilson after WWI, not a Japanese policy.",
+    "explanation": "The military supply base policy was Japan's effort to make the Korean peninsula a production base for military supplies for war purposes."
+  },
+  "q_japanese_occupation_08_013": {
+    "question": "In what year was the National General Mobilization Law implemented?",
+    "correct": "1938",
+    "wrong": [
+      "1919",
+      "1931",
+      "1945",
+      "1920"
+    ],
+    "hint": "A law created right after the Second Sino-Japanese War (1937) to mobilize everything for war.",
+    "explanation": "The National General Mobilization Law was implemented in 1938, mobilizing human and material resources for the war effort."
+  },
+  "q_japanese_occupation_08_014": {
+    "question": "Which statement about forced labor in late Japanese colonial period is correct?",
+    "correct": "Koreans were forcibly mobilized as labor power",
+    "wrong": [
+      "It was voluntary labor participation",
+      "Adequate compensation was provided",
+      "It only occurred domestically",
+      "Women were excluded"
+    ],
+    "hint": "They were forcibly taken to coal mines and factories to work like slaves.",
+    "explanation": "Japan forcibly mobilized Koreans to mines, factories, and munitions plants, also sending them to Japan, Sakhalin, and the South Pacific islands."
+  },
+  "q_japanese_occupation_08_015": {
+    "question": "When did the policy prohibiting Korean language use become intensive?",
+    "correct": "Late 1930s",
+    "wrong": [
+      "1910s",
+      "Early 1920s",
+      "Only right before liberation",
+      "Late 1920s"
+    ],
+    "hint": "Korean language use was banned starting in the late 1930s when ethnic annihilation rule began in earnest.",
+    "explanation": "During the late 1930s ethnic annihilation period, Korean language use was prohibited in schools and public places, and Japanese language use was enforced."
+  },
+  "q_japanese_occupation_09_001": {
+    "question": "Which was NOT an overseas independence movement base besides the Provisional Government?",
+    "correct": "Gyeongseong (Seoul)",
+    "wrong": [
+      "Manchuria",
+      "Maritime Province",
+      "America",
+      "Hawaii"
+    ],
+    "hint": "Gyeongseong (Seoul) was a domestic area under Japanese colonial rule.",
+    "explanation": "Gyeongseong (Seoul) was a domestic location. Manchuria, the Maritime Province, America, and Hawaii were overseas independence movement bases."
+  },
+  "q_japanese_occupation_09_002": {
+    "question": "Which statement about this person in the photo is correct?",
+    "correct": "He organized Heungsadan and devoted himself to the national self-strengthening movement",
+    "wrong": [
+      "He organized the Uiyeoldan",
+      "He led the Battle of Cheongsanri",
+      "He organized the Korean Patriotic Corps",
+      "He wrote the Declaration of Independence"
+    ],
+    "hint": "A pioneer of national education and self-strengthening with the pen name Dosan (島山).",
+    "explanation": "An Chang-ho was an independence activist who organized the Sinminhoe and Heungsadan and devoted himself to the national self-strengthening movement."
+  },
+  "q_japanese_occupation_09_003": {
+    "question": "Which statement about the independence movement of Korean Americans is correct?",
+    "correct": "They raised independence movement funds and conducted diplomatic activities centered on the Korean National Association",
+    "wrong": [
+      "They only conducted armed independence war",
+      "They did not participate in the independence movement",
+      "They collaborated with Japan",
+      "They only operated domestically"
+    ],
+    "hint": "Koreans in America raised money to support the Provisional Government and engaged in diplomatic activities.",
+    "explanation": "Korean Americans conducted various independence movement activities centered on the Korean National Association, including raising independence movement funds, diplomatic activities, and military training."
+  },
+  "q_japanese_occupation_09_004": {
+    "question": "In which region was this educational institution established?",
+    "correct": "Manchuria",
+    "wrong": [
+      "America",
+      "Maritime Province",
+      "Japan",
+      "Mainland China"
+    ],
+    "hint": "Sinheung Military Academy was an independence army training school established in Samwonbo, Manchuria.",
+    "explanation": "Sinheung Military Academy (Sinheung Gangseupso) was an independence army training school established in Samwonbo, Manchuria in 1911, producing many independence army leaders.",
+    "source": "Sinheung Military Academy: A school established to train military personnel for armed independence war"
+  },
+  "q_japanese_occupation_09_005": {
+    "question": "Which statement about the independence movement in the Maritime Province is correct?",
+    "correct": "Organizations such as the Korean Restoration Army Government and Korean National Assembly were organized and active",
+    "wrong": [
+      "No independence movement occurred",
+      "It was under direct Japanese rule",
+      "Only Korean Americans were active",
+      "Armed struggle was prohibited"
+    ],
+    "hint": "Our independence movement organizations were also active in the Russian territory of Primorsky.",
+    "explanation": "In the Maritime Province, organizations such as the Korean Restoration Army Government and Korean National Assembly were organized for independence movement activities, serving as a major base for independence army activities until the Free City Incident."
+  },
+  "q_japanese_occupation_09_006": {
+    "question": "What was the purpose of building overseas independence movement bases?",
+    "correct": "It was to develop independence movement capabilities while avoiding Japanese suppression",
+    "wrong": [
+      "It was to collaborate with Japan",
+      "It was to prevent Korean emigration",
+      "It was to naturalize in foreign countries",
+      "It was to gain economic benefits"
+    ],
+    "hint": "Since they were suppressed domestically, they built strength overseas and prepared for armed struggle.",
+    "explanation": "Overseas independence movement bases were built to develop independence movement capabilities while avoiding Japanese suppression and to prepare for armed struggle."
+  },
+  "q_japanese_occupation_09_007": {
+    "question": "Which statement about this organization related to the photo is correct?",
+    "correct": "It is a political party formed for Korean independence movement",
+    "wrong": [
+      "It is a pro-Japanese organization established by Japan",
+      "It is an organization that only operated domestically",
+      "It is an organization that only conducted cultural movement",
+      "It is an organization that led the March 1st Movement"
+    ],
+    "hint": "An independence movement political party that served as the ruling party of the Provisional Government.",
+    "explanation": "The Korean Independence Party was an independence movement political party formed in Shanghai, China in 1930, serving as the ruling party of the Provisional Government."
+  },
+  "q_japanese_occupation_09_008": {
+    "question": "Which statement about the Korean Volunteer Corps is correct?",
+    "correct": "It was a Korean armed unit formed in mainland China in 1938",
+    "wrong": [
+      "It was a unit formed in Manchuria",
+      "It was a unit belonging to the Japanese military",
+      "It was formed in the 1920s",
+      "It operated domestically"
+    ],
+    "hint": "A unit founded by Kim Won-bong in Wuhan, China, mainly composed of former Uiyeoldan members.",
+    "explanation": "The Korean Volunteer Corps was a Korean armed unit formed in Wuhan, China in 1938 under Kim Won-bong's leadership, participating in the Chinese anti-Japanese war."
+  },
+  "q_japanese_occupation_09_009": {
+    "question": "Which was NOT an activity of the Korean Liberation Army?",
+    "correct": "Participation in the Battles of Bongo-dong and Cheongsanri",
+    "wrong": [
+      "Planning the domestic advance operation",
+      "Participation in the declaration of war against Japan",
+      "Joint operations with British forces on the India-Myanmar front",
+      "Training of the domestic advance force with American OSS"
+    ],
+    "hint": "The Fengwudong and Cheongsanri battles (1920) occurred 20 years before the Liberation Army was established (1940).",
+    "explanation": "The Battles of Bongo-dong and Cheongsanri (1920) were battles conducted by independence army units before the Korean Liberation Army was established (1940)."
+  },
+  "q_japanese_occupation_09_010": {
+    "question": "What was the significance of the establishment of the Korean Liberation Army?",
+    "correct": "As the regular army under the Provisional Government, it conducted independence war",
+    "wrong": [
+      "It was an army that collaborated with Japan",
+      "It only operated domestically",
+      "It was established immediately after the March 1st Movement",
+      "It was supported by the Soviet Union"
+    ],
+    "hint": "The 'regular army' that the Provisional Government finally obtained, fighting alongside Allied forces.",
+    "explanation": "The Korean Liberation Army was the regular army under the Provisional Government established in Chongqing in 1940, participating in the war against Japan alongside the Allied forces."
+  },
+  "q_japanese_occupation_09_011": {
+    "question": "Which was NOT an independence movement base in Manchuria?",
+    "correct": "Maritime Province",
+    "wrong": [
+      "West Gando",
+      "North Gando",
+      "South Manchuria",
+      "Gando"
+    ],
+    "hint": "Primorsky is Russian territory. Manchuria is Chinese territory.",
+    "explanation": "The Maritime Province is Russian territory. Independence movement bases in Manchuria included West Gando and North Gando."
+  },
+  "q_japanese_occupation_09_012": {
+    "question": "Where was the Korean Independence Corps organized?",
+    "correct": "Manchuria",
+    "wrong": [
+      "Maritime Province",
+      "Shanghai",
+      "Hawaii",
+      "America"
+    ],
+    "hint": "A united force of Manchurian independence armies after the Fengwudong and Cheongsanri battles.",
+    "explanation": "In the 1920s, various independence army units in Manchuria united to organize the Korean Independence Corps."
+  },
+  "q_japanese_occupation_09_013": {
+    "question": "In what year did the Free City Incident occur?",
+    "correct": "1921",
+    "wrong": [
+      "1919",
+      "1920",
+      "1925",
+      "1932"
+    ],
+    "hint": "A tragedy that occurred in Russia the year after the Cheongsanri battle (1920).",
+    "explanation": "The Free City Incident, where independence armies were sacrificed by the Soviet Red Army, occurred in Free City in the Maritime Province in 1921."
+  },
+  "q_japanese_occupation_09_014": {
+    "question": "What was the central organization of the independence movement in America?",
+    "correct": "Korean National Association",
+    "wrong": [
+      "Sinminhoe",
+      "Uiyeoldan",
+      "Singanhoe",
+      "Geunuhoe"
+    ],
+    "hint": "A representative organization centered on Koreans in America and Hawaii.",
+    "explanation": "The Korean National Association was a representative independence movement organization of Korean Americans that contributed to raising independence movement funds."
+  },
+  "q_japanese_occupation_09_015": {
+    "question": "Which operation was NOT participated in by the Korean Liberation Army?",
+    "correct": "Battle of Cheongsanri",
+    "wrong": [
+      "India-Myanmar front",
+      "Preparation for domestic advance operation",
+      "Cooperation with American OSS",
+      "Psychological warfare against Japan"
+    ],
+    "hint": "The Cheongsanri battle (1920) occurred 20 years before the Liberation Army (1940) was established.",
+    "explanation": "The Battle of Cheongsanri (1920) was a battle that occurred before the Korean Liberation Army was established (1940)."
+  },
+  "q_japanese_occupation_10_001": {
+    "question": "What was the cause of the peasant movement during the Japanese colonial period?",
+    "correct": "Because farmers' lives worsened due to the Land Survey Project and Rice Production Increase Plan",
+    "wrong": [
+      "Because farmers' land ownership increased",
+      "Because agricultural product prices rose",
+      "Because tenant fees were lowered",
+      "Because Japan supported farmers"
+    ],
+    "hint": "Farmers who lost their land and rice resisted because they were starving.",
+    "explanation": "Due to Japan's Land Survey Project and Rice Production Increase Plan, many farmers lost their land and fell to tenant farmer status, and their lives worsened due to high tenant fees, leading to the peasant movement."
+  },
+  "q_japanese_occupation_10_002": {
+    "question": "Which statement about this movement related to the photo is correct?",
+    "correct": "It was a peasant movement demanding tenant fee reduction and tenant rights guarantee",
+    "wrong": [
+      "It was a workers' strike movement",
+      "It was a students' anti-Japanese movement",
+      "It was an intellectuals' enlightenment movement",
+      "It was a merchants' shop closure movement"
+    ],
+    "hint": "A movement where tenant farmers who borrowed land from landlords demanded lower tenant fees.",
+    "explanation": "Tenant disputes during the Japanese colonial period were peasant movements demanding tenant fee reduction and tenant rights guarantee, actively conducted in the 1920s-30s."
+  },
+  "q_japanese_occupation_10_003": {
+    "question": "Which statement about the Amtaedo Tenant Dispute is correct?",
+    "correct": "It was a representative tenant dispute that occurred on Amtaedo Island, South Jeolla Province in 1923",
+    "wrong": [
+      "It occurred in the 1910s",
+      "It occurred in Gyeonggi Province",
+      "It was a type of labor dispute",
+      "It was a movement led by Japan"
+    ],
+    "hint": "A representative tenant dispute that lasted over a year on a small island in South Jeolla Province.",
+    "explanation": "The Amtaedo Tenant Dispute was a representative tenant dispute that continued for more than a year on Amtaedo Island, South Jeolla Province in 1923, demanding tenant fee reduction."
+  },
+  "q_japanese_occupation_10_004": {
+    "question": "Which was an activity of this organization?",
+    "correct": "It conducted activities to protect tenant farmers' rights and support tenant disputes",
+    "wrong": [
+      "It conducted armed independence war",
+      "It protected landlords' rights",
+      "It collaborated with Japan",
+      "Only workers could join"
+    ],
+    "hint": "An organization that gathered farmers nationwide and worked for their rights.",
+    "explanation": "The Korean Farmers' General Alliance, formed in 1927, was a nationwide peasant movement organization that conducted activities to protect tenant farmers' rights and support tenant disputes.",
+    "source": "Korean Farmers' General Alliance: We defend the interests of the farming masses and fight for the improvement of farmers' lives and social liberation."
+  },
+  "q_japanese_occupation_10_005": {
+    "question": "Which statement about the labor movement during the Japanese colonial period is correct?",
+    "correct": "Workers conducted strikes demanding wage increases and improvement of working conditions",
+    "wrong": [
+      "Japan supported the labor movement",
+      "Workers' rights were fully guaranteed",
+      "No labor movement occurred",
+      "Workers and capitalists cooperated"
+    ],
+    "hint": "Workers in harsh conditions went on strike demanding wage increases and better conditions.",
+    "explanation": "During the Japanese colonial period, workers resisted poor working conditions by conducting strikes demanding wage increases and improvement of working conditions."
+  },
+  "q_japanese_occupation_10_006": {
+    "question": "Which statement about the Wonsan General Strike is correct?",
+    "correct": "It was a large-scale workers' strike that occurred in Wonsan in 1929",
+    "wrong": [
+      "It occurred in 1919",
+      "It was led by farmers",
+      "It occurred in Seoul",
+      "It was a movement led by Japan"
+    ],
+    "hint": "A large-scale strike that lasted 4 months in Wonsan, South Hamgyong Province.",
+    "explanation": "The Wonsan General Strike was a large-scale workers' strike triggered by a British capitalist's assault on Korean workers in Wonsan in 1929, lasting about 4 months."
+  },
+  "q_japanese_occupation_10_007": {
+    "question": "Which statement about this event related to the photo is correct?",
+    "correct": "It was an event in 1929 where workers in Wonsan continued their strike for over 4 months",
+    "wrong": [
+      "It occurred in 1920",
+      "It was led by farmers",
+      "It ended in one week",
+      "It was a movement supported by Japan"
+    ],
+    "hint": "The largest labor dispute during Japanese occupation that drew international attention.",
+    "explanation": "The Wonsan General Strike (1929) was a large-scale labor dispute that continued for about 4 months and received international attention."
+  },
+  "q_japanese_occupation_10_008": {
+    "question": "Which statement about the Hyeongpyeong Movement is correct?",
+    "correct": "It was a movement demanding abolition of social discrimination against baekjeong (butchers)",
+    "wrong": [
+      "It was a movement for workers' rights",
+      "It was a movement for farmers' tenant fee reduction",
+      "It was a movement for women's suffrage",
+      "It was a students' anti-Japanese movement"
+    ],
+    "hint": "A movement where people in the butcher caste demanded abolition of discrimination.",
+    "explanation": "The Hyeongpyeong Movement was a movement to abolish discrimination against baekjeong that began in Jinju in 1923, conducted centered on the Joseon Hyeongpyeongsa."
+  },
+  "q_japanese_occupation_10_009": {
+    "question": "Which was a characteristic of social movements during the Japanese colonial period?",
+    "correct": "National liberation movement and class liberation movement were combined",
+    "wrong": [
+      "They were conducted independently from the national movement",
+      "They were supported by Japan",
+      "Only the ruling class participated",
+      "They were only conducted in the 1910s"
+    ],
+    "hint": "They demanded economic improvements and liberation from Japan together.",
+    "explanation": "Social movements during the Japanese colonial period, such as peasant movements and labor movements, were conducted with the character of national liberation along with economic demands."
+  },
+  "q_japanese_occupation_10_010": {
+    "question": "Which statement about the women's movement during the Japanese colonial period is correct?",
+    "correct": "Women participated in improving women's status and national movement centered on Geunuhoe",
+    "wrong": [
+      "There was no women's movement at all",
+      "It was a movement with only male participation",
+      "It was a movement led by Japan",
+      "It was only conducted overseas"
+    ],
+    "hint": "A sister organization of Singanhoe that worked for women's rights and national liberation.",
+    "explanation": "Geunuhoe (1927) was formed as a sister organization of Singanhoe and participated in improving women's status and the national movement."
+  },
+  "q_japanese_occupation_10_011": {
+    "question": "In what year was Singanhoe formed?",
+    "correct": "1927",
+    "wrong": [
+      "1919",
+      "1932",
+      "1945",
+      "1920"
+    ],
+    "hint": "The largest nationalist organization where nationalists and socialists united.",
+    "explanation": "Singanhoe was formed in 1927 through cooperation between nationalist and socialist factions."
+  },
+  "q_japanese_occupation_10_012": {
+    "question": "Which was an activity of Singanhoe?",
+    "correct": "It supported the Gwangju Student Anti-Japanese Movement",
+    "wrong": [
+      "It conducted armed independence struggle",
+      "It established the Provisional Government",
+      "It only operated overseas",
+      "It collaborated with Japan"
+    ],
+    "hint": "They actively supported the student movement that occurred in Gwangju in 1929.",
+    "explanation": "Singanhoe actively supported the 1929 Gwangju Student Anti-Japanese Movement by dispatching investigation teams."
+  },
+  "q_japanese_occupation_10_013": {
+    "question": "In what year did the Wonsan General Strike occur?",
+    "correct": "1929",
+    "wrong": [
+      "1919",
+      "1927",
+      "1920",
+      "1935"
+    ],
+    "hint": "A large-scale labor movement that occurred in the same year as the Gwangju Student Anti-Japanese Movement.",
+    "explanation": "The Wonsan General Strike of 1929 was a large-scale labor movement that continued for 4 months, marking the peak of the labor movement during the Japanese colonial period."
+  },
+  "q_japanese_occupation_10_014": {
+    "question": "Which statement about the Amtaedo Tenant Dispute is correct?",
+    "correct": "It was a peasant movement demanding tenant fee reduction on Amtaedo Island in 1923",
+    "wrong": [
+      "It was a workers' strike in the 1920s",
+      "It was a rural enlightenment movement led by Japan",
+      "It was a movement to raise independence movement funds",
+      "It occurred in the 1930s"
+    ],
+    "hint": "A farmer movement where they fought against high tenant fees for over a year on a small island in South Jeolla Province.",
+    "explanation": "In 1923, farmers on Amtaedo Island in South Jeolla Province conducted a tenant dispute for over a year demanding reduction of high tenant fees."
+  },
+  "q_japanese_occupation_10_015": {
+    "question": "In what year did the Gwangju Student Anti-Japanese Movement occur?",
+    "correct": "1929",
+    "wrong": [
+      "1919",
+      "1926",
+      "1931",
+      "1945"
+    ],
+    "hint": "The largest anti-Japanese movement after the March 1st Movement, spreading nationwide.",
+    "explanation": "The Gwangju Student Anti-Japanese Movement started in Gwangju in November 1929 and spread nationwide, becoming the largest national movement since the March 1st Movement."
+  }
+}

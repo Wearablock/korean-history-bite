@@ -1,0 +1,390 @@
+{
+  "q_prehistoric_01_001": {
+    "question": "Which of the following correctly describes life during the Paleolithic era?",
+    "correct": "People lived in groups and moved from place to place",
+    "wrong": [
+      "People built pit houses and lived settled lives",
+      "People cultivated rice to produce food",
+      "People built dolmens to bury their leaders",
+      "People farmed using iron tools"
+    ],
+    "hint": "Before agriculture began, how did people obtain food?",
+    "explanation": "Paleolithic people lived nomadic lives in groups, searching for food. Pit houses and settled life appeared in the Neolithic era, dolmens in the Bronze Age, and iron farming tools in the Iron Age."
+  },
+  "q_prehistoric_01_002": {
+    "question": "What is the significance of the artifact discovered at this site in world archaeological history?",
+    "correct": "It proved that Acheulean culture also existed in East Asia",
+    "wrong": [
+      "The first human fossil on the Korean Peninsula was discovered here",
+      "The world's oldest pottery was excavated here",
+      "Artifacts indicating the beginning of agriculture were found here",
+      "It was confirmed as East Asia's first Bronze Age site"
+    ],
+    "hint": "Think about why the Jeongok-ri site overturned the 'Movius Line' theory.",
+    "explanation": "The photo shows an Acheulean-style hand axe excavated from Jeongok-ri, Yeoncheon. Discovered in 1978 by U.S. soldier Greg Bowen, it overturned the Movius Line theory that Acheulean tools existed only in Africa and Europe."
+  },
+  "q_prehistoric_01_003": {
+    "question": "Which statement about Paleolithic tool-making techniques is INCORRECT?",
+    "correct": "Grinding stones to sharpen edges was a common technique",
+    "wrong": [
+      "Stones were struck to create sharp edges",
+      "Hand axes, choppers, and scrapers were representative tools",
+      "Tanged points were attached to spears for use",
+      "Blade techniques developed in the later period"
+    ],
+    "hint": "Think about the difference between 'chipped stone tools' and 'polished stone tools'.",
+    "explanation": "During the Paleolithic era, 'chipped stone tools' made by striking stones were used. 'Polished stone tools' made by grinding stones are characteristic of the Neolithic era. In the late Paleolithic, blade techniques developed for more efficient tool production."
+  },
+  "q_prehistoric_01_004": {
+    "question": "Based on the following source, which statement correctly describes the society of this era?",
+    "source": "People of this era used chipped stone tools, made fires to ward off cold and cook food. They mainly lived in caves or rock shelters and led nomadic lives searching for food.",
+    "correct": "People lived in egalitarian communal groups",
+    "wrong": [
+      "Chieftains ruled over tribes",
+      "Wars were fought with bronze weapons",
+      "People settled in areas suitable for farming",
+      "Priests presided over religious ceremonies"
+    ],
+    "hint": "What would society look like if individuals didn't own the means of production?",
+    "explanation": "The source describes Paleolithic life. During the Paleolithic era, means of production were communally owned, creating an egalitarian society without wealth gaps or class distinctions."
+  },
+  "q_prehistoric_01_005": {
+    "question": "Which statement correctly describes the era when this artifact was used?",
+    "correct": "Food acquisition mainly depended on hunting and gathering",
+    "wrong": [
+      "Pottery was made to store food",
+      "Crescent-shaped stone knives were used to harvest grain",
+      "Surplus production occurred due to the start of agriculture",
+      "Social status can be inferred from tomb sizes"
+    ],
+    "hint": "In an era without agriculture, how was food obtained?",
+    "explanation": "The photo shows a Paleolithic chopper. During the Paleolithic era, there was no agriculture; food was obtained through hunting and gathering. Pottery making began in the Neolithic, while crescent-shaped stone knives and class emergence are Bronze Age characteristics."
+  },
+  "q_prehistoric_01_006": {
+    "question": "Which pairing of Paleolithic site and its characteristics is correct?",
+    "correct": "Seokjang-ri, Gongju - Korea's first academically surveyed Paleolithic site",
+    "wrong": [
+      "Amsa-dong, Seoul - Acheulean-style hand axes excavated",
+      "Dongsam-dong, Busan - Homo erectus fossils discovered",
+      "Durubong, Cheongwon - World's oldest polished stone tools excavated",
+      "Songguk-ri, Buyeo - Paleolithic cave paintings discovered"
+    ],
+    "hint": "Think about the 'first' excavation survey in Korean archaeology in 1964.",
+    "explanation": "Seokjang-ri in Gongju began excavation in 1964 and was Korea's first academically surveyed Paleolithic site. Amsa-dong in Seoul is Neolithic, and Songguk-ri in Buyeo is a Bronze Age site."
+  },
+  "q_prehistoric_01_007": {
+    "question": "Which statement about the human fossils found at this site is correct?",
+    "correct": "It is an important site for Korean Peninsula Paleolithic research",
+    "wrong": [
+      "Direct ancestors of Homo sapiens sapiens (modern humans) were found",
+      "The earliest evidence of human fire use was confirmed",
+      "The world's oldest evidence of agriculture was discovered",
+      "Evidence of bronze use was found alongside"
+    ],
+    "hint": "Think about which era the Danyang Geumgul site is important for studying.",
+    "explanation": "The photo shows the Geumgul Cave site in Danyang, a Middle Paleolithic site. Human fossils and stone tools found here are valuable materials for Korean Peninsula Paleolithic research. Along with Seokjang-ri in Gongju and Jeongok-ri in Yeoncheon, it represents Paleolithic sites on the Korean Peninsula."
+  },
+  "q_prehistoric_01_008": {
+    "question": "Which statement correctly describes Paleolithic dwellings?",
+    "correct": "People lived in caves or makeshift shelters near rivers",
+    "wrong": [
+      "People dug into the ground and built pit houses",
+      "People built above-ground houses with wood and earth",
+      "People built walls with stacked stones to form villages",
+      "People lived in houses with pillars and thatched roofs"
+    ],
+    "hint": "Think about the natural spaces where nomadic people could stay.",
+    "explanation": "Paleolithic people lived in natural caves, rock shelters, or makeshift shelters made of woven branches near rivers. Pit houses appeared in the Neolithic era, and above-ground houses emerged from the Bronze Age onward."
+  },
+  "q_prehistoric_02_001": {
+    "question": "What is the core change referred to as the 'Neolithic Revolution'?",
+    "correct": "The beginning of agriculture and animal husbandry enabled settled life",
+    "wrong": [
+      "Bronze-making technology developed and weapons emerged",
+      "Iron use greatly increased agricultural productivity",
+      "The invention of writing began the historical era",
+      "States formed and kings emerged"
+    ],
+    "hint": "What became possible that was significant enough to be called a 'revolution'?",
+    "explanation": "The Neolithic Revolution refers to the beginning of agriculture and animal husbandry, which enabled humans to transition from nomadic to settled life. Bronze and iron came later, while writing invention and state formation are characteristics of the historical era."
+  },
+  "q_prehistoric_02_002": {
+    "question": "Which statement correctly describes life during the era when this pottery was used?",
+    "correct": "People began cultivating crops like millet and barnyard millet",
+    "wrong": [
+      "Rice farming became widespread and rice became the staple food",
+      "Iron farming tools greatly increased agricultural productivity",
+      "Bronze weapons were used to conquer other tribes",
+      "Dolmens were constructed to bury leaders"
+    ],
+    "hint": "Rice farming was not yet widespread during the comb-pattern pottery era.",
+    "explanation": "The photo shows Neolithic comb-pattern pottery. During the Neolithic era, early agriculture began with the cultivation of grains like millet, barnyard millet, and sorghum. Widespread rice farming is a Bronze Age characteristic, and iron farming tools belong to the Iron Age."
+  },
+  "q_prehistoric_02_003": {
+    "question": "Which statement about Neolithic beliefs is INCORRECT?",
+    "correct": "Ancestral rites at royal shrines began",
+    "wrong": [
+      "Animism existed, believing natural objects had spirits",
+      "Totemism appeared, worshipping specific animals or plants",
+      "Shamanism developed, with shamans presiding over rituals",
+      "Ornaments made from shells were used"
+    ],
+    "hint": "Royal shrines are associated with Confucian culture.",
+    "explanation": "Royal shrine ancestral rites are a form of Confucian ancestor worship that was systematized after the Three Kingdoms period. During the Neolithic era, primitive beliefs such as animism, totemism, and shamanism appeared."
+  },
+  "q_prehistoric_02_004": {
+    "question": "Based on the following source, which characteristic of these tools is correct?",
+    "source": "People of this era used tools made by grinding stones. These tools had sharper and more refined edges than chipped stone tools and were used for various purposes.",
+    "correct": "Stone axes and stone hoes are representative examples",
+    "wrong": [
+      "Hand axes and choppers are representative examples",
+      "Lute-shaped bronze daggers and coarse-patterned mirrors are representative",
+      "Iron sickles and iron hoes are representative",
+      "Slender bronze daggers and fine-patterned mirrors are representative"
+    ],
+    "hint": "Think about representative examples of tools made by 'grinding' stones.",
+    "explanation": "The source describes Neolithic polished stone tools. Polished stone tools were made by grinding stones and include stone axes, stone hoes, and stone sickles. Hand axes and choppers are Paleolithic chipped stone tools, bronze daggers and mirrors are from the Bronze Age, and iron tools are from the Iron Age."
+  },
+  "q_prehistoric_02_005": {
+    "question": "Which statement about this type of dwelling is correct?",
+    "correct": "The floor was typically circular or rounded rectangular in shape",
+    "wrong": [
+      "The floor was raised above ground level to avoid moisture",
+      "Ondol (underfloor heating) provided warmth in winter",
+      "It was a large communal dwelling where multiple families lived together",
+      "Walls were built by stacking mud bricks"
+    ],
+    "hint": "The 'pit' in pit house refers to a dug-out hollow in the ground.",
+    "explanation": "The photo shows a Neolithic pit house (semi-subterranean dwelling). Pit houses were built by digging about 50cm into the ground and placing a roof over it. The floor was typically circular or rounded rectangular. Ondol developed after the Iron Age."
+  },
+  "q_prehistoric_02_006": {
+    "question": "What was this artifact used for?",
+    "correct": "It was used for spinning thread in textile production",
+    "wrong": [
+      "It was used to harvest grain",
+      "It was used to scrape and process animal hides",
+      "It was used to add patterns when making pottery",
+      "It was used to create friction for making fire"
+    ],
+    "hint": "Another name for the spindle whorl is 'spinning wheel weight'.",
+    "explanation": "The photo shows a spindle whorl, used for spinning thread in textile production. This is evidence that primitive weaving technology existed in the Neolithic era. It was used along with bone needles to make clothing."
+  },
+  "q_prehistoric_02_007": {
+    "question": "Which statement correctly describes the diet of Neolithic people?",
+    "correct": "Food was stored and cooked in pottery",
+    "wrong": [
+      "Rice was cooked in iron pots",
+      "Food was stored in bronze vessels",
+      "Fermented sauces were stored in ceramic ware",
+      "Fruits were kept in glass containers"
+    ],
+    "hint": "In an era without bronze or iron, what containers were used for food?",
+    "explanation": "During the Neolithic era, pottery (comb-pattern pottery) was made to store food and cook meals. Iron and bronze had not yet appeared, and ceramics and glass are technologies from much later periods."
+  },
+  "q_prehistoric_02_008": {
+    "question": "Which statement about the artifacts found at this type of site is correct?",
+    "correct": "It shows that Neolithic people used shellfish as a major food source",
+    "wrong": [
+      "Found mainly inland, showing it was an agricultural society",
+      "It was used as a Bronze Age burial site",
+      "It is a Goguryeo period dwelling site",
+      "It is remains of a Joseon Dynasty ceramic kiln"
+    ],
+    "hint": "Think about why shell mounds are found along coastlines.",
+    "explanation": "The photo shows a shell mound (midden) site. Found at coastal areas like Dongsam-dong in Busan and Sugari in Gimhae, they show that Neolithic people collected and ate shellfish. Comb-pattern pottery, polished stone tools, and animal bones are also excavated from shell mounds."
+  },
+  "q_prehistoric_03_001": {
+    "question": "Which statement correctly describes bronze use during the Bronze Age?",
+    "correct": "Bronze was mainly used to make weapons and ritual implements",
+    "wrong": [
+      "Bronze was mainly used for farming tools, increasing agricultural productivity",
+      "Bronze was used as currency, developing commerce",
+      "Bronze was used as building material, leading to large structures",
+      "Bronze was mainly used to make everyday dishes and vessels"
+    ],
+    "hint": "Because bronze was precious, it was used for special purposes rather than everyday tools.",
+    "explanation": "During the Bronze Age, bronze was mainly used to make weapons and ritual implements like lute-shaped bronze daggers and coarse-patterned mirrors. Farming tools were still made of stone (polished stone tools), with the crescent-shaped stone knife being representative."
+  },
+  "q_prehistoric_03_002": {
+    "question": "Which statement about this artifact is correct?",
+    "correct": "It is a bronze implement mainly found in the Liaoning region and Korean Peninsula",
+    "wrong": [
+      "It was made under the influence of central China",
+      "It was introduced from Japan and spread to the Korean Peninsula",
+      "It is an iron weapon made during the Iron Age",
+      "It is a ritual tool used during the Neolithic era"
+    ],
+    "hint": "The distribution area of lute-shaped bronze daggers is related to Gojoseon.",
+    "explanation": "The photo shows a lute-shaped bronze dagger (Liaoning-style dagger), named for its blade shape resembling a lute (pipa) instrument. Found mainly in the Liaoning region and northern Korean Peninsula, it serves as evidence for estimating the territorial extent of Gojoseon."
+  },
+  "q_prehistoric_03_003": {
+    "question": "What is the most appropriate cause for the emergence of social classes during the Bronze Age?",
+    "correct": "Improved agricultural productivity led to surplus production",
+    "wrong": [
+      "Development of iron weapons enabled wars of conquest",
+      "The invention of writing created an intellectual class",
+      "The use of currency led to the emergence of a merchant class",
+      "The adoption of Buddhism led to the emergence of a clergy class"
+    ],
+    "hint": "When farming, there's food left over after eating. Who would claim it?",
+    "explanation": "During the Bronze Age, agricultural productivity improved through rice farming, creating surplus production. Competition over these surpluses created wealth gaps and led to the emergence of social classes. Iron weapons, writing, currency, and Buddhism all came much later."
+  },
+  "q_prehistoric_03_004": {
+    "question": "Based on the following source, which statement correctly describes Bronze Age society?",
+    "source": "A type of tomb has been discovered where large stones are placed on top of several support stones. Building this tomb required mobilizing many workers, and the tomb's size suggests the buried person's social status.",
+    "correct": "Leaders existed who could mobilize large numbers of workers",
+    "wrong": [
+      "It was an egalitarian communal society",
+      "A centralized system with a king ruling the state was established",
+      "Laws were applied differently based on social status",
+      "A feudal system where nobles owned land and slaves was implemented"
+    ],
+    "hint": "Moving huge stones requires many people. Who mobilized them?",
+    "explanation": "The source describes a dolmen (table-type). Dolmens were tombs of Bronze Age leaders, and building large dolmens required hundreds of workers. This shows that leaders (chieftains) with power to mobilize labor existed in society at that time."
+  },
+  "q_prehistoric_03_005": {
+    "question": "Which statement about this artifact is correct?",
+    "correct": "It is presumed to be the tomb of a Bronze Age leader",
+    "wrong": [
+      "It was used as a Neolithic dwelling",
+      "It was the foundation of a Three Kingdoms period Buddhist temple",
+      "It is a Goryeo period grave stone",
+      "It is a Joseon period astronomical observation facility"
+    ],
+    "hint": "A structure with a large stone placed on support stones—whose tomb would it be?",
+    "explanation": "The photo shows a table-type dolmen (northern style). With a large capstone placed on support stones, it is a Bronze Age leader's tomb. The Korean Peninsula has the world's highest concentration of dolmens."
+  },
+  "q_prehistoric_03_006": {
+    "question": "Which statement correctly describes the use of this artifact?",
+    "correct": "It was used to harvest grain",
+    "wrong": [
+      "It was used as a mold for casting bronze",
+      "It was a weaving tool for making cloth",
+      "It was a tool for processing leather",
+      "It was a tool for cutting down trees"
+    ],
+    "hint": "It's crescent-shaped with holes. What would you hold and 'cut' with it?",
+    "explanation": "The photo shows a crescent-shaped stone knife (semi-lunar stone knife). A string was threaded through the holes to grip it, and it was used to harvest grain like rice or millet. It is a representative artifact showing Bronze Age agricultural society."
+  },
+  "q_prehistoric_03_007": {
+    "question": "What type of pottery was used during the Bronze Age?",
+    "correct": "Plain pottery (Mumun pottery)",
+    "wrong": [
+      "Comb-pattern pottery",
+      "Appliqué pottery",
+      "Celadon",
+      "Buncheong ware"
+    ],
+    "hint": "This pottery's name means 'pottery without patterns'.",
+    "explanation": "During the Bronze Age, plain pottery without patterns (Mumun pottery) was mainly used. Comb-pattern pottery and appliqué pottery are from the Neolithic era, celadon from Goryeo, and Buncheong ware from early Joseon."
+  },
+  "q_prehistoric_03_008": {
+    "question": "What is the historical significance of this artifact?",
+    "correct": "It shows the level of bronze-making technology and the authority of the ruling class",
+    "wrong": [
+      "It proves the beginning of Neolithic agriculture",
+      "It is evidence of Iron Age international exchange",
+      "It is evidence of Buddhism's adoption during the Three Kingdoms",
+      "It shows the development of Goryeo period science and technology"
+    ],
+    "hint": "Mirrors were not everyday items but tools symbolizing the authority of rulers.",
+    "explanation": "The photo shows a coarse-patterned mirror (multi-knobbed coarse-patterned mirror). Made during the Bronze Age as a ritual implement, it has coarse geometric patterns on the back. It symbolizes the authority of rulers and demonstrates the level of bronze-making technology."
+  },
+  "q_prehistoric_04_001": {
+    "question": "What forms did bronze develop into independently during the Early Iron Age?",
+    "correct": "Slender bronze daggers and fine-patterned mirrors",
+    "wrong": [
+      "Lute-shaped bronze daggers and coarse-patterned mirrors",
+      "Bronze cauldrons and bronze bells",
+      "Bronze axes and bronze arrowheads",
+      "Bronze molds and bronze sickles"
+    ],
+    "hint": "Lute-shaped dagger → ? / Coarse-patterned mirror → ? What did they develop into?",
+    "explanation": "During the Early Iron Age, bronze also developed into distinctly Korean styles alongside iron. Lute-shaped bronze daggers evolved into slender bronze daggers (Korean-style daggers), and coarse-patterned mirrors developed into fine-patterned mirrors."
+  },
+  "q_prehistoric_04_002": {
+    "question": "Which statement about this artifact is correct?",
+    "correct": "It is a Korean-style dagger that evolved from the lute-shaped bronze dagger",
+    "wrong": [
+      "It is a bronze weapon directly imported from China",
+      "It was introduced from Japan and spread to the Korean Peninsula",
+      "It was made in the early Bronze Age",
+      "It was used only as a practical weapon, not for rituals"
+    ],
+    "hint": "This is a uniquely Korean dagger that evolved from 'lute-shaped' to 'slender'.",
+    "explanation": "The photo shows a slender bronze dagger (Korean-style dagger). It is a form that developed independently on the Korean Peninsula from the lute-shaped bronze dagger, characterized by a narrow and straight blade with a separable handle. It was made during the Early Iron Age."
+  },
+  "q_prehistoric_04_003": {
+    "question": "Which social change resulted from the spread of iron?",
+    "correct": "Agricultural productivity increased and wars of conquest became more active",
+    "wrong": [
+      "An egalitarian society formed and classes disappeared",
+      "People returned to nomadic life and herding became common",
+      "Bronze use completely ceased",
+      "Tomb construction disappeared and cremation became common"
+    ],
+    "hint": "Think about the impact of iron farming tools and weapons on society.",
+    "explanation": "The spread of iron led to the use of iron farming tools (iron sickles, iron hoes, etc.), greatly increasing agricultural productivity. The development of iron weapons also intensified wars of conquest, accelerating tribal unification."
+  },
+  "q_prehistoric_04_004": {
+    "question": "Which statement correctly describes the era (A) mentioned in the following source?",
+    "source": "During era (A), iron was used while bronze also developed into distinctive forms like slender bronze daggers and fine-patterned mirrors. Trade with China's Yan state also brought in mingdao coins.",
+    "correct": "Wiman became king and strengthened Gojoseon",
+    "wrong": [
+      "Dangun Wanggeom founded the first state",
+      "Iron ingots were used as currency in the Samhan society",
+      "Goguryeo expelled the Lelang Commandery",
+      "King Geunchogo of Baekje achieved the kingdom's golden age"
+    ],
+    "hint": "Who is associated with the period when 'mingdao coins' from Yan state were introduced?",
+    "explanation": "The source describes the Early Iron Age. During this period, Wiman overthrew King Jun and established Wiman Joseon (194 BCE), strengthening Gojoseon based on iron culture. The use of iron ingots as currency in Samhan occurred in a later period."
+  },
+  "q_prehistoric_04_005": {
+    "question": "What is the historical significance of these artifacts?",
+    "correct": "They show the spread of iron culture and improvement in agricultural productivity",
+    "wrong": [
+      "They prove the beginning of Bronze Age agriculture",
+      "They show Neolithic hunting technology",
+      "They represent Three Kingdoms period weapon-making technology",
+      "They show Joseon period blacksmith technology"
+    ],
+    "hint": "Think about what iron sickles and mattocks were used for.",
+    "explanation": "The photo shows iron implements excavated from Daho-ri, Changwon. The discovery of iron farming tools like sickles and mattocks, along with weapons, shows the spread of iron culture and improvement in agricultural productivity during the Early Iron Age."
+  },
+  "q_prehistoric_04_006": {
+    "question": "What is the significance of finding these artifacts on the Korean Peninsula?",
+    "correct": "It shows there was exchange with China's Yan state",
+    "wrong": [
+      "It proves currency was independently minted on the Korean Peninsula",
+      "It indicates active trade with Japan",
+      "It shows commerce developed from the Neolithic era",
+      "It proves Gojoseon conquered China"
+    ],
+    "hint": "Think about which country's currency the mingdao coins were.",
+    "explanation": "The photo shows mingdao coins (knife money), bronze currency used in China's Yan state. Finding mingdao coins on the Korean Peninsula is evidence of trade between Gojoseon and the Yan state during the Early Iron Age."
+  },
+  "q_prehistoric_04_007": {
+    "question": "Which change in burial styles occurred during the Iron Age?",
+    "correct": "Wooden coffin burials and jar burials became popular",
+    "wrong": [
+      "Dolmens were constructed even larger",
+      "Stone cairn tombs first appeared",
+      "Stone chamber tombs with corridors became common",
+      "Brick tombs became widespread"
+    ],
+    "hint": "Think about burials using wooden coffins and burials using jars.",
+    "explanation": "During the Iron Age, wooden coffin burials (using wooden coffins) and jar burials (using large jars) became popular. Stone cairn tombs appeared in early Goguryeo and Silla, stone chamber tombs with corridors in the later Three Kingdoms period, and brick tombs were used in special cases like King Muryeong's tomb of Baekje."
+  },
+  "q_prehistoric_04_008": {
+    "question": "What characteristic does this artifact have compared to Bronze Age coarse-patterned mirrors?",
+    "correct": "The patterns became more refined and detailed",
+    "wrong": [
+      "It became much larger and thicker",
+      "It was used for practical purposes",
+      "It was made of glass material",
+      "Its ritual character completely disappeared"
+    ],
+    "hint": "Think about why the name changed from 'coarse-patterned' to 'fine-patterned'.",
+    "explanation": "The photo shows a fine-patterned mirror. Compared to Bronze Age coarse-patterned mirrors, its patterns are very refined and detailed, representing a development into Korean style. It still retained its ritual character and symbolized the authority of the ruling class."
+  }
+}

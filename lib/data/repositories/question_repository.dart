@@ -4,28 +4,79 @@ import 'dart:convert';
 import 'package:flutter/services.dart';
 import '../models/question.dart';
 
-class QuestionRepository {
-  // 캐시
-  List<QuestionMeta>? _metaCache;
-  final Map<String, Map<String, QuestionContent>> _contentCache = {};
+/// 시대 ID 상수
+class EraIds {
+  EraIds._();
 
-  // 시대 순서 매핑 (eras.json 기준)
-  static const _eraOrder = {
-    'prehistoric': 1,
-    'gojoseon': 2,
-    'three_kingdoms': 3,
-    'north_south_states': 4,
-    'goryeo': 5,
-    'joseon_early': 6,
-    'joseon_late': 7,
-    'modern': 8,
-    'japanese_occupation': 9,
-    'contemporary': 10,
+  static const prehistoric = 'prehistoric';
+  static const gojoseon = 'gojoseon';
+  static const threeKingdoms = 'three_kingdoms';
+  static const northSouthStates = 'north_south_states';
+  static const goryeo = 'goryeo';
+  static const joseonEarly = 'joseon_early';
+  static const joseonLate = 'joseon_late';
+  static const modern = 'modern';
+  static const japaneseOccupation = 'japanese_occupation';
+  static const contemporary = 'contemporary';
+
+  static const List<String> all = [
+    prehistoric,
+    gojoseon,
+    threeKingdoms,
+    northSouthStates,
+    goryeo,
+    joseonEarly,
+    joseonLate,
+    modern,
+    japaneseOccupation,
+    contemporary,
+  ];
+
+  /// 시대 순서 (1부터 시작)
+  static const Map<String, int> order = {
+    prehistoric: 1,
+    gojoseon: 2,
+    threeKingdoms: 3,
+    northSouthStates: 4,
+    goryeo: 5,
+    joseonEarly: 6,
+    joseonLate: 7,
+    modern: 8,
+    japaneseOccupation: 9,
+    contemporary: 10,
   };
 
+  /// 시대 한글 이름 매핑
+  static const Map<String, String> koreanNames = {
+    prehistoric: '선사시대',
+    gojoseon: '고조선',
+    threeKingdoms: '삼국시대',
+    northSouthStates: '남북국시대',
+    goryeo: '고려',
+    joseonEarly: '조선 전기',
+    joseonLate: '조선 후기',
+    modern: '근대',
+    japaneseOccupation: '일제강점기',
+    contemporary: '현대',
+  };
+
+  /// 시대 ID를 한글 이름으로 변환
+  static String toKorean(String eraId) {
+    return koreanNames[eraId] ?? eraId;
+  }
+}
+
+class QuestionRepository {
+  // 시대별 메타데이터 캐시
+  final Map<String, List<QuestionMeta>> _metaCache = {};
+  // 전체 메타데이터 캐시 (정렬됨)
+  List<QuestionMeta>? _allMetaCache;
+  // 시대별 콘텐츠 캐시: {locale: {eraId: {questionId: content}}}
+  final Map<String, Map<String, Map<String, QuestionContent>>> _contentCache =
+      {};
+
   /// chapterId에서 시대 ID 추출 (ch_prehistoric_01 → prehistoric)
-  static String _extractEraFromChapterId(String chapterId) {
-    // ch_ 제거 후 마지막 _숫자 부분 제거
+  static String extractEraFromChapterId(String chapterId) {
     final withoutPrefix = chapterId.replaceFirst('ch_', '');
     final lastUnderscoreIndex = withoutPrefix.lastIndexOf('_');
     if (lastUnderscoreIndex > 0) {
@@ -34,47 +85,88 @@ class QuestionRepository {
     return withoutPrefix;
   }
 
-  /// 메타데이터 로드 (questions_meta.json)
-  Future<List<QuestionMeta>> loadMeta() async {
-    if (_metaCache != null) return _metaCache!;
-
-    final jsonString = await rootBundle.loadString(
-      'assets/data/questions/questions_meta.json',
-    );
-    final jsonData = json.decode(jsonString) as Map<String, dynamic>;
-    final questionsList = jsonData['questions'] as List<dynamic>;
-
-    _metaCache = questionsList
-        .map((q) => QuestionMeta.fromJson(q as Map<String, dynamic>))
-        .toList();
-
-    // 시대 순서 → 챕터 순서 → 문제 순서로 정렬
-    _metaCache!.sort((a, b) {
-      final eraA = _extractEraFromChapterId(a.chapterId);
-      final eraB = _extractEraFromChapterId(b.chapterId);
-      final eraOrderA = _eraOrder[eraA] ?? 99;
-      final eraOrderB = _eraOrder[eraB] ?? 99;
-
-      if (eraOrderA != eraOrderB) return eraOrderA.compareTo(eraOrderB);
-
-      final chapterCompare = a.chapterId.compareTo(b.chapterId);
-      if (chapterCompare != 0) return chapterCompare;
-
-      return a.order.compareTo(b.order);
-    });
-
-    return _metaCache!;
+  /// questionId에서 시대 ID 추출 (q_prehistoric_01_001 → prehistoric)
+  static String extractEraFromQuestionId(String questionId) {
+    final withoutPrefix = questionId.replaceFirst('q_', '');
+    final parts = withoutPrefix.split('_');
+    if (parts.length >= 3) {
+      return parts.sublist(0, parts.length - 2).join('_');
+    }
+    return withoutPrefix;
   }
 
-  /// 콘텐츠 로드 (questions_[locale].json)
-  Future<Map<String, QuestionContent>> loadContent(String locale) async {
-    if (_contentCache.containsKey(locale)) {
-      return _contentCache[locale]!;
+  // ============================================================
+  // 시대별 메타데이터 로딩
+  // ============================================================
+
+  /// 특정 시대의 메타데이터 로드
+  Future<List<QuestionMeta>> loadMetaByEra(String eraId) async {
+    if (_metaCache.containsKey(eraId)) {
+      return _metaCache[eraId]!;
     }
 
     try {
       final jsonString = await rootBundle.loadString(
-        'assets/data/questions/questions_$locale.json',
+        'assets/data/questions/meta/$eraId.json',
+      );
+      final jsonData = json.decode(jsonString) as Map<String, dynamic>;
+      final questionsList = jsonData['questions'] as List<dynamic>;
+
+      final metaList = questionsList
+          .map((q) => QuestionMeta.fromJson(q as Map<String, dynamic>))
+          .toList();
+
+      // 챕터 순서 → 문제 순서로 정렬
+      metaList.sort((a, b) {
+        final chapterCompare = a.chapterId.compareTo(b.chapterId);
+        if (chapterCompare != 0) return chapterCompare;
+        return a.order.compareTo(b.order);
+      });
+
+      _metaCache[eraId] = metaList;
+      return metaList;
+    } catch (e) {
+      // 파일이 없는 경우 빈 리스트 반환
+      return [];
+    }
+  }
+
+  /// 전체 메타데이터 로드 (모든 시대) - 병렬 로딩
+  Future<List<QuestionMeta>> loadMeta() async {
+    if (_allMetaCache != null) return _allMetaCache!;
+
+    // 병렬로 모든 시대 메타데이터 로드
+    final futures = EraIds.all.map((eraId) => loadMetaByEra(eraId));
+    final results = await Future.wait(futures);
+
+    // 시대 순서대로 병합
+    final allMeta = <QuestionMeta>[];
+    for (final eraMeta in results) {
+      allMeta.addAll(eraMeta);
+    }
+
+    _allMetaCache = allMeta;
+    return _allMetaCache!;
+  }
+
+  // ============================================================
+  // 시대별 콘텐츠 로딩
+  // ============================================================
+
+  /// 특정 시대의 콘텐츠 로드
+  Future<Map<String, QuestionContent>> loadContentByEra(
+    String eraId,
+    String locale,
+  ) async {
+    _contentCache.putIfAbsent(locale, () => {});
+
+    if (_contentCache[locale]!.containsKey(eraId)) {
+      return _contentCache[locale]![eraId]!;
+    }
+
+    try {
+      final jsonString = await rootBundle.loadString(
+        'assets/data/questions/$locale/$eraId.json',
       );
       final jsonData = json.decode(jsonString) as Map<String, dynamic>;
 
@@ -84,7 +176,7 @@ class QuestionRepository {
             QuestionContent.fromJson(value as Map<String, dynamic>);
       });
 
-      _contentCache[locale] = contentMap;
+      _contentCache[locale]![eraId] = contentMap;
       return contentMap;
     } catch (e) {
       // 파일이 없는 경우 빈 맵 반환
@@ -92,32 +184,50 @@ class QuestionRepository {
     }
   }
 
-  /// 콘텐츠 로드 (fallback 포함: locale -> en -> ko)
-  Future<Map<String, QuestionContent>> loadContentWithFallback(
+  /// 특정 시대의 콘텐츠 로드 (fallback 포함)
+  Future<Map<String, QuestionContent>> loadContentByEraWithFallback(
+    String eraId,
     String locale,
   ) async {
-    // 요청된 로케일 시도
-    var content = await loadContent(locale);
+    var content = await loadContentByEra(eraId, locale);
     if (content.isNotEmpty) return content;
 
-    // 영어 fallback
     if (locale != 'en') {
-      content = await loadContent('en');
+      content = await loadContentByEra(eraId, 'en');
       if (content.isNotEmpty) return content;
     }
 
-    // 한국어 fallback
     if (locale != 'ko') {
-      content = await loadContent('ko');
+      content = await loadContentByEra(eraId, 'ko');
     }
 
     return content;
   }
 
-  /// 전체 문제 로드 (메타 + 콘텐츠 결합)
-  Future<List<Question>> loadQuestions(String locale) async {
-    final metaList = await loadMeta();
-    final contentMap = await loadContentWithFallback(locale);
+  /// 전체 콘텐츠 로드 (모든 시대) - 병렬 로딩
+  Future<Map<String, QuestionContent>> loadContent(String locale) async {
+    // 병렬로 모든 시대 콘텐츠 로드
+    final futures = EraIds.all.map(
+      (eraId) => loadContentByEraWithFallback(eraId, locale),
+    );
+    final results = await Future.wait(futures);
+
+    final allContent = <String, QuestionContent>{};
+    for (final eraContent in results) {
+      allContent.addAll(eraContent);
+    }
+
+    return allContent;
+  }
+
+  // ============================================================
+  // 문제 로딩 (메타 + 콘텐츠 결합)
+  // ============================================================
+
+  /// 특정 시대의 문제 로드
+  Future<List<Question>> loadQuestionsByEra(String eraId, String locale) async {
+    final metaList = await loadMetaByEra(eraId);
+    final contentMap = await loadContentByEraWithFallback(eraId, locale);
 
     return metaList.map((meta) {
       final content = contentMap[meta.id];
@@ -129,9 +239,31 @@ class QuestionRepository {
     }).toList();
   }
 
+  /// 전체 문제 로드 (모든 시대) - 병렬 로딩
+  Future<List<Question>> loadQuestions(String locale) async {
+    // 병렬로 모든 시대 문제 로드
+    final futures = EraIds.all.map(
+      (eraId) => loadQuestionsByEra(eraId, locale),
+    );
+    final results = await Future.wait(futures);
+
+    final allQuestions = <Question>[];
+    for (final eraQuestions in results) {
+      allQuestions.addAll(eraQuestions);
+    }
+
+    return allQuestions;
+  }
+
+  // ============================================================
+  // 조회 메서드
+  // ============================================================
+
   /// 특정 문제 ID로 조회
   Future<Question?> getQuestionById(String questionId, String locale) async {
-    final questions = await loadQuestions(locale);
+    final eraId = extractEraFromQuestionId(questionId);
+    final questions = await loadQuestionsByEra(eraId, locale);
+
     try {
       return questions.firstWhere((q) => q.id == questionId);
     } catch (e) {
@@ -144,28 +276,57 @@ class QuestionRepository {
     String chapterId,
     String locale,
   ) async {
-    final questions = await loadQuestions(locale);
+    final eraId = extractEraFromChapterId(chapterId);
+    final questions = await loadQuestionsByEra(eraId, locale);
     return questions.where((q) => q.chapterId == chapterId).toList();
   }
 
   /// 챕터별 문제 ID 목록 조회 (메타만 사용)
   Future<List<String>> getQuestionIdsByChapter(String chapterId) async {
-    final metaList = await loadMeta();
+    final eraId = extractEraFromChapterId(chapterId);
+    final metaList = await loadMetaByEra(eraId);
     return metaList
         .where((m) => m.chapterId == chapterId)
         .map((m) => m.id)
         .toList();
   }
 
-  /// 여러 문제 ID로 조회
+  /// 여러 문제 ID로 조회 - 병렬 로딩
   Future<List<Question>> getQuestionsByIds(
     List<String> questionIds,
     String locale,
   ) async {
-    final questions = await loadQuestions(locale);
-    final idSet = questionIds.toSet();
-    return questions.where((q) => idSet.contains(q.id)).toList();
+    if (questionIds.isEmpty) return [];
+
+    // 시대별로 그룹화하여 효율적으로 로딩
+    final idsByEra = <String, Set<String>>{};
+    for (final id in questionIds) {
+      final eraId = extractEraFromQuestionId(id);
+      idsByEra.putIfAbsent(eraId, () => {}).add(id);
+    }
+
+    // 병렬로 시대별 문제 로드
+    final futures = idsByEra.entries.map((entry) async {
+      final questions = await loadQuestionsByEra(entry.key, locale);
+      return questions.where((q) => entry.value.contains(q.id)).toList();
+    });
+    final results = await Future.wait(futures);
+
+    final result = <Question>[];
+    for (final questions in results) {
+      result.addAll(questions);
+    }
+
+    // 원래 순서 유지
+    final idOrder = {for (int i = 0; i < questionIds.length; i++) questionIds[i]: i};
+    result.sort((a, b) => (idOrder[a.id] ?? 0).compareTo(idOrder[b.id] ?? 0));
+
+    return result;
   }
+
+  // ============================================================
+  // 통계 메서드
+  // ============================================================
 
   /// 전체 문제 수
   Future<int> getTotalQuestionCount() async {
@@ -173,9 +334,16 @@ class QuestionRepository {
     return metaList.length;
   }
 
+  /// 시대별 문제 수
+  Future<int> getQuestionCountByEra(String eraId) async {
+    final metaList = await loadMetaByEra(eraId);
+    return metaList.length;
+  }
+
   /// 챕터별 문제 수
   Future<int> getQuestionCountByChapter(String chapterId) async {
-    final metaList = await loadMeta();
+    final eraId = extractEraFromChapterId(chapterId);
+    final metaList = await loadMetaByEra(eraId);
     return metaList.where((m) => m.chapterId == chapterId).length;
   }
 
@@ -197,9 +365,32 @@ class QuestionRepository {
     return questions.where((q) => q.type == type).toList();
   }
 
-  /// 캐시 클리어
+  // ============================================================
+  // 캐시 관리
+  // ============================================================
+
+  /// 전체 캐시 클리어
   void clearCache() {
-    _metaCache = null;
+    _metaCache.clear();
+    _allMetaCache = null;
     _contentCache.clear();
+  }
+
+  /// 특정 로케일의 콘텐츠 캐시만 클리어
+  void clearContentCache(String? locale) {
+    if (locale != null) {
+      _contentCache.remove(locale);
+    } else {
+      _contentCache.clear();
+    }
+  }
+
+  /// 특정 시대의 캐시 클리어
+  void clearEraCache(String eraId) {
+    _metaCache.remove(eraId);
+    _allMetaCache = null;
+    for (final localeCache in _contentCache.values) {
+      localeCache.remove(eraId);
+    }
   }
 }

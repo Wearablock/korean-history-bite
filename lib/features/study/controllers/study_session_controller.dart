@@ -7,6 +7,7 @@ import '../../../data/models/question.dart';
 import '../../../data/providers/study_providers.dart';
 import '../../../data/providers/question_providers.dart';
 import '../../../data/providers/chapter_providers.dart';
+import '../../../data/providers/database_providers.dart';
 
 /// 세션 상태
 enum StudySessionStatus {
@@ -88,14 +89,21 @@ class StudySessionController extends StateNotifier<StudySessionState> {
 
   StudySessionController(this._ref) : super(const StudySessionState());
 
-  /// 세션 시작 (단일 챕터 모드)
+  /// 세션 시작 (사용자 설정 챕터 수)
   Future<void> startSession() async {
     state = state.copyWith(status: StudySessionStatus.loading);
 
     try {
       final studyService = _ref.read(studyServiceProvider);
-      // 단일 챕터 세션 사용 (한 챕터씩 학습)
-      final session = await studyService.createSingleChapterSession();
+      final userSettingsDao = _ref.read(userSettingsDaoProvider);
+
+      // 사용자 설정 챕터 수 조회
+      final chapterCount = await userSettingsDao.getDailyGoal();
+
+      // 설정된 챕터 수로 세션 생성
+      final session = await studyService.createDailySession(
+        chapterCount: chapterCount,
+      );
 
       if (session.isEmpty) {
         state = state.copyWith(
@@ -206,7 +214,7 @@ class StudySessionController extends StateNotifier<StudySessionState> {
     );
 
     // 상태 갱신을 위해 providers 무효화
-    _ref.invalidate(todaySummaryProvider);
+    _invalidateProgressProviders();
   }
 
   /// 퀴즈 오답 처리
@@ -224,7 +232,7 @@ class StudySessionController extends StateNotifier<StudySessionState> {
     );
 
     // 상태 갱신을 위해 providers 무효화
-    _ref.invalidate(todaySummaryProvider);
+    _invalidateProgressProviders();
   }
 
   /// 다음 문제로 이동
@@ -258,12 +266,19 @@ class StudySessionController extends StateNotifier<StudySessionState> {
     await studyService.completeSession(session);
 
     // 상태 갱신을 위해 providers 무효화
-    _ref.invalidate(todaySummaryProvider);
+    _invalidateProgressProviders();
 
     state = state.copyWith(
       status: StudySessionStatus.completed,
       session: session,
     );
+  }
+
+  /// 진행률 관련 providers 무효화
+  void _invalidateProgressProviders() {
+    _ref.invalidate(todaySummaryProvider);
+    _ref.invalidate(overallProgressProvider);
+    _ref.invalidate(eraProgressProvider);
   }
 
   /// 세션 중단

@@ -6,7 +6,9 @@ import 'package:google_mobile_ads/google_mobile_ads.dart';
 
 import 'app.dart';
 import 'core/config/app_config.dart';
+import 'data/database/app_database.dart';
 import 'firebase_options.dart';
+import 'services/notification_service.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -23,9 +25,34 @@ void main() async {
   // 앱 설정 초기화 (버전 정보 등)
   await AppConfig.initialize();
 
+  // 알림 서비스 초기화
+  await NotificationService().initialize();
+
+  // 저장된 알림 설정 복원
+  await _restoreNotificationSettings();
+
   runApp(
     const ProviderScope(
       child: KoreanHistoryApp(),
     ),
   );
+}
+
+/// 저장된 알림 설정 복원 (앱 재시작 시)
+Future<void> _restoreNotificationSettings() async {
+  try {
+    final db = AppDatabase();
+    final enabled = await db.userSettingsDao.getNotificationEnabled();
+
+    if (enabled) {
+      final time = await db.userSettingsDao.getNotificationTime();
+      await NotificationService().scheduleDailyReminder(
+        hour: time.hour,
+        minute: time.minute,
+      );
+      debugPrint('알림 설정 복원 완료: ${time.hour}:${time.minute}');
+    }
+  } catch (e) {
+    debugPrint('알림 설정 복원 실패: $e');
+  }
 }

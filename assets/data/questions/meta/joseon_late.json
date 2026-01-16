@@ -1,0 +1,964 @@
+{
+  "questions": [
+    {
+      "id": "q_joseon_late_01_001",
+      "chapter_id": "ch_joseon_late_01",
+      "order": 1,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_01_002",
+      "chapter_id": "ch_joseon_late_01",
+      "order": 2,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_01_003",
+      "chapter_id": "ch_joseon_late_01",
+      "order": 3,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "sukjong_portrait"
+    },
+    {
+      "id": "q_joseon_late_01_004",
+      "chapter_id": "ch_joseon_late_01",
+      "order": 4,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "song_siyeol_portrait"
+    },
+    {
+      "id": "q_joseon_late_01_005",
+      "chapter_id": "ch_joseon_late_01",
+      "order": 5,
+      "difficulty": 3,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_01_006",
+      "chapter_id": "ch_joseon_late_01",
+      "order": 6,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_01_007",
+      "chapter_id": "ch_joseon_late_01",
+      "order": 7,
+      "difficulty": 3,
+      "type": "source",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_01_008",
+      "chapter_id": "ch_joseon_late_01",
+      "order": 8,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_01_009",
+      "chapter_id": "ch_joseon_late_01",
+      "order": 9,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_01_010",
+      "chapter_id": "ch_joseon_late_01",
+      "order": 10,
+      "difficulty": 3,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_01_011",
+      "chapter_id": "ch_joseon_late_01",
+      "order": 11,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_01_012",
+      "chapter_id": "ch_joseon_late_01",
+      "order": 12,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_02_001",
+      "chapter_id": "ch_joseon_late_02",
+      "order": 1,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_02_002",
+      "chapter_id": "ch_joseon_late_02",
+      "order": 2,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "yeongjo_portrait"
+    },
+    {
+      "id": "q_joseon_late_02_003",
+      "chapter_id": "ch_joseon_late_02",
+      "order": 3,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "tangpyeongbi"
+    },
+    {
+      "id": "q_joseon_late_02_004",
+      "chapter_id": "ch_joseon_late_02",
+      "order": 4,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "jeongjo_portrait"
+    },
+    {
+      "id": "q_joseon_late_02_005",
+      "chapter_id": "ch_joseon_late_02",
+      "order": 5,
+      "difficulty": 3,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_02_006",
+      "chapter_id": "ch_joseon_late_02",
+      "order": 6,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_02_007",
+      "chapter_id": "ch_joseon_late_02",
+      "order": 7,
+      "difficulty": 3,
+      "type": "source",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_02_008",
+      "chapter_id": "ch_joseon_late_02",
+      "order": 8,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_02_009",
+      "chapter_id": "ch_joseon_late_02",
+      "order": 9,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_02_010",
+      "chapter_id": "ch_joseon_late_02",
+      "order": 10,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_02_011",
+      "chapter_id": "ch_joseon_late_02",
+      "order": 11,
+      "difficulty": 3,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_02_012",
+      "chapter_id": "ch_joseon_late_02",
+      "order": 12,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_03_001",
+      "chapter_id": "ch_joseon_late_03",
+      "order": 1,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_03_002",
+      "chapter_id": "ch_joseon_late_03",
+      "order": 2,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_03_003",
+      "chapter_id": "ch_joseon_late_03",
+      "order": 3,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "hong_gyeongnae_rebellion_soldiers"
+    },
+    {
+      "id": "q_joseon_late_03_004",
+      "chapter_id": "ch_joseon_late_03",
+      "order": 4,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "imsul_minran"
+    },
+    {
+      "id": "q_joseon_late_03_005",
+      "chapter_id": "ch_joseon_late_03",
+      "order": 5,
+      "difficulty": 3,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_03_006",
+      "chapter_id": "ch_joseon_late_03",
+      "order": 6,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_03_007",
+      "chapter_id": "ch_joseon_late_03",
+      "order": 7,
+      "difficulty": 3,
+      "type": "source",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_03_008",
+      "chapter_id": "ch_joseon_late_03",
+      "order": 8,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_03_009",
+      "chapter_id": "ch_joseon_late_03",
+      "order": 9,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_03_010",
+      "chapter_id": "ch_joseon_late_03",
+      "order": 10,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_03_011",
+      "chapter_id": "ch_joseon_late_03",
+      "order": 11,
+      "difficulty": 3,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_03_012",
+      "chapter_id": "ch_joseon_late_03",
+      "order": 12,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_04_001",
+      "chapter_id": "ch_joseon_late_04",
+      "order": 1,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_04_002",
+      "chapter_id": "ch_joseon_late_04",
+      "order": 2,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "iyang_method"
+    },
+    {
+      "id": "q_joseon_late_04_003",
+      "chapter_id": "ch_joseon_late_04",
+      "order": 3,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "sangpyeong_tongbo"
+    },
+    {
+      "id": "q_joseon_late_04_004",
+      "chapter_id": "ch_joseon_late_04",
+      "order": 4,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "kim_hongdo_tajak"
+    },
+    {
+      "id": "q_joseon_late_04_005",
+      "chapter_id": "ch_joseon_late_04",
+      "order": 5,
+      "difficulty": 3,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_04_006",
+      "chapter_id": "ch_joseon_late_04",
+      "order": 6,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_04_007",
+      "chapter_id": "ch_joseon_late_04",
+      "order": 7,
+      "difficulty": 3,
+      "type": "source",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_04_008",
+      "chapter_id": "ch_joseon_late_04",
+      "order": 8,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_04_009",
+      "chapter_id": "ch_joseon_late_04",
+      "order": 9,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_04_010",
+      "chapter_id": "ch_joseon_late_04",
+      "order": 10,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_04_011",
+      "chapter_id": "ch_joseon_late_04",
+      "order": 11,
+      "difficulty": 3,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_04_012",
+      "chapter_id": "ch_joseon_late_04",
+      "order": 12,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_05_001",
+      "chapter_id": "ch_joseon_late_05",
+      "order": 1,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_05_002",
+      "chapter_id": "ch_joseon_late_05",
+      "order": 2,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_05_003",
+      "chapter_id": "ch_joseon_late_05",
+      "order": 3,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "gongmyeongcheop"
+    },
+    {
+      "id": "q_joseon_late_05_004",
+      "chapter_id": "ch_joseon_late_05",
+      "order": 4,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_05_005",
+      "chapter_id": "ch_joseon_late_05",
+      "order": 5,
+      "difficulty": 3,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_05_006",
+      "chapter_id": "ch_joseon_late_05",
+      "order": 6,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_05_007",
+      "chapter_id": "ch_joseon_late_05",
+      "order": 7,
+      "difficulty": 3,
+      "type": "source",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_05_008",
+      "chapter_id": "ch_joseon_late_05",
+      "order": 8,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_05_009",
+      "chapter_id": "ch_joseon_late_05",
+      "order": 9,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_05_010",
+      "chapter_id": "ch_joseon_late_05",
+      "order": 10,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_05_011",
+      "chapter_id": "ch_joseon_late_05",
+      "order": 11,
+      "difficulty": 3,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_05_012",
+      "chapter_id": "ch_joseon_late_05",
+      "order": 12,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_06_001",
+      "chapter_id": "ch_joseon_late_06",
+      "order": 1,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_06_002",
+      "chapter_id": "ch_joseon_late_06",
+      "order": 2,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "jeong_yakyong_portrait"
+    },
+    {
+      "id": "q_joseon_late_06_003",
+      "chapter_id": "ch_joseon_late_06",
+      "order": 3,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "mokmin_simseo"
+    },
+    {
+      "id": "q_joseon_late_06_004",
+      "chapter_id": "ch_joseon_late_06",
+      "order": 4,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "yeolha_ilgi"
+    },
+    {
+      "id": "q_joseon_late_06_005",
+      "chapter_id": "ch_joseon_late_06",
+      "order": 5,
+      "difficulty": 3,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_06_006",
+      "chapter_id": "ch_joseon_late_06",
+      "order": 6,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_06_007",
+      "chapter_id": "ch_joseon_late_06",
+      "order": 7,
+      "difficulty": 3,
+      "type": "source",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_06_008",
+      "chapter_id": "ch_joseon_late_06",
+      "order": 8,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_06_009",
+      "chapter_id": "ch_joseon_late_06",
+      "order": 9,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_06_010",
+      "chapter_id": "ch_joseon_late_06",
+      "order": 10,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_06_011",
+      "chapter_id": "ch_joseon_late_06",
+      "order": 11,
+      "difficulty": 3,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_06_012",
+      "chapter_id": "ch_joseon_late_06",
+      "order": 12,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_07_001",
+      "chapter_id": "ch_joseon_late_07",
+      "order": 1,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_07_002",
+      "chapter_id": "ch_joseon_late_07",
+      "order": 2,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "daedongyeojido"
+    },
+    {
+      "id": "q_joseon_late_07_003",
+      "chapter_id": "ch_joseon_late_07",
+      "order": 3,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "dongsa_gangmok"
+    },
+    {
+      "id": "q_joseon_late_07_004",
+      "chapter_id": "ch_joseon_late_07",
+      "order": 4,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_07_005",
+      "chapter_id": "ch_joseon_late_07",
+      "order": 5,
+      "difficulty": 3,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_07_006",
+      "chapter_id": "ch_joseon_late_07",
+      "order": 6,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_07_007",
+      "chapter_id": "ch_joseon_late_07",
+      "order": 7,
+      "difficulty": 3,
+      "type": "source",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_07_008",
+      "chapter_id": "ch_joseon_late_07",
+      "order": 8,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_07_009",
+      "chapter_id": "ch_joseon_late_07",
+      "order": 9,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_07_010",
+      "chapter_id": "ch_joseon_late_07",
+      "order": 10,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_07_011",
+      "chapter_id": "ch_joseon_late_07",
+      "order": 11,
+      "difficulty": 3,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_07_012",
+      "chapter_id": "ch_joseon_late_07",
+      "order": 12,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_08_001",
+      "chapter_id": "ch_joseon_late_08",
+      "order": 1,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_08_002",
+      "chapter_id": "ch_joseon_late_08",
+      "order": 2,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "kim_hongdo_ssireum"
+    },
+    {
+      "id": "q_joseon_late_08_003",
+      "chapter_id": "ch_joseon_late_08",
+      "order": 3,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "shin_yunbok_painting"
+    },
+    {
+      "id": "q_joseon_late_08_004",
+      "chapter_id": "ch_joseon_late_08",
+      "order": 4,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "jeong_seon_painting"
+    },
+    {
+      "id": "q_joseon_late_08_005",
+      "chapter_id": "ch_joseon_late_08",
+      "order": 5,
+      "difficulty": 3,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_08_006",
+      "chapter_id": "ch_joseon_late_08",
+      "order": 6,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_08_007",
+      "chapter_id": "ch_joseon_late_08",
+      "order": 7,
+      "difficulty": 3,
+      "type": "source",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_08_008",
+      "chapter_id": "ch_joseon_late_08",
+      "order": 8,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_08_009",
+      "chapter_id": "ch_joseon_late_08",
+      "order": 9,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_08_010",
+      "chapter_id": "ch_joseon_late_08",
+      "order": 10,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_08_011",
+      "chapter_id": "ch_joseon_late_08",
+      "order": 11,
+      "difficulty": 3,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_08_012",
+      "chapter_id": "ch_joseon_late_08",
+      "order": 12,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_09_001",
+      "chapter_id": "ch_joseon_late_09",
+      "order": 1,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_09_002",
+      "chapter_id": "ch_joseon_late_09",
+      "order": 2,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "daedongyeojido"
+    },
+    {
+      "id": "q_joseon_late_09_003",
+      "chapter_id": "ch_joseon_late_09",
+      "order": 3,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "donguibogam"
+    },
+    {
+      "id": "q_joseon_late_09_004",
+      "chapter_id": "ch_joseon_late_09",
+      "order": 4,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "geojunggi"
+    },
+    {
+      "id": "q_joseon_late_09_005",
+      "chapter_id": "ch_joseon_late_09",
+      "order": 5,
+      "difficulty": 3,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_09_006",
+      "chapter_id": "ch_joseon_late_09",
+      "order": 6,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_09_007",
+      "chapter_id": "ch_joseon_late_09",
+      "order": 7,
+      "difficulty": 3,
+      "type": "source",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_09_008",
+      "chapter_id": "ch_joseon_late_09",
+      "order": 8,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_09_009",
+      "chapter_id": "ch_joseon_late_09",
+      "order": 9,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_09_010",
+      "chapter_id": "ch_joseon_late_09",
+      "order": 10,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_09_011",
+      "chapter_id": "ch_joseon_late_09",
+      "order": 11,
+      "difficulty": 3,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_09_012",
+      "chapter_id": "ch_joseon_late_09",
+      "order": 12,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_10_001",
+      "chapter_id": "ch_joseon_late_10",
+      "order": 1,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_10_002",
+      "chapter_id": "ch_joseon_late_10",
+      "order": 2,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "choe_jewu_portrait"
+    },
+    {
+      "id": "q_joseon_late_10_003",
+      "chapter_id": "ch_joseon_late_10",
+      "order": 3,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "catholic_persecution"
+    },
+    {
+      "id": "q_joseon_late_10_004",
+      "chapter_id": "ch_joseon_late_10",
+      "order": 4,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_10_005",
+      "chapter_id": "ch_joseon_late_10",
+      "order": 5,
+      "difficulty": 3,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_10_006",
+      "chapter_id": "ch_joseon_late_10",
+      "order": 6,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_10_007",
+      "chapter_id": "ch_joseon_late_10",
+      "order": 7,
+      "difficulty": 3,
+      "type": "source",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_10_008",
+      "chapter_id": "ch_joseon_late_10",
+      "order": 8,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_10_009",
+      "chapter_id": "ch_joseon_late_10",
+      "order": 9,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_10_010",
+      "chapter_id": "ch_joseon_late_10",
+      "order": 10,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_10_011",
+      "chapter_id": "ch_joseon_late_10",
+      "order": 11,
+      "difficulty": 3,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_joseon_late_10_012",
+      "chapter_id": "ch_joseon_late_10",
+      "order": 12,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    }
+  ]
+}

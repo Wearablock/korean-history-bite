@@ -1,6 +1,7 @@
 // lib/features/study/widgets/image_slider.dart
 
 import 'package:flutter/material.dart';
+import '../../../core/config/constants.dart';
 import '../../../core/theme/app_colors.dart';
 import '../../../data/models/image_meta.dart';
 
@@ -20,11 +21,13 @@ class ImageSlider extends StatefulWidget {
 
 class _ImageSliderState extends State<ImageSlider> {
   final PageController _pageController = PageController();
-  int _currentPage = 0;
+  // ValueNotifier로 변경하여 부분 리빌드만 발생
+  final ValueNotifier<int> _currentPage = ValueNotifier<int>(0);
 
   @override
   void dispose() {
     _pageController.dispose();
+    _currentPage.dispose();
     super.dispose();
   }
 
@@ -48,9 +51,7 @@ class _ImageSliderState extends State<ImageSlider> {
                 controller: _pageController,
                 itemCount: widget.images.length,
                 onPageChanged: (index) {
-                  setState(() {
-                    _currentPage = index;
-                  });
+                  _currentPage.value = index;
                 },
                 itemBuilder: (context, index) {
                   final image = widget.images[index];
@@ -58,34 +59,48 @@ class _ImageSliderState extends State<ImageSlider> {
                 },
               ),
 
-              // 좌측 화살표
-              if (_hasMultipleImages && _currentPage > 0)
-                Positioned(
-                  left: 0,
-                  top: 0,
-                  bottom: 0,
-                  child: _buildArrowButton(
-                    icon: Icons.chevron_left,
-                    onTap: () => _pageController.previousPage(
-                      duration: const Duration(milliseconds: 300),
-                      curve: Curves.easeInOut,
-                    ),
-                  ),
+              // 좌측 화살표 (ValueListenableBuilder로 부분 리빌드)
+              if (_hasMultipleImages)
+                ValueListenableBuilder<int>(
+                  valueListenable: _currentPage,
+                  builder: (context, currentPage, child) {
+                    if (currentPage <= 0) return const SizedBox.shrink();
+                    return Positioned(
+                      left: 0,
+                      top: 0,
+                      bottom: 0,
+                      child: _buildArrowButton(
+                        icon: Icons.chevron_left,
+                        onTap: () => _pageController.previousPage(
+                          duration: UIConstants.mediumAnimation,
+                          curve: Curves.easeInOut,
+                        ),
+                      ),
+                    );
+                  },
                 ),
 
-              // 우측 화살표
-              if (_hasMultipleImages && _currentPage < widget.images.length - 1)
-                Positioned(
-                  right: 0,
-                  top: 0,
-                  bottom: 0,
-                  child: _buildArrowButton(
-                    icon: Icons.chevron_right,
-                    onTap: () => _pageController.nextPage(
-                      duration: const Duration(milliseconds: 300),
-                      curve: Curves.easeInOut,
-                    ),
-                  ),
+              // 우측 화살표 (ValueListenableBuilder로 부분 리빌드)
+              if (_hasMultipleImages)
+                ValueListenableBuilder<int>(
+                  valueListenable: _currentPage,
+                  builder: (context, currentPage, child) {
+                    if (currentPage >= widget.images.length - 1) {
+                      return const SizedBox.shrink();
+                    }
+                    return Positioned(
+                      right: 0,
+                      top: 0,
+                      bottom: 0,
+                      child: _buildArrowButton(
+                        icon: Icons.chevron_right,
+                        onTap: () => _pageController.nextPage(
+                          duration: UIConstants.mediumAnimation,
+                          curve: Curves.easeInOut,
+                        ),
+                      ),
+                    );
+                  },
                 ),
             ],
           ),
@@ -93,18 +108,23 @@ class _ImageSliderState extends State<ImageSlider> {
 
         const SizedBox(height: 8),
 
-        // 캡션
-        Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 8),
-          child: Text(
-            widget.images[_currentPage].getCaption(widget.locale),
-            style: TextStyle(
-              fontSize: 13,
-              color: Colors.grey[700],
-              fontStyle: FontStyle.italic,
-            ),
-            textAlign: TextAlign.center,
-          ),
+        // 캡션 (ValueListenableBuilder로 부분 리빌드)
+        ValueListenableBuilder<int>(
+          valueListenable: _currentPage,
+          builder: (context, currentPage, child) {
+            return Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 8),
+              child: Text(
+                widget.images[currentPage].getCaption(widget.locale),
+                style: const TextStyle(
+                  fontSize: 13,
+                  color: AppColors.grey700,
+                  fontStyle: FontStyle.italic,
+                ),
+                textAlign: TextAlign.center,
+              ),
+            );
+          },
         ),
 
         // 페이지 인디케이터
@@ -128,21 +148,21 @@ class _ImageSliderState extends State<ImageSlider> {
         image.fullPath,
         fit: BoxFit.contain,
         errorBuilder: (context, error, stackTrace) {
-          return Center(
+          return const Center(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Icon(
                   Icons.image_not_supported_outlined,
                   size: 48,
-                  color: Colors.grey[400],
+                  color: AppColors.grey400,
                 ),
-                const SizedBox(height: 8),
+                SizedBox(height: 8),
                 Text(
-                  image.id,
+                  '이미지 로드 실패',
                   style: TextStyle(
                     fontSize: 12,
-                    color: Colors.grey[500],
+                    color: AppColors.grey500,
                   ),
                 ),
               ],
@@ -174,22 +194,27 @@ class _ImageSliderState extends State<ImageSlider> {
   }
 
   Widget _buildPageIndicator() {
-    return Row(
-      mainAxisAlignment: MainAxisAlignment.center,
-      children: List.generate(
-        widget.images.length,
-        (index) => Container(
-          width: 8,
-          height: 8,
-          margin: const EdgeInsets.symmetric(horizontal: 3),
-          decoration: BoxDecoration(
-            shape: BoxShape.circle,
-            color: index == _currentPage
-                ? AppColors.secondary
-                : AppColors.dividerLight,
+    return ValueListenableBuilder<int>(
+      valueListenable: _currentPage,
+      builder: (context, currentPage, child) {
+        return Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: List.generate(
+            widget.images.length,
+            (index) => Container(
+              width: 8,
+              height: 8,
+              margin: const EdgeInsets.symmetric(horizontal: 3),
+              decoration: BoxDecoration(
+                shape: BoxShape.circle,
+                color: index == currentPage
+                    ? AppColors.secondary
+                    : AppColors.dividerLight,
+              ),
+            ),
           ),
-        ),
-      ),
+        );
+      },
     );
   }
 }

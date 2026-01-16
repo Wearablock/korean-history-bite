@@ -1,0 +1,1156 @@
+{
+  "questions": [
+    {
+      "id": "q_goryeo_01_001",
+      "chapter_id": "ch_goryeo_01",
+      "order": 1,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_01_002",
+      "chapter_id": "ch_goryeo_01",
+      "order": 2,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "wanggeon_portrait"
+    },
+    {
+      "id": "q_goryeo_01_003",
+      "chapter_id": "ch_goryeo_01",
+      "order": 3,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_01_004",
+      "chapter_id": "ch_goryeo_01",
+      "order": 4,
+      "difficulty": 3,
+      "type": "source",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_01_005",
+      "chapter_id": "ch_goryeo_01",
+      "order": 5,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "gwangjong"
+    },
+    {
+      "id": "q_goryeo_01_006",
+      "chapter_id": "ch_goryeo_01",
+      "order": 6,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_01_007",
+      "chapter_id": "ch_goryeo_01",
+      "order": 7,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_01_008",
+      "chapter_id": "ch_goryeo_01",
+      "order": 8,
+      "difficulty": 3,
+      "type": "image",
+      "image_id": "5do_yangge_map"
+    },
+    {
+      "id": "q_goryeo_01_009",
+      "chapter_id": "ch_goryeo_01",
+      "order": 9,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_01_010",
+      "chapter_id": "ch_goryeo_01",
+      "order": 10,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_01_011",
+      "chapter_id": "ch_goryeo_01",
+      "order": 11,
+      "difficulty": 3,
+      "type": "source",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_01_012",
+      "chapter_id": "ch_goryeo_01",
+      "order": 12,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_02_001",
+      "chapter_id": "ch_goryeo_02",
+      "order": 1,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_02_002",
+      "chapter_id": "ch_goryeo_02",
+      "order": 2,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "seohui_portrait"
+    },
+    {
+      "id": "q_goryeo_02_003",
+      "chapter_id": "ch_goryeo_02",
+      "order": 3,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_02_004",
+      "chapter_id": "ch_goryeo_02",
+      "order": 4,
+      "difficulty": 3,
+      "type": "source",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_02_005",
+      "chapter_id": "ch_goryeo_02",
+      "order": 5,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "gangdong_6ju_map"
+    },
+    {
+      "id": "q_goryeo_02_006",
+      "chapter_id": "ch_goryeo_02",
+      "order": 6,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_02_007",
+      "chapter_id": "ch_goryeo_02",
+      "order": 7,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_02_008",
+      "chapter_id": "ch_goryeo_02",
+      "order": 8,
+      "difficulty": 3,
+      "type": "image",
+      "image_id": "ganggamchan_portrait"
+    },
+    {
+      "id": "q_goryeo_02_009",
+      "chapter_id": "ch_goryeo_02",
+      "order": 9,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_02_010",
+      "chapter_id": "ch_goryeo_02",
+      "order": 10,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_02_011",
+      "chapter_id": "ch_goryeo_02",
+      "order": 11,
+      "difficulty": 3,
+      "type": "image",
+      "image_id": "myocheong_rebellion_map"
+    },
+    {
+      "id": "q_goryeo_02_012",
+      "chapter_id": "ch_goryeo_02",
+      "order": 12,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_03_001",
+      "chapter_id": "ch_goryeo_03",
+      "order": 1,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_03_002",
+      "chapter_id": "ch_goryeo_03",
+      "order": 2,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "musin_regime_illustration"
+    },
+    {
+      "id": "q_goryeo_03_003",
+      "chapter_id": "ch_goryeo_03",
+      "order": 3,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_03_004",
+      "chapter_id": "ch_goryeo_03",
+      "order": 4,
+      "difficulty": 3,
+      "type": "source",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_03_005",
+      "chapter_id": "ch_goryeo_03",
+      "order": 5,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "choi_chungheon"
+    },
+    {
+      "id": "q_goryeo_03_006",
+      "chapter_id": "ch_goryeo_03",
+      "order": 6,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_03_007",
+      "chapter_id": "ch_goryeo_03",
+      "order": 7,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_03_008",
+      "chapter_id": "ch_goryeo_03",
+      "order": 8,
+      "difficulty": 3,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_03_009",
+      "chapter_id": "ch_goryeo_03",
+      "order": 9,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_03_010",
+      "chapter_id": "ch_goryeo_03",
+      "order": 10,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_03_011",
+      "chapter_id": "ch_goryeo_03",
+      "order": 11,
+      "difficulty": 3,
+      "type": "source",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_03_012",
+      "chapter_id": "ch_goryeo_03",
+      "order": 12,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_04_001",
+      "chapter_id": "ch_goryeo_04",
+      "order": 1,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_04_002",
+      "chapter_id": "ch_goryeo_04",
+      "order": 2,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "ganghwa_palace"
+    },
+    {
+      "id": "q_goryeo_04_003",
+      "chapter_id": "ch_goryeo_04",
+      "order": 3,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_04_004",
+      "chapter_id": "ch_goryeo_04",
+      "order": 4,
+      "difficulty": 3,
+      "type": "source",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_04_005",
+      "chapter_id": "ch_goryeo_04",
+      "order": 5,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "tripitaka_koreana"
+    },
+    {
+      "id": "q_goryeo_04_006",
+      "chapter_id": "ch_goryeo_04",
+      "order": 6,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_04_007",
+      "chapter_id": "ch_goryeo_04",
+      "order": 7,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_04_008",
+      "chapter_id": "ch_goryeo_04",
+      "order": 8,
+      "difficulty": 3,
+      "type": "image",
+      "image_id": "sambyeolcho_route_map"
+    },
+    {
+      "id": "q_goryeo_04_009",
+      "chapter_id": "ch_goryeo_04",
+      "order": 9,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "cheoin_battle_painting"
+    },
+    {
+      "id": "q_goryeo_04_010",
+      "chapter_id": "ch_goryeo_04",
+      "order": 10,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_04_011",
+      "chapter_id": "ch_goryeo_04",
+      "order": 11,
+      "difficulty": 3,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_04_012",
+      "chapter_id": "ch_goryeo_04",
+      "order": 12,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_05_001",
+      "chapter_id": "ch_goryeo_05",
+      "order": 1,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_05_002",
+      "chapter_id": "ch_goryeo_05",
+      "order": 2,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "yuan_interference_map"
+    },
+    {
+      "id": "q_goryeo_05_003",
+      "chapter_id": "ch_goryeo_05",
+      "order": 3,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_05_004",
+      "chapter_id": "ch_goryeo_05",
+      "order": 4,
+      "difficulty": 3,
+      "type": "source",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_05_005",
+      "chapter_id": "ch_goryeo_05",
+      "order": 5,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "gongmin_noguk_portrait"
+    },
+    {
+      "id": "q_goryeo_05_006",
+      "chapter_id": "ch_goryeo_05",
+      "order": 6,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_05_007",
+      "chapter_id": "ch_goryeo_05",
+      "order": 7,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_05_008",
+      "chapter_id": "ch_goryeo_05",
+      "order": 8,
+      "difficulty": 3,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_05_009",
+      "chapter_id": "ch_goryeo_05",
+      "order": 9,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "jokduri_artifact"
+    },
+    {
+      "id": "q_goryeo_05_010",
+      "chapter_id": "ch_goryeo_05",
+      "order": 10,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_05_011",
+      "chapter_id": "ch_goryeo_05",
+      "order": 11,
+      "difficulty": 3,
+      "type": "source",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_05_012",
+      "chapter_id": "ch_goryeo_05",
+      "order": 12,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_06_001",
+      "chapter_id": "ch_goryeo_06",
+      "order": 1,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_06_002",
+      "chapter_id": "ch_goryeo_06",
+      "order": 2,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "gongmin_king_portrait"
+    },
+    {
+      "id": "q_goryeo_06_003",
+      "chapter_id": "ch_goryeo_06",
+      "order": 3,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_06_004",
+      "chapter_id": "ch_goryeo_06",
+      "order": 4,
+      "difficulty": 3,
+      "type": "source",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_06_005",
+      "chapter_id": "ch_goryeo_06",
+      "order": 5,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "ssangseong_recovery_map"
+    },
+    {
+      "id": "q_goryeo_06_006",
+      "chapter_id": "ch_goryeo_06",
+      "order": 6,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_06_007",
+      "chapter_id": "ch_goryeo_06",
+      "order": 7,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_06_008",
+      "chapter_id": "ch_goryeo_06",
+      "order": 8,
+      "difficulty": 3,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_06_009",
+      "chapter_id": "ch_goryeo_06",
+      "order": 9,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_06_010",
+      "chapter_id": "ch_goryeo_06",
+      "order": 10,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_06_011",
+      "chapter_id": "ch_goryeo_06",
+      "order": 11,
+      "difficulty": 3,
+      "type": "source",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_06_012",
+      "chapter_id": "ch_goryeo_06",
+      "order": 12,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_07_001",
+      "chapter_id": "ch_goryeo_07",
+      "order": 1,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_07_002",
+      "chapter_id": "ch_goryeo_07",
+      "order": 2,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "byeokrando_map"
+    },
+    {
+      "id": "q_goryeo_07_003",
+      "chapter_id": "ch_goryeo_07",
+      "order": 3,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_07_004",
+      "chapter_id": "ch_goryeo_07",
+      "order": 4,
+      "difficulty": 3,
+      "type": "source",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_07_005",
+      "chapter_id": "ch_goryeo_07",
+      "order": 5,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "goryeo_coin_eunbyeong"
+    },
+    {
+      "id": "q_goryeo_07_006",
+      "chapter_id": "ch_goryeo_07",
+      "order": 6,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_07_007",
+      "chapter_id": "ch_goryeo_07",
+      "order": 7,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_07_008",
+      "chapter_id": "ch_goryeo_07",
+      "order": 8,
+      "difficulty": 3,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_07_009",
+      "chapter_id": "ch_goryeo_07",
+      "order": 9,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_07_010",
+      "chapter_id": "ch_goryeo_07",
+      "order": 10,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_07_011",
+      "chapter_id": "ch_goryeo_07",
+      "order": 11,
+      "difficulty": 3,
+      "type": "source",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_07_012",
+      "chapter_id": "ch_goryeo_07",
+      "order": 12,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_08_001",
+      "chapter_id": "ch_goryeo_08",
+      "order": 1,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_08_002",
+      "chapter_id": "ch_goryeo_08",
+      "order": 2,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "manjeok_rebellion"
+    },
+    {
+      "id": "q_goryeo_08_003",
+      "chapter_id": "ch_goryeo_08",
+      "order": 3,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_08_004",
+      "chapter_id": "ch_goryeo_08",
+      "order": 4,
+      "difficulty": 3,
+      "type": "source",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_08_005",
+      "chapter_id": "ch_goryeo_08",
+      "order": 5,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_08_006",
+      "chapter_id": "ch_goryeo_08",
+      "order": 6,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_08_007",
+      "chapter_id": "ch_goryeo_08",
+      "order": 7,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_08_008",
+      "chapter_id": "ch_goryeo_08",
+      "order": 8,
+      "difficulty": 3,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_08_009",
+      "chapter_id": "ch_goryeo_08",
+      "order": 9,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_08_010",
+      "chapter_id": "ch_goryeo_08",
+      "order": 10,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_08_011",
+      "chapter_id": "ch_goryeo_08",
+      "order": 11,
+      "difficulty": 3,
+      "type": "source",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_08_012",
+      "chapter_id": "ch_goryeo_08",
+      "order": 12,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_09_001",
+      "chapter_id": "ch_goryeo_09",
+      "order": 1,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_09_002",
+      "chapter_id": "ch_goryeo_09",
+      "order": 2,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "palgwanhoe_painting"
+    },
+    {
+      "id": "q_goryeo_09_003",
+      "chapter_id": "ch_goryeo_09",
+      "order": 3,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_09_004",
+      "chapter_id": "ch_goryeo_09",
+      "order": 4,
+      "difficulty": 3,
+      "type": "source",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_09_005",
+      "chapter_id": "ch_goryeo_09",
+      "order": 5,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "jinul_portrait"
+    },
+    {
+      "id": "q_goryeo_09_006",
+      "chapter_id": "ch_goryeo_09",
+      "order": 6,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_09_007",
+      "chapter_id": "ch_goryeo_09",
+      "order": 7,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_09_008",
+      "chapter_id": "ch_goryeo_09",
+      "order": 8,
+      "difficulty": 3,
+      "type": "image",
+      "image_id": "tripitaka_koreana"
+    },
+    {
+      "id": "q_goryeo_09_009",
+      "chapter_id": "ch_goryeo_09",
+      "order": 9,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_09_010",
+      "chapter_id": "ch_goryeo_09",
+      "order": 10,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_09_011",
+      "chapter_id": "ch_goryeo_09",
+      "order": 11,
+      "difficulty": 3,
+      "type": "source",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_09_012",
+      "chapter_id": "ch_goryeo_09",
+      "order": 12,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_10_001",
+      "chapter_id": "ch_goryeo_10",
+      "order": 1,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_10_002",
+      "chapter_id": "ch_goryeo_10",
+      "order": 2,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "samguk_sagi"
+    },
+    {
+      "id": "q_goryeo_10_003",
+      "chapter_id": "ch_goryeo_10",
+      "order": 3,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_10_004",
+      "chapter_id": "ch_goryeo_10",
+      "order": 4,
+      "difficulty": 3,
+      "type": "source",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_10_005",
+      "chapter_id": "ch_goryeo_10",
+      "order": 5,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "samguk_yusa"
+    },
+    {
+      "id": "q_goryeo_10_006",
+      "chapter_id": "ch_goryeo_10",
+      "order": 6,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_10_007",
+      "chapter_id": "ch_goryeo_10",
+      "order": 7,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_10_008",
+      "chapter_id": "ch_goryeo_10",
+      "order": 8,
+      "difficulty": 3,
+      "type": "image",
+      "image_id": "jewang_ungi"
+    },
+    {
+      "id": "q_goryeo_10_009",
+      "chapter_id": "ch_goryeo_10",
+      "order": 9,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_10_010",
+      "chapter_id": "ch_goryeo_10",
+      "order": 10,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_10_011",
+      "chapter_id": "ch_goryeo_10",
+      "order": 11,
+      "difficulty": 3,
+      "type": "source",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_10_012",
+      "chapter_id": "ch_goryeo_10",
+      "order": 12,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_11_001",
+      "chapter_id": "ch_goryeo_11",
+      "order": 1,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_11_002",
+      "chapter_id": "ch_goryeo_11",
+      "order": 2,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "jikji"
+    },
+    {
+      "id": "q_goryeo_11_003",
+      "chapter_id": "ch_goryeo_11",
+      "order": 3,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_11_004",
+      "chapter_id": "ch_goryeo_11",
+      "order": 4,
+      "difficulty": 3,
+      "type": "source",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_11_005",
+      "chapter_id": "ch_goryeo_11",
+      "order": 5,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "sanggam_celadon_crane"
+    },
+    {
+      "id": "q_goryeo_11_006",
+      "chapter_id": "ch_goryeo_11",
+      "order": 6,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_11_007",
+      "chapter_id": "ch_goryeo_11",
+      "order": 7,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_11_008",
+      "chapter_id": "ch_goryeo_11",
+      "order": 8,
+      "difficulty": 3,
+      "type": "image",
+      "image_id": "hwatong"
+    },
+    {
+      "id": "q_goryeo_11_009",
+      "chapter_id": "ch_goryeo_11",
+      "order": 9,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_11_010",
+      "chapter_id": "ch_goryeo_11",
+      "order": 10,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_11_011",
+      "chapter_id": "ch_goryeo_11",
+      "order": 11,
+      "difficulty": 3,
+      "type": "source",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_11_012",
+      "chapter_id": "ch_goryeo_11",
+      "order": 12,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_12_001",
+      "chapter_id": "ch_goryeo_12",
+      "order": 1,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_12_002",
+      "chapter_id": "ch_goryeo_12",
+      "order": 2,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "celadon_openwork_incense_burner"
+    },
+    {
+      "id": "q_goryeo_12_003",
+      "chapter_id": "ch_goryeo_12",
+      "order": 3,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_12_004",
+      "chapter_id": "ch_goryeo_12",
+      "order": 4,
+      "difficulty": 3,
+      "type": "source",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_12_005",
+      "chapter_id": "ch_goryeo_12",
+      "order": 5,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "goryeo_buddhist_painting"
+    },
+    {
+      "id": "q_goryeo_12_006",
+      "chapter_id": "ch_goryeo_12",
+      "order": 6,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_12_007",
+      "chapter_id": "ch_goryeo_12",
+      "order": 7,
+      "difficulty": 1,
+      "type": "image",
+      "image_id": "buseoksa_muryangsujeon"
+    },
+    {
+      "id": "q_goryeo_12_008",
+      "chapter_id": "ch_goryeo_12",
+      "order": 8,
+      "difficulty": 3,
+      "type": "image",
+      "image_id": "woljeongsa_pagoda"
+    },
+    {
+      "id": "q_goryeo_12_009",
+      "chapter_id": "ch_goryeo_12",
+      "order": 9,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "gyeongcheonsa_pagoda"
+    },
+    {
+      "id": "q_goryeo_12_010",
+      "chapter_id": "ch_goryeo_12",
+      "order": 10,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_12_011",
+      "chapter_id": "ch_goryeo_12",
+      "order": 11,
+      "difficulty": 3,
+      "type": "source",
+      "image_id": null
+    },
+    {
+      "id": "q_goryeo_12_012",
+      "chapter_id": "ch_goryeo_12",
+      "order": 12,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    }
+  ]
+}

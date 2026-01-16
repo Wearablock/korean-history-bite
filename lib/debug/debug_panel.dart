@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import '../core/config/constants.dart';
 import '../core/utils/debug_utils.dart';
 import '../core/theme/app_colors.dart';
 import '../data/providers/database_providers.dart';
@@ -245,81 +246,58 @@ class _DebugPanelState extends ConsumerState<DebugPanel> {
       final now = DebugUtils.now;
       final startOfDay = DateTime(now.year, now.month, now.day);
 
-      // 오답 복습 대상 조회 (getUncorrectedWrongAnswers 로직과 동일)
-      final wrongAnswers = await db.wrongAnswersDao.getAllWrongAnswers();
-      final uncorrectedWrong = wrongAnswers.where((w) =>
-          w.correctedAt == null && w.updatedAt.isBefore(startOfDay)).toList();
-      final uncorrectedWrongIds = uncorrectedWrong.map((w) => w.questionId).toSet();
-
-      // 망각곡선 복습 대상 조회 (getSpacedReviewQuestions 로직과 동일)
+      // 복습 대상 조회 (통합된 로직: study_records 기반)
       final allRecords = await db.studyRecordsDao.getAllRecords();
-      final spacedReview = allRecords.where((r) {
+      final reviewDue = allRecords.where((r) {
         final nextReview = r.nextReviewAt;
+        final lastStudied = r.lastStudiedAt;
         if (nextReview == null) return false;
-        return r.level > 0 &&
-            r.level < 5 &&
-            (nextReview.isBefore(now) || nextReview.isAtSameMomentAs(now));
+        return r.level < StudyConstants.masteryLevel &&
+            (nextReview.isBefore(now) || nextReview.isAtSameMomentAs(now)) &&
+            (lastStudied == null || lastStudied.isBefore(startOfDay));
       }).toList();
 
-      // 중복 제외한 망각곡선 복습 (오답과 겹치는 것 제외)
-      final spacedReviewOnly = spacedReview
-          .where((r) => !uncorrectedWrongIds.contains(r.questionId))
-          .toList();
-
-      // 총 복습 대상 (getReviewDueCount와 동일한 계산)
-      final totalReviewDue = uncorrectedWrong.length + spacedReviewOnly.length;
+      // 레벨 0 (오답 복습)과 레벨 1+ (망각곡선 복습) 분리
+      final wrongReview = reviewDue.where((r) => r.level == 0).toList();
+      final spacedReview = reviewDue.where((r) => r.level > 0).toList();
 
       final buffer = StringBuffer();
       buffer.writeln('=== 디버그 시간: ${now.toString().substring(0, 19)} ===');
       buffer.writeln('=== 오늘 시작: ${startOfDay.toString().substring(0, 19)} ===');
       buffer.writeln('');
       buffer.writeln('========================================');
-      buffer.writeln('총 복습 대상: $totalReviewDue개');
-      buffer.writeln('  - 오답 복습: ${uncorrectedWrong.length}개');
-      buffer.writeln('  - 망각곡선 복습 (중복제외): ${spacedReviewOnly.length}개');
-      buffer.writeln('  - 망각곡선 복습 (전체): ${spacedReview.length}개');
+      buffer.writeln('총 복습 대상: ${reviewDue.length}개');
+      buffer.writeln('  - 오답 복습 (레벨 0): ${wrongReview.length}개');
+      buffer.writeln('  - 망각곡선 복습 (레벨 1+): ${spacedReview.length}개');
       buffer.writeln('========================================');
       buffer.writeln('');
-      buffer.writeln('--- 오답 복습 대상 (${uncorrectedWrong.length}개) ---');
-      for (final w in uncorrectedWrong) {
-        buffer.writeln('  ${w.questionId}');
-        buffer.writeln('    correctedAt: ${w.correctedAt}');
-        buffer.writeln('    updatedAt: ${w.updatedAt.toString().substring(0, 19)}');
-      }
-      buffer.writeln('');
-      buffer.writeln('--- 망각곡선 복습 대상 - 중복제외 (${spacedReviewOnly.length}개) ---');
-      for (final r in spacedReviewOnly) {
-        final isAlsoInWrong = wrongAnswers.any((w) => w.questionId == r.questionId);
+      buffer.writeln('--- 오답 복습 대상 (레벨 0) ---');
+      for (final r in wrongReview) {
         buffer.writeln('  ${r.questionId}');
         buffer.writeln('    level: ${r.level}');
         buffer.writeln('    nextReviewAt: ${r.nextReviewAt?.toString().substring(0, 19) ?? "null"}');
         buffer.writeln('    lastStudiedAt: ${r.lastStudiedAt?.toString().substring(0, 19) ?? "null"}');
-        if (isAlsoInWrong) {
-          buffer.writeln('    [!] wrong_answers에도 존재 (corrected 상태)');
-        }
+      }
+      buffer.writeln('');
+      buffer.writeln('--- 망각곡선 복습 대상 (레벨 1+) ---');
+      for (final r in spacedReview) {
+        buffer.writeln('  ${r.questionId}');
+        buffer.writeln('    level: ${r.level}');
+        buffer.writeln('    nextReviewAt: ${r.nextReviewAt?.toString().substring(0, 19) ?? "null"}');
+        buffer.writeln('    lastStudiedAt: ${r.lastStudiedAt?.toString().substring(0, 19) ?? "null"}');
       }
       buffer.writeln('');
       buffer.writeln('--- 전체 학습 기록 (${allRecords.length}개) ---');
       for (final r in allRecords) {
         final nextReview = r.nextReviewAt;
+        final lastStudied = r.lastStudiedAt;
         final isDue = nextReview != null &&
-            r.level > 0 &&
-            r.level < 5 &&
-            (nextReview.isBefore(now) || nextReview.isAtSameMomentAs(now));
+            r.level < StudyConstants.masteryLevel &&
+            (nextReview.isBefore(now) || nextReview.isAtSameMomentAs(now)) &&
+            (lastStudied == null || lastStudied.isBefore(startOfDay));
         final nextStr = nextReview?.toString().substring(0, 19) ?? 'null';
-        buffer.writeln('  ${r.questionId}: lv${r.level}, next=$nextStr ${isDue ? "[SPACED_DUE]" : ""}');
-      }
-      buffer.writeln('');
-      buffer.writeln('--- 전체 오답 기록 (${wrongAnswers.length}개) ---');
-      for (final w in wrongAnswers) {
-        final isUncorrected = w.correctedAt == null && w.updatedAt.isBefore(startOfDay);
-        buffer.writeln('  ${w.questionId}');
-        buffer.writeln('    correctedAt: ${w.correctedAt?.toString().substring(0, 19) ?? "null"}');
-        buffer.writeln('    updatedAt: ${w.updatedAt.toString().substring(0, 19)}');
-        buffer.writeln('    wrongCount: ${w.wrongCount}');
-        if (isUncorrected) {
-          buffer.writeln('    [WRONG_DUE]');
-        }
+        final dueLabel = isDue ? (r.level == 0 ? '[WRONG_DUE]' : '[SPACED_DUE]') : '';
+        buffer.writeln('  ${r.questionId}: lv${r.level}, next=$nextStr $dueLabel');
       }
 
       setState(() {

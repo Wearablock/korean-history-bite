@@ -27,6 +27,7 @@ class _QuizCardState extends State<QuizCard> {
   late List<String> _shuffledOptions;
   int? _selectedIndex;
   bool _showFeedback = false;
+  bool _showHint = false;
 
   @override
   void initState() {
@@ -42,8 +43,15 @@ class _QuizCardState extends State<QuizCard> {
         _shuffledOptions = widget.question.getShuffledOptions();
         _selectedIndex = null;
         _showFeedback = false;
+        _showHint = false;
       });
     }
+  }
+
+  void _onHintTap() {
+    setState(() {
+      _showHint = true;
+    });
   }
 
   int get _correctIndex => _shuffledOptions.indexOf(widget.question.correct);
@@ -115,7 +123,71 @@ class _QuizCardState extends State<QuizCard> {
                 // 문제 헤더 (이미지/사료/텍스트)
                 QuestionHeader(question: widget.question),
 
-                const SizedBox(height: 20),
+                const SizedBox(height: 16),
+
+                // 힌트 버튼 및 힌트 표시
+                if (widget.question.hasHint && !_showFeedback) ...[
+                  if (!_showHint)
+                    Center(
+                      child: TextButton.icon(
+                        onPressed: _onHintTap,
+                        icon: const Icon(
+                          Icons.lightbulb_outline,
+                          size: 18,
+                          color: AppColors.secondary,
+                        ),
+                        label: const Text(
+                          '힌트 보기',
+                          style: TextStyle(
+                            color: AppColors.secondary,
+                            fontWeight: FontWeight.w500,
+                          ),
+                        ),
+                        style: TextButton.styleFrom(
+                          padding: const EdgeInsets.symmetric(
+                            horizontal: 16,
+                            vertical: 8,
+                          ),
+                        ),
+                      ),
+                    )
+                  else
+                    Container(
+                      width: double.infinity,
+                      padding: const EdgeInsets.all(12),
+                      decoration: BoxDecoration(
+                        color: AppColors.secondary.withValues(alpha: 0.1),
+                        borderRadius: BorderRadius.circular(8),
+                        border: Border.all(
+                          color: AppColors.secondary.withValues(alpha: 0.3),
+                        ),
+                      ),
+                      child: Row(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          const Icon(
+                            Icons.lightbulb,
+                            size: 18,
+                            color: AppColors.secondary,
+                          ),
+                          const SizedBox(width: 8),
+                          Expanded(
+                            child: Text(
+                              widget.question.hint!,
+                              style: TextStyle(
+                                fontSize: 14,
+                                color: Colors.grey[800],
+                                height: 1.4,
+                              ),
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  const SizedBox(height: 16),
+                ] else ...[
+                  const SizedBox(height: 4),
+                ],
 
                 // 선지 목록
                 ...List.generate(

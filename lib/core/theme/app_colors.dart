@@ -47,11 +47,26 @@ class AppColors {
   static const Color info = Color(0xFF3498DB);
 
   // ============================================================
+  // Traditional Sign (간판)
+  // ============================================================
+
+  static const Color signBorder = Color(0xFF5D4037); // 갈색 테두리
+  static const Color signBackground = Color(0xFFFFFDF5); // 약간 따뜻한 흰색
+
+  // ============================================================
   // Neutral Colors
   // ============================================================
 
   static const Color white = Color(0xFFFFFFFF);
   static const Color black = Color(0xFF000000);
+
+  // Grey Scale (Material Design grey 기준)
+  static const Color grey200 = Color(0xFFEEEEEE);
+  static const Color grey300 = Color(0xFFE0E0E0);
+  static const Color grey400 = Color(0xFFBDBDBD);
+  static const Color grey500 = Color(0xFF9E9E9E);
+  static const Color grey600 = Color(0xFF757575);
+  static const Color grey700 = Color(0xFF616161);
 
   // Light Mode
   static const Color backgroundLight = Color(0xFFF8F9FA);

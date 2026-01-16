@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import '../../../core/theme/app_colors.dart';
+import '../../../data/repositories/question_repository.dart';
 import '../../../services/study_service.dart';
 
 class TodayStudyCard extends StatelessWidget {
@@ -212,26 +213,12 @@ class TodayStudyCard extends StatelessWidget {
       eraId = withoutPrefix;
     }
 
-    // 시대 ID를 한글로 변환
-    final eraName = _eraIdToKorean(eraId);
+    // 시대 ID를 한글로 변환 (중앙 집중 매핑 사용)
+    final eraName = EraIds.toKorean(eraId);
 
     if (number != null) {
       return '$eraName $number';
     }
     return eraName;
-  }
-
-  String _eraIdToKorean(String eraId) {
-    const eraNames = {
-      'prehistoric': '선사시대',
-      'gojoseon': '고조선',
-      'three_kingdoms': '삼국시대',
-      'unified_silla': '통일신라',
-      'goryeo': '고려',
-      'joseon': '조선',
-      'modern': '근대',
-      'contemporary': '현대',
-    };
-    return eraNames[eraId] ?? eraId;
   }
 }

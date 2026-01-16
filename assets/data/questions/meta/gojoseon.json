@@ -1,0 +1,196 @@
+{
+  "questions": [
+    {
+      "id": "q_gojoseon_01_001",
+      "chapter_id": "ch_gojoseon_01",
+      "order": 1,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_gojoseon_01_002",
+      "chapter_id": "ch_gojoseon_01",
+      "order": 2,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "dangun_painting"
+    },
+    {
+      "id": "q_gojoseon_01_003",
+      "chapter_id": "ch_gojoseon_01",
+      "order": 3,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_gojoseon_01_004",
+      "chapter_id": "ch_gojoseon_01",
+      "order": 4,
+      "difficulty": 3,
+      "type": "source",
+      "image_id": null
+    },
+    {
+      "id": "q_gojoseon_01_005",
+      "chapter_id": "ch_gojoseon_01",
+      "order": 5,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "mandolin_dagger"
+    },
+    {
+      "id": "q_gojoseon_01_006",
+      "chapter_id": "ch_gojoseon_01",
+      "order": 6,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_gojoseon_01_007",
+      "chapter_id": "ch_gojoseon_01",
+      "order": 7,
+      "difficulty": 1,
+      "type": "image",
+      "image_id": "dolmen_table"
+    },
+    {
+      "id": "q_gojoseon_01_008",
+      "chapter_id": "ch_gojoseon_01",
+      "order": 8,
+      "difficulty": 3,
+      "type": "image",
+      "image_id": "hwasun_bronze_collection"
+    },
+    {
+      "id": "q_gojoseon_02_001",
+      "chapter_id": "ch_gojoseon_02",
+      "order": 1,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_gojoseon_02_002",
+      "chapter_id": "ch_gojoseon_02",
+      "order": 2,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_gojoseon_02_003",
+      "chapter_id": "ch_gojoseon_02",
+      "order": 3,
+      "difficulty": 2,
+      "type": "source",
+      "image_id": null
+    },
+    {
+      "id": "q_gojoseon_02_004",
+      "chapter_id": "ch_gojoseon_02",
+      "order": 4,
+      "difficulty": 3,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_gojoseon_02_005",
+      "chapter_id": "ch_gojoseon_02",
+      "order": 5,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "gojoseon_territory_map"
+    },
+    {
+      "id": "q_gojoseon_02_006",
+      "chapter_id": "ch_gojoseon_02",
+      "order": 6,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_gojoseon_02_007",
+      "chapter_id": "ch_gojoseon_02",
+      "order": 7,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_gojoseon_02_008",
+      "chapter_id": "ch_gojoseon_02",
+      "order": 8,
+      "difficulty": 3,
+      "type": "source",
+      "image_id": null
+    },
+    {
+      "id": "q_gojoseon_03_001",
+      "chapter_id": "ch_gojoseon_03",
+      "order": 1,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_gojoseon_03_002",
+      "chapter_id": "ch_gojoseon_03",
+      "order": 2,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_gojoseon_03_003",
+      "chapter_id": "ch_gojoseon_03",
+      "order": 3,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "buyeo_pottery"
+    },
+    {
+      "id": "q_gojoseon_03_004",
+      "chapter_id": "ch_gojoseon_03",
+      "order": 4,
+      "difficulty": 3,
+      "type": "source",
+      "image_id": null
+    },
+    {
+      "id": "q_gojoseon_03_005",
+      "chapter_id": "ch_gojoseon_03",
+      "order": 5,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_gojoseon_03_006",
+      "chapter_id": "ch_gojoseon_03",
+      "order": 6,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_gojoseon_03_007",
+      "chapter_id": "ch_gojoseon_03",
+      "order": 7,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_gojoseon_03_008",
+      "chapter_id": "ch_gojoseon_03",
+      "order": 8,
+      "difficulty": 3,
+      "type": "source",
+      "image_id": null
+    }
+  ]
+}

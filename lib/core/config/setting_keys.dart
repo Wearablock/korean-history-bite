@@ -9,7 +9,8 @@ abstract class SettingKeys {
 
   // 알림 관련
   static const String notificationEnabled = 'notification_enabled';
-  static const String notificationTime = 'notification_time';
+  static const String notificationHour = 'notification_hour';
+  static const String notificationMinute = 'notification_minute';
   static const String streakReminder = 'streak_reminder';
 
   // 테마
@@ -30,22 +31,24 @@ abstract class SettingKeys {
   static const String onboardingCompleted = 'onboarding_completed';
 }
 
-/// 일일 학습 목표 옵션
+/// 일일 학습 목표 옵션 (챕터 기준)
 enum DailyGoalOption {
-  light(15, '가볍게'),
-  standard(30, '표준'),
-  intensive(50, '집중');
+  oneChapter(1, '1챕터'),
+  twoChapters(2, '2챕터'),
+  threeChapters(3, '3챕터');
 
-  final int questionCount;
+  final int chapterCount;
   final String label;
 
-  const DailyGoalOption(this.questionCount, this.label);
+  const DailyGoalOption(this.chapterCount, this.label);
 
-  static DailyGoalOption fromValue(int value) {
-    return DailyGoalOption.values.firstWhere(
-      (e) => e.questionCount == value,
-      orElse: () => DailyGoalOption.light,
-    );
+  static DailyGoalOption? fromValue(int value) {
+    for (final option in DailyGoalOption.values) {
+      if (option.chapterCount == value) {
+        return option;
+      }
+    }
+    return null; // 커스텀 값인 경우 null 반환
   }
 }
 

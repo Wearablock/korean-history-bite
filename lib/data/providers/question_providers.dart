@@ -17,6 +17,32 @@ final questionsProvider = FutureProvider<List<Question>>((ref) async {
   return repository.loadQuestions(locale);
 });
 
+/// 시대별 문제 목록
+final questionsByEraProvider = FutureProvider.family<List<Question>, String>(
+  (ref, eraId) async {
+    final repository = ref.watch(questionRepositoryProvider);
+    final locale = ref.watch(currentLocaleProvider);
+    return repository.loadQuestionsByEra(eraId, locale);
+  },
+);
+
+/// 시대별 메타데이터
+final questionMetaByEraProvider =
+    FutureProvider.family<List<QuestionMeta>, String>(
+  (ref, eraId) async {
+    final repository = ref.watch(questionRepositoryProvider);
+    return repository.loadMetaByEra(eraId);
+  },
+);
+
+/// 시대별 문제 수
+final questionCountByEraProvider = FutureProvider.family<int, String>(
+  (ref, eraId) async {
+    final repository = ref.watch(questionRepositoryProvider);
+    return repository.getQuestionCountByEra(eraId);
+  },
+);
+
 /// 챕터별 문제 목록
 final questionsByChapterProvider =
     FutureProvider.family<List<Question>, String>(

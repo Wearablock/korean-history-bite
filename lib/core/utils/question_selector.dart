@@ -1,7 +1,9 @@
 // lib/core/utils/question_selector.dart
 
 import 'dart:math';
+import '../config/constants.dart';
 import '../../data/database/app_database.dart';
+import '../../data/models/question.dart';
 import '../../data/repositories/question_repository.dart';
 
 /// 일일 문제 배분 결과
@@ -64,6 +66,34 @@ class QuestionSelector {
 
   QuestionSelector(this._db, this._questionRepository);
 
+  /// 챕터별 문제 맵 생성 (O(n) -> O(1) 조회 가능)
+  Map<String, List<QuestionMeta>> _buildChapterMap(List<QuestionMeta> allMeta) {
+    final chapterMap = <String, List<QuestionMeta>>{};
+    for (final meta in allMeta) {
+      chapterMap.putIfAbsent(meta.chapterId, () => []).add(meta);
+    }
+    return chapterMap;
+  }
+
+  /// 미학습 챕터 목록 조회 (순서 유지, 챕터맵 활용)
+  List<String> _findUnstudiedChapters({
+    required List<QuestionMeta> allMeta,
+    required Set<String> studiedIds,
+  }) {
+    final unstudiedChapters = <String>[];
+    final seenChapters = <String>{};
+
+    for (final meta in allMeta) {
+      if (!studiedIds.contains(meta.id) &&
+          !seenChapters.contains(meta.chapterId)) {
+        seenChapters.add(meta.chapterId);
+        unstudiedChapters.add(meta.chapterId);
+      }
+    }
+
+    return unstudiedChapters;
+  }
+
   /// 일일 문제 배분 계산
   DailyAllocation calculateAllocation({
     required int dailyGoal,
@@ -71,27 +101,30 @@ class QuestionSelector {
     required int availableReviewCount,
     required int availableNewCount,
   }) {
-    // 오답 복습: 최대 10개 또는 목표의 1/3
-    final maxWrong = min(10, dailyGoal ~/ 3);
+    // 오답 복습: 최대 maxWrongReviewCount개 또는 목표의 1/3
+    final maxWrong = min(StudyConstants.maxWrongReviewCount, dailyGoal ~/ 3);
     var wrongAllocation = min(availableWrongCount, maxWrong);
 
-    // 망각곡선 복습: 최대 10개 또는 목표의 1/3
-    final maxReview = min(10, dailyGoal ~/ 3);
+    // 망각곡선 복습: 최대 maxSpacedReviewCount개 또는 목표의 1/3
+    final maxReview = min(StudyConstants.maxSpacedReviewCount, dailyGoal ~/ 3);
     var spacedAllocation = min(availableReviewCount, maxReview);
 
-    // 신규 학습: 나머지 (최소 5개 보장)
+    // 신규 학습: 나머지 (최소 minNewLearningCount개 보장)
     var newAllocation = dailyGoal - wrongAllocation - spacedAllocation;
 
-    // 신규 학습이 최소 5개는 되도록 조정
-    if (newAllocation < 5 && dailyGoal >= 15 && availableNewCount >= 5) {
-      final shortage = 5 - newAllocation;
+    // 신규 학습이 최소 개수는 되도록 조정
+    final minDailyGoal = StudyConstants.dailyGoalOptions.first;
+    if (newAllocation < StudyConstants.minNewLearningCount &&
+        dailyGoal >= minDailyGoal &&
+        availableNewCount >= StudyConstants.minNewLearningCount) {
+      final shortage = StudyConstants.minNewLearningCount - newAllocation;
       // 복습에서 줄여서 신규에 배분
       if (spacedAllocation >= shortage) {
         spacedAllocation -= shortage;
-        newAllocation = 5;
+        newAllocation = StudyConstants.minNewLearningCount;
       } else if (wrongAllocation >= shortage) {
         wrongAllocation -= shortage;
-        newAllocation = 5;
+        newAllocation = StudyConstants.minNewLearningCount;
       }
     }
 
@@ -119,11 +152,11 @@ class QuestionSelector {
   Future<DailyQuestionSelection> selectDailyQuestions({
     required int dailyGoal,
   }) async {
-    // 1. 가용 문제 수 조회
-    final wrongAnswers =
-        await _db.wrongAnswersDao.getUncorrectedWrongAnswers();
-    final spacedReviewRecords =
-        await _db.studyRecordsDao.getSpacedReviewQuestions();
+    // 1. 가용 문제 수 조회 (통합된 복습 시스템)
+    final reviewRecords = await _db.studyRecordsDao.getReviewQuestions(limit: 1000);
+    final wrongRecords = reviewRecords.where((r) => r.level == 0).toList();
+    final spacedRecords = reviewRecords.where((r) => r.level > 0).toList();
+
     final allStudiedIds = await _getAllStudiedQuestionIds();
     final allQuestionMeta = await _questionRepository.loadMeta();
     final allQuestionIds = allQuestionMeta.map((m) => m.id).toSet();
@@ -132,19 +165,19 @@ class QuestionSelector {
     // 2. 배분 계산
     final allocation = calculateAllocation(
       dailyGoal: dailyGoal,
-      availableWrongCount: wrongAnswers.length,
-      availableReviewCount: spacedReviewRecords.length,
+      availableWrongCount: wrongRecords.length,
+      availableReviewCount: spacedRecords.length,
       availableNewCount: unstudiedIds.length,
     );
 
-    // 3. 오답 문제 선택 (많이 틀린 순)
-    final wrongReviewIds = wrongAnswers
+    // 3. 오답 문제 선택 (레벨 0)
+    final wrongReviewIds = wrongRecords
         .take(allocation.wrongReview)
-        .map((w) => w.questionId)
+        .map((r) => r.questionId)
         .toList();
 
-    // 4. 망각곡선 복습 문제 선택 (레벨 낮은 순)
-    final spacedReviewIds = spacedReviewRecords
+    // 4. 망각곡선 복습 문제 선택 (레벨 1+)
+    final spacedReviewIds = spacedRecords
         .take(allocation.spacedReview)
         .map((r) => r.questionId)
         .toList();
@@ -211,19 +244,11 @@ class QuestionSelector {
     return unstudiedIds;
   }
 
-  /// 복습이 필요한 총 문제 수 (중복 제외)
+  /// 복습이 필요한 총 문제 수
+  /// study_records에서 레벨 기반으로 통합 조회
   Future<int> getReviewDueCount() async {
-    // 오답 복습 대상
-    final wrongAnswers = await _db.wrongAnswersDao.getUncorrectedWrongAnswers();
-    final wrongIds = wrongAnswers.map((w) => w.questionId).toSet();
-
-    // 망각곡선 복습 대상 (오답과 중복 제외)
-    final spacedRecords = await _db.studyRecordsDao.getSpacedReviewQuestions(limit: 1000);
-    final spacedOnlyCount = spacedRecords
-        .where((r) => !wrongIds.contains(r.questionId))
-        .length;
-
-    return wrongIds.length + spacedOnlyCount;
+    final reviewRecords = await _db.studyRecordsDao.getReviewQuestions(limit: 1000);
+    return reviewRecords.length;
   }
 
   /// 오늘 남은 학습량 계산
@@ -234,40 +259,50 @@ class QuestionSelector {
 
   /// 학습 가능한 총 문제 수 (신규 + 복습)
   Future<int> getAvailableQuestionCount() async {
-    final wrongAnswers =
-        await _db.wrongAnswersDao.getUncorrectedWrongAnswers();
-    final spacedReviewRecords =
-        await _db.studyRecordsDao.getSpacedReviewQuestions();
-    final allStudiedIds = await _getAllStudiedQuestionIds();
-    final allQuestionMeta = await _questionRepository.loadMeta();
+    // 병렬로 데이터 로드
+    final results = await Future.wait([
+      _db.studyRecordsDao.getReviewQuestions(limit: 1000),
+      _getAllStudiedQuestionIds(),
+      _questionRepository.loadMeta(),
+    ]);
+    final reviewRecords = results[0] as List<StudyRecord>;
+    final allStudiedIds = results[1] as Set<String>;
+    final allQuestionMeta = results[2] as List<QuestionMeta>;
+
     final unstudiedCount = allQuestionMeta
         .where((m) => !allStudiedIds.contains(m.id))
         .length;
 
-    return wrongAnswers.length + spacedReviewRecords.length + unstudiedCount;
+    return reviewRecords.length + unstudiedCount;
   }
 
   /// 복습 전용 문제 선택
-  /// 오답 복습 + 망각곡선 복습만 선택 (신규 학습 없음)
-  /// 중복 제거: 오답 복습에 포함된 문제는 망각곡선 복습에서 제외
+  /// study_records 테이블에서 레벨 기반으로 통합 조회
+  /// 레벨 0: 오답 복습 (오답으로 리셋된 문제)
+  /// 레벨 1+: 망각곡선 복습
   Future<DailyQuestionSelection> selectReviewQuestions({
-    int maxWrong = 10,
-    int maxSpaced = 10,
+    int? maxWrong,
+    int? maxSpaced,
   }) async {
-    // 1. 오답 문제 (많이 틀린 순)
-    final wrongAnswers =
-        await _db.wrongAnswersDao.getUncorrectedWrongAnswers(limit: maxWrong);
-    final wrongReviewIds = wrongAnswers.map((w) => w.questionId).toList();
-    final wrongIdSet = wrongReviewIds.toSet();
+    maxWrong ??= StudyConstants.maxWrongReviewCount;
+    maxSpaced ??= StudyConstants.maxSpacedReviewCount;
 
-    // 2. 망각곡선 복습 (레벨 낮은 순, 복습일 오래된 순)
-    // 오답 복습에 이미 포함된 문제는 제외
-    final spacedRecords =
-        await _db.studyRecordsDao.getSpacedReviewQuestions(limit: maxSpaced + wrongIdSet.length);
-    final spacedReviewIds = spacedRecords
+    // 복습 대상 문제 조회 (레벨 낮은 순 = 오답 먼저)
+    final reviewRecords = await _db.studyRecordsDao.getReviewQuestions(
+      limit: maxWrong + maxSpaced,
+    );
+
+    // 레벨 0 (오답 복습)과 레벨 1+ (망각곡선 복습) 분리
+    final wrongReviewIds = reviewRecords
+        .where((r) => r.level == 0)
+        .take(maxWrong)
         .map((r) => r.questionId)
-        .where((id) => !wrongIdSet.contains(id))
+        .toList();
+
+    final spacedReviewIds = reviewRecords
+        .where((r) => r.level > 0)
         .take(maxSpaced)
+        .map((r) => r.questionId)
         .toList();
 
     return DailyQuestionSelection(
@@ -282,20 +317,30 @@ class QuestionSelector {
   /// 단일 챕터 문제 선택 (신규 학습용)
   /// 학습하지 않은 첫 번째 챕터의 모든 문제를 선택
   Future<DailyQuestionSelection> selectSingleChapterQuestions() async {
-    final allStudiedIds = await _getAllStudiedQuestionIds();
-    final allQuestionMeta = await _questionRepository.loadMeta();
+    return selectMultiChapterQuestions(chapterCount: 1);
+  }
 
-    // 학습하지 않은 첫 번째 챕터 찾기
-    String? targetChapterId;
-    for (final meta in allQuestionMeta) {
-      if (!allStudiedIds.contains(meta.id)) {
-        targetChapterId = meta.chapterId;
-        break;
-      }
-    }
+  /// 복수 챕터 문제 선택 (일일 학습용)
+  /// 학습하지 않은 챕터들에서 순서대로 [chapterCount]개 챕터의 모든 문제를 선택
+  Future<DailyQuestionSelection> selectMultiChapterQuestions({
+    required int chapterCount,
+  }) async {
+    // 병렬로 데이터 로드
+    final results = await Future.wait([
+      _getAllStudiedQuestionIds(),
+      _questionRepository.loadMeta(),
+    ]);
+    final allStudiedIds = results[0] as Set<String>;
+    final allQuestionMeta = results[1] as List<QuestionMeta>;
+
+    // 미학습 챕터 찾기 (공통 헬퍼 사용)
+    final unstudiedChapters = _findUnstudiedChapters(
+      allMeta: allQuestionMeta,
+      studiedIds: allStudiedIds,
+    );
 
     // 모든 챕터를 학습한 경우
-    if (targetChapterId == null) {
+    if (unstudiedChapters.isEmpty) {
       return const DailyQuestionSelection(
         wrongReviewIds: [],
         spacedReviewIds: [],
@@ -305,18 +350,102 @@ class QuestionSelector {
       );
     }
 
-    // 해당 챕터의 모든 문제 선택
-    final chapterQuestions = allQuestionMeta
-        .where((m) => m.chapterId == targetChapterId)
-        .map((m) => m.id)
-        .toList();
+    // 요청된 챕터 수만큼 선택 (가용 챕터 수 제한)
+    final targetChapters = unstudiedChapters.take(chapterCount).toList();
+
+    // 챕터맵 생성하여 O(1) 조회
+    final chapterMap = _buildChapterMap(allQuestionMeta);
+
+    // 선택된 챕터들의 문제 수집 (O(n) -> O(챕터수 * 챕터당문제수))
+    final newQuestionIds = <String>[];
+    final newQuestionsByChapter = <String, List<String>>{};
+
+    for (final chapterId in targetChapters) {
+      final chapterMeta = chapterMap[chapterId] ?? [];
+      final chapterQuestions = chapterMeta
+          .where((m) => !allStudiedIds.contains(m.id))
+          .map((m) => m.id)
+          .toList();
+
+      newQuestionsByChapter[chapterId] = chapterQuestions;
+      newQuestionIds.addAll(chapterQuestions);
+    }
 
     return DailyQuestionSelection(
       wrongReviewIds: [],
       spacedReviewIds: [],
-      newQuestionIds: chapterQuestions,
-      newChapterIds: [targetChapterId],
-      newQuestionsByChapter: {targetChapterId: chapterQuestions},
+      newQuestionIds: newQuestionIds,
+      newChapterIds: targetChapters,
+      newQuestionsByChapter: newQuestionsByChapter,
+    );
+  }
+
+  /// 복습 + 신규 챕터 통합 선택 (일일 학습용)
+  /// 복습 문제를 먼저 배분하고, 남은 할당량을 신규 챕터 문제로 채움
+  Future<DailyQuestionSelection> selectDailyChapterQuestions({
+    required int chapterCount,
+  }) async {
+    // 1. 복습 문제 선택
+    final reviewRecords = await _db.studyRecordsDao.getReviewQuestions(limit: 1000);
+    final wrongRecords = reviewRecords.where((r) => r.level == 0).toList();
+    final spacedRecords = reviewRecords.where((r) => r.level > 0).toList();
+
+    // 복습 문제 배분 (오답 최대 10개, 망각곡선 최대 10개)
+    final wrongReviewIds = wrongRecords
+        .take(StudyConstants.maxWrongReviewCount)
+        .map((r) => r.questionId)
+        .toList();
+
+    final spacedReviewIds = spacedRecords
+        .take(StudyConstants.maxSpacedReviewCount)
+        .map((r) => r.questionId)
+        .toList();
+
+    // 2. 신규 챕터 문제 선택
+    final newChapterSelection = await selectMultiChapterQuestions(
+      chapterCount: chapterCount,
+    );
+
+    return DailyQuestionSelection(
+      wrongReviewIds: wrongReviewIds,
+      spacedReviewIds: spacedReviewIds,
+      newQuestionIds: newChapterSelection.newQuestionIds,
+      newChapterIds: newChapterSelection.newChapterIds,
+      newQuestionsByChapter: newChapterSelection.newQuestionsByChapter,
+    );
+  }
+
+  /// 남은 학습 챕터 수 조회
+  Future<int> getRemainingChapterCount() async {
+    // 병렬로 데이터 로드
+    final results = await Future.wait([
+      _getAllStudiedQuestionIds(),
+      _questionRepository.loadMeta(),
+    ]);
+    final allStudiedIds = results[0] as Set<String>;
+    final allQuestionMeta = results[1] as List<QuestionMeta>;
+
+    // 공통 헬퍼 사용
+    return _findUnstudiedChapters(
+      allMeta: allQuestionMeta,
+      studiedIds: allStudiedIds,
+    ).length;
+  }
+
+  /// 미학습 챕터 목록 조회 (순서대로)
+  Future<List<String>> getUnstudiedChapterIds() async {
+    // 병렬로 데이터 로드
+    final results = await Future.wait([
+      _getAllStudiedQuestionIds(),
+      _questionRepository.loadMeta(),
+    ]);
+    final allStudiedIds = results[0] as Set<String>;
+    final allQuestionMeta = results[1] as List<QuestionMeta>;
+
+    // 공통 헬퍼 사용
+    return _findUnstudiedChapters(
+      allMeta: allQuestionMeta,
+      studiedIds: allStudiedIds,
     );
   }
 }

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 import 'app_colors.dart';
 
@@ -14,6 +15,7 @@ class AppTheme {
   static ThemeData get light => ThemeData(
         useMaterial3: true,
         brightness: Brightness.light,
+        fontFamily: GoogleFonts.notoSerifKr().fontFamily,
 
         // Colors
         colorScheme: const ColorScheme.light(
@@ -35,8 +37,11 @@ class AppTheme {
           backgroundColor: AppColors.white,
           foregroundColor: AppColors.textPrimaryLight,
           elevation: 0,
+          scrolledUnderElevation: 0,
+          surfaceTintColor: Colors.transparent,
           centerTitle: true,
           systemOverlayStyle: SystemUiOverlayStyle.dark,
+          toolbarHeight: 72,
         ),
 
         // Card
@@ -187,6 +192,7 @@ class AppTheme {
   static ThemeData get dark => ThemeData(
         useMaterial3: true,
         brightness: Brightness.dark,
+        fontFamily: GoogleFonts.notoSerifKr().fontFamily,
 
         // Colors
         colorScheme: const ColorScheme.dark(
@@ -208,8 +214,11 @@ class AppTheme {
           backgroundColor: AppColors.surfaceDark,
           foregroundColor: AppColors.textPrimaryDark,
           elevation: 0,
+          scrolledUnderElevation: 0,
+          surfaceTintColor: Colors.transparent,
           centerTitle: true,
           systemOverlayStyle: SystemUiOverlayStyle.light,
+          toolbarHeight: 72,
         ),
 
         // Card

@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import '../../core/widgets/traditional_sign_title.dart';
 import '../../data/providers/chapter_providers.dart';
 import 'widgets/theory_card.dart';
 import 'widgets/session_progress_bar.dart';
@@ -27,7 +28,11 @@ class TheoryScreen extends ConsumerWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('신규 학습'),
+        toolbarHeight: 72,
+        title: const Padding(
+          padding: EdgeInsets.symmetric(vertical: 8),
+          child: TraditionalSignTitle(title: '신규 학습'),
+        ),
         actions: [
           Padding(
             padding: const EdgeInsets.only(right: 16),
@@ -45,6 +50,7 @@ class TheoryScreen extends ConsumerWidget {
       ),
       body: Column(
         children: [
+          const SizedBox(height: 8),
           // 진행률 바
           SessionProgressBar(progress: progress),
 

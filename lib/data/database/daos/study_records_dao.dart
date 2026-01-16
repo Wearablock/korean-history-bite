@@ -65,25 +65,32 @@ class StudyRecordsDao extends DatabaseAccessor<AppDatabase>
     return (select(studyRecords)..where((t) => t.level.equals(level))).get();
   }
 
-  /// 완전 습득 문제 조회 (레벨 5)
+  /// 완전 습득 문제 조회
   Future<List<StudyRecord>> getMasteredQuestions() {
-    return (select(studyRecords)..where((t) => t.level.equals(5))).get();
+    return (select(studyRecords)
+          ..where((t) => t.level.equals(StudyConstants.masteryLevel)))
+        .get();
   }
 
   // ============================================================
   // 복습 대상 문제 조회
   // ============================================================
 
-  /// 망각 곡선 복습 문제 조회 (레벨 1~4, 복습 시간 도래)
-  Future<List<StudyRecord>> getSpacedReviewQuestions({int limit = 10}) {
+  /// 복습 문제 조회 (레벨 0~masteryLevel-1, 복습 시간 도래)
+  /// 레벨 0: 오답으로 리셋된 문제 (오답 복습)
+  /// 레벨 1+: 정상 복습 대상 (망각곡선 복습)
+  /// 오늘 이미 학습한 문제는 제외
+  Future<List<StudyRecord>> getReviewQuestions({int limit = 100}) {
     final now = DebugUtils.now; // 디버그 모드에서 시간 조작 지원
+    final startOfDay = DateTime(now.year, now.month, now.day);
     return (select(studyRecords)
           ..where((t) =>
-              t.level.isBiggerThanValue(0) &
-              t.level.isSmallerThanValue(5) &
-              t.nextReviewAt.isSmallerOrEqualValue(now))
+              t.level.isSmallerThanValue(StudyConstants.masteryLevel) &
+              t.nextReviewAt.isSmallerOrEqualValue(now) &
+              // 오늘 학습한 문제는 제외 (중복 복습 방지)
+              t.lastStudiedAt.isSmallerThanValue(startOfDay))
           ..orderBy([
-            (t) => OrderingTerm(expression: t.level), // 레벨 낮은 순
+            (t) => OrderingTerm(expression: t.level), // 레벨 낮은 순 (오답 먼저)
             (t) => OrderingTerm(expression: t.nextReviewAt), // 복습일 오래된 순
           ])
           ..limit(limit))
@@ -100,7 +107,7 @@ class StudyRecordsDao extends DatabaseAccessor<AppDatabase>
     if (record == null) return;
 
     final now = DebugUtils.now; // 디버그 모드 지원
-    final newLevel = (record.level + 1).clamp(0, 5);
+    final newLevel = (record.level + 1).clamp(0, StudyConstants.masteryLevel);
     final nextReview = _calculateNextReview(newLevel);
 
     await (update(studyRecords)
@@ -205,7 +212,7 @@ class StudyRecordsDao extends DatabaseAccessor<AppDatabase>
     final records = await getAllRecords();
     final distribution = <int, int>{};
 
-    for (int i = 0; i <= 5; i++) {
+    for (int i = 0; i <= StudyConstants.masteryLevel; i++) {
       distribution[i] = 0;
     }
 

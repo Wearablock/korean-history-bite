@@ -1,0 +1,1204 @@
+{
+  "questions": [
+    {
+      "id": "q_japanese_occupation_01_001",
+      "chapter_id": "ch_japanese_occupation_01",
+      "order": 1,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_01_002",
+      "chapter_id": "ch_japanese_occupation_01",
+      "order": 2,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "joseon_chongdokbu"
+    },
+    {
+      "id": "q_japanese_occupation_01_003",
+      "chapter_id": "ch_japanese_occupation_01",
+      "order": 3,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_01_004",
+      "chapter_id": "ch_japanese_occupation_01",
+      "order": 4,
+      "difficulty": 3,
+      "type": "source",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_01_005",
+      "chapter_id": "ch_japanese_occupation_01",
+      "order": 5,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_01_006",
+      "chapter_id": "ch_japanese_occupation_01",
+      "order": 6,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_01_007",
+      "chapter_id": "ch_japanese_occupation_01",
+      "order": 7,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "land_survey"
+    },
+    {
+      "id": "q_japanese_occupation_01_008",
+      "chapter_id": "ch_japanese_occupation_01",
+      "order": 8,
+      "difficulty": 3,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_01_009",
+      "chapter_id": "ch_japanese_occupation_01",
+      "order": 9,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_01_010",
+      "chapter_id": "ch_japanese_occupation_01",
+      "order": 10,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "oriental_development_company"
+    },
+    {
+      "id": "q_japanese_occupation_01_011",
+      "chapter_id": "ch_japanese_occupation_01",
+      "order": 11,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_01_012",
+      "chapter_id": "ch_japanese_occupation_01",
+      "order": 12,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_01_013",
+      "chapter_id": "ch_japanese_occupation_01",
+      "order": 13,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_01_014",
+      "chapter_id": "ch_japanese_occupation_01",
+      "order": 14,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_01_015",
+      "chapter_id": "ch_japanese_occupation_01",
+      "order": 15,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_02_001",
+      "chapter_id": "ch_japanese_occupation_02",
+      "order": 1,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_02_002",
+      "chapter_id": "ch_japanese_occupation_02",
+      "order": 2,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "march_1st_declaration"
+    },
+    {
+      "id": "q_japanese_occupation_02_003",
+      "chapter_id": "ch_japanese_occupation_02",
+      "order": 3,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_02_004",
+      "chapter_id": "ch_japanese_occupation_02",
+      "order": 4,
+      "difficulty": 3,
+      "type": "source",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_02_005",
+      "chapter_id": "ch_japanese_occupation_02",
+      "order": 5,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_02_006",
+      "chapter_id": "ch_japanese_occupation_02",
+      "order": 6,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_02_007",
+      "chapter_id": "ch_japanese_occupation_02",
+      "order": 7,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "yu_gwansun_portrait"
+    },
+    {
+      "id": "q_japanese_occupation_02_008",
+      "chapter_id": "ch_japanese_occupation_02",
+      "order": 8,
+      "difficulty": 3,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_02_009",
+      "chapter_id": "ch_japanese_occupation_02",
+      "order": 9,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_02_010",
+      "chapter_id": "ch_japanese_occupation_02",
+      "order": 10,
+      "difficulty": 2,
+      "type": "source",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_02_011",
+      "chapter_id": "ch_japanese_occupation_02",
+      "order": 11,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_02_012",
+      "chapter_id": "ch_japanese_occupation_02",
+      "order": 12,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_02_013",
+      "chapter_id": "ch_japanese_occupation_02",
+      "order": 13,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_02_014",
+      "chapter_id": "ch_japanese_occupation_02",
+      "order": 14,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_02_015",
+      "chapter_id": "ch_japanese_occupation_02",
+      "order": 15,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_03_001",
+      "chapter_id": "ch_japanese_occupation_03",
+      "order": 1,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_03_002",
+      "chapter_id": "ch_japanese_occupation_03",
+      "order": 2,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "provisional_government_building"
+    },
+    {
+      "id": "q_japanese_occupation_03_003",
+      "chapter_id": "ch_japanese_occupation_03",
+      "order": 3,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_03_004",
+      "chapter_id": "ch_japanese_occupation_03",
+      "order": 4,
+      "difficulty": 3,
+      "type": "source",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_03_005",
+      "chapter_id": "ch_japanese_occupation_03",
+      "order": 5,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_03_006",
+      "chapter_id": "ch_japanese_occupation_03",
+      "order": 6,
+      "difficulty": 1,
+      "type": "image",
+      "image_id": "kim_gu_portrait"
+    },
+    {
+      "id": "q_japanese_occupation_03_007",
+      "chapter_id": "ch_japanese_occupation_03",
+      "order": 7,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_03_008",
+      "chapter_id": "ch_japanese_occupation_03",
+      "order": 8,
+      "difficulty": 3,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_03_009",
+      "chapter_id": "ch_japanese_occupation_03",
+      "order": 9,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_03_010",
+      "chapter_id": "ch_japanese_occupation_03",
+      "order": 10,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "korean_liberation_army"
+    },
+    {
+      "id": "q_japanese_occupation_03_011",
+      "chapter_id": "ch_japanese_occupation_03",
+      "order": 11,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_03_012",
+      "chapter_id": "ch_japanese_occupation_03",
+      "order": 12,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_03_013",
+      "chapter_id": "ch_japanese_occupation_03",
+      "order": 13,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_03_014",
+      "chapter_id": "ch_japanese_occupation_03",
+      "order": 14,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_03_015",
+      "chapter_id": "ch_japanese_occupation_03",
+      "order": 15,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_04_001",
+      "chapter_id": "ch_japanese_occupation_04",
+      "order": 1,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_04_002",
+      "chapter_id": "ch_japanese_occupation_04",
+      "order": 2,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_04_003",
+      "chapter_id": "ch_japanese_occupation_04",
+      "order": 3,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "chosun_ilbo"
+    },
+    {
+      "id": "q_japanese_occupation_04_004",
+      "chapter_id": "ch_japanese_occupation_04",
+      "order": 4,
+      "difficulty": 3,
+      "type": "source",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_04_005",
+      "chapter_id": "ch_japanese_occupation_04",
+      "order": 5,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_04_006",
+      "chapter_id": "ch_japanese_occupation_04",
+      "order": 6,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_04_007",
+      "chapter_id": "ch_japanese_occupation_04",
+      "order": 7,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_04_008",
+      "chapter_id": "ch_japanese_occupation_04",
+      "order": 8,
+      "difficulty": 3,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_04_009",
+      "chapter_id": "ch_japanese_occupation_04",
+      "order": 9,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "ordinary_school"
+    },
+    {
+      "id": "q_japanese_occupation_04_010",
+      "chapter_id": "ch_japanese_occupation_04",
+      "order": 10,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_04_011",
+      "chapter_id": "ch_japanese_occupation_04",
+      "order": 11,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_04_012",
+      "chapter_id": "ch_japanese_occupation_04",
+      "order": 12,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_04_013",
+      "chapter_id": "ch_japanese_occupation_04",
+      "order": 13,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_04_014",
+      "chapter_id": "ch_japanese_occupation_04",
+      "order": 14,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_04_015",
+      "chapter_id": "ch_japanese_occupation_04",
+      "order": 15,
+      "difficulty": 3,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_05_001",
+      "chapter_id": "ch_japanese_occupation_05",
+      "order": 1,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_05_002",
+      "chapter_id": "ch_japanese_occupation_05",
+      "order": 2,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "mulsan_jangryeo"
+    },
+    {
+      "id": "q_japanese_occupation_05_003",
+      "chapter_id": "ch_japanese_occupation_05",
+      "order": 3,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_05_004",
+      "chapter_id": "ch_japanese_occupation_05",
+      "order": 4,
+      "difficulty": 3,
+      "type": "source",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_05_005",
+      "chapter_id": "ch_japanese_occupation_05",
+      "order": 5,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_05_006",
+      "chapter_id": "ch_japanese_occupation_05",
+      "order": 6,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_05_007",
+      "chapter_id": "ch_japanese_occupation_05",
+      "order": 7,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "singanhoe_founding"
+    },
+    {
+      "id": "q_japanese_occupation_05_008",
+      "chapter_id": "ch_japanese_occupation_05",
+      "order": 8,
+      "difficulty": 3,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_05_009",
+      "chapter_id": "ch_japanese_occupation_05",
+      "order": 9,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_05_010",
+      "chapter_id": "ch_japanese_occupation_05",
+      "order": 10,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_05_011",
+      "chapter_id": "ch_japanese_occupation_05",
+      "order": 11,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_05_012",
+      "chapter_id": "ch_japanese_occupation_05",
+      "order": 12,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_05_013",
+      "chapter_id": "ch_japanese_occupation_05",
+      "order": 13,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_05_014",
+      "chapter_id": "ch_japanese_occupation_05",
+      "order": 14,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_05_015",
+      "chapter_id": "ch_japanese_occupation_05",
+      "order": 15,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_06_001",
+      "chapter_id": "ch_japanese_occupation_06",
+      "order": 1,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_06_002",
+      "chapter_id": "ch_japanese_occupation_06",
+      "order": 2,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "kim_jwajin_portrait"
+    },
+    {
+      "id": "q_japanese_occupation_06_003",
+      "chapter_id": "ch_japanese_occupation_06",
+      "order": 3,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_06_004",
+      "chapter_id": "ch_japanese_occupation_06",
+      "order": 4,
+      "difficulty": 3,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_06_005",
+      "chapter_id": "ch_japanese_occupation_06",
+      "order": 5,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_06_006",
+      "chapter_id": "ch_japanese_occupation_06",
+      "order": 6,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_06_007",
+      "chapter_id": "ch_japanese_occupation_06",
+      "order": 7,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "hong_beomdo_portrait"
+    },
+    {
+      "id": "q_japanese_occupation_06_008",
+      "chapter_id": "ch_japanese_occupation_06",
+      "order": 8,
+      "difficulty": 3,
+      "type": "source",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_06_009",
+      "chapter_id": "ch_japanese_occupation_06",
+      "order": 9,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_06_010",
+      "chapter_id": "ch_japanese_occupation_06",
+      "order": 10,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_06_011",
+      "chapter_id": "ch_japanese_occupation_06",
+      "order": 11,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_06_012",
+      "chapter_id": "ch_japanese_occupation_06",
+      "order": 12,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_06_013",
+      "chapter_id": "ch_japanese_occupation_06",
+      "order": 13,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_06_014",
+      "chapter_id": "ch_japanese_occupation_06",
+      "order": 14,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_06_015",
+      "chapter_id": "ch_japanese_occupation_06",
+      "order": 15,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_07_001",
+      "chapter_id": "ch_japanese_occupation_07",
+      "order": 1,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_07_002",
+      "chapter_id": "ch_japanese_occupation_07",
+      "order": 2,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "kim_wonbong_portrait"
+    },
+    {
+      "id": "q_japanese_occupation_07_003",
+      "chapter_id": "ch_japanese_occupation_07",
+      "order": 3,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_07_004",
+      "chapter_id": "ch_japanese_occupation_07",
+      "order": 4,
+      "difficulty": 3,
+      "type": "source",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_07_005",
+      "chapter_id": "ch_japanese_occupation_07",
+      "order": 5,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_07_006",
+      "chapter_id": "ch_japanese_occupation_07",
+      "order": 6,
+      "difficulty": 1,
+      "type": "image",
+      "image_id": "hongkou_park_incident"
+    },
+    {
+      "id": "q_japanese_occupation_07_007",
+      "chapter_id": "ch_japanese_occupation_07",
+      "order": 7,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_07_008",
+      "chapter_id": "ch_japanese_occupation_07",
+      "order": 8,
+      "difficulty": 3,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_07_009",
+      "chapter_id": "ch_japanese_occupation_07",
+      "order": 9,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "yi_bongchang_portrait"
+    },
+    {
+      "id": "q_japanese_occupation_07_010",
+      "chapter_id": "ch_japanese_occupation_07",
+      "order": 10,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_07_011",
+      "chapter_id": "ch_japanese_occupation_07",
+      "order": 11,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_07_012",
+      "chapter_id": "ch_japanese_occupation_07",
+      "order": 12,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_07_013",
+      "chapter_id": "ch_japanese_occupation_07",
+      "order": 13,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_07_014",
+      "chapter_id": "ch_japanese_occupation_07",
+      "order": 14,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_07_015",
+      "chapter_id": "ch_japanese_occupation_07",
+      "order": 15,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_08_001",
+      "chapter_id": "ch_japanese_occupation_08",
+      "order": 1,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_08_002",
+      "chapter_id": "ch_japanese_occupation_08",
+      "order": 2,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_08_003",
+      "chapter_id": "ch_japanese_occupation_08",
+      "order": 3,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "name_change_order"
+    },
+    {
+      "id": "q_japanese_occupation_08_004",
+      "chapter_id": "ch_japanese_occupation_08",
+      "order": 4,
+      "difficulty": 3,
+      "type": "source",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_08_005",
+      "chapter_id": "ch_japanese_occupation_08",
+      "order": 5,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_08_006",
+      "chapter_id": "ch_japanese_occupation_08",
+      "order": 6,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_08_007",
+      "chapter_id": "ch_japanese_occupation_08",
+      "order": 7,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "forced_labor"
+    },
+    {
+      "id": "q_japanese_occupation_08_008",
+      "chapter_id": "ch_japanese_occupation_08",
+      "order": 8,
+      "difficulty": 3,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_08_009",
+      "chapter_id": "ch_japanese_occupation_08",
+      "order": 9,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_08_010",
+      "chapter_id": "ch_japanese_occupation_08",
+      "order": 10,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_08_011",
+      "chapter_id": "ch_japanese_occupation_08",
+      "order": 11,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_08_012",
+      "chapter_id": "ch_japanese_occupation_08",
+      "order": 12,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_08_013",
+      "chapter_id": "ch_japanese_occupation_08",
+      "order": 13,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_08_014",
+      "chapter_id": "ch_japanese_occupation_08",
+      "order": 14,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_08_015",
+      "chapter_id": "ch_japanese_occupation_08",
+      "order": 15,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_09_001",
+      "chapter_id": "ch_japanese_occupation_09",
+      "order": 1,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_09_002",
+      "chapter_id": "ch_japanese_occupation_09",
+      "order": 2,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "ahn_changho_portrait"
+    },
+    {
+      "id": "q_japanese_occupation_09_003",
+      "chapter_id": "ch_japanese_occupation_09",
+      "order": 3,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_09_004",
+      "chapter_id": "ch_japanese_occupation_09",
+      "order": 4,
+      "difficulty": 3,
+      "type": "source",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_09_005",
+      "chapter_id": "ch_japanese_occupation_09",
+      "order": 5,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_09_006",
+      "chapter_id": "ch_japanese_occupation_09",
+      "order": 6,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_09_007",
+      "chapter_id": "ch_japanese_occupation_09",
+      "order": 7,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "korean_independence_party"
+    },
+    {
+      "id": "q_japanese_occupation_09_008",
+      "chapter_id": "ch_japanese_occupation_09",
+      "order": 8,
+      "difficulty": 3,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_09_009",
+      "chapter_id": "ch_japanese_occupation_09",
+      "order": 9,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_09_010",
+      "chapter_id": "ch_japanese_occupation_09",
+      "order": 10,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_09_011",
+      "chapter_id": "ch_japanese_occupation_09",
+      "order": 11,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_09_012",
+      "chapter_id": "ch_japanese_occupation_09",
+      "order": 12,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_09_013",
+      "chapter_id": "ch_japanese_occupation_09",
+      "order": 13,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_09_014",
+      "chapter_id": "ch_japanese_occupation_09",
+      "order": 14,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_09_015",
+      "chapter_id": "ch_japanese_occupation_09",
+      "order": 15,
+      "difficulty": 3,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_10_001",
+      "chapter_id": "ch_japanese_occupation_10",
+      "order": 1,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_10_002",
+      "chapter_id": "ch_japanese_occupation_10",
+      "order": 2,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "tenant_farmers"
+    },
+    {
+      "id": "q_japanese_occupation_10_003",
+      "chapter_id": "ch_japanese_occupation_10",
+      "order": 3,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_10_004",
+      "chapter_id": "ch_japanese_occupation_10",
+      "order": 4,
+      "difficulty": 3,
+      "type": "source",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_10_005",
+      "chapter_id": "ch_japanese_occupation_10",
+      "order": 5,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_10_006",
+      "chapter_id": "ch_japanese_occupation_10",
+      "order": 6,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_10_007",
+      "chapter_id": "ch_japanese_occupation_10",
+      "order": 7,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "wonsan_strike"
+    },
+    {
+      "id": "q_japanese_occupation_10_008",
+      "chapter_id": "ch_japanese_occupation_10",
+      "order": 8,
+      "difficulty": 3,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_10_009",
+      "chapter_id": "ch_japanese_occupation_10",
+      "order": 9,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_10_010",
+      "chapter_id": "ch_japanese_occupation_10",
+      "order": 10,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_10_011",
+      "chapter_id": "ch_japanese_occupation_10",
+      "order": 11,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_10_012",
+      "chapter_id": "ch_japanese_occupation_10",
+      "order": 12,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_10_013",
+      "chapter_id": "ch_japanese_occupation_10",
+      "order": 13,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_10_014",
+      "chapter_id": "ch_japanese_occupation_10",
+      "order": 14,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_japanese_occupation_10_015",
+      "chapter_id": "ch_japanese_occupation_10",
+      "order": 15,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    }
+  ]
+}

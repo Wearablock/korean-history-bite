@@ -33,11 +33,11 @@ final studyServiceProvider = Provider<StudyService>((ref) {
 /// 현재 학습 세션 (StateProvider로 관리)
 final currentSessionProvider = StateProvider<StudySession?>((ref) => null);
 
-/// 세션 생성 (FutureProvider)
+/// 세션 생성 (FutureProvider) - 챕터 수 기준
 final createSessionProvider = FutureProvider.family<StudySession, int>(
-  (ref, dailyGoal) async {
+  (ref, chapterCount) async {
     final studyService = ref.watch(studyServiceProvider);
-    return studyService.createDailySession(dailyGoal: dailyGoal);
+    return studyService.createDailySession(chapterCount: chapterCount);
   },
 );
 
@@ -45,23 +45,54 @@ final createSessionProvider = FutureProvider.family<StudySession, int>(
 // Summary & Stats Providers
 // ============================================================
 
-/// 오늘의 학습 요약
+/// 앱 통계 통합 데이터 (병렬 로딩)
+class AppStats {
+  final TodaySummary todaySummary;
+  final double overallProgress;
+  final Map<String, EraProgress> eraProgress;
+
+  const AppStats({
+    required this.todaySummary,
+    required this.overallProgress,
+    required this.eraProgress,
+  });
+}
+
+/// 앱 통계 통합 Provider (병렬로 모든 데이터 로드)
+final appStatsProvider = FutureProvider<AppStats>((ref) async {
+  final studyService = ref.watch(studyServiceProvider);
+
+  // 병렬로 모든 데이터 로드
+  final results = await Future.wait([
+    studyService.getTodaySummary(),
+    studyService.getOverallProgress(),
+    studyService.getEraProgress(),
+  ]);
+
+  return AppStats(
+    todaySummary: results[0] as TodaySummary,
+    overallProgress: results[1] as double,
+    eraProgress: results[2] as Map<String, EraProgress>,
+  );
+});
+
+/// 오늘의 학습 요약 (appStatsProvider에서 파생)
 final todaySummaryProvider = FutureProvider<TodaySummary>((ref) async {
-  final studyService = ref.watch(studyServiceProvider);
-  return studyService.getTodaySummary();
+  final appStats = await ref.watch(appStatsProvider.future);
+  return appStats.todaySummary;
 });
 
-/// 전체 진행률
+/// 전체 진행률 (appStatsProvider에서 파생)
 final overallProgressProvider = FutureProvider<double>((ref) async {
-  final studyService = ref.watch(studyServiceProvider);
-  return studyService.getOverallProgress();
+  final appStats = await ref.watch(appStatsProvider.future);
+  return appStats.overallProgress;
 });
 
-/// 시대별 진행률
+/// 시대별 진행률 (appStatsProvider에서 파생)
 final eraProgressProvider =
     FutureProvider<Map<String, EraProgress>>((ref) async {
-  final studyService = ref.watch(studyServiceProvider);
-  return studyService.getEraProgress();
+  final appStats = await ref.watch(appStatsProvider.future);
+  return appStats.eraProgress;
 });
 
 /// 복습 필요 문제 수
@@ -80,34 +111,32 @@ final availableQuestionCountProvider = FutureProvider<int>((ref) async {
 // Allocation Preview Providers
 // ============================================================
 
-/// 일일 문제 배분 미리보기
-final dailyAllocationPreviewProvider =
-    FutureProvider.family<DailyAllocation, int>((ref, dailyGoal) async {
+/// 일일 챕터 문제 선택 미리보기
+final dailySelectionPreviewProvider =
+    FutureProvider.family<DailyQuestionSelection, int>((ref, chapterCount) async {
   final selector = ref.watch(questionSelectorProvider);
-  final db = ref.watch(appDatabaseProvider);
-  final questionRepo = ref.watch(questionRepositoryProvider);
-
-  final wrongAnswers = await db.wrongAnswersDao.getUncorrectedWrongAnswers();
-  final spacedReviewRecords =
-      await db.studyRecordsDao.getSpacedReviewQuestions();
-  final allRecords = await db.studyRecordsDao.getAllRecords();
-  final allQuestionMeta = await questionRepo.loadMeta();
-
-  final studiedIds = allRecords.map((r) => r.questionId).toSet();
-  final unstudiedCount =
-      allQuestionMeta.where((m) => !studiedIds.contains(m.id)).length;
-
-  return selector.calculateAllocation(
-    dailyGoal: dailyGoal,
-    availableWrongCount: wrongAnswers.length,
-    availableReviewCount: spacedReviewRecords.length,
-    availableNewCount: unstudiedCount,
-  );
+  return selector.selectDailyChapterQuestions(chapterCount: chapterCount);
 });
 
-/// 일일 문제 선택 미리보기
-final dailySelectionPreviewProvider =
-    FutureProvider.family<DailyQuestionSelection, int>((ref, dailyGoal) async {
+/// 남은 학습 챕터 수
+final remainingChapterCountProvider = FutureProvider<int>((ref) async {
   final selector = ref.watch(questionSelectorProvider);
-  return selector.selectDailyQuestions(dailyGoal: dailyGoal);
+  return selector.getRemainingChapterCount();
+});
+
+// ============================================================
+// Statistics Providers (Phase 7)
+// ============================================================
+
+/// 레벨 분포 통계
+final levelDistributionProvider = FutureProvider<Map<int, int>>((ref) async {
+  final db = ref.watch(appDatabaseProvider);
+  return db.studyRecordsDao.getLevelDistribution();
+});
+
+/// 전체 통계 요약 (스트릭 포함)
+final overallSummaryProvider =
+    FutureProvider<Map<String, dynamic>>((ref) async {
+  final db = ref.watch(appDatabaseProvider);
+  return db.dailyStatsDao.getOverallSummary();
 });

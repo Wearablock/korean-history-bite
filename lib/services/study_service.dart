@@ -1,7 +1,9 @@
 // lib/services/study_service.dart
 
 import 'package:drift/drift.dart';
+import '../core/config/constants.dart';
 import '../core/utils/debug_utils.dart';
+import '../core/utils/error_handler.dart';
 import '../core/utils/question_selector.dart';
 import '../data/database/app_database.dart';
 import '../data/models/question.dart';
@@ -20,10 +22,11 @@ class StudyService {
   /// QuestionSelector 접근자
   QuestionSelector get questionSelector => _questionSelector;
 
-  /// 오늘의 학습 세션 생성
-  Future<StudySession> createDailySession({int dailyGoal = 30}) async {
-    final selection = await _questionSelector.selectDailyQuestions(
-      dailyGoal: dailyGoal,
+  /// 오늘의 학습 세션 생성 (챕터 기준)
+  /// [chapterCount]: 학습할 챕터 수 (기본값 1)
+  Future<StudySession> createDailySession({int chapterCount = 1}) async {
+    final selection = await _questionSelector.selectDailyChapterQuestions(
+      chapterCount: chapterCount,
     );
 
     return StudySession(
@@ -39,17 +42,14 @@ class StudyService {
 
   /// 단일 챕터 학습 세션 생성
   Future<StudySession> createSingleChapterSession() async {
-    final selection = await _questionSelector.selectSingleChapterQuestions();
+    return createDailySession(chapterCount: 1);
+  }
 
-    return StudySession(
-      id: DebugUtils.now.millisecondsSinceEpoch.toString(),
-      startedAt: DebugUtils.now,
-      wrongReviewIds: selection.wrongReviewIds,
-      spacedReviewIds: selection.spacedReviewIds,
-      newQuestionIds: selection.newQuestionIds,
-      newChapterIds: selection.newChapterIds,
-      newQuestionsByChapter: selection.newQuestionsByChapter,
-    );
+  /// 복수 챕터 학습 세션 생성
+  Future<StudySession> createMultiChapterSession({
+    required int chapterCount,
+  }) async {
+    return createDailySession(chapterCount: chapterCount);
   }
 
   /// 복습 전용 세션 생성
@@ -191,112 +191,161 @@ class StudyService {
 
   /// 오늘의 학습 요약 조회
   Future<TodaySummary> getTodaySummary() async {
-    final todayStats = await _db.dailyStatsDao.getToday();
-    final streak = await _db.dailyStatsDao.getCurrentStreak();
-    final reviewDueCount = await _questionSelector.getReviewDueCount();
-    final totalQuestionCount = await _questionRepository.getTotalQuestionCount();
-    final masteredRecords = await _db.studyRecordsDao.getMasteredQuestions();
+    return ErrorHandler.runSafe(
+      context: 'getTodaySummary',
+      fallback: const TodaySummary(
+        questionsStudied: 0,
+        correctAnswers: 0,
+        streak: 0,
+        reviewDueCount: 0,
+        totalQuestions: 0,
+        masteredCount: 0,
+      ),
+      action: () async {
+        // 병렬로 모든 데이터 로드
+        final results = await Future.wait([
+          _db.dailyStatsDao.getToday(),
+          _db.dailyStatsDao.getCurrentStreak(),
+          _questionSelector.getReviewDueCount(),
+          _questionRepository.getTotalQuestionCount(),
+          _db.studyRecordsDao.getMasteredQuestions(),
+          _getNextChapterInfo(),
+        ]);
 
-    // 다음 학습할 챕터 정보 조회
-    final nextChapterInfo = await _getNextChapterInfo();
+        final todayStats = results[0] as DailyStat?;
+        final streak = results[1] as int;
+        final reviewDueCount = results[2] as int;
+        final totalQuestionCount = results[3] as int;
+        final masteredRecords = results[4] as List;
+        final nextChapterInfo = results[5] as _NextChapterInfo;
 
-    return TodaySummary(
-      questionsStudied: todayStats?.questionsStudied ?? 0,
-      correctAnswers: todayStats?.correctAnswers ?? 0,
-      streak: streak,
-      reviewDueCount: reviewDueCount,
-      totalQuestions: totalQuestionCount,
-      masteredCount: masteredRecords.length,
-      nextChapterId: nextChapterInfo.chapterId,
-      nextChapterQuestionCount: nextChapterInfo.questionCount,
-      allChaptersCompleted: nextChapterInfo.allCompleted,
+        return TodaySummary(
+          questionsStudied: todayStats?.questionsStudied ?? 0,
+          correctAnswers: todayStats?.correctAnswers ?? 0,
+          streak: streak,
+          reviewDueCount: reviewDueCount,
+          totalQuestions: totalQuestionCount,
+          masteredCount: masteredRecords.length,
+          nextChapterId: nextChapterInfo.chapterId,
+          nextChapterQuestionCount: nextChapterInfo.questionCount,
+          allChaptersCompleted: nextChapterInfo.allCompleted,
+        );
+      },
     );
   }
 
   /// 다음 학습할 챕터 정보 조회
   Future<_NextChapterInfo> _getNextChapterInfo() async {
-    final allStudiedIds =
-        (await _db.studyRecordsDao.getAllRecords()).map((r) => r.questionId).toSet();
-    final allQuestionMeta = await _questionRepository.loadMeta();
-
-    // 학습하지 않은 첫 번째 챕터 찾기
-    String? nextChapterId;
-    for (final meta in allQuestionMeta) {
-      if (!allStudiedIds.contains(meta.id)) {
-        nextChapterId = meta.chapterId;
-        break;
-      }
-    }
-
-    // 모든 챕터 완료
-    if (nextChapterId == null) {
-      return const _NextChapterInfo(
+    return ErrorHandler.runSafe(
+      context: '_getNextChapterInfo',
+      fallback: const _NextChapterInfo(
         chapterId: null,
         questionCount: 0,
-        allCompleted: true,
-      );
-    }
+        allCompleted: false,
+      ),
+      action: () async {
+        final allStudiedIds =
+            (await _db.studyRecordsDao.getAllRecords()).map((r) => r.questionId).toSet();
+        final allQuestionMeta = await _questionRepository.loadMeta();
 
-    // 해당 챕터의 문제 수 계산
-    final chapterQuestionCount = allQuestionMeta
-        .where((m) => m.chapterId == nextChapterId)
-        .length;
+        // 학습하지 않은 첫 번째 챕터 찾기
+        String? nextChapterId;
+        for (final meta in allQuestionMeta) {
+          if (!allStudiedIds.contains(meta.id)) {
+            nextChapterId = meta.chapterId;
+            break;
+          }
+        }
 
-    return _NextChapterInfo(
-      chapterId: nextChapterId,
-      questionCount: chapterQuestionCount,
-      allCompleted: false,
+        // 모든 챕터 완료
+        if (nextChapterId == null) {
+          return const _NextChapterInfo(
+            chapterId: null,
+            questionCount: 0,
+            allCompleted: true,
+          );
+        }
+
+        // 해당 챕터의 문제 수 계산
+        final chapterQuestionCount = allQuestionMeta
+            .where((m) => m.chapterId == nextChapterId)
+            .length;
+
+        return _NextChapterInfo(
+          chapterId: nextChapterId,
+          questionCount: chapterQuestionCount,
+          allCompleted: false,
+        );
+      },
     );
   }
 
   /// 전체 진행률 조회
   Future<double> getOverallProgress() async {
-    final totalQuestionCount = await _questionRepository.getTotalQuestionCount();
-    if (totalQuestionCount == 0) return 0.0;
+    return ErrorHandler.runSafe(
+      context: 'getOverallProgress',
+      fallback: 0.0,
+      action: () async {
+        final totalQuestionCount = await _questionRepository.getTotalQuestionCount();
+        if (totalQuestionCount == 0) return 0.0;
 
-    final masteredRecords = await _db.studyRecordsDao.getMasteredQuestions();
-    return masteredRecords.length / totalQuestionCount;
+        final masteredRecords = await _db.studyRecordsDao.getMasteredQuestions();
+        return masteredRecords.length / totalQuestionCount;
+      },
+    );
   }
 
   /// 시대별 진행률 조회
   Future<Map<String, EraProgress>> getEraProgress() async {
-    final allRecords = await _db.studyRecordsDao.getAllRecords();
-    final allQuestionMeta = await _questionRepository.loadMeta();
+    return ErrorHandler.runSafe(
+      context: 'getEraProgress',
+      fallback: <String, EraProgress>{},
+      action: () async {
+        // 병렬로 데이터 로드
+        final results = await Future.wait([
+          _db.studyRecordsDao.getAllRecords(),
+          _questionRepository.loadMeta(),
+        ]);
 
-    // 시대별 총 문제 수 계산
-    final eraQuestionCounts = <String, int>{};
-    for (final meta in allQuestionMeta) {
-      final eraId = _getEraIdFromChapter(meta.chapterId);
-      eraQuestionCounts[eraId] = (eraQuestionCounts[eraId] ?? 0) + 1;
-    }
+        final allRecords = results[0] as List<StudyRecord>;
+        final allQuestionMeta = results[1] as List<QuestionMeta>;
 
-    // 시대별 학습/완전습득 문제 수 계산
-    final eraStudiedCounts = <String, int>{};
-    final eraMasteredCounts = <String, int>{};
-    for (final record in allRecords) {
-      final eraId = record.eraId;
-      eraStudiedCounts[eraId] = (eraStudiedCounts[eraId] ?? 0) + 1;
-      if (record.level >= 5) {
-        eraMasteredCounts[eraId] = (eraMasteredCounts[eraId] ?? 0) + 1;
-      }
-    }
+        // 시대별 총 문제 수 계산
+        final eraQuestionCounts = <String, int>{};
+        for (final meta in allQuestionMeta) {
+          final eraId = _getEraIdFromChapter(meta.chapterId);
+          eraQuestionCounts[eraId] = (eraQuestionCounts[eraId] ?? 0) + 1;
+        }
 
-    // 결과 생성
-    final result = <String, EraProgress>{};
-    for (final eraId in eraQuestionCounts.keys) {
-      final total = eraQuestionCounts[eraId]!;
-      final studied = eraStudiedCounts[eraId] ?? 0;
-      final mastered = eraMasteredCounts[eraId] ?? 0;
+        // 시대별 학습/완전습득 문제 수 계산
+        final eraStudiedCounts = <String, int>{};
+        final eraMasteredCounts = <String, int>{};
+        for (final record in allRecords) {
+          final eraId = record.eraId;
+          eraStudiedCounts[eraId] = (eraStudiedCounts[eraId] ?? 0) + 1;
+          if (record.level >= StudyConstants.masteryLevel) {
+            eraMasteredCounts[eraId] = (eraMasteredCounts[eraId] ?? 0) + 1;
+          }
+        }
 
-      result[eraId] = EraProgress(
-        eraId: eraId,
-        totalQuestions: total,
-        studiedQuestions: studied,
-        masteredQuestions: mastered,
-      );
-    }
+        // 결과 생성
+        final result = <String, EraProgress>{};
+        for (final eraId in eraQuestionCounts.keys) {
+          final total = eraQuestionCounts[eraId]!;
+          final studied = eraStudiedCounts[eraId] ?? 0;
+          final mastered = eraMasteredCounts[eraId] ?? 0;
 
-    return result;
+          result[eraId] = EraProgress(
+            eraId: eraId,
+            totalQuestions: total,
+            studiedQuestions: studied,
+            masteredQuestions: mastered,
+          );
+        }
+
+        return result;
+      },
+    );
   }
 }
 

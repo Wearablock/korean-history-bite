@@ -1,0 +1,1060 @@
+{
+  "questions": [
+    {
+      "id": "q_contemporary_01_001",
+      "chapter_id": "ch_contemporary_01",
+      "order": 1,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_01_002",
+      "chapter_id": "ch_contemporary_01",
+      "order": 2,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "liberation_celebration"
+    },
+    {
+      "id": "q_contemporary_01_003",
+      "chapter_id": "ch_contemporary_01",
+      "order": 3,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_01_004",
+      "chapter_id": "ch_contemporary_01",
+      "order": 4,
+      "difficulty": 3,
+      "type": "source",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_01_005",
+      "chapter_id": "ch_contemporary_01",
+      "order": 5,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "38th_parallel_map"
+    },
+    {
+      "id": "q_contemporary_01_006",
+      "chapter_id": "ch_contemporary_01",
+      "order": 6,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_01_007",
+      "chapter_id": "ch_contemporary_01",
+      "order": 7,
+      "difficulty": 3,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_01_008",
+      "chapter_id": "ch_contemporary_01",
+      "order": 8,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_01_009",
+      "chapter_id": "ch_contemporary_01",
+      "order": 9,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "moscow_conference"
+    },
+    {
+      "id": "q_contemporary_01_010",
+      "chapter_id": "ch_contemporary_01",
+      "order": 10,
+      "difficulty": 3,
+      "type": "source",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_01_011",
+      "chapter_id": "ch_contemporary_01",
+      "order": 11,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_01_012",
+      "chapter_id": "ch_contemporary_01",
+      "order": 12,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_02_001",
+      "chapter_id": "ch_contemporary_02",
+      "order": 1,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_02_002",
+      "chapter_id": "ch_contemporary_02",
+      "order": 2,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "may_10_election_poster"
+    },
+    {
+      "id": "q_contemporary_02_003",
+      "chapter_id": "ch_contemporary_02",
+      "order": 3,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_02_004",
+      "chapter_id": "ch_contemporary_02",
+      "order": 4,
+      "difficulty": 3,
+      "type": "source",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_02_005",
+      "chapter_id": "ch_contemporary_02",
+      "order": 5,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "rhee_syngman_inauguration"
+    },
+    {
+      "id": "q_contemporary_02_006",
+      "chapter_id": "ch_contemporary_02",
+      "order": 6,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_02_007",
+      "chapter_id": "ch_contemporary_02",
+      "order": 7,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_02_008",
+      "chapter_id": "ch_contemporary_02",
+      "order": 8,
+      "difficulty": 3,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_02_009",
+      "chapter_id": "ch_contemporary_02",
+      "order": 9,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "constitutional_assembly"
+    },
+    {
+      "id": "q_contemporary_02_010",
+      "chapter_id": "ch_contemporary_02",
+      "order": 10,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_02_011",
+      "chapter_id": "ch_contemporary_02",
+      "order": 11,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_02_012",
+      "chapter_id": "ch_contemporary_02",
+      "order": 12,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_03_001",
+      "chapter_id": "ch_contemporary_03",
+      "order": 1,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_03_002",
+      "chapter_id": "ch_contemporary_03",
+      "order": 2,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "korean_war_outbreak"
+    },
+    {
+      "id": "q_contemporary_03_003",
+      "chapter_id": "ch_contemporary_03",
+      "order": 3,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_03_004",
+      "chapter_id": "ch_contemporary_03",
+      "order": 4,
+      "difficulty": 3,
+      "type": "source",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_03_005",
+      "chapter_id": "ch_contemporary_03",
+      "order": 5,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "incheon_landing"
+    },
+    {
+      "id": "q_contemporary_03_006",
+      "chapter_id": "ch_contemporary_03",
+      "order": 6,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_03_007",
+      "chapter_id": "ch_contemporary_03",
+      "order": 7,
+      "difficulty": 3,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_03_008",
+      "chapter_id": "ch_contemporary_03",
+      "order": 8,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_03_009",
+      "chapter_id": "ch_contemporary_03",
+      "order": 9,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "panmunjom_armistice"
+    },
+    {
+      "id": "q_contemporary_03_010",
+      "chapter_id": "ch_contemporary_03",
+      "order": 10,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_03_011",
+      "chapter_id": "ch_contemporary_03",
+      "order": 11,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_03_012",
+      "chapter_id": "ch_contemporary_03",
+      "order": 12,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_04_001",
+      "chapter_id": "ch_contemporary_04",
+      "order": 1,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_04_002",
+      "chapter_id": "ch_contemporary_04",
+      "order": 2,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "april_19_protest"
+    },
+    {
+      "id": "q_contemporary_04_003",
+      "chapter_id": "ch_contemporary_04",
+      "order": 3,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_04_004",
+      "chapter_id": "ch_contemporary_04",
+      "order": 4,
+      "difficulty": 3,
+      "type": "source",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_04_005",
+      "chapter_id": "ch_contemporary_04",
+      "order": 5,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_04_006",
+      "chapter_id": "ch_contemporary_04",
+      "order": 6,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "kim_juyeol_photo"
+    },
+    {
+      "id": "q_contemporary_04_007",
+      "chapter_id": "ch_contemporary_04",
+      "order": 7,
+      "difficulty": 3,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_04_008",
+      "chapter_id": "ch_contemporary_04",
+      "order": 8,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_04_009",
+      "chapter_id": "ch_contemporary_04",
+      "order": 9,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_04_010",
+      "chapter_id": "ch_contemporary_04",
+      "order": 10,
+      "difficulty": 3,
+      "type": "source",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_04_011",
+      "chapter_id": "ch_contemporary_04",
+      "order": 11,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_04_012",
+      "chapter_id": "ch_contemporary_04",
+      "order": 12,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_05_001",
+      "chapter_id": "ch_contemporary_05",
+      "order": 1,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_05_002",
+      "chapter_id": "ch_contemporary_05",
+      "order": 2,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "may_16_coup"
+    },
+    {
+      "id": "q_contemporary_05_003",
+      "chapter_id": "ch_contemporary_05",
+      "order": 3,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_05_004",
+      "chapter_id": "ch_contemporary_05",
+      "order": 4,
+      "difficulty": 3,
+      "type": "source",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_05_005",
+      "chapter_id": "ch_contemporary_05",
+      "order": 5,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "park_chunghee_portrait"
+    },
+    {
+      "id": "q_contemporary_05_006",
+      "chapter_id": "ch_contemporary_05",
+      "order": 6,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_05_007",
+      "chapter_id": "ch_contemporary_05",
+      "order": 7,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_05_008",
+      "chapter_id": "ch_contemporary_05",
+      "order": 8,
+      "difficulty": 3,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_05_009",
+      "chapter_id": "ch_contemporary_05",
+      "order": 9,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "korea_japan_treaty_protest"
+    },
+    {
+      "id": "q_contemporary_05_010",
+      "chapter_id": "ch_contemporary_05",
+      "order": 10,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_05_011",
+      "chapter_id": "ch_contemporary_05",
+      "order": 11,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_05_012",
+      "chapter_id": "ch_contemporary_05",
+      "order": 12,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_06_001",
+      "chapter_id": "ch_contemporary_06",
+      "order": 1,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_06_002",
+      "chapter_id": "ch_contemporary_06",
+      "order": 2,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "yushin_constitution"
+    },
+    {
+      "id": "q_contemporary_06_003",
+      "chapter_id": "ch_contemporary_06",
+      "order": 3,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_06_004",
+      "chapter_id": "ch_contemporary_06",
+      "order": 4,
+      "difficulty": 3,
+      "type": "source",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_06_005",
+      "chapter_id": "ch_contemporary_06",
+      "order": 5,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_06_006",
+      "chapter_id": "ch_contemporary_06",
+      "order": 6,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "saemaul_movement"
+    },
+    {
+      "id": "q_contemporary_06_007",
+      "chapter_id": "ch_contemporary_06",
+      "order": 7,
+      "difficulty": 3,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_06_008",
+      "chapter_id": "ch_contemporary_06",
+      "order": 8,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_06_009",
+      "chapter_id": "ch_contemporary_06",
+      "order": 9,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_06_010",
+      "chapter_id": "ch_contemporary_06",
+      "order": 10,
+      "difficulty": 3,
+      "type": "source",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_06_011",
+      "chapter_id": "ch_contemporary_06",
+      "order": 11,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_06_012",
+      "chapter_id": "ch_contemporary_06",
+      "order": 12,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_07_001",
+      "chapter_id": "ch_contemporary_07",
+      "order": 1,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_07_002",
+      "chapter_id": "ch_contemporary_07",
+      "order": 2,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "may_18_movement"
+    },
+    {
+      "id": "q_contemporary_07_003",
+      "chapter_id": "ch_contemporary_07",
+      "order": 3,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_07_004",
+      "chapter_id": "ch_contemporary_07",
+      "order": 4,
+      "difficulty": 3,
+      "type": "source",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_07_005",
+      "chapter_id": "ch_contemporary_07",
+      "order": 5,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_07_006",
+      "chapter_id": "ch_contemporary_07",
+      "order": 6,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "chun_doohwan"
+    },
+    {
+      "id": "q_contemporary_07_007",
+      "chapter_id": "ch_contemporary_07",
+      "order": 7,
+      "difficulty": 3,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_07_008",
+      "chapter_id": "ch_contemporary_07",
+      "order": 8,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_07_009",
+      "chapter_id": "ch_contemporary_07",
+      "order": 9,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_07_010",
+      "chapter_id": "ch_contemporary_07",
+      "order": 10,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_07_011",
+      "chapter_id": "ch_contemporary_07",
+      "order": 11,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_07_012",
+      "chapter_id": "ch_contemporary_07",
+      "order": 12,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_08_001",
+      "chapter_id": "ch_contemporary_08",
+      "order": 1,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_08_002",
+      "chapter_id": "ch_contemporary_08",
+      "order": 2,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "june_democratic_movement"
+    },
+    {
+      "id": "q_contemporary_08_003",
+      "chapter_id": "ch_contemporary_08",
+      "order": 3,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_08_004",
+      "chapter_id": "ch_contemporary_08",
+      "order": 4,
+      "difficulty": 3,
+      "type": "source",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_08_005",
+      "chapter_id": "ch_contemporary_08",
+      "order": 5,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "park_jongchul"
+    },
+    {
+      "id": "q_contemporary_08_006",
+      "chapter_id": "ch_contemporary_08",
+      "order": 6,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_08_007",
+      "chapter_id": "ch_contemporary_08",
+      "order": 7,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_08_008",
+      "chapter_id": "ch_contemporary_08",
+      "order": 8,
+      "difficulty": 3,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_08_009",
+      "chapter_id": "ch_contemporary_08",
+      "order": 9,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_08_010",
+      "chapter_id": "ch_contemporary_08",
+      "order": 10,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "june_29_declaration"
+    },
+    {
+      "id": "q_contemporary_08_011",
+      "chapter_id": "ch_contemporary_08",
+      "order": 11,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_08_012",
+      "chapter_id": "ch_contemporary_08",
+      "order": 12,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_09_001",
+      "chapter_id": "ch_contemporary_09",
+      "order": 1,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_09_002",
+      "chapter_id": "ch_contemporary_09",
+      "order": 2,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "kim_youngsam"
+    },
+    {
+      "id": "q_contemporary_09_003",
+      "chapter_id": "ch_contemporary_09",
+      "order": 3,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_09_004",
+      "chapter_id": "ch_contemporary_09",
+      "order": 4,
+      "difficulty": 3,
+      "type": "source",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_09_005",
+      "chapter_id": "ch_contemporary_09",
+      "order": 5,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "kim_daejung_portrait"
+    },
+    {
+      "id": "q_contemporary_09_006",
+      "chapter_id": "ch_contemporary_09",
+      "order": 6,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_09_007",
+      "chapter_id": "ch_contemporary_09",
+      "order": 7,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_09_008",
+      "chapter_id": "ch_contemporary_09",
+      "order": 8,
+      "difficulty": 3,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_09_009",
+      "chapter_id": "ch_contemporary_09",
+      "order": 9,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_09_010",
+      "chapter_id": "ch_contemporary_09",
+      "order": 10,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "inter_korean_summit_2000"
+    },
+    {
+      "id": "q_contemporary_09_011",
+      "chapter_id": "ch_contemporary_09",
+      "order": 11,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_09_012",
+      "chapter_id": "ch_contemporary_09",
+      "order": 12,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_10_001",
+      "chapter_id": "ch_contemporary_10",
+      "order": 1,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_10_002",
+      "chapter_id": "ch_contemporary_10",
+      "order": 2,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "economic_development_plan"
+    },
+    {
+      "id": "q_contemporary_10_003",
+      "chapter_id": "ch_contemporary_10",
+      "order": 3,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_10_004",
+      "chapter_id": "ch_contemporary_10",
+      "order": 4,
+      "difficulty": 3,
+      "type": "source",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_10_005",
+      "chapter_id": "ch_contemporary_10",
+      "order": 5,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "gyeongbu_expressway"
+    },
+    {
+      "id": "q_contemporary_10_006",
+      "chapter_id": "ch_contemporary_10",
+      "order": 6,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_10_007",
+      "chapter_id": "ch_contemporary_10",
+      "order": 7,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_10_008",
+      "chapter_id": "ch_contemporary_10",
+      "order": 8,
+      "difficulty": 3,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_10_009",
+      "chapter_id": "ch_contemporary_10",
+      "order": 9,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "imf_crisis"
+    },
+    {
+      "id": "q_contemporary_10_010",
+      "chapter_id": "ch_contemporary_10",
+      "order": 10,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_10_011",
+      "chapter_id": "ch_contemporary_10",
+      "order": 11,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_10_012",
+      "chapter_id": "ch_contemporary_10",
+      "order": 12,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_11_001",
+      "chapter_id": "ch_contemporary_11",
+      "order": 1,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_11_002",
+      "chapter_id": "ch_contemporary_11",
+      "order": 2,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "july_4_statement"
+    },
+    {
+      "id": "q_contemporary_11_003",
+      "chapter_id": "ch_contemporary_11",
+      "order": 3,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_11_004",
+      "chapter_id": "ch_contemporary_11",
+      "order": 4,
+      "difficulty": 3,
+      "type": "source",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_11_005",
+      "chapter_id": "ch_contemporary_11",
+      "order": 5,
+      "difficulty": 2,
+      "type": "image",
+      "image_id": "un_simultaneous_admission"
+    },
+    {
+      "id": "q_contemporary_11_006",
+      "chapter_id": "ch_contemporary_11",
+      "order": 6,
+      "difficulty": 1,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_11_007",
+      "chapter_id": "ch_contemporary_11",
+      "order": 7,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_11_008",
+      "chapter_id": "ch_contemporary_11",
+      "order": 8,
+      "difficulty": 3,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_11_009",
+      "chapter_id": "ch_contemporary_11",
+      "order": 9,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_11_010",
+      "chapter_id": "ch_contemporary_11",
+      "order": 10,
+      "difficulty": 2,
+      "type": "source",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_11_011",
+      "chapter_id": "ch_contemporary_11",
+      "order": 11,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    },
+    {
+      "id": "q_contemporary_11_012",
+      "chapter_id": "ch_contemporary_11",
+      "order": 12,
+      "difficulty": 2,
+      "type": "text",
+      "image_id": null
+    }
+  ]
+}

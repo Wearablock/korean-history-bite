@@ -1,0 +1,1166 @@
+{
+  "q_three_kingdoms_01_001": {
+    "question": "Which pairing of Goguryeo's founder and founding location is correct?",
+    "correct": "Jumong - Jolbon",
+    "wrong": [
+      "Onjo - Wiryeseong",
+      "Bak Hyeokgeose - Gyeongju",
+      "Kim Suro - Gimhae",
+      "Dae Joyeong - Dongmo Mountain"
+    ],
+    "hint": "Recall the name of the protagonist in Goguryeo's founding myth.",
+    "explanation": "Goguryeo was founded by Jumong in Jolbon (present-day Huanren, China) in 37 BCE. Onjo founded Baekje, Bak Hyeokgeose founded Silla, Kim Suro founded Geumgwan Gaya, and Dae Joyeong founded Balhae."
+  },
+  "q_three_kingdoms_01_002": {
+    "question": "What characteristic of Goguryeo does this archaeological site demonstrate?",
+    "correct": "Defense facilities were constructed using mountainous terrain",
+    "wrong": [
+      "The capital was built in flat plains",
+      "Port cities were developed along the coast",
+      "Only wooden architecture was used",
+      "No fortifications were constructed"
+    ],
+    "hint": "Goguryeo grew in the rugged terrain along the Yalu River.",
+    "explanation": "The photo shows a Goguryeo mountain fortress. Goguryeo grew in the mountainous area along the Yalu River and excelled at constructing defensive facilities like mountain fortresses. This terrain-based strategy effectively countered foreign invasions."
+  },
+  "q_three_kingdoms_01_003": {
+    "question": "What was accomplished during the reign of King Taejo of Goguryeo?",
+    "correct": "Conquered Okjeo and attempted to advance into Liaodong",
+    "wrong": [
+      "Adopted Buddhism and established Taehak",
+      "Moved the capital to Pyongyang",
+      "Took control of the Han River basin",
+      "Defeated the Sui Dynasty army"
+    ],
+    "hint": "King Taejo was an early Goguryeo king who focused on 'territorial expansion'.",
+    "explanation": "King Taejo conquered Okjeo and attempted to expand power toward Liaodong. The adoption of Buddhism and establishment of Taehak were achievements of King Sosurim, and moving the capital to Pyongyang was King Jangsu's accomplishment."
+  },
+  "q_three_kingdoms_01_004": {
+    "question": "Based on the following source, which Goguryeo system is being described?",
+    "source": "When food became scarce in spring, grain from government storehouses was lent to the people and collected back in autumn. This helped poor people survive the spring famine period.",
+    "correct": "Jindaebup (Grain Loan System)",
+    "wrong": [
+      "Gyunyeokbeop",
+      "Hopobeop",
+      "Daedongbeop",
+      "Yeongjeongbeop"
+    ],
+    "hint": "This was a relief system for the poor implemented during King Gogukcheon's reign. 'Jin' means relief.",
+    "explanation": "The source describes Jindaebup, implemented during King Gogukcheon's reign in Goguryeo. It was a relief system that lent grain during spring famine and collected repayment in autumn."
+  },
+  "q_three_kingdoms_01_005": {
+    "question": "What characteristic of Goguryeo does this mural demonstrate?",
+    "correct": "Armored cavalry wearing iron armor was deployed",
+    "wrong": [
+      "The military system was infantry-centered",
+      "Naval power was the strongest",
+      "War was avoided in pursuit of peace",
+      "There was no weapon manufacturing technology"
+    ],
+    "hint": "Think of 'Gaemamusa' where both horse and rider wore armor.",
+    "explanation": "The photo shows Gaemamusa (armored cavalry) from Goguryeo tomb murals. Gaemamusa were heavily armored cavalry with both horse and rider wearing iron armor, forming the core of Goguryeo's military power."
+  },
+  "q_three_kingdoms_01_006": {
+    "question": "What administrative organization was established during King Gogukcheon's reign?",
+    "correct": "Five Tribes System (5-bu System)",
+    "wrong": [
+      "Nine Provinces and Five Secondary Capitals",
+      "Twenty-two Damno",
+      "Five Provinces and Two Frontier Districts",
+      "Eight Provinces"
+    ],
+    "hint": "This system divided the capital area into east, west, south, north, and center.",
+    "explanation": "The Five Tribes System was reorganized during King Gogukcheon's reign, advancing centralization. Nine Provinces and Five Secondary Capitals belonged to Unified Silla, Twenty-two Damno to Baekje, Five Provinces and Two Frontier Districts to Goryeo, and Eight Provinces to Joseon."
+  },
+  "q_three_kingdoms_01_007": {
+    "question": "What was the Goguryeo educational institution where youth learned martial arts and academics?",
+    "correct": "Gyeongdang",
+    "wrong": [
+      "Gukhak",
+      "Hyanggyo",
+      "Seowon",
+      "Seonggyungwan"
+    ],
+    "hint": "A local educational institution in Goguryeo where students learned reading and archery together.",
+    "explanation": "Goguryeo had educational institutions called Gyeongdang where youth learned reading and archery. Gukhak belonged to Unified Silla, while Hyanggyo and Seonggyungwan were Joseon educational institutions."
+  },
+  "q_three_kingdoms_01_008": {
+    "question": "Which Goguryeo king faced a crisis from the invasion of Wei's Guanqiu Jian?",
+    "correct": "King Dongcheon",
+    "wrong": [
+      "King Taejo",
+      "King Gogukcheon",
+      "King Sosurim",
+      "King Gwanggaeto"
+    ],
+    "hint": "This king faced a crisis when the capital fell to Wei's invasion in the mid-3rd century.",
+    "explanation": "During King Dongcheon's reign, Guanqiu Jian of Wei invaded and the capital was captured. After this crisis, Goguryeo reorganized its system and later achieved its golden age in the 4th century."
+  },
+  "q_three_kingdoms_02_001": {
+    "question": "Which country transmitted Buddhism to Goguryeo?",
+    "correct": "Former Qin",
+    "wrong": [
+      "Eastern Jin",
+      "Sui",
+      "Tang",
+      "Wa (Japan)"
+    ],
+    "hint": "This country transmitted Buddhism to Goguryeo through Sundo in 372. Distinguish it from 'Eastern Jin' which transmitted to Baekje.",
+    "explanation": "In 372, the monk Sundo transmitted Buddhism to Goguryeo from Former Qin. Marananta from Eastern Jin transmitted Buddhism to Baekje (384)."
+  },
+  "q_three_kingdoms_02_002": {
+    "question": "What can be learned from the contents recorded on this artifact?",
+    "correct": "King Gwanggaeto's achievements and Goguryeo's territorial expansion",
+    "wrong": [
+      "King Geunchogo of Baekje's conquest activities",
+      "King Jinheung of Silla's inspection records",
+      "The founding myth of Gojoseon",
+      "The founding process of Balhae"
+    ],
+    "hint": "This is a 6-meter tall giant stele located in Ji'an, Jilin Province, China.",
+    "explanation": "The photo shows the Stele of King Gwanggaeto. Located in Ji'an, Jilin Province, China, it records King Gwanggaeto's achievements, Goguryeo's territorial expansion, and aid to Silla (repelling Japanese pirates)."
+  },
+  "q_three_kingdoms_02_003": {
+    "question": "Which is NOT an achievement of King Jangsu?",
+    "correct": "Adopted Buddhism and promulgated laws",
+    "wrong": [
+      "Moved the capital to Pyongyang",
+      "Took control of the Han River basin",
+      "Pursued a southward expansion policy",
+      "Killed King Gaero of Baekje in battle"
+    ],
+    "hint": "The adoption of Buddhism and promulgation of laws occurred during the reign of King Jangsu's 'grandfather'.",
+    "explanation": "The adoption of Buddhism and promulgation of laws were achievements of King Sosurim. King Jangsu moved the capital to Pyongyang in 427 and pursued a southward policy, taking control of the Han River basin."
+  },
+  "q_three_kingdoms_02_004": {
+    "question": "Based on the following source, which statement about this king is correct?",
+    "source": "He used the independent era name 'Yeongnak' and sent 50,000 troops to repel the Wa who had invaded Silla. He built a great empire encompassing Manchuria and the northern Korean Peninsula.",
+    "correct": "He secured Goguryeo's largest territory",
+    "wrong": [
+      "He moved the capital to Pyongyang",
+      "He repelled the Sui invasion",
+      "He waged war against Tang",
+      "He unified the Three Kingdoms"
+    ],
+    "hint": "You can identify this king from the era name 'Yeongnak' and the phrase 'built a great empire'.",
+    "explanation": "The source describes King Gwanggaeto. King Gwanggaeto used the era name Yeongnak and secured Goguryeo's largest territory through large-scale conquest activities."
+  },
+  "q_three_kingdoms_02_005": {
+    "question": "Which statement about Goguryeo's territory at its height, as shown on this map, is correct?",
+    "correct": "It included Manchuria and the central Korean Peninsula",
+    "wrong": [
+      "The entire Korean Peninsula was Goguryeo territory",
+      "Only the Liaoxi region was controlled",
+      "The Han River basin was not included",
+      "The Japanese archipelago was included in the territory"
+    ],
+    "hint": "King Jangsu's southward policy expanded territory as far as Chungju.",
+    "explanation": "At its height in the 4th-5th centuries, Goguryeo's territory included Manchuria and the central Korean Peninsula (as far as Chungju). King Jangsu's southward policy extended control to the Han River basin."
+  },
+  "q_three_kingdoms_02_006": {
+    "question": "Which statement about the occupant of this tomb is correct?",
+    "correct": "It is the tomb of a king who reigned for 79 years and stabilized Goguryeo",
+    "wrong": [
+      "It is presumed to be King Gwanggaeto's tomb",
+      "It is King Muryeong of Baekje's tomb",
+      "It is where King Jinheung of Silla's stele is located",
+      "It is King Kim Suro of Gaya's tomb"
+    ],
+    "hint": "The occupant of this tomb reigned the longest in history and the tomb is called 'Janggunchong'.",
+    "explanation": "The photo shows Janggunchong, presumed to be King Jangsu's tomb. King Jangsu reigned for 79 years, pursuing the capital move to Pyongyang and southward policy, leading Goguryeo's golden age."
+  },
+  "q_three_kingdoms_02_007": {
+    "question": "What were King Sosurim's achievements?",
+    "correct": "Adoption of Buddhism, establishment of Taehak, promulgation of laws",
+    "wrong": [
+      "Capital move to Pyongyang, securing Han River basin",
+      "Implementation of Jindaebup, reorganization of Five Tribes System",
+      "Battle of Salsu, repelling Sui",
+      "Battle of Ansi, repelling Tang"
+    ],
+    "hint": "This king achieved 'system reorganization' in late 4th century Goguryeo, preparing for King Gwanggaeto's golden age.",
+    "explanation": "King Sosurim adopted Buddhism in 372, established Taehak, and promulgated laws, reorganizing Goguryeo's system. These reforms became the foundation for the later golden age."
+  },
+  "q_three_kingdoms_02_008": {
+    "question": "Which force did King Gwanggaeto repel when aiding Silla?",
+    "correct": "Wa (Japan)",
+    "wrong": [
+      "Sui",
+      "Tang",
+      "Khitan",
+      "Malgal"
+    ],
+    "hint": "Recorded on the Stele of King Gwanggaeto, this force from across the sea invaded Silla.",
+    "explanation": "King Gwanggaeto sent 50,000 troops to repel the Wa who had invaded Silla. This fact is recorded on the Stele of King Gwanggaeto."
+  },
+  "q_three_kingdoms_03_001": {
+    "question": "Who was the Goguryeo general who defeated the Sui army at the Battle of Salsu in 612?",
+    "correct": "Eulji Mundeok",
+    "wrong": [
+      "Yeon Gaesomun",
+      "Yang Manchun",
+      "King Gwanggaeto",
+      "Kim Yusin"
+    ],
+    "hint": "This general defeated Emperor Yang of Sui's 300,000-strong army at the Salsu River (Cheongcheon River).",
+    "explanation": "In 612, Eulji Mundeok defeated Emperor Yang of Sui's 300,000-strong army at the Salsu River (Cheongcheon River). This is known as the Battle of Salsu."
+  },
+  "q_three_kingdoms_03_002": {
+    "question": "Which battle is associated with this historical figure?",
+    "correct": "Defeated 300,000 Sui troops at the Battle of Salsu",
+    "wrong": [
+      "Defended Ansi Fortress against Emperor Taizong of Tang",
+      "Fought against Silla forces at Hwangsan Plain",
+      "Repelled Tang at the Battle of Maeso Fortress",
+      "Defeated Japanese forces at Baekgang"
+    ],
+    "hint": "This general mocked the enemy commander with a poem titled 'A Poem to General Yu Zhongwen of Sui'.",
+    "explanation": "The photo shows Eulji Mundeok. In 612, Eulji Mundeok decisively defeated the 300,000 troops led by Emperor Yang of Sui at the Battle of Salsu by drowning them. It is said only 2,700 survived."
+  },
+  "q_three_kingdoms_03_003": {
+    "question": "What is the significance of the battle depicted in this illustration?",
+    "correct": "It was the decisive victory that repelled Sui's four invasions",
+    "wrong": [
+      "It was the occasion for Goguryeo's founding",
+      "Goguryeo repelled Tang and became powerful again",
+      "It was the occasion for the unification of the Three Kingdoms",
+      "It was the cause of Baekje's fall"
+    ],
+    "hint": "After this battle, Sui's national power declined and eventually led to its downfall.",
+    "explanation": "The picture depicts the Battle of Salsu. The victory at the Battle of Salsu in 612 caused all four of Sui's Goguryeo invasions to fail, eventually leading to Sui's collapse."
+  },
+  "q_three_kingdoms_03_004": {
+    "question": "Based on the following source, who is associated with this battle?",
+    "source": "In 645, Emperor Taizong of Tang personally led a large army to invade Goguryeo but met resistance at a fortress for several months and eventually retreated. The fortress commander is said to have continued fighting even after being struck in the eye by an arrow.",
+    "correct": "Yang Manchun",
+    "wrong": [
+      "Eulji Mundeok",
+      "Yeon Gaesomun",
+      "Kim Yusin",
+      "Gyebaek"
+    ],
+    "hint": "This figure is known as the fortress commander who defended Ansi Fortress against Emperor Taizong.",
+    "explanation": "The source describes the Battle of Ansi Fortress in 645. The Ansi Fortress commander (traditionally known as Yang Manchun) held off Emperor Taizong's army for several months, forcing their retreat."
+  },
+  "q_three_kingdoms_03_005": {
+    "question": "Which statement about this illustration is correct?",
+    "correct": "It shows Goguryeo's victory in repelling Emperor Taizong of Tang's invasion",
+    "wrong": [
+      "It is the Battle of Salsu that repelled Emperor Yang of Sui's invasion",
+      "It is a scene from the Three Kingdoms Unification War",
+      "It depicts the Baekje Revival Movement",
+      "It depicts the founding process of Goguryeo"
+    ],
+    "hint": "In 645, the large army personally led by Emperor Taizong was blocked at a fortress and forced to retreat.",
+    "explanation": "The picture depicts the Battle of Ansi Fortress. In 645, the large army personally led by Emperor Taizong was held off at Ansi Fortress, causing Tang's invasion of Goguryeo to fail."
+  },
+  "q_three_kingdoms_03_006": {
+    "question": "What defensive structure was completed during Yeon Gaesomun's rule to prepare for Tang invasion?",
+    "correct": "Cheolli Jangseong (Thousand-Li Wall)",
+    "wrong": [
+      "Great Wall of China",
+      "Namhansanseong",
+      "Bukhansanseong",
+      "Hwaseong"
+    ],
+    "hint": "This wall stretching about a thousand li from Liaodong to Buyeo Fortress.",
+    "explanation": "Construction of Cheolli Jangseong began in 631 (14th year of King Yeongnyu) and was completed in 647. After Yeon Gaesomun seized power through a coup in 642, he completed the Cheolli Jangseong in preparation for Tang invasion."
+  },
+  "q_three_kingdoms_03_007": {
+    "question": "What was the direct cause of Goguryeo's fall?",
+    "correct": "Division among the ruling class and power struggles",
+    "wrong": [
+      "Successive invasions by Sui",
+      "Attacks from Baekje",
+      "Single-handed invasion by Silla",
+      "Japanese invasion"
+    ],
+    "hint": "Think about what happened among Yeon Gaesomun's sons after his death.",
+    "explanation": "Goguryeo fell to the Silla-Tang allied forces in 668. The direct cause was the division among the ruling class due to power struggles between Yeon Gaesomun's sons after his death."
+  },
+  "q_three_kingdoms_03_008": {
+    "question": "Which statement about Goguryeo's defensive structure shown on this map is correct?",
+    "correct": "It was completed by Yeon Gaesomun in preparation for Tang invasion",
+    "wrong": [
+      "It was completed before the Sui invasions",
+      "It was built to block Silla's northward advance",
+      "It was installed at the border with Baekje",
+      "It was built in Goguryeo's early period"
+    ],
+    "hint": "In the mid-7th century, this defensive structure was built along the northern border to block Tang.",
+    "explanation": "The map shows the location of Cheolli Jangseong. Yeon Gaesomun built the Cheolli Jangseong stretching from Liaodong to Buyeo Fortress in preparation for Tang invasion."
+  },
+  "q_three_kingdoms_04_001": {
+    "question": "Which pairing of Baekje's founder and founding location is correct?",
+    "correct": "Onjo - Wiryeseong",
+    "wrong": [
+      "Jumong - Jolbon",
+      "Bak Hyeokgeose - Seorabeol",
+      "Kim Suro - Gimhae",
+      "Biryu - Michuhol"
+    ],
+    "hint": "This son of Jumong founded Baekje in the Han River basin.",
+    "explanation": "Baekje was founded by Onjo at Wiryeseong (Han River basin) in 18 BCE. Biryu, Onjo's older brother, settled at Michuhol but is said to have failed."
+  },
+  "q_three_kingdoms_04_002": {
+    "question": "Which statement about this artifact is correct?",
+    "correct": "It was bestowed by Baekje to Wa and shows exchange between the two countries",
+    "wrong": [
+      "It was a gift sent by Goguryeo to Silla",
+      "It was tribute sent by Silla to Tang",
+      "It was made in Gaya and transmitted to Baekje",
+      "It was a diplomatic gift sent by Balhae to Japan"
+    ],
+    "hint": "This is a sword with seven branches, currently preserved in Japan.",
+    "explanation": "The photo shows the Seven-Branched Sword. Bestowed to Wa during King Geunchogo's reign, it is an important artifact showing Baekje's high metalworking skills and the exchange relationship between Baekje and Wa."
+  },
+  "q_three_kingdoms_04_003": {
+    "question": "What were King Goi's achievements?",
+    "correct": "Organized the rank system and official attire system and promulgated laws",
+    "wrong": [
+      "Conquered Mahan and expanded territory to Hwanghae Province",
+      "Moved the capital to Ungjin and revived Baekje",
+      "Moved the capital to Sabi and changed the country name to Nambuyeo",
+      "Attacked Goguryeo's Pyongyang Fortress and killed King Gogugwon"
+    ],
+    "hint": "This 3rd century king contributed to 'establishing the state system' of Baekje. He organized the 16-rank system.",
+    "explanation": "King Goi organized the rank system with Six Jwapyeong and Sixteen Ranks, the official attire system, and promulgated laws, establishing Baekje's state system."
+  },
+  "q_three_kingdoms_04_004": {
+    "question": "Based on the following source, which Baekje king is being described?",
+    "source": "During this king's reign, Baekje conquered all of Mahan and expanded territory to Hwanghae Province and Jeolla Province. He also attacked Pyongyang Fortress and killed the Goguryeo king, and advanced overseas.",
+    "correct": "King Geunchogo",
+    "wrong": [
+      "King Goi",
+      "King Muryeong",
+      "King Seong",
+      "King Uija"
+    ],
+    "hint": "This king led Baekje's golden age in the 4th century and bestowed the Seven-Branched Sword to Wa.",
+    "explanation": "The source describes King Geunchogo. King Geunchogo led Baekje's golden age in the 4th century, unified Mahan and killed Goguryeo's King Gogugwon in battle."
+  },
+  "q_three_kingdoms_04_005": {
+    "question": "What characteristic of Baekje culture does this artifact demonstrate?",
+    "correct": "A soft and gentle smile is characteristic",
+    "wrong": [
+      "A grand and powerful feeling is emphasized",
+      "Colorful hues and decorations are abundant",
+      "Geometric patterns are mainly used",
+      "Realistic and detailed expression is lacking"
+    ],
+    "hint": "The warm and benevolent expression called the 'Smile of Baekje' is characteristic.",
+    "explanation": "The photo shows a Baekje stone beast (seoksu), which exemplifies the soft and gentle smile characteristic of Baekje culture. The warm and benevolent expression called the 'Smile of Baekje' is a hallmark of Baekje art."
+  },
+  "q_three_kingdoms_04_006": {
+    "question": "What culture did Baekje adopt through exchange with Southern Chinese dynasties?",
+    "correct": "Buddhism, Confucianism, and advanced culture",
+    "wrong": [
+      "Nomadic culture and horsemanship",
+      "Only Chinese characters and legal codes",
+      "Only Taoism",
+      "Rejected Buddhism and maintained only indigenous beliefs"
+    ],
+    "hint": "Baekje actively exchanged across the sea with Eastern Jin, Song, Liang and other dynasties.",
+    "explanation": "Baekje actively exchanged with Southern Chinese dynasties (Eastern Jin, Song, Liang, etc.) and adopted Buddhism, Confucianism, and various advanced cultural elements."
+  },
+  "q_three_kingdoms_04_007": {
+    "question": "Which Goguryeo king was killed by King Geunchogo of Baekje?",
+    "correct": "King Gogugwon",
+    "wrong": [
+      "King Gwanggaeto",
+      "King Jangsu",
+      "King Sosurim",
+      "King Dongcheon"
+    ],
+    "hint": "This Goguryeo king died in the Battle of Pyongyang Fortress in 371.",
+    "explanation": "In 371, King Geunchogo attacked Pyongyang Fortress and killed Goguryeo's King Gogugwon. This was a symbolic event of Baekje's golden age in the 4th century."
+  },
+  "q_three_kingdoms_04_008": {
+    "question": "What characteristic of Baekje culture can be understood from this artifact?",
+    "correct": "Sophisticated culture influenced by Chinese Southern dynasties developed",
+    "wrong": [
+      "Influence from northern nomadic peoples was strong",
+      "Developed independently without cultural exchange",
+      "Technology level was lower than other countries",
+      "Art production was prohibited"
+    ],
+    "hint": "King Muryeong's tomb was also constructed with these, showing the influence of Chinese Southern dynasty style.",
+    "explanation": "The photo shows Baekje bricks (jeondon). The bricks with elaborate patterns show Baekje's sophisticated culture influenced by Chinese Southern dynasties. King Muryeong's tomb was also constructed as a brick tomb."
+  },
+  "q_three_kingdoms_05_001": {
+    "question": "Where did Baekje move its capital after King Jangsu of Goguryeo's attack in 475?",
+    "correct": "Ungjin (Gongju)",
+    "wrong": [
+      "Sabi (Buyeo)",
+      "Hansan (Seoul)",
+      "Geumseong (Gyeongju)",
+      "Pyongyang"
+    ],
+    "hint": "This was the capital moved to after Hanseong fell and King Gaero was killed. Present-day Gongju.",
+    "explanation": "In 475, when Hanseong fell to King Jangsu's attack and King Gaero was killed, Baekje moved its capital to Ungjin (present-day Gongju)."
+  },
+  "q_three_kingdoms_05_002": {
+    "question": "Which statement about this archaeological site is correct?",
+    "correct": "It was not looted, so many artifacts were excavated intact",
+    "wrong": [
+      "It is a Goguryeo-style stone cairn tomb",
+      "Silla gold crowns were excavated here",
+      "It was constructed before the Three Kingdoms period",
+      "It is presumed to be a Balhae royal tomb"
+    ],
+    "hint": "Discovered by chance in 1971, this is the only royal tomb from the Three Kingdoms period where the owner has been confirmed.",
+    "explanation": "The photo shows King Muryeong's tomb. Discovered by chance in 1971 in an unlooted state, many artifacts including gold crown ornaments and epitaph stones were excavated intact."
+  },
+  "q_three_kingdoms_05_003": {
+    "question": "What were King Muryeong's achievements?",
+    "correct": "Strengthened regional control by dispatching royal family members to 22 Damno",
+    "wrong": [
+      "Moved the capital to Sabi and changed the country name to Nambuyeo",
+      "Fought a decisive battle against Silla at Hwangsan Plain",
+      "Recovered the Han River basin from Silla",
+      "Resisted the Silla-Tang allied forces"
+    ],
+    "hint": "This king revived Baekje during the Ungjin period by dispatching royal family members for regional control.",
+    "explanation": "King Muryeong strengthened control over local areas by dispatching royal family members to 22 Damno, and revived Baekje through active exchange with China's Liang Dynasty."
+  },
+  "q_three_kingdoms_05_004": {
+    "question": "Based on the following source, which Baekje king is being described?",
+    "source": "In 538, he moved the capital to Sabi and changed the country name to Nambuyeo. He reorganized the central government and together with Silla recovered the Han River basin taken by Goguryeo, but due to Silla's betrayal, he lost the Han River basin and died in battle at Gwansan Fortress.",
+    "correct": "King Seong",
+    "wrong": [
+      "King Muryeong",
+      "King Geunchogo",
+      "King Uija",
+      "King Gaero"
+    ],
+    "hint": "The key points are the move to Sabi, use of the country name 'Nambuyeo', and the Battle of Gwansan Fortress.",
+    "explanation": "The source describes King Seong. King Seong attempted to revive Baekje by moving the capital to Sabi and using the country name Nambuyeo, but died fighting against Silla at the Battle of Gwansan Fortress."
+  },
+  "q_three_kingdoms_05_005": {
+    "question": "Which statement about the owner of the tomb where this artifact was excavated is correct?",
+    "correct": "The owner can be precisely identified because the name is inscribed on the epitaph stone",
+    "wrong": [
+      "The owner cannot be identified at all",
+      "It is presumed to be King Jangsu of Goguryeo",
+      "It was excavated from a Silla royal tomb",
+      "It was made during the Unified Silla period"
+    ],
+    "hint": "An epitaph stone inscribed with 'King Sama' was found, confirming the owner's identity.",
+    "explanation": "The photo shows gold crown ornaments excavated from King Muryeong's tomb. An epitaph stone inscribed with 'King Sama' was found in the tomb, precisely identifying the owner as King Muryeong."
+  },
+  "q_three_kingdoms_05_006": {
+    "question": "Which statement about Baekje during the period shown on this map is correct?",
+    "correct": "It achieved its golden age while controlling the Han River basin",
+    "wrong": [
+      "This is the territory immediately after moving the capital to Ungjin",
+      "This is a state of reduced territory after moving to Sabi",
+      "This is the state just before falling to the Silla-Tang allied forces",
+      "This is a period when Baekje was completely subordinate to Goguryeo"
+    ],
+    "hint": "This map shows Baekje's maximum territory during King Geunchogo's reign in the 4th century.",
+    "explanation": "The map shows Baekje's maximum territory during King Geunchogo's reign in the 4th century. Based on the Han River basin, they expanded to Hwanghae Province and Jeolla Province, achieving their golden age."
+  },
+  "q_three_kingdoms_05_007": {
+    "question": "What is the current name of Sabi, where King Seong moved the capital?",
+    "correct": "Buyeo",
+    "wrong": [
+      "Gongju",
+      "Iksan",
+      "Jeonju",
+      "Gwangju"
+    ],
+    "hint": "The capital moved there in 538 served as Baekje's capital until its fall.",
+    "explanation": "In 538, King Seong moved the capital from Ungjin to Sabi (present-day Buyeo, South Chungcheong Province). Sabi served as the capital until Baekje's fall."
+  },
+  "q_three_kingdoms_05_008": {
+    "question": "What was the background of King Seong's death at the Battle of Gwansan Fortress?",
+    "correct": "He attacked after Silla broke the alliance and took the Han River basin, and was killed",
+    "wrong": [
+      "He died in a war against Goguryeo",
+      "He died in battle against Tang forces",
+      "He died in a war against Wa",
+      "He died in a war against Gaya"
+    ],
+    "hint": "After losing the Han River basin to King Jinheung's 'betrayal', he attempted a retaliatory attack.",
+    "explanation": "King Seong recovered the Han River basin in alliance with Silla, but when King Jinheung of Silla betrayed and took the Han River basin, he attacked and was killed at the Battle of Gwansan Fortress."
+  },
+  "q_three_kingdoms_06_001": {
+    "question": "What force destroyed Baekje?",
+    "correct": "Silla-Tang allied forces",
+    "wrong": [
+      "Sui Dynasty army",
+      "Wa army",
+      "Goguryeo army",
+      "Khitan army"
+    ],
+    "hint": "Silla and Tang joined forces to attack Baekje.",
+    "explanation": "In 660, Baekje was destroyed by the allied forces of Silla and Tang (Silla-Tang allied forces). Sabi Fortress fell to armies led by Silla's Kim Yusin and Tang's Su Dingfang."
+  },
+  "q_three_kingdoms_06_002": {
+    "question": "Which battle is associated with this historical figure?",
+    "correct": "Led 5,000 death warriors at Hwangsan Plain and fought against Silla",
+    "wrong": [
+      "Defeated the Sui army at the Salsu River",
+      "Defended against Emperor Taizong at Ansi Fortress",
+      "Repelled Tang at the Battle of Maeso Fortress",
+      "Commanded the Wa navy at Baekgang"
+    ],
+    "hint": "This general led 5,000 death warriors and resisted to the very end during Baekje's fall.",
+    "explanation": "The photo shows General Gyebaek. In 660, Gyebaek led 5,000 death warriors and fought against Kim Yusin's 50,000 Silla troops at Hwangsan Plain, but was killed in battle."
+  },
+  "q_three_kingdoms_06_003": {
+    "question": "Who was NOT a leader of the Baekje Revival Movement?",
+    "correct": "Kim Yusin",
+    "wrong": [
+      "Boksin",
+      "Dochim",
+      "Heukchi Sangji",
+      "Buyeo Pung"
+    ],
+    "hint": "The Silla general who destroyed Baekje has no connection to the revival movement.",
+    "explanation": "Kim Yusin was a Silla general who destroyed Baekje. The Baekje Revival Movement was led by Boksin, Dochim, Heukchi Sangji, and others, who enthroned Buyeo Pung, who was in Wa, as king."
+  },
+  "q_three_kingdoms_06_004": {
+    "question": "Based on the following source, what was the result of this battle?",
+    "source": "In 663, the Wa navy fought against the Silla-Tang allied forces at Baekgang (mouth of the Geum River) to support the Baekje revival army. However, the Wa navy was completely defeated.",
+    "correct": "The Baekje Revival Movement essentially ended in failure",
+    "wrong": [
+      "Baekje revived and became independent again",
+      "Wa secured territory on the Korean Peninsula",
+      "Tang withdrew from the Korean Peninsula",
+      "The Silla-Tang alliance broke apart"
+    ],
+    "hint": "With the Wa navy's defeat, the Baekje Revival Movement could no longer receive support.",
+    "explanation": "With the Wa navy's defeat at the Battle of Baekgang in 663, the Baekje Revival Movement essentially ended in failure. Afterwards, Baekje refugees scattered to Silla, Tang, Wa, and elsewhere."
+  },
+  "q_three_kingdoms_06_005": {
+    "question": "What is the significance of the battle shown on this map?",
+    "correct": "Wa's defeat frustrated the Baekje Revival Movement",
+    "wrong": [
+      "Baekje repelled the Silla-Tang allied forces",
+      "It was the decisive battle where Silla unified the Three Kingdoms",
+      "It was a battle where Goguryeo repelled Tang",
+      "It was a battle where Baekje conquered Gaya"
+    ],
+    "hint": "This was a naval battle at the mouth of the Geum River in 663, where the Wa navy was completely defeated.",
+    "explanation": "The map shows the location of the Battle of Baekgang in 663. When the Wa navy was completely defeated by the Silla-Tang allied forces, the Baekje Revival Movement was frustrated."
+  },
+  "q_three_kingdoms_06_006": {
+    "question": "Why did this site function as Baekje's last capital?",
+    "correct": "It was the capital from when King Seong moved there in 538 until the fall",
+    "wrong": [
+      "It was the capital from Baekje's early founding",
+      "It was the first capital before the move to Ungjin",
+      "It was the center of the Baekje Revival Movement",
+      "It is a fortress built during the Unified Silla period"
+    ],
+    "hint": "Busosanseong in this location served as the capital for 122 years from King Seong until Baekje's fall.",
+    "explanation": "The photo shows the Sabi Fortress (Busosanseong) ruins. After King Seong moved the capital there in 538, it was Baekje's last capital until its fall in 660."
+  },
+  "q_three_kingdoms_06_007": {
+    "question": "In what year did Baekje fall?",
+    "correct": "660",
+    "wrong": [
+      "668",
+      "676",
+      "698",
+      "935"
+    ],
+    "hint": "Baekje fell 8 years before Goguryeo's fall (668).",
+    "explanation": "Baekje fell to the Silla-Tang allied forces in 660. 668 is when Goguryeo fell, 676 is the victory in the Silla-Tang War, 698 is Balhae's founding, and 935 is Silla's fall."
+  },
+  "q_three_kingdoms_06_008": {
+    "question": "Where did Baekje refugees spread their culture after the fall?",
+    "correct": "Wa (Japan)",
+    "wrong": [
+      "Khitan",
+      "Türks",
+      "Tibet",
+      "Uyghurs"
+    ],
+    "hint": "Many Baekje refugees migrated to the island nation across the sea.",
+    "explanation": "After Baekje's fall, many refugees went to Wa (Japan) and spread advanced culture. Baekje immigrants made significant contributions to the development of ancient Japanese culture."
+  },
+  "q_three_kingdoms_07_001": {
+    "question": "Who founded Silla?",
+    "correct": "Bak Hyeokgeose",
+    "wrong": [
+      "Onjo",
+      "Jumong",
+      "Kim Suro",
+      "Dae Joyeong"
+    ],
+    "hint": "This is Silla's founder who, according to myth, was born from an egg.",
+    "explanation": "Silla was founded by Bak Hyeokgeose in Gyeongju (Saro-guk) in 57 BCE. Onjo founded Baekje, Jumong founded Goguryeo, Kim Suro founded Geumgwan Gaya, and Dae Joyeong founded Balhae."
+  },
+  "q_three_kingdoms_07_002": {
+    "question": "What characteristic of Silla does this artifact demonstrate?",
+    "correct": "Splendid gold craftsmanship developed",
+    "wrong": [
+      "Bronze culture was behind other countries",
+      "There was no iron technology, relying on imports",
+      "Metal crafts were not made",
+      "Only simple and frugal art developed"
+    ],
+    "hint": "This is a splendid crown made of gold excavated from Gyeongju tombs.",
+    "explanation": "The photo shows a Silla gold crown. Silla developed splendid gold craftsmanship including gold crowns, gold earrings, and gold belts, which symbolized the authority of kings and nobles."
+  },
+  "q_three_kingdoms_07_003": {
+    "question": "What were King Beopheung's achievements?",
+    "correct": "Official recognition of Buddhism, promulgation of laws, organization of the bone-rank system",
+    "wrong": [
+      "Securing the Han River basin, erecting King Jinheung's inspection steles",
+      "Unification of the Three Kingdoms, expulsion of Tang",
+      "Nationalization of Hwarangdo, conquest of Daegaya",
+      "Organization of Nine Provinces and Five Secondary Capitals, establishment of Gukhak"
+    ],
+    "hint": "This king officially recognized Buddhism after Ichadon's martyrdom and reorganized Silla's system.",
+    "explanation": "King Beopheung officially recognized Buddhism after Ichadon's martyrdom, promulgated laws, and organized the bone-rank system. He also annexed Geumgwan Gaya."
+  },
+  "q_three_kingdoms_07_004": {
+    "question": "Based on the following source, which event is associated with this person?",
+    "source": "This monk petitioned King Beopheung to officially recognize Buddhism. When the king agreed, there was strong opposition from the nobles. He said to believe in Buddhism if he died and was martyred. It is said white blood flowed when he was executed.",
+    "correct": "Buddhism was officially recognized after Ichadon's martyrdom",
+    "wrong": [
+      "Wonhyo popularized Buddhism",
+      "Uisang founded the Hwaeom School",
+      "Jinul organized the Jogye School",
+      "Uicheon founded the Cheontae School"
+    ],
+    "hint": "This person was martyred in 527 and played a decisive role in Silla's official recognition of Buddhism.",
+    "explanation": "The source describes Ichadon. After Ichadon's martyrdom in 527, King Beopheung officially recognized Buddhism. Silla was the last of the Three Kingdoms to officially recognize Buddhism."
+  },
+  "q_three_kingdoms_07_005": {
+    "question": "What was the reason for erecting this stele?",
+    "correct": "King Jinheung erected it to commemorate his inspection of newly acquired territory",
+    "wrong": [
+      "It commemorated King Beopheung's official recognition of Buddhism",
+      "It was erected to commemorate Silla's founding",
+      "It was erected to commemorate the unification of the Three Kingdoms",
+      "It commemorated the establishment of Hwarangdo"
+    ],
+    "hint": "King Jinheung erected this stele while touring the expanded territories.",
+    "explanation": "The photo shows the Bukhansan Jinheung Sunsu Stele. King Jinheung erected inspection steles while touring newly acquired territories. These include the Bukhansan, Changnyeong, Maun-ryeong, and Hwangcho-ryeong steles."
+  },
+  "q_three_kingdoms_07_006": {
+    "question": "Which statement about the Silla institution shown in this illustration is correct?",
+    "correct": "It was a youth training organization that contributed to talent cultivation",
+    "wrong": [
+      "It was a Buddhist educational institution for training monks",
+      "It was a civil service examination system for selecting officials",
+      "It was a school teaching foreign languages",
+      "It was an organization solely for military training"
+    ],
+    "hint": "This youth organization adopted the Five Secular Injunctions as its training virtues.",
+    "explanation": "The picture depicts Hwarang. Hwarangdo was a youth training organization that cultivated mind and body and nurtured talents needed by the state. The Five Secular Injunctions were adopted as training virtues."
+  },
+  "q_three_kingdoms_07_007": {
+    "question": "What were King Jinheung's achievements?",
+    "correct": "Reorganization of Hwarangdo, securing the Han River basin, conquest of Daegaya",
+    "wrong": [
+      "Official recognition of Buddhism, promulgation of laws, organization of the bone-rank system",
+      "Unification of the Three Kingdoms, organization of Nine Provinces and Five Secondary Capitals",
+      "Establishment of Taehak, construction of Cheolli Jangseong",
+      "Capital move and southward policy"
+    ],
+    "hint": "This king led Silla's golden age in the 6th century and erected inspection steles to commemorate territorial expansion.",
+    "explanation": "King Jinheung reorganized Hwarangdo as a national organization, secured the Han River basin, and conquered Daegaya. He erected inspection steles to commemorate territorial expansion."
+  },
+  "q_three_kingdoms_07_008": {
+    "question": "Which Silla king first used the royal title 'Maripgan'?",
+    "correct": "King Naemul",
+    "wrong": [
+      "Bak Hyeokgeose",
+      "King Beopheung",
+      "King Jinheung",
+      "Queen Seondeok"
+    ],
+    "hint": "This king established hereditary succession of the Kim clan and used the royal title meaning 'supreme chief'.",
+    "explanation": "The royal title 'Maripgan' was first used from King Naemul's reign. Maripgan means 'greatest gan (chief),' showing that royal authority had strengthened. The Kim clan's hereditary succession to the throne was also established at this time."
+  },
+  "q_three_kingdoms_08_001": {
+    "question": "Which country did Silla ally with in the Three Kingdoms Unification War?",
+    "correct": "Tang",
+    "wrong": [
+      "Sui",
+      "Wa",
+      "Khitan",
+      "Balhae"
+    ],
+    "hint": "This Chinese dynasty joined with Silla to destroy Baekje and Goguryeo.",
+    "explanation": "Silla formed an alliance with Tang (Silla-Tang Alliance) to destroy Baekje (660) and Goguryeo (668). Afterwards, they expelled Tang and completed the unification of the Three Kingdoms."
+  },
+  "q_three_kingdoms_08_002": {
+    "question": "Which statement about this archaeological site is correct?",
+    "correct": "It is known as the oldest astronomical observatory in East Asia",
+    "wrong": [
+      "It is a pagoda of a Buddhist temple",
+      "It was built on top of a royal tomb",
+      "It is a military defensive facility",
+      "It was made in Goguryeo"
+    ],
+    "hint": "This bottle-shaped stone structure in Gyeongju was built during Queen Seondeok's reign.",
+    "explanation": "The photo shows Cheomseongdae. Built during Queen Seondeok's reign, it is known as the oldest astronomical observatory in East Asia. It is located in Gyeongju."
+  },
+  "q_three_kingdoms_08_003": {
+    "question": "Which statement about this structure is correct?",
+    "correct": "It was built during Queen Seondeok's reign and was destroyed during the Mongol invasion",
+    "wrong": [
+      "It remains intact to this day",
+      "It was built in Baekje",
+      "It was first built during the Goryeo period",
+      "It was restored during the Joseon period"
+    ],
+    "hint": "This 9-story wooden pagoda built at the suggestion of monk Jajang now only has its site remaining.",
+    "explanation": "The photo shows a restoration model of the Hwangnyongsa Nine-Story Wooden Pagoda. Built during Queen Seondeok's reign at the suggestion of the monk Jajang, it was destroyed during the Mongol invasion (1238), and only the site remains today."
+  },
+  "q_three_kingdoms_08_004": {
+    "question": "Based on the following source, which statement about this person is correct?",
+    "source": "This person was the first from the true-bone (jingol) class to ascend to the throne. He played a decisive role in forming an alliance with Tang to destroy Baekje and Goguryeo.",
+    "correct": "He is King Taejong Muyeol (Kim Chunchu)",
+    "wrong": [
+      "He is King Beopheung",
+      "He is King Jinheung",
+      "He is King Munmu",
+      "She is Queen Seondeok"
+    ],
+    "hint": "This diplomatic master who formed the Silla-Tang alliance was the first true-bone class king.",
+    "explanation": "The source describes King Taejong Muyeol (Kim Chunchu). Kim Chunchu was the first true-bone class king and laid the foundation for the unification of the Three Kingdoms by forming an alliance with Tang."
+  },
+  "q_three_kingdoms_08_005": {
+    "question": "How did this person contribute to the unification of the Three Kingdoms?",
+    "correct": "He defeated Gyebaek's death warriors at the Battle of Hwangsan Plain",
+    "wrong": [
+      "He was in charge of diplomacy with Tang",
+      "He unified public opinion by spreading Buddhism",
+      "He established Hwarangdo",
+      "He built Cheomseongdae"
+    ],
+    "hint": "This famous Silla general played a decisive role in Baekje's fall.",
+    "explanation": "The photo shows Kim Yusin. In 660, Kim Yusin defeated Gyebaek's 5,000 death warriors at the Battle of Hwangsan Plain, making a decisive contribution to Baekje's fall. Kim Yusin died in 673, so he did not participate in the Battle of Maeso Fortress in 675."
+  },
+  "q_three_kingdoms_08_006": {
+    "question": "Which battles did Silla fight to expel Tang during the Silla-Tang War?",
+    "correct": "Battle of Maeso Fortress and Battle of Gibeolpo",
+    "wrong": [
+      "Battle of Salsu and Battle of Ansi Fortress",
+      "Battle of Hwangsan Plain and Battle of Baekgang",
+      "Battle of Gwansan Fortress and Battle of Daeyaseong",
+      "Battle of Hwangnyongsa and Battle of Namhansanseong"
+    ],
+    "hint": "In 676, these were the battles where Silla defeated Tang forces and completed the unification of the Three Kingdoms.",
+    "explanation": "In 676, Silla repelled Tang forces at the Battle of Maeso Fortress and Battle of Gibeolpo, completing the unification of the Three Kingdoms. The Battle of Salsu and Battle of Ansi Fortress were Goguryeo's battles to repel Sui and Tang."
+  },
+  "q_three_kingdoms_08_007": {
+    "question": "In what year did Silla complete the unification of the Three Kingdoms?",
+    "correct": "676",
+    "wrong": [
+      "660",
+      "668",
+      "698",
+      "935"
+    ],
+    "hint": "This was the year Tang was expelled after Baekje's fall (660) and Goguryeo's fall (668).",
+    "explanation": "In 676, Silla completed the unification of the Three Kingdoms by repelling Tang at the Battles of Maeso Fortress and Gibeolpo. 660 was when Baekje fell, and 668 was when Goguryeo fell."
+  },
+  "q_three_kingdoms_08_008": {
+    "question": "Which statement about the period shown on this map is correct?",
+    "correct": "The region south of the Daedong River to Wonsan Bay was unified",
+    "wrong": [
+      "All of Manchuria and the Korean Peninsula were unified",
+      "Only part of the southern Korean Peninsula was controlled",
+      "All of Goguryeo's former territory was recovered",
+      "The Japanese archipelago was included in the territory"
+    ],
+    "hint": "A limitation of the Three Kingdoms unification was that Manchuria and northern Korean Peninsula were excluded.",
+    "explanation": "The map shows Silla's territory after the unification of the Three Kingdoms. Silla unified the region south of the Daedong River to Wonsan Bay, while the north was later occupied by Balhae."
+  },
+  "q_three_kingdoms_09_001": {
+    "question": "What was a characteristic of the Gaya confederacy?",
+    "correct": "It was a confederacy of several small states that did not form a unified state",
+    "wrong": [
+      "It formed a strong centralized state",
+      "It established a unified state before the Three Kingdoms",
+      "The king exercised absolute power",
+      "Laws were promulgated and Buddhism was officially recognized"
+    ],
+    "hint": "Geumgwan Gaya, Daegaya and other small states were loosely united as a confederacy.",
+    "explanation": "Gaya was a confederacy of several small states including Geumgwan Gaya and Daegaya that did not form a unified centralized state. As a result, it was eventually absorbed by Silla."
+  },
+  "q_three_kingdoms_09_002": {
+    "question": "What characteristic of Gaya can be understood from this artifact?",
+    "correct": "Iron production technology was developed",
+    "wrong": [
+      "Only bronze culture was developed",
+      "There was no metal technology",
+      "Iron relied only on imports",
+      "Weapon production was prohibited"
+    ],
+    "hint": "Gaya produced so much iron that it exported to Lelang and Wa.",
+    "explanation": "The photo shows Gaya iron armor. Gaya had developed iron production technology and exported iron to Wa and Lelang. Iron was central to Gaya's economy."
+  },
+  "q_three_kingdoms_09_003": {
+    "question": "Which was the central power of the early Gaya confederacy?",
+    "correct": "Geumgwan Gaya (Gimhae)",
+    "wrong": [
+      "Daegaya (Goryeong)",
+      "Ara Gaya (Haman)",
+      "Seongsan Gaya (Seongju)",
+      "Sogaya (Goseong)"
+    ],
+    "hint": "Located in the Gimhae region, this Gaya was founded by King Suro.",
+    "explanation": "The early Gaya confederacy was formed centered on Geumgwan Gaya (Gimhae). In the later period, Daegaya (Goryeong) became the central power."
+  },
+  "q_three_kingdoms_09_004": {
+    "question": "Based on the following source, which economic activity of Gaya is described?",
+    "source": "This region was rich in iron, and Han, Ye, and Wa all came to buy it. Iron was also used like currency.",
+    "correct": "Iron was produced and exported",
+    "wrong": [
+      "Only agriculture was practiced",
+      "Iron was imported for use",
+      "Gold production was the main focus",
+      "No foreign trade was conducted"
+    ],
+    "hint": "Iron ingots (deokgoi) were used like currency because iron was so abundant.",
+    "explanation": "The source describes iron production in the Samhan region (Byeonhan = Gaya). Gaya produced iron and exported it to Lelang and Wa, and iron ingots (deokgoi) were used like currency."
+  },
+  "q_three_kingdoms_09_005": {
+    "question": "Who is associated with this artifact?",
+    "correct": "It is said to have been made by Ureuk, the master musician of Gaya",
+    "wrong": [
+      "It was made by Silla's Bak Hyeokgeose",
+      "It was made by Baekje's King Geunchogo",
+      "It was made by Goguryeo's King Gwanggaeto",
+      "It first appeared during the Unified Silla period"
+    ],
+    "hint": "This traditional Korean instrument with 12 strings was transmitted to Silla and developed there.",
+    "explanation": "The photo shows a gayageum. It is said to have been made by Ureuk, a musician of Gaya, and after he defected to Silla, he spread the gayageum."
+  },
+  "q_three_kingdoms_09_006": {
+    "question": "What characteristic of Gaya can be understood from this artifact?",
+    "correct": "Metalwork symbolizing the authority of kings and nobles was developed",
+    "wrong": [
+      "There was no metalworking technology",
+      "Ornaments were only made of wood",
+      "All ornaments were imported from abroad",
+      "The same ornaments were used regardless of status"
+    ],
+    "hint": "Like Silla, Gaya also made gold crowns to symbolize the authority of kings and nobles.",
+    "explanation": "The photo shows a Gaya gold crown. Like Silla, Gaya also developed metalwork including gold crowns and gold earrings that symbolized the authority of kings and nobles."
+  },
+  "q_three_kingdoms_09_007": {
+    "question": "When did Geumgwan Gaya fall and who conquered it?",
+    "correct": "Annexed by King Beopheung of Silla in 532",
+    "wrong": [
+      "Annexed by King Jinheung of Silla in 562",
+      "Destroyed by Silla-Tang allied forces in 660",
+      "Destroyed by Silla-Tang allied forces in 668",
+      "Destroyed by King Jangsu of Goguryeo in 475"
+    ],
+    "hint": "Distinguish between the Gaya annexed during King Beopheung's reign and the one during King Jinheung's reign.",
+    "explanation": "Geumgwan Gaya was annexed by King Beopheung of Silla in 532. Daegaya was destroyed by King Jinheung in 562."
+  },
+  "q_three_kingdoms_09_008": {
+    "question": "What characteristic of Gaya culture does this artifact demonstrate?",
+    "correct": "Practical and sturdy pottery was made",
+    "wrong": [
+      "Pottery was not made",
+      "Celadon was mainly produced",
+      "White porcelain technology was developed",
+      "All ceramics were imported from China"
+    ],
+    "hint": "Gaya pottery was also transmitted to Japan and influenced Sueki pottery.",
+    "explanation": "The photo shows Gaya pottery. Gaya made sturdy and practical pottery, and this technology was also transmitted to Japan."
+  },
+  "q_three_kingdoms_10_001": {
+    "question": "Which of the Three Kingdoms was the first to adopt Buddhism?",
+    "correct": "Goguryeo",
+    "wrong": [
+      "Baekje",
+      "Silla",
+      "Gaya",
+      "Balhae"
+    ],
+    "hint": "In 372, during King Sosurim's reign, Sundo transmitted Buddhism from Former Qin.",
+    "explanation": "In 372, during King Sosurim's reign in Goguryeo, the monk Sundo transmitted Buddhism from Former Qin. Baekje adopted Buddhism in 384 during King Chimnyu's reign, and Silla officially recognized it in 527 during King Beopheung's reign."
+  },
+  "q_three_kingdoms_10_002": {
+    "question": "Which event is associated with this artifact?",
+    "correct": "Silla officially recognized Buddhism after Ichadon's martyrdom",
+    "wrong": [
+      "Wonhyo popularized Buddhism",
+      "Goguryeo first adopted Buddhism",
+      "Marananta propagated Buddhism in Baekje",
+      "Uisang founded the Hwaeom School"
+    ],
+    "hint": "This is the martyrdom stele of the person whose blood was said to be white when executed.",
+    "explanation": "The photo shows the Ichadon Martyrdom Stele. After Ichadon's martyrdom in 527, King Beopheung officially recognized Buddhism. Legend has it that Ichadon's blood was white."
+  },
+  "q_three_kingdoms_10_003": {
+    "question": "What was the common significance of Buddhism adoption among the Three Kingdoms?",
+    "correct": "It contributed to strengthening royal authority and national unity",
+    "wrong": [
+      "It strengthened aristocratic power",
+      "It abolished the class system",
+      "It promoted decentralization",
+      "It cut off exchange with foreign countries"
+    ],
+    "hint": "Think about why it was called 'state-protecting Buddhism'.",
+    "explanation": "All Three Kingdoms adopted Buddhism and used it to strengthen royal authority and unify the nation. Buddhism was adopted at the state level as 'state-protecting Buddhism.'"
+  },
+  "q_three_kingdoms_10_004": {
+    "question": "Based on the following source, which country and year of Buddhist transmission is correct?",
+    "source": "Marananta came from Eastern Jin and transmitted Buddhism. The king accepted it and built a temple at Hansan.",
+    "correct": "Baekje - 384",
+    "wrong": [
+      "Goguryeo - 372",
+      "Silla - 527",
+      "Gaya - 532",
+      "Balhae - 698"
+    ],
+    "hint": "Think about which country and year Marananta from Eastern Jin propagated Buddhism.",
+    "explanation": "The source describes Buddhism's adoption in Baekje. In 384 during King Chimnyu's reign, Marananta from Eastern Jin transmitted Buddhism."
+  },
+  "q_three_kingdoms_10_005": {
+    "question": "What is a characteristic of this Buddha statue?",
+    "correct": "The gentle and benevolent smile unique to Baekje is evident",
+    "wrong": [
+      "A grand and powerful feeling is characteristic",
+      "It was made in Silla",
+      "It is a Goryeo period Buddha statue",
+      "It was restored during the Joseon period"
+    ],
+    "hint": "This rock-carved Buddha is famous for the 'Smile of Baekje'.",
+    "explanation": "The photo shows the Seosan Rock-carved Triad Buddha. The gentle and benevolent 'Smile of Baekje' is well expressed, and it is a masterpiece of Baekje Buddhist art."
+  },
+  "q_three_kingdoms_10_006": {
+    "question": "Which statement about this Buddha statue is correct?",
+    "correct": "It is a pensive bodhisattva statue in deep meditation",
+    "wrong": [
+      "It is a standing Buddha statue",
+      "It is a reclining Nirvana Buddha",
+      "It is a dancing Buddha statue",
+      "It is a seated Buddha giving a sermon"
+    ],
+    "hint": "This Buddha statue has one leg raised with fingers touching the cheek.",
+    "explanation": "The photo shows the Gilt-bronze Maitreya Bodhisattva Pensive Statue. With one leg raised and fingers touching the cheek in deep meditation, it is a masterpiece of Three Kingdoms period Buddhist sculpture."
+  },
+  "q_three_kingdoms_10_007": {
+    "question": "Who transmitted Buddhism to Baekje and from which country?",
+    "correct": "Marananta - Eastern Jin",
+    "wrong": [
+      "Sundo - Former Qin",
+      "Ado - Goguryeo",
+      "Ichadon - Silla",
+      "Damjing - Wa"
+    ],
+    "hint": "Distinguish that Goguryeo received Buddhism from Former Qin's Sundo, while Baekje received it from Eastern Jin.",
+    "explanation": "In 384, Marananta from Eastern Jin transmitted Buddhism to Baekje (King Chimnyu). Sundo was the monk who transmitted Buddhism to Goguryeo from Former Qin."
+  },
+  "q_three_kingdoms_10_008": {
+    "question": "Why is Three Kingdoms period Buddhism called 'state-protecting Buddhism'?",
+    "correct": "Because it was adopted at the state level and used for strengthening royal authority and protecting the state",
+    "wrong": [
+      "Because it only pursued individual enlightenment",
+      "Because it rejected foreign religions",
+      "Because only nobles could believe in it",
+      "Because Buddhism was spread by force"
+    ],
+    "hint": "Think about how the Three Kingdoms used Buddhism for strengthening royal authority and overcoming national crises.",
+    "explanation": "Three Kingdoms period Buddhism was adopted at the state level and used for strengthening royal authority, national unity, and overcoming national crises. Because of these characteristics, it is called 'state-protecting Buddhism.'"
+  },
+  "q_three_kingdoms_11_001": {
+    "question": "What was Goguryeo's early tomb style?",
+    "correct": "Stone cairn tomb (Jeokseokchong)",
+    "wrong": [
+      "Stone chamber tomb with corridor (Hoehyeolsik seoksilbun)",
+      "Brick tomb (Jeonchukbun)",
+      "Stone and wooden chamber tomb (Jeokseok mokgwakbun)",
+      "Jar burial (Onggwanmyo)"
+    ],
+    "hint": "Janggunchong is a representative example of this tomb style where stones were piled up.",
+    "explanation": "In early Goguryeo, stone cairn tombs (Jeokseokchong) were built by piling up stones. In the later period, stone chamber tombs with corridors became popular."
+  },
+  "q_three_kingdoms_11_002": {
+    "question": "What characteristic of Goguryeo society can be understood from this mural?",
+    "correct": "Dance and music were developed",
+    "wrong": [
+      "Artistic activities were prohibited",
+      "Culture was not developed",
+      "Buddhism was not transmitted",
+      "There was no exchange with foreign countries"
+    ],
+    "hint": "This mural found in Muyongchong shows life at that time.",
+    "explanation": "The photo shows the hunting scene (or dance scene) from the Muyongchong tomb. Goguryeo tomb murals show that dance and music were developed at that time."
+  },
+  "q_three_kingdoms_11_003": {
+    "question": "What is the theme and meaning of this mural?",
+    "correct": "It is the Four Spirits, expressing guardian deities of the four cardinal directions",
+    "wrong": [
+      "It depicts everyday life",
+      "It expresses Buddhist tales",
+      "It depicts farming scenes",
+      "It depicts battle scenes"
+    ],
+    "hint": "This mural depicts four spirits: Blue Dragon, White Tiger, Vermilion Bird, and Black Turtle.",
+    "explanation": "The photo shows the Four Spirits from Goguryeo tomb murals. The four spirits - Blue Dragon (east), White Tiger (west), Vermilion Bird (south), and Black Turtle (north) - are depicted, reflecting a Taoist worldview."
+  },
+  "q_three_kingdoms_11_004": {
+    "question": "Based on the following source, which tomb style is being described?",
+    "source": "This tomb was built by digging shallow ground or on the surface, making a stone chamber, and then piling earth on top. A passage enters from the side, allowing additional burials.",
+    "correct": "Stone chamber tomb with corridor (Hoehyeolsik seoksilbun)",
+    "wrong": [
+      "Stone cairn tomb (Jeokseokchong)",
+      "Stone and wooden chamber tomb (Jeokseok mokgwakbun)",
+      "Jar burial (Onggwanmyo)",
+      "Wooden coffin burial (Mokgwanmyo)"
+    ],
+    "hint": "This tomb style with a passage from the side allows multiple burials.",
+    "explanation": "The source describes stone chamber tombs with corridors. With a side passage, multiple burials were possible, and this style became popular in the later Three Kingdoms period."
+  },
+  "q_three_kingdoms_11_005": {
+    "question": "What is the name and characteristic of the tomb where this artifact was excavated?",
+    "correct": "Excavated from Cheonmachong, which is a stone and wooden chamber tomb",
+    "wrong": [
+      "Excavated from King Muryeong's tomb, which is a brick tomb",
+      "Excavated from Goguryeo's Janggunchong",
+      "Excavated from a Gaya tomb",
+      "Excavated from the Tomb of Princess Jeonghye of Balhae"
+    ],
+    "hint": "This saddle flap with a heavenly horse painting was excavated from a Silla tomb in Gyeongju.",
+    "explanation": "The photo shows the Cheonmado (Heavenly Horse painting) saddle flap. It was excavated from Cheonmachong (stone and wooden chamber tomb) in Gyeongju, a saddle flap with a painting of a heavenly horse."
+  },
+  "q_three_kingdoms_11_006": {
+    "question": "What is a characteristic of King Muryeong's tomb in Baekje?",
+    "correct": "It is a brick tomb (Jeonchukbun) influenced by Chinese Southern dynasties",
+    "wrong": [
+      "It is a stone cairn tomb influenced by Goguryeo",
+      "It is a stone and wooden chamber tomb in Silla style",
+      "It is a stone chamber tomb with corridor influenced by Japan",
+      "It is a jar burial from the early Iron Age"
+    ],
+    "hint": "This tomb built with bricks shows the influence of Chinese Liang dynasty style.",
+    "explanation": "King Muryeong's tomb is a brick tomb (Jeonchukbun) influenced by Chinese Southern dynasty style. An epitaph stone was found, precisely identifying the owner as King Muryeong."
+  },
+  "q_three_kingdoms_11_007": {
+    "question": "What is a characteristic of early Silla stone and wooden chamber tombs?",
+    "correct": "Being difficult to loot, many artifacts like gold crowns were excavated",
+    "wrong": [
+      "Murals were painted inside",
+      "The structure allowed additional burials",
+      "The owner of every tomb can be identified",
+      "The style was directly imported from China"
+    ],
+    "hint": "The structure with stones piled on top of a wooden chamber made looting difficult.",
+    "explanation": "Silla stone and wooden chamber tombs were difficult to loot because stones were piled on top of a wooden chamber. Therefore, many artifacts like gold crowns and gold earrings were excavated intact."
+  },
+  "q_three_kingdoms_11_008": {
+    "question": "Which statement about the tomb where this artifact was excavated is correct?",
+    "correct": "It is a Silla gold crown excavated from Hwangnamdaechong",
+    "wrong": [
+      "It is a Baekje gold crown excavated from King Muryeong's tomb",
+      "It was excavated from a Goguryeo tomb",
+      "It was found in a Gaya tomb",
+      "It was made during the Unified Silla period"
+    ],
+    "hint": "This is the largest stone and wooden chamber tomb in Gyeongju, Silla.",
+    "explanation": "The photo shows a gold crown excavated from Hwangnamdaechong. Hwangnamdaechong is a Silla stone and wooden chamber tomb in Gyeongju, consisting of south and north mounds, where many gold artifacts were excavated."
+  },
+  "q_three_kingdoms_12_001": {
+    "question": "What was a common characteristic of Three Kingdoms period art?",
+    "correct": "Influenced by Buddhism, temples and Buddha statues developed",
+    "wrong": [
+      "It developed independently of Buddhism",
+      "Only identical styles were used everywhere",
+      "Artistic activities were prohibited",
+      "No foreign culture was adopted at all"
+    ],
+    "hint": "Think about what kind of art developed after all Three Kingdoms adopted Buddhism.",
+    "explanation": "Three Kingdoms period art was greatly influenced by Buddhism, with temples, Buddha statues, and pagodas developing. Each country also showed distinctive characteristics."
+  },
+  "q_three_kingdoms_12_002": {
+    "question": "Which statement about this artifact is correct?",
+    "correct": "A masterpiece of Baekje metalwork with dragon and phoenix carvings",
+    "wrong": [
+      "It was made in Goguryeo",
+      "It is a Silla royal ritual vessel",
+      "It was made during the Unified Silla period",
+      "It is a Goryeo period craft"
+    ],
+    "hint": "This incense burner excavated from Neungsan-ri, Buyeo has a dragon supporting it and a phoenix on top.",
+    "explanation": "The photo shows the Baekje Gilt-bronze Incense Burner. Excavated from Neungsan-ri, Buyeo, it has a unique form with a dragon supporting it and a phoenix on top, a masterpiece of Baekje metalwork."
+  },
+  "q_three_kingdoms_12_003": {
+    "question": "Which statement about this archaeological site is correct?",
+    "correct": "It is Baekje's largest temple with a stone pagoda in wooden pagoda style",
+    "wrong": [
+      "It was built by Silla",
+      "It is a Goguryeo-style pagoda",
+      "It was built during the Unified Silla period",
+      "It was restored during the Goryeo period"
+    ],
+    "hint": "Built during King Mu's reign, this is the oldest existing stone pagoda.",
+    "explanation": "The photo shows the Mireuksa Site Stone Pagoda. Built at Mireuksa Temple during King Mu's reign in Baekje, it is a stone pagoda that adopted wooden pagoda style and is the oldest existing stone pagoda."
+  },
+  "q_three_kingdoms_12_004": {
+    "question": "Based on the following source, which person is being described?",
+    "source": "This monk transmitted the methods of making paper, ink, and millstones, and painting techniques to Japan. He is called the 'founder of coloring' in Japan.",
+    "correct": "Damjing of Goguryeo",
+    "wrong": [
+      "Wani of Baekje",
+      "Wonhyo of Silla",
+      "Ajikgi of Baekje",
+      "Uisang of Silla"
+    ],
+    "hint": "This Goguryeo monk is said to have painted the Horyuji Kondo murals.",
+    "explanation": "The source describes Damjing, a monk of Goguryeo. Damjing transmitted paper, ink, and coloring techniques to Japan and is said to have painted the Horyuji Kondo murals."
+  },
+  "q_three_kingdoms_12_005": {
+    "question": "What is a characteristic of this archaeological site?",
+    "correct": "It is an early stone pagoda that adopted wooden pagoda style for stone",
+    "wrong": [
+      "It is a typical Silla-style stone pagoda",
+      "It was built during the Goryeo period",
+      "It remains in complete form today",
+      "It was directly brought from China"
+    ],
+    "hint": "This Baekje stone pagoda in Buyeo had 'Stele for the Pacification of Baekje by Great Tang' inscribed on it when Baekje fell.",
+    "explanation": "The photo shows the Jeongnimsaji Five-Story Stone Pagoda. In Baekje style adopting wooden pagoda form for stone, it is a representative example of Baekje stone pagodas along with the Mireuksa Site Stone Pagoda."
+  },
+  "q_three_kingdoms_12_006": {
+    "question": "What is an example of scientific and technological development during the Three Kingdoms period?",
+    "correct": "Astronomical observation and calendar use were practiced",
+    "wrong": [
+      "Science and technology did not develop at all",
+      "Printing technology had already been invented",
+      "Gunpowder weapons were used",
+      "Steam engines were invented"
+    ],
+    "hint": "Think about how Cheomseongdae was used for astronomical observation.",
+    "explanation": "During the Three Kingdoms period, astronomical observation (Cheomseongdae, etc.) and calendar use were practiced. Printing technology and gunpowder developed in later periods."
+  },
+  "q_three_kingdoms_12_007": {
+    "question": "What culture did Baekje transmit to Japan?",
+    "correct": "Chinese characters, Confucianism, Buddhism, craft techniques",
+    "wrong": [
+      "Celadon production techniques",
+      "Metal movable type printing",
+      "Gunpowder manufacturing",
+      "Hangeul"
+    ],
+    "hint": "Ajikgi, Wani, and Norisachigye transmitted these to Japan.",
+    "explanation": "Baekje transmitted Chinese characters and Confucianism through Ajikgi and Wani, and Buddhism through Norisachigye to Japan. Celadon and metal movable type developed during the Goryeo period."
+  },
+  "q_three_kingdoms_12_008": {
+    "question": "What characteristic of Baekje culture can be understood from this artifact?",
+    "correct": "Refined and elegant patterns developed",
+    "wrong": [
+      "It was a plain style without patterns",
+      "Only geometric patterns were used",
+      "There was no influence from foreign culture at all",
+      "The technical level was low"
+    ],
+    "hint": "These are Baekje roof tiles with patterns like lotus designs.",
+    "explanation": "The photo shows Baekje roof tiles (wadang). Featuring refined and elegant patterns like lotus designs, it shows the high aesthetic sense of Baekje culture."
+  }
+}
