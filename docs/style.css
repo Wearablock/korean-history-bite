@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #2C3E50;
+  --primary-light: #3D566E;
+  --secondary: #E67E22;
+  --secondary-light: #F39C4D;
+  --accent: #1ABC9C;
+  --text-primary: #2C3E50;
+  --text-secondary: #7F8C8D;
+  --background: #F8F9FA;
+  --surface: #FFFFFF;
+  --divider: #ECF0F1;
+  --sign-background: #FFFDF5;
+  --sign-border: #5D4037;
+}
+
+body {
+  font-family: 'Noto Sans KR', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+  font-weight: 300;
+  line-height: 1.7;
+  color: var(--text-primary);
+  background-color: var(--background);
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: var(--surface);
+  min-height: 100vh;
+}
+
+/* Header - Traditional Korean Sign Style */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 0;
+  margin-bottom: 30px;
+  border-bottom: 3px solid var(--primary);
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--primary);
+  padding: 8px 20px;
+  background-color: var(--sign-background);
+  border: 3px solid var(--sign-border);
+  border-radius: 4px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Language Selector */
+.lang-selector {
+  position: relative;
+}
+
+.lang-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  background-color: var(--surface);
+  border: 2px solid var(--secondary);
+  border-radius: 8px;
+  color: var(--secondary);
+  font-size: 0.9rem;
+  font-weight: 400;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.lang-btn:hover {
+  background-color: rgba(230, 126, 34, 0.1);
+}
+
+.lang-btn svg {
+  width: 16px;
+  height: 16px;
+}
+
+.lang-dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  margin-top: 4px;
+  background: var(--surface);
+  border: 1px solid var(--divider);
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+  transition: all 0.2s ease;
+  z-index: 100;
+}
+
+.lang-dropdown.show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.lang-option {
+  display: block;
+  width: 100%;
+  padding: 12px 24px;
+  text-align: left;
+  background: none;
+  border: none;
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: var(--text-primary);
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.lang-option:hover {
+  background-color: var(--background);
+}
+
+.lang-option.active {
+  background-color: rgba(230, 126, 34, 0.1);
+  color: var(--secondary);
+  font-weight: 500;
+}
+
+/* Content Sections */
+.content-section {
+  display: none;
+}
+
+.content-section.active {
+  display: block;
+}
+
+/* Typography */
+h2 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: var(--primary);
+  margin: 36px 0 16px 0;
+  padding-bottom: 10px;
+  border-bottom: 3px solid var(--secondary);
+}
+
+h2:first-child {
+  margin-top: 0;
+}
+
+h3 {
+  font-size: 1.15rem;
+  font-weight: 500;
+  color: var(--primary);
+  margin: 24px 0 12px 0;
+}
+
+h4 {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  margin: 16px 0 8px 0;
+}
+
+p {
+  margin-bottom: 14px;
+  color: var(--text-primary);
+}
+
+ul, ol {
+  margin: 14px 0;
+  padding-left: 28px;
+}
+
+li {
+  margin-bottom: 10px;
+  color: var(--text-primary);
+}
+
+a {
+  color: var(--secondary);
+  text-decoration: none;
+  font-weight: 400;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Info Box - Traditional Pattern Style */
+.info-box {
+  background: linear-gradient(135deg, var(--sign-background) 0%, #FFF9E6 100%);
+  border-left: 5px solid var(--secondary);
+  padding: 18px 24px;
+  margin: 24px 0;
+  border-radius: 0 12px 12px 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.info-box p {
+  margin: 0;
+  color: var(--text-primary);
+  font-weight: 400;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}
+
+th, td {
+  padding: 14px 18px;
+  text-align: left;
+  border-bottom: 1px solid var(--divider);
+}
+
+th {
+  background-color: var(--primary);
+  color: white;
+  font-weight: 500;
+}
+
+tr:nth-child(even) {
+  background-color: var(--background);
+}
+
+/* Footer */
+footer {
+  margin-top: 60px;
+  padding: 24px 0;
+  border-top: 3px solid var(--primary);
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 8px;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: var(--secondary);
+}
+
+/* App Info Card */
+.app-info {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 20px;
+  background: var(--background);
+  border-radius: 12px;
+  margin-bottom: 24px;
+}
+
+.app-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 14px;
+  background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.app-details h3 {
+  margin: 0 0 4px 0;
+  font-size: 1.1rem;
+}
+
+.app-details p {
+  margin: 0;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+
+/* FAQ Style */
+.faq-item {
+  margin-bottom: 20px;
+  padding: 16px 20px;
+  background: var(--background);
+  border-radius: 12px;
+  border-left: 4px solid var(--accent);
+}
+
+.faq-item h4 {
+  margin: 0 0 8px 0;
+  color: var(--primary);
+}
+
+.faq-item p {
+  margin: 0;
+  color: var(--text-secondary);
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .container {
+    padding: 16px;
+  }
+
+  header {
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px 0;
+  }
+
+  h1 {
+    font-size: 1.25rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  .app-info {
+    flex-direction: column;
+    text-align: center;
+  }
+}

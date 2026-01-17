@@ -74,6 +74,7 @@
   "termsAndPolicies": "Terms & Policies",
   "termsOfService": "Terms of Service",
   "privacyPolicy": "Privacy Policy",
+  "support": "Support",
   "data": "Data",
   "resetStudyRecords": "Reset Study Records",
   "resetStudyRecordsDesc": "Delete all study records",
@@ -93,6 +94,9 @@
   "customSetting": "Custom",
   "theme": "Theme",
   "selectTheme": "Select Theme",
+  "themeSystem": "System Default",
+  "themeLight": "Light Mode",
+  "themeDark": "Dark Mode",
 
   "studyComplete": "Study Complete",
   "goodJob": "Good job!",
@@ -182,6 +186,10 @@
   "studyNotification": "Study Notification",
   "dailyNotification": "Daily reminder at set time",
   "notificationOff": "Notification off",
+  "notificationChannelName": "Study Reminder",
+  "notificationChannelDesc": "Daily study time reminders",
+  "notificationTitle": "Korean History Bite",
+  "notificationBody": "Time to start today's study!",
   "notificationTime": "Notification Time",
   "selectNotificationTime": "Select notification time",
   "amTime": "{hour}:{minute} AM",
@@ -200,6 +208,17 @@
   },
 
   "wrongAnswersComingSoon": "Wrong answers (Coming soon)",
+  "noWrongAnswers": "No wrong answers!",
+  "noWrongAnswersDesc": "You're doing great! Keep up the good work\nand continue building your knowledge!",
+  "wrongCount": "Wrong {count} times",
+  "@wrongCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "correctAnswer": "Correct Answer",
+  "yourAnswer": "Your Answer",
+  "explanation": "Explanation",
 
   "nextQuestion": "Next Question",
   "sessionComplete": "Today's Study Complete!",

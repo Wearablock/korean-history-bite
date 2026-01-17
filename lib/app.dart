@@ -8,6 +8,7 @@ import 'data/providers/chapter_providers.dart';
 import 'data/providers/database_providers.dart';
 import 'features/main/main_shell.dart';
 import 'features/onboarding/daily_goal_onboarding_screen.dart';
+import 'services/notification_service.dart';
 
 class KoreanHistoryApp extends ConsumerWidget {
   const KoreanHistoryApp({super.key});
@@ -87,6 +88,17 @@ class KoreanHistoryApp extends ConsumerWidget {
       WidgetsBinding.instance.addPostFrameCallback((_) {
         ref.read(currentLocaleProvider.notifier).state = targetLocale;
       });
+    }
+
+    // 알림 서비스에 로컬라이즈된 문자열 설정
+    final l10n = AppLocalizations.of(context);
+    if (l10n != null) {
+      NotificationService().setLocalizedStrings(
+        channelName: l10n.notificationChannelName,
+        channelDescription: l10n.notificationChannelDesc,
+        notificationTitle: l10n.notificationTitle,
+        notificationBody: l10n.notificationBody,
+      );
     }
   }
 }

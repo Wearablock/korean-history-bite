@@ -30,11 +30,11 @@ class AppTheme {
         ),
 
         // Scaffold
-        scaffoldBackgroundColor: AppColors.white,
+        scaffoldBackgroundColor: AppColors.signBackground,
 
         // AppBar
         appBarTheme: const AppBarTheme(
-          backgroundColor: AppColors.white,
+          backgroundColor: AppColors.signBackground,
           foregroundColor: AppColors.textPrimaryLight,
           elevation: 0,
           scrolledUnderElevation: 0,
@@ -93,7 +93,7 @@ class AppTheme {
 
         // BottomNavigationBar
         bottomNavigationBarTheme: const BottomNavigationBarThemeData(
-          backgroundColor: AppColors.white,
+          backgroundColor: AppColors.signBackground,
           selectedItemColor: AppColors.secondary,
           unselectedItemColor: AppColors.textSecondaryLight,
           type: BottomNavigationBarType.fixed,
@@ -102,7 +102,7 @@ class AppTheme {
 
         // NavigationBar (Material 3)
         navigationBarTheme: NavigationBarThemeData(
-          backgroundColor: AppColors.white,
+          backgroundColor: AppColors.signBackground,
           indicatorColor: AppColors.secondary.withValues(alpha: 0.2),
           elevation: 0,
           labelTextStyle: WidgetStateProperty.resolveWith((states) {

@@ -15,6 +15,12 @@ import 'widgets/premium_tile.dart';
 class SettingsScreen extends ConsumerWidget {
   const SettingsScreen({super.key});
 
+  // 문서 URL (호스팅 도메인에 맞게 수정)
+  static const String _baseDocsUrl = 'https://wearablock.github.io/korean-history-bite';
+  static const String _termsUrl = '$_baseDocsUrl/terms.html';
+  static const String _privacyUrl = '$_baseDocsUrl/privacy.html';
+  static const String _supportUrl = '$_baseDocsUrl/support.html';
+
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final l10n = AppLocalizations.of(context)!;
@@ -100,13 +106,19 @@ class SettingsScreen extends ConsumerWidget {
                 context,
                 icon: Icons.article_outlined,
                 title: l10n.termsOfService,
-                onTap: () => _openUrl(context, 'https://example.com/terms'),
+                onTap: () => _openUrl(context, _termsUrl),
               ),
               _buildLinkTile(
                 context,
                 icon: Icons.privacy_tip_outlined,
                 title: l10n.privacyPolicy,
-                onTap: () => _openUrl(context, 'https://example.com/privacy'),
+                onTap: () => _openUrl(context, _privacyUrl),
+              ),
+              _buildLinkTile(
+                context,
+                icon: Icons.support_agent_outlined,
+                title: l10n.support,
+                onTap: () => _openUrl(context, _supportUrl),
               ),
             ],
           ),
@@ -424,7 +436,7 @@ class _DailyGoalDialogState extends State<_DailyGoalDialog> {
             return RadioListTile<int>(
               value: option.chapterCount,
               groupValue: _isCustom ? -1 : _selectedGoal,
-              title: Text(option.label),
+              title: Text(l10n.chaptersUnit(option.chapterCount)),
               dense: true,
               onChanged: (value) {
                 setState(() {
@@ -530,7 +542,7 @@ class _ThemeModeTile extends ConsumerWidget {
                   borderRadius: BorderRadius.circular(12),
                 ),
                 child: Text(
-                  option.label,
+                  _getThemeLabel(option, l10n),
                   style: Theme.of(context).textTheme.bodyMedium?.copyWith(
                         color: AppColors.secondary,
                         fontWeight: FontWeight.w600,
@@ -558,6 +570,17 @@ class _ThemeModeTile extends ConsumerWidget {
     }
   }
 
+  String _getThemeLabel(ThemeModeOption option, AppLocalizations l10n) {
+    switch (option) {
+      case ThemeModeOption.system:
+        return l10n.themeSystem;
+      case ThemeModeOption.light:
+        return l10n.themeLight;
+      case ThemeModeOption.dark:
+        return l10n.themeDark;
+    }
+  }
+
   Future<void> _showThemeModeDialog(
     BuildContext context,
     WidgetRef ref,
@@ -567,17 +590,17 @@ class _ThemeModeTile extends ConsumerWidget {
 
     final selectedMode = await showDialog<String>(
       context: context,
-      builder: (context) => SimpleDialog(
+      builder: (dialogContext) => SimpleDialog(
         title: Text(l10n.selectTheme),
         children: ThemeModeOption.values.map((option) {
           final isSelected = option.value == currentMode;
           return RadioListTile<String>(
             value: option.value,
             groupValue: currentMode,
-            title: Text(option.label),
+            title: Text(_getThemeLabel(option, l10n)),
             secondary: Icon(_getThemeIcon(option.value)),
             selected: isSelected,
-            onChanged: (value) => Navigator.pop(context, value),
+            onChanged: (value) => Navigator.pop(dialogContext, value),
           );
         }).toList(),
       ),

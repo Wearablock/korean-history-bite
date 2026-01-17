@@ -284,6 +284,12 @@ abstract class AppLocalizations {
   /// **'개인정보 처리방침'**
   String get privacyPolicy;
 
+  /// No description provided for @support.
+  ///
+  /// In ko, this message translates to:
+  /// **'고객 지원'**
+  String get support;
+
   /// No description provided for @data.
   ///
   /// In ko, this message translates to:
@@ -367,6 +373,24 @@ abstract class AppLocalizations {
   /// In ko, this message translates to:
   /// **'테마 선택'**
   String get selectTheme;
+
+  /// No description provided for @themeSystem.
+  ///
+  /// In ko, this message translates to:
+  /// **'시스템 설정'**
+  String get themeSystem;
+
+  /// No description provided for @themeLight.
+  ///
+  /// In ko, this message translates to:
+  /// **'라이트 모드'**
+  String get themeLight;
+
+  /// No description provided for @themeDark.
+  ///
+  /// In ko, this message translates to:
+  /// **'다크 모드'**
+  String get themeDark;
 
   /// No description provided for @studyComplete.
   ///
@@ -734,6 +758,30 @@ abstract class AppLocalizations {
   /// **'알림 시간'**
   String get notificationTime;
 
+  /// No description provided for @notificationChannelName.
+  ///
+  /// In ko, this message translates to:
+  /// **'학습 리마인더'**
+  String get notificationChannelName;
+
+  /// No description provided for @notificationChannelDesc.
+  ///
+  /// In ko, this message translates to:
+  /// **'매일 학습 시간을 알려드립니다'**
+  String get notificationChannelDesc;
+
+  /// No description provided for @notificationTitle.
+  ///
+  /// In ko, this message translates to:
+  /// **'한국사 한입'**
+  String get notificationTitle;
+
+  /// No description provided for @notificationBody.
+  ///
+  /// In ko, this message translates to:
+  /// **'오늘의 학습을 시작할 시간이에요!'**
+  String get notificationBody;
+
   /// No description provided for @selectNotificationTime.
   ///
   /// In ko, this message translates to:
@@ -757,6 +805,42 @@ abstract class AppLocalizations {
   /// In ko, this message translates to:
   /// **'오답노트 화면 (구현 예정)'**
   String get wrongAnswersComingSoon;
+
+  /// No description provided for @noWrongAnswers.
+  ///
+  /// In ko, this message translates to:
+  /// **'틀린 문제가 없어요!'**
+  String get noWrongAnswers;
+
+  /// No description provided for @noWrongAnswersDesc.
+  ///
+  /// In ko, this message translates to:
+  /// **'꾸준히 학습하며 실력을 쌓아가고 있네요.\n앞으로도 화이팅!'**
+  String get noWrongAnswersDesc;
+
+  /// No description provided for @wrongCount.
+  ///
+  /// In ko, this message translates to:
+  /// **'{count}회 틀림'**
+  String wrongCount(int count);
+
+  /// No description provided for @correctAnswer.
+  ///
+  /// In ko, this message translates to:
+  /// **'정답입니다!'**
+  String get correctAnswer;
+
+  /// No description provided for @yourAnswer.
+  ///
+  /// In ko, this message translates to:
+  /// **'내가 고른 답'**
+  String get yourAnswer;
+
+  /// No description provided for @explanation.
+  ///
+  /// In ko, this message translates to:
+  /// **'해설'**
+  String get explanation;
 
   /// No description provided for @nextQuestion.
   ///
@@ -877,12 +961,6 @@ abstract class AppLocalizations {
   /// In ko, this message translates to:
   /// **'학습 완료'**
   String get learningComplete;
-
-  /// No description provided for @correctAnswer.
-  ///
-  /// In ko, this message translates to:
-  /// **'정답입니다!'**
-  String get correctAnswer;
 
   /// No description provided for @wrongAnswer.
   ///

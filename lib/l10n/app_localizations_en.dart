@@ -117,6 +117,9 @@ class AppLocalizationsEn extends AppLocalizations {
   String get privacyPolicy => 'Privacy Policy';
 
   @override
+  String get support => 'Support';
+
+  @override
   String get data => 'Data';
 
   @override
@@ -160,6 +163,15 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get selectTheme => 'Select Theme';
+
+  @override
+  String get themeSystem => 'System Default';
+
+  @override
+  String get themeLight => 'Light Mode';
+
+  @override
+  String get themeDark => 'Dark Mode';
 
   @override
   String get studyComplete => 'Study Complete';
@@ -355,6 +367,18 @@ class AppLocalizationsEn extends AppLocalizations {
   String get notificationTime => 'Notification Time';
 
   @override
+  String get notificationChannelName => 'Study Reminder';
+
+  @override
+  String get notificationChannelDesc => 'Daily study time reminders';
+
+  @override
+  String get notificationTitle => 'Korean History Bite';
+
+  @override
+  String get notificationBody => 'Time to start today\'s study!';
+
+  @override
   String get selectNotificationTime => 'Select notification time';
 
   @override
@@ -369,6 +393,27 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get wrongAnswersComingSoon => 'Wrong answers (Coming soon)';
+
+  @override
+  String get noWrongAnswers => 'No wrong answers!';
+
+  @override
+  String get noWrongAnswersDesc =>
+      'You\'re doing great! Keep up the good work\nand continue building your knowledge!';
+
+  @override
+  String wrongCount(int count) {
+    return 'Wrong $count times';
+  }
+
+  @override
+  String get correctAnswer => 'Correct!';
+
+  @override
+  String get yourAnswer => 'Your Answer';
+
+  @override
+  String get explanation => 'Explanation';
 
   @override
   String get nextQuestion => 'Next Question';
@@ -433,9 +478,6 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get learningComplete => 'Complete';
-
-  @override
-  String get correctAnswer => 'Correct!';
 
   @override
   String get wrongAnswer => 'Incorrect';

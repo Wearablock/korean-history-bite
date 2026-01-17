@@ -116,6 +116,9 @@ class AppLocalizationsKo extends AppLocalizations {
   String get privacyPolicy => '개인정보 처리방침';
 
   @override
+  String get support => '고객 지원';
+
+  @override
   String get data => '데이터';
 
   @override
@@ -158,6 +161,15 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String get selectTheme => '테마 선택';
+
+  @override
+  String get themeSystem => '시스템 설정';
+
+  @override
+  String get themeLight => '라이트 모드';
+
+  @override
+  String get themeDark => '다크 모드';
 
   @override
   String get studyComplete => '학습 완료';
@@ -351,6 +363,18 @@ class AppLocalizationsKo extends AppLocalizations {
   String get notificationTime => '알림 시간';
 
   @override
+  String get notificationChannelName => '학습 리마인더';
+
+  @override
+  String get notificationChannelDesc => '매일 학습 시간을 알려드립니다';
+
+  @override
+  String get notificationTitle => '한국사 한입';
+
+  @override
+  String get notificationBody => '오늘의 학습을 시작할 시간이에요!';
+
+  @override
   String get selectNotificationTime => '알림 시간 선택';
 
   @override
@@ -365,6 +389,26 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String get wrongAnswersComingSoon => '오답노트 화면 (구현 예정)';
+
+  @override
+  String get noWrongAnswers => '틀린 문제가 없어요!';
+
+  @override
+  String get noWrongAnswersDesc => '꾸준히 학습하며 실력을 쌓아가고 있네요.\n앞으로도 화이팅!';
+
+  @override
+  String wrongCount(int count) {
+    return '$count회 틀림';
+  }
+
+  @override
+  String get correctAnswer => '정답입니다!';
+
+  @override
+  String get yourAnswer => '내가 고른 답';
+
+  @override
+  String get explanation => '해설';
 
   @override
   String get nextQuestion => '다음 문제';
@@ -429,9 +473,6 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String get learningComplete => '학습 완료';
-
-  @override
-  String get correctAnswer => '정답입니다!';
 
   @override
   String get wrongAnswer => '오답입니다';

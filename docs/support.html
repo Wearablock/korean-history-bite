@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Support - Korean History Bite</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Korean History Bite</h1>
+      <div class="lang-selector">
+        <button class="lang-btn" onclick="toggleDropdown()">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"/>
+          </svg>
+          <span id="currentLang">English</span>
+        </button>
+        <div class="lang-dropdown" id="langDropdown">
+          <button class="lang-option active" onclick="switchLang('en')">English</button>
+          <button class="lang-option" onclick="switchLang('ko')">한국어</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- English Content -->
+    <main id="content-en" class="content-section active">
+      <h2>Support</h2>
+
+      <div class="info-box">
+        <p>Need help? We're here to assist you with any questions or issues.</p>
+      </div>
+
+      <h3>Contact Us</h3>
+      <p>For questions, feedback, or support requests, please email us:</p>
+      <p><a href="mailto:admin@wearablock.com">admin@wearablock.com</a></p>
+
+      <h3>Frequently Asked Questions</h3>
+
+      <div class="faq-item">
+        <h4>How do I start studying?</h4>
+        <p>On the home screen, tap "Start Study" to begin learning. You can choose a specific era or start from the beginning.</p>
+      </div>
+
+      <div class="faq-item">
+        <h4>How does the quiz work?</h4>
+        <p>After reading each theory section, you'll be presented with quiz questions to test your understanding. Answer correctly to mark the content as complete.</p>
+      </div>
+
+      <div class="faq-item">
+        <h4>How can I review wrong answers?</h4>
+        <p>Go to the "Review" section from the home screen. Here you can see all the questions you've answered incorrectly and practice them again.</p>
+      </div>
+
+      <div class="faq-item">
+        <h4>What is the daily streak?</h4>
+        <p>The daily streak tracks consecutive days of study. Complete at least one study session each day to maintain your streak!</p>
+      </div>
+
+      <div class="faq-item">
+        <h4>How do I use hints?</h4>
+        <p>During quizzes, you can tap the hint button for help. Watch a short video ad to receive a hint, or enjoy unlimited hints with ad removal purchase.</p>
+      </div>
+
+      <div class="faq-item">
+        <h4>How do I restore my purchase?</h4>
+        <p>Go to Settings and find the "Premium" section. If you've already purchased, tap "Restore Purchase" to restore your ad-free status.</p>
+      </div>
+
+      <div class="faq-item">
+        <h4>Is my study progress backed up?</h4>
+        <p>Currently, all data is stored locally on your device. We recommend regularly backing up your device to prevent data loss.</p>
+      </div>
+
+      <div class="faq-item">
+        <h4>Can I reset my progress?</h4>
+        <p>Yes, go to Settings and find the "Reset Data" option. Note that this will permanently delete all your study records.</p>
+      </div>
+
+      <div class="faq-item">
+        <h4>How do I set up study reminders?</h4>
+        <p>In Settings, enable notifications and set your preferred reminder time. You'll receive daily notifications to help maintain your study habit.</p>
+      </div>
+    </main>
+
+    <!-- Korean Content -->
+    <main id="content-ko" class="content-section">
+      <h2>고객 지원</h2>
+
+      <div class="info-box">
+        <p>도움이 필요하신가요? 질문이나 문제가 있으시면 도와드리겠습니다.</p>
+      </div>
+
+      <h3>문의하기</h3>
+      <p>질문, 피드백 또는 지원 요청은 이메일로 보내주세요:</p>
+      <p><a href="mailto:admin@wearablock.com">admin@wearablock.com</a></p>
+
+      <h3>자주 묻는 질문</h3>
+
+      <div class="faq-item">
+        <h4>학습은 어떻게 시작하나요?</h4>
+        <p>홈 화면에서 "학습 시작"을 탭하여 학습을 시작하세요. 특정 시대를 선택하거나 처음부터 시작할 수 있습니다.</p>
+      </div>
+
+      <div class="faq-item">
+        <h4>퀴즈는 어떻게 작동하나요?</h4>
+        <p>각 이론 섹션을 읽은 후 이해도를 확인하는 퀴즈 문제가 제시됩니다. 정답을 맞추면 해당 콘텐츠가 완료로 표시됩니다.</p>
+      </div>
+
+      <div class="faq-item">
+        <h4>오답은 어떻게 복습하나요?</h4>
+        <p>홈 화면에서 "복습" 섹션으로 이동하세요. 여기서 틀린 문제들을 확인하고 다시 연습할 수 있습니다.</p>
+      </div>
+
+      <div class="faq-item">
+        <h4>연속 학습이란 무엇인가요?</h4>
+        <p>연속 학습은 매일 학습한 날의 수를 추적합니다. 연속 기록을 유지하려면 매일 최소 한 번의 학습 세션을 완료하세요!</p>
+      </div>
+
+      <div class="faq-item">
+        <h4>힌트는 어떻게 사용하나요?</h4>
+        <p>퀴즈 중에 힌트 버튼을 탭하면 도움을 받을 수 있습니다. 짧은 동영상 광고를 시청하면 힌트를 받을 수 있으며, 광고 제거를 구매하면 무제한 힌트를 이용할 수 있습니다.</p>
+      </div>
+
+      <div class="faq-item">
+        <h4>구매를 복원하려면 어떻게 하나요?</h4>
+        <p>설정으로 이동하여 "프리미엄" 섹션을 찾으세요. 이미 구매하셨다면 "구매 복원"을 탭하여 광고 없는 상태를 복원하세요.</p>
+      </div>
+
+      <div class="faq-item">
+        <h4>학습 진도가 백업되나요?</h4>
+        <p>현재 모든 데이터는 기기에 로컬로 저장됩니다. 데이터 손실을 방지하려면 정기적으로 기기를 백업하시기 바랍니다.</p>
+      </div>
+
+      <div class="faq-item">
+        <h4>진도를 초기화할 수 있나요?</h4>
+        <p>네, 설정에서 "데이터 초기화" 옵션을 찾으세요. 이 작업은 모든 학습 기록을 영구적으로 삭제하므로 주의하세요.</p>
+      </div>
+
+      <div class="faq-item">
+        <h4>학습 알림은 어떻게 설정하나요?</h4>
+        <p>설정에서 알림을 활성화하고 원하는 알림 시간을 설정하세요. 학습 습관을 유지할 수 있도록 매일 알림을 받게 됩니다.</p>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Wearablock Inc. All rights reserved.</p>
+      <p>
+        <a href="terms.html">Terms of Service</a> |
+        <a href="privacy.html">Privacy Policy</a> |
+        <a href="support.html">Support</a>
+      </p>
+    </footer>
+  </div>
+
+  <script>
+    function toggleDropdown() {
+      document.getElementById('langDropdown').classList.toggle('show');
+    }
+
+    function switchLang(lang) {
+      document.querySelectorAll('.content-section').forEach(el => el.classList.remove('active'));
+      document.querySelectorAll('.lang-option').forEach(el => el.classList.remove('active'));
+
+      document.getElementById('content-' + lang).classList.add('active');
+      event.target.classList.add('active');
+
+      const langNames = { 'en': 'English', 'ko': '한국어' };
+      document.getElementById('currentLang').textContent = langNames[lang];
+      document.getElementById('langDropdown').classList.remove('show');
+    }
+
+    document.addEventListener('click', function(e) {
+      if (!e.target.closest('.lang-selector')) {
+        document.getElementById('langDropdown').classList.remove('show');
+      }
+    });
+  </script>
+</body>
+</html>

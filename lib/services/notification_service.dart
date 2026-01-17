@@ -17,8 +17,12 @@ class NotificationService {
 
   // 알림 채널 ID (Android)
   static const String _channelId = 'study_reminder';
-  static const String _channelName = '학습 리마인더';
-  static const String _channelDescription = '매일 학습 시간을 알려드립니다';
+
+  // 알림 텍스트 (l10n에서 설정)
+  String _channelName = 'Study Reminder';
+  String _channelDescription = 'Daily study time reminders';
+  String _notificationTitle = 'Korean History Bite';
+  String _notificationBody = 'Time to start today\'s study!';
 
   // 고정 알림 ID
   static const int _dailyReminderId = 1;
@@ -27,6 +31,19 @@ class NotificationService {
 
   /// 초기화 여부 확인
   bool get isInitialized => _isInitialized;
+
+  /// l10n 문자열 설정 (앱 시작 시 또는 언어 변경 시 호출)
+  void setLocalizedStrings({
+    required String channelName,
+    required String channelDescription,
+    required String notificationTitle,
+    required String notificationBody,
+  }) {
+    _channelName = channelName;
+    _channelDescription = channelDescription;
+    _notificationTitle = notificationTitle;
+    _notificationBody = notificationBody;
+  }
 
   /// 알림 서비스 초기화
   Future<void> initialize() async {
@@ -75,7 +92,7 @@ class NotificationService {
 
   /// Android 알림 채널 생성
   Future<void> _createNotificationChannel() async {
-    const androidChannel = AndroidNotificationChannel(
+    final androidChannel = AndroidNotificationChannel(
       _channelId,
       _channelName,
       description: _channelDescription,
@@ -156,7 +173,7 @@ class NotificationService {
     await cancelDailyReminder();
 
     // 알림 상세 설정
-    const androidDetails = AndroidNotificationDetails(
+    final androidDetails = AndroidNotificationDetails(
       _channelId,
       _channelName,
       channelDescription: _channelDescription,
@@ -171,7 +188,7 @@ class NotificationService {
       presentSound: true,
     );
 
-    const notificationDetails = NotificationDetails(
+    final notificationDetails = NotificationDetails(
       android: androidDetails,
       iOS: iosDetails,
     );
@@ -182,8 +199,8 @@ class NotificationService {
     // 매일 반복 알림 스케줄링
     await _notifications.zonedSchedule(
       _dailyReminderId,
-      '한국사 한입',
-      '오늘의 학습을 시작할 시간이에요! 📚',
+      _notificationTitle,
+      _notificationBody,
       scheduledTime,
       notificationDetails,
       androidScheduleMode: AndroidScheduleMode.inexactAllowWhileIdle,
@@ -237,7 +254,7 @@ class NotificationService {
       return;
     }
 
-    const androidDetails = AndroidNotificationDetails(
+    final androidDetails = AndroidNotificationDetails(
       _channelId,
       _channelName,
       channelDescription: _channelDescription,
@@ -251,15 +268,15 @@ class NotificationService {
       presentSound: true,
     );
 
-    const notificationDetails = NotificationDetails(
+    final notificationDetails = NotificationDetails(
       android: androidDetails,
       iOS: iosDetails,
     );
 
     await _notifications.show(
       0,
-      '한국사 한입',
-      '테스트 알림입니다! 📚',
+      _notificationTitle,
+      _notificationBody,
       notificationDetails,
     );
   }

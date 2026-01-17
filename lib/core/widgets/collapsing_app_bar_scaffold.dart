@@ -37,9 +37,10 @@ class CollapsingAppBarScaffold extends StatelessWidget {
 
     // 다크모드에 따른 색상 설정
     final appBarColor = isDark ? AppColors.primaryDark : AppColors.primary;
-    final bottomColor = isDark ? AppColors.backgroundDark : AppColors.white;
+    final bottomColor = isDark ? AppColors.backgroundDark : AppColors.signBackground;
     final patternCircleColor = isDark ? AppColors.secondaryDark : AppColors.secondary;
     final patternBorderColor = isDark ? AppColors.primaryDark : AppColors.primary;
+    final bodyBorderColor = isDark ? AppColors.grey600 : AppColors.signBorder;
 
     return Scaffold(
       body: Column(
@@ -115,7 +116,21 @@ class CollapsingAppBarScaffold extends StatelessWidget {
                 SliverToBoxAdapter(
                   child: Padding(
                     padding: EdgeInsets.only(top: showPattern ? _patternHeight / 2 : 0),
-                    child: body,
+                    child: Container(
+                      margin: const EdgeInsets.all(12),
+                      decoration: BoxDecoration(
+                        color: isDark ? AppColors.surfaceDark : AppColors.white,
+                        border: Border.all(
+                          color: bodyBorderColor,
+                          width: 3,
+                        ),
+                        borderRadius: BorderRadius.circular(4),
+                      ),
+                      child: ClipRRect(
+                        borderRadius: BorderRadius.circular(2),
+                        child: body,
+                      ),
+                    ),
                   ),
                 ),
               ],

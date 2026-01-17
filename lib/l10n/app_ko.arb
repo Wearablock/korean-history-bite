@@ -77,6 +77,7 @@
   "termsAndPolicies": "약관 및 정책",
   "termsOfService": "이용약관",
   "privacyPolicy": "개인정보 처리방침",
+  "support": "고객 지원",
   "data": "데이터",
   "resetStudyRecords": "학습 기록 초기화",
   "resetStudyRecordsDesc": "모든 학습 기록을 삭제합니다",
@@ -96,6 +97,9 @@
   "customSetting": "직접 설정",
   "theme": "테마",
   "selectTheme": "테마 선택",
+  "themeSystem": "시스템 설정",
+  "themeLight": "라이트 모드",
+  "themeDark": "다크 모드",
 
   "studyComplete": "학습 완료",
   "goodJob": "수고하셨습니다",
@@ -186,6 +190,10 @@
   "dailyNotification": "매일 정해진 시간에 알림",
   "notificationOff": "알림 꺼짐",
   "notificationTime": "알림 시간",
+  "notificationChannelName": "학습 리마인더",
+  "notificationChannelDesc": "매일 학습 시간을 알려드립니다",
+  "notificationTitle": "한국사 한입",
+  "notificationBody": "오늘의 학습을 시작할 시간이에요!",
   "selectNotificationTime": "알림 시간 선택",
   "amTime": "오전 {hour}:{minute}",
   "@amTime": {
@@ -203,6 +211,17 @@
   },
 
   "wrongAnswersComingSoon": "오답노트 화면 (구현 예정)",
+  "noWrongAnswers": "틀린 문제가 없어요!",
+  "noWrongAnswersDesc": "꾸준히 학습하며 실력을 쌓아가고 있네요.\n앞으로도 화이팅!",
+  "wrongCount": "{count}회 틀림",
+  "@wrongCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "correctAnswer": "정답",
+  "yourAnswer": "내가 고른 답",
+  "explanation": "해설",
 
   "nextQuestion": "다음 문제",
   "sessionComplete": "오늘의 학습 완료!",
