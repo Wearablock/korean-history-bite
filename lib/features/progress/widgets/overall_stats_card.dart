@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:korean_history_bite/l10n/app_localizations.dart';
 import '../../../core/theme/app_colors.dart';
 import '../../../core/utils/formatters.dart';
 import '../../../data/providers/study_providers.dart';
@@ -11,6 +12,7 @@ class OverallStatsCard extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    final l10n = AppLocalizations.of(context)!;
     final summaryAsync = ref.watch(overallSummaryProvider);
 
     return Card(
@@ -21,7 +23,7 @@ class OverallStatsCard extends ConsumerWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
-              '전체 학습 통계',
+              l10n.overallStudyStats,
               style: Theme.of(context).textTheme.titleLarge?.copyWith(
                     fontWeight: FontWeight.bold,
                   ),
@@ -34,32 +36,32 @@ class OverallStatsCard extends ConsumerWidget {
                   child: CircularProgressIndicator(),
                 ),
               ),
-              error: (e, _) => Text('오류: $e'),
+              error: (e, _) => Text(l10n.error(e.toString())),
               data: (summary) => Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
                   _StatItem(
                     icon: Icons.quiz_outlined,
-                    label: '총 학습',
-                    value: '${summary['totalQuestions']}문제',
+                    label: l10n.totalStudy,
+                    value: l10n.questionsCount(summary['totalQuestions'] as int),
                     color: AppColors.info,
                   ),
                   _StatItem(
                     icon: Icons.check_circle_outline,
-                    label: '정답률',
+                    label: l10n.accuracyRate,
                     value:
                         '${((summary['averageAccuracy'] as double) * 100).toInt()}%',
                     color: AppColors.correct,
                   ),
                   _StatItem(
                     icon: Icons.calendar_today_outlined,
-                    label: '학습일',
-                    value: '${summary['totalDays']}일',
+                    label: l10n.studyDays,
+                    value: l10n.daysCount(summary['totalDays'] as int),
                     color: AppColors.secondary,
                   ),
                   _StatItem(
                     icon: Icons.timer_outlined,
-                    label: '학습시간',
+                    label: l10n.studyTime,
                     value: Formatters.formatDuration(summary['totalStudyTime'] as int),
                     color: AppColors.accent,
                   ),

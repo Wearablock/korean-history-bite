@@ -1,5 +1,6 @@
 // lib/data/providers/database_providers.dart
 
+import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../database/app_database.dart';
 import '../database/daos/study_records_dao.dart';
@@ -40,6 +41,25 @@ final dailyStatsDaoProvider = Provider<DailyStatsDao>((ref) {
 final userSettingsDaoProvider = Provider<UserSettingsDao>((ref) {
   final db = ref.watch(appDatabaseProvider);
   return db.userSettingsDao;
+});
+
+// ============================================================
+// 테마 설정 Provider
+// ============================================================
+
+/// 테마 모드 Provider (앱 전역에서 사용)
+final themeModeProvider = FutureProvider<ThemeMode>((ref) async {
+  final dao = ref.watch(userSettingsDaoProvider);
+  final modeString = await dao.getThemeMode();
+
+  switch (modeString) {
+    case 'light':
+      return ThemeMode.light;
+    case 'dark':
+      return ThemeMode.dark;
+    default:
+      return ThemeMode.system;
+  }
 });
 
 // ============================================================

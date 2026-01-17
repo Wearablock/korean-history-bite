@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:korean_history_bite/l10n/app_localizations.dart';
 import '../../../core/theme/app_colors.dart';
 import '../../../data/models/chapter.dart';
 import '../../../data/providers/chapter_providers.dart';
@@ -21,25 +22,26 @@ class TheoryCard extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    final l10n = AppLocalizations.of(context)!;
     final locale = ref.watch(currentLocaleProvider);
     final imagesAsync = ref.watch(imagesByIdsProvider(chapter.images));
 
     return Column(
       children: [
         // 헤더
-        const Padding(
-          padding: EdgeInsets.all(16),
+        Padding(
+          padding: const EdgeInsets.all(16),
           child: Row(
             children: [
-              Icon(
+              const Icon(
                 Icons.menu_book,
                 color: AppColors.secondary,
                 size: 24,
               ),
-              SizedBox(width: 8),
+              const SizedBox(width: 8),
               Text(
-                '이론 학습',
-                style: TextStyle(
+                l10n.theoryLearning,
+                style: const TextStyle(
                   fontSize: 16,
                   fontWeight: FontWeight.w600,
                   color: AppColors.secondary,
@@ -120,9 +122,9 @@ class TheoryCard extends ConsumerWidget {
                   borderRadius: BorderRadius.circular(12),
                 ),
               ),
-              child: const Text(
-                '학습 완료',
-                style: TextStyle(
+              child: Text(
+                l10n.learningComplete,
+                style: const TextStyle(
                   fontSize: 18,
                   fontWeight: FontWeight.w600,
                 ),

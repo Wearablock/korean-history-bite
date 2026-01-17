@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:korean_history_bite/l10n/app_localizations.dart';
 import '../../core/config/setting_keys.dart';
 import '../../data/providers/database_providers.dart';
 
@@ -28,6 +29,7 @@ class _DailyGoalOnboardingScreenState
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
+    final l10n = AppLocalizations.of(context)!;
 
     return Scaffold(
       body: SafeArea(
@@ -49,7 +51,7 @@ class _DailyGoalOnboardingScreenState
 
               // 제목
               Text(
-                '환영합니다!',
+                l10n.welcome,
                 style: theme.textTheme.headlineMedium?.copyWith(
                   fontWeight: FontWeight.bold,
                 ),
@@ -60,7 +62,7 @@ class _DailyGoalOnboardingScreenState
 
               // 설명
               Text(
-                '하루에 몇 챕터를 공부할까요?',
+                l10n.howManyChapters,
                 style: theme.textTheme.titleMedium?.copyWith(
                   color: theme.colorScheme.onSurfaceVariant,
                 ),
@@ -70,7 +72,7 @@ class _DailyGoalOnboardingScreenState
               const SizedBox(height: 8),
 
               Text(
-                '나중에 설정에서 변경할 수 있어요',
+                l10n.canChangeInSettings,
                 style: theme.textTheme.bodyMedium?.copyWith(
                   color: theme.colorScheme.outline,
                 ),
@@ -91,7 +93,7 @@ class _DailyGoalOnboardingScreenState
                             _selectedChapterCount == option.chapterCount;
                         return _buildOptionTile(
                           title: option.label,
-                          subtitle: _getOptionDescription(option.chapterCount),
+                          subtitle: _getOptionDescription(option.chapterCount, l10n),
                           isSelected: isSelected,
                           onTap: () {
                             setState(() {
@@ -106,8 +108,8 @@ class _DailyGoalOnboardingScreenState
 
                       // 커스텀 옵션
                       _buildOptionTile(
-                        title: '직접 설정',
-                        subtitle: _isCustom ? '$_selectedChapterCount챕터' : null,
+                        title: l10n.customSetting,
+                        subtitle: _isCustom ? l10n.chaptersUnit(_selectedChapterCount) : null,
                         isSelected: _isCustom,
                         onTap: () {
                           setState(() {
@@ -129,7 +131,7 @@ class _DailyGoalOnboardingScreenState
                                   min: 1,
                                   max: 5,
                                   divisions: 4,
-                                  label: '$_selectedChapterCount챕터',
+                                  label: l10n.chaptersUnit(_selectedChapterCount),
                                   onChanged: (value) {
                                     setState(() {
                                       _selectedChapterCount = value.round();
@@ -164,9 +166,9 @@ class _DailyGoalOnboardingScreenState
                           color: Colors.white,
                         ),
                       )
-                    : const Text(
-                        '시작하기',
-                        style: TextStyle(fontSize: 18),
+                    : Text(
+                        l10n.start,
+                        style: const TextStyle(fontSize: 18),
                       ),
               ),
 
@@ -205,20 +207,22 @@ class _DailyGoalOnboardingScreenState
     );
   }
 
-  String _getOptionDescription(int chapterCount) {
+  String _getOptionDescription(int chapterCount, AppLocalizations l10n) {
     switch (chapterCount) {
       case 1:
-        return '가볍게 시작하기';
+        return l10n.lightStart;
       case 2:
-        return '적당한 학습량';
+        return l10n.moderateAmount;
       case 3:
-        return '집중 학습';
+        return l10n.intensiveStudy;
       default:
         return '';
     }
   }
 
   Future<void> _saveAndContinue() async {
+    final l10n = AppLocalizations.of(context)!;
+
     setState(() {
       _isSaving = true;
     });
@@ -240,7 +244,7 @@ class _DailyGoalOnboardingScreenState
     } catch (e) {
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: Text('설정 저장 중 오류가 발생했습니다: $e')),
+          SnackBar(content: Text(l10n.settingsSaveError(e.toString()))),
         );
       }
     } finally {

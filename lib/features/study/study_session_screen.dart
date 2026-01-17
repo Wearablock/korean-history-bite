@@ -2,7 +2,9 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:korean_history_bite/l10n/app_localizations.dart';
 import '../../core/widgets/traditional_sign_title.dart';
+import '../../data/models/study_session.dart';
 import '../../data/providers/chapter_providers.dart';
 import 'controllers/study_session_controller.dart';
 import 'study_result_screen.dart';
@@ -41,13 +43,14 @@ class _StudySessionScreenState extends ConsumerState<StudySessionScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!;
     final state = ref.watch(studySessionControllerProvider);
 
     return PopScope(
       canPop: state.status != StudySessionStatus.inProgress,
       onPopInvokedWithResult: (didPop, result) async {
         if (!didPop && state.status == StudySessionStatus.inProgress) {
-          final shouldExit = await _showExitConfirmDialog();
+          final shouldExit = await _showExitConfirmDialog(l10n);
           if (shouldExit == true && mounted) {
             ref.read(studySessionControllerProvider.notifier).cancelSession();
             Navigator.pop(context);
@@ -59,11 +62,11 @@ class _StudySessionScreenState extends ConsumerState<StudySessionScreen> {
           toolbarHeight: 72,
           title: Padding(
             padding: const EdgeInsets.symmetric(vertical: 8),
-            child: TraditionalSignTitle(title: state.appBarTitle),
+            child: TraditionalSignTitle(title: _getLocalizedPhaseTitle(state.currentPhase, l10n)),
           ),
           leading: IconButton(
             icon: const Icon(Icons.close),
-            onPressed: () => _handleClose(state),
+            onPressed: () => _handleClose(state, l10n),
           ),
           actions: [
             if (state.status == StudySessionStatus.inProgress)
@@ -81,12 +84,12 @@ class _StudySessionScreenState extends ConsumerState<StudySessionScreen> {
               ),
           ],
         ),
-        body: _buildBody(state),
+        body: _buildBody(state, l10n),
       ),
     );
   }
 
-  Widget _buildBody(StudySessionState state) {
+  Widget _buildBody(StudySessionState state, AppLocalizations l10n) {
     switch (state.status) {
       case StudySessionStatus.initial:
       case StudySessionStatus.loading:
@@ -106,7 +109,7 @@ class _StudySessionScreenState extends ConsumerState<StudySessionScreen> {
                 ),
                 const SizedBox(height: 16),
                 Text(
-                  '오류가 발생했습니다',
+                  l10n.errorOccurred,
                   style: Theme.of(context).textTheme.titleLarge,
                 ),
                 const SizedBox(height: 8),
@@ -122,7 +125,7 @@ class _StudySessionScreenState extends ConsumerState<StudySessionScreen> {
                         .read(studySessionControllerProvider.notifier)
                         .startSession();
                   },
-                  child: const Text('다시 시도'),
+                  child: Text(l10n.retry),
                 ),
               ],
             ),
@@ -153,7 +156,7 @@ class _StudySessionScreenState extends ConsumerState<StudySessionScreen> {
             SessionProgressBar(progress: state.progress),
             Expanded(
               child: state.isTheory
-                  ? _buildTheoryContent(state)
+                  ? _buildTheoryContent(state, l10n)
                   : _buildQuizContent(state),
             ),
           ],
@@ -161,7 +164,7 @@ class _StudySessionScreenState extends ConsumerState<StudySessionScreen> {
     }
   }
 
-  Widget _buildTheoryContent(StudySessionState state) {
+  Widget _buildTheoryContent(StudySessionState state, AppLocalizations l10n) {
     final chapterId = state.currentItem?.chapterId;
     if (chapterId == null) return const SizedBox.shrink();
 
@@ -169,10 +172,10 @@ class _StudySessionScreenState extends ConsumerState<StudySessionScreen> {
 
     return chapterAsync.when(
       loading: () => const Center(child: CircularProgressIndicator()),
-      error: (error, _) => Center(child: Text('오류: $error')),
+      error: (error, _) => Center(child: Text(l10n.error(error.toString()))),
       data: (chapter) {
         if (chapter == null) {
-          return const Center(child: Text('챕터를 찾을 수 없습니다.'));
+          return Center(child: Text(l10n.chapterNotFound));
         }
         return TheoryCard(
           chapter: chapter,
@@ -207,35 +210,49 @@ class _StudySessionScreenState extends ConsumerState<StudySessionScreen> {
     );
   }
 
-  Future<bool?> _showExitConfirmDialog() {
+  Future<bool?> _showExitConfirmDialog(AppLocalizations l10n) {
     return showDialog<bool>(
       context: context,
       builder: (context) => AlertDialog(
-        title: const Text('학습 중단'),
-        content: const Text('학습을 중단하시겠습니까?\n현재까지의 진행 상황은 저장됩니다.'),
+        title: Text(l10n.stopStudy),
+        content: Text(l10n.stopStudyConfirm),
         actions: [
           TextButton(
             onPressed: () => Navigator.pop(context, false),
-            child: const Text('계속 학습'),
+            child: Text(l10n.continueStudyButton),
           ),
           TextButton(
             onPressed: () => Navigator.pop(context, true),
-            child: const Text('중단'),
+            child: Text(l10n.stop),
           ),
         ],
       ),
     );
   }
 
-  void _handleClose(StudySessionState state) async {
+  void _handleClose(StudySessionState state, AppLocalizations l10n) async {
     if (state.status == StudySessionStatus.inProgress) {
-      final shouldExit = await _showExitConfirmDialog();
+      final shouldExit = await _showExitConfirmDialog(l10n);
       if (shouldExit == true) {
         ref.read(studySessionControllerProvider.notifier).cancelSession();
         if (mounted) Navigator.pop(context);
       }
     } else {
       Navigator.pop(context);
+    }
+  }
+
+  /// 세션 단계에 따른 로컬라이즈된 제목 반환
+  String _getLocalizedPhaseTitle(SessionPhase phase, AppLocalizations l10n) {
+    switch (phase) {
+      case SessionPhase.wrongReview:
+        return l10n.wrongReview;
+      case SessionPhase.spacedReview:
+        return l10n.review;
+      case SessionPhase.newLearning:
+        return l10n.newLearning;
+      case SessionPhase.completed:
+        return l10n.studyComplete;
     }
   }
 }

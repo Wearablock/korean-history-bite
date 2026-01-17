@@ -1,6 +1,8 @@
 // lib/features/main/main_shell.dart
 
 import 'package:flutter/material.dart';
+import 'package:korean_history_bite/l10n/app_localizations.dart';
+import '../../core/widgets/banner_ad_widget.dart';
 import '../home/home_screen.dart';
 import '../progress/progress_screen.dart';
 import '../wrong_answers/wrong_answers_screen.dart';
@@ -25,10 +27,20 @@ class _MainShellState extends State<MainShell> {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!;
+
     return Scaffold(
-      body: IndexedStack(
-        index: _currentIndex,
-        children: _screens,
+      body: Column(
+        children: [
+          Expanded(
+            child: IndexedStack(
+              index: _currentIndex,
+              children: _screens,
+            ),
+          ),
+          // 배너 광고 (네비바 위)
+          const BannerAdWidget(),
+        ],
       ),
       bottomNavigationBar: NavigationBar(
         selectedIndex: _currentIndex,
@@ -37,26 +49,26 @@ class _MainShellState extends State<MainShell> {
             _currentIndex = index;
           });
         },
-        destinations: const [
+        destinations: [
           NavigationDestination(
-            icon: Icon(Icons.home_outlined),
-            selectedIcon: Icon(Icons.home),
-            label: '홈',
+            icon: const Icon(Icons.home_outlined),
+            selectedIcon: const Icon(Icons.home),
+            label: l10n.home,
           ),
           NavigationDestination(
-            icon: Icon(Icons.bar_chart_outlined),
-            selectedIcon: Icon(Icons.bar_chart),
-            label: '진행률',
+            icon: const Icon(Icons.bar_chart_outlined),
+            selectedIcon: const Icon(Icons.bar_chart),
+            label: l10n.progress,
           ),
           NavigationDestination(
-            icon: Icon(Icons.error_outline),
-            selectedIcon: Icon(Icons.error),
-            label: '오답노트',
+            icon: const Icon(Icons.error_outline),
+            selectedIcon: const Icon(Icons.error),
+            label: l10n.wrongAnswers,
           ),
           NavigationDestination(
-            icon: Icon(Icons.settings_outlined),
-            selectedIcon: Icon(Icons.settings),
-            label: '설정',
+            icon: const Icon(Icons.settings_outlined),
+            selectedIcon: const Icon(Icons.settings),
+            label: l10n.settings,
           ),
         ],
       ),

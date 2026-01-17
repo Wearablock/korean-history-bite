@@ -1,6 +1,7 @@
 // lib/features/wrong_answers/wrong_answers_screen.dart
 
 import 'package:flutter/material.dart';
+import 'package:korean_history_bite/l10n/app_localizations.dart';
 import '../../core/widgets/collapsing_app_bar_scaffold.dart';
 
 class WrongAnswersScreen extends StatelessWidget {
@@ -8,10 +9,12 @@ class WrongAnswersScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const CollapsingAppBarScaffold(
-      title: '오답노트',
+    final l10n = AppLocalizations.of(context)!;
+
+    return CollapsingAppBarScaffold(
+      title: l10n.wrongAnswers,
       body: Center(
-        child: Text('오답노트 화면 (구현 예정)'),
+        child: Text(l10n.wrongAnswersComingSoon),
       ),
     );
   }

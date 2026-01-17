@@ -1,6 +1,7 @@
 // lib/features/home/widgets/review_alert_card.dart
 
 import 'package:flutter/material.dart';
+import 'package:korean_history_bite/l10n/app_localizations.dart';
 import '../../../core/theme/app_colors.dart';
 
 /// 복습 알림 카드
@@ -17,6 +18,8 @@ class ReviewAlertCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!;
+
     return Card(
       color: const Color(0xFFFFF3E0), // 따뜻한 오렌지 배경
       shape: RoundedRectangleBorder(
@@ -55,9 +58,9 @@ class ReviewAlertCard extends StatelessWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const Text(
-                      '복습할 문제가 있어요!',
-                      style: TextStyle(
+                    Text(
+                      l10n.reviewAvailable,
+                      style: const TextStyle(
                         fontSize: 16,
                         fontWeight: FontWeight.w600,
                         color: AppColors.secondaryDark,
@@ -65,7 +68,7 @@ class ReviewAlertCard extends StatelessWidget {
                     ),
                     const SizedBox(height: 4),
                     Text(
-                      '$count개의 문제가 복습을 기다려요',
+                      l10n.reviewWaiting(count),
                       style: const TextStyle(
                         fontSize: 14,
                         color: AppColors.textPrimaryLight,

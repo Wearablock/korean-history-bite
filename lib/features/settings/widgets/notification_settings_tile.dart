@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:korean_history_bite/l10n/app_localizations.dart';
 import '../../../data/providers/notification_providers.dart';
 
 /// 알림 설정 타일 위젯
@@ -10,6 +11,7 @@ class NotificationSettingsTile extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    final l10n = AppLocalizations.of(context)!;
     final enabledAsync = ref.watch(notificationEnabledProvider);
     final timeAsync = ref.watch(notificationTimeProvider);
     final settingsState = ref.watch(notificationSettingsNotifierProvider);
@@ -19,10 +21,10 @@ class NotificationSettingsTile extends ConsumerWidget {
       children: [
         // 알림 ON/OFF 스위치
         enabledAsync.when(
-          loading: () => const ListTile(
-            leading: Icon(Icons.notifications_outlined),
-            title: Text('학습 알림'),
-            trailing: SizedBox(
+          loading: () => ListTile(
+            leading: const Icon(Icons.notifications_outlined),
+            title: Text(l10n.studyNotification),
+            trailing: const SizedBox(
               width: 24,
               height: 24,
               child: CircularProgressIndicator(strokeWidth: 2),
@@ -30,9 +32,9 @@ class NotificationSettingsTile extends ConsumerWidget {
           ),
           error: (e, _) => ListTile(
             leading: const Icon(Icons.notifications_outlined),
-            title: const Text('학습 알림'),
+            title: Text(l10n.studyNotification),
             subtitle: Text(
-              '오류: $e',
+              l10n.error(e.toString()),
               style: TextStyle(color: Theme.of(context).colorScheme.error),
             ),
           ),
@@ -43,8 +45,8 @@ class NotificationSettingsTile extends ConsumerWidget {
                   : Icons.notifications_outlined,
               color: enabled ? Theme.of(context).colorScheme.primary : null,
             ),
-            title: const Text('학습 알림'),
-            subtitle: Text(enabled ? '매일 정해진 시간에 알림' : '알림 꺼짐'),
+            title: Text(l10n.studyNotification),
+            subtitle: Text(enabled ? l10n.dailyNotification : l10n.notificationOff),
             value: enabled,
             onChanged: settingsState.isLoading
                 ? null
@@ -62,10 +64,10 @@ class NotificationSettingsTile extends ConsumerWidget {
             if (!enabled) return const SizedBox.shrink();
 
             return timeAsync.when(
-              loading: () => const ListTile(
-                leading: SizedBox(width: 24),
-                title: Text('알림 시간'),
-                trailing: SizedBox(
+              loading: () => ListTile(
+                leading: const SizedBox(width: 24),
+                title: Text(l10n.notificationTime),
+                trailing: const SizedBox(
                   width: 24,
                   height: 24,
                   child: CircularProgressIndicator(strokeWidth: 2),
@@ -73,20 +75,20 @@ class NotificationSettingsTile extends ConsumerWidget {
               ),
               error: (e, _) => ListTile(
                 leading: const SizedBox(width: 24),
-                title: const Text('알림 시간'),
+                title: Text(l10n.notificationTime),
                 subtitle: Text(
-                  '오류: $e',
+                  l10n.error(e.toString()),
                   style: TextStyle(color: Theme.of(context).colorScheme.error),
                 ),
               ),
               data: (time) => ListTile(
                 leading: const SizedBox(width: 24), // 인덴트
-                title: const Text('알림 시간'),
+                title: Text(l10n.notificationTime),
                 trailing: Row(
                   mainAxisSize: MainAxisSize.min,
                   children: [
                     Text(
-                      _formatTime(time),
+                      _formatTime(time, l10n),
                       style: Theme.of(context).textTheme.bodyLarge?.copyWith(
                             color: Theme.of(context).colorScheme.primary,
                             fontWeight: FontWeight.w500,
@@ -98,7 +100,7 @@ class NotificationSettingsTile extends ConsumerWidget {
                 ),
                 onTap: settingsState.isLoading
                     ? null
-                    : () => _showTimePicker(context, ref, time),
+                    : () => _showTimePicker(context, ref, time, l10n),
               ),
             );
           },
@@ -144,18 +146,18 @@ class NotificationSettingsTile extends ConsumerWidget {
   }
 
   /// 시간 포맷팅
-  String _formatTime(TimeOfDay time) {
+  String _formatTime(TimeOfDay time, AppLocalizations l10n) {
     final hour = time.hour;
     final minute = time.minute.toString().padLeft(2, '0');
 
     if (hour == 0) {
-      return '오전 12:$minute';
+      return l10n.amTime(12, minute);
     } else if (hour < 12) {
-      return '오전 $hour:$minute';
+      return l10n.amTime(hour, minute);
     } else if (hour == 12) {
-      return '오후 12:$minute';
+      return l10n.pmTime(12, minute);
     } else {
-      return '오후 ${hour - 12}:$minute';
+      return l10n.pmTime(hour - 12, minute);
     }
   }
 
@@ -164,13 +166,14 @@ class NotificationSettingsTile extends ConsumerWidget {
     BuildContext context,
     WidgetRef ref,
     TimeOfDay currentTime,
+    AppLocalizations l10n,
   ) async {
     final selectedTime = await showTimePicker(
       context: context,
       initialTime: currentTime,
-      helpText: '알림 시간 선택',
-      cancelText: '취소',
-      confirmText: '확인',
+      helpText: l10n.selectNotificationTime,
+      cancelText: l10n.cancel,
+      confirmText: l10n.confirm,
       builder: (context, child) {
         return MediaQuery(
           data: MediaQuery.of(context).copyWith(alwaysUse24HourFormat: false),

@@ -2,71 +2,190 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:korean_history_bite/l10n/app_localizations.dart';
+import 'package:url_launcher/url_launcher.dart';
 import '../../core/config/setting_keys.dart';
+import '../../core/theme/app_colors.dart';
 import '../../core/widgets/collapsing_app_bar_scaffold.dart';
 import '../../data/providers/database_providers.dart';
+import '../../data/providers/study_providers.dart';
 import 'widgets/notification_settings_tile.dart';
+import 'widgets/premium_tile.dart';
 
 class SettingsScreen extends ConsumerWidget {
   const SettingsScreen({super.key});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    final l10n = AppLocalizations.of(context)!;
+
     return CollapsingAppBarScaffold(
-      title: '설정',
-      body: Column(
-        children: [
+      title: l10n.settings,
+      body: Padding(
+        padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+        child: Column(
+          children: [
+          // === 프리미엄 섹션 ===
+          _buildSectionCard(
+            context,
+            title: l10n.premium,
+            icon: Icons.workspace_premium_outlined,
+            children: const [
+              PremiumTile(),
+            ],
+          ),
+
+          const SizedBox(height: 12),
+
           // === 학습 섹션 ===
-          _buildSectionHeader(context, '학습'),
-          _DailyGoalTile(),
-          const Divider(height: 1),
+          _buildSectionCard(
+            context,
+            title: l10n.study,
+            icon: Icons.school_outlined,
+            children: [
+              _DailyGoalTile(),
+            ],
+          ),
+
+          const SizedBox(height: 12),
 
           // === 알림 섹션 ===
-          _buildSectionHeader(context, '알림'),
-          const NotificationSettingsTile(),
-          const Divider(height: 1),
+          _buildSectionCard(
+            context,
+            title: l10n.notifications,
+            icon: Icons.notifications_outlined,
+            children: const [
+              NotificationSettingsTile(),
+            ],
+          ),
+
+          const SizedBox(height: 12),
 
           // === 앱 설정 섹션 ===
-          _buildSectionHeader(context, '앱 설정'),
-          _ThemeModeTile(),
-          const Divider(height: 1),
+          _buildSectionCard(
+            context,
+            title: l10n.appSettings,
+            icon: Icons.tune_outlined,
+            children: [
+              _ThemeModeTile(),
+            ],
+          ),
+
+          const SizedBox(height: 12),
 
           // === 정보 섹션 ===
-          _buildSectionHeader(context, '정보'),
-          _buildInfoTile(
+          _buildSectionCard(
             context,
+            title: l10n.info,
             icon: Icons.info_outline,
-            title: '앱 버전',
-            trailing: const Text('1.0.0'),
+            children: [
+              _buildInfoTile(
+                context,
+                icon: Icons.verified_outlined,
+                title: l10n.appVersion,
+                value: '1.0.0',
+              ),
+            ],
           ),
-          const Divider(height: 1),
+
+          const SizedBox(height: 12),
+
+          // === 약관 섹션 ===
+          _buildSectionCard(
+            context,
+            title: l10n.termsAndPolicies,
+            icon: Icons.description_outlined,
+            children: [
+              _buildLinkTile(
+                context,
+                icon: Icons.article_outlined,
+                title: l10n.termsOfService,
+                onTap: () => _openUrl(context, 'https://example.com/terms'),
+              ),
+              _buildLinkTile(
+                context,
+                icon: Icons.privacy_tip_outlined,
+                title: l10n.privacyPolicy,
+                onTap: () => _openUrl(context, 'https://example.com/privacy'),
+              ),
+            ],
+          ),
+
+          const SizedBox(height: 12),
 
           // === 데이터 섹션 ===
-          _buildSectionHeader(context, '데이터'),
-          _buildActionTile(
+          _buildSectionCard(
             context,
-            icon: Icons.refresh,
-            title: '학습 기록 초기화',
-            subtitle: '모든 학습 기록을 삭제합니다',
-            onTap: () => _showResetConfirmDialog(context, ref),
-            isDestructive: true,
+            title: l10n.data,
+            icon: Icons.storage_outlined,
+            children: [
+              _buildActionTile(
+                context,
+                icon: Icons.refresh,
+                title: l10n.resetStudyRecords,
+                subtitle: l10n.resetStudyRecordsDesc,
+                onTap: () => _showResetConfirmDialog(context, ref),
+                isDestructive: true,
+              ),
+            ],
           ),
 
           const SizedBox(height: 32),
-        ],
+          ],
+        ),
       ),
     );
   }
 
-  Widget _buildSectionHeader(BuildContext context, String title) {
-    return Padding(
-      padding: const EdgeInsets.fromLTRB(16, 24, 16, 8),
-      child: Text(
-        title,
-        style: Theme.of(context).textTheme.titleSmall?.copyWith(
-              color: Theme.of(context).colorScheme.primary,
-              fontWeight: FontWeight.bold,
+  Widget _buildSectionCard(
+    BuildContext context, {
+    required String title,
+    required IconData icon,
+    required List<Widget> children,
+  }) {
+    return Card(
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          // 섹션 헤더
+          Padding(
+            padding: const EdgeInsets.fromLTRB(16, 16, 16, 8),
+            child: Row(
+              children: [
+                Icon(
+                  icon,
+                  size: 20,
+                  color: AppColors.secondary,
+                ),
+                const SizedBox(width: 8),
+                Text(
+                  title,
+                  style: Theme.of(context).textTheme.titleSmall?.copyWith(
+                        color: AppColors.secondary,
+                        fontWeight: FontWeight.bold,
+                      ),
+                ),
+              ],
             ),
+          ),
+
+          // 구분선
+          const Divider(height: 1),
+
+          // 설정 항목들
+          ...children.asMap().entries.map((entry) {
+            final index = entry.key;
+            final child = entry.value;
+            final isLast = index == children.length - 1;
+
+            return Column(
+              children: [
+                child,
+                if (!isLast) const Divider(height: 1, indent: 56),
+              ],
+            );
+          }),
+        ],
       ),
     );
   }
@@ -75,12 +194,17 @@ class SettingsScreen extends ConsumerWidget {
     BuildContext context, {
     required IconData icon,
     required String title,
-    required Widget trailing,
+    required String value,
   }) {
     return ListTile(
-      leading: Icon(icon),
+      leading: Icon(icon, color: AppColors.textSecondaryLight),
       title: Text(title),
-      trailing: trailing,
+      trailing: Text(
+        value,
+        style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+              color: AppColors.textSecondaryLight,
+            ),
+      ),
     );
   }
 
@@ -92,47 +216,113 @@ class SettingsScreen extends ConsumerWidget {
     required VoidCallback onTap,
     bool isDestructive = false,
   }) {
-    final color = isDestructive ? Theme.of(context).colorScheme.error : null;
+    final color = isDestructive ? AppColors.wrong : null;
 
     return ListTile(
       leading: Icon(icon, color: color),
       title: Text(title, style: TextStyle(color: color)),
-      subtitle: subtitle != null ? Text(subtitle) : null,
-      trailing: const Icon(Icons.chevron_right),
+      subtitle: subtitle != null
+          ? Text(
+              subtitle,
+              style: TextStyle(
+                color: isDestructive
+                    ? color?.withValues(alpha: 0.7)
+                    : AppColors.textSecondaryLight,
+              ),
+            )
+          : null,
+      trailing: Icon(Icons.chevron_right, color: color),
       onTap: onTap,
     );
   }
 
+  Widget _buildLinkTile(
+    BuildContext context, {
+    required IconData icon,
+    required String title,
+    required VoidCallback onTap,
+  }) {
+    return ListTile(
+      leading: Icon(icon, color: AppColors.textSecondaryLight),
+      title: Text(title),
+      trailing: const Icon(
+        Icons.open_in_new,
+        size: 18,
+        color: AppColors.textSecondaryLight,
+      ),
+      onTap: onTap,
+    );
+  }
+
+  Future<void> _openUrl(BuildContext context, String url) async {
+    final l10n = AppLocalizations.of(context)!;
+    final uri = Uri.parse(url);
+    try {
+      if (await canLaunchUrl(uri)) {
+        await launchUrl(uri, mode: LaunchMode.externalApplication);
+      } else {
+        if (context.mounted) {
+          ScaffoldMessenger.of(context).showSnackBar(
+            SnackBar(content: Text(l10n.cannotOpenLink)),
+          );
+        }
+      }
+    } catch (e) {
+      if (context.mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(content: Text(l10n.cannotOpenLink)),
+        );
+      }
+    }
+  }
+
   Future<void> _showResetConfirmDialog(
       BuildContext context, WidgetRef ref) async {
+    final l10n = AppLocalizations.of(context)!;
+
     final confirmed = await showDialog<bool>(
       context: context,
       builder: (context) => AlertDialog(
-        title: const Text('학습 기록 초기화'),
-        content: const Text(
-          '모든 학습 기록이 삭제됩니다.\n이 작업은 되돌릴 수 없습니다.',
-        ),
+        title: Text(l10n.resetStudyRecords),
+        content: Text(l10n.resetStudyRecordsConfirm),
         actions: [
           TextButton(
             onPressed: () => Navigator.pop(context, false),
-            child: const Text('취소'),
+            child: Text(l10n.cancel),
           ),
           TextButton(
             onPressed: () => Navigator.pop(context, true),
             style: TextButton.styleFrom(
-              foregroundColor: Theme.of(context).colorScheme.error,
+              foregroundColor: AppColors.wrong,
             ),
-            child: const Text('초기화'),
+            child: Text(l10n.reset),
           ),
         ],
       ),
     );
 
     if (confirmed == true && context.mounted) {
-      // TODO: 학습 기록 초기화 로직 구현
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('학습 기록이 초기화되었습니다.')),
-      );
+      final db = ref.read(appDatabaseProvider);
+      await db.studyRecordsDao.deleteAll();
+      await db.dailyStatsDao.deleteAll();
+      await db.wrongAnswersDao.deleteAll();
+
+      // 관련 Provider 갱신 (홈 화면 등 UI 업데이트)
+      ref.invalidate(appStatsProvider);
+      ref.invalidate(todaySummaryProvider);
+      ref.invalidate(overallProgressProvider);
+      ref.invalidate(eraProgressProvider);
+      ref.invalidate(reviewDueCountProvider);
+      ref.invalidate(masteredQuestionsProvider);
+      ref.invalidate(masteredCountProvider);
+      ref.invalidate(todayStatsProvider);
+      ref.invalidate(currentStreakProvider);
+
+      if (context.mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(content: Text(l10n.studyRecordsReset)),
+        );
+      }
     }
   }
 }
@@ -141,6 +331,7 @@ class SettingsScreen extends ConsumerWidget {
 class _DailyGoalTile extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    final l10n = AppLocalizations.of(context)!;
     final dao = ref.watch(userSettingsDaoProvider);
 
     return FutureBuilder<int>(
@@ -149,20 +340,27 @@ class _DailyGoalTile extends ConsumerWidget {
         final currentGoal = snapshot.data ?? 1;
 
         return ListTile(
-          leading: const Icon(Icons.flag_outlined),
-          title: const Text('일일 학습량'),
+          leading: const Icon(Icons.flag_outlined, color: AppColors.textSecondaryLight),
+          title: Text(l10n.dailyStudyAmount),
           trailing: Row(
             mainAxisSize: MainAxisSize.min,
             children: [
-              Text(
-                '$currentGoal챕터',
-                style: Theme.of(context).textTheme.bodyLarge?.copyWith(
-                      color: Theme.of(context).colorScheme.primary,
-                      fontWeight: FontWeight.w500,
-                    ),
+              Container(
+                padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 4),
+                decoration: BoxDecoration(
+                  color: AppColors.secondary.withValues(alpha: 0.1),
+                  borderRadius: BorderRadius.circular(12),
+                ),
+                child: Text(
+                  l10n.chaptersUnit(currentGoal),
+                  style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                        color: AppColors.secondary,
+                        fontWeight: FontWeight.w600,
+                      ),
+                ),
               ),
               const SizedBox(width: 8),
-              const Icon(Icons.chevron_right),
+              const Icon(Icons.chevron_right, color: AppColors.textSecondaryLight),
             ],
           ),
           onTap: () => _showDailyGoalDialog(context, ref, currentGoal),
@@ -214,8 +412,10 @@ class _DailyGoalDialogState extends State<_DailyGoalDialog> {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!;
+
     return AlertDialog(
-      title: const Text('일일 학습량'),
+      title: Text(l10n.dailyStudyAmount),
       content: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
@@ -239,7 +439,7 @@ class _DailyGoalDialogState extends State<_DailyGoalDialog> {
           RadioListTile<int>(
             value: -1, // 커스텀 식별자
             groupValue: _isCustom ? -1 : _selectedGoal,
-            title: const Text('직접 설정'),
+            title: Text(l10n.customSetting),
             dense: true,
             onChanged: (value) {
               setState(() {
@@ -265,7 +465,7 @@ class _DailyGoalDialogState extends State<_DailyGoalDialog> {
                       min: 1,
                       max: 5,
                       divisions: 4,
-                      label: '$_selectedGoal챕터',
+                      label: l10n.chaptersUnit(_selectedGoal),
                       onChanged: (value) {
                         setState(() {
                           _selectedGoal = value.round();
@@ -278,7 +478,7 @@ class _DailyGoalDialogState extends State<_DailyGoalDialog> {
               ),
             ),
             Text(
-              '$_selectedGoal챕터',
+              l10n.chaptersUnit(_selectedGoal),
               style: Theme.of(context).textTheme.titleMedium?.copyWith(
                     color: Theme.of(context).colorScheme.primary,
                     fontWeight: FontWeight.bold,
@@ -290,11 +490,11 @@ class _DailyGoalDialogState extends State<_DailyGoalDialog> {
       actions: [
         TextButton(
           onPressed: () => Navigator.pop(context),
-          child: const Text('취소'),
+          child: Text(l10n.cancel),
         ),
         FilledButton(
           onPressed: () => Navigator.pop(context, _selectedGoal),
-          child: const Text('확인'),
+          child: Text(l10n.confirm),
         ),
       ],
     );
@@ -305,6 +505,7 @@ class _DailyGoalDialogState extends State<_DailyGoalDialog> {
 class _ThemeModeTile extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    final l10n = AppLocalizations.of(context)!;
     final dao = ref.watch(userSettingsDaoProvider);
 
     return FutureBuilder<String>(
@@ -314,20 +515,30 @@ class _ThemeModeTile extends ConsumerWidget {
         final option = ThemeModeOption.fromValue(currentMode);
 
         return ListTile(
-          leading: Icon(_getThemeIcon(currentMode)),
-          title: const Text('테마'),
+          leading: Icon(
+            _getThemeIcon(currentMode),
+            color: AppColors.textSecondaryLight,
+          ),
+          title: Text(l10n.theme),
           trailing: Row(
             mainAxisSize: MainAxisSize.min,
             children: [
-              Text(
-                option.label,
-                style: Theme.of(context).textTheme.bodyLarge?.copyWith(
-                      color: Theme.of(context).colorScheme.primary,
-                      fontWeight: FontWeight.w500,
-                    ),
+              Container(
+                padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 4),
+                decoration: BoxDecoration(
+                  color: AppColors.secondary.withValues(alpha: 0.1),
+                  borderRadius: BorderRadius.circular(12),
+                ),
+                child: Text(
+                  option.label,
+                  style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                        color: AppColors.secondary,
+                        fontWeight: FontWeight.w600,
+                      ),
+                ),
               ),
               const SizedBox(width: 8),
-              const Icon(Icons.chevron_right),
+              const Icon(Icons.chevron_right, color: AppColors.textSecondaryLight),
             ],
           ),
           onTap: () => _showThemeModeDialog(context, ref, currentMode),
@@ -339,11 +550,11 @@ class _ThemeModeTile extends ConsumerWidget {
   IconData _getThemeIcon(String mode) {
     switch (mode) {
       case 'light':
-        return Icons.light_mode;
+        return Icons.light_mode_outlined;
       case 'dark':
-        return Icons.dark_mode;
+        return Icons.dark_mode_outlined;
       default:
-        return Icons.brightness_auto;
+        return Icons.brightness_auto_outlined;
     }
   }
 
@@ -352,10 +563,12 @@ class _ThemeModeTile extends ConsumerWidget {
     WidgetRef ref,
     String currentMode,
   ) async {
+    final l10n = AppLocalizations.of(context)!;
+
     final selectedMode = await showDialog<String>(
       context: context,
       builder: (context) => SimpleDialog(
-        title: const Text('테마 선택'),
+        title: Text(l10n.selectTheme),
         children: ThemeModeOption.values.map((option) {
           final isSelected = option.value == currentMode;
           return RadioListTile<String>(
@@ -373,8 +586,9 @@ class _ThemeModeTile extends ConsumerWidget {
     if (selectedMode != null && selectedMode != currentMode) {
       final dao = ref.read(userSettingsDaoProvider);
       await dao.setThemeMode(selectedMode);
-      // 강제 리빌드
+      // 강제 리빌드 (테마 모드 프로바이더도 갱신)
       ref.invalidate(userSettingsDaoProvider);
+      ref.invalidate(themeModeProvider);
     }
   }
 }

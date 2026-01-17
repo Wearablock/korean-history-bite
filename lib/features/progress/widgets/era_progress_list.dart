@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:korean_history_bite/l10n/app_localizations.dart';
 import '../../../core/theme/app_colors.dart';
 import '../../../data/providers/chapter_providers.dart';
 import '../../../data/providers/era_providers.dart';
@@ -13,6 +14,7 @@ class EraProgressList extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    final l10n = AppLocalizations.of(context)!;
     final erasAsync = ref.watch(erasProvider);
     final progressAsync = ref.watch(eraProgressProvider);
     final locale = ref.watch(currentLocaleProvider);
@@ -28,10 +30,10 @@ class EraProgressList extends ConsumerWidget {
     }
 
     if (erasAsync.hasError) {
-      return Center(child: Text('오류: ${erasAsync.error}'));
+      return Center(child: Text(l10n.error(erasAsync.error.toString())));
     }
     if (progressAsync.hasError) {
-      return Center(child: Text('오류: ${progressAsync.error}'));
+      return Center(child: Text(l10n.error(progressAsync.error.toString())));
     }
 
     final eras = erasAsync.value!;
@@ -46,6 +48,7 @@ class EraProgressList extends ConsumerWidget {
             eraName: eras[i].getName(locale),
             eraColor: eras[i].themeColor ?? _getDefaultEraColor(eras[i].id),
             progress: progressMap[eras[i].id],
+            l10n: l10n,
           ),
         ],
       ],
@@ -73,11 +76,13 @@ class EraProgressTile extends StatelessWidget {
   final String eraName;
   final Color eraColor;
   final EraProgress? progress;
+  final AppLocalizations l10n;
 
   const EraProgressTile({
     super.key,
     required this.eraName,
     required this.eraColor,
+    required this.l10n,
     this.progress,
   });
 
@@ -165,7 +170,7 @@ class EraProgressTile extends StatelessWidget {
 
           // 상세 정보
           Text(
-            '학습 $studied/$total · 완전습득 $mastered',
+            l10n.studiedStats(studied, total, mastered),
             style: Theme.of(context).textTheme.bodySmall?.copyWith(
                   color: Colors.grey.shade600,
                 ),

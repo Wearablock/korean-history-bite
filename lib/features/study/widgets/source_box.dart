@@ -1,6 +1,7 @@
 // lib/features/study/widgets/source_box.dart
 
 import 'package:flutter/material.dart';
+import 'package:korean_history_bite/l10n/app_localizations.dart';
 import '../../../core/theme/app_colors.dart';
 
 class SourceBox extends StatelessWidget {
@@ -13,6 +14,8 @@ class SourceBox extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!;
+
     return Container(
       width: double.infinity,
       padding: const EdgeInsets.all(16),
@@ -24,17 +27,17 @@ class SourceBox extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const Row(
+          Row(
             children: [
-              Icon(
+              const Icon(
                 Icons.history_edu,
                 size: 18,
                 color: AppColors.secondary,
               ),
-              SizedBox(width: 6),
+              const SizedBox(width: 6),
               Text(
-                '사료',
-                style: TextStyle(
+                l10n.sourceDocument,
+                style: const TextStyle(
                   fontSize: 13,
                   fontWeight: FontWeight.w600,
                   color: AppColors.secondary,

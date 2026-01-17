@@ -1,6 +1,7 @@
 // lib/features/home/widgets/study_cta_button.dart
 
 import 'package:flutter/material.dart';
+import 'package:korean_history_bite/l10n/app_localizations.dart';
 import '../../../core/theme/app_colors.dart';
 import '../../../services/study_service.dart';
 
@@ -16,7 +17,8 @@ class StudyCtaButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final buttonText = _getButtonText();
+    final l10n = AppLocalizations.of(context)!;
+    final buttonText = _getButtonText(l10n);
     final isAllCompleted = summary.allChaptersCompleted;
 
     return SizedBox(
@@ -40,13 +42,13 @@ class StudyCtaButton extends StatelessWidget {
     );
   }
 
-  String _getButtonText() {
+  String _getButtonText(AppLocalizations l10n) {
     if (summary.allChaptersCompleted) {
-      return '복습하기';
+      return l10n.startReview;
     }
     if (summary.questionsStudied > 0) {
-      return '학습 이어하기';
+      return l10n.continueStudy;
     }
-    return '학습 시작하기';
+    return l10n.startStudy;
   }
 }

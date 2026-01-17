@@ -294,7 +294,7 @@ class DailyStatsDao extends DatabaseAccessor<AppDatabase>
   /// 오늘 목표 달성률
   Future<double> getTodayProgress() async {
     final stat = await getToday();
-    if (stat == null) return 0.0;
+    if (stat == null || stat.dailyGoal == 0) return 0.0;
     return stat.questionsStudied / stat.dailyGoal;
   }
 

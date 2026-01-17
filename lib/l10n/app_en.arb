@@ -1,17 +1,45 @@
 {
   "@@locale": "en",
   "appTitle": "Korean History Bite",
+
   "home": "Home",
   "progress": "Progress",
   "settings": "Settings",
-  "startStudy": "Start Today's Study",
-  "continueStudy": "Continue Study",
-  "todayStudy": "Today's Study",
-  "questionsCompleted": "{completed} of {total} questions completed",
-  "@questionsCompleted": {
+  "wrongAnswers": "Wrong Answers",
+
+  "error": "Error: {message}",
+  "@error": {
     "placeholders": {
-      "completed": {"type": "int"},
-      "total": {"type": "int"}
+      "message": {"type": "String"}
+    }
+  },
+
+  "startStudy": "Start Study",
+  "continueStudy": "Continue Study",
+  "startReview": "Start Review",
+
+  "todayStudy": "Today's Study",
+  "allChaptersCompleted": "All Chapters Completed!",
+  "reviewEncouragement": "Keep practicing with reviews to master the content.",
+  "nextChapter": "Next Chapter",
+  "questionsCount": "{count} questions",
+  "@questionsCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "todayQuestionsCompleted": "{count} questions completed today",
+  "@todayQuestionsCompleted": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "todayGoal": "Today's Goal",
+  "chaptersProgress": "{studied}/{goal} chapters",
+  "@chaptersProgress": {
+    "placeholders": {
+      "studied": {"type": "int"},
+      "goal": {"type": "int"}
     }
   },
   "streakDays": "{days} day streak!",
@@ -20,19 +48,217 @@
       "days": {"type": "int"}
     }
   },
-  "wrongReview": "Wrong Review",
-  "spacedReview": "Review",
-  "newLearning": "New",
-  "correct": "Correct",
-  "wrong": "Wrong",
-  "nextQuestion": "Next Question",
-  "sessionComplete": "Today's Study Complete!",
-  "accuracyRate": "Accuracy: {rate}%",
-  "@accuracyRate": {
+
+  "overallProgress": "Overall Progress",
+  "mastered": "Mastered",
+  "studiedOnce": "Studied Once",
+  "totalQuestions": "Total {count} questions",
+  "@totalQuestions": {
     "placeholders": {
-      "rate": {"type": "int"}
+      "count": {"type": "int"}
+    }
+  },
+  "questionsMastered": "{count} / {total} questions mastered",
+  "@questionsMastered": {
+    "placeholders": {
+      "count": {"type": "int"},
+      "total": {"type": "int"}
+    }
+  },
+
+  "study": "Study",
+  "notifications": "Notifications",
+  "appSettings": "App Settings",
+  "info": "Info",
+  "appVersion": "App Version",
+  "termsAndPolicies": "Terms & Policies",
+  "termsOfService": "Terms of Service",
+  "privacyPolicy": "Privacy Policy",
+  "data": "Data",
+  "resetStudyRecords": "Reset Study Records",
+  "resetStudyRecordsDesc": "Delete all study records",
+  "resetStudyRecordsConfirm": "All study records will be deleted.\nThis action cannot be undone.",
+  "cannotOpenLink": "Cannot open link.",
+  "cancel": "Cancel",
+  "reset": "Reset",
+  "confirm": "Confirm",
+  "studyRecordsReset": "Study records have been reset.",
+  "dailyStudyAmount": "Daily Study Amount",
+  "chaptersUnit": "{count} chapters",
+  "@chaptersUnit": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "customSetting": "Custom",
+  "theme": "Theme",
+  "selectTheme": "Select Theme",
+
+  "studyComplete": "Study Complete",
+  "goodJob": "Good job!",
+  "continueReviewWithCount": "Continue Review ({count} remaining)",
+  "@continueReviewWithCount": {
+    "placeholders": {
+      "count": {"type": "int"}
     }
   },
   "goHome": "Go Home",
-  "additionalStudy": "Study More"
+  "additionalStudy": "Study More",
+  "todayStudyCompleteMessage": "Today's study is complete!",
+  "excellentComplete": "Excellent!\nYou've completed today's study!",
+  "goodComplete": "Great job!\nYou've completed today's study!",
+  "accuracy": "Accuracy",
+  "correct": "Correct",
+  "wrong": "Wrong",
+  "timeSpent": "Time Spent",
+  "phaseResults": "Results by Phase",
+  "wrongReview": "Wrong Review",
+  "spacedReview": "Spaced Review",
+  "newLearning": "New Learning",
+
+  "errorOccurred": "An error occurred",
+  "retry": "Retry",
+  "stopStudy": "Stop Study",
+  "stopStudyConfirm": "Do you want to stop studying?\nYour progress will be saved.",
+  "continueStudyButton": "Continue",
+  "stop": "Stop",
+  "chapterNotFound": "Chapter not found.",
+
+  "eraProgress": "Progress by Era",
+
+  "reviewAvailable": "You have questions to review!",
+  "reviewWaiting": "{count} questions waiting for review",
+  "@reviewWaiting": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+
+  "welcome": "Welcome!",
+  "howManyChapters": "How many chapters per day?",
+  "canChangeInSettings": "You can change this in settings later",
+  "start": "Start",
+  "lightStart": "Light start",
+  "moderateAmount": "Moderate amount",
+  "intensiveStudy": "Intensive study",
+  "settingsSaveError": "Error saving settings: {error}",
+  "@settingsSaveError": {
+    "placeholders": {
+      "error": {"type": "String"}
+    }
+  },
+
+  "overallStudyStats": "Overall Study Stats",
+  "totalStudy": "Total Study",
+  "accuracyRate": "Accuracy",
+  "studyDays": "Study Days",
+  "daysCount": "{count} days",
+  "@daysCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "studyTime": "Study Time",
+
+  "streakRecord": "Streak Record",
+  "currentStreak": "Current Streak",
+  "longestStreak": "Longest Streak",
+  "newRecord": "You're setting a new record!",
+  "weekStreak": "One week streak! Amazing!",
+  "keepItUp": "Keep it up!",
+  "todayComplete": "Today's study complete!",
+
+  "levelDistribution": "Level Distribution",
+  "fullyMastered": "Mastered",
+  "reviewLevel4": "Review Level 4",
+  "reviewLevel3": "Review Level 3",
+  "reviewLevel2": "Review Level 2",
+  "reviewLevel1": "Review Level 1",
+  "wrongOrReset": "Wrong/Reset",
+  "unknown": "Unknown",
+  "unstudied": "Unstudied",
+  "learning": "Learning",
+
+  "studyNotification": "Study Notification",
+  "dailyNotification": "Daily reminder at set time",
+  "notificationOff": "Notification off",
+  "notificationTime": "Notification Time",
+  "selectNotificationTime": "Select notification time",
+  "amTime": "{hour}:{minute} AM",
+  "@amTime": {
+    "placeholders": {
+      "hour": {"type": "int"},
+      "minute": {"type": "String"}
+    }
+  },
+  "pmTime": "{hour}:{minute} PM",
+  "@pmTime": {
+    "placeholders": {
+      "hour": {"type": "int"},
+      "minute": {"type": "String"}
+    }
+  },
+
+  "wrongAnswersComingSoon": "Wrong answers (Coming soon)",
+
+  "nextQuestion": "Next Question",
+  "sessionComplete": "Today's Study Complete!",
+
+  "questionsCompleted": "{completed} of {total} questions completed",
+  "@questionsCompleted": {
+    "placeholders": {
+      "completed": {"type": "int"},
+      "total": {"type": "int"}
+    }
+  },
+
+  "eraPrehistoric": "Prehistoric",
+  "eraGojoseon": "Gojoseon",
+  "eraThreeKingdoms": "Three Kingdoms",
+  "eraNorthSouthStates": "North-South States",
+  "eraGoryeo": "Goryeo",
+  "eraJoseonEarly": "Early Joseon",
+  "eraJoseonLate": "Late Joseon",
+  "eraModern": "Modern Era",
+  "eraJapaneseOccupation": "Japanese Occupation",
+  "eraContemporary": "Contemporary",
+
+  "studied": "Studied",
+  "masteredShort": "Mastered",
+  "studiedStats": "Studied {studied}/{total} · Mastered {mastered}",
+  "@studiedStats": {
+    "placeholders": {
+      "studied": {"type": "int"},
+      "total": {"type": "int"},
+      "mastered": {"type": "int"}
+    }
+  },
+
+  "questionNotFound": "Question not found.",
+  "review": "Review",
+
+  "theoryLearning": "Theory",
+  "learningComplete": "Complete",
+  "correctAnswer": "Correct!",
+  "wrongAnswer": "Incorrect",
+  "quiz": "Quiz",
+  "showHint": "Show Hint",
+  "imageLoadFailed": "Failed to load image",
+  "sourceDocument": "Source",
+  "newShort": "New",
+  "itemCount": "{count}",
+  "@itemCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+
+  "premium": "Premium",
+  "removeAds": "Remove Ads",
+  "premiumActivated": "Premium activated",
+  "purchase": "Purchase",
+  "restorePurchases": "Restore Purchases",
+  "purchaseFailed": "Purchase failed",
+  "purchasesRestored": "Purchases restored",
+  "productNotAvailable": "Product not available"
 }

@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:korean_history_bite/l10n/app_localizations.dart';
 import '../../../core/config/constants.dart';
 import '../../../core/theme/app_colors.dart';
 import '../../../data/providers/study_providers.dart';
@@ -11,6 +12,7 @@ class LevelDistributionCard extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    final l10n = AppLocalizations.of(context)!;
     final distributionAsync = ref.watch(levelDistributionProvider);
     final totalQuestionsAsync = ref.watch(availableQuestionCountProvider);
 
@@ -26,7 +28,7 @@ class LevelDistributionCard extends ConsumerWidget {
                 const Icon(Icons.bar_chart, color: AppColors.accent),
                 const SizedBox(width: 8),
                 Text(
-                  '학습 수준 분포',
+                  l10n.levelDistribution,
                   style: Theme.of(context).textTheme.titleLarge?.copyWith(
                         fontWeight: FontWeight.bold,
                       ),
@@ -41,7 +43,7 @@ class LevelDistributionCard extends ConsumerWidget {
                   child: CircularProgressIndicator(),
                 ),
               ),
-              error: (e, _) => Text('오류: $e'),
+              error: (e, _) => Text(l10n.error(e.toString())),
               data: (distribution) => totalQuestionsAsync.when(
                 loading: () => const Center(
                   child: Padding(
@@ -49,7 +51,7 @@ class LevelDistributionCard extends ConsumerWidget {
                     child: CircularProgressIndicator(),
                   ),
                 ),
-                error: (e, _) => Text('오류: $e'),
+                error: (e, _) => Text(l10n.error(e.toString())),
                 data: (totalQuestions) {
                   // 학습된 문제 총계
                   final studiedTotal = distribution.values
@@ -73,7 +75,7 @@ class LevelDistributionCard extends ConsumerWidget {
                           count: distribution[level] ?? 0,
                           maxCount: maxCount == 0 ? 1 : maxCount,
                           color: _getLevelColor(level),
-                          label: _getLevelLabel(level),
+                          label: _getLevelLabel(level, l10n),
                         ),
 
                       const Divider(height: 24),
@@ -84,13 +86,13 @@ class LevelDistributionCard extends ConsumerWidget {
                         count: unstudied,
                         maxCount: maxCount == 0 ? 1 : maxCount,
                         color: Colors.grey.shade400,
-                        label: '미학습',
+                        label: l10n.unstudied,
                       ),
 
                       const SizedBox(height: 16),
 
                       // 범례
-                      _buildLegend(context, studiedTotal, totalQuestions),
+                      _buildLegend(context, studiedTotal, totalQuestions, l10n),
                     ],
                   );
                 },
@@ -102,7 +104,7 @@ class LevelDistributionCard extends ConsumerWidget {
     );
   }
 
-  Widget _buildLegend(BuildContext context, int studied, int total) {
+  Widget _buildLegend(BuildContext context, int studied, int total, AppLocalizations l10n) {
     return Container(
       padding: const EdgeInsets.all(12),
       decoration: BoxDecoration(
@@ -112,17 +114,17 @@ class LevelDistributionCard extends ConsumerWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: [
-          const _LegendItem(
+          _LegendItem(
             color: AppColors.progressMastered,
-            label: '완전습득',
+            label: l10n.fullyMastered,
           ),
-          const _LegendItem(
+          _LegendItem(
             color: AppColors.progressLearning,
-            label: '학습중',
+            label: l10n.learning,
           ),
-          const _LegendItem(
+          _LegendItem(
             color: AppColors.wrong,
-            label: '오답',
+            label: l10n.wrong,
           ),
           Text(
             '$studied / $total',
@@ -154,22 +156,22 @@ class LevelDistributionCard extends ConsumerWidget {
     }
   }
 
-  String _getLevelLabel(int level) {
+  String _getLevelLabel(int level, AppLocalizations l10n) {
     switch (level) {
       case 5:
-        return '완전습득';
+        return l10n.fullyMastered;
       case 4:
-        return '복습 4단계';
+        return l10n.reviewLevel4;
       case 3:
-        return '복습 3단계';
+        return l10n.reviewLevel3;
       case 2:
-        return '복습 2단계';
+        return l10n.reviewLevel2;
       case 1:
-        return '복습 1단계';
+        return l10n.reviewLevel1;
       case 0:
-        return '오답/리셋';
+        return l10n.wrongOrReset;
       default:
-        return '알 수 없음';
+        return l10n.unknown;
     }
   }
 }

@@ -8,7 +8,8 @@ final chapterRepositoryProvider = Provider<ChapterRepository>((ref) {
   return ChapterRepository();
 });
 
-/// 현재 로케일 (settings에서 관리, 여기선 기본값)
+/// 현재 로케일 (앱 시작 시 LocaleInitializer에서 업데이트됨)
+/// 지원 로케일: ko, en (추후 확장 가능)
 final currentLocaleProvider = StateProvider<String>((ref) => 'ko');
 
 /// 전체 챕터 목록 (현재 로케일 기준)

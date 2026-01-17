@@ -4,10 +4,12 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_riverpod/legacy.dart';
 import '../../../data/models/study_session.dart';
 import '../../../data/models/question.dart';
+import '../../../data/providers/premium_provider.dart';
 import '../../../data/providers/study_providers.dart';
 import '../../../data/providers/question_providers.dart';
 import '../../../data/providers/chapter_providers.dart';
 import '../../../data/providers/database_providers.dart';
+import '../../../services/ad_service.dart';
 
 /// 세션 상태
 enum StudySessionStatus {
@@ -67,20 +69,6 @@ class StudySessionState {
   /// 현재 단계
   SessionPhase get currentPhase =>
       session?.currentPhase ?? SessionPhase.completed;
-
-  /// AppBar 제목
-  String get appBarTitle {
-    switch (currentPhase) {
-      case SessionPhase.wrongReview:
-        return '오답 복습';
-      case SessionPhase.spacedReview:
-        return '복습';
-      case SessionPhase.newLearning:
-        return '신규 학습';
-      case SessionPhase.completed:
-        return '학습 완료';
-    }
-  }
 }
 
 /// 세션 컨트롤러
@@ -182,6 +170,12 @@ class StudySessionController extends StateNotifier<StudySessionState> {
     final session = state.session;
     if (session == null) return;
 
+    // 이론 완료 후 퀴즈로 넘어가기 전 전면 광고 표시 (프리미엄 사용자 제외)
+    final isPremium = _ref.read(isPremiumProvider);
+    if (!isPremium) {
+      await AdService().showInterstitialAd();
+    }
+
     session.moveNext();
 
     if (session.isCompleted) {
@@ -275,10 +269,9 @@ class StudySessionController extends StateNotifier<StudySessionState> {
   }
 
   /// 진행률 관련 providers 무효화
+  /// appStatsProvider를 invalidate하면 파생 providers(todaySummary, overallProgress, eraProgress)도 갱신됨
   void _invalidateProgressProviders() {
-    _ref.invalidate(todaySummaryProvider);
-    _ref.invalidate(overallProgressProvider);
-    _ref.invalidate(eraProgressProvider);
+    _ref.invalidate(appStatsProvider);
   }
 
   /// 세션 중단

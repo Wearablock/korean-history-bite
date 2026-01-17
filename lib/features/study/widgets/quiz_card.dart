@@ -1,13 +1,17 @@
 // lib/features/study/widgets/quiz_card.dart
 
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:korean_history_bite/l10n/app_localizations.dart';
 import '../../../core/theme/app_colors.dart';
 import '../../../data/models/question.dart';
+import '../../../data/providers/premium_provider.dart';
+import '../../../services/ad_service.dart';
 import 'option_button.dart';
 import 'question_header.dart';
 import 'explanation_card.dart';
 
-class QuizCard extends StatefulWidget {
+class QuizCard extends ConsumerStatefulWidget {
   final Question question;
   final VoidCallback onNext;
   final void Function(bool isCorrect, String? selectedAnswer) onAnswered;
@@ -20,10 +24,10 @@ class QuizCard extends StatefulWidget {
   });
 
   @override
-  State<QuizCard> createState() => _QuizCardState();
+  ConsumerState<QuizCard> createState() => _QuizCardState();
 }
 
-class _QuizCardState extends State<QuizCard> {
+class _QuizCardState extends ConsumerState<QuizCard> {
   late List<String> _shuffledOptions;
   int? _selectedIndex;
   bool _showFeedback = false;
@@ -48,10 +52,32 @@ class _QuizCardState extends State<QuizCard> {
     }
   }
 
-  void _onHintTap() {
-    setState(() {
-      _showHint = true;
-    });
+  Future<void> _onHintTap() async {
+    final isPremium = ref.read(isPremiumProvider);
+    final adService = AdService();
+
+    if (isPremium) {
+      // 프리미엄 사용자는 바로 힌트 표시
+      setState(() {
+        _showHint = true;
+      });
+    } else if (adService.isRewardedAdReady) {
+      // 보상형 광고 시청 후 힌트 표시
+      await adService.showRewardedAd(
+        onRewarded: (reward) {
+          if (mounted) {
+            setState(() {
+              _showHint = true;
+            });
+          }
+        },
+      );
+    } else {
+      // 광고가 준비되지 않은 경우 그냥 힌트 표시
+      setState(() {
+        _showHint = true;
+      });
+    }
   }
 
   int get _correctIndex => _shuffledOptions.indexOf(widget.question.correct);
@@ -88,22 +114,24 @@ class _QuizCardState extends State<QuizCard> {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!;
+
     return Column(
       children: [
         // 퀴즈 헤더
-        const Padding(
-          padding: EdgeInsets.all(16),
+        Padding(
+          padding: const EdgeInsets.all(16),
           child: Row(
             children: [
-              Icon(
+              const Icon(
                 Icons.quiz,
                 color: AppColors.secondary,
                 size: 24,
               ),
-              SizedBox(width: 8),
+              const SizedBox(width: 8),
               Text(
-                '퀴즈',
-                style: TextStyle(
+                l10n.quiz,
+                style: const TextStyle(
                   fontSize: 16,
                   fontWeight: FontWeight.w600,
                   color: AppColors.secondary,
@@ -136,9 +164,9 @@ class _QuizCardState extends State<QuizCard> {
                           size: 18,
                           color: AppColors.secondary,
                         ),
-                        label: const Text(
-                          '힌트 보기',
-                          style: TextStyle(
+                        label: Text(
+                          l10n.showHint,
+                          style: const TextStyle(
                             color: AppColors.secondary,
                             fontWeight: FontWeight.w500,
                           ),
@@ -233,9 +261,9 @@ class _QuizCardState extends State<QuizCard> {
                     borderRadius: BorderRadius.circular(12),
                   ),
                 ),
-                child: const Text(
-                  '다음 문제',
-                  style: TextStyle(
+                child: Text(
+                  l10n.nextQuestion,
+                  style: const TextStyle(
                     fontSize: 18,
                     fontWeight: FontWeight.w600,
                   ),

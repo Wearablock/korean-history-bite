@@ -3,6 +3,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:korean_history_bite/l10n/app_localizations.dart';
 import '../../core/widgets/collapsing_app_bar_scaffold.dart';
 import '../../data/providers/study_providers.dart';
 import '../../services/study_service.dart';
@@ -18,10 +19,11 @@ class HomeScreen extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    final l10n = AppLocalizations.of(context)!;
     final todaySummaryAsync = ref.watch(todaySummaryProvider);
 
     return CollapsingAppBarScaffold(
-      title: '한국사 한입',
+      title: l10n.appTitle,
       automaticallyImplyLeading: false,
       body: todaySummaryAsync.when(
         loading: () => const SizedBox(
@@ -30,7 +32,7 @@ class HomeScreen extends ConsumerWidget {
         ),
         error: (error, stack) => SizedBox(
           height: 200,
-          child: Center(child: Text('오류: $error')),
+          child: Center(child: Text(l10n.error(error.toString()))),
         ),
         data: (summary) => _buildContent(context, ref, summary),
       ),
@@ -78,7 +80,7 @@ class HomeScreen extends ConsumerWidget {
             const Divider(),
             const SizedBox(height: 16),
             DebugPanel(
-              onRefresh: () => ref.invalidate(todaySummaryProvider),
+              onRefresh: () => ref.invalidate(appStatsProvider),
             ),
           ],
 

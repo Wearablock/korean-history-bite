@@ -1,6 +1,7 @@
 // lib/features/study/widgets/explanation_card.dart
 
 import 'package:flutter/material.dart';
+import 'package:korean_history_bite/l10n/app_localizations.dart';
 import '../../../core/theme/app_colors.dart';
 
 class ExplanationCard extends StatelessWidget {
@@ -15,6 +16,8 @@ class ExplanationCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!;
+
     return Container(
       width: double.infinity,
       padding: const EdgeInsets.all(16),
@@ -34,7 +37,7 @@ class ExplanationCard extends StatelessWidget {
               ),
               const SizedBox(width: 8),
               Text(
-                isCorrect ? '정답입니다!' : '오답입니다',
+                isCorrect ? l10n.correctAnswer : l10n.wrongAnswer,
                 style: TextStyle(
                   fontSize: 15,
                   fontWeight: FontWeight.bold,

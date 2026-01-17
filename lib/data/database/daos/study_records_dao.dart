@@ -128,8 +128,8 @@ class StudyRecordsDao extends DatabaseAccessor<AppDatabase>
     if (record == null) return;
 
     final now = DebugUtils.now; // 디버그 모드 지원
-    // 오답이어도 내일 복습하도록 설정 (같은 날 중복 복습 방지)
-    final tomorrow = now.add(const Duration(days: 1));
+    // 오답이어도 내일 자정부터 복습하도록 설정 (같은 날 중복 복습 방지)
+    final tomorrowMidnight = DateTime(now.year, now.month, now.day).add(const Duration(days: 1));
 
     await (update(studyRecords)
           ..where((t) => t.questionId.equals(questionId)))
@@ -137,15 +137,18 @@ class StudyRecordsDao extends DatabaseAccessor<AppDatabase>
       level: const Value(0), // 항상 레벨 0으로 리셋 (망각곡선 복습에서 제외)
       wrongCount: Value(record.wrongCount + 1),
       lastStudiedAt: Value(now),
-      nextReviewAt: Value(tomorrow), // 내일 복습 대상
+      nextReviewAt: Value(tomorrowMidnight), // 내일 자정부터 복습 대상
       updatedAt: Value(now),
     ));
   }
 
-  /// 다음 복습 시간 계산
+  /// 다음 복습 시간 계산 (로컬 자정 기준)
+  /// 예: 오늘 오후 3시에 정답 → 레벨1 → 내일 자정(00:00)부터 복습 가능
   DateTime _calculateNextReview(int level) {
+    final now = DebugUtils.now; // 디버그 모드 지원
     final days = StudyConstants.reviewIntervals[level.clamp(0, StudyConstants.masteryLevel)];
-    return DebugUtils.now.add(Duration(days: days)); // 디버그 모드 지원
+    // 오늘 자정 + days일 = days일 후 자정
+    return DateTime(now.year, now.month, now.day).add(Duration(days: days));
   }
 
   // ============================================================
@@ -236,5 +239,23 @@ class StudyRecordsDao extends DatabaseAccessor<AppDatabase>
 
     final records = await query.get();
     return records.length;
+  }
+
+  /// 오늘 학습한 챕터 수 (고유 챕터 ID 기준)
+  Future<int> getTodayStudiedChapterCount() async {
+    final today = DebugUtils.now; // 디버그 모드 지원
+    final startOfDay = DateTime(today.year, today.month, today.day);
+    final endOfDay = startOfDay.add(const Duration(days: 1));
+
+    final query = select(studyRecords)
+      ..where((t) =>
+          t.lastStudiedAt.isBiggerOrEqualValue(startOfDay) &
+          t.lastStudiedAt.isSmallerThanValue(endOfDay));
+
+    final records = await query.get();
+
+    // 고유한 챕터 ID 수 반환
+    final uniqueChapters = records.map((r) => r.chapterId).toSet();
+    return uniqueChapters.length;
   }
 }

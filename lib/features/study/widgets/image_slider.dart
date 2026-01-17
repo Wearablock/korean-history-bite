@@ -1,6 +1,7 @@
 // lib/features/study/widgets/image_slider.dart
 
 import 'package:flutter/material.dart';
+import 'package:korean_history_bite/l10n/app_localizations.dart';
 import '../../../core/config/constants.dart';
 import '../../../core/theme/app_colors.dart';
 import '../../../data/models/image_meta.dart';
@@ -148,19 +149,20 @@ class _ImageSliderState extends State<ImageSlider> {
         image.fullPath,
         fit: BoxFit.contain,
         errorBuilder: (context, error, stackTrace) {
-          return const Center(
+          final l10n = AppLocalizations.of(context)!;
+          return Center(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Icon(
+                const Icon(
                   Icons.image_not_supported_outlined,
                   size: 48,
                   color: AppColors.grey400,
                 ),
-                SizedBox(height: 8),
+                const SizedBox(height: 8),
                 Text(
-                  '이미지 로드 실패',
-                  style: TextStyle(
+                  l10n.imageLoadFailed,
+                  style: const TextStyle(
                     fontSize: 12,
                     color: AppColors.grey500,
                   ),

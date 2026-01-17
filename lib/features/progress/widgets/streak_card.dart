@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:korean_history_bite/l10n/app_localizations.dart';
 import '../../../core/theme/app_colors.dart';
 import '../../../data/providers/study_providers.dart';
 
@@ -10,6 +11,7 @@ class StreakCard extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    final l10n = AppLocalizations.of(context)!;
     final summaryAsync = ref.watch(overallSummaryProvider);
 
     return Card(
@@ -23,7 +25,7 @@ class StreakCard extends ConsumerWidget {
               child: CircularProgressIndicator(),
             ),
           ),
-          error: (e, _) => Text('오류: $e'),
+          error: (e, _) => Text(l10n.error(e.toString())),
           data: (summary) {
             final currentStreak = summary['currentStreak'] as int;
             final longestStreak = summary['longestStreak'] as int;
@@ -40,7 +42,7 @@ class StreakCard extends ConsumerWidget {
                     ),
                     const SizedBox(width: 8),
                     Text(
-                      '연속 학습 기록',
+                      l10n.streakRecord,
                       style: Theme.of(context).textTheme.titleLarge?.copyWith(
                             fontWeight: FontWeight.bold,
                           ),
@@ -59,7 +61,7 @@ class StreakCard extends ConsumerWidget {
                           ? AppColors.secondary
                           : Colors.grey,
                       value: currentStreak,
-                      label: '현재 스트릭',
+                      label: l10n.currentStreak,
                       isHighlighted: currentStreak > 0,
                     ),
                     Container(
@@ -71,7 +73,7 @@ class StreakCard extends ConsumerWidget {
                       icon: Icons.emoji_events,
                       iconColor: AppColors.warning,
                       value: longestStreak,
-                      label: '최장 스트릭',
+                      label: l10n.longestStreak,
                       isHighlighted: false,
                     ),
                   ],
@@ -88,7 +90,7 @@ class StreakCard extends ConsumerWidget {
                       borderRadius: BorderRadius.circular(20),
                     ),
                     child: Text(
-                      _getEncouragementMessage(currentStreak, longestStreak),
+                      _getEncouragementMessage(currentStreak, longestStreak, l10n),
                       style: const TextStyle(
                         color: AppColors.secondary,
                         fontWeight: FontWeight.w500,
@@ -104,15 +106,15 @@ class StreakCard extends ConsumerWidget {
     );
   }
 
-  String _getEncouragementMessage(int current, int longest) {
+  String _getEncouragementMessage(int current, int longest, AppLocalizations l10n) {
     if (current >= longest && current > 1) {
-      return '새로운 기록을 세우고 있어요!';
+      return l10n.newRecord;
     } else if (current >= 7) {
-      return '일주일 연속! 대단해요!';
+      return l10n.weekStreak;
     } else if (current >= 3) {
-      return '꾸준히 잘하고 있어요!';
+      return l10n.keepItUp;
     } else {
-      return '오늘도 학습 완료!';
+      return l10n.todayComplete;
     }
   }
 }
@@ -134,12 +136,14 @@ class _StreakDisplay extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!;
+
     return Column(
       children: [
         Icon(icon, color: iconColor, size: 36),
         const SizedBox(height: 8),
         Text(
-          '$value일',
+          l10n.daysCount(value),
           style: Theme.of(context).textTheme.headlineMedium?.copyWith(
                 fontWeight: FontWeight.bold,
                 color: isHighlighted ? AppColors.secondary : null,

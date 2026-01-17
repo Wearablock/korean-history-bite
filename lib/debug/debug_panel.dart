@@ -2,7 +2,6 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import '../core/config/constants.dart';
 import '../core/utils/debug_utils.dart';
 import '../core/theme/app_colors.dart';
 import '../data/providers/database_providers.dart';
@@ -246,16 +245,9 @@ class _DebugPanelState extends ConsumerState<DebugPanel> {
       final now = DebugUtils.now;
       final startOfDay = DateTime(now.year, now.month, now.day);
 
-      // 복습 대상 조회 (통합된 로직: study_records 기반)
+      // 복습 대상 조회 (DAO 메서드 사용)
+      final reviewDue = await db.studyRecordsDao.getReviewQuestions(limit: 1000);
       final allRecords = await db.studyRecordsDao.getAllRecords();
-      final reviewDue = allRecords.where((r) {
-        final nextReview = r.nextReviewAt;
-        final lastStudied = r.lastStudiedAt;
-        if (nextReview == null) return false;
-        return r.level < StudyConstants.masteryLevel &&
-            (nextReview.isBefore(now) || nextReview.isAtSameMomentAs(now)) &&
-            (lastStudied == null || lastStudied.isBefore(startOfDay));
-      }).toList();
 
       // 레벨 0 (오답 복습)과 레벨 1+ (망각곡선 복습) 분리
       final wrongReview = reviewDue.where((r) => r.level == 0).toList();
@@ -289,14 +281,9 @@ class _DebugPanelState extends ConsumerState<DebugPanel> {
       buffer.writeln('');
       buffer.writeln('--- 전체 학습 기록 (${allRecords.length}개) ---');
       for (final r in allRecords) {
-        final nextReview = r.nextReviewAt;
-        final lastStudied = r.lastStudiedAt;
-        final isDue = nextReview != null &&
-            r.level < StudyConstants.masteryLevel &&
-            (nextReview.isBefore(now) || nextReview.isAtSameMomentAs(now)) &&
-            (lastStudied == null || lastStudied.isBefore(startOfDay));
-        final nextStr = nextReview?.toString().substring(0, 19) ?? 'null';
-        final dueLabel = isDue ? (r.level == 0 ? '[WRONG_DUE]' : '[SPACED_DUE]') : '';
+        final isInReviewDue = reviewDue.any((due) => due.questionId == r.questionId);
+        final nextStr = r.nextReviewAt?.toString().substring(0, 19) ?? 'null';
+        final dueLabel = isInReviewDue ? (r.level == 0 ? '[WRONG_DUE]' : '[SPACED_DUE]') : '';
         buffer.writeln('  ${r.questionId}: lv${r.level}, next=$nextStr $dueLabel');
       }
 

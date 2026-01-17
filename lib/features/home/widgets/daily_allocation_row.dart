@@ -1,6 +1,7 @@
 // lib/features/home/widgets/daily_allocation_row.dart
 
 import 'package:flutter/material.dart';
+import 'package:korean_history_bite/l10n/app_localizations.dart';
 import '../../../core/theme/app_colors.dart';
 import '../../../core/utils/question_selector.dart';
 
@@ -14,12 +15,15 @@ class DailyAllocationRow extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!;
+
     return Row(
       children: [
         Expanded(
           child: _buildAllocationItem(
             context,
-            label: '오답 복습',
+            l10n: l10n,
+            label: l10n.wrongReview,
             count: allocation.wrongReview,
             color: AppColors.wrong,
           ),
@@ -28,7 +32,8 @@ class DailyAllocationRow extends StatelessWidget {
         Expanded(
           child: _buildAllocationItem(
             context,
-            label: '복습',
+            l10n: l10n,
+            label: l10n.review,
             count: allocation.spacedReview,
             color: AppColors.progressReview,
           ),
@@ -37,7 +42,8 @@ class DailyAllocationRow extends StatelessWidget {
         Expanded(
           child: _buildAllocationItem(
             context,
-            label: '신규',
+            l10n: l10n,
+            label: l10n.newShort,
             count: allocation.newLearning,
             color: AppColors.progressNew,
           ),
@@ -48,6 +54,7 @@ class DailyAllocationRow extends StatelessWidget {
 
   Widget _buildAllocationItem(
     BuildContext context, {
+    required AppLocalizations l10n,
     required String label,
     required int count,
     required Color color,
@@ -71,7 +78,7 @@ class DailyAllocationRow extends StatelessWidget {
           ),
           const SizedBox(height: 4),
           Text(
-            '$count개',
+            l10n.itemCount(count),
             style: TextStyle(
               fontSize: 18,
               color: color,

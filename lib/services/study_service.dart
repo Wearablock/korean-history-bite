@@ -92,14 +92,17 @@ class StudyService {
 
     if (existingRecord == null) {
       // 3a. 신규 문제: 새 레코드 생성 (레벨 1)
+      final now = DebugUtils.now;
+      // 내일 자정부터 복습 가능 (로컬 자정 기준)
+      final tomorrowMidnight = DateTime(now.year, now.month, now.day).add(const Duration(days: 1));
       await _db.studyRecordsDao.upsertRecord(StudyRecordsCompanion.insert(
         questionId: question.id,
         chapterId: question.chapterId,
         eraId: eraId,
         level: const Value(1),
         correctCount: const Value(1),
-        lastStudiedAt: Value(DebugUtils.now),
-        nextReviewAt: Value(DebugUtils.now.add(const Duration(days: 1))),
+        lastStudiedAt: Value(now),
+        nextReviewAt: Value(tomorrowMidnight),
       ));
     } else {
       // 3b. 기존 문제: 레벨 업, 다음 복습일 계산
@@ -134,16 +137,18 @@ class StudyService {
     final eraId = _getEraIdFromChapter(question.chapterId);
 
     if (existingRecord == null) {
-      // 3a. 신규 문제: 레벨 0으로 생성, 내일 복습
-      final tomorrow = DebugUtils.now.add(const Duration(days: 1));
+      // 3a. 신규 문제: 레벨 0으로 생성, 내일 자정부터 복습
+      final now = DebugUtils.now;
+      // 내일 자정부터 복습 가능 (로컬 자정 기준)
+      final tomorrowMidnight = DateTime(now.year, now.month, now.day).add(const Duration(days: 1));
       await _db.studyRecordsDao.upsertRecord(StudyRecordsCompanion.insert(
         questionId: question.id,
         chapterId: question.chapterId,
         eraId: eraId,
         level: const Value(0),
         wrongCount: const Value(1),
-        lastStudiedAt: Value(DebugUtils.now),
-        nextReviewAt: Value(tomorrow), // 내일 복습 대상 (같은 날 중복 방지)
+        lastStudiedAt: Value(now),
+        nextReviewAt: Value(tomorrowMidnight), // 내일 자정부터 복습 대상
       ));
     } else {
       // 3b. 기존 문제: 레벨 다운
@@ -210,6 +215,9 @@ class StudyService {
           _questionRepository.getTotalQuestionCount(),
           _db.studyRecordsDao.getMasteredQuestions(),
           _getNextChapterInfo(),
+          _db.userSettingsDao.getDailyGoal(),
+          _db.studyRecordsDao.getTodayStudiedChapterCount(),
+          _db.studyRecordsDao.getTotalStudiedCount(),
         ]);
 
         final todayStats = results[0] as DailyStat?;
@@ -218,6 +226,9 @@ class StudyService {
         final totalQuestionCount = results[3] as int;
         final masteredRecords = results[4] as List;
         final nextChapterInfo = results[5] as _NextChapterInfo;
+        final dailyGoalChapters = results[6] as int;
+        final todayStudiedChapters = results[7] as int;
+        final studiedCount = results[8] as int;
 
         return TodaySummary(
           questionsStudied: todayStats?.questionsStudied ?? 0,
@@ -226,9 +237,12 @@ class StudyService {
           reviewDueCount: reviewDueCount,
           totalQuestions: totalQuestionCount,
           masteredCount: masteredRecords.length,
+          studiedCount: studiedCount,
           nextChapterId: nextChapterInfo.chapterId,
           nextChapterQuestionCount: nextChapterInfo.questionCount,
           allChaptersCompleted: nextChapterInfo.allCompleted,
+          dailyGoalChapters: dailyGoalChapters,
+          todayStudiedChapters: todayStudiedChapters,
         );
       },
     );
@@ -358,12 +372,21 @@ class TodaySummary {
   final int totalQuestions;
   final int masteredCount;
 
+  /// 1회 이상 학습한 문제 수
+  final int studiedCount;
+
   /// 다음 학습할 챕터 정보
   final String? nextChapterId;
   final int nextChapterQuestionCount;
 
   /// 모든 챕터 완료 여부
   final bool allChaptersCompleted;
+
+  /// 일일 목표 (챕터 수)
+  final int dailyGoalChapters;
+
+  /// 오늘 학습한 챕터 수
+  final int todayStudiedChapters;
 
   const TodaySummary({
     required this.questionsStudied,
@@ -372,9 +395,12 @@ class TodaySummary {
     required this.reviewDueCount,
     required this.totalQuestions,
     required this.masteredCount,
+    this.studiedCount = 0,
     this.nextChapterId,
     this.nextChapterQuestionCount = 0,
     this.allChaptersCompleted = false,
+    this.dailyGoalChapters = 1,
+    this.todayStudiedChapters = 0,
   });
 
   /// 오늘의 정답률
@@ -389,12 +415,27 @@ class TodaySummary {
     return masteredCount / totalQuestions;
   }
 
+  /// 학습 진행률 (1회 이상 학습 비율)
+  double get studiedProgress {
+    if (totalQuestions == 0) return 0.0;
+    return studiedCount / totalQuestions;
+  }
+
+  /// 오늘의 학습 진행률 (일일 목표 대비)
+  double get todayProgress {
+    if (dailyGoalChapters == 0) return 0.0;
+    return (todayStudiedChapters / dailyGoalChapters).clamp(0.0, 1.0);
+  }
+
+  /// 오늘 목표 달성 여부
+  bool get isTodayGoalAchieved => todayStudiedChapters >= dailyGoalChapters;
+
   /// 학습할 챕터가 있는지
   bool get hasNextChapter => nextChapterId != null && !allChaptersCompleted;
 
   @override
   String toString() {
-    return 'TodaySummary(studied: $questionsStudied, streak: $streak, mastered: $masteredCount/$totalQuestions, nextChapter: $nextChapterId)';
+    return 'TodaySummary(studied: $questionsStudied, streak: $streak, mastered: $masteredCount/$totalQuestions, todayChapters: $todayStudiedChapters/$dailyGoalChapters, nextChapter: $nextChapterId)';
   }
 }
 

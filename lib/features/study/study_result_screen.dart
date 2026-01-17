@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:korean_history_bite/l10n/app_localizations.dart';
 import '../../core/theme/app_colors.dart';
 import '../../core/widgets/traditional_sign_title.dart';
 import '../../data/models/study_session.dart';
@@ -28,8 +29,9 @@ class _StudyResultScreenState extends ConsumerState<StudyResultScreen> {
   void initState() {
     super.initState();
     // 세션 완료 후 최신 데이터를 가져오기 위해 provider 새로고침
+    // appStatsProvider를 invalidate하면 파생된 todaySummaryProvider도 갱신됨
     WidgetsBinding.instance.addPostFrameCallback((_) {
-      ref.invalidate(todaySummaryProvider);
+      ref.invalidate(appStatsProvider);
     });
   }
 
@@ -39,12 +41,14 @@ class _StudyResultScreenState extends ConsumerState<StudyResultScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = AppLocalizations.of(context)!;
+
     return Scaffold(
       appBar: AppBar(
         toolbarHeight: 72,
-        title: const Padding(
-          padding: EdgeInsets.symmetric(vertical: 8),
-          child: TraditionalSignTitle(title: '학습 완료'),
+        title: Padding(
+          padding: const EdgeInsets.symmetric(vertical: 8),
+          child: TraditionalSignTitle(title: l10n.studyComplete),
         ),
         automaticallyImplyLeading: false,
       ),
@@ -71,7 +75,7 @@ class _StudyResultScreenState extends ConsumerState<StudyResultScreen> {
 
             // 축하 메시지
             Text(
-              _getCompletionMessage(),
+              _getCompletionMessage(l10n),
               style: Theme.of(context).textTheme.headlineSmall?.copyWith(
                     fontWeight: FontWeight.bold,
                   ),
@@ -81,7 +85,7 @@ class _StudyResultScreenState extends ConsumerState<StudyResultScreen> {
             const SizedBox(height: 8),
 
             Text(
-              '수고하셨습니다',
+              l10n.goodJob,
               style: TextStyle(
                 fontSize: 16,
                 color: Colors.grey[600],
@@ -91,31 +95,31 @@ class _StudyResultScreenState extends ConsumerState<StudyResultScreen> {
             const SizedBox(height: 32),
 
             // 결과 카드
-            _buildResultCard(context),
+            _buildResultCard(context, l10n),
 
             const SizedBox(height: 24),
 
             // 단계별 결과
-            if (_hasPhaseResults()) _buildPhaseResults(context),
+            if (_hasPhaseResults()) _buildPhaseResults(context, l10n),
 
             const SizedBox(height: 32),
 
             // 버튼 영역
-            _buildActionButtons(context),
+            _buildActionButtons(context, l10n),
           ],
         ),
       ),
     );
   }
 
-  Widget _buildActionButtons(BuildContext context) {
+  Widget _buildActionButtons(BuildContext context, AppLocalizations l10n) {
     final summaryAsync = ref.watch(todaySummaryProvider);
 
     return summaryAsync.when(
       loading: () => const SizedBox.shrink(),
       error: (_, __) => isReviewSession
-          ? _buildHomeButton(context)
-          : _buildDefaultButtons(context),
+          ? _buildHomeButton(context, l10n)
+          : _buildDefaultButtons(context, l10n),
       data: (summary) {
         final remainingReview = summary.reviewDueCount;
 
@@ -147,7 +151,7 @@ class _StudyResultScreenState extends ConsumerState<StudyResultScreen> {
                       ),
                     ),
                     child: Text(
-                      '이어서 복습하기 ($remainingReview개 남음)',
+                      l10n.continueReviewWithCount(remainingReview),
                       style: const TextStyle(
                         fontSize: 18,
                         fontWeight: FontWeight.w600,
@@ -159,22 +163,22 @@ class _StudyResultScreenState extends ConsumerState<StudyResultScreen> {
                 const SizedBox(height: 12),
 
                 // 홈으로 버튼
-                _buildHomeButton(context),
+                _buildHomeButton(context, l10n),
               ],
             );
           }
 
           // 복습 세션이고 남은 복습이 없으면 홈으로만
-          return _buildHomeButton(context);
+          return _buildHomeButton(context, l10n);
         }
 
         // 일반 학습 세션: 추가 학습하기 + 홈으로
-        return _buildDefaultButtons(context);
+        return _buildDefaultButtons(context, l10n);
       },
     );
   }
 
-  Widget _buildDefaultButtons(BuildContext context) {
+  Widget _buildDefaultButtons(BuildContext context, AppLocalizations l10n) {
     return Column(
       children: [
         // 추가 학습하기 버튼
@@ -197,9 +201,9 @@ class _StudyResultScreenState extends ConsumerState<StudyResultScreen> {
                 borderRadius: BorderRadius.circular(12),
               ),
             ),
-            child: const Text(
-              '추가 학습하기',
-              style: TextStyle(
+            child: Text(
+              l10n.additionalStudy,
+              style: const TextStyle(
                 fontSize: 18,
                 fontWeight: FontWeight.w600,
               ),
@@ -210,12 +214,12 @@ class _StudyResultScreenState extends ConsumerState<StudyResultScreen> {
         const SizedBox(height: 12),
 
         // 홈으로 버튼
-        _buildHomeButton(context),
+        _buildHomeButton(context, l10n),
       ],
     );
   }
 
-  Widget _buildHomeButton(BuildContext context) {
+  Widget _buildHomeButton(BuildContext context, AppLocalizations l10n) {
     return SizedBox(
       width: double.infinity,
       height: 56,
@@ -229,9 +233,9 @@ class _StudyResultScreenState extends ConsumerState<StudyResultScreen> {
             borderRadius: BorderRadius.circular(12),
           ),
         ),
-        child: const Text(
-          '홈으로',
-          style: TextStyle(
+        child: Text(
+          l10n.goHome,
+          style: const TextStyle(
             fontSize: 18,
             fontWeight: FontWeight.w600,
             color: AppColors.primary,
@@ -241,21 +245,21 @@ class _StudyResultScreenState extends ConsumerState<StudyResultScreen> {
     );
   }
 
-  String _getCompletionMessage() {
+  String _getCompletionMessage(AppLocalizations l10n) {
     if (session.totalQuizzes == 0) {
-      return '오늘의 학습이 완료되었어요!';
+      return l10n.todayStudyCompleteMessage;
     }
     final accuracy = session.accuracy;
     if (accuracy >= 0.9) {
-      return '훌륭해요!\n오늘의 학습을 완료했어요!';
+      return l10n.excellentComplete;
     } else if (accuracy >= 0.7) {
-      return '잘했어요!\n오늘의 학습을 완료했어요!';
+      return l10n.goodComplete;
     } else {
-      return '오늘의 학습을 완료했어요!';
+      return l10n.todayStudyCompleteMessage;
     }
   }
 
-  Widget _buildResultCard(BuildContext context) {
+  Widget _buildResultCard(BuildContext context, AppLocalizations l10n) {
     return Card(
       child: Padding(
         padding: const EdgeInsets.all(20),
@@ -284,9 +288,9 @@ class _StudyResultScreenState extends ConsumerState<StudyResultScreen> {
                   ),
                 ],
               ),
-              const Text(
-                '정답률',
-                style: TextStyle(
+              Text(
+                l10n.accuracy,
+                style: const TextStyle(
                   fontSize: 14,
                   color: Colors.grey,
                 ),
@@ -305,20 +309,20 @@ class _StudyResultScreenState extends ConsumerState<StudyResultScreen> {
                     icon: Icons.check_circle,
                     color: AppColors.correct,
                     value: '${session.correctCount}',
-                    label: '정답',
+                    label: l10n.correct,
                   ),
                   _buildStatItem(
                     icon: Icons.cancel,
                     color: AppColors.wrong,
                     value: '${session.wrongCount}',
-                    label: '오답',
+                    label: l10n.wrong,
                   ),
                 ],
                 _buildStatItem(
                   icon: Icons.timer,
                   color: AppColors.secondary,
                   value: session.durationFormatted,
-                  label: '소요 시간',
+                  label: l10n.timeSpent,
                 ),
               ],
             ),
@@ -363,16 +367,16 @@ class _StudyResultScreenState extends ConsumerState<StudyResultScreen> {
         session.newQuestionIds.isNotEmpty;
   }
 
-  Widget _buildPhaseResults(BuildContext context) {
+  Widget _buildPhaseResults(BuildContext context, AppLocalizations l10n) {
     return Card(
       child: Padding(
         padding: const EdgeInsets.all(16),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            const Text(
-              '단계별 결과',
-              style: TextStyle(
+            Text(
+              l10n.phaseResults,
+              style: const TextStyle(
                 fontSize: 16,
                 fontWeight: FontWeight.w600,
               ),
@@ -380,19 +384,19 @@ class _StudyResultScreenState extends ConsumerState<StudyResultScreen> {
             const SizedBox(height: 16),
             if (session.wrongReviewIds.isNotEmpty)
               _buildPhaseRow(
-                label: '오답 복습',
+                label: l10n.wrongReview,
                 count: session.wrongReviewQuizCount,
                 completed: session.wrongReviewCompletedCount,
               ),
             if (session.spacedReviewIds.isNotEmpty)
               _buildPhaseRow(
-                label: '망각곡선 복습',
+                label: l10n.spacedReview,
                 count: session.spacedReviewQuizCount,
                 completed: session.spacedReviewCompletedCount,
               ),
             if (session.newQuestionIds.isNotEmpty)
               _buildPhaseRow(
-                label: '신규 학습',
+                label: l10n.newLearning,
                 count: session.newLearningQuizCount,
                 completed: session.newLearningCompletedCount,
               ),

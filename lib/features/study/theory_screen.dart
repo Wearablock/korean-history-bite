@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:korean_history_bite/l10n/app_localizations.dart';
 import '../../core/widgets/traditional_sign_title.dart';
 import '../../data/providers/chapter_providers.dart';
 import 'widgets/theory_card.dart';
@@ -11,6 +12,7 @@ class TheoryScreen extends ConsumerWidget {
   final String chapterId;
   final int currentIndex;
   final int totalItems;
+  final String? title;
   final VoidCallback? onCompleted;
 
   const TheoryScreen({
@@ -18,20 +20,22 @@ class TheoryScreen extends ConsumerWidget {
     required this.chapterId,
     this.currentIndex = 1,
     this.totalItems = 1,
+    this.title,
     this.onCompleted,
   });
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    final l10n = AppLocalizations.of(context)!;
     final chapterAsync = ref.watch(chapterByIdProvider(chapterId));
     final progress = totalItems > 0 ? currentIndex / totalItems : 0.0;
 
     return Scaffold(
       appBar: AppBar(
         toolbarHeight: 72,
-        title: const Padding(
-          padding: EdgeInsets.symmetric(vertical: 8),
-          child: TraditionalSignTitle(title: '신규 학습'),
+        title: Padding(
+          padding: const EdgeInsets.symmetric(vertical: 8),
+          child: TraditionalSignTitle(title: title ?? l10n.newLearning),
         ),
         actions: [
           Padding(
@@ -58,10 +62,10 @@ class TheoryScreen extends ConsumerWidget {
           Expanded(
             child: chapterAsync.when(
               loading: () => const Center(child: CircularProgressIndicator()),
-              error: (error, _) => Center(child: Text('오류: $error')),
+              error: (error, _) => Center(child: Text(l10n.error(error.toString()))),
               data: (chapter) {
                 if (chapter == null) {
-                  return const Center(child: Text('챕터를 찾을 수 없습니다.'));
+                  return Center(child: Text(l10n.chapterNotFound));
                 }
                 return TheoryCard(
                   chapter: chapter,
