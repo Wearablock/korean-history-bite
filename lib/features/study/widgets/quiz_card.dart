@@ -115,6 +115,7 @@ class _QuizCardState extends ConsumerState<QuizCard> {
   @override
   Widget build(BuildContext context) {
     final l10n = AppLocalizations.of(context)!;
+    final isPremium = ref.watch(isPremiumProvider);
 
     return Column(
       children: [
@@ -157,25 +158,52 @@ class _QuizCardState extends ConsumerState<QuizCard> {
                 if (widget.question.hasHint && !_showFeedback) ...[
                   if (!_showHint)
                     Center(
-                      child: TextButton.icon(
+                      child: TextButton(
                         onPressed: _onHintTap,
-                        icon: const Icon(
-                          Icons.lightbulb_outline,
-                          size: 18,
-                          color: AppColors.secondary,
-                        ),
-                        label: Text(
-                          l10n.showHint,
-                          style: const TextStyle(
-                            color: AppColors.secondary,
-                            fontWeight: FontWeight.w500,
-                          ),
-                        ),
                         style: TextButton.styleFrom(
                           padding: const EdgeInsets.symmetric(
                             horizontal: 16,
                             vertical: 8,
                           ),
+                        ),
+                        child: Row(
+                          mainAxisSize: MainAxisSize.min,
+                          children: [
+                            const Icon(
+                              Icons.lightbulb_outline,
+                              size: 18,
+                              color: AppColors.secondary,
+                            ),
+                            const SizedBox(width: 6),
+                            Text(
+                              l10n.showHint,
+                              style: const TextStyle(
+                                color: AppColors.secondary,
+                                fontWeight: FontWeight.w500,
+                              ),
+                            ),
+                            if (!isPremium) ...[
+                              const SizedBox(width: 8),
+                              Container(
+                                padding: const EdgeInsets.symmetric(
+                                  horizontal: 6,
+                                  vertical: 2,
+                                ),
+                                decoration: BoxDecoration(
+                                  color: AppColors.secondary,
+                                  borderRadius: BorderRadius.circular(4),
+                                ),
+                                child: const Text(
+                                  'AD',
+                                  style: TextStyle(
+                                    fontSize: 10,
+                                    fontWeight: FontWeight.bold,
+                                    color: Colors.white,
+                                  ),
+                                ),
+                              ),
+                            ],
+                          ],
                         ),
                       ),
                     )

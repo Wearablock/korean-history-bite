@@ -282,5 +282,13 @@
   "restorePurchases": "구매 복원",
   "purchaseFailed": "구매에 실패했습니다",
   "purchasesRestored": "구매 복원이 완료되었습니다",
-  "productNotAvailable": "상품을 불러올 수 없습니다"
+  "productNotAvailable": "상품을 불러올 수 없습니다",
+
+  "oneChapter": "1챕터",
+  "twoChapters": "2챕터",
+  "threeChapters": "3챕터",
+
+  "notificationPermissionRequired": "알림 권한이 필요합니다. 설정에서 알림을 허용해주세요.",
+  "notificationSettingError": "알림 설정 중 오류가 발생했습니다.",
+  "notificationTimeSettingError": "알림 시간 설정 중 오류가 발생했습니다."
 }

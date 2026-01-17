@@ -108,7 +108,7 @@ class NotificationSettingsTile extends ConsumerWidget {
         ),
 
         // 에러 메시지 표시
-        if (settingsState.error != null)
+        if (settingsState.errorCode != null)
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
             child: Row(
@@ -121,7 +121,7 @@ class NotificationSettingsTile extends ConsumerWidget {
                 const SizedBox(width: 8),
                 Expanded(
                   child: Text(
-                    settingsState.error!,
+                    _getErrorMessage(settingsState.errorCode!, l10n),
                     style: TextStyle(
                       color: Theme.of(context).colorScheme.error,
                       fontSize: 12,
@@ -143,6 +143,18 @@ class NotificationSettingsTile extends ConsumerWidget {
           ),
       ],
     );
+  }
+
+  /// 에러 코드를 l10n 메시지로 변환
+  String _getErrorMessage(NotificationError errorCode, AppLocalizations l10n) {
+    switch (errorCode) {
+      case NotificationError.permissionRequired:
+        return l10n.notificationPermissionRequired;
+      case NotificationError.settingFailed:
+        return l10n.notificationSettingError;
+      case NotificationError.timeSettingFailed:
+        return l10n.notificationTimeSettingError;
+    }
   }
 
   /// 시간 포맷팅

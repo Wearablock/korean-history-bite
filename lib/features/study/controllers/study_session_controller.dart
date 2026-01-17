@@ -10,6 +10,7 @@ import '../../../data/providers/question_providers.dart';
 import '../../../data/providers/chapter_providers.dart';
 import '../../../data/providers/database_providers.dart';
 import '../../../services/ad_service.dart';
+import '../../wrong_answers/wrong_answers_screen.dart';
 
 /// 세션 상태
 enum StudySessionStatus {
@@ -272,6 +273,9 @@ class StudySessionController extends StateNotifier<StudySessionState> {
   /// appStatsProvider를 invalidate하면 파생 providers(todaySummary, overallProgress, eraProgress)도 갱신됨
   void _invalidateProgressProviders() {
     _ref.invalidate(appStatsProvider);
+    // 오답 노트 갱신을 위해 wrongAnswersWithQuestionsProvider도 무효화
+    final locale = _ref.read(currentLocaleProvider);
+    _ref.invalidate(wrongAnswersWithQuestionsProvider(locale));
   }
 
   /// 세션 중단

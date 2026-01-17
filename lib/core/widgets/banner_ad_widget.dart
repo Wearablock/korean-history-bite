@@ -21,7 +21,9 @@ class _BannerAdWidgetState extends ConsumerState<BannerAdWidget> {
   @override
   void initState() {
     super.initState();
-    _loadAd();
+    if (AdConfig.adsEnabled) {
+      _loadAd();
+    }
   }
 
   void _loadAd() {
@@ -55,6 +57,11 @@ class _BannerAdWidgetState extends ConsumerState<BannerAdWidget> {
 
   @override
   Widget build(BuildContext context) {
+    // 광고 비활성화 시 표시 안함
+    if (!AdConfig.adsEnabled) {
+      return const SizedBox.shrink();
+    }
+
     final isPremium = ref.watch(isPremiumProvider);
 
     // 프리미엄 사용자는 광고 표시 안함

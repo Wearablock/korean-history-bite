@@ -1,11 +1,19 @@
 import 'dart:io';
 
+import 'package:flutter/foundation.dart';
+
 /// 광고 설정
 class AdConfig {
   AdConfig._();
 
-  /// 테스트 모드 (배포 시 false로 변경)
-  static const bool isTestMode = true;
+  /// 스크린샷 모드 (true: 광고/디버그패널 숨김)
+  static const bool screenshotMode = false;
+
+  /// 광고 활성화 여부
+  static bool get adsEnabled => !screenshotMode;
+
+  /// 테스트 모드 여부 (릴리즈 빌드 시 자동으로 false)
+  static bool get isTestMode => kDebugMode;
 
   // ============================================================
   // 전면 광고 (Interstitial) 설정
@@ -61,19 +69,22 @@ class AdConfig {
   // ============================================================
 
   // 배너 광고
-  static const String _prodBannerAdUnitIdAndroid = 'YOUR_ANDROID_BANNER_ID';
-  static const String _prodBannerAdUnitIdIOS = 'YOUR_IOS_BANNER_ID';
+  static const String _prodBannerAdUnitIdAndroid =
+      'ca-app-pub-8841058711613546/7463447570';
+  static const String _prodBannerAdUnitIdIOS =
+      'ca-app-pub-8841058711613546/7995776523';
 
   // 전면 광고
   static const String _prodInterstitialAdUnitIdAndroid =
-      'YOUR_ANDROID_INTERSTITIAL_ID';
+      'ca-app-pub-8841058711613546/3388471192';
   static const String _prodInterstitialAdUnitIdIOS =
-      'YOUR_IOS_INTERSTITIAL_ID';
+      'ca-app-pub-8841058711613546/3617547811';
 
   // 보상형 광고
   static const String _prodRewardedAdUnitIdAndroid =
-      'YOUR_ANDROID_REWARDED_ID';
-  static const String _prodRewardedAdUnitIdIOS = 'YOUR_IOS_REWARDED_ID';
+      'ca-app-pub-8841058711613546/7424737361';
+  static const String _prodRewardedAdUnitIdIOS =
+      'ca-app-pub-8841058711613546/3436572659';
 
   // ============================================================
   // 광고 ID Getter (플랫폼 & 모드 자동 판별)

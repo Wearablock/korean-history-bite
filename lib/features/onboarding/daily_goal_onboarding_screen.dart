@@ -92,7 +92,7 @@ class _DailyGoalOnboardingScreenState
                         final isSelected = !_isCustom &&
                             _selectedChapterCount == option.chapterCount;
                         return _buildOptionTile(
-                          title: option.label,
+                          title: _getOptionLabel(option, l10n),
                           subtitle: _getOptionDescription(option.chapterCount, l10n),
                           isSelected: isSelected,
                           onTap: () {
@@ -205,6 +205,17 @@ class _DailyGoalOnboardingScreenState
       subtitle: subtitle != null ? Text(subtitle) : null,
       onTap: onTap,
     );
+  }
+
+  String _getOptionLabel(DailyGoalOption option, AppLocalizations l10n) {
+    switch (option) {
+      case DailyGoalOption.oneChapter:
+        return l10n.oneChapter;
+      case DailyGoalOption.twoChapters:
+        return l10n.twoChapters;
+      case DailyGoalOption.threeChapters:
+        return l10n.threeChapters;
+    }
   }
 
   String _getOptionDescription(int chapterCount, AppLocalizations l10n) {

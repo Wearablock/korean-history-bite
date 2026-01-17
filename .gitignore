@@ -80,3 +80,10 @@ ios/Podfile.lock
 # 테스트 관련
 coverage/
 test/.test_coverage.dart
+
+# 생성된 l10n 파일 (flutter gen-l10n으로 자동 생성)
+lib/l10n/app_localizations.dart
+lib/l10n/app_localizations_*.dart
+
+# 스토어 자동화 (별도 저장소로 관리)
+store-automation/

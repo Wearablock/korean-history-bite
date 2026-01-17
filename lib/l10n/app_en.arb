@@ -279,5 +279,13 @@
   "restorePurchases": "Restore Purchases",
   "purchaseFailed": "Purchase failed",
   "purchasesRestored": "Purchases restored",
-  "productNotAvailable": "Product not available"
+  "productNotAvailable": "Product not available",
+
+  "oneChapter": "1 Chapter",
+  "twoChapters": "2 Chapters",
+  "threeChapters": "3 Chapters",
+
+  "notificationPermissionRequired": "Notification permission is required. Please allow notifications in settings.",
+  "notificationSettingError": "Error occurred while setting notification.",
+  "notificationTimeSettingError": "Error occurred while setting notification time."
 }

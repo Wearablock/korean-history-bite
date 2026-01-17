@@ -37,6 +37,17 @@ final notificationPermissionProvider = FutureProvider<bool>((ref) async {
 });
 
 // ============================================================
+// 알림 에러 코드
+// ============================================================
+
+/// 알림 설정 에러 코드
+enum NotificationError {
+  permissionRequired,
+  settingFailed,
+  timeSettingFailed,
+}
+
+// ============================================================
 // 알림 설정 상태 클래스
 // ============================================================
 
@@ -44,20 +55,21 @@ final notificationPermissionProvider = FutureProvider<bool>((ref) async {
 @immutable
 class NotificationSettingsState {
   final bool isLoading;
-  final String? error;
+  final NotificationError? errorCode;
 
   const NotificationSettingsState({
     this.isLoading = false,
-    this.error,
+    this.errorCode,
   });
 
   NotificationSettingsState copyWith({
     bool? isLoading,
-    String? error,
+    NotificationError? errorCode,
+    bool clearError = false,
   }) {
     return NotificationSettingsState(
       isLoading: isLoading ?? this.isLoading,
-      error: error,
+      errorCode: clearError ? null : (errorCode ?? this.errorCode),
     );
   }
 }
@@ -75,7 +87,7 @@ class NotificationSettingsNotifier extends Notifier<NotificationSettingsState> {
 
   /// 알림 활성화/비활성화
   Future<bool> setEnabled(bool enabled) async {
-    state = state.copyWith(isLoading: true, error: null);
+    state = state.copyWith(isLoading: true, clearError: true);
 
     try {
       final dao = ref.read(userSettingsDaoProvider);
@@ -87,7 +99,7 @@ class NotificationSettingsNotifier extends Notifier<NotificationSettingsState> {
         if (!hasPermission) {
           state = state.copyWith(
             isLoading: false,
-            error: '알림 권한이 필요합니다. 설정에서 알림을 허용해주세요.',
+            errorCode: NotificationError.permissionRequired,
           );
           return false;
         }
@@ -115,7 +127,7 @@ class NotificationSettingsNotifier extends Notifier<NotificationSettingsState> {
     } catch (e) {
       state = state.copyWith(
         isLoading: false,
-        error: '알림 설정 중 오류가 발생했습니다.',
+        errorCode: NotificationError.settingFailed,
       );
       return false;
     }
@@ -123,7 +135,7 @@ class NotificationSettingsNotifier extends Notifier<NotificationSettingsState> {
 
   /// 알림 시간 변경
   Future<bool> setTime(TimeOfDay time) async {
-    state = state.copyWith(isLoading: true, error: null);
+    state = state.copyWith(isLoading: true, clearError: true);
 
     try {
       final dao = ref.read(userSettingsDaoProvider);
@@ -149,7 +161,7 @@ class NotificationSettingsNotifier extends Notifier<NotificationSettingsState> {
     } catch (e) {
       state = state.copyWith(
         isLoading: false,
-        error: '알림 시간 설정 중 오류가 발생했습니다.',
+        errorCode: NotificationError.timeSettingFailed,
       );
       return false;
     }
@@ -163,7 +175,7 @@ class NotificationSettingsNotifier extends Notifier<NotificationSettingsState> {
 
   /// 에러 초기화
   void clearError() {
-    state = state.copyWith(error: null);
+    state = state.copyWith(clearError: true);
   }
 }
 

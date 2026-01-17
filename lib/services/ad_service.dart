@@ -20,6 +20,8 @@ class AdService {
 
   /// 전면 광고 미리 로드
   void loadInterstitialAd() {
+    if (!AdConfig.adsEnabled) return;
+
     InterstitialAd.load(
       adUnitId: AdConfig.interstitialAdUnitId,
       request: const AdRequest(),
@@ -81,6 +83,8 @@ class AdService {
 
   /// 보상형 광고 미리 로드
   void loadRewardedAd() {
+    if (!AdConfig.adsEnabled) return;
+
     RewardedAd.load(
       adUnitId: AdConfig.rewardedAdUnitId,
       request: const AdRequest(),

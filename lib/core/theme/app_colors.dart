@@ -47,6 +47,14 @@ class AppColors {
   static const Color info = Color(0xFF3498DB);
 
   // ============================================================
+  // Brown - 갈색 (전통)
+  // ============================================================
+
+  static const Color brown = Color(0xFF5D4037);
+  static const Color brownLight = Color(0xFF8D6E63);
+  static const Color brownDark = Color(0xFF3E2723);
+
+  // ============================================================
   // Traditional Sign (간판)
   // ============================================================
 

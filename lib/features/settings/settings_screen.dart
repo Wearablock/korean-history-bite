@@ -7,8 +7,10 @@ import 'package:url_launcher/url_launcher.dart';
 import '../../core/config/setting_keys.dart';
 import '../../core/theme/app_colors.dart';
 import '../../core/widgets/collapsing_app_bar_scaffold.dart';
+import '../../data/providers/chapter_providers.dart';
 import '../../data/providers/database_providers.dart';
 import '../../data/providers/study_providers.dart';
+import '../wrong_answers/wrong_answers_screen.dart';
 import 'widgets/notification_settings_tile.dart';
 import 'widgets/premium_tile.dart';
 
@@ -329,6 +331,9 @@ class SettingsScreen extends ConsumerWidget {
       ref.invalidate(masteredCountProvider);
       ref.invalidate(todayStatsProvider);
       ref.invalidate(currentStreakProvider);
+      // 오답 노트 갱신
+      final locale = ref.read(currentLocaleProvider);
+      ref.invalidate(wrongAnswersWithQuestionsProvider(locale));
 
       if (context.mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
