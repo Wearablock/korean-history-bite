@@ -1,0 +1,8 @@
+Initial Release!
+
+- Customizable daily learning goals
+- Quizzes covering all eras from prehistory to modern
+- Rich historical image-based learning
+- Smart review based on forgetting curve
+- Track progress by era
+- Wrong answer notes with detailed explanations

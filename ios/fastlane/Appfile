@@ -1,0 +1,8 @@
+# iOS Appfile
+
+app_identifier("com.wearablock.koreanHistoryBite")
+apple_id("sunghyun4451@gmail.com")
+team_id("52WXM3TBJ4")
+
+# App Store Connect API Key
+# 키 파일은 ~/.appstoreconnect/private_keys/ 에 저장됨

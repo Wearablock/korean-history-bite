@@ -87,3 +87,11 @@ lib/l10n/app_localizations_*.dart
 
 # 스토어 자동화 (별도 저장소로 관리)
 store-automation/
+
+# Fastlane
+*/fastlane/report.xml
+*/fastlane/Preview.html
+*/fastlane/screenshots/
+*/fastlane/test_output/
+*/fastlane/README.md
+*/fastlane/metadata/**/images/

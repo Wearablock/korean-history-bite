@@ -1,0 +1,7 @@
+Initial release
+- Daily learning goals with customizable chapter count
+- Quiz system covering all Korean history eras
+- Visual learning with historical images
+- Spaced repetition review system
+- Progress tracking by era
+- Wrong answer review with explanations

@@ -1,0 +1,4 @@
+# Android Appfile
+
+json_key_file("~/.google-play/play-store-key.json")
+package_name("com.wearablock.korean_history_bite")

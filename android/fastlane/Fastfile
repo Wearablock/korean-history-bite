@@ -1,0 +1,82 @@
+# Android Fastfile
+
+default_platform(:android)
+
+platform :android do
+  desc "메타데이터만 업로드 (설명, 스크린샷)"
+  lane :metadata do
+    upload_to_play_store(
+      skip_upload_apk: true,
+      skip_upload_aab: true,
+      skip_upload_changelogs: true,
+      skip_upload_metadata: false,
+      skip_upload_images: false,
+      skip_upload_screenshots: false
+    )
+  end
+
+  desc "내부 테스트 트랙에 업로드"
+  lane :internal do
+    # Flutter 빌드
+    Dir.chdir("../..") do
+      sh("flutter build appbundle --release")
+    end
+
+    # Play Console 업로드 (internal 트랙)
+    upload_to_play_store(
+      track: "internal",
+      aab: "../build/app/outputs/bundle/release/app-release.aab",
+      skip_upload_metadata: true,
+      skip_upload_images: true,
+      skip_upload_screenshots: true
+    )
+  end
+
+  desc "내부 테스트 + 메타데이터 업로드"
+  lane :internal_with_metadata do
+    # Flutter 빌드
+    Dir.chdir("../..") do
+      sh("flutter build appbundle --release")
+    end
+
+    # Play Console 업로드 (internal 트랙 + 메타데이터)
+    upload_to_play_store(
+      track: "internal",
+      aab: "../build/app/outputs/bundle/release/app-release.aab"
+    )
+  end
+
+  desc "베타 트랙에 업로드"
+  lane :beta do
+    # Flutter 빌드
+    Dir.chdir("../..") do
+      sh("flutter build appbundle --release")
+    end
+
+    # Play Console 업로드 (beta 트랙)
+    upload_to_play_store(
+      track: "beta",
+      aab: "../build/app/outputs/bundle/release/app-release.aab",
+      skip_upload_metadata: true,
+      skip_upload_images: true,
+      skip_upload_screenshots: true
+    )
+  end
+
+  desc "프로덕션에 업로드"
+  lane :release do
+    # Flutter 빌드
+    Dir.chdir("../..") do
+      sh("flutter build appbundle --release")
+    end
+
+    # Play Console 업로드 (production 트랙)
+    upload_to_play_store(
+      track: "production",
+      aab: "../build/app/outputs/bundle/release/app-release.aab",
+      skip_upload_metadata: true,
+      skip_upload_images: true,
+      skip_upload_screenshots: true
+    )
+  end
+end
