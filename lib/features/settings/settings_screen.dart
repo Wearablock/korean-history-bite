@@ -331,6 +331,7 @@ class SettingsScreen extends ConsumerWidget {
       ref.invalidate(masteredCountProvider);
       ref.invalidate(todayStatsProvider);
       ref.invalidate(currentStreakProvider);
+      ref.invalidate(levelDistributionProvider);
       // 오답 노트 갱신
       final locale = ref.read(currentLocaleProvider);
       ref.invalidate(wrongAnswersWithQuestionsProvider(locale));

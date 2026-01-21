@@ -273,6 +273,7 @@ class StudySessionController extends StateNotifier<StudySessionState> {
   /// appStatsProvider를 invalidate하면 파생 providers(todaySummary, overallProgress, eraProgress)도 갱신됨
   void _invalidateProgressProviders() {
     _ref.invalidate(appStatsProvider);
+    _ref.invalidate(levelDistributionProvider);
     // 오답 노트 갱신을 위해 wrongAnswersWithQuestionsProvider도 무효화
     final locale = _ref.read(currentLocaleProvider);
     _ref.invalidate(wrongAnswersWithQuestionsProvider(locale));

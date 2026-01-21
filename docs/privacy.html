@@ -197,7 +197,7 @@
     </main>
 
     <footer>
-      <p>&copy; 2025 Wearablock Inc. All rights reserved.</p>
+      <p>&copy; <span id="year"></span> Wearablock Inc. All rights reserved.</p>
       <p>
         <a href="terms.html">Terms of Service</a> |
         <a href="privacy.html">Privacy Policy</a> |
@@ -228,6 +228,8 @@
         document.getElementById('langDropdown').classList.remove('show');
       }
     });
+
+    document.getElementById('year').textContent = new Date().getFullYear();
   </script>
 </body>
 </html>

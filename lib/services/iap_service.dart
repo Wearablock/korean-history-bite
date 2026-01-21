@@ -16,7 +16,7 @@ class IAPService {
   // ============================================================
 
   /// 광고 제거 상품 ID
-  static const String removeAdsProductId = 'remove_ads';
+  static const String removeAdsProductId = 'korean_history_bite_remove_ads';
 
   /// 프리미엄 상태 저장 키
   static const String _premiumKey = 'is_premium';
