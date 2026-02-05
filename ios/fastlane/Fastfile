@@ -67,7 +67,8 @@ platform :ios do
       automatic_release: false,
       force: true,
       precheck_include_in_app_purchases: false,
-      skip_app_version_update: true
+      skip_app_version_update: true,
+      edit_live: true
     )
   end
 

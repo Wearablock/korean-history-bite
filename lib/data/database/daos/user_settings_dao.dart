@@ -163,7 +163,7 @@ class UserSettingsDao extends DatabaseAccessor<AppDatabase>
 
   /// 앱 언어 조회
   Future<String> getLocale() async {
-    return getString(SettingKeys.locale, defaultValue: 'ko');
+    return getString(SettingKeys.locale, defaultValue: 'system');
   }
 
   /// 앱 언어 설정
@@ -173,7 +173,7 @@ class UserSettingsDao extends DatabaseAccessor<AppDatabase>
 
   /// 콘텐츠 언어 조회
   Future<String> getContentLocale() async {
-    return getString(SettingKeys.contentLocale, defaultValue: 'ko');
+    return getString(SettingKeys.contentLocale, defaultValue: 'system');
   }
 
   /// 콘텐츠 언어 설정
@@ -278,8 +278,8 @@ class UserSettingsDao extends DatabaseAccessor<AppDatabase>
     await setInt(SettingKeys.notificationMinute, 0);
     await setBool(SettingKeys.streakReminder, true);
     await setString(SettingKeys.themeMode, 'system');
-    await setString(SettingKeys.locale, 'ko');
-    await setString(SettingKeys.contentLocale, 'ko');
+    await setString(SettingKeys.locale, 'system');
+    await setString(SettingKeys.contentLocale, 'system');
   }
 
   /// 모든 설정을 Map으로 내보내기
@@ -313,6 +313,6 @@ class UserSettingsDao extends DatabaseAccessor<AppDatabase>
 
   /// 언어 변경 감지
   Stream<String> watchLocale() {
-    return watchValue(SettingKeys.locale).map((value) => value ?? 'ko');
+    return watchValue(SettingKeys.locale).map((value) => value ?? 'system');
   }
 }

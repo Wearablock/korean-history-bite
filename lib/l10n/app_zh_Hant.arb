@@ -1,0 +1,301 @@
+{
+  "@@locale": "zh_Hant",
+  "appTitle": "韓國史一口",
+
+  "home": "首頁",
+  "progress": "進度",
+  "settings": "設定",
+  "wrongAnswers": "錯題本",
+
+  "error": "錯誤：{message}",
+  "@error": {
+    "placeholders": {
+      "message": {"type": "String"}
+    }
+  },
+
+  "startStudy": "開始學習",
+  "continueStudy": "繼續學習",
+  "startReview": "開始複習",
+
+  "todayStudy": "今日學習",
+  "allChaptersCompleted": "全部章節已完成！",
+  "reviewEncouragement": "透過複習繼續鞏固所學內容吧。",
+  "nextChapter": "下一章節",
+  "questionsCount": "{count}道題",
+  "@questionsCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "todayQuestionsCompleted": "今日已完成{count}道題",
+  "@todayQuestionsCompleted": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "todayGoal": "今日目標",
+  "chaptersProgress": "{studied}/{goal}章節",
+  "@chaptersProgress": {
+    "placeholders": {
+      "studied": {"type": "int"},
+      "goal": {"type": "int"}
+    }
+  },
+  "streakDays": "連續學習{days}天！",
+  "@streakDays": {
+    "placeholders": {
+      "days": {"type": "int"}
+    }
+  },
+
+  "overallProgress": "整體進度",
+  "mastered": "已掌握",
+  "studiedOnce": "學習一次",
+  "totalQuestions": "共{count}道題",
+  "@totalQuestions": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "questionsMastered": "已掌握 {count} / {total} 道題",
+  "@questionsMastered": {
+    "placeholders": {
+      "count": {"type": "int"},
+      "total": {"type": "int"}
+    }
+  },
+
+  "study": "學習",
+  "notifications": "通知",
+  "appSettings": "應用程式設定",
+  "info": "資訊",
+  "appVersion": "應用程式版本",
+  "termsAndPolicies": "條款與政策",
+  "termsOfService": "服務條款",
+  "privacyPolicy": "隱私權政策",
+  "support": "支援",
+  "data": "資料",
+  "resetStudyRecords": "重置學習記錄",
+  "resetStudyRecordsDesc": "刪除所有學習記錄",
+  "resetStudyRecordsConfirm": "所有學習記錄將被刪除。\n此操作無法復原。",
+  "cannotOpenLink": "無法開啟連結。",
+  "cancel": "取消",
+  "reset": "重置",
+  "confirm": "確認",
+  "studyRecordsReset": "學習記錄已重置。",
+  "dailyStudyAmount": "每日學習量",
+  "chaptersUnit": "{count}章節",
+  "@chaptersUnit": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "customSetting": "自訂",
+  "theme": "主題",
+  "selectTheme": "選擇主題",
+  "themeSystem": "跟隨系統",
+  "themeLight": "淺色模式",
+  "themeDark": "深色模式",
+
+  "studyComplete": "學習完成",
+  "goodJob": "做得好！",
+  "continueReviewWithCount": "繼續複習（剩餘{count}道）",
+  "@continueReviewWithCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "goHome": "返回首頁",
+  "additionalStudy": "繼續學習",
+  "todayStudyCompleteMessage": "今日學習已完成！",
+  "excellentComplete": "太棒了！\n今日學習已完成！",
+  "goodComplete": "做得好！\n今日學習已完成！",
+  "accuracy": "正確率",
+  "correct": "正確",
+  "wrong": "錯誤",
+  "timeSpent": "用時",
+  "phaseResults": "分階段結果",
+  "wrongReview": "錯題複習",
+  "spacedReview": "間隔複習",
+  "newLearning": "新學習",
+
+  "errorOccurred": "發生錯誤",
+  "retry": "重試",
+  "stopStudy": "停止學習",
+  "stopStudyConfirm": "確定要停止學習嗎？\n進度將被儲存。",
+  "continueStudyButton": "繼續",
+  "stop": "停止",
+  "chapterNotFound": "未找到章節。",
+
+  "eraProgress": "各時代進度",
+
+  "reviewAvailable": "有題目需要複習！",
+  "reviewWaiting": "{count}道題等待複習",
+  "@reviewWaiting": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+
+  "welcome": "歡迎！",
+  "howManyChapters": "每天學習幾個章節？",
+  "canChangeInSettings": "之後可在設定中更改",
+  "start": "開始",
+  "lightStart": "輕鬆開始",
+  "moderateAmount": "適量學習",
+  "intensiveStudy": "強化學習",
+  "settingsSaveError": "儲存設定時出錯：{error}",
+  "@settingsSaveError": {
+    "placeholders": {
+      "error": {"type": "String"}
+    }
+  },
+
+  "overallStudyStats": "整體學習統計",
+  "totalStudy": "總學習量",
+  "accuracyRate": "正確率",
+  "studyDays": "學習天數",
+  "daysCount": "{count}天",
+  "@daysCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "studyTime": "學習時長",
+
+  "streakRecord": "連續記錄",
+  "currentStreak": "目前連續",
+  "longestStreak": "最長連續",
+  "newRecord": "正在創造新紀錄！",
+  "weekStreak": "連續一週！太棒了！",
+  "keepItUp": "繼續加油！",
+  "todayComplete": "今日學習完成！",
+
+  "levelDistribution": "等級分佈",
+  "fullyMastered": "已掌握",
+  "reviewLevel4": "複習等級4",
+  "reviewLevel3": "複習等級3",
+  "reviewLevel2": "複習等級2",
+  "reviewLevel1": "複習等級1",
+  "wrongOrReset": "錯誤/重置",
+  "unknown": "未知",
+  "unstudied": "未學習",
+  "learning": "學習中",
+
+  "studyNotification": "學習提醒",
+  "dailyNotification": "每天在設定時間提醒",
+  "notificationOff": "提醒已關閉",
+  "notificationChannelName": "學習提醒",
+  "notificationChannelDesc": "每日學習時間提醒",
+  "notificationTitle": "韓國史一口",
+  "notificationBody": "是時候開始今天的學習了！",
+  "notificationTime": "提醒時間",
+  "selectNotificationTime": "選擇提醒時間",
+  "amTime": "上午{hour}:{minute}",
+  "@amTime": {
+    "placeholders": {
+      "hour": {"type": "int"},
+      "minute": {"type": "String"}
+    }
+  },
+  "pmTime": "下午{hour}:{minute}",
+  "@pmTime": {
+    "placeholders": {
+      "hour": {"type": "int"},
+      "minute": {"type": "String"}
+    }
+  },
+
+  "wrongAnswersComingSoon": "錯題本（即將推出）",
+  "noWrongAnswers": "沒有錯題！",
+  "noWrongAnswersDesc": "做得好！繼續加油，\n不斷鞏固你的知識！",
+  "wrongCount": "錯誤{count}次",
+  "@wrongCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "correctAnswer": "正確答案",
+  "yourAnswer": "你的答案",
+  "explanation": "解析",
+
+  "nextQuestion": "下一題",
+  "sessionComplete": "今日學習完成！",
+
+  "questionsCompleted": "已完成 {completed} / {total} 道題",
+  "@questionsCompleted": {
+    "placeholders": {
+      "completed": {"type": "int"},
+      "total": {"type": "int"}
+    }
+  },
+
+  "eraPrehistoric": "史前時代",
+  "eraGojoseon": "古朝鮮",
+  "eraThreeKingdoms": "三國時代",
+  "eraNorthSouthStates": "南北國時代",
+  "eraGoryeo": "高麗時代",
+  "eraJoseonEarly": "朝鮮前期",
+  "eraJoseonLate": "朝鮮後期",
+  "eraModern": "近代",
+  "eraJapaneseOccupation": "日據時代",
+  "eraContemporary": "現代",
+
+  "studied": "已學習",
+  "masteredShort": "已掌握",
+  "studiedStats": "已學習 {studied}/{total} · 已掌握 {mastered}",
+  "@studiedStats": {
+    "placeholders": {
+      "studied": {"type": "int"},
+      "total": {"type": "int"},
+      "mastered": {"type": "int"}
+    }
+  },
+
+  "questionNotFound": "未找到題目。",
+  "review": "複習",
+
+  "theoryLearning": "理論",
+  "learningComplete": "完成",
+  "correctAnswer": "正確！",
+  "wrongAnswer": "錯誤",
+  "quiz": "測驗",
+  "showHint": "顯示提示",
+  "imageLoadFailed": "圖片載入失敗",
+  "sourceDocument": "來源",
+  "newShort": "新",
+  "itemCount": "{count}",
+  "@itemCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+
+  "premium": "高級版",
+  "removeAds": "移除廣告",
+  "premiumActivated": "高級版已啟用",
+  "purchase": "購買",
+  "restorePurchases": "恢復購買",
+  "purchaseFailed": "購買失敗",
+  "purchasesRestored": "購買已恢復",
+  "productNotAvailable": "產品不可用",
+
+  "oneChapter": "1個章節",
+  "twoChapters": "2個章節",
+  "threeChapters": "3個章節",
+
+  "notificationPermissionRequired": "需要通知權限。請在設定中允許通知。",
+  "notificationSettingError": "設定通知時發生錯誤。",
+  "notificationTimeSettingError": "設定通知時間時發生錯誤。",
+
+  "language": "語言",
+  "selectLanguage": "選擇語言",
+  "languageSystem": "跟隨系統",
+  "languageKorean": "한국어",
+  "languageEnglish": "English",
+  "languageJapanese": "日本語",
+  "languageChineseSimplified": "简体中文",
+  "languageChineseTraditional": "繁體中文",
+  "languageChangeRestart": "重新啟動應用程式以套用語言變更。"
+}

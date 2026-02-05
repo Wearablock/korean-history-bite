@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:upgrader/upgrader.dart';
 import 'l10n/app_localizations.dart';
 
 import 'core/theme/app_theme.dart';
@@ -22,8 +23,15 @@ class KoreanHistoryApp extends ConsumerWidget {
       error: (_, __) => ThemeMode.system,
     );
 
+    // 언어 설정 가져오기 (null이면 시스템 설정 사용)
+    final appLocale = ref.watch(appLocaleProvider).when(
+      data: (locale) => locale,
+      loading: () => null,
+      error: (_, __) => null,
+    );
+
     return MaterialApp(
-      title: '한국사 한입',
+      onGenerateTitle: (context) => AppLocalizations.of(context)?.appTitle ?? 'Korean History Bite',
       debugShowCheckedModeBanner: false,
 
       // 테마
@@ -43,18 +51,10 @@ class KoreanHistoryApp extends ConsumerWidget {
         Locale('en'),
         Locale('ja'),
         Locale('zh'),
-        Locale('zh', 'TW'),
-        Locale('es'),
-        Locale('de'),
-        Locale('fr'),
-        Locale('it'),
-        Locale('pt'),
-        Locale('ar'),
-        Locale('th'),
-        Locale('id'),
-        Locale('vi'),
-        Locale('ru'),
+        Locale.fromSubtags(languageCode: 'zh', scriptCode: 'Hant'),
       ],
+      // 사용자가 선택한 언어가 있으면 해당 언어 사용
+      locale: appLocale,
 
       // 로케일 동기화를 위한 builder
       builder: (context, child) {
@@ -73,13 +73,30 @@ class KoreanHistoryApp extends ConsumerWidget {
     final locale = Localizations.localeOf(context);
     final currentLocale = ref.read(currentLocaleProvider);
 
-    // 지원하는 로케일인지 확인 (ko, en만 데이터 있음)
+    // 지원하는 로케일인지 확인
     String targetLocale;
-    if (locale.languageCode == 'ko') {
-      targetLocale = 'ko';
-    } else {
-      // 한국어가 아닌 모든 언어는 영어로 fallback
-      targetLocale = 'en';
+    switch (locale.languageCode) {
+      case 'ko':
+        targetLocale = 'ko';
+        break;
+      case 'ja':
+        targetLocale = 'ja';
+        break;
+      case 'zh':
+        // 번체 중국어 (Hant 스크립트 또는 TW/HK/MO 지역)
+        if (locale.scriptCode == 'Hant' ||
+            locale.countryCode == 'TW' ||
+            locale.countryCode == 'HK' ||
+            locale.countryCode == 'MO') {
+          targetLocale = 'zh-Hant';
+        } else {
+          // 간체 중국어 (기본)
+          targetLocale = 'zh-Hans';
+        }
+        break;
+      default:
+        // 기타 언어는 영어로 fallback
+        targetLocale = 'en';
     }
 
     // 변경이 필요한 경우에만 업데이트
@@ -150,12 +167,20 @@ class _AppHomeState extends ConsumerState<_AppHome> {
 
     // 온보딩 미완료 시 온보딩 화면
     if (!_onboardingCompleted!) {
-      return DailyGoalOnboardingScreen(
-        onComplete: _onOnboardingComplete,
+      return UpgradeAlert(
+        showIgnore: false,
+        showLater: true,
+        child: DailyGoalOnboardingScreen(
+          onComplete: _onOnboardingComplete,
+        ),
       );
     }
 
     // 온보딩 완료 시 메인 쉘
-    return const MainShell();
+    return UpgradeAlert(
+      showIgnore: false,
+      showLater: true,
+      child: const MainShell(),
+    );
   }
 }

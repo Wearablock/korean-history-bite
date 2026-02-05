@@ -287,5 +287,15 @@
 
   "notificationPermissionRequired": "Notification permission is required. Please allow notifications in settings.",
   "notificationSettingError": "Error occurred while setting notification.",
-  "notificationTimeSettingError": "Error occurred while setting notification time."
+  "notificationTimeSettingError": "Error occurred while setting notification time.",
+
+  "language": "Language",
+  "selectLanguage": "Select Language",
+  "languageSystem": "System Default",
+  "languageKorean": "한국어",
+  "languageEnglish": "English",
+  "languageJapanese": "日本語",
+  "languageChineseSimplified": "简体中文",
+  "languageChineseTraditional": "繁體中文",
+  "languageChangeRestart": "Restart the app to apply the language change."
 }

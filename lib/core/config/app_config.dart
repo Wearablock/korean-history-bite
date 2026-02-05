@@ -44,22 +44,12 @@ class AppConfig {
   // 지원 언어
   // ============================================================
 
-  /// 지원 언어 코드
+  /// 지원 언어 코드 (퀴즈 데이터가 있는 언어)
   static const List<String> supportedLocales = [
     'ko',
     'en',
     'ja',
-    'zh',
-    'zh_TW',
-    'es',
-    'de',
-    'fr',
-    'it',
-    'pt',
-    'ar',
-    'th',
-    'id',
-    'vi',
-    'ru',
+    'zh-Hans',
+    'zh-Hant',
   ];
 }

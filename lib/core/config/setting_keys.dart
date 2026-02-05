@@ -70,3 +70,26 @@ enum ThemeModeOption {
     );
   }
 }
+
+/// 언어 옵션
+enum LanguageOption {
+  system('system', '시스템 설정', null),
+  korean('ko', '한국어', 'ko'),
+  english('en', 'English', 'en'),
+  japanese('ja', '日本語', 'ja'),
+  chineseSimplified('zh-Hans', '简体中文', 'zh-Hans'),
+  chineseTraditional('zh-Hant', '繁體中文', 'zh-Hant');
+
+  final String value;
+  final String label;
+  final String? localeCode; // null for system
+
+  const LanguageOption(this.value, this.label, this.localeCode);
+
+  static LanguageOption fromValue(String value) {
+    return LanguageOption.values.firstWhere(
+      (e) => e.value == value,
+      orElse: () => LanguageOption.system,
+    );
+  }
+}

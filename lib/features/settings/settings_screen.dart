@@ -75,6 +75,7 @@ class SettingsScreen extends ConsumerWidget {
             title: l10n.appSettings,
             icon: Icons.tune_outlined,
             children: [
+              _LanguageTile(),
               _ThemeModeTile(),
             ],
           ),
@@ -618,6 +619,149 @@ class _ThemeModeTile extends ConsumerWidget {
       // 강제 리빌드 (테마 모드 프로바이더도 갱신)
       ref.invalidate(userSettingsDaoProvider);
       ref.invalidate(themeModeProvider);
+    }
+  }
+}
+
+/// 언어 설정 타일
+class _LanguageTile extends ConsumerWidget {
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final l10n = AppLocalizations.of(context)!;
+    final dao = ref.watch(userSettingsDaoProvider);
+
+    return FutureBuilder<String>(
+      future: dao.getLocale(),
+      builder: (context, snapshot) {
+        final currentLocale = snapshot.data ?? 'system';
+        final option = LanguageOption.fromValue(currentLocale);
+
+        return ListTile(
+          leading: const Icon(
+            Icons.language_outlined,
+            color: AppColors.textSecondaryLight,
+          ),
+          title: Text(l10n.language),
+          trailing: Row(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              Container(
+                padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 4),
+                decoration: BoxDecoration(
+                  color: AppColors.secondary.withValues(alpha: 0.1),
+                  borderRadius: BorderRadius.circular(12),
+                ),
+                child: Text(
+                  _getLanguageLabel(option, l10n),
+                  style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                        color: AppColors.secondary,
+                        fontWeight: FontWeight.w600,
+                      ),
+                ),
+              ),
+              const SizedBox(width: 8),
+              const Icon(Icons.chevron_right, color: AppColors.textSecondaryLight),
+            ],
+          ),
+          onTap: () => _showLanguageDialog(context, ref, currentLocale),
+        );
+      },
+    );
+  }
+
+  String _getLanguageLabel(LanguageOption option, AppLocalizations l10n) {
+    switch (option) {
+      case LanguageOption.system:
+        return l10n.languageSystem;
+      case LanguageOption.korean:
+        return l10n.languageKorean;
+      case LanguageOption.english:
+        return l10n.languageEnglish;
+      case LanguageOption.japanese:
+        return l10n.languageJapanese;
+      case LanguageOption.chineseSimplified:
+        return l10n.languageChineseSimplified;
+      case LanguageOption.chineseTraditional:
+        return l10n.languageChineseTraditional;
+    }
+  }
+
+  Future<void> _showLanguageDialog(
+    BuildContext context,
+    WidgetRef ref,
+    String currentLocale,
+  ) async {
+    final l10n = AppLocalizations.of(context)!;
+    // async 전에 context 사용 (showDialog 이전)
+    final appLocale = Localizations.localeOf(context);
+
+    final selectedLocale = await showDialog<String>(
+      context: context,
+      builder: (dialogContext) => SimpleDialog(
+        title: Text(l10n.selectLanguage),
+        children: LanguageOption.values.map((option) {
+          final isSelected = option.value == currentLocale;
+          return RadioListTile<String>(
+            value: option.value,
+            groupValue: currentLocale,
+            title: Text(_getLanguageLabel(option, l10n)),
+            secondary: option == LanguageOption.system
+                ? const Icon(Icons.phone_android_outlined)
+                : null,
+            selected: isSelected,
+            onChanged: (value) => Navigator.pop(dialogContext, value),
+          );
+        }).toList(),
+      ),
+    );
+
+    if (selectedLocale != null && selectedLocale != currentLocale) {
+
+      final dao = ref.read(userSettingsDaoProvider);
+      await dao.setLocale(selectedLocale);
+
+      // 퀴즈 데이터 로케일 업데이트
+      String dataLocale;
+      if (selectedLocale == 'system') {
+        // 시스템 설정일 경우 현재 앱 로케일 사용
+        switch (appLocale.languageCode) {
+          case 'ko':
+            dataLocale = 'ko';
+            break;
+          case 'ja':
+            dataLocale = 'ja';
+            break;
+          case 'zh':
+            if (appLocale.scriptCode == 'Hant' ||
+                appLocale.countryCode == 'TW' ||
+                appLocale.countryCode == 'HK' ||
+                appLocale.countryCode == 'MO') {
+              dataLocale = 'zh-Hant';
+            } else {
+              dataLocale = 'zh-Hans';
+            }
+            break;
+          default:
+            dataLocale = 'en';
+        }
+      } else {
+        dataLocale = selectedLocale;
+      }
+      ref.read(currentLocaleProvider.notifier).state = dataLocale;
+
+      // 레포지토리 캐시 클리어
+      ref.read(chapterRepositoryProvider).clearContentCache();
+
+      // 강제 리빌드
+      ref.invalidate(userSettingsDaoProvider);
+      ref.invalidate(appLocaleProvider);
+      ref.invalidate(chaptersProvider);
+
+      if (context.mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(content: Text(l10n.languageChangeRestart)),
+        );
+      }
     }
   }
 }

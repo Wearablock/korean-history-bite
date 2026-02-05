@@ -1,0 +1,301 @@
+{
+  "@@locale": "zh",
+  "appTitle": "韩国史一口",
+
+  "home": "首页",
+  "progress": "进度",
+  "settings": "设置",
+  "wrongAnswers": "错题本",
+
+  "error": "错误：{message}",
+  "@error": {
+    "placeholders": {
+      "message": {"type": "String"}
+    }
+  },
+
+  "startStudy": "开始学习",
+  "continueStudy": "继续学习",
+  "startReview": "开始复习",
+
+  "todayStudy": "今日学习",
+  "allChaptersCompleted": "全部章节已完成！",
+  "reviewEncouragement": "通过复习继续巩固所学内容吧。",
+  "nextChapter": "下一章节",
+  "questionsCount": "{count}道题",
+  "@questionsCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "todayQuestionsCompleted": "今日已完成{count}道题",
+  "@todayQuestionsCompleted": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "todayGoal": "今日目标",
+  "chaptersProgress": "{studied}/{goal}章节",
+  "@chaptersProgress": {
+    "placeholders": {
+      "studied": {"type": "int"},
+      "goal": {"type": "int"}
+    }
+  },
+  "streakDays": "连续学习{days}天！",
+  "@streakDays": {
+    "placeholders": {
+      "days": {"type": "int"}
+    }
+  },
+
+  "overallProgress": "整体进度",
+  "mastered": "已掌握",
+  "studiedOnce": "学习一次",
+  "totalQuestions": "共{count}道题",
+  "@totalQuestions": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "questionsMastered": "已掌握 {count} / {total} 道题",
+  "@questionsMastered": {
+    "placeholders": {
+      "count": {"type": "int"},
+      "total": {"type": "int"}
+    }
+  },
+
+  "study": "学习",
+  "notifications": "通知",
+  "appSettings": "应用设置",
+  "info": "信息",
+  "appVersion": "应用版本",
+  "termsAndPolicies": "条款与政策",
+  "termsOfService": "服务条款",
+  "privacyPolicy": "隐私政策",
+  "support": "支持",
+  "data": "数据",
+  "resetStudyRecords": "重置学习记录",
+  "resetStudyRecordsDesc": "删除所有学习记录",
+  "resetStudyRecordsConfirm": "所有学习记录将被删除。\n此操作无法撤销。",
+  "cannotOpenLink": "无法打开链接。",
+  "cancel": "取消",
+  "reset": "重置",
+  "confirm": "确认",
+  "studyRecordsReset": "学习记录已重置。",
+  "dailyStudyAmount": "每日学习量",
+  "chaptersUnit": "{count}章节",
+  "@chaptersUnit": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "customSetting": "自定义",
+  "theme": "主题",
+  "selectTheme": "选择主题",
+  "themeSystem": "跟随系统",
+  "themeLight": "浅色模式",
+  "themeDark": "深色模式",
+
+  "studyComplete": "学习完成",
+  "goodJob": "做得好！",
+  "continueReviewWithCount": "继续复习（剩余{count}道）",
+  "@continueReviewWithCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "goHome": "返回首页",
+  "additionalStudy": "继续学习",
+  "todayStudyCompleteMessage": "今日学习已完成！",
+  "excellentComplete": "太棒了！\n今日学习已完成！",
+  "goodComplete": "做得好！\n今日学习已完成！",
+  "accuracy": "正确率",
+  "correct": "正确",
+  "wrong": "错误",
+  "timeSpent": "用时",
+  "phaseResults": "分阶段结果",
+  "wrongReview": "错题复习",
+  "spacedReview": "间隔复习",
+  "newLearning": "新学习",
+
+  "errorOccurred": "发生错误",
+  "retry": "重试",
+  "stopStudy": "停止学习",
+  "stopStudyConfirm": "确定要停止学习吗？\n进度将被保存。",
+  "continueStudyButton": "继续",
+  "stop": "停止",
+  "chapterNotFound": "未找到章节。",
+
+  "eraProgress": "各时代进度",
+
+  "reviewAvailable": "有题目需要复习！",
+  "reviewWaiting": "{count}道题等待复习",
+  "@reviewWaiting": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+
+  "welcome": "欢迎！",
+  "howManyChapters": "每天学习几个章节？",
+  "canChangeInSettings": "之后可在设置中更改",
+  "start": "开始",
+  "lightStart": "轻松开始",
+  "moderateAmount": "适量学习",
+  "intensiveStudy": "强化学习",
+  "settingsSaveError": "保存设置时出错：{error}",
+  "@settingsSaveError": {
+    "placeholders": {
+      "error": {"type": "String"}
+    }
+  },
+
+  "overallStudyStats": "整体学习统计",
+  "totalStudy": "总学习量",
+  "accuracyRate": "正确率",
+  "studyDays": "学习天数",
+  "daysCount": "{count}天",
+  "@daysCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "studyTime": "学习时长",
+
+  "streakRecord": "连续记录",
+  "currentStreak": "当前连续",
+  "longestStreak": "最长连续",
+  "newRecord": "正在创造新纪录！",
+  "weekStreak": "连续一周！太棒了！",
+  "keepItUp": "继续加油！",
+  "todayComplete": "今日学习完成！",
+
+  "levelDistribution": "等级分布",
+  "fullyMastered": "已掌握",
+  "reviewLevel4": "复习等级4",
+  "reviewLevel3": "复习等级3",
+  "reviewLevel2": "复习等级2",
+  "reviewLevel1": "复习等级1",
+  "wrongOrReset": "错误/重置",
+  "unknown": "未知",
+  "unstudied": "未学习",
+  "learning": "学习中",
+
+  "studyNotification": "学习提醒",
+  "dailyNotification": "每天在设定时间提醒",
+  "notificationOff": "提醒已关闭",
+  "notificationChannelName": "学习提醒",
+  "notificationChannelDesc": "每日学习时间提醒",
+  "notificationTitle": "韩国史一口",
+  "notificationBody": "是时候开始今天的学习了！",
+  "notificationTime": "提醒时间",
+  "selectNotificationTime": "选择提醒时间",
+  "amTime": "上午{hour}:{minute}",
+  "@amTime": {
+    "placeholders": {
+      "hour": {"type": "int"},
+      "minute": {"type": "String"}
+    }
+  },
+  "pmTime": "下午{hour}:{minute}",
+  "@pmTime": {
+    "placeholders": {
+      "hour": {"type": "int"},
+      "minute": {"type": "String"}
+    }
+  },
+
+  "wrongAnswersComingSoon": "错题本（即将推出）",
+  "noWrongAnswers": "没有错题！",
+  "noWrongAnswersDesc": "做得好！继续加油，\n不断巩固你的知识！",
+  "wrongCount": "错误{count}次",
+  "@wrongCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "correctAnswer": "正确答案",
+  "yourAnswer": "你的答案",
+  "explanation": "解析",
+
+  "nextQuestion": "下一题",
+  "sessionComplete": "今日学习完成！",
+
+  "questionsCompleted": "已完成 {completed} / {total} 道题",
+  "@questionsCompleted": {
+    "placeholders": {
+      "completed": {"type": "int"},
+      "total": {"type": "int"}
+    }
+  },
+
+  "eraPrehistoric": "史前时代",
+  "eraGojoseon": "古朝鲜",
+  "eraThreeKingdoms": "三国时代",
+  "eraNorthSouthStates": "南北国时代",
+  "eraGoryeo": "高丽时代",
+  "eraJoseonEarly": "朝鲜前期",
+  "eraJoseonLate": "朝鲜后期",
+  "eraModern": "近代",
+  "eraJapaneseOccupation": "日据时代",
+  "eraContemporary": "现代",
+
+  "studied": "已学习",
+  "masteredShort": "已掌握",
+  "studiedStats": "已学习 {studied}/{total} · 已掌握 {mastered}",
+  "@studiedStats": {
+    "placeholders": {
+      "studied": {"type": "int"},
+      "total": {"type": "int"},
+      "mastered": {"type": "int"}
+    }
+  },
+
+  "questionNotFound": "未找到题目。",
+  "review": "复习",
+
+  "theoryLearning": "理论",
+  "learningComplete": "完成",
+  "correctAnswer": "正确！",
+  "wrongAnswer": "错误",
+  "quiz": "测验",
+  "showHint": "显示提示",
+  "imageLoadFailed": "图片加载失败",
+  "sourceDocument": "来源",
+  "newShort": "新",
+  "itemCount": "{count}",
+  "@itemCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+
+  "premium": "高级版",
+  "removeAds": "移除广告",
+  "premiumActivated": "高级版已激活",
+  "purchase": "购买",
+  "restorePurchases": "恢复购买",
+  "purchaseFailed": "购买失败",
+  "purchasesRestored": "购买已恢复",
+  "productNotAvailable": "产品不可用",
+
+  "oneChapter": "1个章节",
+  "twoChapters": "2个章节",
+  "threeChapters": "3个章节",
+
+  "notificationPermissionRequired": "需要通知权限。请在设置中允许通知。",
+  "notificationSettingError": "设置通知时发生错误。",
+  "notificationTimeSettingError": "设置通知时间时发生错误。",
+
+  "language": "语言",
+  "selectLanguage": "选择语言",
+  "languageSystem": "跟随系统",
+  "languageKorean": "한국어",
+  "languageEnglish": "English",
+  "languageJapanese": "日本語",
+  "languageChineseSimplified": "简体中文",
+  "languageChineseTraditional": "繁體中文",
+  "languageChangeRestart": "重启应用以应用语言更改。"
+}

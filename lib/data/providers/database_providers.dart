@@ -63,6 +63,31 @@ final themeModeProvider = FutureProvider<ThemeMode>((ref) async {
 });
 
 // ============================================================
+// 언어 설정 Provider
+// ============================================================
+
+/// 앱 언어 Provider (앱 전역에서 사용)
+final appLocaleProvider = FutureProvider<Locale?>((ref) async {
+  final dao = ref.watch(userSettingsDaoProvider);
+  final localeString = await dao.getLocale();
+
+  // 'system'이면 null 반환 (시스템 설정 사용)
+  if (localeString == 'system') {
+    return null;
+  }
+
+  // 중국어 처리
+  if (localeString == 'zh-Hans') {
+    return const Locale('zh');
+  }
+  if (localeString == 'zh-Hant') {
+    return const Locale.fromSubtags(languageCode: 'zh', scriptCode: 'Hant');
+  }
+
+  return Locale(localeString);
+});
+
+// ============================================================
 // 일일 통계 Providers
 // ============================================================
 

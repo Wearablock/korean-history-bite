@@ -234,20 +234,6 @@ class StudySession {
   int get newLearningCompletedCount =>
       results.where((r) => newQuestionIds.contains(r.questionId)).length;
 
-  /// 현재 단계의 진행 상황 문자열
-  String get currentPhaseProgress {
-    switch (_currentPhase) {
-      case SessionPhase.wrongReview:
-        return '오답 복습 ${wrongReviewCompletedCount + 1}/${wrongReviewQuizCount}';
-      case SessionPhase.spacedReview:
-        return '복습 ${spacedReviewCompletedCount + 1}/${spacedReviewQuizCount}';
-      case SessionPhase.newLearning:
-        return '신규 학습 ${newLearningCompletedCount + 1}/${newLearningQuizCount}';
-      case SessionPhase.completed:
-        return '완료';
-    }
-  }
-
   // ============================================================
   // Actions
   // ============================================================

@@ -45,25 +45,6 @@ class EraIds {
     japaneseOccupation: 9,
     contemporary: 10,
   };
-
-  /// 시대 한글 이름 매핑
-  static const Map<String, String> koreanNames = {
-    prehistoric: '선사시대',
-    gojoseon: '고조선',
-    threeKingdoms: '삼국시대',
-    northSouthStates: '남북국시대',
-    goryeo: '고려',
-    joseonEarly: '조선 전기',
-    joseonLate: '조선 후기',
-    modern: '근대',
-    japaneseOccupation: '일제강점기',
-    contemporary: '현대',
-  };
-
-  /// 시대 ID를 한글 이름으로 변환
-  static String toKorean(String eraId) {
-    return koreanNames[eraId] ?? eraId;
-  }
 }
 
 class QuestionRepository {

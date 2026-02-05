@@ -4,6 +4,14 @@
 	<dict>
 		<key>CFBundleDevelopmentRegion</key>
 		<string>$(DEVELOPMENT_LANGUAGE)</string>
+		<key>CFBundleLocalizations</key>
+		<array>
+			<string>en</string>
+			<string>ko</string>
+			<string>ja</string>
+			<string>zh-Hans</string>
+			<string>zh-Hant</string>
+		</array>
 		<key>CFBundleDisplayName</key>
 		<string>Korean History Bite</string>
 		<key>CFBundleExecutable</key>
@@ -50,7 +58,7 @@
 		<string>ca-app-pub-8841058711613546~8349267802</string>
 		<!-- ATT 권한 설명 (iOS 14.5+) -->
 		<key>NSUserTrackingUsageDescription</key>
-		<string>맞춤형 광고를 제공하기 위해 앱 활동 추적 권한이 필요합니다.</string>
+		<string>This app uses tracking to provide personalized ads.</string>
 		<key>UIStatusBarHidden</key>
 		<false/>
 	</dict>

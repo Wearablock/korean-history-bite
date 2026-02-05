@@ -1,0 +1,301 @@
+{
+  "@@locale": "ja",
+  "appTitle": "韓国史一口",
+
+  "home": "ホーム",
+  "progress": "進捗",
+  "settings": "設定",
+  "wrongAnswers": "間違いノート",
+
+  "error": "エラー: {message}",
+  "@error": {
+    "placeholders": {
+      "message": {"type": "String"}
+    }
+  },
+
+  "startStudy": "学習開始",
+  "continueStudy": "学習を続ける",
+  "startReview": "復習開始",
+
+  "todayStudy": "今日の学習",
+  "allChaptersCompleted": "全チャプター完了！",
+  "reviewEncouragement": "復習を続けて内容をマスターしましょう。",
+  "nextChapter": "次のチャプター",
+  "questionsCount": "{count}問",
+  "@questionsCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "todayQuestionsCompleted": "今日{count}問完了",
+  "@todayQuestionsCompleted": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "todayGoal": "今日の目標",
+  "chaptersProgress": "{studied}/{goal}チャプター",
+  "@chaptersProgress": {
+    "placeholders": {
+      "studied": {"type": "int"},
+      "goal": {"type": "int"}
+    }
+  },
+  "streakDays": "{days}日連続！",
+  "@streakDays": {
+    "placeholders": {
+      "days": {"type": "int"}
+    }
+  },
+
+  "overallProgress": "全体進捗",
+  "mastered": "マスター済み",
+  "studiedOnce": "1回学習済み",
+  "totalQuestions": "全{count}問",
+  "@totalQuestions": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "questionsMastered": "{count} / {total}問マスター",
+  "@questionsMastered": {
+    "placeholders": {
+      "count": {"type": "int"},
+      "total": {"type": "int"}
+    }
+  },
+
+  "study": "学習",
+  "notifications": "通知",
+  "appSettings": "アプリ設定",
+  "info": "情報",
+  "appVersion": "アプリバージョン",
+  "termsAndPolicies": "利用規約・ポリシー",
+  "termsOfService": "利用規約",
+  "privacyPolicy": "プライバシーポリシー",
+  "support": "サポート",
+  "data": "データ",
+  "resetStudyRecords": "学習記録をリセット",
+  "resetStudyRecordsDesc": "すべての学習記録を削除",
+  "resetStudyRecordsConfirm": "すべての学習記録が削除されます。\nこの操作は元に戻せません。",
+  "cannotOpenLink": "リンクを開けません。",
+  "cancel": "キャンセル",
+  "reset": "リセット",
+  "confirm": "確認",
+  "studyRecordsReset": "学習記録がリセットされました。",
+  "dailyStudyAmount": "1日の学習量",
+  "chaptersUnit": "{count}チャプター",
+  "@chaptersUnit": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "customSetting": "カスタム",
+  "theme": "テーマ",
+  "selectTheme": "テーマを選択",
+  "themeSystem": "システムデフォルト",
+  "themeLight": "ライトモード",
+  "themeDark": "ダークモード",
+
+  "studyComplete": "学習完了",
+  "goodJob": "よくできました！",
+  "continueReviewWithCount": "復習を続ける（残り{count}問）",
+  "@continueReviewWithCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "goHome": "ホームへ",
+  "additionalStudy": "追加学習",
+  "todayStudyCompleteMessage": "今日の学習完了！",
+  "excellentComplete": "素晴らしい！\n今日の学習を完了しました！",
+  "goodComplete": "よくできました！\n今日の学習を完了しました！",
+  "accuracy": "正答率",
+  "correct": "正解",
+  "wrong": "不正解",
+  "timeSpent": "学習時間",
+  "phaseResults": "フェーズ別結果",
+  "wrongReview": "間違い復習",
+  "spacedReview": "間隔復習",
+  "newLearning": "新規学習",
+
+  "errorOccurred": "エラーが発生しました",
+  "retry": "再試行",
+  "stopStudy": "学習を中止",
+  "stopStudyConfirm": "学習を中止しますか？\n進捗は保存されます。",
+  "continueStudyButton": "続ける",
+  "stop": "中止",
+  "chapterNotFound": "チャプターが見つかりません。",
+
+  "eraProgress": "時代別進捗",
+
+  "reviewAvailable": "復習する問題があります！",
+  "reviewWaiting": "{count}問が復習待ち",
+  "@reviewWaiting": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+
+  "welcome": "ようこそ！",
+  "howManyChapters": "1日何チャプター学習しますか？",
+  "canChangeInSettings": "後で設定で変更できます",
+  "start": "開始",
+  "lightStart": "軽く始める",
+  "moderateAmount": "適度な量",
+  "intensiveStudy": "集中学習",
+  "settingsSaveError": "設定保存エラー: {error}",
+  "@settingsSaveError": {
+    "placeholders": {
+      "error": {"type": "String"}
+    }
+  },
+
+  "overallStudyStats": "全体学習統計",
+  "totalStudy": "総学習",
+  "accuracyRate": "正答率",
+  "studyDays": "学習日数",
+  "daysCount": "{count}日",
+  "@daysCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "studyTime": "学習時間",
+
+  "streakRecord": "連続記録",
+  "currentStreak": "現在の連続",
+  "longestStreak": "最長連続",
+  "newRecord": "新記録達成中！",
+  "weekStreak": "1週間連続！すごい！",
+  "keepItUp": "この調子で頑張ろう！",
+  "todayComplete": "今日の学習完了！",
+
+  "levelDistribution": "レベル分布",
+  "fullyMastered": "マスター",
+  "reviewLevel4": "復習レベル4",
+  "reviewLevel3": "復習レベル3",
+  "reviewLevel2": "復習レベル2",
+  "reviewLevel1": "復習レベル1",
+  "wrongOrReset": "不正解/リセット",
+  "unknown": "不明",
+  "unstudied": "未学習",
+  "learning": "学習中",
+
+  "studyNotification": "学習通知",
+  "dailyNotification": "設定時刻に毎日リマインド",
+  "notificationOff": "通知オフ",
+  "notificationChannelName": "学習リマインダー",
+  "notificationChannelDesc": "毎日の学習時間リマインダー",
+  "notificationTitle": "韓国史一口",
+  "notificationBody": "今日の学習を始めましょう！",
+  "notificationTime": "通知時刻",
+  "selectNotificationTime": "通知時刻を選択",
+  "amTime": "午前{hour}:{minute}",
+  "@amTime": {
+    "placeholders": {
+      "hour": {"type": "int"},
+      "minute": {"type": "String"}
+    }
+  },
+  "pmTime": "午後{hour}:{minute}",
+  "@pmTime": {
+    "placeholders": {
+      "hour": {"type": "int"},
+      "minute": {"type": "String"}
+    }
+  },
+
+  "wrongAnswersComingSoon": "間違いノート（準備中）",
+  "noWrongAnswers": "間違いなし！",
+  "noWrongAnswersDesc": "よくできています！この調子で\n知識を積み重ねていきましょう！",
+  "wrongCount": "{count}回間違い",
+  "@wrongCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "correctAnswer": "正解",
+  "yourAnswer": "あなたの回答",
+  "explanation": "解説",
+
+  "nextQuestion": "次の問題",
+  "sessionComplete": "今日の学習完了！",
+
+  "questionsCompleted": "{total}問中{completed}問完了",
+  "@questionsCompleted": {
+    "placeholders": {
+      "completed": {"type": "int"},
+      "total": {"type": "int"}
+    }
+  },
+
+  "eraPrehistoric": "先史時代",
+  "eraGojoseon": "古朝鮮",
+  "eraThreeKingdoms": "三国時代",
+  "eraNorthSouthStates": "南北国時代",
+  "eraGoryeo": "高麗",
+  "eraJoseonEarly": "朝鮮前期",
+  "eraJoseonLate": "朝鮮後期",
+  "eraModern": "近代",
+  "eraJapaneseOccupation": "日本統治時代",
+  "eraContemporary": "現代",
+
+  "studied": "学習済み",
+  "masteredShort": "マスター",
+  "studiedStats": "学習 {studied}/{total} · マスター {mastered}",
+  "@studiedStats": {
+    "placeholders": {
+      "studied": {"type": "int"},
+      "total": {"type": "int"},
+      "mastered": {"type": "int"}
+    }
+  },
+
+  "questionNotFound": "問題が見つかりません。",
+  "review": "復習",
+
+  "theoryLearning": "理論",
+  "learningComplete": "完了",
+  "correctAnswer": "正解！",
+  "wrongAnswer": "不正解",
+  "quiz": "クイズ",
+  "showHint": "ヒントを見る",
+  "imageLoadFailed": "画像の読み込みに失敗",
+  "sourceDocument": "出典",
+  "newShort": "新規",
+  "itemCount": "{count}",
+  "@itemCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+
+  "premium": "プレミアム",
+  "removeAds": "広告を削除",
+  "premiumActivated": "プレミアム有効",
+  "purchase": "購入",
+  "restorePurchases": "購入を復元",
+  "purchaseFailed": "購入に失敗しました",
+  "purchasesRestored": "購入が復元されました",
+  "productNotAvailable": "商品が利用できません",
+
+  "oneChapter": "1チャプター",
+  "twoChapters": "2チャプター",
+  "threeChapters": "3チャプター",
+
+  "notificationPermissionRequired": "通知の許可が必要です。設定で通知を許可してください。",
+  "notificationSettingError": "通知設定中にエラーが発生しました。",
+  "notificationTimeSettingError": "通知時刻設定中にエラーが発生しました。",
+
+  "language": "言語",
+  "selectLanguage": "言語を選択",
+  "languageSystem": "システム設定",
+  "languageKorean": "한국어",
+  "languageEnglish": "English",
+  "languageJapanese": "日本語",
+  "languageChineseSimplified": "简体中文",
+  "languageChineseTraditional": "繁體中文",
+  "languageChangeRestart": "言語変更を適用するにはアプリを再起動してください。"
+}

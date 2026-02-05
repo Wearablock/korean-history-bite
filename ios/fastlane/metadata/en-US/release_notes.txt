@@ -1,4 +1,7 @@
-Bug fixes and improvements
+New in this version:
 
-- Fixed in-app purchase functionality
-- Improved ad removal feature stability
+- Added Japanese language support
+- Added Chinese language support (Simplified & Traditional)
+- Added language selection in settings
+- Added app update notifications
+- Bug fixes and improvements

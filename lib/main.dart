@@ -1,3 +1,6 @@
+import 'dart:io';
+
+import 'package:app_tracking_transparency/app_tracking_transparency.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_crashlytics/firebase_crashlytics.dart';
 import 'package:flutter/material.dart';
@@ -20,6 +23,12 @@ void main() async {
 
   // Crashlytics 설정
   FlutterError.onError = FirebaseCrashlytics.instance.recordFlutterError;
+
+  // ATT 권한 요청 (iOS 14.5+) - AdMob 초기화 전에 호출해야 함
+  if (Platform.isIOS) {
+    await Future.delayed(const Duration(milliseconds: 200));
+    await AppTrackingTransparency.requestTrackingAuthorization();
+  }
 
   // AdMob 초기화
   await MobileAds.instance.initialize();
