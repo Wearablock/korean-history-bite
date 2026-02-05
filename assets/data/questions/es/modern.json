@@ -1,0 +1,1444 @@
+{
+  "questions": [
+    {
+      "id": "q_modern_01_001",
+      "question": "¿Qué medida tomó Heungseon Daewongun al inicio de su gobierno para fortalecer la autoridad real?",
+      "options": [
+        "Abolir Bibyeonsa y restaurar las funciones de Uijeongbu",
+        "Abolir el sistema de apelación directa de los Seis Ministerios",
+        "Fortalecer Bibyeonsa",
+        "Abolir Samjeong Ijeonghcheong"
+      ],
+      "answer": 0,
+      "explanation": "Heungseon Daewongun abolió Bibyeonsa y restauró las funciones de Uijeongbu y Samgunbu para fortalecer la autoridad real."
+    },
+    {
+      "id": "q_modern_01_002",
+      "question": "¿Cuál NO fue una política implementada por esta persona en la foto?",
+      "options": [
+        "Establecer Mandongmyo",
+        "Abolir las academias Seowon",
+        "Reconstruir el Palacio Gyeongbokgung",
+        "Implementar Hopoje"
+      ],
+      "answer": 0,
+      "explanation": "Heungseon Daewongun abolió Mandongmyo. Mandongmyo era un santuario para adorar a los emperadores Shenzong y Yizong de la dinastía Ming, que el Daewongun eliminó como parte de su política de abolición de Seowon."
+    },
+    {
+      "id": "q_modern_01_003",
+      "question": "¿Cuál fue la razón principal por la que Heungseon Daewongun abolió las academias Seowon?",
+      "options": [
+        "Porque Seowon disfrutaba de privilegios de exención de impuestos y servicios, debilitando las finanzas estatales",
+        "Porque Seowon difundía el catolicismo",
+        "Porque Seowon conspiraba con potencias extranjeras",
+        "Porque Seowon apoyaba el Donghak"
+      ],
+      "answer": 0,
+      "explanation": "Seowon disfrutaba de privilegios de exención de impuestos y servicio militar, se convirtieron en bases para facciones y debilitaron las finanzas estatales y la autoridad real. El Daewongun abolió más de 600 Seowon, dejando solo 47."
+    },
+    {
+      "id": "q_modern_01_004",
+      "question": "¿Cuál NO fue una medida tomada por Heungseon Daewongun para la reconstrucción de este edificio en la foto?",
+      "options": [
+        "Imponer gyeoljak (sobretasa de tierra) a los terratenientes",
+        "Emitir la moneda Dangbaekjeon",
+        "Recolectar Wonnap-jeon (donaciones voluntarias)",
+        "Movilizar a los residentes de la capital para trabajo forzado"
+      ],
+      "answer": 0,
+      "explanation": "Para la reconstrucción de Gyeongbokgung, el Daewongun emitió Dangbaekjeon, recolectó Wonnap-jeon y movilizó trabajo forzado. Gyeoljak era una sobretasa sobre la tierra, no impuesta específicamente a los terratenientes."
+    },
+    {
+      "id": "q_modern_01_005",
+      "question": "¿Qué afirmación sobre el Hopoje (impuesto de tela por hogar) de Heungseon Daewongun es correcta?",
+      "options": [
+        "Buscaba resolver la desigualdad del servicio militar imponiendo también el impuesto de tela militar a los yangban",
+        "Fortaleció aún más el privilegio de exención del servicio militar de los yangban",
+        "Duplicó la carga del impuesto de tela militar de los plebeyos",
+        "Hopoje se implementó después de que comenzara el gobierno personal del Rey Gojong"
+      ],
+      "answer": 0,
+      "explanation": "Hopoje era un sistema que imponía el impuesto de tela militar basado en hogares, recolectando también de los yangban para resolver la desigualdad del servicio militar y expandir las finanzas estatales."
+    },
+    {
+      "id": "q_modern_01_006",
+      "question": "¿Cuál fue el resultado de la emisión de Dangbaekjeon por Heungseon Daewongun?",
+      "options": [
+        "Los precios se dispararon y la economía cayó en el caos",
+        "Los precios se estabilizaron y la economía se revitalizó",
+        "El comercio exterior aumentó",
+        "La carga fiscal de los agricultores disminuyó"
+      ],
+      "answer": 0,
+      "explanation": "Dangbaekjeon fue emitido con 100 veces el valor de Sangpyeong Tongbo, pero su valor real era solo 5-6 veces, causando inflación de precios y caos económico."
+    },
+    {
+      "id": "q_modern_01_007",
+      "question": "¿Cuál es el significado del contenido inscrito en este monumento de piedra?",
+      "options": [
+        "Interactuar o hacer la paz con Occidente significa vender el país",
+        "Debemos interactuar activamente con Occidente",
+        "Fomenta el comercio con Japón",
+        "Abole la relación tributaria con China Qing"
+      ],
+      "answer": 0,
+      "explanation": "El Cheokwhabi (Monumento Anti-Occidental) está inscrito con: 'Cuando los bárbaros occidentales invaden, no luchar significa hacer la paz, y abogar por la paz significa vender el país.'"
+    },
+    {
+      "id": "q_modern_01_008",
+      "question": "¿Qué evento causó directamente la Campaña Francesa contra Corea (Byeongin Yangyo)?",
+      "options": [
+        "Persecución de misioneros franceses y católicos coreanos",
+        "Hundimiento del barco mercante estadounidense General Sherman",
+        "Intento de Oppert de robar la tumba de Namyeongun",
+        "El Incidente Unyo en la isla Ganghwa"
+      ],
+      "answer": 0,
+      "explanation": "En 1866, la persecución católica de Heungseon Daewongun (Persecución Byeongin) resultó en la ejecución de 9 misioneros franceses y miles de creyentes coreanos, lo que Francia usó como pretexto para invadir la isla Ganghwa."
+    },
+    {
+      "id": "q_modern_01_009",
+      "question": "¿Qué evento causó la Expedición de Estados Unidos a Corea (Sinmi Yangyo)?",
+      "options": [
+        "Incidente del General Sherman",
+        "Persecución Byeongin",
+        "Incidente Unyo",
+        "Incidente Oppert"
+      ],
+      "answer": 0,
+      "explanation": "En 1866, el barco mercante estadounidense General Sherman exigió comercio en el río Daedong y fue quemado por soldados y civiles de Pyongyang. Estados Unidos usó esto como pretexto para invadir la isla Ganghwa en 1871."
+    },
+    {
+      "id": "q_modern_01_010",
+      "question": "¿Qué evaluación de la política de rechazo de relaciones diplomáticas de Heungseon Daewongun NO es apropiada?",
+      "options": [
+        "Logró prevenir tratados desiguales después de la apertura de puertos",
+        "Bloqueó temporalmente la invasión extranjera",
+        "Resultó en perder oportunidades de modernización",
+        "La política aislacionista eventualmente llevó a una apertura forzada"
+      ],
+      "answer": 0,
+      "explanation": "La política aislacionista de Heungseon Daewongun bloqueó temporalmente la invasión extranjera, pero eventualmente llevó al desigual Tratado de Ganghwa en 1876."
+    },
+    {
+      "id": "q_modern_02_001",
+      "question": "¿Qué evento llevó directamente a la firma del Tratado de Ganghwa (Tratado de Amistad Japón-Corea)?",
+      "options": [
+        "Incidente Unyo",
+        "Byeongin Yangyo",
+        "Sinmi Yangyo",
+        "Incidente del General Sherman"
+      ],
+      "answer": 0,
+      "explanation": "En 1875, el buque de guerra japonés Unyo entró ilegalmente en la isla Ganghwa y chocó con las fuerzas coreanas. Japón usó este Incidente Unyo como pretexto para forzar a Corea a abrir sus puertos."
+    },
+    {
+      "id": "q_modern_02_002",
+      "question": "¿Cuál NO fue una disposición del tratado relacionado con esta foto?",
+      "options": [
+        "Corea otorga estatus de nación más favorecida a Japón",
+        "Corea es una nación independiente con derechos iguales a Japón",
+        "Se abrirán dos puertos adicionales además de Busan",
+        "Japón puede estacionar tropas en su legación"
+      ],
+      "answer": 0,
+      "explanation": "El Tratado de Ganghwa no incluyó una cláusula de nación más favorecida. El estatus de nación más favorecida se estableció por primera vez en el Tratado Corea-Estados Unidos (1882)."
+    },
+    {
+      "id": "q_modern_02_003",
+      "question": "¿Cuál NO fue una disposición desigual del Tratado de Ganghwa?",
+      "options": [
+        "Se reconoció la autonomía arancelaria de Corea",
+        "Se otorgó extraterritorialidad (jurisdicción consular) a Japón",
+        "Se permitió la circulación de moneda japonesa en Corea",
+        "Se otorgaron derechos de estudio costero a Japón"
+      ],
+      "answer": 0,
+      "explanation": "La autonomía arancelaria de Corea no fue reconocida en el Tratado de Ganghwa y sus acuerdos suplementarios. Se permitió el comercio libre de aranceles, causando gran daño a la economía coreana."
+    },
+    {
+      "id": "q_modern_02_004",
+      "question": "¿Cuál era la intención de Japón al declarar que 'Corea es una nación independiente' en el Tratado de Ganghwa?",
+      "options": [
+        "Negar la soberanía de China Qing sobre Corea y excluir la interferencia china",
+        "Garantizar la independencia completa de Corea",
+        "Establecer relaciones diplomáticas iguales con Corea",
+        "Evitar interferir en los asuntos internos de Corea"
+      ],
+      "answer": 0,
+      "explanation": "La designación de Japón de Corea como 'nación independiente' tenía la intención de negar la soberanía de Qing y prevenir la intervención china cuando Japón invadiera Corea."
+    },
+    {
+      "id": "q_modern_02_005",
+      "question": "¿Qué puerto NO se abrió después del Tratado de Ganghwa?",
+      "options": [
+        "Mokpo",
+        "Busan",
+        "Wonsan",
+        "Incheon"
+      ],
+      "answer": 0,
+      "explanation": "Busan (1876), Wonsan (1880) e Incheon (Jemulpo, 1883) se abrieron después del Tratado de Ganghwa. Mokpo se abrió en 1897."
+    },
+    {
+      "id": "q_modern_02_006",
+      "question": "¿Cuál fue el primer tratado que Corea firmó con una nación occidental?",
+      "options": [
+        "Tratado de Amistad y Comercio Corea-Estados Unidos",
+        "Reglamentos para el Comercio Marítimo y Terrestre entre Súbditos Chinos y Coreanos",
+        "Tratado de Amistad Japón-Corea",
+        "Tratado de Amistad y Comercio Corea-Rusia"
+      ],
+      "answer": 0,
+      "explanation": "El Tratado de Amistad y Comercio Corea-Estados Unidos firmado en 1882 fue el primer tratado que Corea concluyó con una nación occidental. Fue organizado a través de la mediación de China Qing."
+    },
+    {
+      "id": "q_modern_02_007",
+      "question": "¿Cuál fue una característica del Tratado de Amistad y Comercio Corea-Estados Unidos?",
+      "options": [
+        "Incluyó una cláusula de nación más favorecida que afectó los tratados con otros países",
+        "Fue un tratado completamente igual que garantizaba la autonomía arancelaria",
+        "Incluyó una cláusula para la garantía estadounidense de la independencia coreana",
+        "Otorgó extraterritorialidad a Corea"
+      ],
+      "answer": 0,
+      "explanation": "El Tratado Corea-Estados Unidos incluyó una cláusula de nación más favorecida, otorgando automáticamente los mismos privilegios a los socios de tratados posteriores."
+    },
+    {
+      "id": "q_modern_02_008",
+      "question": "¿Qué afirmación sobre los Reglamentos para el Comercio Marítimo y Terrestre (1882) es correcta?",
+      "options": [
+        "Permitió a los comerciantes chinos derechos de comercio interior, profundizando la penetración económica china",
+        "Especificó el estatus de Corea como nación independiente",
+        "Abolió las obligaciones tributarias hacia Qing",
+        "Garantizó completamente la autonomía arancelaria"
+      ],
+      "answer": 0,
+      "explanation": "Los Reglamentos para el Comercio Marítimo y Terrestre permitieron a los comerciantes chinos comerciar en el interior en Yanghwajin y Hanseong, profundizando la penetración económica china."
+    },
+    {
+      "id": "q_modern_02_009",
+      "question": "¿Cuál NO fue un cambio en la economía coreana después de la apertura de puertos?",
+      "options": [
+        "Las finanzas estatales aumentaron enormemente a través de los ingresos arancelarios",
+        "Los precios de los granos se dispararon debido a la salida de granos",
+        "La industria textil de algodón sufrió por las importaciones de productos de algodón",
+        "El comercio de asentamiento de comerciantes extranjeros floreció"
+      ],
+      "answer": 0,
+      "explanation": "En los primeros puertos abiertos, el comercio libre de aranceles significaba casi ningún ingreso arancelario, y la salida de granos y la afluencia de productos extranjeros empobrecieron la economía coreana."
+    },
+    {
+      "id": "q_modern_02_010",
+      "question": "¿Qué afirmación sobre el Bangokryeong (Embargo de Granos) es correcta?",
+      "options": [
+        "Era una medida para prohibir las exportaciones de granos para prevenir la escasez de alimentos causada por la salida de granos",
+        "Era una política de promoción de exportación de granos implementada a solicitud de Japón",
+        "Se implementó efectivamente inmediatamente después de la apertura de puertos",
+        "Se aplicaba solo a China Qing"
+      ],
+      "answer": 0,
+      "explanation": "Bangokryeong era una medida de los funcionarios locales para prohibir las exportaciones de granos para prevenir la escasez de alimentos domésticos y el aumento de los precios de los granos, pero no pudo implementarse adecuadamente debido a la oposición japonesa."
+    },
+    {
+      "id": "q_modern_03_001",
+      "question": "¿Qué NO influyó en la formación del pensamiento de ilustración?",
+      "options": [
+        "Movimiento Wijeong Cheoksa",
+        "Pensamiento Bukhak (Aprendizaje del Norte)",
+        "Movimiento de Auto-Fortalecimiento de Qing",
+        "Restauración Meiji de Japón"
+      ],
+      "answer": 0,
+      "explanation": "El pensamiento de ilustración heredó el pensamiento Bukhak y se formó referenciando ejemplos de modernización externos como el Movimiento de Auto-Fortalecimiento de Qing y la Restauración Meiji de Japón. El Movimiento Wijeong Cheoksa se oponía a la ilustración."
+    },
+    {
+      "id": "q_modern_03_002",
+      "question": "¿Qué defendía la facción de ilustración moderada (teoría Dongdo Seogi)?",
+      "options": [
+        "Deben adoptarse tanto la ética oriental como la tecnología occidental",
+        "Las instituciones e ideología occidentales deben adoptarse completamente",
+        "Debe reconocerse la soberanía de Qing y mantenerse la diplomacia tributaria",
+        "La Restauración Meiji de Japón debe copiarse exactamente"
+      ],
+      "answer": 0,
+      "explanation": "La facción de ilustración moderada defendía Dongdo Seogi (Camino Oriental, Tecnología Occidental), manteniendo el orden confuciano (Camino Oriental) mientras adoptaba la tecnología occidental. Kim Hong-jip, Kim Yun-sik y Eo Yun-jung fueron figuras representativas."
+    },
+    {
+      "id": "q_modern_03_003",
+      "question": "¿Cuál era una característica de la facción de ilustración radical?",
+      "options": [
+        "Persiguieron una transformación rápida modelada en la Restauración Meiji de Japón",
+        "Se modelaron en el Movimiento de Auto-Fortalecimiento de Qing",
+        "Intentaron mantener el orden social neoconfuciano",
+        "Abogaron por una reforma gradual"
+      ],
+      "answer": 0,
+      "explanation": "La facción de ilustración radical persiguió una reforma política y social radical modelada en la Restauración Meiji de Japón. Kim Ok-gyun, Park Yeong-hyo, Hong Yeong-sik y Seo Jae-pil fueron figuras representativas."
+    },
+    {
+      "id": "q_modern_03_004",
+      "question": "¿Qué institución estableció el gobierno coreano para promover las políticas de ilustración?",
+      "options": [
+        "Tongni Gimu Amun",
+        "Bibyeonsa",
+        "Samgunbu",
+        "Uijeongbu"
+      ],
+      "answer": 0,
+      "explanation": "En 1880, el gobierno coreano estableció Tongni Gimu Amun para supervisar las políticas de ilustración, con 12 departamentos manejando diplomacia, comercio, asuntos militares y más."
+    },
+    {
+      "id": "q_modern_03_005",
+      "question": "¿Qué afirmación sobre esta unidad militar en la foto es correcta?",
+      "options": [
+        "Era una unidad militar moderna entrenada por instructores japoneses",
+        "Era una unidad militar de estilo antiguo perteneciente a los Cinco Campos Militares",
+        "Fue establecida por fuerzas chinas",
+        "Fue establecida durante la Reforma Gabo"
+      ],
+      "answer": 0,
+      "explanation": "El Byeolgigun era una unidad militar moderna establecida en 1881, entrenada por el instructor japonés Horimoto Reizo. Su trato preferencial sobre las tropas de estilo antiguo se convirtió en una causa del Motín Imo."
+    },
+    {
+      "id": "q_modern_03_006",
+      "question": "¿Cuál fue la delegación enviada por el gobierno coreano a Japón para observar la civilización moderna?",
+      "options": [
+        "Josa Sichaldan (Misión de Observación de Caballeros)",
+        "Sushinsa",
+        "Yeongsonsa",
+        "Bobingsa"
+      ],
+      "answer": 0,
+      "explanation": "En 1881, el gobierno coreano envió el Josa Sichaldan (Misión de Observación de Caballeros) a Japón para observar la civilización e instituciones modernas. Participaron doce miembros incluyendo a Park Jeong-yang y Eo Yun-jung."
+    },
+    {
+      "id": "q_modern_03_007",
+      "question": "¿Qué afirmación sobre el Yeongsonsa es correcta?",
+      "options": [
+        "Fue enviado a Qing para aprender fabricación de armas y tecnología moderna",
+        "Fue enviado a Japón para estudiar su constitución",
+        "Fue la primera delegación enviada a Estados Unidos",
+        "Concluyó un acuerdo secreto con Rusia"
+      ],
+      "answer": 0,
+      "explanation": "En 1881, el Yeongsonsa liderado por Kim Yun-sik fue enviado a Tianjin, China Qing para aprender fabricación de armas y tecnología moderna. Después de regresar, contribuyeron a establecer los Gigichangs (fábricas de máquinas)."
+    },
+    {
+      "id": "q_modern_03_008",
+      "question": "¿Qué afirmación sobre el Movimiento Wijeong Cheoksa NO es correcta?",
+      "options": [
+        "Abogó por la adopción parcial de tecnología occidental",
+        "Defendió el aprendizaje ortodoxo (neoconfucianismo) y rechazó el aprendizaje heterodoxo (aprendizaje occidental)",
+        "Expresó resistencia contra la invasión extranjera",
+        "Fue liderado por eruditos confucianos como Yi Hang-no y Gi Jeong-jin"
+      ],
+      "answer": 0,
+      "explanation": "El Movimiento Wijeong Cheoksa defendió el orden neoconfuciano y rechazó la civilización occidental. La adopción parcial de tecnología occidental (Dongdo Seogi) fue defendida por la facción de ilustración moderada."
+    },
+    {
+      "id": "q_modern_03_009",
+      "question": "¿Qué evento está relacionado con la persona que escribió el siguiente documento? 'Las cosas occidentales de hoy son iguales a los bárbaros de antaño, y las máquinas de hoy son iguales a los oficios licenciosos de antaño. Ni una sola pieza de estas debería permitirse en nuestro país.'",
+      "options": [
+        "Movimiento Yeongnam Manin-so (Petición de Diez Mil Personas de Yeongnam)",
+        "Golpe Gapsin",
+        "Movimiento Campesino Donghak",
+        "Movimiento del Club de la Independencia"
+      ],
+      "answer": 0,
+      "explanation": "En 1881, Yi Man-son representó a los eruditos confucianos de Yeongnam en presentar una petición de diez mil personas oponiéndose a las políticas de ilustración. Este Yeongnam Manin-so es un ejemplo representativo del Movimiento Wijeong Cheoksa."
+    },
+    {
+      "id": "q_modern_03_010",
+      "question": "¿Cuál es el significado histórico del Movimiento Wijeong Cheoksa?",
+      "options": [
+        "Demostró la voluntad nacional de resistir la invasión extranjera",
+        "Aumentó la conciencia de la necesidad de modernización",
+        "Contribuyó a abolir el sistema de estatus",
+        "Se convirtió en el fundamento para establecer la monarquía constitucional"
+      ],
+      "answer": 0,
+      "explanation": "Aunque basado en la distinción neoconfuciana entre civilizado y bárbaro, el Movimiento Wijeong Cheoksa demostró la resistencia nacional contra la invasión extranjera y más tarde llevó al movimiento del Ejército Justo anti-japonés."
+    },
+    {
+      "id": "q_modern_04_001",
+      "question": "¿Cuál fue la causa directa del Motín Imo?",
+      "options": [
+        "Salarios impagados y trato discriminatorio de los soldados de estilo antiguo",
+        "Descontento por el fracaso del Golpe Gapsin",
+        "Propagación del Donghak",
+        "Ira por el Incidente Eulmi"
+      ],
+      "answer": 0,
+      "explanation": "El Motín Imo de 1882 fue un levantamiento de soldados de estilo antiguo que fueron discriminados en comparación con el Byeolgigun y recibieron arroz mezclado con arena después de 13 meses de salarios impagados."
+    },
+    {
+      "id": "q_modern_04_002",
+      "question": "¿Cuál NO fue un resultado del Motín Imo?",
+      "options": [
+        "La interferencia japonesa en los asuntos internos coreanos fue completamente excluida",
+        "Heungseon Daewongun regresó temporalmente al poder",
+        "Las tropas chinas llegaron a estacionarse en Corea",
+        "Se firmó el Tratado de Jemulpo requiriendo compensación a Japón"
+      ],
+      "answer": 0,
+      "explanation": "Después del Motín Imo, la interferencia china se fortaleció, y se firmó el Tratado de Jemulpo con Japón requiriendo compensación y permitiendo que los guardias de la legación japonesa se estacionaran."
+    },
+    {
+      "id": "q_modern_04_003",
+      "question": "¿Qué grupo lideró el Golpe Gapsin?",
+      "options": [
+        "Facción de Ilustración Radical",
+        "Facción Wijeong Cheoksa",
+        "Facción de Ilustración Moderada",
+        "Ejército Campesino Donghak"
+      ],
+      "answer": 0,
+      "explanation": "El Golpe Gapsin de 1884 fue liderado por figuras de ilustración radical incluyendo a Kim Ok-gyun, Park Yeong-hyo, Hong Yeong-sik y Seo Jae-pil con apoyo japonés."
+    },
+    {
+      "id": "q_modern_04_004",
+      "question": "¿Cuál NO fue una propuesta de reforma anunciada durante el evento liderado por esta persona en la foto?",
+      "options": [
+        "Establecimiento de monarquía constitucional",
+        "Abolición de las relaciones tributarias con Qing",
+        "Abolición de las distinciones sociales y establecimiento de derechos iguales",
+        "Reforma de las leyes de impuestos sobre la tierra"
+      ],
+      "answer": 0,
+      "explanation": "La monarquía constitucional no fue incluida en la Plataforma de Reforma de 14 Artículos anunciada durante el Golpe Gapsin. La monarquía constitucional fue defendida más tarde por el Club de la Independencia."
+    },
+    {
+      "id": "q_modern_04_005",
+      "question": "¿Cuál fue la razón más apropiada por la que el Golpe Gapsin fracasó en solo 3 días?",
+      "options": [
+        "Porque las tropas japonesas se retiraron después de la intervención militar china",
+        "Porque el Rey Gojong no estuvo de acuerdo con las reformas",
+        "Porque obtuvo apoyo activo de las masas",
+        "Debido a la intervención militar estadounidense"
+      ],
+      "answer": 0,
+      "explanation": "El Golpe Gapsin fracasó en 3 días cuando las tropas japonesas se retiraron después de que 1,500 tropas chinas intervinieran. La facción de ilustración radical tuvo limitaciones al intentar reformas a través de un golpe sin apoyo popular."
+    },
+    {
+      "id": "q_modern_04_006",
+      "question": "¿Cuál es el significado del Golpe Gapsin?",
+      "options": [
+        "Fue el primer movimiento de reforma política con el objetivo de construir una nación moderna",
+        "Fue una reforma de abajo hacia arriba liderada por las masas",
+        "Se completó con éxito con el apoyo de Qing",
+        "Realizó la monarquía constitucional"
+      ],
+      "answer": 0,
+      "explanation": "Aunque el Golpe Gapsin fracasó en solo 3 días, tiene significado como el primer movimiento de reforma política con el objetivo de construir una nación moderna y lograr la independencia."
+    },
+    {
+      "id": "q_modern_04_007",
+      "question": "¿Qué tratado firmaron Qing y Japón después del Golpe Gapsin?",
+      "options": [
+        "Tratado de Tientsin",
+        "Tratado de Ganghwa",
+        "Tratado de Jemulpo",
+        "Tratado de Shimonoseki"
+      ],
+      "answer": 0,
+      "explanation": "En 1885, Qing y Japón firmaron el Tratado de Tientsin, acordando retirar las tropas de ambos países de Corea y notificarse mutuamente en caso de futuros despliegues de tropas."
+    },
+    {
+      "id": "q_modern_04_008",
+      "question": "¿Qué política diplomática persiguió el gobierno coreano inmediatamente después del Golpe Gapsin?",
+      "options": [
+        "Intentó contener a Qing y Japón persiguiendo un acuerdo secreto con Rusia",
+        "Cortó completamente las relaciones tributarias con Qing",
+        "Suspendió completamente el comercio con Japón",
+        "Concluyó una alianza militar con Estados Unidos"
+      ],
+      "answer": 0,
+      "explanation": "Después del Golpe Gapsin, Corea persiguió un acuerdo secreto con Rusia para contener a Qing y Japón (teoría del pacto secreto Corea-Rusia), pero esto llevó a la ocupación británica de Geomundo (1885-1887)."
+    },
+    {
+      "id": "q_modern_04_009",
+      "question": "¿Cuál de los siguientes fue parte de la Plataforma de Reforma de 14 Artículos del Golpe Gapsin?",
+      "options": [
+        "Abolir Hyesanggongguk y hacer que el Ministerio de Hacienda administre las finanzas en su lugar",
+        "Abolir el sistema de exámenes civiles y establecer escuelas modernas",
+        "Establecer un sistema de gabinete además de Uijeongbu y los Seis Ministerios",
+        "Abolir el sistema de estatus y establecer una república"
+      ],
+      "answer": 0,
+      "explanation": "La Plataforma de Reforma de 14 Artículos incluyó abolir Hyesanggongguk, reformar las leyes de impuestos sobre la tierra, abolir la Oficina de Eunucos del Palacio y abolir las distinciones sociales. Abolir el sistema de exámenes y el decreto del corte de pelo fueron parte de la Reforma Gabo."
+    },
+    {
+      "id": "q_modern_04_010",
+      "question": "¿Qué tenían en común el Motín Imo y el Golpe Gapsin?",
+      "options": [
+        "Ambos fracasaron o fueron resueltos debido a la intervención extranjera",
+        "Ambos fueron liderados por agricultores",
+        "Ambos buscaban establecer monarquía constitucional",
+        "Ambos recibieron apoyo japonés"
+      ],
+      "answer": 0,
+      "explanation": "El Motín Imo fue resuelto por la intervención militar china, y el Golpe Gapsin también fracasó debido a la intervención militar china. La intervención extranjera tuvo un impacto decisivo en ambos eventos."
+    },
+    {
+      "id": "q_modern_05_001",
+      "question": "¿En qué año ocurrió el Movimiento Campesino Donghak?",
+      "options": [
+        "1894",
+        "1882",
+        "1884",
+        "1895"
+      ],
+      "answer": 0,
+      "explanation": "El Movimiento Campesino Donghak ocurrió en 1894, desarrollándose desde el Levantamiento Campesino de Gobu a través del Primer Levantamiento, el Tratado de Jeonju, las actividades de Jipgangso y el Segundo Levantamiento."
+    },
+    {
+      "id": "q_modern_05_002",
+      "question": "¿Cuál fue la causa directa del Levantamiento Campesino de Gobu liderado por esta persona en la foto?",
+      "options": [
+        "La tiranía del Magistrado Jo Byeong-gap incluyendo la recaudación injusta de impuestos de agua de Manseokbo",
+        "La ocupación militar japonesa del Palacio Gyeongbokgung",
+        "Estallido de la Guerra Sino-Japonesa",
+        "Ejecución del fundador del Donghak Choe Je-u"
+      ],
+      "answer": 0,
+      "explanation": "El Levantamiento Campesino de Gobu liderado por Jeon Bong-jun en enero de 1894 fue causado directamente por la tiranía del Magistrado Jo Byeong-gap incluyendo la recaudación injusta de impuestos de agua del embalse Manseokbo."
+    },
+    {
+      "id": "q_modern_05_003",
+      "question": "¿Qué eslóganes levantó el Ejército Campesino Donghak durante el Primer Levantamiento?",
+      "options": [
+        "Jepok Gumin (Eliminar la tiranía, salvar al pueblo), Boguk Anmin (Proteger la nación, asegurar al pueblo)",
+        "Cheokwae Yangchang-ui",
+        "Jonwang Yangi",
+        "Dongdo Seogi"
+      ],
+      "answer": 0,
+      "explanation": "El Ejército Campesino Donghak levantó los eslóganes 'Jepok Gumin (Eliminar la tiranía, salvar al pueblo)' y 'Boguk Anmin (Proteger la nación, asegurar al pueblo)'."
+    },
+    {
+      "id": "q_modern_05_004",
+      "question": "¿En qué batalla el Ejército Campesino Donghak derrotó decisivamente a las fuerzas del gobierno?",
+      "options": [
+        "Batalla de Hwangtohyeon",
+        "Batalla de Ugeumchi",
+        "Batalla de Gongju",
+        "Batalla de Jinju"
+      ],
+      "answer": 0,
+      "explanation": "En abril de 1894 en la Batalla de Hwangtohyeon, el Ejército Campesino Donghak derrotó decisivamente a las fuerzas del gobierno y ocupó la Fortaleza de Jeonju. La Batalla de Ugeumchi fue una derrota durante el Segundo Levantamiento."
+    },
+    {
+      "id": "q_modern_05_005",
+      "question": "¿Qué afirmación sobre el Tratado de Jeonju es correcta?",
+      "options": [
+        "El Ejército Campesino Donghak y el gobierno acordaron un alto al fuego con promesas de reforma administrativa",
+        "Qing y Japón prometieron retirar tropas de Corea",
+        "El Ejército Campesino Donghak se rindió completamente al gobierno",
+        "Japón y Corea formaron una alianza"
+      ],
+      "answer": 0,
+      "explanation": "A través del Tratado de Jeonju en mayo de 1894, el Ejército Campesino Donghak y el gobierno acordaron un alto al fuego, y el gobierno prometió reforma administrativa. Después, el ejército campesino estableció Jipgangso para implementar reformas autónomas."
+    },
+    {
+      "id": "q_modern_05_006",
+      "question": "¿Cuál NO fue una reforma implementada en Jipgangso?",
+      "options": [
+        "Abolir el sistema de exámenes civiles y establecer escuelas modernas",
+        "Quemar registros de esclavos",
+        "Castigar a funcionarios corruptos",
+        "Intentar la distribución equitativa de tierras"
+      ],
+      "answer": 0,
+      "explanation": "Jipgangso implementó la quema de registros de esclavos, la abolición de la discriminación de estatus y la distribución equitativa de tierras. Abolir el sistema de exámenes fue parte de la Reforma Gabo."
+    },
+    {
+      "id": "q_modern_05_007",
+      "question": "¿Por qué el Ejército Campesino Donghak lanzó el Segundo Levantamiento?",
+      "options": [
+        "Para resistir la ocupación militar japonesa del Palacio Gyeongbokgung y la interferencia en asuntos internos",
+        "Porque el Tratado de Jeonju fue roto y las fuerzas del gobierno atacaron",
+        "Porque las fuerzas chinas suprimieron el Donghak",
+        "Porque la petición de rehabilitación póstuma del fundador fue rechazada"
+      ],
+      "answer": 0,
+      "explanation": "En septiembre de 1894, el Ejército Campesino Donghak lanzó el Segundo Levantamiento bajo la bandera de 'Cheokwae (Expulsar a los japoneses)' para resistir la ocupación militar japonesa del Palacio Gyeongbokgung y la provocación de la Guerra Sino-Japonesa."
+    },
+    {
+      "id": "q_modern_05_008",
+      "question": "¿En qué batalla fue derrotado el Ejército Campesino Donghak por las fuerzas combinadas japonesas y gubernamentales?",
+      "options": [
+        "Batalla de Ugeumchi",
+        "Batalla de Hwangtohyeon",
+        "Batalla de Hwangsan",
+        "Batalla de la Fortaleza de Jeonju"
+      ],
+      "answer": 0,
+      "explanation": "En noviembre de 1894 en la Batalla de Ugeumchi en Gongju, el Ejército Campesino Donghak fue derrotado por las fuerzas combinadas japonesas y gubernamentales. Jeon Bong-jun fue capturado y ejecutado."
+    },
+    {
+      "id": "q_modern_05_009",
+      "question": "¿Cuál NO fue un significado histórico del Movimiento Campesino Donghak?",
+      "options": [
+        "Realizó la monarquía constitucional",
+        "Fue un movimiento nacional anti-feudal y anti-extranjero",
+        "Influyó en la Reforma Gabo",
+        "Fue un movimiento de modernización de abajo hacia arriba"
+      ],
+      "answer": 0,
+      "explanation": "El Movimiento Campesino Donghak fue un movimiento nacional contra el feudalismo y las potencias extranjeras que influyó en la Reforma Gabo, pero no realizó la monarquía constitucional."
+    },
+    {
+      "id": "q_modern_05_010",
+      "question": "¿Qué evento está relacionado con el siguiente documento? 'Los funcionarios corruptos serán investigados y severamente castigados. Los registros de esclavos serán quemados. La tierra será distribuida equitativamente para el cultivo.'",
+      "options": [
+        "Movimiento Campesino Donghak",
+        "Motín Imo",
+        "Golpe Gapsin",
+        "Incidente Eulmi"
+      ],
+      "answer": 0,
+      "explanation": "Este documento es parte de las Demandas de Reforma de 12 Artículos del Ejército Campesino Donghak, pidiendo el castigo de funcionarios corruptos, la liberación de esclavos y la distribución equitativa de tierras."
+    },
+    {
+      "id": "q_modern_06_001",
+      "question": "¿Cuándo se implementó la Reforma Gabo?",
+      "options": [
+        "1894-1895",
+        "1882-1883",
+        "1884-1885",
+        "1897-1898"
+      ],
+      "answer": 0,
+      "explanation": "La Reforma Gabo fue una reforma moderna implementada desde julio de 1894 hasta 1895, llevada a cabo bajo presión japonesa durante la Guerra Sino-Japonesa."
+    },
+    {
+      "id": "q_modern_06_002",
+      "question": "¿Cuál NO fue parte de la Primera Reforma Gabo?",
+      "options": [
+        "Proclamación del Imperio Coreano",
+        "Abolición del sistema de exámenes civiles",
+        "Abolición del sistema de estatus",
+        "Adopción del sistema de moneda de patrón plata"
+      ],
+      "answer": 0,
+      "explanation": "La Primera Reforma Gabo implementó la abolición del sistema de exámenes, la abolición del sistema de estatus y la moneda de patrón plata. La proclamación del Imperio Coreano ocurrió en 1897."
+    },
+    {
+      "id": "q_modern_06_003",
+      "question": "¿Cuál fue el órgano estatal más alto establecido durante la Reforma Gabo?",
+      "options": [
+        "Gunguk Gimucheo",
+        "Uijeongbu",
+        "Bibyeonsa",
+        "Tongni Gimu Amun"
+      ],
+      "answer": 0,
+      "explanation": "Durante la Reforma Gabo de 1894, se estableció el Gunguk Gimucheo para liderar las reformas, supervisando todos los asuntos estatales en lugar de Uijeongbu y los Seis Ministerios."
+    },
+    {
+      "id": "q_modern_06_004",
+      "question": "¿Cuál NO fue parte de la Segunda Reforma Gabo (Reforma Eulmi)?",
+      "options": [
+        "Establecimiento de Jipgangso",
+        "Implementación del decreto del corte de pelo",
+        "Adopción del calendario solar",
+        "Uso del nombre de era Geonyang"
+      ],
+      "answer": 0,
+      "explanation": "La Segunda Reforma Gabo (Reforma Eulmi) implementó el decreto del corte de pelo, el calendario solar, el nombre de era Geonyang y la Ordenanza de Escuelas Primarias. Jipgangso era un órgano autónomo establecido por el Ejército Campesino Donghak."
+    },
+    {
+      "id": "q_modern_06_005",
+      "question": "¿Qué afirmación sobre el Incidente Eulmi es correcta?",
+      "options": [
+        "Fue el asesinato de la Emperatriz Myeongseong por ronin japoneses",
+        "Fue la ocupación del Palacio Gyeongbokgung por el Ejército Campesino Donghak",
+        "Fue el ataque militar chino al palacio coreano",
+        "Fue la intervención militar rusa en Corea"
+      ],
+      "answer": 0,
+      "explanation": "El Incidente Eulmi de 1895 fue cuando el Ministro japonés Miura Goro movilizó ronin japoneses para invadir el Palacio Gyeongbokgung y asesinar a la Emperatriz Myeongseong."
+    },
+    {
+      "id": "q_modern_06_006",
+      "question": "¿Cuál NO fue un resultado del asesinato de esta persona en la foto?",
+      "options": [
+        "Estallido de la Guerra Sino-Japonesa",
+        "Refugio del Rey en la legación rusa (Agwan Pacheon)",
+        "Levantamiento del Ejército Justo Eulmi",
+        "Resistencia intensificada al decreto del corte de pelo"
+      ],
+      "answer": 0,
+      "explanation": "El Incidente Eulmi y el decreto del corte de pelo provocaron el Ejército Justo Eulmi y llevaron al refugio del Rey Gojong en la legación rusa. La Guerra Sino-Japonesa estalló en 1894, antes del Incidente Eulmi."
+    },
+    {
+      "id": "q_modern_06_007",
+      "question": "¿Cuál fue una limitación de la Reforma Gabo?",
+      "options": [
+        "Careció de autonomía ya que se llevó a cabo bajo coerción e interferencia japonesa",
+        "No logró abolir el sistema de estatus",
+        "Se mantuvo el sistema de exámenes",
+        "La reforma agraria fue completamente exitosa"
+      ],
+      "answer": 0,
+      "explanation": "La Reforma Gabo introdujo sistemas modernos pero careció de autonomía ya que se llevó a cabo bajo coerción japonesa, y tenía una base de apoyo popular débil."
+    },
+    {
+      "id": "q_modern_06_008",
+      "question": "¿Qué afirmación sobre el Agwan Pacheon (Refugio del Rey en la legación rusa) es correcta?",
+      "options": [
+        "Después del Incidente Eulmi, el Rey Gojong se refugió en la legación rusa",
+        "El Rey Gojong se exilió en China Qing",
+        "La Emperatriz Myeongseong se refugió en una legación extranjera",
+        "Ocurrió inmediatamente después de la proclamación del Imperio Coreano"
+      ],
+      "answer": 0,
+      "explanation": "El Agwan Pacheon de 1896 fue cuando el Rey Gojong, sintiéndose amenazado después del Incidente Eulmi, se refugió en la legación rusa, donde permaneció durante aproximadamente un año."
+    },
+    {
+      "id": "q_modern_06_009",
+      "question": "¿Cuál NO fue un resultado del Agwan Pacheon?",
+      "options": [
+        "La dominación japonesa de Corea se fortaleció aún más",
+        "La explotación de concesiones por potencias extranjeras se intensificó",
+        "Se estableció un gabinete pro-ruso",
+        "La Reforma Gabo fue suspendida"
+      ],
+      "answer": 0,
+      "explanation": "El Agwan Pacheon debilitó temporalmente la influencia japonesa, pero la explotación de concesiones por potencias extranjeras se intensificó, perdiéndose los derechos mineros y ferroviarios."
+    },
+    {
+      "id": "q_modern_06_010",
+      "question": "¿Cuál es el significado de la Reforma Gabo?",
+      "options": [
+        "Contribuyó a la modernización de la sociedad coreana al introducir sistemas y leyes modernos",
+        "Fue una reforma de abajo hacia arriba liderada por las masas",
+        "Estableció una nación completamente independiente",
+        "Se llevó a cabo autónomamente sin interferencia japonesa"
+      ],
+      "answer": 0,
+      "explanation": "La Reforma Gabo contribuyó a la modernización de la sociedad coreana a través de la abolición del sistema de estatus, la abolición del sistema de exámenes y la introducción de sistemas financieros y judiciales modernos."
+    },
+    {
+      "id": "q_modern_07_001",
+      "question": "¿En qué año se estableció el Club de la Independencia?",
+      "options": [
+        "1896",
+        "1894",
+        "1897",
+        "1898"
+      ],
+      "answer": 0,
+      "explanation": "En 1896, Seo Jae-pil regresó a Corea y estableció el Club de la Independencia y fundó el periódico The Independent."
+    },
+    {
+      "id": "q_modern_07_002",
+      "question": "¿Qué afirmación sobre esta estructura arquitectónica en la foto es correcta?",
+      "options": [
+        "Fue construida demoliendo Yeongeunmun para simbolizar la independencia de Qing",
+        "Fue construida con apoyo japonés",
+        "Fue erigida frente a la legación rusa",
+        "Es la puerta principal del palacio del Imperio Coreano"
+      ],
+      "answer": 0,
+      "explanation": "La Puerta de la Independencia fue construida en 1897 demoliendo Yeongeunmun (donde se recibía a los enviados chinos) para simbolizar la independencia de Qing."
+    },
+    {
+      "id": "q_modern_07_003",
+      "question": "¿Cuál NO fue una actividad del Club de la Independencia?",
+      "options": [
+        "Apoyar el Movimiento Campesino Donghak",
+        "Celebrar Manmin Gongdonghoe (Asamblea de Todo el Pueblo)",
+        "Movimiento para proteger los derechos nacionales",
+        "Movimiento para establecer un parlamento"
+      ],
+      "answer": 0,
+      "explanation": "El Club de la Independencia condujo Manmin Gongdonghoe, movimientos para proteger los derechos nacionales y movimientos para establecer un parlamento. El Movimiento Campesino Donghak ocurrió en 1894, antes de que se estableciera el Club de la Independencia (1896)."
+    },
+    {
+      "id": "q_modern_07_004",
+      "question": "¿Qué se adoptó en la Asamblea Conjunta Gobierno-Pueblo organizada por el Club de la Independencia?",
+      "options": [
+        "Heonui 6 Artículos (Memorial de Seis Artículos)",
+        "Plataforma de Reforma de 14 Artículos",
+        "Demandas de Reforma de 12 Artículos",
+        "Hongbeom 14 Artículos"
+      ],
+      "answer": 0,
+      "explanation": "Los Heonui 6 Artículos adoptados en la Asamblea Conjunta Gobierno-Pueblo de 1898 incluían disposiciones como no depender de países extranjeros y no entregar concesiones descuidadamente."
+    },
+    {
+      "id": "q_modern_07_005",
+      "question": "¿Por qué fue disuelto el Club de la Independencia?",
+      "options": [
+        "Debido a la calumnia de los conservadores y la orden de disolución forzada del Rey Gojong",
+        "Debido a la supresión militar japonesa",
+        "Debido a la presión diplomática rusa",
+        "Debido al conflicto con el Ejército Campesino Donghak"
+      ],
+      "answer": 0,
+      "explanation": "El Club de la Independencia fue visto con sospecha por los conservadores debido a su movimiento para establecer un parlamento y fue disuelto en 1898 por la orden de disolución forzada del Rey Gojong."
+    },
+    {
+      "id": "q_modern_07_006",
+      "question": "¿Qué afirmación sobre este evento relacionado con la foto es correcta?",
+      "options": [
+        "Se usó el nombre de era Gwangmu y se proclamó el sistema imperial",
+        "Fue proclamado como resultado de la Guerra Sino-Japonesa",
+        "Fue liderado por el Club de la Independencia",
+        "Fue proclamado bajo coerción japonesa"
+      ],
+      "answer": 0,
+      "explanation": "En la proclamación del Imperio Coreano de 1897, el Rey Gojong usó el nombre de era Gwangmu y celebró una ceremonia de entronización imperial para declarar al mundo que Corea era una nación independiente."
+    },
+    {
+      "id": "q_modern_07_007",
+      "question": "¿Cuál era el contenido de la Constitución Nacional del Imperio Coreano (1899)?",
+      "options": [
+        "Especificaba que el Imperio Coreano era una nación autocrática",
+        "Adoptó monarquía constitucional",
+        "Estipulaba el establecimiento de un parlamento",
+        "Introdujo un sistema de responsabilidad del gabinete"
+      ],
+      "answer": 0,
+      "explanation": "La Constitución Nacional especificaba que el Imperio Coreano era un imperio independiente reconocido por todas las naciones del mundo y era un estado autocrático con autoridad imperial ilimitada."
+    },
+    {
+      "id": "q_modern_07_008",
+      "question": "¿Cuál NO fue parte de la Reforma Gwangmu?",
+      "options": [
+        "Abolir todos los contenidos de la Reforma Gabo",
+        "Conducir un proyecto de catastro",
+        "Emitir certificados de tierra (jigye)",
+        "Promover el comercio y la industria"
+      ],
+      "answer": 0,
+      "explanation": "La Reforma Gwangmu, construyendo sobre los logros de la Reforma Gabo, persiguió proyectos de catastro, emisión de certificados de tierra y promoción del comercio y la industria."
+    },
+    {
+      "id": "q_modern_07_009",
+      "question": "¿Cuál fue una limitación de la Reforma Gwangmu?",
+      "options": [
+        "Se centró en fortalecer la autoridad imperial, limitando la participación política de los ciudadanos",
+        "Se llevó a cabo bajo interferencia de Qing",
+        "Fue liderada por la facción de ilustración",
+        "No intentó una reforma moderna del sistema de tierras"
+      ],
+      "answer": 0,
+      "explanation": "La Reforma Gwangmu se persiguió bajo el principio de Gubon Sincham (lo antiguo como fundamento, lo nuevo como referencia) para fortalecer la autoridad imperial, limitando la participación política de los ciudadanos."
+    },
+    {
+      "id": "q_modern_07_010",
+      "question": "¿Cuál era la política exterior del Imperio Coreano?",
+      "options": [
+        "Persiguió una diplomacia equilibrada entre las grandes potencias",
+        "Concluyó una alianza militar con Japón",
+        "Reanudó las relaciones tributarias con Qing",
+        "Se convirtió en un protectorado ruso"
+      ],
+      "answer": 0,
+      "explanation": "El Imperio Coreano persiguió una diplomacia equilibrada (política de equilibrio de poder) entre las grandes potencias para evitar la dependencia de cualquier país en particular, pero después de la Guerra Ruso-Japonesa, cayó bajo la dominación exclusiva de Japón."
+    },
+    {
+      "id": "q_modern_08_001",
+      "question": "¿Qué impacto tuvo el resultado de la Guerra Ruso-Japonesa en Corea?",
+      "options": [
+        "El control de Japón sobre la península coreana fue reconocido internacionalmente",
+        "Rusia llegó a dominar la península coreana",
+        "Se restauró la soberanía de Qing",
+        "Corea logró la independencia completa"
+      ],
+      "answer": 0,
+      "explanation": "La victoria de Japón en la Guerra Ruso-Japonesa de 1904-1905 llevó al reconocimiento internacional del control de Japón sobre la península coreana a través del Tratado de Portsmouth y el Acuerdo Taft-Katsura."
+    },
+    {
+      "id": "q_modern_08_002",
+      "question": "¿Cuál era el contenido del Protocolo Japón-Corea (1904)?",
+      "options": [
+        "Permitía el uso militar japonés de tierras y mejoras de instalaciones",
+        "Despojó al Imperio Coreano de sus derechos diplomáticos",
+        "Estipuló el desmantelamiento del ejército coreano",
+        "Implementó el proyecto de catastro"
+      ],
+      "answer": 0,
+      "explanation": "El Protocolo Japón-Corea, firmado durante la Guerra Ruso-Japonesa, permitía el uso de bases militares japonesas y mejoras de instalaciones, mientras prometía formalmente proteger la independencia e integridad territorial del Imperio Coreano."
+    },
+    {
+      "id": "q_modern_08_003",
+      "question": "¿Cuál era el contenido central del Primer Acuerdo Japón-Corea (1904)?",
+      "options": [
+        "Se nombraron asesores financieros y diplomáticos recomendados por Japón",
+        "Se desmanteló el ejército del Imperio Coreano",
+        "Se despojaron los derechos diplomáticos del Imperio Coreano",
+        "Se estableció la Residencia General"
+      ],
+      "answer": 0,
+      "explanation": "A través del Primer Acuerdo Japón-Corea (Protocolo Japón-Corea), el Imperio Coreano tuvo que nombrar asesores financieros (Megata) y diplomáticos (Stevens) recomendados por Japón."
+    },
+    {
+      "id": "q_modern_08_004",
+      "question": "¿Qué afirmación sobre el Tratado Eulsa (1905) NO es correcta?",
+      "options": [
+        "Estipuló el desmantelamiento del ejército del Imperio Coreano",
+        "Despojó los derechos diplomáticos del Imperio Coreano",
+        "Se convirtió en la base para establecer la Residencia General",
+        "Fue concluido por la fuerza sin el consentimiento del Emperador Gojong"
+      ],
+      "answer": 0,
+      "explanation": "El Tratado Eulsa estipuló el despojo de derechos diplomáticos y el establecimiento de la Residencia General. El desmantelamiento militar se llevó a cabo durante el Tratado Japón-Corea de 1907 (7 Artículos Jeongmi)."
+    },
+    {
+      "id": "q_modern_08_005",
+      "question": "¿Quién se suicidó en protesta por la firma del Tratado Eulsa?",
+      "options": [
+        "Min Yeong-hwan",
+        "Yi Wan-yong",
+        "Ito Hirobumi",
+        "Emperatriz Myeongseong"
+      ],
+      "answer": 0,
+      "explanation": "Min Yeong-hwan y Jo Byeong-se se suicidaron en protesta por el Tratado Eulsa. Yi Wan-yong fue uno de los cinco traidores Eulsa que acordaron firmar el tratado."
+    },
+    {
+      "id": "q_modern_08_006",
+      "question": "¿A qué conferencia internacional fueron enviadas estas personas en la foto?",
+      "options": [
+        "Conferencia de Paz de La Haya",
+        "Conferencia de Versalles",
+        "Conferencia de Washington",
+        "Conferencia de El Cairo"
+      ],
+      "answer": 0,
+      "explanation": "En 1907, el Emperador Gojong envió a Yi Sang-seol, Yi Jun y Yi Wi-jong como enviados especiales a la Conferencia de Paz de La Haya para exponer la injusticia del Tratado Eulsa, pero la misión fracasó."
+    },
+    {
+      "id": "q_modern_08_007",
+      "question": "¿Cuál fue el resultado del Incidente del Enviado Especial a La Haya?",
+      "options": [
+        "El Emperador Gojong fue abdicado por la fuerza y se concluyó el Tratado Japón-Corea",
+        "El Tratado Eulsa fue invalidado internacionalmente",
+        "Se restauraron los derechos diplomáticos del Imperio Coreano",
+        "Japón se retiró de la península coreana"
+      ],
+      "answer": 0,
+      "explanation": "Usando el Incidente del Enviado Especial a La Haya como pretexto, Japón abdicó por la fuerza al Emperador Gojong y concluyó el Tratado Japón-Corea (7 Artículos Jeongmi) para obtener control sobre todos los asuntos internos."
+    },
+    {
+      "id": "q_modern_08_008",
+      "question": "¿Cuál NO fue parte del Tratado Japón-Corea (7 Artículos Jeongmi, 1907)?",
+      "options": [
+        "Despojo de los derechos diplomáticos del Imperio Coreano",
+        "Implementación del gobierno de viceministros",
+        "Desmantelamiento del ejército del Imperio Coreano",
+        "Nombramiento de funcionarios japoneses"
+      ],
+      "answer": 0,
+      "explanation": "El Tratado Japón-Corea implementó el gobierno de viceministros y el desmantelamiento militar. El despojo de derechos diplomáticos ya había sido estipulado en el Tratado Eulsa de 1905."
+    },
+    {
+      "id": "q_modern_08_009",
+      "question": "¿A quién asesinó esta persona en la foto?",
+      "options": [
+        "Ito Hirobumi",
+        "Megata",
+        "Stevens",
+        "Terauchi Masatake"
+      ],
+      "answer": 0,
+      "explanation": "En 1909, An Jung-geun asesinó al primer Residente General Ito Hirobumi en Harbin, Manchuria. Stevens fue asesinado por Jang In-hwan y Jeon Myeong-un."
+    },
+    {
+      "id": "q_modern_08_010",
+      "question": "¿Qué afirmación sobre la Anexión Japón-Corea (Humillación Nacional de Gyeongsul, 1910) es correcta?",
+      "options": [
+        "Se estableció el Gobierno General de Corea y comenzó el régimen militar",
+        "Se llevó a cabo a solicitud voluntaria del Imperio Coreano",
+        "La Residencia General se mantuvo como antes",
+        "Se concluyó cuando el Emperador Gojong abdicó"
+      ],
+      "answer": 0,
+      "explanation": "A través de la Anexión Japón-Corea de 1910, el Imperio Coreano fue disuelto, se estableció el Gobierno General de Corea y comenzó el régimen militar de Japón."
+    },
+    {
+      "id": "q_modern_09_001",
+      "question": "¿Cuál fue la causa directa del levantamiento del Ejército Justo Eulmi?",
+      "options": [
+        "El Incidente Eulmi y el decreto del corte de pelo",
+        "Firma del Tratado Eulsa",
+        "Desmantelamiento militar",
+        "Anexión Japón-Corea"
+      ],
+      "answer": 0,
+      "explanation": "El Ejército Justo Eulmi de 1895 surgió en protesta por el asesinato de la Emperatriz Myeongseong (Incidente Eulmi) y el decreto del corte de pelo. Eruditos confucianos como Yu In-seok y Yi So-eung lideraron el levantamiento."
+    },
+    {
+      "id": "q_modern_09_002",
+      "question": "¿Qué afirmación sobre la unidad del ejército justo liderada por esta persona en la foto es correcta?",
+      "options": [
+        "Fue una unidad representativa del Ejército Justo Eulmi activa en Jecheon",
+        "Se formó después del Tratado Eulsa",
+        "Estaba compuesta principalmente por soldados desmantelados",
+        "Lanzó la Operación de Avance sobre Seúl"
+      ],
+      "answer": 0,
+      "explanation": "El ejército justo liderado por Yu In-seok fue una unidad representativa del Ejército Justo Eulmi activa en las áreas de Jecheon y Chungju."
+    },
+    {
+      "id": "q_modern_09_003",
+      "question": "¿Cuál era una característica del Ejército Justo Eulsa?",
+      "options": [
+        "Emergieron líderes plebeyos del ejército justo",
+        "Solo estaban activos líderes eruditos confucianos",
+        "Los soldados desmantelados formaban la fuerza principal",
+        "Fue disuelto debido al refugio del Rey en la legación rusa"
+      ],
+      "answer": 0,
+      "explanation": "En el Ejército Justo Eulsa de 1905, emergieron líderes plebeyos del ejército justo como Sin Dol-seok, expandiendo la base del movimiento del ejército justo."
+    },
+    {
+      "id": "q_modern_09_004",
+      "question": "¿Cuál era una característica del Ejército Justo Jeongmi?",
+      "options": [
+        "La capacidad de combate se fortaleció con la incorporación de soldados desmantelados",
+        "Solo participaron eruditos confucianos",
+        "Se usaron principalmente métodos diplomáticos",
+        "Surgió en protesta por el Incidente Eulmi"
+      ],
+      "answer": 0,
+      "explanation": "La capacidad de combate del Ejército Justo Jeongmi de 1907 se fortaleció enormemente cuando los soldados desmantelados se unieron tras el desmantelamiento militar."
+    },
+    {
+      "id": "q_modern_09_005",
+      "question": "¿Qué afirmación sobre el Ejército Justo de las Trece Provincias es correcta?",
+      "options": [
+        "Lanzó la Operación de Avance sobre Seúl pero fracasó",
+        "Se formó durante el período del Ejército Justo Eulmi",
+        "Operó como fuerzas de independencia en Manchuria",
+        "Recibió apoyo militar extranjero"
+      ],
+      "answer": 0,
+      "explanation": "En 1907, el Ejército Justo de las Trece Provincias se formó con Yi In-yeong como comandante en jefe y lanzó la Operación de Avance sobre Seúl, pero fracasó debido al contraataque japonés."
+    },
+    {
+      "id": "q_modern_09_006",
+      "question": "¿Cuál fue una limitación del movimiento del ejército justo?",
+      "options": [
+        "La potencia de fuego inferior dificultaba resistir a las fuerzas japonesas",
+        "No hubo participación popular en absoluto",
+        "No se extendió a nivel nacional",
+        "Carecía de conciencia anti-japonesa"
+      ],
+      "answer": 0,
+      "explanation": "Los ejércitos justos tenían apoyo popular y conciencia anti-japonesa, pero enfrentaron limitaciones para resistir a las fuerzas japonesas debido a la potencia de fuego inferior y la falta de una estructura de mando unificada."
+    },
+    {
+      "id": "q_modern_09_007",
+      "question": "¿Cuál fue la política de Japón para suprimir los ejércitos justos?",
+      "options": [
+        "Lanzó las Operaciones Punitivas del Sur de Corea",
+        "Concluyó un acuerdo de paz con los ejércitos justos",
+        "Ofreció puestos gubernamentales a los líderes de los ejércitos justos",
+        "Aceptó las demandas de los ejércitos justos"
+      ],
+      "answer": 0,
+      "explanation": "A partir de 1909, Japón lanzó las Operaciones Punitivas del Sur de Corea para suprimir militarmente a los ejércitos justos."
+    },
+    {
+      "id": "q_modern_09_008",
+      "question": "¿Cuál es el significado histórico del movimiento del ejército justo?",
+      "options": [
+        "Estableció la tradición de resistencia armada contra Japón",
+        "Terminó completamente el dominio japonés sobre Corea",
+        "Logró la independencia a través de medios diplomáticos",
+        "Restauró la soberanía del Imperio Coreano"
+      ],
+      "answer": 0,
+      "explanation": "Aunque el movimiento del ejército justo fracasó, estableció la tradición de resistencia armada contra Japón y se convirtió en la base para las actividades posteriores del ejército de independencia."
+    },
+    {
+      "id": "q_modern_09_009",
+      "question": "¿Qué desencadenó la transición del movimiento del ejército justo a la guerra de independencia?",
+      "options": [
+        "Después de la Anexión Japón-Corea, los combatientes del ejército justo se trasladaron a Manchuria y la Provincia Marítima y se reorganizaron como fuerzas de independencia",
+        "La transición del Ejército Justo Eulmi al Ejército Justo Eulsa",
+        "Éxito de la Operación de Avance sobre Seúl del Ejército Justo de las Trece Provincias",
+        "El apoyo del Club de la Independencia a los ejércitos justos"
+      ],
+      "answer": 0,
+      "explanation": "Después de que la Anexión Japón-Corea dificultara las actividades domésticas, los combatientes del ejército justo se trasladaron a Manchuria y la Provincia Marítima y se reorganizaron como fuerzas de independencia para continuar la guerra de independencia armada."
+    },
+    {
+      "id": "q_modern_09_010",
+      "question": "¿Quién de los siguientes fue un líder del ejército justo activo durante el período del Ejército Justo Eulmi?",
+      "options": [
+        "Yu In-seok",
+        "Sin Dol-seok",
+        "Yi In-yeong",
+        "Heo Wi"
+      ],
+      "answer": 0,
+      "explanation": "Yu In-seok fue un líder representativo del Ejército Justo Eulmi que levantó tropas en Jecheon. Sin Dol-seok estuvo activo durante el Ejército Justo Eulsa, y Yi In-yeong y Heo Wi estuvieron activos durante el Ejército Justo Jeongmi."
+    },
+    {
+      "id": "q_modern_10_001",
+      "question": "¿Cuál era una característica del Movimiento de Ilustración Patriótica?",
+      "options": [
+        "Enfatizaba cultivar la fuerza nacional a través de la educación y el desarrollo industrial",
+        "Priorizaba la lucha armada",
+        "Perseguía la independencia diplomática",
+        "Buscaba restaurar el orden neoconfuciano"
+      ],
+      "answer": 0,
+      "explanation": "El Movimiento de Ilustración Patriótica se basaba en la teoría del cultivo de la fuerza, creyendo que desarrollar la fuerza nacional a través de la educación, la industria y las actividades de prensa lograría la independencia."
+    },
+    {
+      "id": "q_modern_10_002",
+      "question": "¿Qué afirmación sobre la organización relacionada con esta foto es correcta?",
+      "options": [
+        "Era la sociedad secreta doméstica más grande con el objetivo de restaurar la soberanía y establecer una república",
+        "Fue establecida por orden del Emperador Gojong",
+        "Celebró el Manmin Gongdonghoe",
+        "Persiguió solo la lucha armada"
+      ],
+      "answer": 0,
+      "explanation": "El Sinminhoe era una sociedad secreta organizada en 1907 por An Chang-ho, Yang Gi-tak y otros, realizando diversas actividades con los objetivos de restaurar la soberanía y establecer una república."
+    },
+    {
+      "id": "q_modern_10_003",
+      "question": "¿Cuál NO fue una actividad del Sinminhoe?",
+      "options": [
+        "Celebrar Manmin Gongdonghoe",
+        "Establecer la Escuela Daeseong y la Escuela Osan",
+        "Establecer la Librería Taegeuk",
+        "Establecer la Compañía Jagi (compañía de cerámica)"
+      ],
+      "answer": 0,
+      "explanation": "El Sinminhoe persiguió la educación (Escuela Daeseong, Escuela Osan), la publicación (Librería Taegeuk), la industria (Compañía Jagi) y la construcción de bases del movimiento de independencia en Manchuria. Manmin Gongdonghoe fue celebrado por el Club de la Independencia."
+    },
+    {
+      "id": "q_modern_10_004",
+      "question": "¿Qué afirmación sobre el Movimiento de Reembolso de la Deuda Nacional es correcta?",
+      "options": [
+        "Intentó restaurar la soberanía económica reembolsando la deuda con Japón a través de donaciones públicas",
+        "Fue iniciado por el gobierno",
+        "Tuvo éxito con apoyo extranjero",
+        "Desencadenó la firma del Tratado Eulsa"
+      ],
+      "answer": 0,
+      "explanation": "El Movimiento de Reembolso de la Deuda Nacional, que comenzó en Daegu en 1907, fue un movimiento para restaurar la soberanía económica reembolsando el préstamo de 13 millones de won de Japón a través de donaciones públicas."
+    },
+    {
+      "id": "q_modern_10_005",
+      "question": "¿Qué emparejamiento de organización del Movimiento de Ilustración Patriótica y fundador NO es correcto?",
+      "options": [
+        "Boanhoe - An Chang-ho",
+        "Heonjeong Yeonguhoe - Yi Jun",
+        "Daehan Jaganghoe - Yun Chi-ho",
+        "Daehan Hyeophoe - Namgung Eok"
+      ],
+      "answer": 0,
+      "explanation": "Boanhoe fue establecida por Song Su-man y otros en oposición a la demanda de Japón de derechos de recuperación de tierras baldías. An Chang-ho participó en la fundación del Sinminhoe."
+    },
+    {
+      "id": "q_modern_10_006",
+      "question": "¿Cuál fue una limitación del Movimiento de Ilustración Patriótica?",
+      "options": [
+        "Era difícil responder efectivamente a la supresión japonesa y la agresión militar",
+        "No hubo participación popular en absoluto",
+        "No realizó actividades de prensa",
+        "No tenía interés en el desarrollo educativo"
+      ],
+      "answer": 0,
+      "explanation": "El Movimiento de Ilustración Patriótica persiguió métodos legales y graduales, lo que lo hacía limitado para responder efectivamente a la agresión militar japonesa."
+    },
+    {
+      "id": "q_modern_10_007",
+      "question": "¿Qué afirmación sobre el Incidente de las 105 Personas es correcta?",
+      "options": [
+        "Fue un caso fabricado por Japón para suprimir el Sinminhoe",
+        "Fue un intento real de asesinar al Gobernador General Terauchi",
+        "Fue una supresión del movimiento del ejército justo",
+        "Castigó a los involucrados en el Movimiento Campesino Donghak"
+      ],
+      "answer": 0,
+      "explanation": "El Incidente de las 105 Personas de 1911 fue un caso fabricado donde Japón acusó a los miembros de intento de asesinato del Gobernador General Terauchi para suprimir el Sinminhoe, resultando en la disolución de la organización."
+    },
+    {
+      "id": "q_modern_10_008",
+      "question": "¿Qué periódico NO fue publicado durante el período del Movimiento de Ilustración Patriótica?",
+      "options": [
+        "Dong-A Ilbo",
+        "Hwangseong Sinmun",
+        "Daehan Maeil Sinbo",
+        "Jeguk Sinmun"
+      ],
+      "answer": 0,
+      "explanation": "Hwangseong Sinmun, Daehan Maeil Sinbo, Jeguk Sinmun y Mansebo fueron publicados durante el período del Movimiento de Ilustración Patriótica. Dong-A Ilbo fue fundado en 1920."
+    },
+    {
+      "id": "q_modern_10_009",
+      "question": "¿En qué periódico se publicó este documento? 'Ahora la supervivencia de nuestros veinte millones de compatriotas depende de este tratado... ¡Ay, qué tragedia! Entregas nuestra nación de cuatro mil años y la casa real de quinientos años para convertirnos en esclavos de otros.'",
+      "options": [
+        "Hwangseong Sinmun",
+        "The Independent",
+        "Hanseong Sunbo",
+        "Dong-A Ilbo"
+      ],
+      "answer": 0,
+      "explanation": "'Siilya Bangseong Daegok (Hoy Lloro en Voz Alta)', escrito por Jang Ji-yeon denunciando el Tratado Eulsa, fue publicado en Hwangseong Sinmun."
+    },
+    {
+      "id": "q_modern_10_010",
+      "question": "¿Cuál es el significado histórico del Movimiento de Ilustración Patriótica?",
+      "options": [
+        "Contribuyó a cultivar la fuerza nacional y difundir la conciencia moderna",
+        "Bloqueó completamente la invasión japonesa",
+        "Lideró la guerra de independencia armada",
+        "Restauró inmediatamente la soberanía"
+      ],
+      "answer": 0,
+      "explanation": "Aunque el Movimiento de Ilustración Patriótica no logró restaurar la soberanía, contribuyó a cultivar la fuerza nacional y difundir la conciencia moderna, convirtiéndose en la base para los movimientos de independencia posteriores."
+    },
+    {
+      "id": "q_modern_11_001",
+      "question": "¿Cuál fue la primera línea de ferrocarril de Corea?",
+      "options": [
+        "Línea Gyeongin",
+        "Línea Gyeongbu",
+        "Línea Gyeongui",
+        "Línea Honam"
+      ],
+      "answer": 0,
+      "explanation": "La Línea Gyeongin, inaugurada en 1899, fue el primer ferrocarril que conectaba Noryangjin y Jemulpo. El estadounidense Morse obtuvo los derechos de construcción, pero fueron transferidos a Japón, quien lo completó."
+    },
+    {
+      "id": "q_modern_11_002",
+      "question": "¿Qué afirmación sobre esta foto es correcta?",
+      "options": [
+        "Era un transporte público operado por primera vez en Seúl en 1899",
+        "Es un rickshaw importado de Japón",
+        "Fue introducido después de la Anexión Japón-Corea en 1910",
+        "Solo la clase alta podía usarlo"
+      ],
+      "answer": 0,
+      "explanation": "El tranvía eléctrico fue operado por primera vez en la ruta Seodaemun-Cheongnyangni en 1899. Era operado por la Compañía Eléctrica de Hanseong, establecida en asociación con el estadounidense Collbran."
+    },
+    {
+      "id": "q_modern_11_003",
+      "question": "¿Qué afirmación sobre el ferrocarril de la Línea Gyeongbu NO es correcta?",
+      "options": [
+        "Fue construido autónomamente por el gobierno del Imperio Coreano",
+        "Conectaba Seúl y Busan",
+        "Fue completado rápidamente para propósitos militares durante la Guerra Ruso-Japonesa",
+        "Fue construido y operado por Japón"
+      ],
+      "answer": 0,
+      "explanation": "La Línea Gyeongbu fue construida por Japón para propósitos militares durante la Guerra Ruso-Japonesa e inaugurada en 1905. No fue construida autónomamente por el gobierno del Imperio Coreano."
+    },
+    {
+      "id": "q_modern_11_004",
+      "question": "¿Qué afirmación sobre el sistema postal moderno es correcta?",
+      "options": [
+        "La Oficina de Correos se estableció en 1884 pero fue abolida debido al Golpe Gapsin",
+        "Fue introducido por primera vez durante el gobierno de Heungseon Daewongun",
+        "El Club de la Independencia lideró los servicios postales",
+        "No se adoptó el sistema postal de Japón"
+      ],
+      "answer": 0,
+      "explanation": "La Oficina de Correos se estableció en 1884 introduciendo el sistema postal moderno, pero fue abolida debido al Golpe Gapsin y se restableció durante la Reforma Gabo en 1895."
+    },
+    {
+      "id": "q_modern_11_005",
+      "question": "¿Cuál NO fue un artefacto moderno introducido después de la apertura de puertos?",
+      "options": [
+        "Tecnología de impresión",
+        "Telégrafo",
+        "Teléfono",
+        "Electricidad"
+      ],
+      "answer": 0,
+      "explanation": "La tecnología de impresión ya se había desarrollado desde el período Goryeo con la invención del tipo móvil de metal. Telégrafo, teléfono, electricidad y fotografía fueron artefactos modernos introducidos de Occidente después de la apertura de puertos."
+    },
+    {
+      "id": "q_modern_11_006",
+      "question": "¿Cuál fue el primer hospital moderno de Corea?",
+      "options": [
+        "Gwanghyewon (Jejungwon)",
+        "Hospital Hanseong",
+        "Hospital Severance",
+        "Hospital de la Cruz Roja"
+      ],
+      "answer": 0,
+      "explanation": "Gwanghyewon (más tarde renombrado Jejungwon), establecido en 1885 por el misionero estadounidense Allen, fue el primer hospital moderno de estilo occidental de Corea."
+    },
+    {
+      "id": "q_modern_11_007",
+      "question": "¿Cuál NO fue un contexto para aceptar la civilización moderna?",
+      "options": [
+        "Apoyo activo de la facción Wijeong Cheoksa",
+        "El impulso de la facción de ilustración por políticas de modernización",
+        "Las demandas de comercio de las potencias occidentales",
+        "La firma de tratados con Japón"
+      ],
+      "answer": 0,
+      "explanation": "La facción Wijeong Cheoksa se oponía a aceptar la civilización occidental. La facción de ilustración promovió activamente la introducción de la civilización moderna."
+    },
+    {
+      "id": "q_modern_11_008",
+      "question": "¿Cuál es el orden correcto de la introducción de la civilización moderna?",
+      "options": [
+        "Telégrafo - Electricidad - Teléfono - Tranvía eléctrico",
+        "Electricidad - Tranvía eléctrico - Telégrafo - Teléfono",
+        "Teléfono - Electricidad - Telégrafo - Tranvía eléctrico",
+        "Tranvía eléctrico - Teléfono - Electricidad - Telégrafo"
+      ],
+      "answer": 0,
+      "explanation": "La civilización moderna se introdujo en este orden: Telégrafo (1885) - Electricidad (1887, Gyeongbokgung) - Teléfono (1896) - Tranvía eléctrico (1899)."
+    },
+    {
+      "id": "q_modern_11_009",
+      "question": "¿Cuál NO fue un impacto de aceptar la civilización moderna?",
+      "options": [
+        "La cultura tradicional desapareció completamente",
+        "Los paisajes urbanos cambiaron",
+        "Los estilos de vida cambiaron",
+        "Surgieron nuevas ocupaciones"
+      ],
+      "answer": 0,
+      "explanation": "Aceptar la civilización moderna cambió los paisajes urbanos, los estilos de vida y las estructuras ocupacionales, pero la cultura tradicional no desapareció completamente."
+    },
+    {
+      "id": "q_modern_11_010",
+      "question": "¿Cuál fue una limitación de aceptar la civilización moderna?",
+      "options": [
+        "También fue usada como medio para que las potencias extranjeras explotaran concesiones",
+        "No se introdujo ninguna civilización moderna",
+        "El gobierno coreano no persiguió la modernización",
+        "El público no usó la civilización moderna en absoluto"
+      ],
+      "answer": 0,
+      "explanation": "Aceptar la civilización moderna contribuyó a la modernización de Corea, pero las concesiones de ferrocarriles, minas y telégrafos fueron transferidas a potencias extranjeras y usadas como medios de explotación."
+    },
+    {
+      "id": "q_modern_12_001",
+      "question": "¿Cuál era el objetivo de la educación moderna?",
+      "options": [
+        "Cultivar talento moderno a través de la educación en nuevos saberes",
+        "Fortalecer la educación neoconfuciana",
+        "Introducir solo educación de estilo japonés",
+        "Abolir la educación tradicional de las escuelas de aldea"
+      ],
+      "answer": 0,
+      "explanation": "La educación moderna buscaba cultivar talento moderno y restaurar la soberanía a través de la educación en nuevos saberes (ciencias modernas, idiomas extranjeros, etc.)."
+    },
+    {
+      "id": "q_modern_12_002",
+      "question": "¿Qué afirmación sobre esta escuela relacionada con la foto es correcta?",
+      "options": [
+        "Fue la primera escuela privada moderna establecida por residentes de Deokwon, Provincia de Hamgyeong",
+        "Era una escuela pública establecida por el gobierno",
+        "Fue establecida en Seúl",
+        "Fue establecida por Japón"
+      ],
+      "answer": 0,
+      "explanation": "Wonsan Haksa, establecida voluntariamente por los residentes de Deokwon en la Provincia de Hamgyeong en 1883, fue la primera escuela privada moderna, enseñando nuevos saberes y artes marciales."
+    },
+    {
+      "id": "q_modern_12_003",
+      "question": "¿Cuál era el contenido del Edicto de Educación emitido durante la Reforma Gabo?",
+      "options": [
+        "Enfatizaba la educación tridimensional: moral, física e intelectual",
+        "Especificaba que solo se enseñaría neoconfucianismo",
+        "Prohibía la educación de las mujeres",
+        "Designaba el japonés como idioma oficial"
+      ],
+      "answer": 0,
+      "explanation": "El Edicto de Educación (Edicto para el Establecimiento de la Educación) promulgado por el Rey Gojong en 1895 enfatizaba la educación tridimensional: moral (ética), física (cuerpo) e intelectual (conocimiento)."
+    },
+    {
+      "id": "q_modern_12_004",
+      "question": "¿Cuál NO fue una escuela gubernamental?",
+      "options": [
+        "Baejae Hakdang",
+        "Yugyeong Gongwon",
+        "Escuela Normal de Hanseong",
+        "Escuela de Idiomas Extranjeros"
+      ],
+      "answer": 0,
+      "explanation": "Baejae Hakdang fue una escuela privada establecida por el misionero estadounidense Appenzeller. Yugyeong Gongwon, la Escuela Normal de Hanseong y la Escuela de Idiomas Extranjeros eran escuelas públicas establecidas por el gobierno."
+    },
+    {
+      "id": "q_modern_12_005",
+      "question": "¿Qué afirmación sobre Ewha Hakdang es correcta?",
+      "options": [
+        "Fue la primera institución educativa para mujeres establecida por una misionera estadounidense",
+        "Era una escuela pública establecida por el gobierno",
+        "Era operada como escuela mixta",
+        "Fue establecida durante el período del Movimiento de Ilustración Patriótica"
+      ],
+      "answer": 0,
+      "explanation": "Ewha Hakdang, establecida por la misionera estadounidense Sra. Scranton en 1886, fue la primera institución educativa moderna para mujeres."
+    },
+    {
+      "id": "q_modern_12_006",
+      "question": "¿Qué escuela NO fue establecida durante el período del Movimiento de Ilustración Patriótica?",
+      "options": [
+        "Yugyeong Gongwon",
+        "Escuela Daeseong",
+        "Escuela Osan",
+        "Escuela Boseong"
+      ],
+      "answer": 0,
+      "explanation": "Yugyeong Gongwon era una escuela pública establecida por el gobierno en 1886, antes del Movimiento de Ilustración Patriótica. Escuela Daeseong, Escuela Osan y Escuela Boseong fueron escuelas privadas establecidas durante el período del Movimiento de Ilustración Patriótica."
+    },
+    {
+      "id": "q_modern_12_007",
+      "question": "¿Qué afirmación sobre este periódico relacionado con la foto es correcta?",
+      "options": [
+        "Fue el primer periódico privado fundado por Seo Jae-pil, publicado en coreano e inglés",
+        "Era una gaceta oficial emitida por el gobierno",
+        "Se publicaba solo en caracteres chinos",
+        "Fue fundado durante el período colonial japonés"
+      ],
+      "answer": 0,
+      "explanation": "The Independent (Dongnip Sinmun) fue el primer periódico privado fundado por Seo Jae-pil en 1896, publicado en ediciones en coreano e inglés (The Independent)."
+    },
+    {
+      "id": "q_modern_12_008",
+      "question": "¿Qué afirmación sobre Hanseong Sunbo es correcta?",
+      "options": [
+        "Fue el primer periódico moderno emitido por Bakmunguk en 1883",
+        "Era un periódico emitido de forma privada",
+        "Era un periódico solo en coreano",
+        "Fue emitido por el Club de la Independencia"
+      ],
+      "answer": 0,
+      "explanation": "Hanseong Sunbo fue el primer periódico moderno emitido por la agencia gubernamental Bakmunguk en 1883, publicado en caracteres chinos y emitido cada diez días."
+    },
+    {
+      "id": "q_modern_12_009",
+      "question": "¿Cuál es el significado de la educación moderna?",
+      "options": [
+        "Contribuyó a difundir los nuevos saberes y fomentar la conciencia nacional",
+        "Contribuyó al desarrollo del neoconfucianismo",
+        "Fortaleció el sistema de estatus",
+        "Excluyó la educación de las mujeres"
+      ],
+      "answer": 0,
+      "explanation": "La educación moderna contribuyó a difundir los nuevos saberes, fomentar la conciencia nacional y cultivar talento moderno, convirtiéndose en la base para los movimientos de independencia posteriores."
+    },
+    {
+      "id": "q_modern_12_010",
+      "question": "¿Cuál NO fue una característica de la cultura moderna?",
+      "options": [
+        "Rechazó completamente la cultura tradicional",
+        "Se introdujo la cultura occidental",
+        "Surgieron medios modernos como periódicos y revistas",
+        "Se introdujeron nuevas tendencias literarias"
+      ],
+      "answer": 0,
+      "explanation": "La cultura moderna aceptó la cultura occidental mientras no rechazaba completamente la cultura tradicional, con esfuerzos para preservar la cultura nacional a través de la investigación del idioma coreano y la historia coreana."
+    }
+  ]
+}

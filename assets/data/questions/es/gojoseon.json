@@ -1,0 +1,172 @@
+{
+  "questions": [
+    {
+      "id": "q_gojoseon_01_001",
+      "question": "¿Cuál es la fecha tradicional de la fundación de Gojoseon por Dangun según el 'Samguk Yusa'?",
+      "options": ["2333 a.C.", "1122 a.C.", "194 a.C.", "108 a.C."],
+      "answer": 0,
+      "explanation": "Según el 'Samguk Yusa', Dangun fundó Gojoseon en 2333 a.C. Esta es la fecha de fundación tradicional, y el Día de la Fundación Nacional de Corea (3 de octubre) conmemora este evento."
+    },
+    {
+      "id": "q_gojoseon_01_002",
+      "question": "¿Cuál es la primera mención de Gojoseon en registros históricos chinos?",
+      "options": ["Libro de Han", "Registros del Gran Historiador", "Guanzi", "Libro de Wei"],
+      "answer": 2,
+      "explanation": "El 'Guanzi', escrito alrededor del siglo VII a.C., es el primer registro histórico chino que menciona a Gojoseon. Describe a Gojoseon como un socio comercial de los estados chinos."
+    },
+    {
+      "id": "q_gojoseon_01_003",
+      "question": "¿Qué artefacto de bronce indica el territorio y poder de Gojoseon?",
+      "options": ["Espejo de bronce", "Daga de bronce tipo mandolina", "Campana de bronce", "Vasija de bronce"],
+      "answer": 1,
+      "explanation": "La daga de bronce tipo mandolina (비파형 동검) es un artefacto distintivo que indica el territorio y la esfera de influencia de Gojoseon. Su distribución ayuda a los arqueólogos a mapear el alcance de la cultura de Gojoseon."
+    },
+    {
+      "id": "q_gojoseon_01_004",
+      "question": "¿Quién estableció Wiman Joseon derrocando al antiguo rey de Gojoseon?",
+      "options": ["Wiman", "Wei Man", "Ambos A y B son correctos", "Dangun"],
+      "answer": 2,
+      "explanation": "Wiman (también conocido como Wei Man en chino) fue un refugiado del estado chino de Yan que derrocó al Rey Jun de Gojoseon en 194 a.C. y estableció Wiman Joseon."
+    },
+    {
+      "id": "q_gojoseon_01_005",
+      "question": "¿Qué dinamo china conquistó Wiman Joseon en 108 a.C.?",
+      "options": ["Dinastía Qin", "Dinastía Han", "Dinastía Zhou", "Dinastía Shang"],
+      "answer": 1,
+      "explanation": "La Dinastía Han, bajo el Emperador Wu, conquistó Wiman Joseon en 108 a.C. Después de la conquista, la Dinastía Han estableció cuatro comanderías en el territorio."
+    },
+    {
+      "id": "q_gojoseon_01_006",
+      "question": "¿Cuál de las siguientes NO fue una de las Cuatro Comanderías de Han establecidas después de la caída de Gojoseon?",
+      "options": ["Comandería de Lelang", "Comandería de Xuantu", "Comandería de Zhenfan", "Comandería de Liaodong"],
+      "answer": 3,
+      "explanation": "Las Cuatro Comanderías de Han fueron Lelang, Xuantu, Zhenfan y Lintun. La Comandería de Liaodong ya existía antes de la conquista de Gojoseon y no era parte de las cuatro comanderías."
+    },
+    {
+      "id": "q_gojoseon_01_007",
+      "question": "¿En qué significado histórico tiene la migración de Gijun (Rey Jun) al sur después de ser derrocado por Wiman?",
+      "options": ["Estableció la Dinastía Gija", "Se cree que influyó en el desarrollo de Jin (estado precursor de Samhan)", "Fundó Baekje", "Se convirtió en el primer rey de Silla"],
+      "answer": 1,
+      "explanation": "Después de ser derrocado por Wiman, el Rey Jun supuestamente huyó al sur y se convirtió en rey de Jin. Se cree que este evento influyó en el desarrollo del estado de Jin, que luego evolucionó en la confederación Samhan."
+    },
+    {
+      "id": "q_gojoseon_01_008",
+      "question": "¿Cuál de los siguientes representa el cambio en la cultura del bronce de Gojoseon con el tiempo?",
+      "options": ["Daga tipo mandolina → Daga de bronce estilo coreano estrecha", "Daga estilo coreano estrecha → Daga tipo mandolina", "Espejo de bronce → Daga de bronce", "Vasija de bronce → Espejo de bronce"],
+      "answer": 0,
+      "explanation": "La cultura del bronce de Gojoseon evolucionó de la daga de bronce tipo mandolina a la daga de bronce estilo coreano estrecha. Este cambio representa el desarrollo de una cultura de bronce coreana distintiva."
+    },
+    {
+      "id": "q_gojoseon_02_001",
+      "question": "¿Cuántas leyes componían originalmente el código legal de Gojoseon, de las cuales solo 3 artículos se conocen hoy?",
+      "options": ["8 artículos", "5 artículos", "10 artículos", "12 artículos"],
+      "answer": 0,
+      "explanation": "El código legal de Gojoseon constaba originalmente de 8 artículos (팔조법금), de los cuales solo 3 se conocen hoy. Este sistema legal indica que Gojoseon tenía una sociedad bien organizada."
+    },
+    {
+      "id": "q_gojoseon_02_002",
+      "question": "Según las Ocho Prohibiciones de Gojoseon, ¿cuál era el castigo por matar a una persona?",
+      "options": ["Prisión", "Ejecución inmediata", "Exilio", "Compensación con grano"],
+      "answer": 1,
+      "explanation": "Según las Ocho Prohibiciones, quien matara a una persona sería ejecutado inmediatamente. Esto refleja el énfasis de la sociedad en el valor de la vida humana."
+    },
+    {
+      "id": "q_gojoseon_02_003",
+      "question": "Según las Ocho Prohibiciones de Gojoseon, ¿cuál era el castigo por robo?",
+      "options": ["Ejecución", "El ladrón se convertía en esclavo de la víctima", "Exilio", "Pago del doble del valor robado"],
+      "answer": 1,
+      "explanation": "Según las Ocho Prohibiciones, quien robara se convertiría en esclavo del hogar de la víctima. Si querían evitar esto, debían pagar 500,000 monedas de cobre."
+    },
+    {
+      "id": "q_gojoseon_02_004",
+      "question": "¿Qué nos dicen las Ocho Prohibiciones sobre la sociedad de Gojoseon?",
+      "options": ["Era una sociedad de cazadores-recolectores", "Era una sociedad de clases que valoraba la vida, el trabajo y la propiedad privada", "Era una sociedad matriarcal", "Era una sociedad nómada"],
+      "answer": 1,
+      "explanation": "Las Ocho Prohibiciones revelan que Gojoseon era una sociedad de clases con un sistema legal que protegía la vida, el trabajo y la propiedad privada. La existencia de la esclavitud como castigo también indica estratificación social."
+    },
+    {
+      "id": "q_gojoseon_02_005",
+      "question": "¿Qué estructura de tumba se asocia con la clase dominante de Gojoseon?",
+      "options": ["Tumbas de montículo de piedra", "Tumbas de dolmen", "Tumbas de ladrillo", "Cuevas"],
+      "answer": 1,
+      "explanation": "Las tumbas de dolmen (고인돌) se asocian con la clase dominante de Gojoseon. Estas grandes estructuras de piedra requerían un trabajo significativo para construirse, indicando el poder y estatus de quienes estaban enterrados en ellas."
+    },
+    {
+      "id": "q_gojoseon_02_006",
+      "question": "¿Cuál es el significado de la presencia de espejos de bronce de diseño delicado y dagas de bronce en las tumbas de Gojoseon?",
+      "options": ["Indican contacto con Roma", "Indican actividad pesquera", "Indican diferencias de estatus y el desarrollo de una clase dominante", "Indican influencia budista"],
+      "answer": 2,
+      "explanation": "La presencia de bienes de prestigio como espejos de bronce de diseño delicado y dagas de bronce en las tumbas indica diferencias de estatus y el desarrollo de una clase dominante en la sociedad de Gojoseon."
+    },
+    {
+      "id": "q_gojoseon_02_007",
+      "question": "¿Cuál era la principal actividad económica del pueblo de Gojoseon?",
+      "options": ["Pesca", "Caza y recolección", "Agricultura (cultivo de granos)", "Comercio marítimo"],
+      "answer": 2,
+      "explanation": "La principal actividad económica del pueblo de Gojoseon era la agricultura, particularmente el cultivo de granos como arroz, mijo y cebada. Esto está respaldado por herramientas agrícolas encontradas en sitios arqueológicos."
+    },
+    {
+      "id": "q_gojoseon_02_008",
+      "question": "¿Qué gobernante de Gojoseon se menciona en los registros históricos chinos como alguien que controló el comercio entre la Península Coreana y China?",
+      "options": ["Dangun", "Rey Jun", "Rey Wiman", "Rey Ugeo"],
+      "answer": 3,
+      "explanation": "El Rey Ugeo de Wiman Joseon es mencionado en los registros chinos como alguien que controló el comercio entre la Península Coreana y China. Su bloqueo de los estados vecinos del acceso al comercio con Han fue una de las razones de la invasión de Han."
+    },
+    {
+      "id": "q_gojoseon_03_001",
+      "question": "¿Qué estado se encontraba en la región de Manchuria y realizaba el festival Yeonggo?",
+      "options": ["Buyeo", "Goguryeo", "Okjeo", "Dongye"],
+      "answer": 0,
+      "explanation": "Buyeo estaba ubicado en la llanura de Manchuria y realizaba el festival Yeonggo (迎鼓, 'bienvenida de los tambores') en el duodécimo mes lunar. Este festival involucraba sacrificios al cielo, comida, bebida, canto y baile."
+    },
+    {
+      "id": "q_gojoseon_03_002",
+      "question": "¿Qué festival realizaba Goguryeo en el décimo mes lunar?",
+      "options": ["Yeonggo", "Dongmaeng", "Mucheon", "Sodo"],
+      "answer": 1,
+      "explanation": "Goguryeo realizaba el festival Dongmaeng (東盟) en el décimo mes lunar. Este era un festival de acción de gracias de la cosecha que incluía sacrificios al cielo y a sus antepasados fundadores."
+    },
+    {
+      "id": "q_gojoseon_03_003",
+      "question": "¿Qué estado mantenía la costumbre del 'responsabilización familiar', donde toda la familia de un criminal era esclavizada?",
+      "options": ["Goguryeo", "Buyeo", "Dongye", "Samhan"],
+      "answer": 1,
+      "explanation": "Buyeo tenía una ley de 'responsabilización familiar' (一責十二法) donde toda la familia de un criminal podía ser esclavizada. Este severo sistema legal refleja la estructura social rígida de Buyeo."
+    },
+    {
+      "id": "q_gojoseon_03_004",
+      "question": "¿Qué estado es conocido por su costumbre llamada 'Minmyeoneuri' (yerno viviente)?",
+      "options": ["Okjeo", "Dongye", "Buyeo", "Goguryeo"],
+      "answer": 0,
+      "explanation": "Okjeo es conocido por la costumbre de 'Minmyeoneuri', donde un futuro novio viviría con la familia de la novia desde la infancia hasta que la novia creciera. Entonces llevaría a la novia de vuelta a su propia familia después de recibir bienes."
+    },
+    {
+      "id": "q_gojoseon_03_005",
+      "question": "¿Qué estado practicaba una estricta exogamia de clan, prohibiendo el matrimonio dentro del mismo clan?",
+      "options": ["Buyeo", "Okjeo", "Dongye", "Samhan"],
+      "answer": 2,
+      "explanation": "Dongye practicaba una estricta exogamia de clan, prohibiendo el matrimonio dentro del mismo clan. La violación de esta costumbre podía resultar en la muerte."
+    },
+    {
+      "id": "q_gojoseon_03_006",
+      "question": "¿Cuál era la característica de 'Sodo' en la confederación Samhan?",
+      "options": ["Un tipo de moneda", "Una fortaleza militar", "Un área sagrada donde los criminales no podían ser aprehendidos", "Un centro de comercio marítimo"],
+      "answer": 2,
+      "explanation": "Sodo era un área sagrada en Samhan donde los criminales no podían ser aprehendidos. Estaba supervisada por un líder religioso llamado 'Cheongun' y generalmente estaba marcada por un poste alto con campanas y un tambor."
+    },
+    {
+      "id": "q_gojoseon_03_007",
+      "question": "¿Qué festival de acción de gracias de la cosecha realizaba Dongye?",
+      "options": ["Yeonggo", "Dongmaeng", "Mucheon", "Sodo"],
+      "answer": 2,
+      "explanation": "Dongye realizaba el festival Mucheon (舞天, 'danzando al cielo') en el décimo mes lunar. Este festival involucraba beber, cantar y bailar para agradecer la cosecha."
+    },
+    {
+      "id": "q_gojoseon_03_008",
+      "question": "¿Qué confederación consistía en los tres grupos Han: Mahan, Jinhan y Byeonhan?",
+      "options": ["Gojoseon", "Buyeo", "Samhan", "Goguryeo"],
+      "answer": 2,
+      "explanation": "Samhan era la confederación que consistía en tres grupos Han: Mahan, Jinhan y Byeonhan. Estaban ubicados en la parte sur de la Península Coreana y eventualmente evolucionaron en los Tres Reinos de Baekje, Silla y Gaya."
+    }
+  ]
+}

@@ -51,5 +51,6 @@ class AppConfig {
     'ja',
     'zh-Hans',
     'zh-Hant',
+    'es',
   ];
 }

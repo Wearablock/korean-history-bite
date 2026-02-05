@@ -683,6 +683,8 @@ class _LanguageTile extends ConsumerWidget {
         return l10n.languageChineseSimplified;
       case LanguageOption.chineseTraditional:
         return l10n.languageChineseTraditional;
+      case LanguageOption.spanish:
+        return l10n.languageSpanish;
     }
   }
 

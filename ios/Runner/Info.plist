@@ -11,6 +11,7 @@
 			<string>ja</string>
 			<string>zh-Hans</string>
 			<string>zh-Hant</string>
+			<string>es</string>
 		</array>
 		<key>CFBundleDisplayName</key>
 		<string>Korean History Bite</string>

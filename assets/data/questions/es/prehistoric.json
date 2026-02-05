@@ -1,0 +1,424 @@
+{
+  "questions": [
+    {
+      "id": "q_prehistoric_01_001",
+      "question": "¿Cuál de las siguientes describe correctamente la vida durante la era Paleolítica?",
+      "correct": "La gente vivía en grupos y se movía de un lugar a otro",
+      "wrong": [
+        "La gente construía casas-foso y llevaba vidas sedentarias",
+        "La gente cultivaba arroz para producir alimentos",
+        "La gente construía dólmenes para enterrar a sus líderes",
+        "La gente cultivaba usando herramientas de hierro"
+      ],
+      "hint": "Antes de que comenzara la agricultura, ¿cómo obtenía la gente los alimentos?",
+      "explanation": "La gente del Paleolítico vivía vidas nómadas en grupos, buscando alimentos. Las casas-foso y la vida sedentaria aparecieron en el Neolítico, los dólmenes en la Edad del Bronce, y las herramientas agrícolas de hierro en la Edad del Hierro."
+    },
+    {
+      "id": "q_prehistoric_01_002",
+      "question": "¿Cuál es la importancia del artefacto descubierto en este sitio en la historia arqueológica mundial?",
+      "correct": "Demostró que la cultura Achelense también existió en Asia Oriental",
+      "wrong": [
+        "El primer fósil humano de la península coreana fue descubierto aquí",
+        "La cerámica más antigua del mundo fue excavada aquí",
+        "Se encontraron artefactos que indican el inicio de la agricultura",
+        "Fue confirmado como el primer sitio de la Edad del Bronce de Asia Oriental"
+      ],
+      "hint": "Piensa por qué el sitio de Jeongok-ri refutó la teoría de la 'Línea de Movius'.",
+      "explanation": "La foto muestra un hacha de mano estilo Achelense excavada en Jeongok-ri, Yeoncheon. Descubierta en 1978 por el soldado estadounidense Greg Bowen, refutó la teoría de la Línea de Movius que afirmaba que las herramientas Achelenses existían solo en África y Europa."
+    },
+    {
+      "id": "q_prehistoric_01_003",
+      "question": "¿Cuál afirmación sobre las técnicas de fabricación de herramientas paleolíticas es INCORRECTA?",
+      "correct": "Pulir piedras para afilar los bordes era una técnica común",
+      "wrong": [
+        "Las piedras se golpeaban para crear bordes afilados",
+        "Hachas de mano, choppers y raspadores eran herramientas representativas",
+        "Las puntas con espiga se adjuntaban a lanzas para su uso",
+        "Las técnicas de láminas se desarrollaron en el período posterior"
+      ],
+      "hint": "Piensa en la diferencia entre 'herramientas de piedra tallada' y 'herramientas de piedra pulida'.",
+      "explanation": "Durante el Paleolítico, se usaban 'herramientas de piedra tallada' hechas golpeando piedras. Las 'herramientas de piedra pulida' hechas puliendo piedras son características del Neolítico. En el Paleolítico tardío, se desarrollaron técnicas de láminas para una producción de herramientas más eficiente."
+    },
+    {
+      "id": "q_prehistoric_01_004",
+      "question": "Basándose en la siguiente fuente, ¿cuál afirmación describe correctamente la sociedad de esta era?",
+      "source": "La gente de esta era usaba herramientas de piedra tallada, hacía fuego para protegerse del frío y cocinar. Vivían principalmente en cuevas o refugios rocosos y llevaban vidas nómadas buscando alimento.",
+      "correct": "La gente vivía en grupos comunales igualitarios",
+      "wrong": [
+        "Los jefes gobernaban sobre las tribus",
+        "Se libraban guerras con armas de bronce",
+        "La gente se establecía en áreas aptas para la agricultura",
+        "Los sacerdotes presidían las ceremonias religiosas"
+      ],
+      "hint": "¿Cómo sería la sociedad si los individuos no poseyeran los medios de producción?",
+      "explanation": "La fuente describe la vida paleolítica. Durante el Paleolítico, los medios de producción eran de propiedad comunal, creando una sociedad igualitaria sin brechas de riqueza ni distinciones de clase."
+    },
+    {
+      "id": "q_prehistoric_01_005",
+      "question": "¿Cuál afirmación describe correctamente la era en que se usó este artefacto?",
+      "correct": "La obtención de alimentos dependía principalmente de la caza y recolección",
+      "wrong": [
+        "Se hacía cerámica para almacenar alimentos",
+        "Se usaban cuchillos de piedra en forma de media luna para cosechar grano",
+        "Hubo producción excedente debido al inicio de la agricultura",
+        "El estatus social se puede inferir del tamaño de las tumbas"
+      ],
+      "hint": "En una era sin agricultura, ¿cómo se obtenían los alimentos?",
+      "explanation": "La foto muestra un chopper paleolítico. Durante el Paleolítico no había agricultura; los alimentos se obtenían mediante caza y recolección. La fabricación de cerámica comenzó en el Neolítico, mientras que los cuchillos en forma de media luna y la aparición de clases son características de la Edad del Bronce."
+    },
+    {
+      "id": "q_prehistoric_01_006",
+      "question": "¿Cuál emparejamiento de sitio paleolítico y sus características es correcto?",
+      "correct": "Seokjang-ri, Gongju - Primer sitio paleolítico estudiado académicamente en Corea",
+      "wrong": [
+        "Amsa-dong, Seúl - Se excavaron hachas de mano estilo Achelense",
+        "Dongsam-dong, Busan - Se descubrieron fósiles de Homo erectus",
+        "Durubong, Cheongwon - Se excavaron las herramientas de piedra pulida más antiguas del mundo",
+        "Songguk-ri, Buyeo - Se descubrieron pinturas rupestres paleolíticas"
+      ],
+      "hint": "Piensa en la 'primera' excavación arqueológica en Corea en 1964.",
+      "explanation": "Seokjang-ri en Gongju comenzó la excavación en 1964 y fue el primer sitio paleolítico estudiado académicamente en Corea. Amsa-dong en Seúl es Neolítico, y Songguk-ri en Buyeo es un sitio de la Edad del Bronce."
+    },
+    {
+      "id": "q_prehistoric_01_007",
+      "question": "¿Cuál afirmación sobre los fósiles humanos encontrados en este sitio es correcta?",
+      "correct": "Es un sitio importante para la investigación del Paleolítico de la península coreana",
+      "wrong": [
+        "Se encontraron ancestros directos del Homo sapiens sapiens (humanos modernos)",
+        "Se confirmó la evidencia más temprana del uso humano del fuego",
+        "Se descubrió la evidencia más antigua del mundo de agricultura",
+        "Se encontró evidencia del uso de bronce junto a los restos"
+      ],
+      "hint": "Piensa en qué era es importante estudiar el sitio de Geumgul en Danyang.",
+      "explanation": "La foto muestra el sitio de la cueva Geumgul en Danyang, un sitio del Paleolítico Medio. Los fósiles humanos y herramientas de piedra encontrados aquí son materiales valiosos para la investigación del Paleolítico de la península coreana. Junto con Seokjang-ri en Gongju y Jeongok-ri en Yeoncheon, representa los sitios paleolíticos de la península coreana."
+    },
+    {
+      "id": "q_prehistoric_01_008",
+      "question": "¿Cuál afirmación describe correctamente las viviendas paleolíticas?",
+      "correct": "La gente vivía en cuevas o refugios improvisados cerca de ríos",
+      "wrong": [
+        "La gente excavaba en el suelo y construía casas-foso",
+        "La gente construía casas sobre el suelo con madera y tierra",
+        "La gente construía muros con piedras apiladas para formar aldeas",
+        "La gente vivía en casas con pilares y techos de paja"
+      ],
+      "hint": "Piensa en los espacios naturales donde la gente nómada podía quedarse.",
+      "explanation": "La gente paleolítica vivía en cuevas naturales, refugios rocosos o refugios improvisados hechos de ramas entrelazadas cerca de ríos. Las casas-foso aparecieron en el Neolítico, y las casas sobre el suelo surgieron desde la Edad del Bronce en adelante."
+    },
+    {
+      "id": "q_prehistoric_02_001",
+      "question": "¿Cuál es el cambio central que se conoce como la 'Revolución Neolítica'?",
+      "correct": "El inicio de la agricultura y la ganadería permitió la vida sedentaria",
+      "wrong": [
+        "Se desarrolló la tecnología de fabricación de bronce y surgieron las armas",
+        "El uso del hierro aumentó enormemente la productividad agrícola",
+        "La invención de la escritura comenzó la era histórica",
+        "Se formaron estados y surgieron reyes"
+      ],
+      "hint": "¿Qué se hizo posible que fue lo suficientemente significativo como para llamarse una 'revolución'?",
+      "explanation": "La Revolución Neolítica se refiere al inicio de la agricultura y la ganadería, que permitió a los humanos pasar de la vida nómada a la sedentaria. El bronce y el hierro vinieron después, mientras que la invención de la escritura y la formación del estado son características de la era histórica."
+    },
+    {
+      "id": "q_prehistoric_02_002",
+      "question": "¿Cuál afirmación describe correctamente la vida durante la era en que se usó esta cerámica?",
+      "correct": "La gente comenzó a cultivar granos como mijo y mijo de corral",
+      "wrong": [
+        "El cultivo de arroz se generalizó y el arroz se convirtió en el alimento básico",
+        "Las herramientas agrícolas de hierro aumentaron enormemente la productividad agrícola",
+        "Se usaban armas de bronce para conquistar otras tribus",
+        "Se construían dólmenes para enterrar a los líderes"
+      ],
+      "hint": "El cultivo de arroz aún no estaba generalizado durante la era de la cerámica con patrón de peine.",
+      "explanation": "La foto muestra cerámica neolítica con patrón de peine. Durante el Neolítico, la agricultura temprana comenzó con el cultivo de granos como mijo, mijo de corral y sorgo. El cultivo generalizado de arroz es una característica de la Edad del Bronce, y las herramientas agrícolas de hierro pertenecen a la Edad del Hierro."
+    },
+    {
+      "id": "q_prehistoric_02_003",
+      "question": "¿Cuál afirmación sobre las creencias neolíticas es INCORRECTA?",
+      "correct": "Comenzaron los ritos ancestrales en santuarios reales",
+      "wrong": [
+        "Existía el animismo, creyendo que los objetos naturales tenían espíritus",
+        "Apareció el totemismo, adorando animales o plantas específicas",
+        "Se desarrolló el chamanismo, con chamanes presidiendo rituales",
+        "Se usaban adornos hechos de conchas"
+      ],
+      "hint": "Los santuarios reales están asociados con la cultura confuciana.",
+      "explanation": "Los ritos ancestrales en santuarios reales son una forma de culto a los ancestros confuciano que se sistematizó después del período de los Tres Reinos. Durante el Neolítico, aparecieron creencias primitivas como el animismo, el totemismo y el chamanismo."
+    },
+    {
+      "id": "q_prehistoric_02_004",
+      "question": "Basándose en la siguiente fuente, ¿cuál característica de estas herramientas es correcta?",
+      "source": "La gente de esta era usaba herramientas hechas puliendo piedras. Estas herramientas tenían bordes más afilados y refinados que las herramientas de piedra tallada y se usaban para diversos propósitos.",
+      "correct": "Las hachas de piedra y azadas de piedra son ejemplos representativos",
+      "wrong": [
+        "Las hachas de mano y choppers son ejemplos representativos",
+        "Las dagas de bronce en forma de laúd y espejos de patrón grueso son representativos",
+        "Las hoces de hierro y azadas de hierro son representativas",
+        "Las dagas de bronce delgadas y espejos de patrón fino son representativos"
+      ],
+      "hint": "Piensa en ejemplos representativos de herramientas hechas 'puliendo' piedras.",
+      "explanation": "La fuente describe las herramientas de piedra pulida neolíticas. Las herramientas de piedra pulida se hacían puliendo piedras e incluyen hachas de piedra, azadas de piedra y hoces de piedra. Las hachas de mano y choppers son herramientas de piedra tallada paleolíticas, las dagas de bronce y espejos son de la Edad del Bronce, y las herramientas de hierro son de la Edad del Hierro."
+    },
+    {
+      "id": "q_prehistoric_02_005",
+      "question": "¿Cuál afirmación sobre este tipo de vivienda es correcta?",
+      "correct": "El piso era típicamente de forma circular o rectangular redondeada",
+      "wrong": [
+        "El piso estaba elevado sobre el nivel del suelo para evitar la humedad",
+        "El ondol (calefacción bajo el suelo) proporcionaba calor en invierno",
+        "Era una vivienda comunal grande donde vivían varias familias juntas",
+        "Los muros se construían apilando ladrillos de barro"
+      ],
+      "hint": "El 'foso' en casa-foso se refiere a un hueco excavado en el suelo.",
+      "explanation": "La foto muestra una casa-foso neolítica (vivienda semi-subterránea). Las casas-foso se construían excavando unos 50cm en el suelo y colocando un techo encima. El piso era típicamente circular o rectangular redondeado. El ondol se desarrolló después de la Edad del Hierro."
+    },
+    {
+      "id": "q_prehistoric_02_006",
+      "question": "¿Para qué se usaba este artefacto?",
+      "correct": "Se usaba para hilar hilo en la producción textil",
+      "wrong": [
+        "Se usaba para cosechar grano",
+        "Se usaba para raspar y procesar pieles de animales",
+        "Se usaba para añadir patrones al hacer cerámica",
+        "Se usaba para crear fricción para hacer fuego"
+      ],
+      "hint": "Otro nombre para la fusayola es 'peso de rueda de hilar'.",
+      "explanation": "La foto muestra una fusayola, usada para hilar hilo en la producción textil. Esta es evidencia de que existía tecnología de tejido primitiva en el Neolítico. Se usaba junto con agujas de hueso para hacer ropa."
+    },
+    {
+      "id": "q_prehistoric_02_007",
+      "question": "¿Cuál afirmación describe correctamente la dieta de la gente neolítica?",
+      "correct": "Los alimentos se almacenaban y cocinaban en cerámica",
+      "wrong": [
+        "El arroz se cocinaba en ollas de hierro",
+        "Los alimentos se almacenaban en vasijas de bronce",
+        "Las salsas fermentadas se almacenaban en loza",
+        "Las frutas se guardaban en recipientes de vidrio"
+      ],
+      "hint": "En una era sin bronce ni hierro, ¿qué recipientes se usaban para los alimentos?",
+      "explanation": "Durante el Neolítico, se hacía cerámica (cerámica con patrón de peine) para almacenar alimentos y cocinar. El hierro y el bronce aún no habían aparecido, y la loza y el vidrio son tecnologías de períodos mucho posteriores."
+    },
+    {
+      "id": "q_prehistoric_02_008",
+      "question": "¿Cuál afirmación sobre los artefactos encontrados en este tipo de sitio es correcta?",
+      "correct": "Muestra que la gente neolítica usaba mariscos como fuente principal de alimento",
+      "wrong": [
+        "Encontrados principalmente en el interior, mostrando que era una sociedad agrícola",
+        "Se usaba como sitio de entierro de la Edad del Bronce",
+        "Es un sitio de vivienda del período Goguryeo",
+        "Son restos de un horno de cerámica de la dinastía Joseon"
+      ],
+      "hint": "Piensa por qué los concheros se encuentran a lo largo de las costas.",
+      "explanation": "La foto muestra un sitio de conchero (basurero). Encontrados en áreas costeras como Dongsam-dong en Busan y Sugari en Gimhae, muestran que la gente neolítica recolectaba y comía mariscos. También se excavan cerámica con patrón de peine, herramientas de piedra pulida y huesos de animales de los concheros."
+    },
+    {
+      "id": "q_prehistoric_03_001",
+      "question": "¿Cuál afirmación describe correctamente el uso del bronce durante la Edad del Bronce?",
+      "correct": "El bronce se usaba principalmente para hacer armas e implementos rituales",
+      "wrong": [
+        "El bronce se usaba principalmente para herramientas agrícolas, aumentando la productividad",
+        "El bronce se usaba como moneda, desarrollando el comercio",
+        "El bronce se usaba como material de construcción, llevando a grandes estructuras",
+        "El bronce se usaba principalmente para hacer platos y vasijas cotidianas"
+      ],
+      "hint": "Como el bronce era precioso, se usaba para propósitos especiales en lugar de herramientas cotidianas.",
+      "explanation": "Durante la Edad del Bronce, el bronce se usaba principalmente para hacer armas e implementos rituales como dagas de bronce en forma de laúd y espejos de patrón grueso. Las herramientas agrícolas todavía se hacían de piedra (herramientas de piedra pulida), siendo el cuchillo de piedra en forma de media luna representativo."
+    },
+    {
+      "id": "q_prehistoric_03_002",
+      "question": "¿Cuál afirmación sobre este artefacto es correcta?",
+      "correct": "Es un implemento de bronce encontrado principalmente en la región de Liaoning y la península coreana",
+      "wrong": [
+        "Fue hecho bajo la influencia del centro de China",
+        "Fue introducido desde Japón y se extendió a la península coreana",
+        "Es un arma de hierro hecha durante la Edad del Hierro",
+        "Es una herramienta ritual usada durante el Neolítico"
+      ],
+      "hint": "El área de distribución de las dagas de bronce en forma de laúd está relacionada con Gojoseon.",
+      "explanation": "La foto muestra una daga de bronce en forma de laúd (daga estilo Liaoning), llamada así por su forma de hoja que se asemeja a un instrumento laúd (pipa). Encontrada principalmente en la región de Liaoning y el norte de la península coreana, sirve como evidencia para estimar la extensión territorial de Gojoseon."
+    },
+    {
+      "id": "q_prehistoric_03_003",
+      "question": "¿Cuál es la causa más apropiada para el surgimiento de clases sociales durante la Edad del Bronce?",
+      "correct": "La mejora de la productividad agrícola llevó a la producción excedente",
+      "wrong": [
+        "El desarrollo de armas de hierro permitió guerras de conquista",
+        "La invención de la escritura creó una clase intelectual",
+        "El uso de moneda llevó al surgimiento de una clase comerciante",
+        "La adopción del budismo llevó al surgimiento de una clase clerical"
+      ],
+      "hint": "Al cultivar, queda comida después de comer. ¿Quién la reclamaría?",
+      "explanation": "Durante la Edad del Bronce, la productividad agrícola mejoró a través del cultivo de arroz, creando producción excedente. La competencia por estos excedentes creó brechas de riqueza y llevó al surgimiento de clases sociales. Las armas de hierro, la escritura, la moneda y el budismo vinieron mucho después."
+    },
+    {
+      "id": "q_prehistoric_03_004",
+      "question": "Basándose en la siguiente fuente, ¿cuál afirmación describe correctamente la sociedad de la Edad del Bronce?",
+      "source": "Se ha descubierto un tipo de tumba donde se colocan grandes piedras sobre varias piedras de soporte. Construir esta tumba requería movilizar a muchos trabajadores, y el tamaño de la tumba sugiere el estatus social de la persona enterrada.",
+      "correct": "Existían líderes que podían movilizar a grandes cantidades de trabajadores",
+      "wrong": [
+        "Era una sociedad comunal igualitaria",
+        "Se estableció un sistema centralizado con un rey gobernando el estado",
+        "Las leyes se aplicaban de manera diferente según el estatus social",
+        "Se implementó un sistema feudal donde los nobles poseían tierras y esclavos"
+      ],
+      "hint": "Mover piedras enormes requiere muchas personas. ¿Quién las movilizó?",
+      "explanation": "La fuente describe un dolmen (tipo mesa). Los dólmenes eran tumbas de líderes de la Edad del Bronce, y construir grandes dólmenes requería cientos de trabajadores. Esto muestra que existían líderes (jefes) con poder para movilizar mano de obra en la sociedad de esa época."
+    },
+    {
+      "id": "q_prehistoric_03_005",
+      "question": "¿Cuál afirmación sobre este artefacto es correcta?",
+      "correct": "Se presume que es la tumba de un líder de la Edad del Bronce",
+      "wrong": [
+        "Se usaba como vivienda neolítica",
+        "Era la base de un templo budista del período de los Tres Reinos",
+        "Es una piedra de tumba del período Goryeo",
+        "Es una instalación de observación astronómica del período Joseon"
+      ],
+      "hint": "Una estructura con una gran piedra colocada sobre piedras de soporte—¿de quién sería la tumba?",
+      "explanation": "La foto muestra un dolmen tipo mesa (estilo norteño). Con una gran piedra de cobertura colocada sobre piedras de soporte, es la tumba de un líder de la Edad del Bronce. La península coreana tiene la mayor concentración de dólmenes del mundo."
+    },
+    {
+      "id": "q_prehistoric_03_006",
+      "question": "¿Cuál afirmación describe correctamente el uso de este artefacto?",
+      "correct": "Se usaba para cosechar grano",
+      "wrong": [
+        "Se usaba como molde para fundir bronce",
+        "Era una herramienta de tejido para hacer tela",
+        "Era una herramienta para procesar cuero",
+        "Era una herramienta para cortar árboles"
+      ],
+      "hint": "Tiene forma de media luna con agujeros. ¿Qué agarrarías y 'cortarías' con él?",
+      "explanation": "La foto muestra un cuchillo de piedra en forma de media luna (cuchillo de piedra semi-lunar). Se pasaba una cuerda por los agujeros para agarrarlo, y se usaba para cosechar grano como arroz o mijo. Es un artefacto representativo que muestra la sociedad agrícola de la Edad del Bronce."
+    },
+    {
+      "id": "q_prehistoric_03_007",
+      "question": "¿Qué tipo de cerámica se usaba durante la Edad del Bronce?",
+      "correct": "Cerámica lisa (cerámica Mumun)",
+      "wrong": [
+        "Cerámica con patrón de peine",
+        "Cerámica con apliques",
+        "Celadón",
+        "Loza Buncheong"
+      ],
+      "hint": "El nombre de esta cerámica significa 'cerámica sin patrones'.",
+      "explanation": "Durante la Edad del Bronce, se usaba principalmente cerámica lisa sin patrones (cerámica Mumun). La cerámica con patrón de peine y la cerámica con apliques son del Neolítico, el celadón de Goryeo, y la loza Buncheong del Joseon temprano."
+    },
+    {
+      "id": "q_prehistoric_03_008",
+      "question": "¿Cuál es el significado histórico de este artefacto?",
+      "correct": "Muestra el nivel de tecnología de fabricación de bronce y la autoridad de la clase gobernante",
+      "wrong": [
+        "Prueba el inicio de la agricultura neolítica",
+        "Es evidencia del intercambio internacional de la Edad del Hierro",
+        "Es evidencia de la adopción del budismo durante los Tres Reinos",
+        "Muestra el desarrollo de la ciencia y tecnología del período Goryeo"
+      ],
+      "hint": "Los espejos no eran artículos cotidianos sino herramientas que simbolizaban la autoridad de los gobernantes.",
+      "explanation": "La foto muestra un espejo de patrón grueso (espejo de patrón grueso con múltiples perillas). Hecho durante la Edad del Bronce como implemento ritual, tiene patrones geométricos gruesos en la parte posterior. Simboliza la autoridad de los gobernantes y demuestra el nivel de tecnología de fabricación de bronce."
+    },
+    {
+      "id": "q_prehistoric_04_001",
+      "question": "¿En qué formas se desarrolló el bronce independientemente durante la Edad del Hierro Temprana?",
+      "correct": "Dagas de bronce delgadas y espejos de patrón fino",
+      "wrong": [
+        "Dagas de bronce en forma de laúd y espejos de patrón grueso",
+        "Calderos de bronce y campanas de bronce",
+        "Hachas de bronce y puntas de flecha de bronce",
+        "Moldes de bronce y hoces de bronce"
+      ],
+      "hint": "Daga en forma de laúd → ? / Espejo de patrón grueso → ? ¿En qué se desarrollaron?",
+      "explanation": "Durante la Edad del Hierro Temprana, el bronce también se desarrolló en estilos distintivamente coreanos junto con el hierro. Las dagas de bronce en forma de laúd evolucionaron a dagas de bronce delgadas (dagas estilo coreano), y los espejos de patrón grueso se desarrollaron en espejos de patrón fino."
+    },
+    {
+      "id": "q_prehistoric_04_002",
+      "question": "¿Cuál afirmación sobre este artefacto es correcta?",
+      "correct": "Es una daga estilo coreano que evolucionó de la daga de bronce en forma de laúd",
+      "wrong": [
+        "Es un arma de bronce importada directamente de China",
+        "Fue introducida desde Japón y se extendió a la península coreana",
+        "Fue hecha a principios de la Edad del Bronce",
+        "Se usaba solo como arma práctica, no para rituales"
+      ],
+      "hint": "Esta es una daga exclusivamente coreana que evolucionó de 'forma de laúd' a 'delgada'.",
+      "explanation": "La foto muestra una daga de bronce delgada (daga estilo coreano). Es una forma que se desarrolló independientemente en la península coreana a partir de la daga de bronce en forma de laúd, caracterizada por una hoja estrecha y recta con un mango separable. Fue hecha durante la Edad del Hierro Temprana."
+    },
+    {
+      "id": "q_prehistoric_04_003",
+      "question": "¿Qué cambio social resultó de la difusión del hierro?",
+      "correct": "La productividad agrícola aumentó y las guerras de conquista se volvieron más activas",
+      "wrong": [
+        "Se formó una sociedad igualitaria y las clases desaparecieron",
+        "La gente volvió a la vida nómada y el pastoreo se hizo común",
+        "El uso del bronce cesó completamente",
+        "La construcción de tumbas desapareció y la cremación se hizo común"
+      ],
+      "hint": "Piensa en el impacto de las herramientas agrícolas y armas de hierro en la sociedad.",
+      "explanation": "La difusión del hierro llevó al uso de herramientas agrícolas de hierro (hoces de hierro, azadas de hierro, etc.), aumentando enormemente la productividad agrícola. El desarrollo de armas de hierro también intensificó las guerras de conquista, acelerando la unificación tribal."
+    },
+    {
+      "id": "q_prehistoric_04_004",
+      "question": "¿Cuál afirmación describe correctamente la era (A) mencionada en la siguiente fuente?",
+      "source": "Durante la era (A), se usaba hierro mientras que el bronce también se desarrolló en formas distintivas como dagas de bronce delgadas y espejos de patrón fino. El comercio con el estado Yan de China también trajo monedas mingdao.",
+      "correct": "Wiman se convirtió en rey y fortaleció Gojoseon",
+      "wrong": [
+        "Dangun Wanggeom fundó el primer estado",
+        "Los lingotes de hierro se usaban como moneda en la sociedad Samhan",
+        "Goguryeo expulsó a la Comandancia de Lelang",
+        "El rey Geunchogo de Baekje logró la edad dorada del reino"
+      ],
+      "hint": "¿Quién está asociado con el período en que se introdujeron las 'monedas mingdao' del estado Yan?",
+      "explanation": "La fuente describe la Edad del Hierro Temprana. Durante este período, Wiman derrocó al rey Jun y estableció Wiman Joseon (194 a.C.), fortaleciendo Gojoseon basándose en la cultura del hierro. El uso de lingotes de hierro como moneda en Samhan ocurrió en un período posterior."
+    },
+    {
+      "id": "q_prehistoric_04_005",
+      "question": "¿Cuál es el significado histórico de estos artefactos?",
+      "correct": "Muestran la difusión de la cultura del hierro y la mejora de la productividad agrícola",
+      "wrong": [
+        "Prueban el inicio de la agricultura de la Edad del Bronce",
+        "Muestran la tecnología de caza neolítica",
+        "Representan la tecnología de fabricación de armas del período de los Tres Reinos",
+        "Muestran la tecnología de herrería del período Joseon"
+      ],
+      "hint": "Piensa para qué se usaban las hoces y azadones de hierro.",
+      "explanation": "La foto muestra implementos de hierro excavados en Daho-ri, Changwon. El descubrimiento de herramientas agrícolas de hierro como hoces y azadones, junto con armas, muestra la difusión de la cultura del hierro y la mejora de la productividad agrícola durante la Edad del Hierro Temprana."
+    },
+    {
+      "id": "q_prehistoric_04_006",
+      "question": "¿Cuál es el significado de encontrar estos artefactos en la península coreana?",
+      "correct": "Muestra que hubo intercambio con el estado Yan de China",
+      "wrong": [
+        "Prueba que la moneda se acuñaba independientemente en la península coreana",
+        "Indica comercio activo con Japón",
+        "Muestra que el comercio se desarrolló desde el Neolítico",
+        "Prueba que Gojoseon conquistó China"
+      ],
+      "hint": "Piensa de qué país eran las monedas mingdao.",
+      "explanation": "La foto muestra monedas mingdao (dinero cuchillo), moneda de bronce usada en el estado Yan de China. Encontrar monedas mingdao en la península coreana es evidencia del comercio entre Gojoseon y el estado Yan durante la Edad del Hierro Temprana."
+    },
+    {
+      "id": "q_prehistoric_04_007",
+      "question": "¿Qué cambio en los estilos de entierro ocurrió durante la Edad del Hierro?",
+      "correct": "Los entierros en ataúd de madera y en vasijas se hicieron populares",
+      "wrong": [
+        "Los dólmenes se construyeron aún más grandes",
+        "Las tumbas de montículo de piedra aparecieron por primera vez",
+        "Las tumbas de cámara de piedra con corredores se hicieron comunes",
+        "Las tumbas de ladrillo se generalizaron"
+      ],
+      "hint": "Piensa en los entierros usando ataúdes de madera y los entierros usando vasijas.",
+      "explanation": "Durante la Edad del Hierro, los entierros en ataúd de madera (usando ataúdes de madera) y los entierros en vasijas (usando vasijas grandes) se hicieron populares. Las tumbas de montículo de piedra aparecieron en los primeros Goguryeo y Silla, las tumbas de cámara de piedra con corredores en el período posterior de los Tres Reinos, y las tumbas de ladrillo se usaron en casos especiales como la tumba del rey Muryeong de Baekje."
+    },
+    {
+      "id": "q_prehistoric_04_008",
+      "question": "¿Qué característica tiene este artefacto en comparación con los espejos de patrón grueso de la Edad del Bronce?",
+      "correct": "Los patrones se volvieron más refinados y detallados",
+      "wrong": [
+        "Se volvió mucho más grande y grueso",
+        "Se usaba para propósitos prácticos",
+        "Estaba hecho de material de vidrio",
+        "Su carácter ritual desapareció completamente"
+      ],
+      "hint": "Piensa por qué el nombre cambió de 'patrón grueso' a 'patrón fino'.",
+      "explanation": "La foto muestra un espejo de patrón fino. Comparado con los espejos de patrón grueso de la Edad del Bronce, sus patrones son muy refinados y detallados, representando un desarrollo al estilo coreano. Todavía conservaba su carácter ritual y simbolizaba la autoridad de la clase gobernante."
+    }
+  ]
+}
