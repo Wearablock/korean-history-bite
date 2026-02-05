@@ -1,4 +1,0 @@
-Nuevo en esta versión:
-
-- Añadido soporte para idioma español
-- Corrección de errores y mejoras

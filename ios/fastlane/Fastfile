@@ -29,6 +29,17 @@ platform :ios do
     )
   end
 
+  desc "빌드된 IPA만 TestFlight에 업로드"
+  lane :upload_only do
+    api_key
+
+    # TestFlight 업로드
+    upload_to_testflight(
+      ipa: "../build/ios/ipa/korean_history_bite.ipa",
+      skip_waiting_for_build_processing: true
+    )
+  end
+
   desc "App Store에 제출"
   lane :release do
     api_key
@@ -67,8 +78,7 @@ platform :ios do
       automatic_release: false,
       force: true,
       precheck_include_in_app_purchases: false,
-      skip_app_version_update: true,
-      edit_live: true
+      app_version: "1.1.0"
     )
   end
 

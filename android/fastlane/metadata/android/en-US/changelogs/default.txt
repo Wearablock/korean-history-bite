@@ -1,7 +1,9 @@
-New in this version:
+v1.1.0 Update
 
-- Added Japanese language support
-- Added Chinese language support (Simplified & Traditional)
-- Added language selection in settings
-- Added app update notifications
-- Bug fixes and improvements
+[New Features]
+- Added sound and haptic feedback for correct/wrong answers
+- Sound/vibration toggle in settings
+
+[Improvements]
+- Added Spanish language support
+- Overall stability improvements
