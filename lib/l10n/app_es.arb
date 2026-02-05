@@ -298,5 +298,11 @@
   "languageChineseSimplified": "简体中文",
   "languageChineseTraditional": "繁體中文",
   "languageSpanish": "Español",
-  "languageChangeRestart": "Reinicia la app para aplicar el cambio de idioma."
+  "languageChangeRestart": "Reinicia la app para aplicar el cambio de idioma.",
+
+  "soundAndVibration": "Sonido y Vibración",
+  "soundEffects": "Efectos de Sonido",
+  "soundEffectsDesc": "Reproducir sonido al responder correcto/incorrecto",
+  "vibration": "Vibración",
+  "vibrationDesc": "Retroalimentación háptica al responder correcto/incorrecto"
 }

@@ -301,5 +301,11 @@
   "languageChineseSimplified": "简体中文",
   "languageChineseTraditional": "繁體中文",
   "languageSpanish": "Español",
-  "languageChangeRestart": "언어 변경을 적용하려면 앱을 다시 시작하세요."
+  "languageChangeRestart": "언어 변경을 적용하려면 앱을 다시 시작하세요.",
+
+  "soundAndVibration": "사운드 및 진동",
+  "soundEffects": "효과음",
+  "soundEffectsDesc": "정답/오답 시 효과음 재생",
+  "vibration": "진동",
+  "vibrationDesc": "정답/오답 시 진동 피드백"
 }

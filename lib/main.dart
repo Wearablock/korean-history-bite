@@ -14,6 +14,7 @@ import 'firebase_options.dart';
 import 'services/ad_service.dart';
 import 'services/iap_service.dart';
 import 'services/notification_service.dart';
+import 'core/services/feedback_service.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -48,6 +49,9 @@ void main() async {
   // 저장된 알림 설정 복원
   await _restoreNotificationSettings();
 
+  // 저장된 피드백 설정 복원
+  await _restoreFeedbackSettings();
+
   runApp(
     const ProviderScope(
       child: KoreanHistoryApp(),
@@ -71,5 +75,22 @@ Future<void> _restoreNotificationSettings() async {
     }
   } catch (e) {
     debugPrint('알림 설정 복원 실패: $e');
+  }
+}
+
+/// 저장된 피드백(사운드/진동) 설정 복원
+Future<void> _restoreFeedbackSettings() async {
+  try {
+    final db = AppDatabase();
+    final soundEnabled = await db.userSettingsDao.getSoundEnabled();
+    final vibrationEnabled = await db.userSettingsDao.getVibrationEnabled();
+
+    final feedback = FeedbackService();
+    feedback.setSoundEnabled(soundEnabled);
+    feedback.setVibrationEnabled(vibrationEnabled);
+
+    debugPrint('피드백 설정 복원 완료: sound=$soundEnabled, vibration=$vibrationEnabled');
+  } catch (e) {
+    debugPrint('피드백 설정 복원 실패: $e');
   }
 }

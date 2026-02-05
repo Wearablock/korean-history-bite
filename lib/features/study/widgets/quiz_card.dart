@@ -7,6 +7,7 @@ import '../../../core/theme/app_colors.dart';
 import '../../../data/models/question.dart';
 import '../../../data/providers/premium_provider.dart';
 import '../../../services/ad_service.dart';
+import '../../../core/services/feedback_service.dart';
 import 'option_button.dart';
 import 'question_header.dart';
 import 'explanation_card.dart';
@@ -91,8 +92,16 @@ class _QuizCardState extends ConsumerState<QuizCard> {
       _showFeedback = true;
     });
 
+    // 정답/오답 피드백 (사운드 + 진동)
+    final isCorrect = index == _correctIndex;
+    if (isCorrect) {
+      FeedbackService().onCorrectAnswer();
+    } else {
+      FeedbackService().onWrongAnswer();
+    }
+
     final selectedAnswer = _shuffledOptions[index];
-    widget.onAnswered(_isCorrect, selectedAnswer);
+    widget.onAnswered(isCorrect, selectedAnswer);
   }
 
   OptionState _getOptionState(int index) {

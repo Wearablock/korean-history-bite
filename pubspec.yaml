@@ -56,6 +56,10 @@ dependencies:
   url_launcher: ^6.3.2
   app_tracking_transparency: ^2.0.6+1
 
+  # Sound & Haptic Feedback
+  audioplayers: ^6.1.0
+  vibration: ^2.0.0
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -94,6 +98,7 @@ flutter:
     - assets/images/sculptures/
     - assets/images/sites/
     - assets/splash/
+    - assets/sounds/
 
 flutter_native_splash:
   color: "#FFFFFF"

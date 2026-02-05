@@ -16,6 +16,10 @@ abstract class SettingKeys {
   // 테마
   static const String themeMode = 'theme_mode';
 
+  // 사운드 & 진동
+  static const String soundEnabled = 'sound_enabled';
+  static const String vibrationEnabled = 'vibration_enabled';
+
   // 언어
   static const String locale = 'locale';
   static const String contentLocale = 'content_locale';

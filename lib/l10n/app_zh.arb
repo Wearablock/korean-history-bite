@@ -298,5 +298,11 @@
   "languageChineseSimplified": "简体中文",
   "languageChineseTraditional": "繁體中文",
   "languageSpanish": "Español",
-  "languageChangeRestart": "重启应用以应用语言更改。"
+  "languageChangeRestart": "重启应用以应用语言更改。",
+
+  "soundAndVibration": "声音与振动",
+  "soundEffects": "音效",
+  "soundEffectsDesc": "正确/错误时播放音效",
+  "vibration": "振动",
+  "vibrationDesc": "正确/错误时振动反馈"
 }

@@ -158,6 +158,30 @@ class UserSettingsDao extends DatabaseAccessor<AppDatabase>
   }
 
   // ============================================================
+  // 사운드 & 진동 설정 전용 메서드
+  // ============================================================
+
+  /// 사운드 활성화 여부 조회
+  Future<bool> getSoundEnabled() async {
+    return getBool(SettingKeys.soundEnabled, defaultValue: true);
+  }
+
+  /// 사운드 활성화 설정
+  Future<void> setSoundEnabled(bool enabled) {
+    return setBool(SettingKeys.soundEnabled, enabled);
+  }
+
+  /// 진동 활성화 여부 조회
+  Future<bool> getVibrationEnabled() async {
+    return getBool(SettingKeys.vibrationEnabled, defaultValue: true);
+  }
+
+  /// 진동 활성화 설정
+  Future<void> setVibrationEnabled(bool enabled) {
+    return setBool(SettingKeys.vibrationEnabled, enabled);
+  }
+
+  // ============================================================
   // 언어 설정 전용 메서드
   // ============================================================
 
@@ -280,6 +304,8 @@ class UserSettingsDao extends DatabaseAccessor<AppDatabase>
     await setString(SettingKeys.themeMode, 'system');
     await setString(SettingKeys.locale, 'system');
     await setString(SettingKeys.contentLocale, 'system');
+    await setBool(SettingKeys.soundEnabled, true);
+    await setBool(SettingKeys.vibrationEnabled, true);
   }
 
   /// 모든 설정을 Map으로 내보내기
@@ -314,5 +340,17 @@ class UserSettingsDao extends DatabaseAccessor<AppDatabase>
   /// 언어 변경 감지
   Stream<String> watchLocale() {
     return watchValue(SettingKeys.locale).map((value) => value ?? 'system');
+  }
+
+  /// 사운드 설정 변경 감지
+  Stream<bool> watchSoundEnabled() {
+    return watchValue(SettingKeys.soundEnabled)
+        .map((value) => value?.toLowerCase() == 'true' || value == null);
+  }
+
+  /// 진동 설정 변경 감지
+  Stream<bool> watchVibrationEnabled() {
+    return watchValue(SettingKeys.vibrationEnabled)
+        .map((value) => value?.toLowerCase() == 'true' || value == null);
   }
 }

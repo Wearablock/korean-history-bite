@@ -10,6 +10,7 @@ import '../../core/widgets/collapsing_app_bar_scaffold.dart';
 import '../../data/providers/chapter_providers.dart';
 import '../../data/providers/database_providers.dart';
 import '../../data/providers/study_providers.dart';
+import '../../core/services/feedback_service.dart';
 import '../wrong_answers/wrong_answers_screen.dart';
 import 'widgets/notification_settings_tile.dart';
 import 'widgets/premium_tile.dart';
@@ -77,6 +78,19 @@ class SettingsScreen extends ConsumerWidget {
             children: [
               _LanguageTile(),
               _ThemeModeTile(),
+            ],
+          ),
+
+          const SizedBox(height: 12),
+
+          // === 사운드 & 진동 섹션 ===
+          _buildSectionCard(
+            context,
+            title: l10n.soundAndVibration,
+            icon: Icons.volume_up_outlined,
+            children: [
+              _SoundToggleTile(),
+              _VibrationToggleTile(),
             ],
           ),
 
@@ -765,5 +779,73 @@ class _LanguageTile extends ConsumerWidget {
         );
       }
     }
+  }
+}
+
+/// 사운드 토글 타일
+class _SoundToggleTile extends ConsumerWidget {
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final l10n = AppLocalizations.of(context)!;
+    final dao = ref.watch(userSettingsDaoProvider);
+
+    return FutureBuilder<bool>(
+      future: dao.getSoundEnabled(),
+      builder: (context, snapshot) {
+        final isEnabled = snapshot.data ?? true;
+
+        return SwitchListTile(
+          secondary: Icon(
+            isEnabled ? Icons.volume_up : Icons.volume_off,
+            color: AppColors.textSecondaryLight,
+          ),
+          title: Text(l10n.soundEffects),
+          subtitle: Text(
+            l10n.soundEffectsDesc,
+            style: TextStyle(color: AppColors.textSecondaryLight),
+          ),
+          value: isEnabled,
+          onChanged: (value) async {
+            await dao.setSoundEnabled(value);
+            FeedbackService().setSoundEnabled(value);
+            ref.invalidate(userSettingsDaoProvider);
+          },
+        );
+      },
+    );
+  }
+}
+
+/// 진동 토글 타일
+class _VibrationToggleTile extends ConsumerWidget {
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final l10n = AppLocalizations.of(context)!;
+    final dao = ref.watch(userSettingsDaoProvider);
+
+    return FutureBuilder<bool>(
+      future: dao.getVibrationEnabled(),
+      builder: (context, snapshot) {
+        final isEnabled = snapshot.data ?? true;
+
+        return SwitchListTile(
+          secondary: Icon(
+            isEnabled ? Icons.vibration : Icons.phone_android,
+            color: AppColors.textSecondaryLight,
+          ),
+          title: Text(l10n.vibration),
+          subtitle: Text(
+            l10n.vibrationDesc,
+            style: TextStyle(color: AppColors.textSecondaryLight),
+          ),
+          value: isEnabled,
+          onChanged: (value) async {
+            await dao.setVibrationEnabled(value);
+            FeedbackService().setVibrationEnabled(value);
+            ref.invalidate(userSettingsDaoProvider);
+          },
+        );
+      },
+    );
   }
 }
