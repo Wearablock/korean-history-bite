@@ -84,6 +84,7 @@ flutter:
     - assets/data/questions/zh-Hans/
     - assets/data/questions/zh-Hant/
     - assets/data/questions/es/
+    - assets/data/questions/pt/
     - assets/images/
     - assets/images/artifacts/
     - assets/images/documents/

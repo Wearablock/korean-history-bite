@@ -1,0 +1,584 @@
+{
+  "q_north_south_states_01_001": {
+    "question": "Qual política foi implementada durante o reinado do Rei Sinmun na Silla Unificada?",
+    "correct": "Aboliu nokup (aldeias de estipêndio) e concedeu gwanryojeon (terras de ofício) aos funcionários",
+    "wrong": [
+      "Aboliu o sistema de hierarquia óssea",
+      "Desativou os Nove Seodang",
+      "Fortaleceu o Conselho Hwabaek",
+      "Expandiu a autoridade do Sangdaedeung"
+    ],
+    "hint": "O Rei Sinmun reformou o sistema de terras para enfraquecer a aristocracia.",
+    "explanation": "O Rei Sinmun aboliu o nokup para enfraquecer o poder aristocrático e concedeu gwanryojeon aos funcionários em seu lugar. Ele também estabeleceu Gukhak (Academia Nacional) e organizou o sistema de Nove Províncias e Cinco Capitais Secundárias."
+  },
+  "q_north_south_states_01_002": {
+    "question": "Que sistema administrativo local da Silla Unificada este mapa mostra?",
+    "correct": "Nove Províncias e Cinco Capitais Secundárias (9ju 5sogyeong)",
+    "wrong": [
+      "Sistema das Cinco Tribos",
+      "Vinte e Dois Damno",
+      "Cinco Províncias e Dois Distritos Fronteiriços",
+      "Oito Províncias"
+    ],
+    "hint": "Este sistema dividia o país em 9 províncias e 5 capitais secundárias.",
+    "explanation": "O mapa mostra o sistema de Nove Províncias e Cinco Capitais Secundárias da Silla Unificada. Organizado durante o reinado do Rei Sinmun, este sistema dividia o país em 9 províncias e 5 capitais secundárias para uma governança regional eficiente."
+  },
+  "q_north_south_states_01_003": {
+    "question": "Qual afirmação sobre a organização política central da Silla Unificada está correta?",
+    "correct": "O Jipsabu era o mais alto órgão governamental supervisionando os assuntos de estado",
+    "wrong": [
+      "O Sangdaedeung supervisionava os assuntos de estado",
+      "O Conselho Hwabaek substituiu a autoridade real",
+      "Pessoas de sexta patente monopolizaram a liderança do Jipsabu",
+      "O Jungseomunhaseong foi estabelecido"
+    ],
+    "hint": "O 'Sijung', chefe do Jipsabu, era responsável pela administração.",
+    "explanation": "Na Silla Unificada, o Jipsabu era o mais alto órgão governamental supervisionando os assuntos de estado, com seu chefe, o Sijung, sendo responsável pela administração. O Sangdaedeung servia como representante consultivo da aristocracia."
+  },
+  "q_north_south_states_01_004": {
+    "question": "Com base na seguinte fonte, qual sistema militar da Silla Unificada está sendo descrito?",
+    "source": "A capital tinha 9 unidades compostas por vários grupos étnicos, e 10 corpos militares estavam estacionados nas províncias.",
+    "correct": "Nove Seodang e Dez Jeong",
+    "wrong": [
+      "Sistema Sangsuri",
+      "Gunhoje",
+      "Sistema Fubing",
+      "Byeolmuban"
+    ],
+    "hint": "Pense nos nomes das 9 unidades do exército central e dos 10 corpos militares provinciais.",
+    "explanation": "A organização militar da Silla Unificada consistia nos Nove Seodang (exército central) e Dez Jeong (exército provincial). Os Nove Seodang incluíam não apenas pessoas de Silla, mas também refugiados de Goguryeo, Baekje e Malgal."
+  },
+  "q_north_south_states_01_005": {
+    "question": "Que característica da Silla Unificada este documento demonstra?",
+    "correct": "A população, terras e rebanho das aldeias eram pesquisados",
+    "wrong": [
+      "A terra era distribuída igualmente",
+      "Os impostos eram isentos",
+      "O sistema de escravidão foi abolido",
+      "Nenhum funcionário local era enviado"
+    ],
+    "hint": "Pense nos conteúdos do 'Documento Minjeong (Documento da Aldeia)' compilado a cada três anos.",
+    "explanation": "A foto mostra o Documento Minjeong (Documento da Aldeia) da Silla Unificada. A cada três anos, a população, terras, rebanho, amoreiras, etc. das aldeias eram pesquisados e usados como dados básicos para a governança estatal."
+  },
+  "q_north_south_states_01_006": {
+    "question": "Que mudança política ocorreu durante o período tardio da Silla Unificada?",
+    "correct": "Lutas pela sucessão ao trono ocorriam frequentemente",
+    "wrong": [
+      "A autoridade real foi ainda mais fortalecida",
+      "O sistema de hierarquia óssea foi relaxado",
+      "A participação política de pessoas de sexta patente se expandiu",
+      "Famílias poderosas locais foram absorvidas pelo governo central"
+    ],
+    "hint": "Lutas pelo poder entre aristocratas jingol levaram ao caos no governo central.",
+    "explanation": "Durante o período tardio da Silla Unificada, lutas pela sucessão ao trono entre aristocratas jingol se tornaram frequentes, e nas províncias, famílias poderosas locais (hojok) cresceram independentemente, enfraquecendo o controle do governo central."
+  },
+  "q_north_south_states_01_007": {
+    "question": "Qual era o cargo oficial responsável pela inspeção provincial na Silla Unificada?",
+    "correct": "Oesajeong",
+    "wrong": [
+      "Sangdaedeung",
+      "Sijung",
+      "Gukhak",
+      "Hwabaek"
+    ],
+    "hint": "Estes eram funcionários enviados 'para fora' para inspecionar a má conduta dos funcionários locais.",
+    "explanation": "Os Oesajeong eram funcionários enviados na Silla Unificada para inspecionar a má conduta dos funcionários locais. Era um sistema para o controle central eficaz sobre as províncias."
+  },
+  "q_north_south_states_01_008": {
+    "question": "Qual afirmação sobre o ocupante deste sítio arqueológico está correta?",
+    "correct": "Ele foi o rei que completou a unificação dos Três Reinos e foi sepultado em uma tumba subaquática",
+    "wrong": [
+      "Ele foi o primeiro rei da classe jingol",
+      "Ele foi o rei que aboliu o nokup",
+      "Ele foi o rei que estabeleceu Gukhak",
+      "Ele foi o rei que organizou as Nove Províncias e Cinco Capitais Secundárias"
+    ],
+    "hint": "Este rei foi sepultado em uma rocha (Daewangam) no Mar do Leste, dizendo que protegeria a nação mesmo após a morte.",
+    "explanation": "A foto mostra a Tumba do Rei Munmu (Daewangam). O Rei Munmu completou a unificação dos Três Reinos. De acordo com seu desejo de proteger a nação mesmo após a morte, ele foi sepultado em uma rocha no Mar do Leste."
+  },
+  "q_north_south_states_02_001": {
+    "question": "Qual era o nome da terra concedida aos funcionários no sistema de terras da Silla Unificada?",
+    "correct": "Gwanryojeon (Terra de Ofício)",
+    "wrong": [
+      "Nokup",
+      "Sigeup",
+      "Jeonsigwa",
+      "Gwajeon"
+    ],
+    "hint": "Esta era a terra concedida aos funcionários após o Rei Sinmun abolir o nokup.",
+    "explanation": "Durante o reinado do Rei Sinmun, o nokup foi abolido e gwanryojeon foi concedido aos funcionários. Gwanryojeon era terra da qual apenas o imposto (jo) podia ser coletado, uma medida para conter o poder aristocrático."
+  },
+  "q_north_south_states_02_002": {
+    "question": "Quais foram as atividades desta pessoa?",
+    "correct": "Estabeleceu Cheonghaejin e dominou o comércio marítimo",
+    "wrong": [
+      "Fundou o Baekje Posterior",
+      "Estabeleceu o Goguryeo Posterior",
+      "Fundou Goryeo",
+      "Destruiu Silla"
+    ],
+    "hint": "Ele estabeleceu uma base militar na Ilha de Wando e suprimiu piratas.",
+    "explanation": "A foto mostra Jang Bogo. Em 828, Jang Bogo estabeleceu Cheonghaejin na Ilha de Wando, suprimiu piratas e dominou o comércio marítimo conectando Tang, Silla e Wa (Japão)."
+  },
+  "q_north_south_states_02_003": {
+    "question": "Onde o Documento Minjeong da Silla Unificada foi descoberto?",
+    "correct": "Shosoin no Japão",
+    "wrong": [
+      "Dunhuang na China",
+      "Anapji em Gyeongju",
+      "Neungsan-ri em Buyeo",
+      "Tumba do Rei Muryeong em Gongju"
+    ],
+    "hint": "Foi descoberto em um repositório de tesouros em Nara, Japão.",
+    "explanation": "O Documento Minjeong (Documento da Aldeia) da Silla Unificada foi descoberto no Shosoin em Nara, Japão. Este documento é um registro de pesquisas realizadas a cada três anos sobre a população, terras, etc. das aldeias."
+  },
+  "q_north_south_states_02_004": {
+    "question": "Com base na seguinte fonte, qual atividade econômica da Silla Unificada está descrita?",
+    "source": "Em Gyeongju, havia o Mercado Leste e o Mercado Oeste onde mercadorias eram compradas e vendidas, e o Mercado Leste tinha funcionários supervisores.",
+    "correct": "A capital tinha mercados supervisionados por funcionários do governo",
+    "wrong": [
+      "A moeda era amplamente circulada",
+      "Mercados periódicos se desenvolveram por todo o país",
+      "O comércio era proibido",
+      "O comércio exterior era proibido"
+    ],
+    "hint": "O conteúdo mostra que o estado administrava os Mercados Leste e Oeste em Gyeongju.",
+    "explanation": "A capital Gyeongju da Silla Unificada tinha o Mercado Leste e o Mercado Oeste, e o estado colocava funcionários supervisores (Dongsijeon) para administrar as atividades comerciais."
+  },
+  "q_north_south_states_02_005": {
+    "question": "Qual afirmação sobre o local mostrado neste mapa está correta?",
+    "correct": "Jang Bogo o estabeleceu para suprimir piratas",
+    "wrong": [
+      "O Rei Sinmun o estabeleceu para defesa da capital",
+      "O Rei Munmu o estabeleceu após a unificação dos Três Reinos",
+      "Kim Yusin o estabeleceu para treinamento militar",
+      "O Rei Wonseong o estabeleceu para pesquisa acadêmica"
+    ],
+    "hint": "Esta era uma base militar marítima estabelecida na Ilha de Wando em 828.",
+    "explanation": "O mapa mostra a localização de Cheonghaejin. Em 828, Jang Bogo recebeu permissão do Rei Heungdeok e estabeleceu Cheonghaejin na Ilha de Wando para suprimir piratas."
+  },
+  "q_north_south_states_02_006": {
+    "question": "Qual afirmação sobre o comércio internacional da Silla Unificada está correta?",
+    "correct": "O comércio intermediário conectando Tang, Silla e Wa se desenvolveu",
+    "wrong": [
+      "Apenas comércio terrestre ocorria",
+      "O comércio internacional era proibido",
+      "O povo de Silla não avançou ao exterior",
+      "Não havia comércio com Tang"
+    ],
+    "hint": "Bairros de Silla (Silla-bang), Silla-gwan e Silla-so foram estabelecidos em Tang.",
+    "explanation": "Centrada em Cheonghaejin, a Silla Unificada desenvolveu comércio intermediário marítimo conectando Tang, Silla e Wa. O povo de Silla estabeleceu Silla-bang (bairros de Silla), Silla-gwan e Silla-so em Tang."
+  },
+  "q_north_south_states_02_007": {
+    "question": "Qual era o representativo porto de comércio internacional da Silla Unificada?",
+    "correct": "Porto de Ulsan",
+    "wrong": [
+      "Byeongnando",
+      "Masanpo",
+      "Busanpo",
+      "Jemulpo"
+    ],
+    "hint": "Este era um porto na costa leste que desempenhou um papel importante no comércio com Tang.",
+    "explanation": "Durante o período da Silla Unificada, o Porto de Ulsan desempenhou um papel importante no comércio com Tang como porto de comércio internacional. Byeongnando era um porto de comércio internacional durante o período Goryeo."
+  },
+  "q_north_south_states_02_008": {
+    "question": "Qual foi o motivo da abolição de Cheonghaejin de Jang Bogo?",
+    "correct": "O governo central estava receoso do poder crescente de Jang Bogo",
+    "wrong": [
+      "Os piratas haviam sido completamente eliminados",
+      "Tang exigiu sua abolição",
+      "Jang Bogo a dissolveu voluntariamente",
+      "O Baekje Posterior a ocupou"
+    ],
+    "hint": "Isso aconteceu depois que Jang Bogo foi assassinado em 846 quando se envolveu em questões de sucessão ao trono.",
+    "explanation": "Jang Bogo foi assassinado em 846 após se envolver em questões de sucessão ao trono, e Cheonghaejin foi posteriormente abolida em 851. O governo central estava receoso do poder crescente de Jang Bogo."
+  },
+  "q_north_south_states_03_001": {
+    "question": "Qual era o status aristocrático mais alto no sistema de status da Silla Unificada?",
+    "correct": "Osso verdadeiro (Jingol)",
+    "wrong": [
+      "Osso sagrado (Seonggol)",
+      "Sexta patente (6dupum)",
+      "Quinta patente (5dupum)",
+      "Plebeu"
+    ],
+    "hint": "Após o desaparecimento do osso sagrado, este era o único status que podia ascender ao trono.",
+    "explanation": "Na Silla Unificada, o osso sagrado desapareceu e o osso verdadeiro se tornou o mais alto status aristocrático. Apenas o osso verdadeiro podia ascender ao trono e podia ser promovido ao mais alto posto de Ibeolchan."
+  },
+  "q_north_south_states_03_002": {
+    "question": "Qual era uma característica da sexta patente na Silla Unificada?",
+    "correct": "Eram ativos nos campos acadêmico e religioso e serviam como intelectuais críticos",
+    "wrong": [
+      "Podiam ascender ao trono",
+      "Podiam ser promovidos ao mais alto posto",
+      "Não podiam participar da política de forma alguma",
+      "Tinham o mesmo status que escravos"
+    ],
+    "hint": "Com limitações de promoção, ficaram insatisfeitos e ingressaram em outros campos.",
+    "explanation": "As pessoas de sexta patente tinham limitações de promoção e só podiam alcançar o posto de Achan (6° posto). Insatisfeitos com isso, eram ativos nos campos acadêmico e religioso e serviam como intelectuais críticos."
+  },
+  "q_north_south_states_03_003": {
+    "question": "Que intercâmbio estrangeiro da Silla Unificada esta obra demonstra?",
+    "correct": "Monges viajaram até a Índia para estudar Budismo",
+    "wrong": [
+      "O intercâmbio com Tang era proibido",
+      "O intercâmbio era apenas com o Japão",
+      "O Budismo era rejeitado",
+      "Viagens ao exterior eram proibidas"
+    ],
+    "hint": "Esta é 'Wang ocheonchukguk jeon', o relato da peregrinação de Hyecho às cinco regiões da Índia.",
+    "explanation": "A foto mostra 'Wang ocheonchukguk jeon' (Memórias da Peregrinação às Cinco Regiões da Índia) de Hyecho. Hyecho viajou para cinco regiões da Índia e deixou relatos, demonstrando o ativo intercâmbio estrangeiro da Silla Unificada."
+  },
+  "q_north_south_states_03_004": {
+    "question": "Com base na seguinte fonte, qual era a situação no período tardio da Silla Unificada?",
+    "source": "Aristocratas jingol lutavam entre si pelo trono, e nas províncias, pessoas apareciam que se autodenominavam senhores de castelo ou generais.",
+    "correct": "Divisão entre aristocratas centrais e crescimento de famílias poderosas locais",
+    "wrong": [
+      "Fortalecimento da autoridade real e maior controle provincial",
+      "Relaxamento do sistema de hierarquia óssea e mobilidade social ativa",
+      "Expansão da influência política de pessoas de sexta patente",
+      "Interrupção do intercâmbio com países estrangeiros"
+    ],
+    "hint": "O centro era caótico enquanto forças independentes emergiam nas províncias.",
+    "explanation": "Durante o período tardio da Silla Unificada, lutas pela sucessão ao trono entre aristocratas jingol se intensificaram, e famílias poderosas locais (hojok) cresceram independentemente nas províncias, formando a base para o período dos Três Reinos Posteriores."
+  },
+  "q_north_south_states_03_005": {
+    "question": "Qual seita budista era popular durante o período tardio da Silla Unificada?",
+    "correct": "Budismo Seon (Zen)",
+    "wrong": [
+      "Escola Hwaeom",
+      "Escola Beopsang",
+      "Escola Cheontae",
+      "Escola Jogye"
+    ],
+    "hint": "Esta seita recebia apoio de famílias poderosas locais e enfatizava a prática de meditação.",
+    "explanation": "Durante o período tardio da Silla Unificada, o Budismo Seon se tornou popular com o apoio de famílias poderosas locais. O Budismo Seon enfatizava a prática de meditação em vez das escrituras, contrastando com o Budismo doutrinário."
+  },
+  "q_north_south_states_03_006": {
+    "question": "Qual era o mais alto posto que pessoas de sexta patente podiam alcançar no sistema de hierarquia óssea da Silla Unificada?",
+    "correct": "Achan (6° posto)",
+    "wrong": [
+      "Ibeolchan (2° posto)",
+      "Japchan (3° posto)",
+      "Daenama (10° posto)",
+      "Saji (14° posto)"
+    ],
+    "hint": "Pessoas de sexta patente só podiam ser promovidas até o 6° posto.",
+    "explanation": "Sob o sistema de hierarquia óssea, pessoas de sexta patente só podiam ser promovidas até Achan (6° posto). Devido a essa limitação de posto, pessoas de sexta patente ingressavam nos campos acadêmico e religioso."
+  },
+  "q_north_south_states_03_007": {
+    "question": "Qual era o termo para estudantes da Silla Unificada que estudavam no exterior em Tang?",
+    "correct": "Dodang yuhaksaeng (estudantes que estudavam em Tang)",
+    "wrong": [
+      "Sukwi haksaeng",
+      "Estudantes de Gukjagam",
+      "Estudantes de Seonggyungwan",
+      "Estudantes de Seodang"
+    ],
+    "hint": "O nome significa 'estudantes que cruzaram (Do) para Tang (Tang) para estudar.'",
+    "explanation": "Dodang yuhaksaeng refere-se a estudantes da Silla Unificada que estudaram em Tang. Muitos eram da classe de sexta patente, e após retornarem, alguns defenderam reformas sociais."
+  },
+  "q_north_south_states_03_008": {
+    "question": "Qual foi o contexto que permitiu o crescimento das famílias poderosas locais (hojok) durante o período tardio da Silla Unificada?",
+    "correct": "Enfraquecimento do controle provincial pelo governo central",
+    "wrong": [
+      "Relaxamento do sistema de hierarquia óssea",
+      "Fortalecimento da autoridade real",
+      "Apoio de Tang",
+      "Declínio do Budismo"
+    ],
+    "hint": "Eles cresceram aproveitando o caos central causado pelas lutas pela sucessão ao trono entre aristocratas jingol.",
+    "explanation": "Durante o período tardio da Silla Unificada, as lutas pela sucessão ao trono entre aristocratas jingol enfraqueceram o controle provincial do governo central, permitindo que famílias poderosas locais crescessem como forças independentes."
+  },
+  "q_north_south_states_04_001": {
+    "question": "O que Wonhyo, um representativo pensador budista da Silla Unificada, defendia?",
+    "correct": "Hwajaeng sasang (Filosofia da Reconciliação de Disputas)",
+    "wrong": [
+      "Dono jeomsu",
+      "Gyogwan gyeomsu",
+      "Jeonghye ssangsu",
+      "Seongyo ilchi"
+    ],
+    "hint": "Esta filosofia buscava 'harmonizar' conflitos entre seitas budistas.",
+    "explanation": "Wonhyo buscou harmonizar conflitos entre várias seitas budistas através do Hwajaeng sasang. Ele também contribuiu para a popularização do Budismo compondo Muaega (Canção Sem Impedimentos)."
+  },
+  "q_north_south_states_04_002": {
+    "question": "Qual era a filosofia budista desta pessoa?",
+    "correct": "Ele defendia Hwajaeng sasang para harmonizar conflitos entre seitas budistas",
+    "wrong": [
+      "Ele defendia Dono jeomsu",
+      "Ele fundou a Escola Cheontae",
+      "Ele organizou a Escola Jogye",
+      "Ele estabeleceu Suseonsa"
+    ],
+    "hint": "Este monge também contribuiu para a popularização do Budismo através de Muaega.",
+    "explanation": "A foto mostra Wonhyo. Wonhyo buscou harmonizar conflitos entre seitas budistas através do Hwajaeng sasang e contribuiu para a popularização do Budismo através de Muaega."
+  },
+  "q_north_south_states_04_003": {
+    "question": "Qual afirmação sobre este templo na foto está correta?",
+    "correct": "Foi fundado por Kim Daeseong durante o reinado do Rei Gyeongdeok na Silla Unificada",
+    "wrong": [
+      "Foi construído durante o reinado do Rei Sosurim em Goguryeo",
+      "Foi construído durante o reinado do Rei Seong em Baekje",
+      "Foi reconstruído durante o reinado do Rei Gwangjong em Goryeo",
+      "Foi reconstruído durante o reinado do Rei Sejong em Joseon"
+    ],
+    "hint": "Este templo em Gyeongju tem os pagodes Dabotap e Seokgatap.",
+    "explanation": "A foto mostra o Templo de Bulguksa. Diz-se que Bulguksa foi fundado por Kim Daeseong durante o reinado do Rei Gyeongdeok na Silla Unificada para seus pais de uma vida anterior. Ele contém os pagodes Dabotap e Seokgatap."
+  },
+  "q_north_south_states_04_004": {
+    "question": "Com base na seguinte fonte, quem realizou estas atividades?",
+    "source": "Ele estudou a filosofia Hwaeom e escreveu Hwaeom ilseung beopgyedo, e fundou o Templo de Buseoksa.",
+    "correct": "Uisang",
+    "wrong": [
+      "Wonhyo",
+      "Hyecho",
+      "Wongwang",
+      "Jajang"
+    ],
+    "hint": "Este monge estudou a filosofia Hwaeom em Tang e fundou o Templo de Buseoksa ao retornar.",
+    "explanation": "A fonte descreve Uisang. Uisang estudou a filosofia Hwaeom em Tang, retornou, fundou o Templo de Buseoksa e desenvolveu a Escola Hwaeom."
+  },
+  "q_north_south_states_04_005": {
+    "question": "Qual afirmação sobre esta estátua de Buda na foto está correta?",
+    "correct": "É o Buda principal consagrado em uma gruta de pedra artificial",
+    "wrong": [
+      "Foi criada durante o período Goguryeo",
+      "É uma estátua de Buda de madeira",
+      "Está consagrada dentro de um pagode",
+      "Foi criada durante o período Goryeo"
+    ],
+    "hint": "Esta é a estátua de Buda em Seokguram, que Kim Daeseong criou para seus pais na vida atual.",
+    "explanation": "A foto mostra o Buda principal de Seokguram. Seokguram é uma gruta de pedra artificial criada por Kim Daeseong durante o reinado do Rei Gyeongdeok na Silla Unificada para seus pais na vida atual, consagrando o Buda principal e estátuas de bodhisattva."
+  },
+  "q_north_south_states_04_006": {
+    "question": "Qual era a forma literária representativa da Silla Unificada registrada em Hyangchal?",
+    "correct": "Hyangga",
+    "wrong": [
+      "Sijo",
+      "Gasa",
+      "Hansi",
+      "Pansori"
+    ],
+    "hint": "Estas eram canções escritas usando sons e significados de caracteres chineses para representar o coreano.",
+    "explanation": "Hyangga eram canções do período Silla registradas em Hyangchal (usando sons e significados de caracteres chineses para escrever em coreano). Hyangga representativas incluem Cheoyongga e Jemangmaega."
+  },
+  "q_north_south_states_04_007": {
+    "question": "Qual afirmação sobre este artefato na foto está correta?",
+    "correct": "É o Sino Divino do Rei Seongdeok, também chamado de Sino Emille",
+    "wrong": [
+      "Foi feito em Goguryeo",
+      "Foi feito em Baekje",
+      "Foi feito em Goryeo",
+      "Foi feito em Joseon"
+    ],
+    "hint": "Este é um sino de templo da Silla Unificada com uma lenda sobre uma criança colocada dentro.",
+    "explanation": "A foto mostra o Sino Divino do Rei Seongdeok (Sino Emille). Concluído durante o reinado do Rei Hyegong na Silla Unificada, o tamanho excepcional e o som do sino demonstram o nível do trabalho em metal da Silla Unificada."
+  },
+  "q_north_south_states_04_008": {
+    "question": "Qual é o significado histórico deste artefato na foto?",
+    "correct": "É a impressão xilográfica existente mais antiga do mundo",
+    "wrong": [
+      "É a impressão com tipos móveis de metal existente mais antiga do mundo",
+      "Foi impresso durante o período Goryeo",
+      "Foi impresso durante o período Joseon",
+      "Foi transmitido da China"
+    ],
+    "hint": "Este é um sutra descoberto no Pagode Seokgatap do Templo de Bulguksa, impresso antes de 751.",
+    "explanation": "A foto mostra o Sutra Dharani da Luz Pura (Mugujeonggwang daedaranigyeong). Descoberto no Pagode Seokgatap do Templo de Bulguksa, é a impressão xilográfica existente mais antiga do mundo, impressa antes de 751."
+  },
+  "q_north_south_states_05_001": {
+    "question": "Qual combinação do fundador e ano de fundação de Balhae está correta?",
+    "correct": "Dae Joyeong - 698",
+    "wrong": [
+      "Dae Muye - 698",
+      "Dae Joyeong - 676",
+      "Dae Insu - 926",
+      "Dae Heummu - 719"
+    ],
+    "hint": "Foi fundado 30 anos após a queda de Goguryeo (668) no Monte Dongmo.",
+    "explanation": "Balhae foi fundado por Dae Joyeong no Monte Dongmo em 698. Dae Joyeong liderou refugiados de Goguryeo e o povo Malgal para escapar do domínio de Tang e estabelecer Balhae."
+  },
+  "q_north_south_states_05_002": {
+    "question": "Qual afirmação sobre o país fundado por esta pessoa está correta?",
+    "correct": "Foi fundado conjuntamente por refugiados de Goguryeo e o povo Malgal",
+    "wrong": [
+      "Foi fundado por refugiados de Silla",
+      "Foi fundado por refugiados de Baekje",
+      "Foi fundado por pessoas de Tang",
+      "Foi fundado por japoneses"
+    ],
+    "hint": "Este país sucedeu Goguryeo e abriu o período dos Estados do Norte e do Sul.",
+    "explanation": "A foto mostra Dae Joyeong. Balhae foi um país fundado conjuntamente por refugiados de Goguryeo e o povo Malgal, sucedendo Goguryeo e abrindo o período dos Estados do Norte e do Sul."
+  },
+  "q_north_south_states_05_003": {
+    "question": "Qual foi a atividade externa do Rei Mu durante Balhae?",
+    "correct": "Jang Munhyu atacou a Península de Shandong de Tang",
+    "wrong": [
+      "Manteve relações amigáveis com Tang",
+      "Formou uma aliança com Silla",
+      "Destruiu os Khitan",
+      "Conquistou o Japão"
+    ],
+    "hint": "Pense no nome do general que atacou Dengzhou enquanto estava em conflito com Tang.",
+    "explanation": "Durante o reinado do Rei Mu em Balhae, enquanto estava em conflito com Tang, Jang Munhyu foi enviado para atacar Dengzhou na Península de Shandong de Tang. Posteriormente, durante o reinado do Rei Mun, relações amigáveis com Tang foram restauradas."
+  },
+  "q_north_south_states_05_004": {
+    "question": "Com base na seguinte fonte, quais foram as conquistas deste rei de Balhae?",
+    "source": "Ele manteve relações amigáveis com Tang, transferiu a capital para Sanggyeong e organizou o sistema de governo dos Três Departamentos e Seis Ministérios.",
+    "correct": "Rei Mun",
+    "wrong": [
+      "Rei Mu",
+      "Rei Seon",
+      "Dae Joyeong",
+      "Dae Insu"
+    ],
+    "hint": "Ao contrário da política linha-dura do Rei Mu em relação a Tang, este rei manteve relações amigáveis com Tang.",
+    "explanation": "A fonte descreve o Rei Mun de Balhae. O Rei Mun manteve relações amigáveis com Tang, transferiu a capital para Sanggyeong Yongcheonbu e organizou os Três Departamentos e Seis Ministérios."
+  },
+  "q_north_south_states_05_005": {
+    "question": "Que sistema administrativo local de Balhae este mapa mostra?",
+    "correct": "Cinco Capitais, Quinze Prefeituras e Sessenta e Dois Distritos (5gyeong 15bu 62ju)",
+    "wrong": [
+      "Nove Províncias e Cinco Capitais Secundárias",
+      "Cinco Províncias e Dois Distritos Fronteiriços",
+      "Oito Províncias",
+      "Vinte e Dois Damno"
+    ],
+    "hint": "Havia 5 capitais: Sanggyeong, Junggyeong, Donggyeong, Seogyeong e Namgyeong.",
+    "explanation": "O mapa mostra as Cinco Capitais de Balhae. Balhae organizou a governança local em Cinco Capitais, Quinze Prefeituras e Sessenta e Dois Distritos. As Cinco Capitais eram Sanggyeong, Junggyeong, Donggyeong, Seogyeong e Namgyeong."
+  },
+  "q_north_south_states_05_006": {
+    "question": "Durante o reinado de qual rei Balhae foi chamado de 'Haedong Seongguk' (Estado Florescente ao Leste do Mar)?",
+    "correct": "Rei Seon",
+    "wrong": [
+      "Rei Mu",
+      "Rei Mun",
+      "Dae Joyeong",
+      "Dae Insu"
+    ],
+    "hint": "Este foi o rei durante o período em que o território de Balhae se expandiu ao máximo.",
+    "explanation": "Durante o reinado do Rei Seon, o território de Balhae se expandiu ao máximo, e a China o chamou de 'Haedong Seongguk' (Estado Florescente ao Leste do Mar)."
+  },
+  "q_north_south_states_05_007": {
+    "question": "Qual foi o ano e a causa da queda de Balhae?",
+    "correct": "926 - Invasão Khitan",
+    "wrong": [
+      "918 - Ataque de Goryeo",
+      "935 - Invasão do Baekje Posterior",
+      "936 - Ataque de Silla",
+      "668 - Invasão de Tang"
+    ],
+    "hint": "Após a fundação de Goryeo (918), caiu devido à invasão de um povo nômade do norte.",
+    "explanation": "Balhae caiu em 926 devido à invasão Khitan. Depois disso, alguns refugiados de Balhae se renderam a Goryeo."
+  },
+  "q_north_south_states_05_008": {
+    "question": "Qual afirmação sobre o território de Balhae mostrado neste mapa está correta?",
+    "correct": "Alcançou o território máximo durante o reinado do Rei Seon e foi chamado de Haedong Seongguk",
+    "wrong": [
+      "Alcançou o território máximo durante o reinado do Rei Mu",
+      "Seu território era menor durante o reinado do Rei Mun",
+      "Este território foi mantido desde a fundação",
+      "Não controlou toda a Manchúria"
+    ],
+    "hint": "Conecte o período em que foi chamado de 'Haedong Seongguk' com o rei.",
+    "explanation": "O mapa mostra o território máximo de Balhae. Durante o reinado do Rei Seon, Balhae assegurou vasto território incluindo a Província Marítima e a Manchúria, ganhando o título de 'Haedong Seongguk'."
+  },
+  "q_north_south_states_06_001": {
+    "question": "Qual era a organização governamental central de Balhae?",
+    "correct": "Três Departamentos e Seis Ministérios (3seong 6bu)",
+    "wrong": [
+      "Dois Departamentos e Seis Ministérios",
+      "Uijeongbu e Seis Ministérios",
+      "Jipsabu e Quatorze Postos",
+      "Nove Seodang e Dez Jeong"
+    ],
+    "hint": "Consistia em três departamentos (Jeongdangseong, Seonjo, Jungdaeseong) e seis ministérios.",
+    "explanation": "Balhae adotou o sistema de Tang e estabeleceu uma organização governamental central de Três Departamentos (Jeongdangseong, Seonjo, Jungdaeseong) e Seis Ministérios."
+  },
+  "q_north_south_states_06_002": {
+    "question": "Que característica da cultura de Balhae esta foto demonstra?",
+    "correct": "Foi influenciada pelos murais de tumbas de Goguryeo",
+    "wrong": [
+      "Foi influenciada apenas por tumbas de Silla",
+      "Foi influenciada apenas por Tang",
+      "Foi influenciada apenas por Baekje",
+      "Foi influenciada apenas pelo Japão"
+    ],
+    "hint": "Este é um mural descoberto na Tumba da Princesa Jeonghyo, evidência da sucessão de Goguryeo.",
+    "explanation": "A foto mostra o mural da Tumba da Princesa Jeonghyo. Murais encontrados nas tumbas de Balhae foram influenciados pelos murais de tumbas de Goguryeo, mostrando que Balhae sucedeu Goguryeo."
+  },
+  "q_north_south_states_06_003": {
+    "question": "Que evidência da sucessão de Goguryeo por Balhae esta foto mostra?",
+    "correct": "Sistema ondol (aquecimento por baixo do piso)",
+    "wrong": [
+      "Sistema Jeonsigwa",
+      "Sistema de hierarquia óssea",
+      "Conselho Hwabaek",
+      "Vinte e Dois Damno"
+    ],
+    "hint": "Um sistema de aquecimento desenvolvido em Goguryeo também era usado em Balhae.",
+    "explanation": "A foto mostra vestígios de ondol de Balhae. Ondol era um sistema de aquecimento desenvolvido em Goguryeo, e seu uso em Balhae é citado como evidência da sucessão de Goguryeo."
+  },
+  "q_north_south_states_06_004": {
+    "question": "Com base na seguinte fonte, que característica de Balhae está descrita?",
+    "source": "O Confucionismo era ensinado nas instituições educacionais de Balhae, e o povo de Balhae prestou e passou no exame de serviço civil de Tang, o Bingongkwa.",
+    "correct": "Educação confucionista era fornecida e intercâmbio ativo com Tang ocorria",
+    "wrong": [
+      "O Confucionismo era rejeitado",
+      "Não havia intercâmbio com Tang",
+      "Apenas o Budismo se desenvolveu",
+      "Um escrita original era usada"
+    ],
+    "hint": "Eles estabeleceram Jujagam para ensinar Confucionismo e prestaram o exame Bingongkwa de Tang.",
+    "explanation": "Balhae estabeleceu Jujagam para ensinar Confucionismo e trocou ativamente com Tang, incluindo a prestação do exame Bingongkwa."
+  },
+  "q_north_south_states_06_005": {
+    "question": "Qual característica deste artefato cultural de Balhae na foto está correta?",
+    "correct": "Ele sucedeu o estilo de estátua de Buda de Goguryeo",
+    "wrong": [
+      "Seguiu apenas o estilo de estátua de Buda de Silla",
+      "Seguiu apenas o estilo de estátua de Buda de Tang",
+      "O Budismo não era desenvolvido",
+      "Foi feito durante o período Joseon"
+    ],
+    "hint": "Esta é uma estátua de Buda em um estilo com dois Budas sentados lado a lado.",
+    "explanation": "A foto mostra a estátua dos Dois Budas Sentados de Balhae. O estilo de dois Budas sentados lado a lado parece ter sucedido o estilo de estátua de Buda de Goguryeo."
+  },
+  "q_north_south_states_06_006": {
+    "question": "Qual era o nome da rota de transporte conectando Balhae e Silla?",
+    "correct": "Sillado (Rota de Silla)",
+    "wrong": [
+      "Jogongno",
+      "Yeongnamdaero",
+      "Hanyangdo",
+      "Uijuro"
+    ],
+    "hint": "O nome significa 'a estrada que leva a Silla' a partir de Balhae.",
+    "explanation": "Sillado era a rota de transporte conectando Balhae e Silla. Além desta, Balhae tinha várias rotas de transporte incluindo Jogongdo conectando a Tang e Ilbondo conectando ao Japão."
+  },
+  "q_north_south_states_06_007": {
+    "question": "Qual era uma característica da capital de Balhae, Sanggyeong Yongcheonbu?",
+    "correct": "Foi construída seguindo o modelo de Chang'an de Tang",
+    "wrong": [
+      "Foi construída seguindo o modelo de Gyeongju de Silla",
+      "Foi construída seguindo o modelo de Sabi de Baekje",
+      "Pyongyang de Goguryeo foi usada como estava",
+      "Foi construída seguindo o modelo de Quioto do Japão"
+    ],
+    "hint": "Esta cidade foi sistematicamente construída seguindo o modelo da capital de Tang.",
+    "explanation": "Sanggyeong Yongcheonbu de Balhae foi sistematicamente construída seguindo o modelo da capital de Tang, Chang'an. Isso mostra que Balhae adotou a cultura de Tang."
+  },
+  "q_north_south_states_06_008": {
+    "question": "Qual NÃO é evidência de que Balhae sucedeu Goguryeo?",
+    "correct": "Implementou o sistema de hierarquia óssea",
+    "wrong": [
+      "Usou ondol",
+      "Estrutura de tumba de câmara de pedra da Tumba da Princesa Jeonghyo",
+      "Estilo de estátua de Buda dos Dois Budas Sentados",
+      "Chamou a si mesmo de Rei de Goryeo (Goguryeo) em cartas diplomáticas ao Japão"
+    ],
+    "hint": "O sistema de hierarquia óssea era o sistema de status de Silla.",
+    "explanation": "O sistema de hierarquia óssea era o sistema de status de Silla. Balhae mostra evidências de suceder a cultura de Goguryeo através do uso de ondol, tumbas de câmara de pedra e estátuas dos Dois Budas Sentados."
+  }
+}

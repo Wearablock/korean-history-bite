@@ -1,0 +1,295 @@
+{
+  "q_gojoseon_01_001": {
+    "question": "Quem fundou Gojoseon, o primeiro estado do povo coreano?",
+    "correct": "Dangun Wanggeom",
+    "wrong": [
+      "Jumong",
+      "Onjo",
+      "Bak Hyeokgeose",
+      "Wiman"
+    ],
+    "hint": "Ele é uma figura do mito de Dangun, filho de Hwanung.",
+    "explanation": "Gojoseon foi fundado por Dangun Wanggeom em 2333 a.C. como o primeiro estado do povo coreano. Jumong fundou Goguryeo, Onjo fundou Baekje, Bak Hyeokgeose fundou Silla, e Wiman posteriormente tomou o controle de Gojoseon."
+  },
+  "q_gojoseon_01_002": {
+    "question": "Qual afirmação sobre a figura retratada nesta ilustração é correta?",
+    "correct": "O mito de fundação está registrado no Samguk Yusa",
+    "wrong": [
+      "Ele introduziu a cultura do ferro para fortalecer o poder nacional",
+      "Ele fugiu do estado Yan e tomou o trono",
+      "Ele foi destruído pela invasão do Imperador Wu de Han",
+      "Ele unificou os Samhan e se declarou imperador"
+    ],
+    "hint": "Em qual texto histórico o mito de Dangun está registrado?",
+    "explanation": "A ilustração retrata Dangun Wanggeom. Seu mito de fundação está registrado no Samguk Yusa de Iryeon, contendo a filosofia Hongik Ingan transmitida de Hwanin a Hwanung e a Dangun. A introdução da cultura do ferro e a fuga de Yan referem-se a Wiman."
+  },
+  "q_gojoseon_01_003": {
+    "question": "Qual afirmação sobre Wiman Joseon é correta?",
+    "correct": "Tornou-se poderoso ao adotar a cultura do ferro",
+    "wrong": [
+      "Foi fundado por Dangun Wanggeom",
+      "Usava apenas a cultura da Idade do Bronze",
+      "Seu mito de fundação está registrado no Samguk Yusa",
+      "Foi destruído por Goguryeo"
+    ],
+    "hint": "Wiman Joseon cresceu com base na cultura que veio após a 'Idade do Bronze'.",
+    "explanation": "Wiman Joseon foi estabelecido em 194 a.C. quando Wiman derrubou o Rei Jun. Adotou ativamente a cultura do ferro e se tornou poderoso através do comércio intermediário entre Han e Jin. Caiu em 108 a.C. devido à invasão do Imperador Wu de Han."
+  },
+  "q_gojoseon_01_004": {
+    "question": "Com base na seguinte fonte, qual afirmação sobre esta pessoa é correta?",
+    "source": "Um homem do estado Yan que fugiu e buscou refúgio com o Rei Jun, mas posteriormente derrubou o Rei Jun e se fez rei. Ele fortaleceu o poder nacional com base na cultura do ferro.",
+    "correct": "Ele obteve benefícios econômicos através do comércio intermediário",
+    "wrong": [
+      "Ele estabeleceu a capital em Asadal",
+      "Ele promulgou a Lei das Oito Proibições",
+      "Ele fundou Goguryeo",
+      "Ele unificou as confederações Samhan"
+    ],
+    "hint": "Qual papel Wiman desempenhou entre Han e Jin?",
+    "explanation": "A fonte descreve Wiman. Como rei de Gojoseon, Wiman conduziu comércio intermediário entre Han e Jin com base na cultura do ferro, obtendo benefícios econômicos e fortalecendo o poder nacional."
+  },
+  "q_gojoseon_01_005": {
+    "question": "O que pode ser determinado pela distribuição deste artefato?",
+    "correct": "A extensão territorial de Gojoseon pode ser estimada",
+    "wrong": [
+      "O território de Silla durante o período dos Três Reinos pode ser conhecido",
+      "As fronteiras durante o período Goryeo podem ser confirmadas",
+      "Os distritos administrativos da dinastia Joseon podem ser identificados",
+      "O território máximo de Balhae pode ser conhecido"
+    ],
+    "hint": "Pense em qual estado a adaga de bronze em forma de alaúde representa.",
+    "explanation": "A foto mostra uma adaga de bronze em forma de alaúde. As adagas de bronze em forma de alaúde estão distribuídas na região de Liaoning e no norte da Península Coreana, permitindo a estimativa da extensão territorial de Gojoseon."
+  },
+  "q_gojoseon_01_006": {
+    "question": "O que o Imperador Wu de Han estabeleceu após a queda de Gojoseon?",
+    "correct": "Quatro Comandâncias de Han",
+    "wrong": [
+      "Nove Províncias e Cinco Capitais Secundárias",
+      "Vinte e Dois Damno",
+      "Cinco Províncias e Dois Distritos de Fronteira",
+      "Oito Províncias"
+    ],
+    "hint": "Quais são as quatro comandâncias (gun) estabelecidas pela China Han?",
+    "explanation": "Em 108 a.C., o Imperador Wu de Han destruiu Gojoseon e estabeleceu as Quatro Comandâncias de Han: Lelang, Zhenfan, Lintun e Xuantu. Nove Províncias e Cinco Capitais Secundárias pertenciam à Silla Unificada, Vinte e Dois Damno a Baekje, Cinco Províncias e Dois Distritos de Fronteira a Goryeo, e Oito Províncias a Joseon."
+  },
+  "q_gojoseon_01_007": {
+    "question": "Qual afirmação descreve corretamente a sociedade durante a era em que este artefato foi construído?",
+    "correct": "Governantes surgiram e uma sociedade de classes foi formada",
+    "wrong": [
+      "Uma sociedade comunal igualitária era mantida",
+      "Um estado centralizado foi estabelecido",
+      "Ferramentas agrícolas de ferro eram amplamente distribuídas",
+      "O budismo foi adotado e a autoridade real foi fortalecida"
+    ],
+    "hint": "Construir dolmens exigia 'alguém' que pudesse mobilizar muitas pessoas.",
+    "explanation": "A foto mostra um dolmen (tipo mesa). Dolmens eram tumbas de governantes da Idade do Bronze, mostrando que uma sociedade de classes havia se formado durante este período. Gojoseon também foi fundado com base nesta cultura da Idade do Bronze."
+  },
+  "q_gojoseon_01_008": {
+    "question": "Qual característica de Gojoseon pode ser compreendida a partir deste artefato?",
+    "correct": "A tecnologia de fabricação de bronze era bem desenvolvida",
+    "wrong": [
+      "Apenas a cultura do ferro era utilizada",
+      "A agricultura não era praticada",
+      "A escrita não era utilizada",
+      "Um sistema estatal não foi estabelecido"
+    ],
+    "hint": "De que material são feitas as adagas de bronze em forma de alaúde e os espelhos de padrão grosso?",
+    "explanation": "A foto mostra artefatos de bronze escavados em Hwasun. Artefatos de bronze como adagas de bronze em forma de alaúde e espelhos de padrão grosso demonstram que Gojoseon tinha uma cultura avançada da Idade do Bronze."
+  },
+  "q_gojoseon_02_001": {
+    "question": "O que pode ser entendido sobre a sociedade de Gojoseon a partir da Lei das Oito Proibições?",
+    "correct": "A vida era valorizada e a propriedade privada era reconhecida",
+    "wrong": [
+      "Era uma sociedade igualitária sem classes",
+      "Uma economia monetária era desenvolvida",
+      "O budismo foi designado como religião do estado",
+      "Um sistema de exames de serviço civil foi implementado"
+    ],
+    "hint": "Pense no que as disposições de punição para assassinato, lesão e roubo visavam proteger.",
+    "explanation": "A Lei das Oito Proibições continha disposições como pena de morte para assassinos, compensação em grãos para quem causasse lesões e escravização para ladrões. Isso mostra que Gojoseon era uma sociedade que respeitava a vida, protegia a propriedade privada e valorizava o trabalho."
+  },
+  "q_gojoseon_02_002": {
+    "question": "Quantas disposições da Lei das Oito Proibições de Gojoseon foram transmitidas até o presente?",
+    "correct": "3",
+    "wrong": [
+      "8",
+      "5",
+      "1",
+      "Nenhuma foi transmitida"
+    ],
+    "hint": "Assassinato, lesão, roubo... quantas disposições são essas?",
+    "explanation": "Da Lei das Oito Proibições de Gojoseon, apenas 3 disposições foram transmitidas até o presente: pena de morte para assassinos, compensação em grãos para quem causasse lesões e escravização para ladrões."
+  },
+  "q_gojoseon_02_003": {
+    "question": "Com base na seguinte fonte, qual característica da sociedade de Gojoseon é correta?",
+    "source": "Aqueles que roubarem serão feitos escravos. Aqueles que desejarem ser perdoados devem pagar 500.000 moedas.",
+    "correct": "Era uma sociedade de classes onde a escravidão existia",
+    "wrong": [
+      "Todas as pessoas eram iguais",
+      "A moeda não era utilizada de forma alguma",
+      "Leis não existiam",
+      "Não havia sistema de punição"
+    ],
+    "hint": "Qual estrutura social você pode inferir da expressão 'feitos escravos'?",
+    "explanation": "A fonte é parte da Lei das Oito Proibições de Gojoseon. A disposição de que ladrões seriam feitos escravos mostra que era uma sociedade de classes com um sistema de escravidão. A multa de resgate de 500.000 moedas também sugere o uso de moeda."
+  },
+  "q_gojoseon_02_004": {
+    "question": "Qual organiza corretamente as etapas do desenvolvimento de Gojoseon em ordem?",
+    "correct": "Dangun Joseon → Wiman Joseon → Estabelecimento das Quatro Comandâncias de Han",
+    "wrong": [
+      "Wiman Joseon → Dangun Joseon → Estabelecimento das Quatro Comandâncias de Han",
+      "Dangun Joseon → Samhan → Wiman Joseon",
+      "Wiman Joseon → Quatro Comandâncias de Han → Dangun Joseon",
+      "Quatro Comandâncias de Han → Dangun Joseon → Wiman Joseon"
+    ],
+    "hint": "Pense na ordem: Dangun Wanggeom fundou → Wiman usurpou o trono → Imperador Wu de Han invadiu.",
+    "explanation": "Gojoseon começou com Dangun Joseon fundado por Dangun Wanggeom, continuou como Wiman Joseon quando Wiman tomou o poder, e após cair pela invasão do Imperador Wu de Han em 108 a.C., as Quatro Comandâncias de Han foram estabelecidas."
+  },
+  "q_gojoseon_02_005": {
+    "question": "Qual afirmação sobre a região marcada neste mapa é correta?",
+    "correct": "Adagas de bronze em forma de alaúde foram escavadas, sugerindo que era território de Gojoseon",
+    "wrong": [
+      "Apenas adagas de bronze delgadas foram escavadas, indicando um sítio da Idade do Ferro",
+      "Cerâmica com padrão de pente foi escavada, indicando um sítio neolítico",
+      "Fornos de cerâmica do período Goryeo estão localizados aqui",
+      "Academias confucianas da dinastia Joseon estavam localizadas aqui"
+    ],
+    "hint": "Lembre-se da área de distribuição da adaga de bronze em forma de alaúde, artefato representativo de Gojoseon.",
+    "explanation": "O mapa mostra o território de Gojoseon. Adagas de bronze em forma de alaúde e dolmens tipo mesa escavados na região de Liaoning e no norte da Península Coreana permitem a estimativa da extensão territorial de Gojoseon."
+  },
+  "q_gojoseon_02_006": {
+    "question": "Quais artefatos simbolizavam a autoridade dos governantes de Gojoseon?",
+    "correct": "Adagas de bronze em forma de alaúde e espelhos de padrão grosso",
+    "wrong": [
+      "Cerâmica com padrão de pente e fusaiolas",
+      "Machados de mão e choppers",
+      "Coroas de ouro e brincos de ouro",
+      "Decorações de corvo de três patas e coroas de bronze dourado"
+    ],
+    "hint": "Gojoseon foi fundado com base na cultura da Idade do Bronze. Quais são os artefatos representativos da Idade do Bronze?",
+    "explanation": "Adagas de bronze em forma de alaúde e espelhos de padrão grosso eram artefatos que simbolizavam a autoridade dos governantes de Gojoseon durante a Idade do Bronze. Cerâmica com padrão de pente é neolítica, machados de mão são paleolíticos, e coroas de ouro são artefatos do período dos Três Reinos."
+  },
+  "q_gojoseon_02_007": {
+    "question": "De acordo com o Samguk Yusa, em que ano Gojoseon foi fundado?",
+    "correct": "2333 a.C.",
+    "wrong": [
+      "57 a.C.",
+      "37 a.C.",
+      "18 a.C.",
+      "108 a.C."
+    ],
+    "hint": "Este é o ano associado ao Gaecheonjeol (Dia da Fundação Nacional, 3 de outubro).",
+    "explanation": "O Samguk Yusa registra que Gojoseon foi fundado por Dangun Wanggeom em 2333 a.C. 57 a.C. é o ano de fundação de Silla, 37 a.C. é o de Goguryeo, e 18 a.C. é o ano de fundação de Baekje."
+  },
+  "q_gojoseon_02_008": {
+    "question": "Com base na seguinte fonte, qual atividade econômica de Gojoseon é correta?",
+    "source": "Wiman conduziu comércio intermediário entre Han e Jin, obtendo lucros substanciais.",
+    "correct": "O comércio com estados vizinhos era ativo",
+    "wrong": [
+      "A agricultura não era praticada de forma alguma",
+      "Apenas comércio marítimo era conduzido",
+      "A moeda não era utilizada",
+      "O comércio exterior era proibido"
+    ],
+    "hint": "'Comércio intermediário' significa obter lucro passando mercadorias entre dois países.",
+    "explanation": "A fonte descreve o comércio intermediário de Wiman Joseon. Wiman Joseon obteve benefícios econômicos através do comércio intermediário entre Han e Jin, mostrando que Gojoseon conduzia comércio ativo com estados vizinhos."
+  },
+  "q_gojoseon_03_001": {
+    "question": "Como era chamado o festival de adoração ao céu de Buyeo?",
+    "correct": "Yeonggo",
+    "wrong": [
+      "Dongmaeng",
+      "Mucheon",
+      "Jecheon",
+      "Palgwanhoe"
+    ],
+    "hint": "Buyeo realizava um festival de adoração ao céu em dezembro. Significa 'dar as boas-vindas'.",
+    "explanation": "Buyeo realizava um festival de adoração ao céu chamado Yeonggo em dezembro. Dongmaeng era o festival de Goguryeo (outubro), e Mucheon era o festival de Dongye (outubro). Palgwanhoe era uma cerimônia de estado de Goryeo."
+  },
+  "q_gojoseon_03_002": {
+    "question": "Como era chamado o costume matrimonial de Goguryeo?",
+    "correct": "Seookje (Sistema da casa do genro)",
+    "wrong": [
+      "Minmyeoneuri-je (Sistema da noiva criança)",
+      "Goljang-je (Sistema de sepultamento de ossos)",
+      "Chaekhwa",
+      "Sunjang (Sepultamento dos vivos)"
+    ],
+    "hint": "Este é um costume onde o noivo vive em uma pequena casa (seook) na casa da noiva.",
+    "explanation": "Goguryeo tinha um costume matrimonial chamado Seookje (sistema da casa do genro). O noivo vivia em uma pequena casa (seook) na casa da noiva, e após os filhos crescerem, ele levava sua esposa de volta para sua própria casa. Minmyeoneuri-je era o costume de Okjeo."
+  },
+  "q_gojoseon_03_003": {
+    "question": "Qual afirmação sobre o estado onde esta cerâmica foi escavada é correta?",
+    "correct": "Era uma federação de cinco tribos governada por um rei",
+    "wrong": [
+      "Produzia ferro e o exportava para Lelang e Wa (Japão)",
+      "Tinha governantes chamados Sinji e Eupcha",
+      "Pagava tributo a Goguryeo",
+      "Tinha áreas sagradas chamadas Sodo"
+    ],
+    "hint": "Buyeo era uma federação composta por Maga, Uga, Jeoga, Guga e um rei.",
+    "explanation": "A foto mostra cerâmica de Buyeo. Buyeo era uma federação de cinco tribos governada por um rei, com costumes incluindo o festival Yeonggo, sepultamento dos vivos (sunjang) e a Lei de Um Livro e Doze Artigos."
+  },
+  "q_gojoseon_03_004": {
+    "question": "Com base na seguinte fonte, qual estado está sendo descrito?",
+    "source": "Cada família tem um armazém chamado bugyeong. Se homens e mulheres cometem adultério ou uma esposa é ciumenta, todos são mortos. O ciúme é particularmente odiado, e após matar, o corpo é jogado em uma montanha ao sul do país para apodrecer.",
+    "correct": "Buyeo",
+    "wrong": [
+      "Goguryeo",
+      "Okjeo",
+      "Dongye",
+      "Samhan"
+    ],
+    "hint": "Este estado tinha armazéns chamados 'bugyeong' e lei criminal rigorosa (Lei de Um Livro e Doze Artigos).",
+    "explanation": "A fonte descreve Buyeo. Buyeo tinha armazéns chamados bugyeong, e sua lei criminal era rigorosa, punindo severamente adultério e ciúme. Tinha leis rigorosas chamadas Lei de Um Livro e Doze Artigos."
+  },
+  "q_gojoseon_03_005": {
+    "question": "Como era chamado o costume funerário de Okjeo?",
+    "correct": "Goljang-je (Sistema de sepultamento de ossos)",
+    "wrong": [
+      "Sunjang (Sepultamento dos vivos)",
+      "Hwajang (Cremação)",
+      "Pungjang (Sepultamento por exposição)",
+      "Sujang (Sepultamento aquático)"
+    ],
+    "hint": "Este costume envolve coletar apenas os ossos e colocá-los em um caixão comunal familiar de madeira.",
+    "explanation": "Okjeo tinha um costume funerário chamado Goljang-je. Os corpos eram temporariamente enterrados, depois os ossos eram coletados e colocados em um grande caixão comunal familiar de madeira. Sunjang era o costume de Buyeo."
+  },
+  "q_gojoseon_03_006": {
+    "question": "Qual afirmação descreve corretamente o costume de Dongye chamado 'Chaekhwa'?",
+    "correct": "Aqueles que violassem os limites de outra tribo eram obrigados a pagar compensação",
+    "wrong": [
+      "Criminosos eram protegidos em áreas sagradas",
+      "Um festival de adoração ao céu era realizado em outubro",
+      "O casamento só era permitido dentro da mesma tribo",
+      "Pessoas vivas eram enterradas com os mortos"
+    ],
+    "hint": "Chaekhwa (責禍) significa 'responsabilizar pela calamidade'.",
+    "explanation": "Chaekhwa era o costume de Dongye onde aqueles que invadissem o território de outra tribo eram obrigados a compensar com escravos, gado ou cavalos. Isso mostra que Dongye distinguia rigorosamente os limites entre tribos."
+  },
+  "q_gojoseon_03_007": {
+    "question": "Como era chamada a área sagrada governada pelo Cheongun (governante celestial) em Samhan?",
+    "correct": "Sodo",
+    "wrong": [
+      "Seook",
+      "Bugyeong",
+      "Chaekhwa",
+      "Yeonggo"
+    ],
+    "hint": "Este era um 'lugar sagrado' onde criminosos que fugissem para lá não podiam ser capturados.",
+    "explanation": "Samhan tinha áreas sagradas chamadas Sodo. Sodo era governado pelo Cheongun, e criminosos que fugissem para lá não podiam ser capturados. Isso demonstra que era uma sociedade com separação entre religião e política."
+  },
+  "q_gojoseon_03_008": {
+    "question": "Com base na seguinte fonte, qual afirmação sobre este estado é correta?",
+    "source": "Antes de uma menina completar dez anos de idade, o casamento é arranjado. A família do noivo acolhe a menina e a cria até a idade adulta para torná-la esposa. Quando a menina se torna adulta, ela é enviada de volta à casa dos pais, e a casa dos pais exige e recebe pagamento antes de enviá-la à família do noivo.",
+    "correct": "Estava em uma relação subordinada pagando tributo a Goguryeo",
+    "wrong": [
+      "Era uma federação de cinco tribos governada por um rei",
+      "Produzia e exportava ferro",
+      "Realizava um festival de adoração ao céu chamado Dongmaeng em outubro",
+      "Conduzia comércio intermediário entre Han e Jin"
+    ],
+    "hint": "Qual estado tinha o costume de 'Minmyeoneuri-je' onde uma jovem noiva era criada antecipadamente?",
+    "explanation": "A fonte descreve o Minmyeoneuri-je (sistema da noiva criança) de Okjeo. Okjeo estava em posição subordinada pagando tributo a Goguryeo e tinha costumes únicos como Minmyeoneuri-je e Goljang-je."
+  }
+}

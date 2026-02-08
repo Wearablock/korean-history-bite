@@ -1,0 +1,1453 @@
+{
+  "q_joseon_early_01_001": {
+    "question": "Qual combinação entre o fundador de Joseon e o ano de fundação está correta?",
+    "correct": "Yi Seong-gye - 1392",
+    "wrong": [
+      "Yi Seong-gye - 1388",
+      "Yi Bang-won - 1392",
+      "Jeong Do-jeon - 1392",
+      "Yi Seong-gye - 1398"
+    ],
+    "hint": "A nova dinastia foi estabelecida 4 anos após a Retirada de Wihwado (1388).",
+    "explanation": "Joseon foi fundada por Yi Seong-gye em 1392. 1388 foi o ano da Retirada de Wihwado."
+  },
+  "q_joseon_early_01_002": {
+    "question": "Quais foram as realizações desta pessoa?",
+    "correct": "Promoveu a transferência da capital para Hanyang e a construção do Palácio Gyeongbokgung",
+    "wrong": [
+      "Implementou o Sistema de Apelação Direta dos Seis Ministérios",
+      "Criou o Hunminjeongeum",
+      "Concluiu o Gyeongguk Daejeon",
+      "Aboliu o Jiphyeonjeon"
+    ],
+    "hint": "Como o primeiro rei de Joseon, ele estabeleceu uma nova capital e construiu um palácio real.",
+    "explanation": "A foto mostra o Rei Taejo Yi Seong-gye. O Rei Taejo transferiu a capital para Hanyang em 1394 e construiu o Palácio Gyeongbokgung, estabelecendo as bases de Joseon."
+  },
+  "q_joseon_early_01_003": {
+    "question": "Qual afirmação sobre a organização política central de Joseon está correta?",
+    "correct": "Era o sistema do Uijeongbu e dos Seis Ministérios",
+    "wrong": [
+      "Era o sistema do Jungseomunhaseong e Sangsoseong",
+      "Era centrado no Jipsabu",
+      "O Conselho Hwabaek era central",
+      "O Gyojeong Dogam era a instituição mais alta"
+    ],
+    "hint": "Consistia no órgão supremo de deliberação política e seis departamentos administrativos: Pessoal, Tributação, Ritos, Militar, Justiça e Obras.",
+    "explanation": "Joseon possuía um sistema de governo composto pelo Uijeongbu (órgão supremo de deliberação política) e os Seis Ministérios (Pessoal, Tributação, Ritos, Militar, Justiça e Obras)."
+  },
+  "q_joseon_early_01_004": {
+    "question": "Quais foram as realizações desta pessoa?",
+    "correct": "Implementou o Sistema de Apelação Direta dos Seis Ministérios e aboliu os exércitos particulares",
+    "wrong": [
+      "Transferiu a capital para Hanyang",
+      "Criou o Hunminjeongeum",
+      "Promulgou o Gyeongguk Daejeon",
+      "Estabeleceu o Jiphyeonjeon"
+    ],
+    "hint": "Este terceiro rei fortaleceu a autoridade real fazendo com que os Seis Ministérios se reportassem diretamente ao rei e eliminando os exércitos particulares dos funcionários.",
+    "explanation": "A foto mostra o Rei Taejong. O Rei Taejong implementou o Sistema de Apelação Direta dos Seis Ministérios (ministérios se reportam diretamente ao rei), aboliu os exércitos particulares e implementou a lei da placa de identificação (Hopaebeop) para fortalecer a autoridade real."
+  },
+  "q_joseon_early_01_005": {
+    "question": "Qual NÃO é um dos três órgãos de censura de Joseon (Samsa)?",
+    "correct": "Seungjeongwon",
+    "wrong": [
+      "Saheonbu",
+      "Saganwon",
+      "Hongmungwan"
+    ],
+    "hint": "O Samsa era composto por três órgãos responsáveis pela fiscalização de funcionários, aconselhamento ao rei e funções acadêmicas/consultivas.",
+    "explanation": "O Samsa era composto por Saheonbu (fiscalização de funcionários), Saganwon (aconselhamento ao rei) e Hongmungwan (funções acadêmicas e consultivas). O Seungjeongwon era a secretaria real."
+  },
+  "q_joseon_early_01_006": {
+    "question": "Qual afirmação sobre o sistema administrativo local de Joseon está correta?",
+    "correct": "O país foi dividido em oito províncias com governadores (Gwanchalsa) designados",
+    "wrong": [
+      "O sistema das Cinco Províncias e Dois Distritos Fronteiriços foi mantido",
+      "Membros da família real foram enviados para os Vinte e Dois Damno",
+      "O sistema das Nove Províncias e Cinco Capitais Secundárias era utilizado",
+      "Funcionários locais eram designados apenas para os 12 Mok"
+    ],
+    "hint": "Semelhante ao sistema provincial atual, como Gyeonggi-do, Chungcheong-do, Jeolla-do, etc.",
+    "explanation": "Joseon dividiu o país em oito províncias e designou governadores (Gwanchalsa/Gamsa). Abaixo deles, magistrados eram colocados em bu, mok, gun e hyeon para governar as localidades."
+  },
+  "q_joseon_early_01_007": {
+    "question": "Qual evento Yi Seong-gye realizou durante o processo de fundação de Joseon?",
+    "correct": "Retirada de Wihwado",
+    "wrong": [
+      "Golpe dos Oficiais Militares",
+      "Resistência Sambyeolcho",
+      "Rebelião de Hong Gyeong-rae",
+      "Golpe Gapsin"
+    ],
+    "hint": "Foi o evento em que o exército retornou de uma ilha no Rio Yalu durante uma expedição para conquistar Liaodong.",
+    "explanation": "Yi Seong-gye realizou a Retirada de Wihwado em 1388, removeu Choe Yeong, tomou o poder e fundou Joseon em 1392."
+  },
+  "q_joseon_early_01_008": {
+    "question": "Com base na seguinte fonte, qual sistema fundiário de Joseon está sendo descrito?",
+    "source": "Terras na região de Gyeonggi eram concedidas a funcionários apenas com direitos de coleta de impostos e deviam ser devolvidas ao deixar o cargo.",
+    "correct": "Gwajeonbeop (Lei de Terras por Classificação)",
+    "wrong": [
+      "Jeonsigwa",
+      "Nokup",
+      "Sigeup",
+      "Gongeumeun"
+    ],
+    "hint": "Este sistema reformou o Jeonsigwa de Goryeo e tornou-se a base econômica dos funcionários neoconfucionistas.",
+    "explanation": "O Gwajeonbeop concedia direitos de coleta de impostos apenas para terras na região de Gyeonggi e exigia sua devolução ao deixar o cargo, tornando-se a base econômica dos funcionários neoconfucionistas."
+  },
+  "q_joseon_early_01_009": {
+    "question": "Qual era a ideologia governante de Joseon?",
+    "correct": "Neoconfucionismo",
+    "wrong": [
+      "Budismo",
+      "Taoismo",
+      "Legalismo",
+      "Moísmo"
+    ],
+    "hint": "É a escola do Confucionismo sistematizada por Zhu Xi, que trata das teorias de Li-Qi e da natureza humana.",
+    "explanation": "Joseon adotou o Neoconfucionismo como sua ideologia governante, buscando estabelecer uma ordem confucionista. O Budismo foi consequentemente suprimido."
+  },
+  "q_joseon_early_01_010": {
+    "question": "Qual era o propósito da lei da placa de identificação (Hopaebeop) implementada durante o reinado do Rei Taejong?",
+    "correct": "Registro da população e imposição de impostos e deveres trabalhistas",
+    "wrong": [
+      "Emancipação dos escravos",
+      "Distribuição de terras",
+      "Implementação de exames civis",
+      "Estabelecimento de Seowon"
+    ],
+    "hint": "Este sistema exigia que homens acima de 16 anos portassem placas indicando seu status.",
+    "explanation": "O Hopaebeop exigia que homens acima de 16 anos portassem placas de identificação indicando seu status, permitindo o registro da população e a imposição de impostos e deveres trabalhistas."
+  },
+  "q_joseon_early_02_001": {
+    "question": "Qual era o nome da instituição de pesquisa acadêmica estabelecida pelo Rei Sejong?",
+    "correct": "Jiphyeonjeon (Salão dos Sábios)",
+    "wrong": [
+      "Hongmungwan",
+      "Gyujanggak",
+      "Seungjeongwon",
+      "Seonggyungwan"
+    ],
+    "hint": "Significando 'reunião de sábios', foi onde trabalharam os estudiosos que contribuíram para a criação do Hunminjeongeum.",
+    "explanation": "O Rei Sejong estabeleceu o Jiphyeonjeon para formar estudiosos e apoiar pesquisas acadêmicas, incluindo a criação do Hunminjeongeum."
+  },
+  "q_joseon_early_02_002": {
+    "question": "Quais foram as realizações desta pessoa?",
+    "correct": "Criou o Hunminjeongeum e desenvolveu os Quatro Condados e Seis Guarnições",
+    "wrong": [
+      "Concluiu o Gyeongguk Daejeon",
+      "Implementou o Sistema de Apelação Direta dos Seis Ministérios",
+      "Aboliu o Jiphyeonjeon",
+      "Realizou a Retirada de Wihwado"
+    ],
+    "hint": "O quarto rei de Joseon, chamado de 'o Grande Rei', que avançou grandemente a ciência e a cultura.",
+    "explanation": "A foto mostra o Rei Sejong. O Rei Sejong criou o Hunminjeongeum e desenvolveu os Quatro Condados e Seis Guarnições, assegurando a fronteira ao longo dos rios Yalu e Tumen."
+  },
+  "q_joseon_early_02_003": {
+    "question": "Qual afirmação sobre este patrimônio cultural está correta?",
+    "correct": "É o alfabeto coreano criado durante o reinado do Rei Sejong, que significa 'sons corretos para instruir o povo'",
+    "wrong": [
+      "É um código legal compilado durante o reinado do Rei Seongjong",
+      "É uma escritura budista feita durante o reinado do Rei Sejo",
+      "É uma biblioteca estabelecida durante o reinado do Rei Jeongjo",
+      "É um texto médico compilado durante o reinado do Rei Gwanghaegun"
+    ],
+    "hint": "O sistema de escrita próprio da Coreia, criado em 1443 e promulgado em 1446.",
+    "explanation": "A foto mostra o Hunminjeongeum. Criado pelo Rei Sejong em 1443 e promulgado em 1446, significa 'sons corretos para instruir o povo'."
+  },
+  "q_joseon_early_02_004": {
+    "question": "Quais foram as políticas do Rei Sejo?",
+    "correct": "Abolição do Jiphyeonjeon, implementação do Sistema de Apelação Direta dos Seis Ministérios",
+    "wrong": [
+      "Estabelecimento do Jiphyeonjeon, implementação do Sistema Deliberativo do Uijeongbu",
+      "Conclusão do Gyeongguk Daejeon, estabelecimento do Hongmungwan",
+      "Estabelecimento do Gyujanggak, implementação da Política Tangpyeong",
+      "Desenvolvimento dos Quatro Condados e Seis Guarnições, criação do Hunminjeongeum"
+    ],
+    "hint": "Ele usurpou o trono de seu sobrinho e implementou políticas para fortalecer a autoridade real.",
+    "explanation": "O Rei Sejo aboliu o Jiphyeonjeon e implementou o Sistema de Apelação Direta dos Seis Ministérios para fortalecer a autoridade real. Ele também iniciou a compilação do Gyeongguk Daejeon."
+  },
+  "q_joseon_early_02_005": {
+    "question": "Quais foram as realizações do Rei Seongjong?",
+    "correct": "Conclusão do Gyeongguk Daejeon, estabelecimento do Hongmungwan",
+    "wrong": [
+      "Criação do Hunminjeongeum, estabelecimento do Jiphyeonjeon",
+      "Implementação do Sistema de Apelação Direta dos Seis Ministérios, Hopaebeop",
+      "Estabelecimento do Gyujanggak, construção da Fortaleza Hwaseong de Suwon",
+      "Ereção do Tangpyeongbi, implementação do Gyunyeokbeop"
+    ],
+    "hint": "O nono rei que concluiu o código legal fundamental de Joseon e estabeleceu as bases da política confucionista.",
+    "explanation": "O Rei Seongjong concluiu e promulgou o Gyeongguk Daejeon, estabeleceu o Hongmungwan e empregou estudiosos Sarim, estabelecendo as bases da política confucionista."
+  },
+  "q_joseon_early_02_006": {
+    "question": "Qual afirmação sobre o Sistema Deliberativo do Uijeongbu implementado durante o reinado do Rei Sejong está correta?",
+    "correct": "Um sistema onde o Uijeongbu delibera sobre as políticas antes de reportar ao rei",
+    "wrong": [
+      "Um sistema onde os Seis Ministérios se reportam diretamente ao rei",
+      "Um sistema onde o Samsa decide as políticas",
+      "Um sistema onde o Seungjeongwon supervisiona os assuntos de Estado",
+      "Um sistema onde o Bibyeonsa trata de assuntos militares"
+    ],
+    "hint": "Um método de governança colaborativa onde o Uijeongbu primeiro delibera (Seosa) antes de apresentar ao rei.",
+    "explanation": "O Sistema Deliberativo do Uijeongbu era um sistema onde o Uijeongbu deliberava sobre os assuntos de Estado antes de reportar ao rei, enfatizando a governança colaborativa com os funcionários."
+  },
+  "q_joseon_early_02_007": {
+    "question": "Qual rei concluiu o Gyeongguk Daejeon, o código legal fundamental de Joseon?",
+    "correct": "Rei Seongjong",
+    "wrong": [
+      "Rei Sejong",
+      "Rei Sejo",
+      "Rei Taejong",
+      "Rei Taejo"
+    ],
+    "hint": "A compilação começou durante o reinado do Rei Sejo e foi concluída e promulgada em 1485.",
+    "explanation": "O Gyeongguk Daejeon teve sua compilação iniciada durante o reinado do Rei Sejo e foi concluído e promulgado durante o reinado do Rei Seongjong (1485). Era o código legal fundamental de Joseon."
+  },
+  "q_joseon_early_02_008": {
+    "question": "Com base na seguinte fonte, qual realização do Rei Sejong está sendo descrita?",
+    "source": "Bases militares foram estabelecidas na região fronteiriça para expulsar os Jurchen e estabelecer os rios Yalu e Tumen como fronteiras.",
+    "correct": "Desenvolvimento dos Quatro Condados e Seis Guarnições",
+    "wrong": [
+      "Aquisição dos Seis Assentamentos de Guarnição",
+      "Construção das Nove Fortalezas",
+      "Construção da Muralha de Mil Li",
+      "Expedição Naseon"
+    ],
+    "hint": "Choe Yun-deok desenvolveu o noroeste (Quatro Condados) e Kim Jong-seo desenvolveu o nordeste (Seis Guarnições).",
+    "explanation": "O Rei Sejong enviou Choe Yun-deok e Kim Jong-seo para desenvolver os Quatro Condados e Seis Guarnições, estabelecendo a fronteira ao longo dos rios Yalu e Tumen."
+  },
+  "q_joseon_early_02_009": {
+    "question": "Qual evento levou o Rei Sejo a ascender ao trono?",
+    "correct": "Golpe Gyeyu (Gyeyu Jeongnan)",
+    "wrong": [
+      "Golpe dos Oficiais Militares",
+      "Retirada de Wihwado",
+      "Gapja Sahwa",
+      "Eulsa Sahwa"
+    ],
+    "hint": "O incidente de 1453 em que o Príncipe Suyang eliminou Kim Jong-seo e Hwangbo In.",
+    "explanation": "O Rei Sejo (Príncipe Suyang) tomou o poder através do Golpe Gyeyu em 1453, eliminando Kim Jong-seo e Hwangbo In, e então ascendeu ao trono."
+  },
+  "q_joseon_early_02_010": {
+    "question": "Qual sistema tributário foi implementado durante o reinado do Rei Sejong?",
+    "correct": "Yeongbun 9-deungbeop e Jeonbun 6-deungbeop",
+    "wrong": [
+      "Daedongbeop",
+      "Gyunyeokbeop",
+      "Yeongjeongbeop",
+      "Hopoje"
+    ],
+    "hint": "Um sistema que divide em 9 graus com base nas condições de colheita e 6 graus com base na fertilidade do solo.",
+    "explanation": "Durante o reinado do Rei Sejong, foram implementados o Jeonbun 6-deungbeop (classificação em 6 graus pela fertilidade do solo) e o Yeongbun 9-deungbeop (taxa de imposto em 9 graus pelas condições de colheita)."
+  },
+  "q_joseon_early_03_001": {
+    "question": "Quais eram as características dos Sarim em Joseon?",
+    "correct": "Baseados em áreas rurais, operavam academias Seowon e pactos comunitários (Hyangyak)",
+    "wrong": [
+      "Como súditos meritórios do Rei Sejo, dominaram a política central",
+      "Entraram no governo apenas por meio do Eumseo",
+      "Adotaram o Budismo como ideologia governante",
+      "Tomaram o poder por meio de força militar"
+    ],
+    "hint": "Estudiosos da linhagem de Kim Jong-jik que enfatizavam o aprendizado moral e construíram sua base de poder nas províncias.",
+    "explanation": "Os Sarim eram estudiosos da linhagem de Kim Jong-jik, baseados em áreas rurais, que operavam academias Seowon e Hyangyak enquanto enfatizavam o aprendizado moral neoconfucionista."
+  },
+  "q_joseon_early_03_002": {
+    "question": "Qual afirmação sobre a facção Hungu está correta?",
+    "correct": "Era uma facção que dominou a política central como súditos meritórios durante o reinado do Rei Sejo",
+    "wrong": [
+      "Era um grupo acadêmico composto por discípulos de Kim Jong-jik",
+      "Atuavam em áreas rurais centrados nos Seowon",
+      "Tomaram o poder por meio do Golpe dos Oficiais Militares",
+      "Originaram-se dos funcionários neoconfucionistas do final de Goryeo"
+    ],
+    "hint": "Aqueles que se tornaram súditos meritórios ao participar do Golpe Gyeyu e da deposição do Rei Danjong.",
+    "explanation": "Os Hungu eram uma facção empregada como súditos meritórios durante o reinado do Rei Sejo que dominou a política central. Eles entraram em conflito com os Sarim, empregados durante o reinado do Rei Seongjong."
+  },
+  "q_joseon_early_03_003": {
+    "question": "Qual evento está relacionado a esta ilustração?",
+    "correct": "Foram executados por conspirar para restaurar o Rei Danjong em oposição à usurpação do Rei Sejo",
+    "wrong": [
+      "Opuseram-se à defesa de Myocheong pela transferência da capital para Seogyeong",
+      "Suprimiram a Rebelião de Yi Ja-gyeom",
+      "Participaram da Retirada de Wihwado",
+      "Levantaram exércitos justiceiros durante a Guerra Imjin"
+    ],
+    "hint": "Seis ministros leais, incluindo Seong Sam-mun e Bak Paeng-nyeon, que mantiveram sua integridade até a morte.",
+    "explanation": "A ilustração mostra os Seis Ministros Mártires (Sayuksin). Eram seis funcionários, incluindo Seong Sam-mun e Bak Paeng-nyeon, executados por conspirar para restaurar o Rei Danjong em oposição à usurpação do Rei Sejo."
+  },
+  "q_joseon_early_03_004": {
+    "question": "Qual foi a causa da Muo Sahwa (Purga dos Literatos de 1498)?",
+    "correct": "Foi desencadeada pelo Joui Jemun de Kim Jong-jik",
+    "wrong": [
+      "Foi desencadeada pela implementação do Hyeollyangwa por Jo Gwang-jo",
+      "Foi causada por disputas de poder entre parentes maternos",
+      "Foi desencadeada pela Controvérsia Yesong",
+      "Foi causada pela questão da nomeação do Ijo Jeollang"
+    ],
+    "hint": "Começou quando um escrito criticando a usurpação do Rei Sejo foi incluído nos registros históricos.",
+    "explanation": "A Muo Sahwa (1498) ocorreu durante o reinado do Rei Yeonsangun, desencadeada por Kim Il-son incluir o Joui Jemun de Kim Jong-jik (criticando o Rei Sejo) nos registros históricos."
+  },
+  "q_joseon_early_03_005": {
+    "question": "Quais foram as políticas de reforma desta pessoa?",
+    "correct": "Implementação do Hyeollyangwa, abolição do Sogyeokseo, remoção de títulos de súditos meritórios",
+    "wrong": [
+      "Conclusão do Gyeongguk Daejeon, estabelecimento do Hongmungwan",
+      "Implementação da Política Tangpyeong, Gyunyeokbeop",
+      "Estabelecimento do Jiphyeonjeon, criação do Hunminjeongeum",
+      "Implementação do Gwajeonbeop, transferência para Hanyang"
+    ],
+    "hint": "Um reformador radical ativo durante o reinado do Rei Jungjong que tentou realizar a 'política ideal' (Jichijuui).",
+    "explanation": "A foto mostra Jo Gwang-jo. Jo Gwang-jo promoveu reformas incluindo o Hyeollyangwa (sistema de recomendação de talentos), a abolição do Sogyeokseo (escritório de rituais taoistas) e a remoção de títulos de súditos meritórios (limitando o poder dos Hungu)."
+  },
+  "q_joseon_early_03_006": {
+    "question": "Qual afirmação sobre a Gimyo Sahwa está correta?",
+    "correct": "Foi um evento em 1519 no qual os Sarim, incluindo Jo Gwang-jo, sofreram purgas",
+    "wrong": [
+      "Foi um evento em 1498 no qual os discípulos de Kim Jong-jik sofreram purgas",
+      "Foi um evento em 1504 causado por questões relacionadas à mãe do Rei Yeonsangun",
+      "Foi um evento em 1545 causado por disputas de poder entre parentes maternos",
+      "Foi um evento em 1567 que desencadeou a formação de facções"
+    ],
+    "hint": "O incidente em que o Rei Jungjong ordenou que Jo Gwang-jo tomasse veneno devido à oposição dos Hungu.",
+    "explanation": "A Gimyo Sahwa (1519) foi um evento em que a facção Hungu, opondo-se às reformas radicais dos Sarim incluindo Jo Gwang-jo, levou o Rei Jungjong a purgar os Sarim."
+  },
+  "q_joseon_early_03_007": {
+    "question": "Com base na seguinte fonte, qual Sahwa está sendo descrita?",
+    "source": "Os envolvidos na deposição e morte da Rainha Deposta Yun, mãe do Rei Yeonsangun, foram punidos.",
+    "correct": "Gapja Sahwa",
+    "wrong": [
+      "Muo Sahwa",
+      "Gimyo Sahwa",
+      "Eulsa Sahwa",
+      "Gyeongsin Hwanguk"
+    ],
+    "hint": "O incidente de 1504 em que o Rei Yeonsangun se vingou dos envolvidos na morte de sua mãe.",
+    "explanation": "A Gapja Sahwa (1504) foi um evento em que o Rei Yeonsangun puniu os envolvidos na deposição e morte de sua mãe, a Rainha Deposta Yun."
+  },
+  "q_joseon_early_03_008": {
+    "question": "Qual era a ordem correta das Quatro Purgas dos Literatos em Joseon?",
+    "correct": "Muo → Gapja → Gimyo → Eulsa",
+    "wrong": [
+      "Gapja → Muo → Eulsa → Gimyo",
+      "Gimyo → Muo → Gapja → Eulsa",
+      "Eulsa → Gimyo → Gapja → Muo",
+      "Muo → Gimyo → Gapja → Eulsa"
+    ],
+    "hint": "A ordem é 1498 → 1504 → 1519 → 1545.",
+    "explanation": "As Quatro Purgas dos Literatos ocorreram na seguinte ordem: Muo (1498) → Gapja (1504) → Gimyo (1519) → Eulsa (1545)."
+  },
+  "q_joseon_early_03_009": {
+    "question": "Qual foi a causa da Eulsa Sahwa?",
+    "correct": "Disputa de poder entre parentes maternos",
+    "wrong": [
+      "Joui Jemun de Kim Jong-jik",
+      "Reformas radicais de Jo Gwang-jo",
+      "Questões relacionadas à mãe do Rei Yeonsangun",
+      "Questão da nomeação do Ijo Jeollang"
+    ],
+    "hint": "O conflito entre Daeyun (Yun Im) e Soyun (Yun Won-hyeong) após a ascensão do Rei Myeongjong causou esta purga.",
+    "explanation": "A Eulsa Sahwa (1545) ocorreu devido a disputas de poder entre os parentes maternos Daeyun (Yun Im) e Soyun (Yun Won-hyeong) após a ascensão do Rei Myeongjong."
+  },
+  "q_joseon_early_03_010": {
+    "question": "Qual foi o contexto que permitiu o crescimento dos Sarim apesar das Sahwa?",
+    "correct": "Mantiveram sua base de poder por meio dos Seowon e Hyangyak em áreas rurais",
+    "wrong": [
+      "Formaram laços matrimoniais com a família real",
+      "Tomaram o poder por meio de força militar",
+      "Construíram poder econômico por meio do comércio exterior",
+      "Aliaram-se a forças budistas"
+    ],
+    "hint": "Mesmo quando expulsos da capital, possuíam instituições educacionais e organizações de autogoverno em suas regiões de origem.",
+    "explanation": "Mesmo sofrendo purgas na capital, os Sarim mantiveram e expandiram constantemente seu poder por meio dos Seowon e Hyangyak em áreas rurais."
+  },
+  "q_joseon_early_04_001": {
+    "question": "Durante o reinado de qual rei a política de facções (Bungdang) começou em Joseon?",
+    "correct": "Rei Seonjo",
+    "wrong": [
+      "Rei Jungjong",
+      "Rei Myeongjong",
+      "Rei Seongjong",
+      "Rei Yeonsangun"
+    ],
+    "hint": "O rei durante cujo reinado os Sarim se dividiram em Dongin e Seoin.",
+    "explanation": "Durante o reinado do Rei Seonjo, quando os Sarim chegaram ao poder, eles se dividiram em Dongin (Orientais) e Seoin (Ocidentais), dando início à política de facções."
+  },
+  "q_joseon_early_04_002": {
+    "question": "O que causou a divisão entre Dongin e Seoin?",
+    "correct": "A questão da nomeação do Ijo Jeollang",
+    "wrong": [
+      "Controvérsia dos Ritos (Yesong)",
+      "Política de Hwanguk",
+      "Questão da nomeação do príncipe herdeiro",
+      "Efeitos das Purgas Literárias"
+    ],
+    "hint": "O conflito entre Kim Hyo-won e Sim Ui-gyeom por um cargo que detinha autoridade sobre nomeações de pessoal.",
+    "explanation": "Os Dongin (Kim Hyo-won) e Seoin (Sim Ui-gyeom) se dividiram por causa da questão da nomeação do Ijo Jeollang (autoridade sobre nomeações de pessoal)."
+  },
+  "q_joseon_early_04_003": {
+    "question": "Quais eram as características acadêmicas desta pessoa?",
+    "correct": "Defendeu o dualismo de Li e Qi, enfatizando o Li (princípio)",
+    "wrong": [
+      "Defendeu o monismo de Li e Qi, enfatizando o Qi (força material)",
+      "Aceitou os Estudos de Yangming, enfatizando a unidade entre conhecimento e ação",
+      "Sistematizou o Silhak e escreveu o Mongmin Simseo",
+      "Defendeu a Escola do Norte, enfatizando a adoção da cultura Qing"
+    ],
+    "hint": "O fundador da Escola de Yeongnam que estabeleceu a Academia Dosan Seowon.",
+    "explanation": "A foto mostra Yi Hwang (Toegye). Yi Hwang defendeu o dualismo de Li e Qi, enfatizando a natureza ativa do Li (princípio), e fundou a Academia Dosan Seowon."
+  },
+  "q_joseon_early_04_004": {
+    "question": "Quais eram as características acadêmicas desta pessoa?",
+    "correct": "Defendeu o monismo de Li e Qi, enfatizando o papel do Qi (força material)",
+    "wrong": [
+      "Defendeu o dualismo de Li e Qi, enfatizando o Li (princípio)",
+      "Aceitou os Estudos de Yangming, enfatizando a unidade entre conhecimento e ação",
+      "Sistematizou o Silhak e escreveu o Gyeongse Yupyo",
+      "Fundou o Donghak defendendo o Innaecheon (o ser humano é o céu)"
+    ],
+    "hint": "O representante da Escola Giho que defendeu a 'Teoria dos 100 Mil Soldados'.",
+    "explanation": "A foto mostra Yi I (Yulgok). Yi I defendeu o monismo de Li e Qi, explicando que o Qi se manifesta e o Li o acompanha."
+  },
+  "q_joseon_early_04_005": {
+    "question": "O que provocou a divisão dos Dongin em Namin (Sulistas) e Bukin (Nortistas)?",
+    "correct": "O tratamento do caso de conspiração de Jeong Yeo-rip",
+    "wrong": [
+      "A questão da nomeação do Ijo Jeollang",
+      "Controvérsia dos Ritos (Yesong)",
+      "Questão da nomeação do príncipe herdeiro",
+      "Questão da responsabilidade pela Guerra Imjin"
+    ],
+    "hint": "O conflito sobre como lidar com o caso de traição também conhecido como Gichuk Oksa.",
+    "explanation": "Os Dongin se dividiram em Namin (Sulistas), moderados, e Bukin (Nortistas), linha-dura, por causa do tratamento do caso de conspiração de Jeong Yeo-rip (Gichuk Oksa)."
+  },
+  "q_joseon_early_04_006": {
+    "question": "Qual era a linhagem acadêmica dos Seoin?",
+    "correct": "Linhagem de Yi I e Seong Hon",
+    "wrong": [
+      "Linhagem de Yi Hwang",
+      "Linhagem de Jo Sik",
+      "Linhagem de Seo Gyeong-deok",
+      "Linhagem de Jeong Yak-yong"
+    ],
+    "hint": "Estudiosos baseados na região de Giho.",
+    "explanation": "Os Seoin eram estudiosos da linhagem de Yi I e Seong Hon, baseados na região de Giho. Os Dongin eram centrados na linhagem de Yi Hwang."
+  },
+  "q_joseon_early_04_007": {
+    "question": "Com base na seguinte fonte, qual característica da política de facções está sendo descrita?",
+    "source": "Cada facção se formou com base em laços acadêmicos e regionais, e enquanto criticavam e fiscalizavam as facções opostas, enfatizavam a opinião pública.",
+    "correct": "Equilíbrio de poder por meio de críticas e fiscalização mútuas",
+    "wrong": [
+      "Política monopolista por meio do governo de um único partido",
+      "Mudança de regime por meio de força militar",
+      "Enfraquecimento da autoridade real e fortalecimento da autoridade ministerial",
+      "Monopólio do poder por parentes maternos"
+    ],
+    "hint": "Uma característica positiva da política de facções inicial que refletia a opinião pública na governança.",
+    "explanation": "A política de facções inicial buscava manter o equilíbrio de poder e realizar uma política baseada na opinião pública por meio de críticas e fiscalização mútuas."
+  },
+  "q_joseon_early_04_008": {
+    "question": "Qual Seowon (academia) Yi Hwang estabeleceu?",
+    "correct": "Dosan Seowon",
+    "wrong": [
+      "Sosu Seowon",
+      "Byeongsan Seowon",
+      "Oksan Seowon",
+      "Dodong Seowon"
+    ],
+    "hint": "Localizada em Andong, esta academia também aparece na nota de 1.000 won.",
+    "explanation": "Yi Hwang fundou a Dosan Seowon em Andong para educar futuros estudiosos. A Sosu Seowon foi a primeira Seowon, estabelecida por Ju Se-bung."
+  },
+  "q_joseon_early_04_009": {
+    "question": "Qual era a base regional dos Dongin?",
+    "correct": "Região de Yeongnam",
+    "wrong": [
+      "Região de Giho",
+      "Região de Honam",
+      "Região de Gwanbuk",
+      "Região de Gwanseo"
+    ],
+    "hint": "A área da Província de Gyeongsang, tendo Yi Hwang como fundador acadêmico.",
+    "explanation": "Os Dongin eram da linhagem de Yi Hwang, baseados na região de Yeongnam, enquanto os Seoin eram da linhagem de Yi I e Seong Hon, baseados na região de Giho."
+  },
+  "q_joseon_early_04_010": {
+    "question": "Qual era o significado de 'opinião pública' (Gongron) na política de facções?",
+    "correct": "Opiniões políticas que refletiam as visões dos estudiosos Sarim",
+    "wrong": [
+      "Ordens do rei",
+      "Reivindicações dos parentes maternos",
+      "Decisões dos oficiais militares",
+      "Opiniões dos monges"
+    ],
+    "hint": "Refere-se às opiniões dos estudantes da Seonggyungwan ou dos funcionários do Samsa.",
+    "explanation": "Gongron era a opinião política que refletia as visões dos estudiosos Sarim, e na política de facções, as políticas eram decididas com base na opinião pública."
+  },
+  "q_joseon_early_05_001": {
+    "question": "Em que ano a Guerra Imjin eclodiu?",
+    "correct": "1592",
+    "wrong": [
+      "1588",
+      "1597",
+      "1598",
+      "1600"
+    ],
+    "hint": "A guerra recebeu o nome do ano Imjin no ciclo sexagenário.",
+    "explanation": "A Guerra Imjin começou em 1592 com a invasão japonesa de Joseon. A Guerra Jeongyu eclodiu em 1597."
+  },
+  "q_joseon_early_05_002": {
+    "question": "Quais foram as realizações desta pessoa?",
+    "correct": "Derrotou a marinha japonesa nas Batalhas da Ilha de Hansan e de Myeongnyang",
+    "wrong": [
+      "Repeliu o exército japonês na Fortaleza de Haengju",
+      "Levantou exércitos voluntários com Gwak Jae-u",
+      "Liderou reforços Ming na batalha",
+      "Ergueu o Monumento Bukgwan Daecheop"
+    ],
+    "hint": "O almirante que disse: 'Aquele que busca a morte viverá; aquele que busca a vida morrerá.'",
+    "explanation": "A foto mostra Yi Sun-sin. Yi Sun-sin derrotou a marinha japonesa nas Batalhas da Ilha de Hansan (1592) e de Myeongnyang (1597), protegendo o domínio marítimo de Joseon."
+  },
+  "q_joseon_early_05_003": {
+    "question": "Qual afirmação sobre este patrimônio cultural está correta?",
+    "correct": "Era um navio de guerra de Joseon usado por Yi Sun-sin, um navio blindado de assalto com espigões de ferro",
+    "wrong": [
+      "É um pluviômetro feito durante o reinado do Rei Sejong",
+      "São tipos móveis de metal feitos durante o período Goryeo",
+      "É um guindaste inventado no final de Joseon",
+      "É a Fortaleza Suwon Hwaseong construída durante o reinado do Rei Jeongjo"
+    ],
+    "hint": "Um navio em forma de tartaruga, projetado para impedir que inimigos embarcassem.",
+    "explanation": "A foto mostra o Navio Tartaruga (Geobukseon). Era um navio de assalto usado por Yi Sun-sin, com teto coberto de ferro e estrutura para impedir o embarque inimigo."
+  },
+  "q_joseon_early_05_004": {
+    "question": "Quem foram os líderes dos exércitos voluntários ativos durante a Guerra Imjin?",
+    "correct": "Gwak Jae-u, Jo Heon, Go Gyeong-myeong",
+    "wrong": [
+      "Seo Hui, Gang Gam-chan, Yun Gwan",
+      "Kim Yu-sin, Gyebaek, Eulji Mundeok",
+      "Choe Yeong, Yi Seong-gye, Jeong Mong-ju",
+      "Hong Gyeong-rae, Jeon Bong-jun, Kim Ok-gyun"
+    ],
+    "hint": "Líderes conhecidos como o General de Manto Vermelho (Hongui Janggun), Batalha de Geumsan e Exército Voluntário de Gwangju.",
+    "explanation": "Durante a Guerra Imjin, líderes de exércitos voluntários como Gwak Jae-u (General de Manto Vermelho), Jo Heon e Go Gyeong-myeong lutaram contra o exército japonês em diversas regiões."
+  },
+  "q_joseon_early_05_005": {
+    "question": "Quem liderou os soldados monásticos durante a Guerra Imjin?",
+    "correct": "Seosan Daesa, Samyeong Daesa",
+    "wrong": [
+      "Wonhyo, Uisang",
+      "Jinul, Hyesim",
+      "Uicheon, Gyunyeo",
+      "Muhak, Jacho"
+    ],
+    "hint": "Dois monges que levantaram monges guerreiros para salvar o país.",
+    "explanation": "Seosan Daesa (Hyujeong) e Samyeong Daesa (Yujeong) lideraram soldados monásticos e lutaram contra o exército japonês durante a Guerra Imjin."
+  },
+  "q_joseon_early_05_006": {
+    "question": "Qual tática Yi Sun-sin usou na Batalha da Ilha de Hansan?",
+    "correct": "Formação Asa de Grou (Hakikjin)",
+    "wrong": [
+      "Luta de costas para o rio",
+      "Ataque com fogo",
+      "Ataque noturno",
+      "Emboscada"
+    ],
+    "hint": "Uma formação em formato de grou abrindo as asas para cercar o inimigo.",
+    "explanation": "Yi Sun-sin usou a Formação Asa de Grou (em formato de grou abrindo as asas) na Batalha da Ilha de Hansan em 1592 para cercar e aniquilar a marinha japonesa."
+  },
+  "q_joseon_early_05_007": {
+    "question": "Com base na seguinte fonte, qual batalha está sendo descrita?",
+    "source": "Ainda tenho 12 navios restantes. Se lutarmos com todas as nossas forças, podemos vencer.",
+    "correct": "Batalha de Myeongnyang",
+    "wrong": [
+      "Batalha da Ilha de Hansan",
+      "Batalha de Noryang",
+      "Batalha de Jinju",
+      "Batalha de Haengju"
+    ],
+    "hint": "A batalha em que 133 navios foram derrotados com apenas 13 navios no estreito de Uldolmok.",
+    "explanation": "Yi Sun-sin derrotou 133 navios da marinha japonesa com apenas 13 navios na Batalha de Myeongnyang em 1597. '12 navios' é o registro do Nanjung Ilgi (Diário de Guerra)."
+  },
+  "q_joseon_early_05_008": {
+    "question": "Quem foi o líder japonês que iniciou a Guerra Imjin?",
+    "correct": "Toyotomi Hideyoshi",
+    "wrong": [
+      "Tokugawa Ieyasu",
+      "Oda Nobunaga",
+      "Ashikaga Yoshimitsu",
+      "Minamoto no Yoritomo"
+    ],
+    "hint": "Após unificar o Japão, ele invadiu Joseon alegando que conquistaria a China Ming.",
+    "explanation": "Toyotomi Hideyoshi, após unificar o Japão, nutriu ambições de conquista continental e invadiu Joseon em 1592."
+  },
+  "q_joseon_early_05_009": {
+    "question": "Quais foram os resultados da Guerra Imjin?",
+    "correct": "Devastação das terras, diminuição da população, saque de bens culturais",
+    "wrong": [
+      "Transferência para a Ilha de Ganghwa",
+      "Início da Resistência Sambyeolcho",
+      "Desenvolvimento dos Quatro Condados e Seis Guarnições",
+      "Fundação de Joseon"
+    ],
+    "hint": "A guerra de sete anos causou grandes danos à sociedade de Joseon.",
+    "explanation": "A Guerra Imjin causou devastação das terras, diminuição da população e saque de bens culturais, infligindo grandes danos à sociedade de Joseon."
+  },
+  "q_joseon_early_05_010": {
+    "question": "Em que ano a Guerra Jeongyu eclodiu?",
+    "correct": "1597",
+    "wrong": [
+      "1592",
+      "1593",
+      "1598",
+      "1600"
+    ],
+    "hint": "A segunda invasão japonesa no ano Jeongyu, que foi a segunda fase da Guerra Imjin.",
+    "explanation": "A Guerra Jeongyu foi a segunda invasão japonesa de Joseon em 1597, que terminou com a morte de Toyotomi Hideyoshi em 1598."
+  },
+  "q_joseon_early_06_001": {
+    "question": "Em que ano a Invasão Jeongmyo (Invasão dos Jin Posteriores) eclodiu?",
+    "correct": "1627",
+    "wrong": [
+      "1592",
+      "1636",
+      "1644",
+      "1650"
+    ],
+    "hint": "Uma guerra no ano Jeongmyo quando os Jin Posteriores invadiram, resultando em uma 'relação fraterna'.",
+    "explanation": "A Invasão Jeongmyo ocorreu em 1627 com a invasão dos Jin Posteriores (predecessor dos Qing). Joseon formou uma 'relação fraterna' com os Jin Posteriores."
+  },
+  "q_joseon_early_06_002": {
+    "question": "Em que ano a Invasão Byeongja (Invasão Qing) eclodiu?",
+    "correct": "1636",
+    "wrong": [
+      "1627",
+      "1592",
+      "1644",
+      "1650"
+    ],
+    "hint": "Uma guerra no ano Byeongja quando os Qing invadiram, levando à humilhação em Samjeondo.",
+    "explanation": "A Invasão Byeongja ocorreu em 1636 com a invasão Qing. O Rei Injo resistiu na Fortaleza Namhansanseong, mas se rendeu em Samjeondo."
+  },
+  "q_joseon_early_06_003": {
+    "question": "O que aconteceu no local mostrado nesta foto?",
+    "correct": "Durante a Invasão Byeongja, o Rei Injo resistiu ao exército Qing por 45 dias",
+    "wrong": [
+      "Durante a Guerra Imjin, Gwon Yul repeliu o exército japonês",
+      "Sambyeolcho conduziu a resistência anti-mongol",
+      "Goryeo lutou contra a invasão dos Khitan",
+      "O Exército Camponês Donghak se levantou"
+    ],
+    "hint": "Uma fortaleza de montanha em Gwangju, Província de Gyeonggi, onde a resistência ocorreu durante o frio do inverno.",
+    "explanation": "A foto mostra a Fortaleza Namhansanseong. Durante a Invasão Byeongja, o Rei Injo resistiu ao exército Qing por 45 dias antes de se render em Samjeondo."
+  },
+  "q_joseon_early_06_004": {
+    "question": "Qual foi o contexto para a ereção do monumento mostrado nesta foto?",
+    "correct": "Registrou a rendição aos Qing após a Invasão Byeongja",
+    "wrong": [
+      "Comemorou a vitória na Guerra Imjin",
+      "Registrou o sucesso da Expedição ao Norte",
+      "Comemorou o desenvolvimento dos Quatro Condados e Seis Guarnições",
+      "Registrou o Tratado de Ganghwa"
+    ],
+    "hint": "Um registro de humilhação onde o Rei Injo se curvou três vezes e tocou a testa no chão nove vezes diante do Imperador Taizong dos Qing.",
+    "explanation": "A foto mostra o Monumento de Samjeondo. Ele contém o registro humilhante da rendição do Rei Injo ao Imperador Taizong dos Qing após a Invasão Byeongja."
+  },
+  "q_joseon_early_06_005": {
+    "question": "Quais foram os resultados da Invasão Byeongja?",
+    "correct": "Formou uma relação de soberano-vassalo com os Qing, e o Príncipe Herdeiro Sohyeon e o Príncipe Bongnim foram levados como reféns",
+    "wrong": [
+      "Formou uma relação fraterna com os Jin Posteriores",
+      "Transferiu a capital para a Ilha de Ganghwa",
+      "Sambyeolcho iniciou a resistência",
+      "Realizou a Expedição ao Norte para conquistar os Qing"
+    ],
+    "hint": "Rebaixados de relação fraterna para relação de soberano-vassalo, com príncipes levados como reféns para Shenyang.",
+    "explanation": "Após a Invasão Byeongja, Joseon formou uma relação de soberano-vassalo com os Qing, e o Príncipe Herdeiro Sohyeon e o Príncipe Bongnim (futuro Rei Hyojong) foram levados como reféns para Shenyang."
+  },
+  "q_joseon_early_06_006": {
+    "question": "Quem defendeu a teoria da Expedição ao Norte?",
+    "correct": "Rei Hyojong, Song Si-yeol",
+    "wrong": [
+      "Rei Gwanghaegun, Jeong In-hong",
+      "Rei Injo, Kim Ryu",
+      "Rei Seonjo, Yu Seong-ryong",
+      "Rei Sejong, Hwang Hui"
+    ],
+    "hint": "Um rei e seu ministro que defendiam a conquista dos Qing para vingar a humilhação da Invasão Byeongja.",
+    "explanation": "O Rei Hyojong e Song Si-yeol defenderam a teoria da Expedição ao Norte para vingar a humilhação da Invasão Byeongja, mas ela nunca se concretizou."
+  },
+  "q_joseon_early_06_007": {
+    "question": "Com base na seguinte fonte, qual evento está sendo descrito?",
+    "source": "A facção Seoin depôs o Rei Gwanghaegun, alegando que ele traiu a retidão com Ming ao formar uma relação fraterna com os bárbaros (Jurchen).",
+    "correct": "Restauração Injo (Injo Banjeong)",
+    "wrong": [
+      "Golpe Gyeyu",
+      "Purga Literária de Muo",
+      "Golpe Gapsin",
+      "Movimento Camponês Donghak"
+    ],
+    "hint": "O evento de 1623 em que os Seoin derrubaram o Rei Gwanghaegun e entronizaram o Príncipe Neungyang (Injo).",
+    "explanation": "A Restauração Injo (1623) foi um evento em que a facção Seoin depôs o Rei Gwanghaegun, usando sua diplomacia neutra (relação fraterna com os Jin Posteriores) como justificativa."
+  },
+  "q_joseon_early_06_008": {
+    "question": "Quais funcionários defenderam a facção da guerra (Cheokwaron) durante a Invasão Byeongja?",
+    "correct": "Kim Sang-heon, Jeong On",
+    "wrong": [
+      "Choe Myeong-gil",
+      "Yi Gyeong-seok",
+      "Hong Ik-han",
+      "Choe Myeong-gil, Yi Gyeong-seok"
+    ],
+    "hint": "Funcionários que rasgaram o documento de paz, insistindo em lutar até o fim.",
+    "explanation": "Kim Sang-heon e Jeong On defenderam lutar contra os Qing até o fim (Cheokwaron) durante a Invasão Byeongja. Choe Myeong-gil defendeu a facção da paz (Juhwaron)."
+  },
+  "q_joseon_early_06_009": {
+    "question": "Quem defendeu a facção da paz (Juhwaron) durante a Invasão Byeongja?",
+    "correct": "Choe Myeong-gil",
+    "wrong": [
+      "Kim Sang-heon",
+      "Jeong On",
+      "Hong Ik-han",
+      "Yun Jip"
+    ],
+    "hint": "A pessoa que redigiu o documento de rendição, argumentando de forma realista que a paz era necessária.",
+    "explanation": "Choe Myeong-gil defendeu fazer as pazes com os Qing com base em um julgamento realista (Juhwaron), entrando em conflito com a facção da guerra de Kim Sang-heon."
+  },
+  "q_joseon_early_06_010": {
+    "question": "Por que a teoria da Expedição ao Norte não se concretizou?",
+    "correct": "Morte súbita do Rei Hyojong e força nacional insuficiente",
+    "wrong": [
+      "Queda dos Qing",
+      "Revivificação dos Ming",
+      "Invasão japonesa",
+      "Revolta camponesa"
+    ],
+    "hint": "O rei morreu subitamente enquanto preparava a expedição, e o poder nacional era insuficiente.",
+    "explanation": "A teoria da Expedição ao Norte não se concretizou devido à morte súbita do Rei Hyojong (1659) e à força nacional insuficiente."
+  },
+  "q_joseon_early_07_001": {
+    "question": "Qual afirmação sobre o Gwajeonbeop, o sistema fundiário do início de Joseon, está correta?",
+    "correct": "Direitos de arrecadação de impostos eram concedidos apenas para terras na região de Gyeonggi",
+    "wrong": [
+      "Estipêndios eram pagos por terras em todo o país",
+      "Terras e trabalho eram concedidos juntos",
+      "Apenas funcionários do 5º escalão ou acima recebiam concessões",
+      "As terras podiam ser herdadas permanentemente"
+    ],
+    "hint": "A base econômica dos eruditos neoconfucionistas, limitada a terras próximas à capital.",
+    "explanation": "O Gwajeonbeop concedia direitos de arrecadação de impostos apenas para terras na região de Gyeonggi, com devolução obrigatória ao deixar o cargo."
+  },
+  "q_joseon_early_07_002": {
+    "question": "Qual sistema fundiário foi implementado durante o reinado do Rei Sejo?",
+    "correct": "Jikjeonbeop",
+    "wrong": [
+      "Gwajeonbeop",
+      "Jeonsigwa",
+      "Nokup",
+      "Daedongbeop"
+    ],
+    "hint": "Significando terras (jeon) apenas para funcionários em exercício (jik).",
+    "explanation": "O Jikjeonbeop foi um sistema implementado durante o reinado do Rei Sejo que concedia direitos de arrecadação de impostos apenas a funcionários em exercício, corrigindo os problemas do Gwajeonbeop."
+  },
+  "q_joseon_early_07_003": {
+    "question": "Qual afirmação sobre este patrimônio cultural está correta?",
+    "correct": "É um manual agrícola compilado durante o reinado do Rei Sejong, organizando métodos de cultivo adequados ao clima local",
+    "wrong": [
+      "É um texto médico compilado durante o reinado do Rei Jeongjo",
+      "É um texto histórico compilado durante o reinado do Rei Sejo",
+      "É um código legal compilado durante o reinado do Rei Seongjong",
+      "É um livro de geografia compilado durante o reinado do Rei Gwanghaegun"
+    ],
+    "hint": "Um livro agrícola cujo significado é 'explicações diretas dos métodos de cultivo' (Nongsa Jikseol).",
+    "explanation": "A foto mostra o Nongsa Jikseol. É um manual agrícola compilado por Jeong Cho e Byeon Hyo-mun durante o reinado do Rei Sejong, organizando métodos de cultivo adequados ao clima local."
+  },
+  "q_joseon_early_07_004": {
+    "question": "Qual era o método de arrecadação de impostos no início de Joseon?",
+    "correct": "Imposto (imposto sobre terras), Tributo (produtos locais), Corveia (trabalho)",
+    "wrong": [
+      "Imposto Daedong, Gyeoljak, Poryang",
+      "Três Administrações (Terra, Militar, Empréstimo de Grãos)",
+      "Pagamento em Sangpyeong Tongbo",
+      "Pagamento apenas em arroz"
+    ],
+    "hint": "Impostos sobre terras, produtos locais das regiões e trabalho do povo.",
+    "explanation": "No início de Joseon, eram arrecadados Impostos (imposto sobre terras), Tributos (produtos locais) e Corveia (serviço militar, serviço de trabalho)."
+  },
+  "q_joseon_early_07_005": {
+    "question": "Qual afirmação sobre o Gwansu Gwangeupje implementado durante o reinado do Rei Seongjong está correta?",
+    "correct": "O Estado arrecadava impostos e pagava os funcionários como salário",
+    "wrong": [
+      "Os funcionários arrecadavam impostos diretamente dos agricultores",
+      "As terras eram tornadas hereditárias para funcionários do 5º escalão ou acima",
+      "Direitos de arrecadação de impostos eram concedidos apenas aos funcionários em exercício",
+      "Apenas terras na região de Gyeonggi eram abrangidas"
+    ],
+    "hint": "Significando que o governo arrecada impostos (Gwansu) e o governo fornece o pagamento (Gwangeup).",
+    "explanation": "O Gwansu Gwangeupje era um sistema em que o Estado arrecadava diretamente os impostos e pagava os funcionários como salário, prevenindo abusos nos direitos de arrecadação."
+  },
+  "q_joseon_early_07_006": {
+    "question": "Qual afirmação sobre esta moeda na foto está correta?",
+    "correct": "Foi cunhada no início de Joseon, mas sua circulação não era ativa",
+    "wrong": [
+      "Circulou por todo o país durante o período Goryeo",
+      "Circulou amplamente por todo o país durante o reinado do Rei Sukjong",
+      "Era uma moeda usada durante o período colonial japonês",
+      "Era uma moeda introduzida do Ocidente após a abertura dos portos"
+    ],
+    "hint": "Uma moeda cujo significado é 'moeda usada em Joseon' (Joseon Tongbo).",
+    "explanation": "A foto mostra o Joseon Tongbo. Foi cunhado no início de Joseon, mas sua circulação não era ativa devido à economia autossuficiente."
+  },
+  "q_joseon_early_07_007": {
+    "question": "Com base na seguinte fonte, qual fenômeno econômico está sendo descrito?",
+    "source": "Lojas alinhavam-se em Jongno, em Seul, mas na maioria apenas comerciantes licenciados podiam vender mercadorias.",
+    "correct": "Comércio de Sijeon (mercado licenciado)",
+    "wrong": [
+      "Atividades de Sasang",
+      "Comércio portuário",
+      "Mercados de cinco dias",
+      "Atividades de Bobusang"
+    ],
+    "hint": "Lojas licenciadas pelo governo que tinham direitos de monopólio para vender produtos específicos.",
+    "explanation": "No início de Joseon, o comércio de Sijeon era centrado em Jongno, onde apenas comerciantes licenciados podiam operar."
+  },
+  "q_joseon_early_07_008": {
+    "question": "Quais eram as características do artesanato no início de Joseon?",
+    "correct": "Artesanato estatal em que artesãos vinculados a órgãos governamentais produziam mercadorias",
+    "wrong": [
+      "O artesanato privado se desenvolveu",
+      "O sistema de produção por encomenda tornou-se comum",
+      "Um sistema de produção em massa foi estabelecido",
+      "A produção era voltada principalmente para exportação"
+    ],
+    "hint": "Gyeonggongjang (em Seul) e Oegongjang (nas províncias) fabricavam itens necessários ao Estado.",
+    "explanation": "No início de Joseon, o artesanato estatal era central, com artesãos vinculados a órgãos governamentais (Gyeonggongjang, Oegongjang) produzindo mercadorias necessárias ao Estado."
+  },
+  "q_joseon_early_07_009": {
+    "question": "Qual era o papel do Gyeongsiseo no comércio do início de Joseon?",
+    "correct": "Supervisionava os comerciantes do Sijeon e regulava os preços",
+    "wrong": [
+      "Cunhava moedas",
+      "Lidava com o comércio exterior",
+      "Arrecadava impostos",
+      "Estabelecia políticas agrícolas"
+    ],
+    "hint": "Um órgão (seo) que administrava os mercados (si) na capital (gyeong).",
+    "explanation": "O Gyeongsiseo era um órgão governamental que supervisionava os comerciantes do Sijeon em Seul e regulava os preços durante Joseon."
+  },
+  "q_joseon_early_07_010": {
+    "question": "Por que a circulação de moeda não era ativa no início de Joseon?",
+    "correct": "Economia autossuficiente e transações baseadas em escambo",
+    "wrong": [
+      "Escassez de ouro e prata",
+      "Proibição governamental de emissão de moeda",
+      "Entrada de moeda estrangeira",
+      "Ocorrência de inflação"
+    ],
+    "hint": "As pessoas compravam e vendiam mercadorias usando arroz e tecido de cânhamo.",
+    "explanation": "No início de Joseon, a economia autossuficiente era predominante e as transações de escambo eram comuns, por isso a circulação de moeda não era ativa."
+  },
+  "q_joseon_early_08_001": {
+    "question": "Quais eram os privilégios dos Yangban em Joseon?",
+    "correct": "Ingressavam no governo por meio de exames e Eumseo, e desfrutavam de privilégios de isenção fiscal",
+    "wrong": [
+      "Sucediam ao trono por linhagem de osso verdadeiro",
+      "Tomavam o poder por meio da força militar",
+      "Ingressavam no governo de acordo com o sistema de classificação por ossos de Silla",
+      "Acumulavam riqueza por meio de atividades comerciais"
+    ],
+    "hint": "A classe dominante de origens civil e militar, isenta de impostos e corveia.",
+    "explanation": "Os Yangban eram de origens civil e militar, ingressavam no governo por meio de exames ou Eumseo, e desfrutavam de privilégios de isenção fiscal e de corveia."
+  },
+  "q_joseon_early_08_002": {
+    "question": "Qual afirmação sobre os Jungin (classe média) em Joseon está correta?",
+    "correct": "Trabalhavam em cargos técnicos como intérpretes, médicos oficiais e contadores",
+    "wrong": [
+      "Ascendiam a altos cargos por meio de exames",
+      "Não podiam possuir terras",
+      "Tinham o mesmo status que os escravos",
+      "Recebiam o mesmo tratamento que os Yangban"
+    ],
+    "hint": "Uma classe que ingressava no governo por meio de habilidades profissionais em tradução, medicina e matemática.",
+    "explanation": "Os Jungin trabalhavam em cargos técnicos como intérpretes (tradução), médicos oficiais (medicina) e contadores (matemática). Os Seoja (filhos de concubinas) também eram incluídos nos Jungin."
+  },
+  "q_joseon_early_08_003": {
+    "question": "Qual status vestia a indumentária mostrada nesta foto?",
+    "correct": "Yangban",
+    "wrong": [
+      "Cheonmin",
+      "Nobi",
+      "Baekjeong",
+      "Gwangdae"
+    ],
+    "hint": "Indumentária da classe dominante vestindo gat (chapéu) e dopo (manto).",
+    "explanation": "A foto mostra a indumentária Yangban. Os Yangban eram a classe dominante de origens civil e militar que vestiam indumentária conforme a etiqueta confucionista."
+  },
+  "q_joseon_early_08_004": {
+    "question": "Qual fenômeno social de Joseon este documento na foto representa?",
+    "correct": "Ênfase na ordem familiar patrilinear e na linhagem sanguínea",
+    "wrong": [
+      "O sistema familiar matrilinear era mantido",
+      "O movimento de emancipação de escravos era ativo",
+      "O sistema de classes foi abolido",
+      "Uma sociedade igualitária foi alcançada"
+    ],
+    "hint": "Um livro que registra a linhagem familiar, organizando ancestrais e descendentes.",
+    "explanation": "A foto mostra uma genealogia (Jokbo). À medida que a ordem familiar patrilinear se fortaleceu em Joseon, a compilação de genealogias tornou-se ativa."
+  },
+  "q_joseon_early_08_005": {
+    "question": "Qual afirmação sobre os Yangin (plebeus) em Joseon está correta?",
+    "correct": "Como agricultores, comerciantes e artesãos, tinham obrigações de imposto, tributo e corveia",
+    "wrong": [
+      "Ingressavam no governo para lidar com a política",
+      "Desfrutavam de privilégios de isenção fiscal",
+      "Recebiam o mesmo tratamento que os escravos",
+      "Trabalhavam apenas em cargos técnicos"
+    ],
+    "hint": "A classe plebeia também chamada de 'baekjeong', que pagava impostos e prestava trabalho ao Estado.",
+    "explanation": "Os Yangin eram plebeus como agricultores, comerciantes e artesãos que tinham obrigações de imposto (imposto sobre terras), tributo (produtos locais) e corveia (serviço militar e de trabalho)."
+  },
+  "q_joseon_early_08_006": {
+    "question": "Qual afirmação sobre os Cheonmin (classe inferior) em Joseon está correta?",
+    "correct": "Nobi, Baekjeong, Gwangdae, entre outros, eram classificados como Cheonmin",
+    "wrong": [
+      "Ingressavam no governo por meio de exames",
+      "Desfrutavam de privilégios de isenção fiscal",
+      "Recebiam o mesmo tratamento que os Yangban",
+      "Tinham o mesmo status que os Jungin"
+    ],
+    "hint": "O status mais baixo, incluindo açougueiros, artistas e servos.",
+    "explanation": "Os Cheonmin eram o status mais baixo, incluindo Nobi, Baekjeong, Gwangdae e Gisaeng, que enfrentavam discriminação social."
+  },
+  "q_joseon_early_08_007": {
+    "question": "Com base na seguinte fonte, qual princípio de status de Joseon está sendo descrito?",
+    "source": "Se a mãe era de classe inferior, o filho também se tornava de classe inferior.",
+    "correct": "Ilcheon-jeuk-cheon (Um de classe inferior torna todos de classe inferior)",
+    "wrong": [
+      "Jongbubeop",
+      "Sistema de classificação por ossos",
+      "Igualdade de todas as pessoas",
+      "Proibição de herança de status"
+    ],
+    "hint": "O princípio de que se um dos pais é de classe inferior (ilcheon), o filho imediatamente se torna de classe inferior (jeuk-cheon).",
+    "explanation": "Ilcheon-jeuk-cheon era o princípio de que se um dos pais fosse de classe inferior, o filho também se tornaria de classe inferior, servindo para manter o número de escravos."
+  },
+  "q_joseon_early_08_008": {
+    "question": "Quais eram as características de status dos Seoja (filhos de concubinas) em Joseon?",
+    "correct": "Eram filhos de Yangban, mas enfrentavam discriminação com ingresso restrito no governo",
+    "wrong": [
+      "Recebiam o mesmo tratamento que os Yangban",
+      "Tinham o mesmo status que os Cheonmin",
+      "Eram completamente proibidos de prestar exames",
+      "Dedicavam-se apenas à agricultura"
+    ],
+    "hint": "Filhos nascidos entre Yangban e concubinas, com restrição para prestar o exame civil.",
+    "explanation": "Os Seoja eram filhos nascidos entre Yangban e concubinas que, apesar de serem de famílias Yangban, enfrentavam discriminação com ingresso restrito no governo."
+  },
+  "q_joseon_early_08_009": {
+    "question": "Qual afirmação sobre a ordem patrilinear (Jongbeop Jilseo) em Joseon está correta?",
+    "correct": "A herança pelo filho mais velho e os deveres de ritos ancestrais eram enfatizados",
+    "wrong": [
+      "A herança igualitária era o princípio",
+      "Era uma ordem familiar matrilinear",
+      "Os escravos também tinham direitos de herança",
+      "As mulheres presidiam os ritos ancestrais"
+    ],
+    "hint": "Uma ordem patriarcal em que o filho mais velho herdava propriedades e realizava ritos ancestrais.",
+    "explanation": "Joseon fortaleceu a ordem patrilinear sob influência neoconfucionista, enfatizando a herança pelo filho mais velho e os deveres de ritos ancestrais do primogênito."
+  },
+  "q_joseon_early_08_010": {
+    "question": "Qual afirmação sobre o status das mulheres no início de Joseon está correta?",
+    "correct": "Recebiam tratamento relativamente igualitário na herança de propriedades, mas a discriminação se intensificou gradualmente",
+    "wrong": [
+      "Foram completamente discriminadas desde o início",
+      "Eram tratadas melhor que os homens",
+      "Podiam prestar exames para o serviço público",
+      "Podiam ingressar no governo"
+    ],
+    "hint": "Inicialmente filhos e filhas herdavam igualmente, mas a parcela das filhas diminuiu no período posterior.",
+    "explanation": "No início de Joseon, as mulheres recebiam tratamento relativamente igualitário na herança de propriedades, mas a discriminação se intensificou à medida que a ordem patrilinear se fortaleceu no período posterior."
+  },
+  "q_joseon_early_09_001": {
+    "question": "Qual era a instituição educacional mais alta de Joseon?",
+    "correct": "Seonggyungwan",
+    "wrong": [
+      "Hyanggyo",
+      "Seowon",
+      "Seodang",
+      "4 Escolas (Sahak)"
+    ],
+    "hint": "A universidade nacional em Seul onde os estudantes Saengwon e Jinsa se matriculavam.",
+    "explanation": "O Seonggyungwan era a instituição educacional mais alta de Joseon, onde estudantes aprovados nos exames Saengwon e Jinsa se matriculavam para estudar."
+  },
+  "q_joseon_early_09_002": {
+    "question": "Qual afirmação sobre esta instituição educacional na foto está correta?",
+    "correct": "Era a instituição educacional mais alta de Joseon, onde estudantes Saengwon e Jinsa se matriculavam",
+    "wrong": [
+      "Era uma instituição educacional secundária provincial",
+      "Era uma instituição educacional privada estabelecida por Sarim",
+      "Cuidava da educação elementar",
+      "Era uma instituição educacional secundária em Seul"
+    ],
+    "hint": "A instituição mais alta cujo local permanece na atual Myeongnyun-dong, em Seul.",
+    "explanation": "A foto mostra o Seonggyungwan. Estudantes aprovados no Sogwa (exames Saengwon e Jinsa) se matriculavam para se preparar para o Daegwa nesta instituição educacional mais alta."
+  },
+  "q_joseon_early_09_003": {
+    "question": "Qual afirmação sobre esta instituição educacional na foto está correta?",
+    "correct": "Era uma instituição educacional privada onde Sarim homenageavam antigos sábios e educavam futuros estudiosos",
+    "wrong": [
+      "Era a instituição educacional mais alta estabelecida pelo Estado",
+      "Era uma instituição educacional secundária governamental provincial",
+      "Cuidava da educação elementar",
+      "Foi estabelecida apenas em Seul"
+    ],
+    "hint": "Uma famosa academia em Andong que homenageia Yi Hwang, servindo como centro de autogoverno rural.",
+    "explanation": "A foto mostra o Dosan Seowon. O Seowon era uma instituição educacional privada onde Sarim homenageavam antigos sábios e educavam futuros estudiosos, servindo como centros de autogoverno rural."
+  },
+  "q_joseon_early_09_004": {
+    "question": "Qual afirmação sobre esta instituição educacional na foto está correta?",
+    "correct": "Era uma instituição educacional secundária governamental estabelecida nas províncias",
+    "wrong": [
+      "Era a instituição educacional mais alta estabelecida apenas em Seul",
+      "Era uma instituição educacional privada estabelecida por Sarim",
+      "Cuidava da educação elementar",
+      "Era uma instituição de treinamento de monges"
+    ],
+    "hint": "Como uma escola pública de ensino médio estabelecida em cada bu, mok, gun e hyeon.",
+    "explanation": "A foto mostra o Hyanggyo. O Hyanggyo era uma instituição educacional secundária governamental estabelecida nas unidades provinciais de bu, mok, gun e hyeon para ensinar estudos confucionistas."
+  },
+  "q_joseon_early_09_005": {
+    "question": "Quem estabeleceu o primeiro Seowon e qual era seu nome?",
+    "correct": "Ju Se-bung - Baegundong Seowon (Sosu Seowon)",
+    "wrong": [
+      "Yi Hwang - Dosan Seowon",
+      "Yi I - Jaun Seowon",
+      "Song Si-yeol - Hwayang Seowon",
+      "Kim Goeng-pil - Namgye Seowon"
+    ],
+    "hint": "Fundado em 1543 para homenagear An Hyang, recebendo posteriormente um nome por decreto real.",
+    "explanation": "Em 1543, Ju Se-bung estabeleceu o Baegundong Seowon (que depois recebeu o nome real Sosu Seowon) para homenagear An Hyang. Este foi o primeiro Seowon."
+  },
+  "q_joseon_early_09_006": {
+    "question": "Qual afirmação sobre o sistema de exames para o serviço público em Joseon está correta?",
+    "correct": "Era dividido em Mungwa (civil), Mugwa (militar) e Japgwa (técnico)",
+    "wrong": [
+      "Apenas o Mungwa era realizado",
+      "Apenas Yangban podiam prestá-lo",
+      "Era realizado apenas regularmente a cada 3 anos",
+      "Mulheres também podiam prestá-lo"
+    ],
+    "hint": "Três tipos de exames para selecionar funcionários civis, militares e técnicos.",
+    "explanation": "Os exames para o serviço público de Joseon eram divididos em Mungwa (funcionários civis), Mugwa (funcionários militares) e Japgwa (funcionários técnicos). Eram classificados em exames regulares e especiais."
+  },
+  "q_joseon_early_09_007": {
+    "question": "Com base na seguinte fonte, qual característica do Neoconfucionismo de Joseon está sendo descrita?",
+    "source": "Debates sobre a relação entre Li (princípio) e Qi (força material) eram ativos entre os estudiosos.",
+    "correct": "Debates ativos entre escolas sobre a teoria Li-Qi",
+    "wrong": [
+      "Fusão com o Budismo",
+      "Aceitação apenas dos Estudos Yangming",
+      "Busca apenas pelo aprendizado prático",
+      "Proibição de pesquisa neoconfucionista"
+    ],
+    "hint": "Yi Hwang e Ki Dae-seung, Yi I e Seong Hon debateram sobre a teoria Li-Qi.",
+    "explanation": "O Neoconfucionismo de Joseon teve debates ativos sobre a teoria Li-Qi, com várias teorias surgindo, incluindo o dualismo de Yi Hwang e o monismo de Yi I."
+  },
+  "q_joseon_early_09_008": {
+    "question": "O que se podia fazer ao ser aprovado no Sogwa (exames Saengwon e Jinsa) em Joseon?",
+    "correct": "Obtinha-se a qualificação para ingressar no Seonggyungwan",
+    "wrong": [
+      "Era imediatamente nomeado para um cargo governamental",
+      "Perdia-se a qualificação para prestar o Daegwa",
+      "Era obrigatório estudar apenas no Hyanggyo",
+      "Podia-se prestar o Mugwa"
+    ],
+    "hint": "Podia-se ingressar na instituição educacional mais alta para se preparar para o Daegwa (exame civil).",
+    "explanation": "A aprovação no Sogwa (exames Saengwon e Jinsa) qualificava o candidato a ingressar no Seonggyungwan ou prestar o Daegwa (Mungwa)."
+  },
+  "q_joseon_early_09_009": {
+    "question": "O que era enfatizado no estudo dos ritos (Yehak) em Joseon?",
+    "correct": "Gwanhon Sangje (cerimônia de maioridade, casamento, luto, ritos ancestrais)",
+    "wrong": [
+      "Treinamento militar",
+      "Atividades comerciais",
+      "Rituais budistas",
+      "Experimentos científicos"
+    ],
+    "hint": "Um estudo dos rituais confucionistas incluindo cerimônia de maioridade, casamento, funeral e ritos ancestrais.",
+    "explanation": "Yehak era o estudo dos rituais confucionistas, enfatizando o Gwanhon Sangje (cerimônia de maioridade, casamento, ritos fúnebres, ritos ancestrais)."
+  },
+  "q_joseon_early_09_010": {
+    "question": "Qual afirmação sobre as Quatro Escolas (Sahak) em Joseon está correta?",
+    "correct": "Eram instituições educacionais secundárias governamentais estabelecidas em Seul",
+    "wrong": [
+      "Eram instituições educacionais governamentais estabelecidas nas províncias",
+      "Eram as instituições educacionais mais altas",
+      "Eram instituições educacionais privadas estabelecidas por Sarim",
+      "Cuidavam da educação elementar"
+    ],
+    "hint": "Quatro escolas, uma em cada parte leste, oeste, sul e central de Seul.",
+    "explanation": "As Sahak eram instituições educacionais secundárias governamentais estabelecidas nas partes leste, oeste, sul e central de Seul, onde filhos de Yangban se matriculavam."
+  },
+  "q_joseon_early_10_001": {
+    "question": "Qual era o texto histórico cronológico que registrava o reinado dos reis em Joseon?",
+    "correct": "Joseon Wangjo Sillok (Anais da Dinastia Joseon)",
+    "wrong": [
+      "Samguk Sagi",
+      "Goryeosa",
+      "Dongguk Tonggam",
+      "Samguk Yusa"
+    ],
+    "hint": "Memória do Mundo da UNESCO, registrando 472 anos de história desde o Rei Taejo até o Rei Cheoljong.",
+    "explanation": "O Joseon Wangjo Sillok é um texto histórico cronológico que registra 472 anos de história, do Rei Taejo ao Rei Cheoljong (25 reis), designado como Memória do Mundo da UNESCO."
+  },
+  "q_joseon_early_10_002": {
+    "question": "Qual afirmação sobre este texto histórico na foto está correta?",
+    "correct": "É um texto histórico cronológico compilado durante Joseon, designado como Memória do Mundo da UNESCO",
+    "wrong": [
+      "É um texto histórico compilado durante o período Goryeo",
+      "Foi compilado durante o período colonial japonês",
+      "É um texto histórico biográfico",
+      "É uma história não oficial escrita por um indivíduo"
+    ],
+    "hint": "Compilado após a morte de cada rei, nem mesmo o rei podia consultar esses registros.",
+    "explanation": "A foto mostra o Joseon Wangjo Sillok. Ele registra a história do Rei Taejo ao Rei Cheoljong em formato cronológico e é designado como Memória do Mundo da UNESCO."
+  },
+  "q_joseon_early_10_003": {
+    "question": "Qual afirmação sobre este texto histórico na foto está correta?",
+    "correct": "É a história oficial do período Goryeo compilada no início de Joseon",
+    "wrong": [
+      "É um texto histórico compilado durante o período Goryeo",
+      "Registra a história do período dos Três Reinos",
+      "É uma história não oficial escrita por um indivíduo",
+      "Foi compilado durante o período colonial japonês"
+    ],
+    "hint": "A história oficial de Goryeo compilada em estilo biográfico por Jeong In-ji e outros durante o reinado do Rei Sejong.",
+    "explanation": "A foto mostra o Goryeosa. Foi compilado em estilo biográfico por Jeong In-ji e outros durante o reinado do Rei Sejong como a história oficial do período Goryeo."
+  },
+  "q_joseon_early_10_004": {
+    "question": "Qual afirmação sobre este livro de geografia na foto está correta?",
+    "correct": "Foi compilado durante o reinado do Rei Seongjong, registrando a história, figuras notáveis e produtos locais de cada região",
+    "wrong": [
+      "É um livro agrícola compilado durante o reinado do Rei Sejong",
+      "É um código legal compilado durante o reinado do Rei Jeongjo",
+      "É um mapa feito durante o período Goryeo",
+      "É um relato de viagem escrito por um indivíduo"
+    ],
+    "hint": "Um livro de geografia que significa 'levantamento abrangente das várias regiões do País do Leste (Coreia).'",
+    "explanation": "A foto mostra o Dongguk Yeoji Seungnam. Compilado durante o reinado do Rei Seongjong, organizou a história, geografia, figuras notáveis e produtos locais de cada região."
+  },
+  "q_joseon_early_10_005": {
+    "question": "Qual afirmação sobre o Gyeongguk Daejeon está correta?",
+    "correct": "Foi o código legal fundamental de Joseon concluído durante o reinado do Rei Seongjong",
+    "wrong": [
+      "Foi o código legal fundamental de Goryeo",
+      "Foi concluído durante o reinado do Rei Sejong",
+      "Foi promulgado durante o reinado do Rei Taejo",
+      "Foi abolido durante o período colonial japonês"
+    ],
+    "hint": "Significando 'Grande Código para Governar a Nação,' concluído em 1485.",
+    "explanation": "O Gyeongguk Daejeon teve sua compilação iniciada durante o reinado do Rei Sejo e foi concluído e promulgado durante o reinado do Rei Seongjong (1485) como o código legal fundamental de Joseon."
+  },
+  "q_joseon_early_10_006": {
+    "question": "Qual afirmação sobre o Dongguk Tonggam está correta?",
+    "correct": "É uma história abrangente da Coreia compilada por Seo Geo-jeong e outros",
+    "wrong": [
+      "É um texto histórico dos Três Reinos compilado por Kim Bu-sik",
+      "É uma história não oficial escrita por Iryeon",
+      "É um livro de Silhak escrito por Jeong Yak-yong",
+      "É Memória do Mundo da UNESCO"
+    ],
+    "hint": "Um livro de história organizado cronologicamente desde Dangun Joseon até o final de Goryeo.",
+    "explanation": "O Dongguk Tonggam é uma história abrangente compilada durante o reinado do Rei Seongjong por Seo Geo-jeong e outros, registrando a história desde Dangun Joseon até o final de Goryeo em formato cronológico."
+  },
+  "q_joseon_early_10_007": {
+    "question": "Com base na seguinte fonte, qual projeto de compilação de Joseon é descrito?",
+    "source": "Rituais e cerimônias estatais importantes foram organizados e compilados.",
+    "correct": "Gukjo Oryeui",
+    "wrong": [
+      "Nongsa Jikseol",
+      "Hyangyak Jipseongbang",
+      "Samgang Haengsildo",
+      "Dongguk Byeonggam"
+    ],
+    "hint": "Um livro que organiza os cinco rituais estatais: auspicioso, comemorativo, recepção de convidados, militar e funerário.",
+    "explanation": "O Gukjo Oryeui foi um texto ritual compilado do reinado do Rei Sejong ao do Rei Seongjong, organizando os cinco rituais estatais: auspicioso, comemorativo, recepção de convidados, militar e funerário."
+  },
+  "q_joseon_early_10_008": {
+    "question": "Qual NÃO era um local onde o Joseon Wangjo Sillok era armazenado?",
+    "correct": "Templo Bongeunsa",
+    "wrong": [
+      "Chunchugwan",
+      "Repositório de Taebaeksan",
+      "Repositório de Jeongoksan",
+      "Repositório de Odaesan"
+    ],
+    "hint": "Distribuído e armazenado em 'Sago' (arquivos) em vários locais pelo país.",
+    "explanation": "O Joseon Wangjo Sillok era distribuído e armazenado no Chunchugwan (Seul) e nos repositórios de Taebaeksan, Jeongoksan, Odaesan e Jeoksangsan. Bongeunsa é um templo budista."
+  },
+  "q_joseon_early_10_009": {
+    "question": "Qual afirmação sobre o Samgang Haengsildo está correta?",
+    "correct": "É um livro de educação ética compilado durante o reinado do Rei Sejong",
+    "wrong": [
+      "É um código legal compilado durante o reinado do Rei Seongjong",
+      "É um texto histórico compilado durante o reinado do Rei Jeongjo",
+      "Foi compilado durante o período Goryeo",
+      "É um livro agrícola escrito por um indivíduo"
+    ],
+    "hint": "Um livro que organiza casos exemplares de filhos devotos, súditos leais e mulheres virtuosas com ilustrações.",
+    "explanation": "O Samgang Haengsildo foi um livro de educação ética compilado durante o reinado do Rei Sejong, organizando casos exemplares de filhos devotos, súditos leais e mulheres virtuosas com ilustrações."
+  },
+  "q_joseon_early_10_010": {
+    "question": "Qual afirmação sobre o Goryeosa Jeolyo está correta?",
+    "correct": "É um texto histórico que resume o Goryeosa em formato cronológico",
+    "wrong": [
+      "É a história oficial de Goryeo compilada em formato biográfico",
+      "Registra a história do período dos Três Reinos",
+      "É uma história não oficial escrita por um indivíduo",
+      "É outro nome para o Joseon Wangjo Sillok"
+    ],
+    "hint": "Um livro que resume o conteúdo do Goryeosa em ordem cronológica.",
+    "explanation": "O Goryeosa Jeolyo é um texto histórico que resume o conteúdo do Goryeosa em formato cronológico, compilado por Kim Jong-seo e outros durante o reinado do Rei Sejong."
+  },
+  "q_joseon_early_11_001": {
+    "question": "Qual NÃO era um instrumento científico feito durante o reinado do Rei Sejong?",
+    "correct": "Geojunggi (guindaste)",
+    "wrong": [
+      "Cheugugi (pluviômetro)",
+      "Jagyeongnu (relógio de água)",
+      "Angbuilgu (relógio de sol)",
+      "Honcheonui (esfera armilar)"
+    ],
+    "hint": "Um dispositivo para levantar objetos pesados usado na construção da Fortaleza Hwaseong de Suwon durante o reinado do Rei Jeongjo.",
+    "explanation": "O Geojunggi foi um instrumento usado por Jeong Yak-yong na construção da Fortaleza Hwaseong de Suwon durante o reinado do Rei Jeongjo. Os demais são instrumentos científicos feitos durante o reinado do Rei Sejong."
+  },
+  "q_joseon_early_11_002": {
+    "question": "Qual afirmação sobre este mapa na foto está correta?",
+    "correct": "Foi feito durante o reinado do Rei Taejong e é o mapa-múndi mais antigo existente",
+    "wrong": [
+      "É um mapa feito por Kim Jeong-ho",
+      "Foi feito durante o período Goryeo",
+      "Foi feito durante o período colonial japonês",
+      "Foi feito na China e transmitido"
+    ],
+    "hint": "Significando 'Mapa de Terras Integradas e Regiões de Países e Capitais Históricos' (Honil Gangni).",
+    "explanation": "A foto mostra o Honil Gangni Yeokdae Gukdo Jido. Feito durante o reinado do Rei Taejong (1402), é o mapa-múndi mais antigo existente no Leste Asiático."
+  },
+  "q_joseon_early_11_003": {
+    "question": "Qual afirmação sobre o desenvolvimento da região marcada neste mapa está correta?",
+    "correct": "Choe Yun-deok e Kim Jong-seo a desenvolveram durante o reinado do Rei Sejong para estabelecer a fronteira",
+    "wrong": [
+      "Yun Gwan a desenvolveu durante o período Goryeo",
+      "O Rei Taejo Yi Seong-gye a desenvolveu",
+      "Foi desenvolvida durante o reinado do Rei Jeongjo",
+      "Foi adquirida através do Tratado de Ganghwa"
+    ],
+    "hint": "O alto rio Yalu (Quatro Condados) e a bacia do rio Tumen (Seis Guarnições) foram desenvolvidos.",
+    "explanation": "A foto mostra a região dos Quatro Condados e Seis Guarnições. Choe Yun-deok (Quatro Condados) e Kim Jong-seo (Seis Guarnições) a desenvolveram durante o reinado do Rei Sejong para estabelecer a fronteira Yalu-Tumen."
+  },
+  "q_joseon_early_11_004": {
+    "question": "O que Jang Yeong-sil criou durante o reinado do Rei Sejong?",
+    "correct": "Jagyeongnu, Angbuilgu",
+    "wrong": [
+      "Daedongyeojido, Cheugugi",
+      "Geojunggi, Honcheonui",
+      "Tipo móvel de metal, Cheomseongdae",
+      "Singijeon, Bigyeokjincheonroe"
+    ],
+    "hint": "Um inventor que criou um relógio de água automático e um relógio de sol côncavo.",
+    "explanation": "Jang Yeong-sil contribuiu para o desenvolvimento científico e tecnológico durante o reinado do Rei Sejong criando o Jagyeongnu (relógio de água automático) e o Angbuilgu (relógio de sol)."
+  },
+  "q_joseon_early_11_005": {
+    "question": "Qual afirmação sobre o pluviômetro (Cheugugi) feito durante o reinado do Rei Sejong está correta?",
+    "correct": "É o primeiro instrumento de medição de chuva do mundo",
+    "wrong": [
+      "É o primeiro relógio de água do mundo",
+      "É o primeiro relógio de sol do mundo",
+      "É o primeiro instrumento de observação astronômica do mundo",
+      "É o primeiro tipo móvel de metal do mundo"
+    ],
+    "hint": "Um recipiente (gi) para medir (cheuk) a chuva (u), de grande ajuda para a agricultura.",
+    "explanation": "O Cheugugi foi o primeiro instrumento de medição de chuva do mundo inventado durante o reinado do Rei Sejong, medindo cientificamente a precipitação em todo o país."
+  },
+  "q_joseon_early_11_006": {
+    "question": "Qual era o tipo móvel de metal feito durante o reinado do Rei Sejong?",
+    "correct": "Gabinji",
+    "wrong": [
+      "Jikji Simche Yojeol",
+      "Mugujeonggwang Daedaranigyeong",
+      "Tripitaka Koreana",
+      "Dongui Bogam"
+    ],
+    "hint": "Fundido no ano Gabin (1434), com belos caracteres e alta velocidade de impressão.",
+    "explanation": "O Gabinji foi um tipo móvel de metal fundido durante o reinado do Rei Sejong (1434), com belas formas de caracteres e alta velocidade de impressão."
+  },
+  "q_joseon_early_11_007": {
+    "question": "Com base na seguinte fonte, qual texto médico de Joseon é descrito?",
+    "source": "Ingredientes medicinais e tratamentos adequados ao nosso clima foram organizados e compilados.",
+    "correct": "Hyangyak Jipseongbang",
+    "wrong": [
+      "Dongui Bogam",
+      "Uibang Yuchwi",
+      "Bencao Gangmu",
+      "Shanghanlun"
+    ],
+    "hint": "Significando 'Compilação de Prescrições de Medicamentos Nativos Coreanos' (Hyangyak Jipseongbang).",
+    "explanation": "O Hyangyak Jipseongbang foi um texto médico compilado durante o reinado do Rei Sejong organizando os ingredientes medicinais e tratamentos do país. O Dongui Bogam foi compilado por Heo Jun durante o reinado do Rei Gwanghaegun."
+  },
+  "q_joseon_early_11_008": {
+    "question": "Qual NÃO era um instrumento de observação astronômica em Joseon?",
+    "correct": "Cheugugi",
+    "wrong": [
+      "Honcheonui",
+      "Ganui",
+      "Gyupyo",
+      "Angbuilgu"
+    ],
+    "hint": "Um instrumento para medir o solo (chuva), não o céu.",
+    "explanation": "O Cheugugi era um instrumento para medir a precipitação. Honcheonui, Ganui e Gyupyo eram instrumentos de observação astronômica, e o Angbuilgu era um relógio de sol."
+  },
+  "q_joseon_early_11_009": {
+    "question": "Quais foram as conquistas no desenvolvimento de armas de pólvora no início de Joseon?",
+    "correct": "Singijeon, Hwache",
+    "wrong": [
+      "Navio tartaruga, Panokseon",
+      "Honcheonui, Jagyeongnu",
+      "Cheugugi, Angbuilgu",
+      "Gyemija, Gabinji"
+    ],
+    "hint": "Um foguete em forma de flecha e um carro para lançar armas de pólvora.",
+    "explanation": "No início de Joseon, armas de pólvora incluindo o Singijeon (foguete tipo flecha) e o Hwache (lançador de armas de pólvora) foram desenvolvidos."
+  },
+  "q_joseon_early_11_010": {
+    "question": "Qual texto médico Heo Jun compilou durante o reinado do Rei Gwanghaegun?",
+    "correct": "Dongui Bogam",
+    "wrong": [
+      "Hyangyak Jipseongbang",
+      "Uibang Yuchwi",
+      "Bencao Gangmu",
+      "Nongsa Jikseol"
+    ],
+    "hint": "Memória do Mundo da UNESCO concluído em 1610, sistematizando a medicina do Leste Asiático.",
+    "explanation": "O Dongui Bogam foi um texto médico compilado por Heo Jun durante o reinado do Rei Gwanghaegun (1610), sistematizando a medicina do Leste Asiático e designado como Memória do Mundo da UNESCO."
+  },
+  "q_joseon_early_12_001": {
+    "question": "Quem foi um pintor representativo do início de Joseon e qual era sua obra?",
+    "correct": "An Gyeon - Viagem Onírica à Terra das Flores de Pessegueiro",
+    "wrong": [
+      "Kim Hong-do - Ssireum",
+      "Sin Yun-bok - Retrato de uma Beldade",
+      "Jeong Seon - Céu Limpo Após a Chuva em Inwangsan",
+      "Jang Seung-eop - Falcão Capturando um Faisão"
+    ],
+    "hint": "Um pintor ativo durante o reinado do Rei Sejong que retratou um mundo ideal.",
+    "explanation": "An Gyeon foi um pintor ativo durante o reinado do Rei Sejong, com Viagem Onírica à Terra das Flores de Pessegueiro como sua obra representativa. Kim Hong-do, Sin Yun-bok e Jeong Seon foram pintores do período tardio de Joseon."
+  },
+  "q_joseon_early_12_002": {
+    "question": "Qual afirmação sobre esta pintura na foto está correta?",
+    "correct": "É uma obra de An Gyeon durante o reinado do Rei Sejong expressando um mundo ideal",
+    "wrong": [
+      "É uma pintura de gênero de Kim Hong-do durante o reinado do Rei Jeongjo",
+      "É uma pintura budista do período Goryeo",
+      "Foi criada durante o período colonial japonês",
+      "É uma pintura de paisagem de vista real de Jeong Seon"
+    ],
+    "hint": "Uma pintura retratando o mundo ideal (Terra das Flores de Pessegueiro) baseada no sonho do Príncipe Anpyeong.",
+    "explanation": "A foto mostra Viagem Onírica à Terra das Flores de Pessegueiro. Baseada no sonho do Príncipe Anpyeong durante o reinado do Rei Sejong, An Gyeon pintou esta obra expressando um mundo ideal (Terra das Flores de Pessegueiro)."
+  },
+  "q_joseon_early_12_003": {
+    "question": "Qual afirmação sobre esta cerâmica na foto está correta?",
+    "correct": "É cerâmica Buncheong popular no início de Joseon, caracterizada por padrões livres e espontâneos",
+    "wrong": [
+      "É celadon popular durante o período Goryeo",
+      "É porcelana azul e branca popular no período tardio de Joseon",
+      "É cerâmica importada da China",
+      "Foi feita durante o período colonial japonês"
+    ],
+    "hint": "Cerâmica cinza decorada com argila branca, um estilo de transição do celadon de Goryeo para a porcelana branca de Joseon.",
+    "explanation": "A foto mostra cerâmica Buncheong. Popular no início de Joseon, é caracterizada pela decoração com argila branca e padrões livres e espontâneos."
+  },
+  "q_joseon_early_12_004": {
+    "question": "Qual afirmação sobre esta cerâmica na foto está correta?",
+    "correct": "É porcelana branca popular em Joseon, expressando a simplicidade e contenção confucionista",
+    "wrong": [
+      "É celadon com incrustação popular durante o período Goryeo",
+      "É um tipo de cerâmica Buncheong",
+      "Foi importada da China",
+      "Era usada para rituais budistas"
+    ],
+    "hint": "Cerâmicas brancas puras expressando a simplicidade neoconfucionista.",
+    "explanation": "A foto mostra porcelana branca de Joseon. Seguindo a ideologia neoconfucionista, expressava a simplicidade confucionista com cor branca pura e forma contida."
+  },
+  "q_joseon_early_12_005": {
+    "question": "Qual afirmação sobre este edifício na foto está correta?",
+    "correct": "É o salão do trono do Palácio Gyeongbokgung, o palácio principal de Joseon, onde eventos estatais importantes eram realizados",
+    "wrong": [
+      "É um palácio de Goryeo",
+      "É um salão de palestras de Seowon",
+      "É o salão principal de um templo budista",
+      "Foi construído durante o período colonial japonês"
+    ],
+    "hint": "O edifício central do Palácio Gyeongbokgung onde a cerimônia de entronização do rei era realizada.",
+    "explanation": "A foto mostra o Geunjeongjeon do Palácio Gyeongbokgung. Como o salão do trono do palácio principal de Joseon, eventos estatais importantes incluindo a cerimônia de entronização do rei eram realizados aqui."
+  },
+  "q_joseon_early_12_006": {
+    "question": "Quais foram as conquistas de Bak Yeon na música do início de Joseon?",
+    "correct": "Organizou a música ritual da corte (Aak) e criou instrumentos como o Pyeongyeong",
+    "wrong": [
+      "Desenvolveu o Pansori",
+      "Introduziu a música ocidental",
+      "Organizou a música budista",
+      "Criou o Gayageum"
+    ],
+    "hint": "Um músico durante o reinado do Rei Sejong que organizou a música da corte e fabricou instrumentos.",
+    "explanation": "Bak Yeon organizou o Aak (música ritual da corte) e criou instrumentos como o Pyeongyeong durante o reinado do Rei Sejong, estabelecendo a base da música de Joseon."
+  },
+  "q_joseon_early_12_007": {
+    "question": "Com base na seguinte fonte, qual conquista musical do reinado do Rei Sejong é descrita?",
+    "source": "A altura e a duração das notas eram marcadas em quadrados em forma do caractere jeong (井).",
+    "correct": "Jeongganbo (notação mensural)",
+    "wrong": [
+      "Akhak Gwebeom",
+      "Daechita",
+      "Pansori",
+      "Sijo"
+    ],
+    "hint": "A primeira notação mensural do Leste Asiático que podia registrar a duração das notas.",
+    "explanation": "O Jeongganbo foi a primeira notação mensural do Leste Asiático inventada durante o reinado do Rei Sejong, registrando música ao marcar a altura e a duração das notas."
+  },
+  "q_joseon_early_12_008": {
+    "question": "Quais eram as características da arquitetura do início de Joseon?",
+    "correct": "Palácios e o Santuário Jongmyo refletindo a ideologia confucionista se desenvolveram",
+    "wrong": [
+      "Apenas a arquitetura de templos budistas se desenvolveu",
+      "A arquitetura de estilo ocidental foi introduzida",
+      "Edifícios altos se desenvolveram",
+      "Concreto armado era utilizado"
+    ],
+    "hint": "Edifícios incorporando a ordem neoconfucionista como Gyeongbokgung, Changdeokgung e Jongmyo foram construídos.",
+    "explanation": "No início de Joseon, a arquitetura refletindo a ideologia confucionista como palácios (Gyeongbokgung, etc.) e o Santuário Jongmyo se desenvolveu."
+  },
+  "q_joseon_early_12_009": {
+    "question": "Qual afirmação sobre o Sungnyemun está correta?",
+    "correct": "Era o portão sul da Fortaleza de Hanyang durante Joseon, anteriormente Tesouro Nacional N.º 1",
+    "wrong": [
+      "É um portão da cidade construído durante o período Goryeo",
+      "Foi construído durante o período colonial japonês",
+      "É um patrimônio cultural da Coreia do Norte",
+      "É o portão principal do Palácio Gyeongbokgung"
+    ],
+    "hint": "O portão sul que significa 'Reverenciar a Propriedade,' danificado por incêndio em 2008.",
+    "explanation": "O Sungnyemun (Namdaemun) era o portão sul da Fortaleza de Hanyang durante Joseon, designado como Tesouro Nacional N.º 1 até o incêndio de 2008."
+  },
+  "q_joseon_early_12_010": {
+    "question": "Quais eram as características da pintura de letrados (Muninhwa) no início de Joseon?",
+    "correct": "Funcionários letrados pintavam como lazer, apreciando poesia, caligrafia e pintura",
+    "wrong": [
+      "Pintores profissionais pintavam por encomenda",
+      "A doutrina budista era expressa",
+      "O cotidiano dos plebeus era retratado",
+      "Técnicas de pintura ocidental eram utilizadas"
+    ],
+    "hint": "Pinturas de flores de ameixeira, orquídeas e bambu desenhadas por letrados para cultivo espiritual.",
+    "explanation": "Muninhwa eram pinturas criadas por funcionários letrados que apreciavam poesia, caligrafia e pintura nas horas de lazer, enfatizando o cultivo espiritual."
+  }
+}

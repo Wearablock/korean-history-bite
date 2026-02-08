@@ -699,6 +699,8 @@ class _LanguageTile extends ConsumerWidget {
         return l10n.languageChineseTraditional;
       case LanguageOption.spanish:
         return l10n.languageSpanish;
+      case LanguageOption.portuguese:
+        return l10n.languagePortuguese;
     }
   }
 
@@ -756,6 +758,9 @@ class _LanguageTile extends ConsumerWidget {
             } else {
               dataLocale = 'zh-Hans';
             }
+            break;
+          case 'pt':
+            dataLocale = 'pt';
             break;
           default:
             dataLocale = 'en';

@@ -1,0 +1,309 @@
+{
+  "@@locale": "pt",
+  "appTitle": "História da Coreia em Doses",
+
+  "home": "Início",
+  "progress": "Progresso",
+  "settings": "Configurações",
+  "wrongAnswers": "Respostas Erradas",
+
+  "error": "Erro: {message}",
+  "@error": {
+    "placeholders": {
+      "message": {"type": "String"}
+    }
+  },
+
+  "startStudy": "Iniciar Estudo",
+  "continueStudy": "Continuar Estudo",
+  "startReview": "Iniciar Revisão",
+
+  "todayStudy": "Estudo de Hoje",
+  "allChaptersCompleted": "Todos os Capítulos Concluídos!",
+  "reviewEncouragement": "Continue praticando com revisões para dominar o conteúdo.",
+  "nextChapter": "Próximo Capítulo",
+  "questionsCount": "{count} questões",
+  "@questionsCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "todayQuestionsCompleted": "{count} questões concluídas hoje",
+  "@todayQuestionsCompleted": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "todayGoal": "Meta de Hoje",
+  "chaptersProgress": "{studied}/{goal} capítulos",
+  "@chaptersProgress": {
+    "placeholders": {
+      "studied": {"type": "int"},
+      "goal": {"type": "int"}
+    }
+  },
+  "streakDays": "Sequência de {days} dias!",
+  "@streakDays": {
+    "placeholders": {
+      "days": {"type": "int"}
+    }
+  },
+
+  "overallProgress": "Progresso Geral",
+  "mastered": "Dominado",
+  "studiedOnce": "Estudado Uma Vez",
+  "totalQuestions": "Total de {count} questões",
+  "@totalQuestions": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "questionsMastered": "{count} / {total} questões dominadas",
+  "@questionsMastered": {
+    "placeholders": {
+      "count": {"type": "int"},
+      "total": {"type": "int"}
+    }
+  },
+
+  "study": "Estudo",
+  "notifications": "Notificações",
+  "appSettings": "Configurações do App",
+  "info": "Informações",
+  "appVersion": "Versão do App",
+  "termsAndPolicies": "Termos e Políticas",
+  "termsOfService": "Termos de Serviço",
+  "privacyPolicy": "Política de Privacidade",
+  "support": "Suporte",
+  "data": "Dados",
+  "resetStudyRecords": "Redefinir Registros de Estudo",
+  "resetStudyRecordsDesc": "Excluir todos os registros de estudo",
+  "resetStudyRecordsConfirm": "Todos os registros de estudo serão excluídos.\nEsta ação não pode ser desfeita.",
+  "cannotOpenLink": "Não foi possível abrir o link.",
+  "cancel": "Cancelar",
+  "reset": "Redefinir",
+  "confirm": "Confirmar",
+  "studyRecordsReset": "Os registros de estudo foram redefinidos.",
+  "dailyStudyAmount": "Quantidade de Estudo Diário",
+  "chaptersUnit": "{count} capítulos",
+  "@chaptersUnit": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "customSetting": "Personalizado",
+  "theme": "Tema",
+  "selectTheme": "Selecionar Tema",
+  "themeSystem": "Padrão do Sistema",
+  "themeLight": "Modo Claro",
+  "themeDark": "Modo Escuro",
+
+  "studyComplete": "Estudo Concluído",
+  "goodJob": "Bom trabalho!",
+  "continueReviewWithCount": "Continuar Revisão ({count} restantes)",
+  "@continueReviewWithCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "goHome": "Ir para Início",
+  "additionalStudy": "Estudar Mais",
+  "todayStudyCompleteMessage": "O estudo de hoje está completo!",
+  "excellentComplete": "Excelente!\nVocê completou o estudo de hoje!",
+  "goodComplete": "Bom trabalho!\nVocê completou o estudo de hoje!",
+  "accuracy": "Precisão",
+  "correct": "Correto",
+  "wrong": "Errado",
+  "timeSpent": "Tempo Gasto",
+  "phaseResults": "Resultados por Fase",
+  "wrongReview": "Revisão de Erros",
+  "spacedReview": "Revisão Espaçada",
+  "newLearning": "Novo Aprendizado",
+
+  "errorOccurred": "Ocorreu um erro",
+  "retry": "Tentar Novamente",
+  "stopStudy": "Parar Estudo",
+  "stopStudyConfirm": "Deseja parar o estudo?\nSeu progresso será salvo.",
+  "continueStudyButton": "Continuar",
+  "stop": "Parar",
+  "chapterNotFound": "Capítulo não encontrado.",
+
+  "eraProgress": "Progresso por Era",
+
+  "reviewAvailable": "Você tem questões para revisar!",
+  "reviewWaiting": "{count} questões aguardando revisão",
+  "@reviewWaiting": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+
+  "welcome": "Bem-vindo!",
+  "howManyChapters": "Quantos capítulos por dia?",
+  "canChangeInSettings": "Você pode alterar isso nas configurações depois",
+  "start": "Iniciar",
+  "lightStart": "Início leve",
+  "moderateAmount": "Quantidade moderada",
+  "intensiveStudy": "Estudo intensivo",
+  "settingsSaveError": "Erro ao salvar configurações: {error}",
+  "@settingsSaveError": {
+    "placeholders": {
+      "error": {"type": "String"}
+    }
+  },
+
+  "overallStudyStats": "Estatísticas Gerais de Estudo",
+  "totalStudy": "Estudo Total",
+  "accuracyRate": "Precisão",
+  "studyDays": "Dias de Estudo",
+  "daysCount": "{count} dias",
+  "@daysCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "studyTime": "Tempo de Estudo",
+
+  "streakRecord": "Recorde de Sequência",
+  "currentStreak": "Sequência Atual",
+  "longestStreak": "Maior Sequência",
+  "newRecord": "Você está estabelecendo um novo recorde!",
+  "weekStreak": "Uma semana de sequência! Incrível!",
+  "keepItUp": "Continue assim!",
+  "todayComplete": "Estudo de hoje completo!",
+
+  "levelDistribution": "Distribuição de Níveis",
+  "fullyMastered": "Dominado",
+  "reviewLevel4": "Nível de Revisão 4",
+  "reviewLevel3": "Nível de Revisão 3",
+  "reviewLevel2": "Nível de Revisão 2",
+  "reviewLevel1": "Nível de Revisão 1",
+  "wrongOrReset": "Errado/Redefinido",
+  "unknown": "Desconhecido",
+  "unstudied": "Não Estudado",
+  "learning": "Aprendendo",
+
+  "studyNotification": "Notificação de Estudo",
+  "dailyNotification": "Lembrete diário no horário definido",
+  "notificationOff": "Notificação desativada",
+  "notificationChannelName": "Lembrete de Estudo",
+  "notificationChannelDesc": "Lembretes diários de horário de estudo",
+  "notificationTitle": "História da Coreia em Doses",
+  "notificationBody": "Hora de começar o estudo de hoje!",
+  "notificationTime": "Horário da Notificação",
+  "selectNotificationTime": "Selecionar horário da notificação",
+  "amTime": "{hour}:{minute} AM",
+  "@amTime": {
+    "placeholders": {
+      "hour": {"type": "int"},
+      "minute": {"type": "String"}
+    }
+  },
+  "pmTime": "{hour}:{minute} PM",
+  "@pmTime": {
+    "placeholders": {
+      "hour": {"type": "int"},
+      "minute": {"type": "String"}
+    }
+  },
+
+  "wrongAnswersComingSoon": "Respostas erradas (Em breve)",
+  "noWrongAnswers": "Nenhuma resposta errada!",
+  "noWrongAnswersDesc": "Você está indo muito bem! Continue assim\ne continue construindo seu conhecimento!",
+  "wrongCount": "Errado {count} vezes",
+  "@wrongCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "correctAnswer": "Resposta Correta",
+  "yourAnswer": "Sua Resposta",
+  "explanation": "Explicação",
+
+  "nextQuestion": "Próxima Questão",
+  "sessionComplete": "Estudo de Hoje Concluído!",
+
+  "questionsCompleted": "{completed} de {total} questões concluídas",
+  "@questionsCompleted": {
+    "placeholders": {
+      "completed": {"type": "int"},
+      "total": {"type": "int"}
+    }
+  },
+
+  "eraPrehistoric": "Pré-história",
+  "eraGojoseon": "Gojoseon",
+  "eraThreeKingdoms": "Três Reinos",
+  "eraNorthSouthStates": "Estados Norte-Sul",
+  "eraGoryeo": "Goryeo",
+  "eraJoseonEarly": "Joseon Inicial",
+  "eraJoseonLate": "Joseon Tardio",
+  "eraModern": "Era Moderna",
+  "eraJapaneseOccupation": "Ocupação Japonesa",
+  "eraContemporary": "Contemporâneo",
+
+  "studied": "Estudado",
+  "masteredShort": "Dominado",
+  "studiedStats": "Estudado {studied}/{total} · Dominado {mastered}",
+  "@studiedStats": {
+    "placeholders": {
+      "studied": {"type": "int"},
+      "total": {"type": "int"},
+      "mastered": {"type": "int"}
+    }
+  },
+
+  "questionNotFound": "Questão não encontrada.",
+  "review": "Revisão",
+
+  "theoryLearning": "Teoria",
+  "learningComplete": "Concluído",
+  "correctAnswer": "Correto!",
+  "wrongAnswer": "Incorreto",
+  "quiz": "Quiz",
+  "showHint": "Mostrar Dica",
+  "imageLoadFailed": "Falha ao carregar imagem",
+  "sourceDocument": "Fonte",
+  "newShort": "Novo",
+  "itemCount": "{count}",
+  "@itemCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+
+  "premium": "Premium",
+  "removeAds": "Remover Anúncios",
+  "premiumActivated": "Premium ativado",
+  "purchase": "Comprar",
+  "restorePurchases": "Restaurar Compras",
+  "purchaseFailed": "Compra falhou",
+  "purchasesRestored": "Compras restauradas",
+  "productNotAvailable": "Produto não disponível",
+
+  "oneChapter": "1 Capítulo",
+  "twoChapters": "2 Capítulos",
+  "threeChapters": "3 Capítulos",
+
+  "notificationPermissionRequired": "Permissão de notificação necessária. Por favor, permita notificações nas configurações.",
+  "notificationSettingError": "Ocorreu um erro ao configurar a notificação.",
+  "notificationTimeSettingError": "Ocorreu um erro ao configurar o horário da notificação.",
+
+  "language": "Idioma",
+  "selectLanguage": "Selecionar Idioma",
+  "languageSystem": "Padrão do Sistema",
+  "languageKorean": "한국어",
+  "languageEnglish": "English",
+  "languageJapanese": "日本語",
+  "languageChineseSimplified": "简体中文",
+  "languageChineseTraditional": "繁體中文",
+  "languageSpanish": "Español",
+  "languagePortuguese": "Português",
+  "languageChangeRestart": "Reinicie o app para aplicar a alteração de idioma.",
+
+  "soundAndVibration": "Som e Vibração",
+  "soundEffects": "Efeitos Sonoros",
+  "soundEffectsDesc": "Reproduzir som ao acertar/errar",
+  "vibration": "Vibração",
+  "vibrationDesc": "Feedback tátil ao acertar/errar"
+}

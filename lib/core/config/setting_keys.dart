@@ -83,7 +83,8 @@ enum LanguageOption {
   japanese('ja', '日本語', 'ja'),
   chineseSimplified('zh-Hans', '简体中文', 'zh-Hans'),
   chineseTraditional('zh-Hant', '繁體中文', 'zh-Hant'),
-  spanish('es', 'Español', 'es');
+  spanish('es', 'Español', 'es'),
+  portuguese('pt', 'Português', 'pt');
 
   final String value;
   final String label;

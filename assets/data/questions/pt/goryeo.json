@@ -1,0 +1,1752 @@
+{
+  "q_goryeo_01_001": {
+    "question": "Qual par entre o fundador de Goryeo e o ano de fundação está correto?",
+    "correct": "Wang Geon - 918",
+    "wrong": [
+      "Gungye - 918",
+      "Wang Geon - 936",
+      "Gyeon Hwon - 900",
+      "Wang Geon - 892"
+    ],
+    "hint": "Ele é a pessoa que derrubou Gungye e fundou uma nova nação.",
+    "explanation": "Goryeo foi fundado em 918 quando Wang Geon derrubou Gungye. 936 foi o ano da unificação dos Três Reinos Posteriores."
+  },
+  "q_goryeo_01_002": {
+    "question": "Quais políticas essa pessoa implementou para integrar as famílias poderosas locais (hojok)?",
+    "correct": "Política de casamentos e política de concessão de sobrenomes",
+    "wrong": [
+      "Implementação do exame para o serviço público",
+      "Implementação da lei de inspeção de escravos",
+      "Estabelecimento do Jeonsigwa",
+      "Estabelecimento das Nove Províncias e Cinco Capitais Secundárias"
+    ],
+    "hint": "Ele acolheu 29 esposas e concedeu o sobrenome real 'Wang' às famílias poderosas locais.",
+    "explanation": "A foto mostra Wang Geon. Wang Geon casou-se com 29 esposas como parte de sua política de casamentos e concedeu o sobrenome real Wang às famílias poderosas locais para integrá-las."
+  },
+  "q_goryeo_01_003": {
+    "question": "Qual afirmação sobre a organização política central de Goryeo está correta?",
+    "correct": "Era um sistema de Dois Departamentos e Seis Ministérios com Jungseomunhaseong e Sangsoseong",
+    "wrong": [
+      "Era o sistema de Uijeongbu e Seis Ministérios",
+      "Era centrado no Jipsabu",
+      "Era o sistema de Nove Seodang e Dez Jeong",
+      "O Conselho Hwabaek era central"
+    ],
+    "hint": "Adotou o sistema Tang, mas o transformou de forma independente.",
+    "explanation": "Goryeo tinha Dois Departamentos - Jungseomunhaseong (deliberação de políticas) e Sangsoseong (execução de políticas) - com Seis Ministérios subordinados. Também operava instituições próprias como Jungchuwon e Samsa."
+  },
+  "q_goryeo_01_004": {
+    "question": "Com base na seguinte fonte, qual sistema de Goryeo está sendo descrito?",
+    "source": "Os filhos das famílias poderosas locais eram mantidos como reféns em Gaegyeong para controlar os poderes regionais.",
+    "correct": "Sistema Giin (Sistema de Reféns)",
+    "wrong": [
+      "Sistema Sasimgwan",
+      "Exame para o Serviço Público",
+      "Sistema Eumseo",
+      "Jeonsigwa"
+    ],
+    "hint": "Era um sistema que mantinha os 'filhos' das famílias poderosas locais na capital.",
+    "explanation": "O Sistema Giin mantinha os filhos das famílias poderosas locais como reféns em Gaegyeong para controlar os poderes regionais. O Sistema Sasimgwan designava funcionários centrais para supervisionar suas regiões de origem."
+  },
+  "q_goryeo_01_005": {
+    "question": "Quais foram as realizações dessa pessoa?",
+    "correct": "Implementou o exame para o serviço público e a lei de inspeção de escravos",
+    "wrong": [
+      "Unificou os Três Reinos Posteriores",
+      "Deixou as Dez Injunções",
+      "Transferiu a capital para a Ilha de Ganghwa",
+      "Realizou a Retirada de Wihwado"
+    ],
+    "hint": "Ele foi o 4º rei de Goryeo que enfraqueceu as famílias poderosas para fortalecer a autoridade real.",
+    "explanation": "A foto mostra o Rei Gwangjong. O Rei Gwangjong implementou o exame para o serviço público para recrutar novos talentos e a lei de inspeção de escravos (Nobi Angeombeop) para enfraquecer as famílias poderosas e fortalecer a autoridade real."
+  },
+  "q_goryeo_01_006": {
+    "question": "Quais eram as instituições políticas exclusivas de Goryeo?",
+    "correct": "Dobyeongmasa e Sikmokdogam",
+    "wrong": [
+      "Jipsabu e Sangdaedeung",
+      "Uijeongbu e Seis Ministérios",
+      "Conselho Hwabaek",
+      "Nove Seodang e Dez Jeong"
+    ],
+    "hint": "Eram órgãos consultivos exclusivos de Goryeo que tratavam de assuntos militares e leis.",
+    "explanation": "Dobyeongmasa (assuntos militares e estatais) e Sikmokdogam (leis e regulamentos) eram órgãos consultivos exclusivos de Goryeo, frequentados por altos funcionários de Jungseomunhaseong e Jungchuwon."
+  },
+  "q_goryeo_01_007": {
+    "question": "Qual era o nome das instruções que Wang Geon deixou para os futuros reis?",
+    "correct": "Dez Injunções (Hunyo 10-jo)",
+    "wrong": [
+      "Gyeongguk Daejeon",
+      "Sokdaejeon",
+      "Samgang Haengsildo",
+      "Dongguk Tonggam"
+    ],
+    "hint": "Era um testamento contendo 10 ensinamentos (Hunyo).",
+    "explanation": "As Dez Injunções eram dez instruções que Wang Geon deixou para os futuros reis, contendo orientações como reverenciar o budismo, limitar a construção de templos e rejeitar os Khitan."
+  },
+  "q_goryeo_01_008": {
+    "question": "Qual sistema administrativo local de Goryeo este mapa mostra?",
+    "correct": "Cinco Províncias e Dois Distritos de Fronteira (5-do Yanggye)",
+    "wrong": [
+      "Nove Províncias e Cinco Capitais Secundárias",
+      "Vinte e Dois Damno",
+      "Oito Províncias",
+      "Cinco Capitais, Quinze Prefeituras, Sessenta e Dois Distritos"
+    ],
+    "hint": "Era um sistema dividido em 5 regiões administrativas gerais e 2 regiões militares do norte.",
+    "explanation": "O mapa mostra o sistema de Cinco Províncias e Dois Distritos de Fronteira de Goryeo. O país era dividido em Cinco Províncias (regiões administrativas) e Dois Distritos de Fronteira (regiões militares) para governança."
+  },
+  "q_goryeo_01_009": {
+    "question": "Qual afirmação sobre os distritos administrativos especiais de Goryeo - Hyang, Bugok e So - está correta?",
+    "correct": "Eram distritos que recebiam tratamento inferior ao dos condados regulares",
+    "wrong": [
+      "Eram distritos especiais onde aristocratas residiam",
+      "Eram distritos religiosos onde monges residiam",
+      "Eram distritos de assentamento onde estrangeiros residiam",
+      "Eram territórios governados por membros da família real"
+    ],
+    "hint": "Eram regiões especiais onde os moradores se dedicavam à agricultura ou ao artesanato e enfrentavam discriminação.",
+    "explanation": "Hyang, Bugok e So eram distritos administrativos especiais de Goryeo que recebiam tratamento inferior ao dos condados regulares. Os moradores se dedicavam à agricultura (Hyang, Bugok) ou ao artesanato (So)."
+  },
+  "q_goryeo_01_010": {
+    "question": "Em que ano Goryeo unificou os Três Reinos Posteriores?",
+    "correct": "936",
+    "wrong": [
+      "918",
+      "926",
+      "956",
+      "892"
+    ],
+    "hint": "Foi 18 anos após a fundação de Goryeo (918).",
+    "explanation": "Goryeo unificou os Três Reinos Posteriores em 936 ao destruir Baekje Posterior. 918 foi o ano de fundação de Goryeo, e 926 foi o ano da queda de Balhae."
+  },
+  "q_goryeo_01_011": {
+    "question": "Com base na seguinte fonte, qual sistema de Goryeo está sendo descrito?",
+    "source": "Funcionários centrais supervisionavam suas regiões de origem para complementar a administração local.",
+    "correct": "Sistema Sasimgwan",
+    "wrong": [
+      "Sistema Giin",
+      "Exame para o Serviço Público",
+      "Jeonsigwa",
+      "Sistema Eumseo"
+    ],
+    "hint": "Significa funcionários que 'examinam com o coração' suas regiões de origem.",
+    "explanation": "O Sistema Sasimgwan designava funcionários centrais para supervisionar suas regiões de origem. Era utilizado para administrar condados subordinados onde funcionários locais não eram designados."
+  },
+  "q_goryeo_01_012": {
+    "question": "Quais funcionários foram designados para as províncias durante o reinado do Rei Seongjong?",
+    "correct": "Funcionários locais designados para 12 Mok",
+    "wrong": [
+      "Governadores designados para Cinco Províncias",
+      "Inspetores designados para Oito Províncias",
+      "Membros da família real designados para Vinte e Dois Damno",
+      "Governadores-gerais designados para Nove Províncias"
+    ],
+    "hint": "Funcionários locais foram designados para 12 grandes regiões pela primeira vez.",
+    "explanation": "Durante o reinado do Rei Seongjong, funcionários locais foram designados para 12 Mok, grandes regiões por todo o país, para fortalecer a governança local. O sistema administrativo local foi gradualmente organizado a partir de então."
+  },
+  "q_goryeo_02_001": {
+    "question": "Qual era uma característica das famílias aristocráticas de Goryeo (Munbeol Gwijok)?",
+    "correct": "Monopolizavam cargos governamentais por meio de exames civis e Eumseo",
+    "wrong": [
+      "O status era determinado pela classificação óssea",
+      "Apenas os true-bone podiam ingressar no serviço público",
+      "Tomaram o poder pela força militar",
+      "Tinham direitos de sucessão ao trono"
+    ],
+    "hint": "Mantinham o poder por meio de exames (gwageo) e privilégios familiares (eumseo).",
+    "explanation": "As famílias aristocráticas de Goryeo monopolizavam cargos governamentais por meio de exames civis e Eumseo (nomeação de descendentes de altos funcionários), e mantinham o poder herdando Gongeumeun (concessões hereditárias de terras)."
+  },
+  "q_goryeo_02_002": {
+    "question": "Quais foram as atividades dessa pessoa?",
+    "correct": "Adquiriu os Seis Assentamentos de Guarnição a leste do Yalu por meio de negociação diplomática durante a primeira invasão Khitan",
+    "wrong": [
+      "Derrotou o exército Khitan na Batalha de Gwiju",
+      "Suprimiu a Rebelião de Myocheong",
+      "Iniciou o Golpe dos Oficiais Militares",
+      "Liderou o Sambyeolcho"
+    ],
+    "hint": "Ele foi um mestre da diplomacia que conquistou terras por meio de palavras.",
+    "explanation": "A foto mostra Seo Hui. Seo Hui adquiriu os Seis Assentamentos de Guarnição (Gangdong 6-ju) por meio de negociações diplomáticas com os Khitan durante sua primeira invasão em 993."
+  },
+  "q_goryeo_02_003": {
+    "question": "Qual afirmação sobre a Rebelião de Yi Ja-gyeom está correta?",
+    "correct": "Foi um evento em 1126 quando os parentes maternos tentaram monopolizar o poder",
+    "wrong": [
+      "Foi um evento em que oficiais militares tomaram o poder",
+      "Foi um evento que defendia a transferência da capital para Seogyeong",
+      "Foi um evento de resistência contra os mongóis",
+      "Foi um evento em que escravos exigiram libertação"
+    ],
+    "hint": "Foi um evento em que os parentes maternos do rei tentaram monopolizar o poder, mas falharam.",
+    "explanation": "A Rebelião de Yi Ja-gyeom (1126) foi um evento em que o parente materno Yi Ja-gyeom tentou monopolizar o poder, mas falhou, mostrando a instabilidade da sociedade aristocrática."
+  },
+  "q_goryeo_02_004": {
+    "question": "Com base na seguinte fonte, qual evento está sendo descrito?",
+    "source": "Ele construiu o Palácio Daehwa em Seogyeong e afirmou que se a capital fosse transferida para lá, a Dinastia Jin se renderia por conta própria, mas foi suprimido pelas forças de Gaegyeong.",
+    "correct": "Rebelião de Myocheong",
+    "wrong": [
+      "Rebelião de Yi Ja-gyeom",
+      "Golpe dos Oficiais Militares",
+      "Rebelião de Manjok",
+      "Resistência do Sambyeolcho"
+    ],
+    "hint": "Foi um evento em que um monge defendeu a transferência da capital para Seogyeong (Pyongyang) e o uso de nomes de era independentes.",
+    "explanation": "A Rebelião de Myocheong (1135) foi um evento em que Myocheong defendeu a transferência da capital para Seogyeong e o uso de títulos imperiais e nomes de era independentes, mas foi suprimido por Kim Bu-sik."
+  },
+  "q_goryeo_02_005": {
+    "question": "Qual foi a ocasião para Goryeo adquirir a região marcada neste mapa?",
+    "correct": "Negociação diplomática de Seo Hui",
+    "wrong": [
+      "Batalha de Gwiju de Gang Gam-chan",
+      "Atividades do Byeolmuban de Yun Gwan",
+      "Campanha de Liaodong de Choe Yeong",
+      "Retirada de Wihwado de Yi Seong-gye"
+    ],
+    "hint": "Foram as 6 províncias a leste do Rio Yalu conquistadas por meio de negociações com os Khitan em 993.",
+    "explanation": "O mapa mostra os Seis Assentamentos de Guarnição (Gangdong 6-ju). Seo Hui os adquiriu por meio de negociações diplomáticas com os Khitan em 993."
+  },
+  "q_goryeo_02_006": {
+    "question": "Qual foi a sequência da repulsão dos Khitan por Goryeo?",
+    "correct": "Primeira invasão (negociação de Seo Hui) → Segunda invasão (Gaegyeong cai) → Terceira invasão (Batalha de Gwiju)",
+    "wrong": [
+      "Primeira invasão (Batalha de Gwiju) → Segunda invasão (negociação de Seo Hui) → Terceira invasão (Gaegyeong cai)",
+      "Primeira invasão (Gaegyeong cai) → Segunda invasão (Batalha de Gwiju) → Terceira invasão (negociação de Seo Hui)",
+      "Primeira invasão (negociação de Seo Hui) → Segunda invasão (Batalha de Gwiju) → Terceira invasão (Gaegyeong cai)",
+      "Primeira invasão (Batalha de Gwiju) → Segunda invasão (Gaegyeong cai) → Terceira invasão (negociação de Seo Hui)"
+    ],
+    "hint": "A ordem é: Seo Hui → evacuação do Rei Hyeonjong → vitória de Gang Gam-chan.",
+    "explanation": "Os Khitan invadiram em 993 (primeira), 1010 (segunda) e 1018 (terceira). A negociação de Seo Hui ocorreu na primeira invasão, Gaegyeong caiu na segunda e a Batalha de Gwiju de Gang Gam-chan na terceira."
+  },
+  "q_goryeo_02_007": {
+    "question": "Quem suprimiu a Rebelião de Myocheong?",
+    "correct": "Kim Bu-sik",
+    "wrong": [
+      "Seo Hui",
+      "Gang Gam-chan",
+      "Yun Gwan",
+      "Choe Chung-heon"
+    ],
+    "hint": "Ele foi o funcionário civil que compilou o Samguk Sagi.",
+    "explanation": "A Rebelião de Myocheong (1135) foi suprimida pelas forças governamentais lideradas por Kim Bu-sik. Kim Bu-sik também compilou o Samguk Sagi."
+  },
+  "q_goryeo_02_008": {
+    "question": "Quais foram as realizações dessa pessoa?",
+    "correct": "Derrotou decisivamente o exército Khitan em Gwiju",
+    "wrong": [
+      "Adquiriu os Seis Assentamentos de Guarnição",
+      "Organizou o Byeolmuban",
+      "Suprimiu a Rebelião de Myocheong",
+      "Iniciou o Golpe dos Oficiais Militares"
+    ],
+    "hint": "Ele foi o herói da 'Batalha de Gwiju' em 1019.",
+    "explanation": "A foto mostra Gang Gam-chan. Gang Gam-chan derrotou decisivamente a terceira invasão Khitan na Batalha de Gwiju em 1019, salvando Goryeo."
+  },
+  "q_goryeo_02_009": {
+    "question": "Qual força militar Yun Gwan organizou para conquistar os Jurchen?",
+    "correct": "Byeolmuban",
+    "wrong": [
+      "Sambyeolcho",
+      "Nove Seodang",
+      "Dez Jeong",
+      "Hwarangdo"
+    ],
+    "hint": "Era uma força especial composta por Singigun (cavalaria), Sinbogun (infantaria) e Hangmagun (monges).",
+    "explanation": "Yun Gwan organizou o Byeolmuban para conquistar os Jurchen. Era composto por cavalaria (Singigun), infantaria (Sinbogun) e monges (Hangmagun)."
+  },
+  "q_goryeo_02_010": {
+    "question": "Qual era o nome da terra que as famílias aristocráticas de Goryeo podiam herdar?",
+    "correct": "Gongeumeun",
+    "wrong": [
+      "Gwanryojeon",
+      "Nokup",
+      "Gwajeon",
+      "Dunjeon"
+    ],
+    "hint": "Era uma terra concedida a funcionários de 5ª classe ou superior que podia ser transmitida aos descendentes.",
+    "explanation": "Gongeumeun era uma terra concedida a funcionários de 5ª classe ou superior que podia ser herdada pelos descendentes. As famílias aristocráticas mantinham sua base econômica por meio do Gongeumeun."
+  },
+  "q_goryeo_02_011": {
+    "question": "Qual evento está relacionado à região marcada neste mapa?",
+    "correct": "Myocheong defendeu a transferência da capital para Seogyeong",
+    "wrong": [
+      "Seo Hui conduziu negociações diplomáticas",
+      "Gang Gam-chan derrotou o exército Khitan",
+      "O Sambyeolcho resistiu",
+      "Wang Geon fundou Goryeo"
+    ],
+    "hint": "É a região relacionada à rebelião que ocorreu em Pyongyang em 1135.",
+    "explanation": "O mapa mostra a região de Seogyeong (Pyongyang) relacionada à Rebelião de Myocheong. Myocheong defendeu a transferência da capital para Seogyeong e o uso de títulos imperiais, mas foi suprimido por Kim Bu-sik em 1135."
+  },
+  "q_goryeo_02_012": {
+    "question": "Qual foi o contexto do Golpe dos Oficiais Militares?",
+    "correct": "O tratamento preferencial aos funcionários civis e a discriminação contra os oficiais militares se intensificaram",
+    "wrong": [
+      "As invasões Khitan continuaram",
+      "A interferência mongol se fortaleceu",
+      "As invasões de piratas japoneses eram frequentes",
+      "Rebeliões de famílias poderosas locais ocorreram"
+    ],
+    "hint": "Os funcionários civis que escreviam eram elevados, enquanto os oficiais militares que empunhavam espadas eram rebaixados.",
+    "explanation": "O Golpe dos Oficiais Militares (1170) foi um evento em que oficiais militares como Jeong Jung-bu realizaram um golpe devido à discriminação contra os oficiais militares na política centrada em funcionários civis."
+  },
+  "q_goryeo_03_001": {
+    "question": "Em que ano ocorreu o Golpe dos Oficiais Militares?",
+    "correct": "1170",
+    "wrong": [
+      "1126",
+      "1135",
+      "1196",
+      "1232"
+    ],
+    "hint": "Foi o ano em que Jeong Jung-bu, Yi Ui-bang e outros depuseram o Rei Uijong.",
+    "explanation": "O Golpe dos Oficiais Militares ocorreu em 1170 quando oficiais militares incluindo Jeong Jung-bu e Yi Ui-bang depuseram o Rei Uijong e tomaram o poder."
+  },
+  "q_goryeo_03_002": {
+    "question": "Qual afirmação sobre a era mostrada nesta ilustração está correta?",
+    "correct": "Os oficiais militares tomaram o poder e tornaram o rei uma figura decorativa",
+    "wrong": [
+      "As famílias aristocráticas lideravam a política",
+      "A autoridade real foi grandemente fortalecida",
+      "Houve interferência de Yuan",
+      "Os letrados neoconfucionistas cresceram em poder"
+    ],
+    "hint": "Foi uma era em que os oficiais militares detinham o poder e o rei era apenas nominal.",
+    "explanation": "A imagem retrata o período de governo militar. Após o Golpe dos Oficiais Militares, os oficiais militares tomaram o poder e o rei tornou-se uma figura decorativa."
+  },
+  "q_goryeo_03_003": {
+    "question": "Qual foi a sequência do desenvolvimento do governo militar?",
+    "correct": "Jeong Jung-bu → Gyeong Dae-seung → Yi Ui-min → Choe Chung-heon",
+    "wrong": [
+      "Choe Chung-heon → Jeong Jung-bu → Gyeong Dae-seung → Yi Ui-min",
+      "Yi Ui-min → Gyeong Dae-seung → Jeong Jung-bu → Choe Chung-heon",
+      "Gyeong Dae-seung → Jeong Jung-bu → Choe Chung-heon → Yi Ui-min",
+      "Jeong Jung-bu → Choe Chung-heon → Gyeong Dae-seung → Yi Ui-min"
+    ],
+    "hint": "Lembre-se como 'Jeong-Gyeong-Yi-Choe.'",
+    "explanation": "O poder do governo militar foi transferido de Jeong Jung-bu → Gyeong Dae-seung → Yi Ui-min → Choe Chung-heon. Após Choe Chung-heon, o regime da família Choe durou cerca de 60 anos."
+  },
+  "q_goryeo_03_004": {
+    "question": "Com base na seguinte fonte, qual instituição de Goryeo está sendo descrita?",
+    "source": "Como a instituição suprema de poder que controlava todos os assuntos de Estado, foi estabelecida durante o regime Choe e supervisionava pessoal e políticas.",
+    "correct": "Gyojeong Dogam",
+    "wrong": [
+      "Jeongbang",
+      "Sambyeolcho",
+      "Dobyeongmasa",
+      "Sikmokdogam"
+    ],
+    "hint": "Era uma instituição para 'corrigir a política' estabelecida por Choe Chung-heon.",
+    "explanation": "Gyojeong Dogam era a instituição suprema de poder estabelecida por Choe Chung-heon, controlando todos os assuntos de Estado. Jeongbang era a instituição de pessoal, e Sambyeolcho era o exército particular."
+  },
+  "q_goryeo_03_005": {
+    "question": "Qual instituição essa pessoa estabeleceu?",
+    "correct": "Gyojeong Dogam",
+    "wrong": [
+      "Jeongbang",
+      "Sambyeolcho",
+      "Dobyeongmasa",
+      "Jeongdong Haengseong"
+    ],
+    "hint": "Era a instituição suprema de poder criada pela pessoa que inaugurou o regime militar Choe.",
+    "explanation": "A foto mostra Choe Chung-heon. Choe Chung-heon estabeleceu o Gyojeong Dogam (instituição suprema de poder) para tomar o poder. Jeongbang (pessoal) e Sambyeolcho (exército particular) foram estabelecidos por seu filho Choe U."
+  },
+  "q_goryeo_03_006": {
+    "question": "Quais rebeliões de camponeses e pessoas de baixa condição ocorreram durante o período de governo militar?",
+    "correct": "Rebelião de Manjok, Rebelião de Mangi e Mangso",
+    "wrong": [
+      "Rebelião de Myocheong, Rebelião de Yi Ja-gyeom",
+      "Resistência do Sambyeolcho, invasão dos Turbantes Vermelhos",
+      "Guerra Imjin, Guerra Byeongja",
+      "Movimento Camponês Donghak, Golpe de Gapsin"
+    ],
+    "hint": "Foram levantes em que escravos e pessoas de baixa condição exigiram libertação de status.",
+    "explanation": "Durante o período de governo militar, rebeliões de camponeses e pessoas de baixa condição eram frequentes devido à exploração pela classe dominante. A Rebelião de Manjok (movimento de libertação de escravos) e a Rebelião de Mangi e Mangso (Gongju Myeonghakso) são representativas."
+  },
+  "q_goryeo_03_007": {
+    "question": "Qual era o nome do exército particular do regime Choe?",
+    "correct": "Sambyeolcho",
+    "wrong": [
+      "Byeolmuban",
+      "Nove Seodang",
+      "Hwarangdo",
+      "Hullyeon Dogam"
+    ],
+    "hint": "Era o exército da família Choe composto por três unidades: Yabyeolcho e Sinuigun.",
+    "explanation": "Sambyeolcho era o exército particular do regime Choe, composto por Yabyeolcho (Byeolcho Esquerdo e Direito) e Sinuigun. Posteriormente tornou-se a força principal na resistência anti-mongol."
+  },
+  "q_goryeo_03_008": {
+    "question": "Qual era a natureza da Rebelião de Manjok?",
+    "correct": "Um levante em que escravos exigiram libertação de status",
+    "wrong": [
+      "Um evento em que oficiais militares tomaram o poder",
+      "Luta pelo poder entre famílias aristocráticas",
+      "Resistência contra invasão estrangeira",
+      "Uma rebelião de seita religiosa"
+    ],
+    "hint": "Foi uma rebelião de escravos em que gritaram 'Generais e ministros não nascem de sementes diferentes.'",
+    "explanation": "A Rebelião de Manjok (1198) foi um levante em que Manjok, um escravo de Choe Chung-heon, proclamou 'Generais e ministros nascem de sementes diferentes?' e exigiu a libertação dos escravos, mas foi descoberta antes e fracassou."
+  },
+  "q_goryeo_03_009": {
+    "question": "Qual instituição era responsável pelo pessoal durante o regime Choe?",
+    "correct": "Jeongbang",
+    "wrong": [
+      "Gyojeong Dogam",
+      "Sambyeolcho",
+      "Dobyeongmasa",
+      "Jungchuwon"
+    ],
+    "hint": "Era uma instituição de pessoal que Choe U estabeleceu em sua própria casa.",
+    "explanation": "Jeongbang era uma instituição de pessoal estabelecida por Choe U, filho de Choe Chung-heon. Cuidava das nomeações civis e militares e tornou-se a base de poder do regime Choe."
+  },
+  "q_goryeo_03_010": {
+    "question": "Qual evento desencadeou diretamente o Golpe dos Oficiais Militares?",
+    "correct": "Incidente de Bohyeonwon",
+    "wrong": [
+      "Rebelião de Manjok",
+      "Rebelião de Myocheong",
+      "Rebelião de Yi Ja-gyeom",
+      "Resistência do Sambyeolcho"
+    ],
+    "hint": "Foi um evento humilhante em que um funcionário civil queimou a barba de um oficial militar.",
+    "explanation": "O Incidente de Bohyeonwon ocorreu quando um funcionário civil queimou a barba de um oficial militar durante um banquete do Rei Uijong em Bohyeonwon, desencadeando diretamente o Golpe dos Oficiais Militares."
+  },
+  "q_goryeo_03_011": {
+    "question": "Com base na seguinte fonte, qual pessoa está sendo descrita?",
+    "source": "Um literato do período de governo militar que atuou durante o regime Choe e escreveu 'Dongmyeong Wangpyeon' expressando a consciência de sucessão de Goguryeo.",
+    "correct": "Yi Gyu-bo",
+    "wrong": [
+      "Kim Bu-sik",
+      "Iryeon",
+      "Yi Je-hyeon",
+      "Jeong Mong-ju"
+    ],
+    "hint": "Ele foi um literato que compôs um poema épico sobre Dongmyeong Wang, o herói fundador de Goguryeo.",
+    "explanation": "Yi Gyu-bo foi um literato representativo do período de governo militar que expressou consciência nacional por meio do 'Dongmyeong Wangpyeon', um poema épico sobre o mito de fundação de Goguryeo."
+  },
+  "q_goryeo_03_012": {
+    "question": "Qual era uma característica do período de governo militar?",
+    "correct": "A autoridade real enfraqueceu e os oficiais militares monopolizaram o poder",
+    "wrong": [
+      "A autoridade real se fortaleceu e funcionários civis foram empregados",
+      "A autonomia enfraqueceu devido à interferência de Yuan",
+      "Os letrados neoconfucionistas lideraram a política",
+      "O exame para o serviço público foi abolido"
+    ],
+    "hint": "Foi uma era em que o rei era apenas nominal e os oficiais militares detinham todo o poder.",
+    "explanation": "Durante o período de governo militar, o rei tornou-se uma figura decorativa e os oficiais militares monopolizaram o poder. Especialmente durante os mais de 60 anos do regime Choe, a família Choe herdou o poder."
+  },
+  "q_goryeo_04_001": {
+    "question": "Para onde Goryeo transferiu sua capital para resistir à invasão mongol?",
+    "correct": "Ilha de Ganghwa",
+    "wrong": [
+      "Hanyang",
+      "Pyongyang",
+      "Gyeongju",
+      "Buyeo"
+    ],
+    "hint": "Era uma ilha que a cavalaria mongol não conseguia atravessar a cavalo.",
+    "explanation": "Goryeo transferiu sua capital para a Ilha de Ganghwa em 1232 para resistir à invasão mongol. Essa estratégia explorou a fraqueza dos mongóis em guerra naval."
+  },
+  "q_goryeo_04_002": {
+    "question": "Qual afirmação sobre o local mostrado nesta foto está correta?",
+    "correct": "Foi onde a resistência contra a invasão mongol continuou por 39 anos",
+    "wrong": [
+      "Foi onde Goryeo foi fundada",
+      "Foi onde os Três Reinos Posteriores foram unificados",
+      "Foi onde ocorreu o Golpe dos Oficiais Militares",
+      "Foi onde o Sambyeolcho fez sua última resistência"
+    ],
+    "hint": "Foi a ilha onde a corte de Goryeo permaneceu de 1232 a 1270.",
+    "explanation": "A foto mostra a Ilha de Ganghwa. De 1232 a 1270, por cerca de 39 anos, a corte de Goryeo resistiu aos mongóis a partir da Ilha de Ganghwa."
+  },
+  "q_goryeo_04_003": {
+    "question": "Qual foi a resistência do povo durante o período anti-mongol?",
+    "correct": "Kim Yun-hu matou o general mongol Sartaq na Fortaleza de Cheoin",
+    "wrong": [
+      "Gang Gam-chan derrotou o exército khitan em Gwiju",
+      "Yi Sun-sin derrotou os japoneses na Ilha de Hansan",
+      "Gwon Yul derrotou os japoneses na Fortaleza de Haengju",
+      "Eulji Mundeok derrotou a marinha Sui em Salsu"
+    ],
+    "hint": "Foi uma batalha em que um monge guerreiro matou o comandante mongol com uma flecha.",
+    "explanation": "Na Batalha da Fortaleza de Cheoin (1232), o monge guerreiro Kim Yun-hu matou o general mongol Sartaq, repelindo a segunda invasão mongol."
+  },
+  "q_goryeo_04_004": {
+    "question": "Com base na seguinte fonte, qual patrimônio cultural está sendo descrito?",
+    "source": "A Tripitaka foi refeita com a esperança de repelir os mongóis através do poder de Buda. Atualmente está armazenada no Templo de Haeinsa.",
+    "correct": "Tripitaka Koreana (Palman Daejanggyeong, Segunda Tripitaka)",
+    "wrong": [
+      "Primeira Tripitaka",
+      "Jikji Simche Yojeol",
+      "Sutra Dharani da Luz Pura",
+      "Samguk Yusa"
+    ],
+    "hint": "É a Tripitaka que foi refeita, esculpida em cerca de 80.000 blocos de madeira.",
+    "explanation": "A Tripitaka Koreana (Segunda Tripitaka) foi criada durante o período da invasão mongol com a esperança de repelir o inimigo através do poder de Buda. Atualmente está armazenada no Templo de Haeinsa."
+  },
+  "q_goryeo_04_005": {
+    "question": "Qual afirmação sobre este artefato na foto está correta?",
+    "correct": "É a Tripitaka feita para repelir a invasão mongol",
+    "wrong": [
+      "Foi feita para repelir a invasão khitan",
+      "Foi impressa com tipos móveis de metal",
+      "Foi feita durante Silla Unificada",
+      "Foi transmitida do Japão"
+    ],
+    "hint": "Foi uma Tripitaka em blocos de madeira feita ao longo de 16 anos durante o período de refúgio na Ilha de Ganghwa.",
+    "explanation": "A foto mostra a Tripitaka Koreana (Segunda Tripitaka). Foi feita em blocos de madeira durante o período da invasão mongol (1236-1251) com a esperança de repelir o inimigo através do poder de Buda."
+  },
+  "q_goryeo_04_006": {
+    "question": "Em que ano Goryeo retornou a Gaegyeong e por quê?",
+    "correct": "1270, o regime militar entrou em colapso e o Rei Wonjong decidiu retornar",
+    "wrong": [
+      "1259, o exército mongol se retirou completamente",
+      "1270, o Sambyeolcho se rendeu",
+      "1280, Yuan anexou Goryeo",
+      "1290, o Rei Gongmin adotou política anti-Yuan"
+    ],
+    "hint": "Foi o ano em que o regime Choe entrou em colapso e o rei decidiu retornar à capital.",
+    "explanation": "Em 1270, o regime militar entrou em colapso e o Rei Wonjong decidiu retornar a Gaegyeong. O Sambyeolcho, opondo-se a isso, iniciou sua resistência."
+  },
+  "q_goryeo_04_007": {
+    "question": "Qual foi a rota de deslocamento da Resistência Sambyeolcho?",
+    "correct": "Ilha de Ganghwa → Jindo → Ilha de Jeju",
+    "wrong": [
+      "Gaegyeong → Ilha de Ganghwa → Jindo",
+      "Jindo → Ilha de Jeju → Tamna",
+      "Ilha de Jeju → Jindo → Ilha de Ganghwa",
+      "Ilha de Ganghwa → Ilha de Jeju → Jindo"
+    ],
+    "hint": "Eles resistiram enquanto se deslocavam para ilhas cada vez mais ao sul.",
+    "explanation": "O Sambyeolcho se levantou na Ilha de Ganghwa em 1270 e se deslocou para Jindo. Após a queda de Jindo em 1271, mudaram-se para a Ilha de Jeju e resistiram até 1273."
+  },
+  "q_goryeo_04_008": {
+    "question": "Qual afirmação sobre a resistência mostrada neste mapa está correta?",
+    "correct": "O Sambyeolcho continuou a resistência anti-mongol em oposição ao retorno a Gaegyeong",
+    "wrong": [
+      "Oficiais militares tomaram o poder",
+      "Myocheong defendeu a transferência da capital para Seogyeong",
+      "Os Turbantes Vermelhos invadiram",
+      "Piratas japoneses atacaram"
+    ],
+    "hint": "Foi uma resistência em que o exército do regime Choe lutou contra os mongóis até o fim.",
+    "explanation": "O mapa mostra a rota da Resistência Sambyeolcho. Sob o comando de Bae Jung-son, o Sambyeolcho se deslocou da Ilha de Ganghwa → Jindo → Ilha de Jeju, resistindo até 1273."
+  },
+  "q_goryeo_04_009": {
+    "question": "Qual afirmação sobre a batalha retratada nesta ilustração está correta?",
+    "correct": "Kim Yun-hu matou o general mongol na Fortaleza de Cheoin",
+    "wrong": [
+      "Gang Gam-chan derrotou o exército khitan em Gwiju",
+      "Seo Hui adquiriu as Seis Guarnições por meio da diplomacia",
+      "Yun Gwan conquistou os jurchen com o Byeolmuban",
+      "Bae Jung-son liderou o Sambyeolcho na resistência"
+    ],
+    "hint": "Foi uma vitória representativa na resistência anti-mongol perto de Yongin.",
+    "explanation": "A imagem retrata a Batalha da Fortaleza de Cheoin. Em 1232, o monge guerreiro Kim Yun-hu matou o general mongol Sartaq na Fortaleza de Cheoin."
+  },
+  "q_goryeo_04_010": {
+    "question": "Com que propósito a Primeira Tripitaka foi criada?",
+    "correct": "Para repelir a invasão khitan",
+    "wrong": [
+      "Para repelir a invasão mongol",
+      "Para repelir a invasão jurchen",
+      "Para repelir a invasão de piratas japoneses",
+      "Para repelir a invasão dos Turbantes Vermelhos"
+    ],
+    "hint": "Foi a primeira Tripitaka feita durante o reinado do Rei Hyeonjong.",
+    "explanation": "A Primeira Tripitaka foi criada a partir do reinado do Rei Hyeonjong para repelir a invasão khitan. No entanto, foi perdida durante a invasão mongol, levando à criação da Tripitaka Koreana."
+  },
+  "q_goryeo_04_011": {
+    "question": "Em que ano a Resistência Sambyeolcho foi suprimida?",
+    "correct": "1273",
+    "wrong": [
+      "1270",
+      "1271",
+      "1280",
+      "1290"
+    ],
+    "hint": "Foi o ano em que foram suprimidos após sua última resistência na Ilha de Jeju.",
+    "explanation": "O Sambyeolcho se levantou na Ilha de Ganghwa em 1270, deslocou-se para Jindo e a Ilha de Jeju enquanto resistia, e foi suprimido pelas forças aliadas de Goryeo e dos mongóis em 1273."
+  },
+  "q_goryeo_04_012": {
+    "question": "Quem liderou a Resistência Sambyeolcho?",
+    "correct": "Bae Jung-son",
+    "wrong": [
+      "Choe Chung-heon",
+      "Kim Yun-hu",
+      "Gang Gam-chan",
+      "Choe Yeong"
+    ],
+    "hint": "Ele foi o comandante que entronizou um membro da família real como novo rei e se levantou na Ilha de Ganghwa.",
+    "explanation": "A Resistência Sambyeolcho foi comandada por Bae Jung-son. Bae Jung-son entronizou o Príncipe On, Seunghwahu, como rei e se levantou na Ilha de Ganghwa para continuar a resistência anti-mongol."
+  },
+  "q_goryeo_05_001": {
+    "question": "Qual foi o período de interferência de Yuan?",
+    "correct": "1270-1356",
+    "wrong": [
+      "1170-1270",
+      "1356-1392",
+      "918-1170",
+      "1392-1592"
+    ],
+    "hint": "Abrange desde o retorno a Gaegyeong até o início da política anti-Yuan do Rei Gongmin.",
+    "explanation": "O período de interferência de Yuan durou cerca de 90 anos, desde o retorno a Gaegyeong em 1270 até o início da política anti-Yuan do Rei Gongmin em 1356."
+  },
+  "q_goryeo_05_002": {
+    "question": "Qual afirmação sobre o período mostrado neste mapa está correta?",
+    "correct": "Yuan estabeleceu Jeongdong Haengseong e interferiu nos assuntos internos de Goryeo",
+    "wrong": [
+      "Os khitan invadiram três vezes",
+      "Resistência contra os mongóis a partir da Ilha de Ganghwa",
+      "Piratas japoneses invadiam frequentemente",
+      "Os Turbantes Vermelhos ocuparam Gaegyeong"
+    ],
+    "hint": "Foi o período em que Yuan estabeleceu escritórios em Goryeo e interferiu nos assuntos internos.",
+    "explanation": "O mapa mostra o período de interferência de Yuan. Yuan estabeleceu Jeongdong Haengseong e despachou Darughachi para interferir nos assuntos internos de Goryeo."
+  },
+  "q_goryeo_05_003": {
+    "question": "Que mudanças ocorreram durante o período de interferência de Yuan?",
+    "correct": "Títulos reais foram rebaixados e os sistemas governamentais foram reduzidos",
+    "wrong": [
+      "A autoridade real se fortaleceu",
+      "Famílias aristocráticas cresceram",
+      "O regime militar foi estabelecido",
+      "Letrados neoconfucionistas tomaram o poder"
+    ],
+    "hint": "'Pyeha' tornou-se 'Jeonha' e o caractere 'Chung' foi adicionado aos nomes dos reis.",
+    "explanation": "Durante o período de interferência de Yuan, os títulos reais foram rebaixados (Pyeha→Jeonha), os reis usaram o caractere 'Chung' em seus nomes (Chungyeol, Chungseon, etc.) e os Seis Ministérios foram reduzidos a Quatro Escritórios."
+  },
+  "q_goryeo_05_004": {
+    "question": "Com base na seguinte fonte, qual grupo está sendo descrito?",
+    "source": "Eles possuíam grandes propriedades usando suas conexões com Yuan e monopolizaram o poder controlando o Dopyeonguisasa.",
+    "correct": "Gwonmun Sejok (Famílias Poderosas)",
+    "wrong": [
+      "Munbeol Gwijok",
+      "Letrados Neoconfucionistas",
+      "Hojok",
+      "Oficiais Militares"
+    ],
+    "hint": "Eram um grupo que tomou o poder e terras com o apoio de Yuan.",
+    "explanation": "Gwonmun Sejok eram um grupo que cresceu durante o período de interferência de Yuan por meio de políticas pró-Yuan, possuindo grandes propriedades e monopolizando o poder ao controlar o Dopyeonguisasa."
+  },
+  "q_goryeo_05_005": {
+    "question": "Qual afirmação sobre as pessoas nesta foto está correta?",
+    "correct": "São o Rei Gongmin e sua rainha, a Princesa Noguk",
+    "wrong": [
+      "São Wang Geon e sua rainha",
+      "São o Rei Gwangjong e sua rainha",
+      "São o Rei Chungyeol e a Princesa Jeguk",
+      "São o Rei Taejo Yi Seong-gye e sua rainha"
+    ],
+    "hint": "Mostra o rei que adotou políticas anti-Yuan e sua rainha de Yuan.",
+    "explanation": "A foto mostra o Rei Gongmin e a Princesa Noguk. A Princesa Noguk era uma princesa de Yuan, mas é famosa por sua profunda afeição com o Rei Gongmin."
+  },
+  "q_goryeo_05_006": {
+    "question": "Que mudanças ocorreram na família real de Goryeo durante o período de interferência de Yuan?",
+    "correct": "Casaram-se com princesas de Yuan e os príncipes cresceram em Yuan",
+    "wrong": [
+      "A autoridade real se fortaleceu e a autonomia aumentou",
+      "Formaram alianças matrimoniais com famílias aristocráticas",
+      "Compartilharam o poder com oficiais militares",
+      "Letrados neoconfucionistas auxiliaram o rei"
+    ],
+    "hint": "Os príncipes herdeiros cresceram em Yuan e retornaram para se tornarem reis.",
+    "explanation": "Durante o período de interferência de Yuan, a família real de Goryeo casou-se com princesas de Yuan, e os príncipes cresceram em Yuan antes de retornarem para ascender ao trono."
+  },
+  "q_goryeo_05_007": {
+    "question": "O que Yuan exigiu de Goryeo?",
+    "correct": "Mulheres como tributo (Gongnyeo) e falcões para caça (Eungbang)",
+    "wrong": [
+      "Propagação do budismo",
+      "Implementação do exame civil",
+      "Adoção do neoconfucionismo",
+      "Transferência da capital"
+    ],
+    "hint": "Exigiram tributo de mulheres jovens e aves de caça.",
+    "explanation": "Yuan exigiu mulheres como tributo e falcões para caça de Goryeo, impondo um grande fardo à sociedade de Goryeo."
+  },
+  "q_goryeo_05_008": {
+    "question": "O que foi transmitido durante o final de Goryeo?",
+    "correct": "Algodão e pólvora",
+    "wrong": [
+      "Budismo e caracteres chineses",
+      "Confucionismo e códigos legais",
+      "Impressão com tipos móveis",
+      "Tecnologia de celadon"
+    ],
+    "hint": "Refere-se ao algodão de Mun Ik-jeom e à tecnologia de pólvora de Choe Mu-seon.",
+    "explanation": "Durante o final de Goryeo, as tecnologias do algodão (Mun Ik-jeom, 1363) e da pólvora (Choe Mu-seon, 1377) foram introduzidas, impactando grandemente a sociedade de Goryeo."
+  },
+  "q_goryeo_05_009": {
+    "question": "Qual característica do período este artefato na foto demonstra?",
+    "correct": "O estilo mongol ficou na moda",
+    "wrong": [
+      "A cultura de Silla foi herdada",
+      "A cultura Tang foi introduzida",
+      "A cultura japonesa foi transmitida",
+      "A cultura Joseon se desenvolveu"
+    ],
+    "hint": "É um artefato do período em que penteados e roupas no estilo mongol estavam na moda.",
+    "explanation": "A foto mostra um jokduri (adorno de cabeça tradicional). Durante o período de interferência de Yuan, o estilo mongol ficou na moda, e itens como tranças, jokduri e roupas mongóis foram transmitidos a Goryeo."
+  },
+  "q_goryeo_05_010": {
+    "question": "Qual instituição de Yuan foi estabelecida em Goryeo durante o período de interferência?",
+    "correct": "Jeongdong Haengseong",
+    "wrong": [
+      "Gyojeong Dogam",
+      "Jeongbang",
+      "Dobyeongmasa",
+      "Jipsabu"
+    ],
+    "hint": "Significa 'instituição administrativa para conquistar o leste'.",
+    "explanation": "Yuan estabeleceu Jeongdong Haengseong em Goryeo para interferir nos assuntos internos e despachou Darughachi para monitorar."
+  },
+  "q_goryeo_05_011": {
+    "question": "Com base na seguinte fonte, qual fenômeno está sendo descrito?",
+    "source": "O rei usava o caractere 'Chung' em seu nome, era chamado de 'Jeonha' em vez de 'Pyeha', e os decretos reais mudaram de 'Jo' para 'Gyo'.",
+    "correct": "Rebaixamento dos títulos reais de Goryeo durante a interferência de Yuan",
+    "wrong": [
+      "Enfraquecimento da autoridade real durante o regime militar",
+      "Fortalecimento da autoridade real durante o período aristocrático",
+      "Estabelecimento de títulos reais durante a fundação de Joseon",
+      "Estabelecimento da autoridade real durante o período dos Três Reinos"
+    ],
+    "hint": "Estas foram mudanças que ocorreram quando Goryeo era tratada como estado vassalo de Yuan.",
+    "explanation": "Durante o período de interferência de Yuan, os títulos dos reis de Goryeo foram rebaixados — usavam o caractere 'Chung', 'Pyeha' tornou-se 'Jeonha' e 'Jo' tornou-se 'Gyo'."
+  },
+  "q_goryeo_05_012": {
+    "question": "Qual instituição política de Goryeo o Gwonmun Sejok controlava?",
+    "correct": "Dopyeonguisasa",
+    "wrong": [
+      "Gyojeong Dogam",
+      "Jeongbang",
+      "Jungseomunhaseong",
+      "Jipsabu"
+    ],
+    "hint": "Era a mais alta instituição política que combinava Dobyeongmasa e Sikmokdogam.",
+    "explanation": "O Gwonmun Sejok controlava o Dopyeonguisasa (Dobyeongmasa + Sikmokdogam combinados), a mais alta instituição política do final de Goryeo, monopolizando o poder."
+  },
+  "q_goryeo_06_001": {
+    "question": "Qual foi a política anti-Yuan do Rei Gongmin?",
+    "correct": "Abolição de Jeongdong Haengseong, recuperação de Ssangseong Chonggwanbu",
+    "wrong": [
+      "Transferência da capital para Ganghwa, organização do Sambyeolcho",
+      "Implementação do exame civil, lei de inspeção de escravos",
+      "Organização do Byeolmuban, conquista dos jurchen",
+      "Retirada de Wihwado, implementação do Gwajeonbeop"
+    ],
+    "hint": "Ele aboliu as instituições de interferência de Yuan e recuperou territórios perdidos.",
+    "explanation": "O Rei Gongmin adotou políticas autônomas anti-Yuan, incluindo a abolição de Jeongdong Haengseong, a recuperação de Ssangseong Chonggwanbu e a abolição dos nomes de era e sistemas governamentais de Yuan."
+  },
+  "q_goryeo_06_002": {
+    "question": "Que políticas esta pessoa adotou?",
+    "correct": "Política autônoma anti-Yuan e reforma interna",
+    "wrong": [
+      "Política pró-Yuan e expansão de grandes propriedades",
+      "Estabelecimento do regime militar",
+      "Transferência da capital para Ganghwa e resistência anti-mongol",
+      "Retirada de Wihwado e fundação de Joseon"
+    ],
+    "hint": "Ele foi o rei que recuperou a autonomia contra Yuan e controlou as famílias poderosas.",
+    "explanation": "A foto mostra o Rei Gongmin. O Rei Gongmin adotou políticas autônomas anti-Yuan como a abolição de Jeongdong Haengseong e a recuperação de Ssangseong Chonggwanbu, e reformas internas como o estabelecimento do Jeonmin Byeonjeong Dogam."
+  },
+  "q_goryeo_06_003": {
+    "question": "Qual foi a instituição de reforma interna do Rei Gongmin?",
+    "correct": "Jeonmin Byeonjeong Dogam",
+    "wrong": [
+      "Gyojeong Dogam",
+      "Jeongbang",
+      "Dobyeongmasa",
+      "Jeongdong Haengseong"
+    ],
+    "hint": "Era uma instituição para 'retificar o povo e as terras'.",
+    "explanation": "Jeonmin Byeonjeong Dogam foi uma instituição de reforma estabelecida para devolver terras e escravos ilegalmente tomados pelas famílias poderosas aos seus donos originais."
+  },
+  "q_goryeo_06_004": {
+    "question": "Com base na seguinte fonte, qual evento está sendo descrito?",
+    "source": "Terras e escravos ilegalmente tomados pelas famílias poderosas foram investigados e devolvidos aos seus donos originais.",
+    "correct": "Estabelecimento do Jeonmin Byeonjeong Dogam",
+    "wrong": [
+      "Implementação do Nobi Angeombeop",
+      "Implementação do Gwajeonbeop",
+      "Reorganização do Jeonsigwa",
+      "Abolição do Nokup"
+    ],
+    "hint": "Ele estabeleceu uma instituição para recuperar terras e escravos tomados pelas famílias poderosas.",
+    "explanation": "O Rei Gongmin estabeleceu o Jeonmin Byeonjeong Dogam para devolver terras e escravos ilegalmente tomados pelas famílias poderosas aos seus donos originais."
+  },
+  "q_goryeo_06_005": {
+    "question": "Qual afirmação sobre a recuperação da região marcada neste mapa está correta?",
+    "correct": "O Rei Gongmin recuperou Ssangseong Chonggwanbu, que era território de Yuan",
+    "wrong": [
+      "Seo Hui a adquiriu por meio de negociação diplomática",
+      "Yun Gwan a conquistou com o Byeolmuban",
+      "Choe Yeong tentou conquistar Liaodong",
+      "Yi Seong-gye a recuperou após a Retirada de Wihwado"
+    ],
+    "hint": "Ele recuperou a instituição de Yuan que ficava na região de Hamgyeong-do.",
+    "explanation": "O mapa mostra a recuperação de Ssangseong Chonggwanbu. O Rei Gongmin recuperou Ssangseong Chonggwanbu, que era território de Yuan, em 1356 como parte de sua política autônoma anti-Yuan."
+  },
+  "q_goryeo_06_006": {
+    "question": "Quais eram as características dos letrados neoconfucionistas (Sinjin Sadaebu)?",
+    "correct": "Ingressaram no governo por meio de exames e basearam sua ideologia no neoconfucionismo",
+    "wrong": [
+      "Ingressaram no governo por meio do Eumseo",
+      "Tomaram o poder pela força militar",
+      "Apoiaram a política pró-Yuan",
+      "Basearam sua ideologia no budismo"
+    ],
+    "hint": "Eram um novo grupo que ingressou no governo por meio de exames e estudou o confucionismo (neoconfucionismo).",
+    "explanation": "Os letrados neoconfucionistas eram proprietários de terras de pequeno e médio porte das províncias que ingressaram no governo central por meio de exames e criticaram as famílias poderosas com base no neoconfucionismo."
+  },
+  "q_goryeo_06_007": {
+    "question": "Qual monge o Rei Gongmin empregou?",
+    "correct": "Sindon",
+    "wrong": [
+      "Wonhyo",
+      "Uisang",
+      "Jinul",
+      "Uicheon"
+    ],
+    "hint": "Ele era um monge que liderou o Jeonmin Byeonjeong Dogam, mas foi removido devido à oposição aristocrática.",
+    "explanation": "O Rei Gongmin empregou o monge Sindon para conduzir reformas por meio do Jeonmin Byeonjeong Dogam, mas Sindon foi removido devido à oposição aristocrática."
+  },
+  "q_goryeo_06_008": {
+    "question": "Por que as reformas do Rei Gongmin enfrentaram limitações?",
+    "correct": "Invasões dos Turbantes Vermelhos e piratas japoneses e oposição das famílias poderosas",
+    "wrong": [
+      "Reinvasão mongol",
+      "Rebelião militar",
+      "Resistência do Sambyeolcho",
+      "Invasão khitan"
+    ],
+    "hint": "Bandidos da China e piratas japoneses invadiram, e interesses estabelecidos se opuseram às reformas.",
+    "explanation": "As reformas do Rei Gongmin enfrentaram limitações devido às invasões dos Turbantes Vermelhos e piratas japoneses, à oposição das famílias poderosas e ao caos político após a remoção de Sindon."
+  },
+  "q_goryeo_06_009": {
+    "question": "Quem realizou a Retirada de Wihwado?",
+    "correct": "Yi Seong-gye",
+    "wrong": [
+      "Choe Yeong",
+      "Jeong Mong-ju",
+      "Jeong Do-jeon",
+      "Rei Gongmin"
+    ],
+    "hint": "Ele era o general que partiu para a campanha de Liaodong, mas recuou com seu exército para tomar o poder.",
+    "explanation": "Yi Seong-gye partiu para a campanha de Liaodong em 1388, mas recuou da Ilha de Wihwado, removeu Choe Yeong e tomou o poder."
+  },
+  "q_goryeo_06_010": {
+    "question": "Em que ano ocorreu a Retirada de Wihwado?",
+    "correct": "1388",
+    "wrong": [
+      "1356",
+      "1392",
+      "1400",
+      "1370"
+    ],
+    "hint": "Aconteceu 4 anos antes da fundação de Joseon (1392).",
+    "explanation": "A Retirada de Wihwado ocorreu em 1388, quando Yi Seong-gye, liderando o exército da expedição a Liaodong, recuou da Ilha de Wihwado."
+  },
+  "q_goryeo_06_011": {
+    "question": "Com base na seguinte fonte, qual grupo está sendo descrito?",
+    "source": "De origem de proprietários de terras de pequeno e médio porte das províncias, ingressaram no governo central por meio de exames. Adotaram o neoconfucionismo, criticaram o budismo e criticaram a acumulação de terras pelas famílias poderosas.",
+    "correct": "Letrados Neoconfucionistas (Sinjin Sadaebu)",
+    "wrong": [
+      "Munbeol Gwijok",
+      "Gwonmun Sejok",
+      "Hojok",
+      "Oficiais Militares"
+    ],
+    "hint": "Eram um grupo que defendia reformas no final de Goryeo e contribuiu para fundar uma nova dinastia.",
+    "explanation": "Os letrados neoconfucionistas eram aqueles de origem de proprietários de terras de pequeno e médio porte das províncias que ingressaram no governo por meio de exames no final de Goryeo, defendendo reformas com base no neoconfucionismo."
+  },
+  "q_goryeo_06_012": {
+    "question": "Quem introduziu pela primeira vez o neoconfucionismo em Goryeo?",
+    "correct": "An Hyang",
+    "wrong": [
+      "Kim Bu-sik",
+      "Iryeon",
+      "Yi Je-hyeon",
+      "Jeong Mong-ju"
+    ],
+    "hint": "Ele era um estudioso que trouxe o neoconfucionismo de Yuan durante o reinado do Rei Chungyeol.",
+    "explanation": "An Hyang trouxe o neoconfucionismo de Yuan durante o reinado do Rei Chungyeol, introduzindo-o pela primeira vez em Goryeo. Foi posteriormente herdado por Baek I-jeong, Yi Je-hyeon, Yi Saek e Jeong Mong-ju."
+  },
+  "q_goryeo_07_001": {
+    "question": "Qual era o sistema de terras de Goryeo?",
+    "correct": "Jeonsigwa",
+    "wrong": [
+      "Gwajeonbeop",
+      "Jikjeonbeop",
+      "Nokup",
+      "Jeongjeonje"
+    ],
+    "hint": "Significa distribuir 'campos (Jeon)' e 'florestas de lenha (Si).'",
+    "explanation": "Goryeo concedia direitos de arrecadação de impostos (Sujogwon) a funcionários e soldados por meio do sistema Jeonsigwa. Gongeumeun permitia herança para funcionários de 5º grau ou superior."
+  },
+  "q_goryeo_07_002": {
+    "question": "Qual afirmação sobre o local marcado neste mapa está correta?",
+    "correct": "É o porto comercial internacional representativo de Goryeo",
+    "wrong": [
+      "É o porto comercial internacional de Silla Unificada",
+      "É o porto comercial internacional de Joseon",
+      "É onde o Sambyeolcho resistiu",
+      "É onde ocorreu o Golpe dos Oficiais Militares"
+    ],
+    "hint": "Era um porto comercial na foz do Rio Yeseong, origem do nome 'Korea'.",
+    "explanation": "O mapa mostra Byeongnando. Byeongnando era o porto comercial internacional representativo de Goryeo, onde mercadores de Song e da Arábia comercializavam."
+  },
+  "q_goryeo_07_003": {
+    "question": "Qual afirmação sobre o comércio de Goryeo está correta?",
+    "correct": "Havia mercados em Gaegyeong e comércio internacional ocorria em Byeongnando",
+    "wrong": [
+      "Mercados periódicos se desenvolveram por todo o país",
+      "A moeda circulava amplamente",
+      "O comércio era reprimido",
+      "O comércio exterior era proibido"
+    ],
+    "hint": "Havia lojas (sijeon) na capital e o comércio exterior ocorria na costa oeste.",
+    "explanation": "Goryeo estabeleceu mercados em Gaegyeong e conduziu comércio internacional em Byeongnando. No entanto, a circulação monetária era lenta."
+  },
+  "q_goryeo_07_004": {
+    "question": "Com base na seguinte fonte, quais mercadores estão sendo descritos?",
+    "source": "Mercadores árabes que vinham comercializar em Byeongnando, trazendo mercúrio, especiarias, coral e outros produtos.",
+    "correct": "Povo de Daesik-guk (mercadores árabes)",
+    "wrong": [
+      "Mercadores de Song",
+      "Mercadores japoneses",
+      "Mercadores Jurchen",
+      "Mercadores Khitan"
+    ],
+    "hint": "Refere-se a mercadores que vinham da Arábia (região islâmica).",
+    "explanation": "O povo de Daesik-guk referia-se aos mercadores árabes que comercializavam produtos como mercúrio, especiarias e coral em Byeongnando."
+  },
+  "q_goryeo_07_005": {
+    "question": "Qual afirmação sobre esta moeda na foto está correta?",
+    "correct": "Era uma moeda feita em Goryeo, mas a circulação era lenta",
+    "wrong": [
+      "Era uma moeda feita em Joseon",
+      "Circulava amplamente por todo o país",
+      "Era uma moeda feita em Silla Unificada",
+      "Era uma moeda transmitida de Yuan"
+    ],
+    "hint": "É uma moeda (hwalggu) feita de prata em formato da Coreia.",
+    "explanation": "A foto mostra o vaso de prata de Goryeo (Eunbyeong/Hwalggu). Goryeo produziu moedas como Geonwon Jungbo e vasos de prata, mas a circulação era lenta e o comércio usava grãos e tecido de cânhamo."
+  },
+  "q_goryeo_07_006": {
+    "question": "Qual afirmação sobre a indústria artesanal de Goryeo está correta?",
+    "correct": "O artesanato governamental era central e itens especiais eram produzidos nos So",
+    "wrong": [
+      "O artesanato privado se desenvolveu",
+      "A indústria artesanal não se desenvolveu de forma alguma",
+      "Dependia de importações do exterior",
+      "Fábricas de grande escala operavam"
+    ],
+    "hint": "Os produtos eram feitos em oficinas governamentais e regiões especiais (So).",
+    "explanation": "A indústria artesanal de Goryeo era centrada na produção governamental, e itens especiais como cerâmicas e papel eram produzidos nos So (distritos administrativos especiais)."
+  },
+  "q_goryeo_07_007": {
+    "question": "Quais eram os nomes das moedas cunhadas em Goryeo?",
+    "correct": "Geonwon Jungbo, Vaso de Prata (Eunbyeong/Hwalggu)",
+    "wrong": [
+      "Sangpyeong Tongbo, Dangbaekjeon",
+      "Joseon Tongbo, Yeopjeon",
+      "Banryangjeon, Osujeon",
+      "Moeda não era utilizada"
+    ],
+    "hint": "Eram moedas (Geonwon Jungbo) e moeda em formato de garrafa feita de prata.",
+    "explanation": "Goryeo cunhou Geonwon Jungbo (moedas de cobre) e vasos de prata (Eunbyeong/Hwalggu, moeda em formato de garrafa feita de prata), mas a circulação era lenta."
+  },
+  "q_goryeo_07_008": {
+    "question": "Qual afirmação sobre a tecnologia agrícola de Goryeo está correta?",
+    "correct": "A rotação de três colheitas em dois anos tornou-se possível e técnicas de adubação se desenvolveram",
+    "wrong": [
+      "O transplante se espalhou por todo o país",
+      "O transplante de mudas de arroz tornou-se comum",
+      "Não havia instalações de irrigação",
+      "Nongsa Jikseol foi compilado"
+    ],
+    "hint": "Técnicas de adubação se desenvolveram, reduzindo os períodos de pousio e aumentando a produção.",
+    "explanation": "Durante Goryeo, técnicas de adubação se desenvolveram e os períodos de pousio diminuíram, tornando possível a rotação de três colheitas em dois anos. O Nongsang Jibyo, transmitido de Yuan, contribuiu para o desenvolvimento agrícola."
+  },
+  "q_goryeo_07_009": {
+    "question": "Qual manual agrícola veio de Yuan durante o período Goryeo?",
+    "correct": "Nongsang Jibyo",
+    "wrong": [
+      "Nongsa Jikseol",
+      "Geumyang Japrok",
+      "Sallim Gyeongje",
+      "Nongjeong Jeonseo"
+    ],
+    "hint": "Era um manual agrícola transmitido de Yuan.",
+    "explanation": "Nongsang Jibyo era um manual agrícola de Yuan que contribuiu para o desenvolvimento da tecnologia agrícola de Goryeo. Nongsa Jikseol foi compilado durante o reinado do Rei Sejong em Joseon."
+  },
+  "q_goryeo_07_010": {
+    "question": "Qual terra era hereditária para funcionários de 5º grau ou superior em Goryeo?",
+    "correct": "Gongeumeun",
+    "wrong": [
+      "Gwanryojeon",
+      "Nokup",
+      "Gwajeon",
+      "Jikjeon"
+    ],
+    "hint": "Era uma terra que podia ser transmitida aos descendentes com base em mérito e privilégio hereditário.",
+    "explanation": "Gongeumeun era uma terra concedida a funcionários de 5º grau ou superior que podia ser herdada pelos descendentes, tornando-se a base econômica das famílias aristocráticas."
+  },
+  "q_goryeo_07_011": {
+    "question": "Com base na seguinte fonte, a qual fato se refere?",
+    "source": "Mercadores de Song e árabes vinham comercializar no porto do mar ocidental, e o nome 'Goryeo' tornou-se conhecido no Ocidente.",
+    "correct": "O comércio internacional ocorria em Byeongnando",
+    "wrong": [
+      "O comércio marítimo ocorria em Cheonghaejin",
+      "O comércio exterior ocorria no Porto de Ulsan",
+      "O comércio internacional ocorria em Hanyang",
+      "O comércio com o Japão ocorria em Busanpo"
+    ],
+    "hint": "Era o porto comercial pelo qual o nome 'Korea' tornou-se conhecido no mundo.",
+    "explanation": "Byeongnando era o porto comercial internacional representativo de Goryeo, onde mercadores de Song e da Arábia (Daesik-guk) comercializavam. O nome 'Korea' também se originou nessa época."
+  },
+  "q_goryeo_07_012": {
+    "question": "Qual afirmação sobre o Jeonsigwa de Goryeo está correta?",
+    "correct": "Direitos de arrecadação de impostos eram concedidos a funcionários e soldados",
+    "wrong": [
+      "A terra era distribuída igualmente",
+      "A propriedade da terra era dada aos agricultores",
+      "Apenas funcionários de 5º grau ou superior recebiam terra",
+      "A herança de terras era livre"
+    ],
+    "hint": "Era um sistema que concedia direitos de arrecadação de impostos (sujogwon), não a terra em si.",
+    "explanation": "Jeonsigwa era o sistema de terras de Goryeo que concedia direitos de arrecadação de impostos (Sujogwon) a funcionários e soldados. Era concedido como compensação pelo serviço."
+  },
+  "q_goryeo_08_001": {
+    "question": "Qual era a estrutura social de Goryeo?",
+    "correct": "Aristocratas - Classe Média - Pessoas Comuns (Yang-in) - Classes Baixas (Cheonmin)",
+    "wrong": [
+      "Família Real - Osso Verdadeiro - Seis Graus de Cabeça - Pessoas Comuns",
+      "Yangban - Jungin - Sangmin - Cheonmin",
+      "Osso Sagrado - Osso Verdadeiro - Dupum - Pessoas Comuns",
+      "Aristocratas - Pessoas Comuns - Classes Baixas"
+    ],
+    "hint": "Diferente do sistema de classificação por ossos de Silla, uma nova classe média surgiu.",
+    "explanation": "As classes sociais de Goryeo eram divididas em Aristocratas (Munbeol Gwijok, Gwonmun Sejok), Classe Média (Hyangni, Namban, Seori), Pessoas Comuns (agricultores) e Classes Baixas (escravos)."
+  },
+  "q_goryeo_08_002": {
+    "question": "Qual afirmação sobre o evento mostrado nesta ilustração está correta?",
+    "correct": "É a revolta em que o escravo Manjok exigiu a libertação de status",
+    "wrong": [
+      "É o evento em que oficiais militares tomaram o poder",
+      "É o evento em que agricultores exigiram redução de impostos",
+      "É o evento que defendia a mudança da capital para Seogyeong",
+      "É o evento em que famílias poderosas tomaram terras"
+    ],
+    "hint": "Foi uma revolta de escravos gritando 'Generais e ministros nascem de sementes diferentes?'",
+    "explanation": "A imagem retrata a Revolta de Manjok. Em 1198, o escravo Manjok proclamou 'Generais e ministros nascem de sementes diferentes?' e exigiu a libertação de status."
+  },
+  "q_goryeo_08_003": {
+    "question": "Quem pertencia à classe média em Goryeo?",
+    "correct": "Hyangni, Namban, Seori",
+    "wrong": [
+      "Munbeol Gwijok, Gwonmun Sejok",
+      "Agricultores, Comerciantes",
+      "Escravos, Bugok-min",
+      "Osso Verdadeiro, Seis Graus de Cabeça"
+    ],
+    "hint": "Eram as classes dos administradores locais (Hyangni), militares (Namban) e funcionários de escritórios governamentais (Seori).",
+    "explanation": "A classe média de Goryeo incluía Hyangni (administradores locais), Namban (classe militar) e Seori (funcionários de escritórios governamentais)."
+  },
+  "q_goryeo_08_004": {
+    "question": "Com base na seguinte fonte, qual princípio de status de Goryeo está sendo descrito?",
+    "source": "Se a mãe era escrava, o filho também se tornava escravo.",
+    "correct": "Ilcheon-jeuk-cheon (Um de classe baixa torna todos de classe baixa)",
+    "wrong": [
+      "Jongmobeop",
+      "Yangcheon Gyohon",
+      "Herança de Status",
+      "Sistema de Classificação por Ossos"
+    ],
+    "hint": "É o princípio 'Se um dos pais é de classe baixa, então o filho também é de classe baixa.'",
+    "explanation": "Ilcheon-jeuk-cheon era o princípio de que, se um dos pais fosse de classe baixa, o filho também se tornava de classe baixa. Isso aumentou o número de escravos."
+  },
+  "q_goryeo_08_005": {
+    "question": "Quais eram as obrigações das pessoas comuns (agricultores) de Goryeo?",
+    "correct": "Imposto (Jose), Tributo (Gongmul), Trabalho Corveia (Yeok)",
+    "wrong": [
+      "Apenas serviço militar",
+      "Isenção de impostos",
+      "Obrigação de entrar no governo",
+      "Sem obrigações"
+    ],
+    "hint": "Eles pagavam imposto sobre a terra, produtos locais e trabalho ao estado.",
+    "explanation": "As pessoas comuns de Goryeo (Baekjeong) tinham obrigações de fornecer ao estado imposto (imposto sobre a terra), tributo (produtos locais) e trabalho corveia."
+  },
+  "q_goryeo_08_006": {
+    "question": "Qual afirmação sobre o status das mulheres em Goryeo está correta?",
+    "correct": "O status era relativamente alto e o novo casamento era possível",
+    "wrong": [
+      "Mais baixo do que em Joseon",
+      "Não tinham direitos de herança de propriedade",
+      "Não podiam se tornar chefes de família",
+      "Não podiam participar de ritos ancestrais"
+    ],
+    "hint": "Diferente do período Joseon, viúvas podiam se casar novamente.",
+    "explanation": "As mulheres em Goryeo tinham status relativamente alto, o novo casamento era possível e a herança igualitária entre os filhos era praticada."
+  },
+  "q_goryeo_08_007": {
+    "question": "Qual afirmação sobre os moradores de Hyang, Bugok e So em Goryeo está correta?",
+    "correct": "Recebiam tratamento inferior aos moradores regulares dos condados",
+    "wrong": [
+      "Recebiam o mesmo tratamento que os aristocratas",
+      "Tinham status de yangban",
+      "Podiam entrar no serviço governamental",
+      "Podiam prestar exames para o serviço civil"
+    ],
+    "hint": "Viviam em regiões especiais, enfrentavam discriminação e tinham movimentação restrita.",
+    "explanation": "Os moradores de Hyang, Bugok e So eram residentes de distritos administrativos especiais que recebiam tratamento inferior aos moradores regulares dos condados e tinham liberdade de movimento restrita."
+  },
+  "q_goryeo_08_008": {
+    "question": "Qual classe podia entrar no governo por meio de Eumseo em Goryeo?",
+    "correct": "Descendentes de funcionários de 5º grau ou superior",
+    "wrong": [
+      "Todas as pessoas comuns",
+      "Apenas a classe média",
+      "Apenas oficiais militares",
+      "Apenas a família real"
+    ],
+    "hint": "Era um sistema em que descendentes de funcionários de alto escalão entravam no governo sem exames.",
+    "explanation": "Eumseo era um sistema que concedia cargos governamentais a descendentes de funcionários de 5º grau ou superior sem exame, tornando-se um meio para famílias aristocráticas monopolizarem os cargos."
+  },
+  "q_goryeo_08_009": {
+    "question": "Qual status lidava com o trabalho administrativo local em Goryeo?",
+    "correct": "Hyangni",
+    "wrong": [
+      "Aristocratas",
+      "Escravos",
+      "Monges",
+      "Oesajeong"
+    ],
+    "hint": "Eram a classe média que lidava com o trabalho administrativo nas áreas locais.",
+    "explanation": "Hyangni eram a classe média de Goryeo que lidava com o trabalho administrativo local. Seu status declinou para assistentes de funcionários locais no período Joseon."
+  },
+  "q_goryeo_08_010": {
+    "question": "Qual afirmação sobre os escravos em Goryeo está correta?",
+    "correct": "Eram tratados como propriedade e podiam ser comprados e vendidos",
+    "wrong": [
+      "Podiam prestar exames para o serviço civil",
+      "Podiam entrar no serviço governamental",
+      "Podiam possuir terras",
+      "Podiam se mover livremente"
+    ],
+    "hint": "Eram uma classe que podia ser comprada e vendida como propriedade de seu senhor.",
+    "explanation": "Os escravos em Goryeo eram tratados como propriedade de seu senhor e estavam sujeitos a compra, venda, herança e doação."
+  },
+  "q_goryeo_08_011": {
+    "question": "Com base na seguinte fonte, qual prática de Goryeo está sendo descrita?",
+    "source": "Em Goryeo, não havia discriminação entre descendentes paternos e maternos, e a propriedade era dividida igualmente.",
+    "correct": "A herança igualitária entre os filhos era praticada",
+    "wrong": [
+      "Apenas a herança do filho mais velho era reconhecida",
+      "Filhas não herdavam",
+      "A herança de propriedade era proibida",
+      "O estado administrava a propriedade"
+    ],
+    "hint": "A propriedade era dividida igualmente sem distinção entre filhos e filhas.",
+    "explanation": "Em Goryeo, a propriedade era herdada igualmente entre os filhos, e as filhas tinham os mesmos direitos de herança que os filhos."
+  },
+  "q_goryeo_08_012": {
+    "question": "Como as famílias aristocráticas de Goryeo monopolizavam os cargos governamentais?",
+    "correct": "Exames para o serviço civil e Eumseo",
+    "wrong": [
+      "Tomada militar",
+      "Apenas nomeação real",
+      "Recomendação pública",
+      "Eleição"
+    ],
+    "hint": "Entravam no governo passando em exames ou por meio de antecedentes familiares.",
+    "explanation": "As famílias aristocráticas de Goryeo monopolizavam o poder entrando diretamente no governo por meio de exames ou herdando cargos por meio de Eumseo (nomeação especial para descendentes de funcionários de 5º grau ou superior)."
+  },
+  "q_goryeo_09_001": {
+    "question": "Qual era o status do Budismo em Goryeo?",
+    "correct": "Como religião de estado, influenciou todos os aspectos da sociedade",
+    "wrong": [
+      "Era reprimido",
+      "Permaneceu apenas como fé pessoal",
+      "As atividades dos monges eram proibidas",
+      "A construção de templos era proibida"
+    ],
+    "hint": "Era uma religião reconhecida pelo estado, onde eventos nacionais eram realizados.",
+    "explanation": "O Budismo era a religião de estado em Goryeo, com eventos estatais como Yeondeunghoe e Palgwanhoe, e monges eram selecionados por meio do sistema de exame para monges (Seunggwa)."
+  },
+  "q_goryeo_09_002": {
+    "question": "Qual evento estatal de Goryeo é mostrado nesta ilustração?",
+    "correct": "Palgwanhoe",
+    "wrong": [
+      "Yeondeunghoe",
+      "Seunggwa",
+      "Exame Civil",
+      "Cerimônia de Culto ao Céu"
+    ],
+    "hint": "Era um evento que combinava crenças indígenas e Budismo, oferecendo sacrifícios ao céu e às montanhas.",
+    "explanation": "A imagem retrata o Palgwanhoe. Palgwanhoe era um evento estatal que combinava crenças indígenas e Budismo, oferecendo sacrifícios ao céu e às montanhas."
+  },
+  "q_goryeo_09_003": {
+    "question": "Qual afirmação sobre as escolas budistas em Goryeo está correta?",
+    "correct": "Havia tanto o Budismo Doutrinário (Hwaeom, Beopsang) quanto o Budismo Seon",
+    "wrong": [
+      "Apenas o Budismo Seon existia",
+      "Apenas o Budismo Doutrinário existia",
+      "O Budismo não existia",
+      "Apenas a Escola Cheontae existia"
+    ],
+    "hint": "Havia duas correntes: uma que enfatizava o estudo das escrituras (Doutrinário) e outra que enfatizava a meditação (Seon).",
+    "explanation": "O Budismo de Goryeo tinha tanto o Budismo Doutrinário (Hwaeom, Beopsang, etc., enfatizando escrituras) quanto o Budismo Seon (enfatizando meditação). Uicheon organizou a Cheontae, e Jinul organizou a Escola Jogye."
+  },
+  "q_goryeo_09_004": {
+    "question": "Com base na seguinte fonte, quem está sendo descrito?",
+    "source": "Para superar o conflito entre o Budismo Doutrinário e o Seon, ele fundou a Escola Cheontae, defendeu o Gyogwan Gyeomsu e compilou o Sokjanggyeong.",
+    "correct": "Uicheon",
+    "wrong": [
+      "Jinul",
+      "Wonhyo",
+      "Uisang",
+      "Iryeon"
+    ],
+    "hint": "Era um monge de nascimento real que fundou a Escola Cheontae.",
+    "explanation": "Uicheon (Preceptor Nacional Daegak) fundou a Escola Cheontae, defendeu o Gyogwan Gyeomsu (combinando estudo doutrinário e meditação) e compilou o Sokjanggyeong."
+  },
+  "q_goryeo_09_005": {
+    "question": "Qual era a filosofia budista desta pessoa?",
+    "correct": "Ele defendeu Jeonghye Ssangsu, Dono Jeomsu e organizou o Movimento Suseonsa",
+    "wrong": [
+      "Ele fundou a Escola Cheontae",
+      "Ele defendeu Hwajaeng sasang",
+      "Ele desenvolveu a Escola Hwaeom",
+      "Ele compilou o Sokjanggyeong"
+    ],
+    "hint": "Era um monge que organizou a Escola Jogye e defendeu o cultivo conjunto de meditação e sabedoria.",
+    "explanation": "A foto mostra Jinul (Preceptor Nacional Bojo). Jinul defendeu Jeonghye Ssangsu (cultivo conjunto de meditação e sabedoria) e Dono Jeomsu, e liderou o Movimento Suseonsa."
+  },
+  "q_goryeo_09_006": {
+    "question": "Qual era o sistema de seleção de monges em Goryeo?",
+    "correct": "Seunggwa (Exame para Monges)",
+    "wrong": [
+      "Exame Civil",
+      "Eumseo",
+      "Recomendação",
+      "Sistema Docheop"
+    ],
+    "hint": "Era um exame (gwa) para selecionar monges (seung).",
+    "explanation": "Seunggwa era o exame para selecionar monges em Goryeo, dividido em exame de Budismo Doutrinário e exame de Budismo Seon."
+  },
+  "q_goryeo_09_007": {
+    "question": "Qual era o evento budista realizado na primeira lua cheia em Goryeo?",
+    "correct": "Yeondeunghoe",
+    "wrong": [
+      "Palgwanhoe",
+      "Seunggwa",
+      "Cerimônia de Culto ao Céu",
+      "Festival Dano"
+    ],
+    "hint": "Era um evento de acender lanternas.",
+    "explanation": "Yeondeunghoe era um evento budista na primeira lua cheia, em que lanternas eram acesas para orar a Buda por bênçãos. Era um evento estatal representativo de Goryeo."
+  },
+  "q_goryeo_09_008": {
+    "question": "Qual afirmação sobre este patrimônio cultural na foto está correta?",
+    "correct": "É a Tripitaka Koreana feita para repelir a invasão mongol",
+    "wrong": [
+      "Foi feita para repelir a invasão Khitan",
+      "Foi feita durante o período Joseon",
+      "Foi impressa com tipos móveis de metal",
+      "Foi transmitida do Japão"
+    ],
+    "hint": "Era uma escritura esculpida em cerca de 80.000 blocos de madeira para repelir os mongóis pelo poder de Buda.",
+    "explanation": "A foto mostra a Tripitaka Koreana (Segunda Tripitaka). Feita de 1236 a 1251 durante a invasão mongol para repelir o inimigo, atualmente está armazenada no Templo Haeinsa."
+  },
+  "q_goryeo_09_009": {
+    "question": "Qual movimento comunitário budista Jinul organizou?",
+    "correct": "Movimento Suseonsa",
+    "wrong": [
+      "Movimento Baekryeonsa",
+      "Movimento Hwaeom",
+      "Movimento Cheontae",
+      "Movimento Beopsang"
+    ],
+    "hint": "Era um movimento de reforma budista que começou em um templo para prática de meditação.",
+    "explanation": "Jinul organizou o Movimento Suseonsa para enfatizar a prática dos monges e promover a reforma budista."
+  },
+  "q_goryeo_09_010": {
+    "question": "Com que propósito a Primeira Tripitaka foi feita em Goryeo?",
+    "correct": "Para repelir a invasão Khitan",
+    "wrong": [
+      "Para repelir a invasão mongol",
+      "Para repelir a invasão Jurchen",
+      "Para repelir a invasão dos piratas japoneses",
+      "Para repelir a invasão dos Turbantes Vermelhos"
+    ],
+    "hint": "Foi a primeira Tripitaka feita durante o reinado do Rei Hyeonjong, criada para resistir às invasões do norte.",
+    "explanation": "A Primeira Tripitaka foi criada a partir do reinado do Rei Hyeonjong para repelir a invasão Khitan. No entanto, foi perdida durante a invasão mongol."
+  },
+  "q_goryeo_09_011": {
+    "question": "Com base na seguinte fonte, qual filosofia budista está sendo descrita?",
+    "source": "Primeiro alcançar a iluminação (Dono), depois aperfeiçoar gradualmente por meio da prática (Jeomsu).",
+    "correct": "Dono Jeomsu",
+    "wrong": [
+      "Gyogwan Gyeomsu",
+      "Jeonghye Ssangsu",
+      "Hwajaeng Sasang",
+      "Seongyo Ilchi"
+    ],
+    "hint": "Significa despertar subitamente (Dono) e depois cultivar gradualmente (Jeomsu).",
+    "explanation": "Dono Jeomsu é uma filosofia budista defendida por Jinul, que significa primeiro alcançar a iluminação (Dono) e depois aperfeiçoar gradualmente por meio da prática (Jeomsu)."
+  },
+  "q_goryeo_09_012": {
+    "question": "O que Uicheon compilou ao reunir comentários sobre escrituras budistas?",
+    "correct": "Sokjanggyeong (Gyojang)",
+    "wrong": [
+      "Tripitaka Koreana",
+      "Primeira Tripitaka",
+      "Samguk Yusa",
+      "Jikji Simche Yojeol"
+    ],
+    "hint": "Era uma coleção de comentários sobre escrituras que seguia a Tripitaka.",
+    "explanation": "Uicheon compilou o Sokjanggyeong (Gyojang) reunindo comentários sobre escrituras budistas. No entanto, não sobrevive até hoje."
+  },
+  "q_goryeo_10_001": {
+    "question": "Qual era a instituição educacional mais importante de Goryeo?",
+    "correct": "Gukjagam",
+    "wrong": [
+      "Seonggyungwan",
+      "Hyanggyo",
+      "Seowon",
+      "Taehak"
+    ],
+    "hint": "Era a escola mais importante do país para a formação de talentos.",
+    "explanation": "Gukjagam era a instituição educacional mais importante de Goryeo, responsável pela educação confucionista e técnica. Corresponde à Seonggyungwan de Joseon."
+  },
+  "q_goryeo_10_002": {
+    "question": "Qual afirmação sobre este texto histórico na foto está correta?",
+    "correct": "É o texto histórico existente mais antigo, compilado por Kim Bu-sik",
+    "wrong": [
+      "Foi compilado por Iryeon",
+      "Contém o mito de Dangun",
+      "Foi compilado no final de Goryeo",
+      "Contos budistas são o tema central"
+    ],
+    "hint": "Era um livro sobre a história dos Três Reinos compilado durante o reinado do Rei Injong.",
+    "explanation": "A foto mostra o Samguk Sagi. Compilado por Kim Bu-sik durante o reinado do Rei Injong, é o texto histórico existente mais antigo, descrevendo a história dos Três Reinos em estilo biográfico sob uma perspectiva confucionista."
+  },
+  "q_goryeo_10_003": {
+    "question": "Quem introduziu o Neoconfucionismo em Goryeo pela primeira vez?",
+    "correct": "An Hyang",
+    "wrong": [
+      "Kim Bu-sik",
+      "Iryeon",
+      "Jeong Mong-ju",
+      "Yi Je-hyeon"
+    ],
+    "hint": "Ele foi um estudioso que trouxe o Neoconfucionismo de Yuan durante o reinado do Rei Chungyeol.",
+    "explanation": "An Hyang trouxe o Neoconfucionismo de Yuan durante o reinado do Rei Chungyeol, introduzindo-o pela primeira vez em Goryeo. Posteriormente foi herdado por Baek I-jeong, Yi Je-hyeon, Yi Saek e Jeong Mong-ju."
+  },
+  "q_goryeo_10_004": {
+    "question": "Com base na seguinte fonte, quais textos históricos estão sendo descritos?",
+    "source": "Ao incluir o mito de Dangun, enfatizaram a longa história de nossa nação.",
+    "correct": "Samguk Yusa, Jewang Ungi",
+    "wrong": [
+      "Samguk Sagi",
+      "Goryeosa",
+      "Dongmyeong Wangpyeon",
+      "Sillok das Sete Gerações"
+    ],
+    "hint": "São dois textos históricos do final de Goryeo que contêm a história de Dangun.",
+    "explanation": "O Samguk Yusa (Iryeon) e o Jewang Ungi (Yi Seung-hyu) incluíram o mito de Dangun, enfatizando a longa história e a consciência nacional."
+  },
+  "q_goryeo_10_005": {
+    "question": "Qual afirmação sobre este texto histórico na foto está correta?",
+    "correct": "Foi compilado por Iryeon e contém o mito de Dangun",
+    "wrong": [
+      "Foi compilado por Kim Bu-sik",
+      "Foi escrito sob uma perspectiva confucionista",
+      "É uma história em estilo biográfico",
+      "Foi compilado no início de Goryeo"
+    ],
+    "hint": "Era um livro escrito por um monge, rico em contos budistas e tradições populares.",
+    "explanation": "A foto mostra o Samguk Yusa. Compilado pelo monge Iryeon no final de Goryeo, contém o mito de Dangun e contos budistas."
+  },
+  "q_goryeo_10_006": {
+    "question": "Quem foram os estudiosos do final de Goryeo que herdaram o Neoconfucionismo?",
+    "correct": "Baek I-jeong, Yi Je-hyeon, Yi Saek, Jeong Mong-ju",
+    "wrong": [
+      "Kim Bu-sik, Jeong Jung-bu, Choe Chung-heon",
+      "Seo Hui, Gang Gam-chan, Yun Gwan",
+      "Wonhyo, Uisang, Jinul",
+      "Wang Geon, Gwangjong, Seongjong"
+    ],
+    "hint": "Foram estudiosos que herdaram o Neoconfucionismo após An Hyang.",
+    "explanation": "O Neoconfucionismo foi introduzido por An Hyang e herdado na ordem Baek I-jeong → Yi Je-hyeon → Yi Saek → Jeong Mong-ju, tornando-se a base ideológica dos letrados neoconfucionistas."
+  },
+  "q_goryeo_10_007": {
+    "question": "Qual era o estilo de escrita do Samguk Sagi?",
+    "correct": "Estilo biográfico (Gijeonce)",
+    "wrong": [
+      "Estilo cronológico",
+      "Estilo temático",
+      "Estilo resumido",
+      "Estilo de história não oficial"
+    ],
+    "hint": "É um estilo de escrita histórica dividido em Bongi, Yeoljeon, Ji, etc.",
+    "explanation": "O Samguk Sagi foi escrito em estilo biográfico (Gijeonce). O estilo biográfico organiza a escrita histórica em Bongi (reis), Yeoljeon (figuras), e Ji (sistemas)."
+  },
+  "q_goryeo_10_008": {
+    "question": "Qual afirmação sobre este texto histórico na foto está correta?",
+    "correct": "Yi Seung-hyu descreveu a história de Dangun até Goryeo em forma de poema épico",
+    "wrong": [
+      "Foi compilado por Kim Bu-sik",
+      "Foi compilado por Iryeon",
+      "Foi escrito em estilo biográfico",
+      "Cobriu apenas o período dos Três Reinos"
+    ],
+    "hint": "Era um livro que cantava nossa história em forma poética.",
+    "explanation": "A foto mostra o Jewang Ungi. Yi Seung-hyu descreveu a história de Dangun até Goryeo em forma de poema épico, promovendo a consciência nacional."
+  },
+  "q_goryeo_10_009": {
+    "question": "Por que o Sillok das Sete Gerações de Goryeo não existe hoje?",
+    "correct": "Foi perdido durante a invasão mongol",
+    "wrong": [
+      "Nunca foi compilado",
+      "Foi descartado durante a fundação de Joseon",
+      "Foi saqueado pelo Japão",
+      "Foi perdido em um incêndio"
+    ],
+    "hint": "Registros em Gaegyeong foram queimados durante o período de refúgio na Ilha de Ganghwa.",
+    "explanation": "O Sillok das Sete Gerações de Goryeo (de Taejo a Mokjong) foi perdido durante a invasão mongol e não sobreviveu até os dias atuais."
+  },
+  "q_goryeo_10_010": {
+    "question": "Quem compilou o Samguk Yusa?",
+    "correct": "Iryeon",
+    "wrong": [
+      "Kim Bu-sik",
+      "Yi Seung-hyu",
+      "Yi Gyu-bo",
+      "Yi Je-hyeon"
+    ],
+    "hint": "Ele era um monge que atuou durante o reinado do Rei Chungyeol.",
+    "explanation": "O Samguk Yusa é um texto histórico compilado pelo monge Iryeon no final de Goryeo, contendo o mito de Dangun e contos budistas."
+  },
+  "q_goryeo_10_011": {
+    "question": "Com base na seguinte fonte, qual escola de pensamento está sendo descrita?",
+    "source": "Uma forma de confucionismo que explora princípios universais e a natureza humana, trazida de Yuan por An Hyang, tornando-se a base ideológica dos letrados neoconfucionistas.",
+    "correct": "Neoconfucionismo (Seongnihak)",
+    "wrong": [
+      "Estudos de Crítica Textual",
+      "Estudos de Yangming",
+      "Estudos Práticos",
+      "Estudos de Administração Estatal"
+    ],
+    "hint": "É o confucionismo sistematizado por Zhu Xi, que trata da teoria do princípio e da natureza humana.",
+    "explanation": "O Neoconfucionismo explora princípios universais (Igiro) e a natureza humana (Simseongron), tornando-se a base ideológica dos letrados neoconfucionistas do final de Goryeo."
+  },
+  "q_goryeo_10_012": {
+    "question": "O que o Samguk Sagi e o Samguk Yusa têm em comum?",
+    "correct": "Ambos foram compilados durante o período Goryeo",
+    "wrong": [
+      "Foram compilados pela mesma pessoa",
+      "Foram compilados ao mesmo tempo",
+      "Possuem o mesmo estilo de escrita",
+      "Ambos contêm o mito de Dangun"
+    ],
+    "hint": "Ambos os livros foram criados em Goryeo.",
+    "explanation": "O Samguk Sagi (reinado do Rei Injong, Kim Bu-sik) e o Samguk Yusa (reinado do Rei Chungyeol, Iryeon) são ambos textos históricos compilados durante o período Goryeo."
+  },
+  "q_goryeo_11_001": {
+    "question": "Qual afirmação sobre a tecnologia de impressão de Goryeo está correta?",
+    "correct": "Tanto a impressão em blocos de madeira quanto a impressão com tipos móveis de metal se desenvolveram",
+    "wrong": [
+      "Existia apenas impressão em blocos de madeira",
+      "Existiam apenas tipos móveis de metal",
+      "Não existia tecnologia de impressão",
+      "Dependiam de importações da China"
+    ],
+    "hint": "Tanto a Tripitaka Koreana (blocos de madeira) quanto o Jikji (tipos móveis de metal) foram feitos em Goryeo.",
+    "explanation": "Goryeo possuía tecnologia de impressão de nível mundial, incluindo a Tripitaka Koreana (blocos de madeira) e o Jikji Simche Yojeol (tipos móveis de metal)."
+  },
+  "q_goryeo_11_002": {
+    "question": "Qual afirmação sobre este artefato na foto está correta?",
+    "correct": "É a impressão com tipos móveis de metal existente mais antiga do mundo",
+    "wrong": [
+      "É a impressão em blocos de madeira existente mais antiga do mundo",
+      "Foi impresso durante o período Joseon",
+      "Está atualmente armazenado na Coreia",
+      "Faz parte da Tripitaka Koreana"
+    ],
+    "hint": "Era um texto budista impresso no Templo Heungdeoksa em Cheongju em 1377.",
+    "explanation": "A foto mostra o Jikji Simche Yojeol. Impresso em 1377, é a impressão com tipos móveis de metal existente mais antiga do mundo, atualmente armazenada na Biblioteca Nacional da França."
+  },
+  "q_goryeo_11_003": {
+    "question": "Qual era a técnica exclusiva do celadon de Goryeo?",
+    "correct": "Técnica de incrustação (Sanggam)",
+    "wrong": [
+      "Técnica Buncheong",
+      "Técnica de porcelana branca",
+      "Técnica Jeokbyeokhwa",
+      "Técnica de celadon puro"
+    ],
+    "hint": "É uma técnica de entalhar padrões e preenchê-los com argila branca ou preta.",
+    "explanation": "Goryeo desenvolveu a técnica de incrustação (entalhar padrões e preencher com argila branca ou preta) no século XII, criando o celadon incrustado mundialmente renomado."
+  },
+  "q_goryeo_11_004": {
+    "question": "Com base na seguinte fonte, quem está sendo descrito?",
+    "source": "Ele aprendeu a fabricação de pólvora com Yuan, estabeleceu o Hwatong Dogam e repeliu os piratas japoneses em Jinpo usando armas de pólvora.",
+    "correct": "Choe Mu-seon",
+    "wrong": [
+      "Mun Ik-jeom",
+      "Kim Yun-hu",
+      "Gang Gam-chan",
+      "Yi Seong-gye"
+    ],
+    "hint": "Ele foi a pessoa que trouxe a tecnologia da pólvora e repeliu os piratas japoneses.",
+    "explanation": "Choe Mu-seon aprendeu a fabricação de pólvora com Yuan, estabeleceu o Hwatong Dogam e repeliu os piratas japoneses na Batalha de Jinpo (1380) usando armas de pólvora."
+  },
+  "q_goryeo_11_005": {
+    "question": "Qual afirmação sobre este celadon na foto está correta?",
+    "correct": "Padrões de grous e nuvens foram expressos usando a técnica de incrustação",
+    "wrong": [
+      "É celadon puro",
+      "É cerâmica Buncheong",
+      "É porcelana branca",
+      "Foi feito durante o período Joseon"
+    ],
+    "hint": "É uma obra-prima do celadon de Goryeo com grous voando entre nuvens.",
+    "explanation": "A foto mostra o Celadon Maebyeong com Design Incrustado de Grous e Nuvens. É uma obra representativa do celadon de Goryeo que expressa padrões de grous e nuvens usando a técnica de incrustação."
+  },
+  "q_goryeo_11_006": {
+    "question": "Qual tecnologia de navegação se desenvolveu em Goryeo?",
+    "correct": "Uso da bússola",
+    "wrong": [
+      "Desenvolvimento de navios a vapor",
+      "A navegação era proibida",
+      "Apenas rotas terrestres eram usadas",
+      "Não havia atividades marítimas"
+    ],
+    "hint": "Eles navegavam os mares usando um instrumento que indicava a direção.",
+    "explanation": "Goryeo utilizava a bússola como tecnologia avançada de navegação, e o comércio internacional era ativo tendo Byeongnando como centro."
+  },
+  "q_goryeo_11_007": {
+    "question": "Em que ano o Jikji Simche Yojeol foi impresso?",
+    "correct": "1377",
+    "wrong": [
+      "1234",
+      "1392",
+      "1446",
+      "1270"
+    ],
+    "hint": "Foi 78 anos antes da impressão de Gutenberg (1455).",
+    "explanation": "O Jikji Simche Yojeol foi impresso com tipos móveis de metal no Templo Heungdeoksa em Cheongju em 1377. Antecede a impressão de Gutenberg (1455) em 78 anos."
+  },
+  "q_goryeo_11_008": {
+    "question": "Qual afirmação sobre esta arma na foto está correta?",
+    "correct": "É uma arma de pólvora desenvolvida por Choe Mu-seon para repelir os piratas japoneses",
+    "wrong": [
+      "Foi desenvolvida para repelir os Khitan",
+      "Foi transmitida pelos mongóis",
+      "Foi desenvolvida durante o período Joseon",
+      "Foi importada do Japão"
+    ],
+    "hint": "Era uma arma em forma de tubo que dispara pólvora.",
+    "explanation": "A foto mostra o Hwatong. É uma arma de pólvora fabricada no Hwatong Dogam por Choe Mu-seon, usada para repelir os piratas japoneses na Batalha de Jinpo."
+  },
+  "q_goryeo_11_009": {
+    "question": "Qual foi a sequência de desenvolvimento do celadon de Goryeo?",
+    "correct": "Celadon puro → Celadon incrustado",
+    "wrong": [
+      "Celadon incrustado → Celadon puro",
+      "Porcelana branca → Celadon",
+      "Cerâmica Buncheong → Celadon",
+      "Celadon → Porcelana branca → Cerâmica Buncheong"
+    ],
+    "hint": "Inicialmente era celadon simples, depois a técnica de incrustação foi desenvolvida.",
+    "explanation": "O celadon de Goryeo inicialmente começou como celadon puro, depois evoluiu para celadon incrustado após o desenvolvimento da técnica de incrustação no século XII."
+  },
+  "q_goryeo_11_010": {
+    "question": "Em qual templo a Tripitaka Koreana está armazenada?",
+    "correct": "Templo Haeinsa",
+    "wrong": [
+      "Templo Bulguksa",
+      "Gruta de Seokguram",
+      "Templo Buseoksa",
+      "Templo Bongjeongsa"
+    ],
+    "hint": "É um templo em Hapcheon, Província de Gyeongsang do Sul, famoso pelo seu Janggyeong Panjeon.",
+    "explanation": "A Tripitaka Koreana está armazenada no Janggyeong Panjeon do Templo Haeinsa em Hapcheon, Província de Gyeongsang do Sul. O Janggyeong Panjeon é registrado como Patrimônio Mundial da UNESCO."
+  },
+  "q_goryeo_11_011": {
+    "question": "Com base na seguinte fonte, quem está sendo descrito?",
+    "source": "Ele trouxe secretamente sementes de algodão de Yuan e conseguiu cultivá-las, permitindo que as pessoas vestissem roupas de algodão.",
+    "correct": "Mun Ik-jeom",
+    "wrong": [
+      "Choe Mu-seon",
+      "Jeong Mong-ju",
+      "Yi Saek",
+      "An Hyang"
+    ],
+    "hint": "Ele é a pessoa sobre quem se conta a história de esconder sementes de algodão no cabo de um pincel.",
+    "explanation": "Mun Ik-jeom trouxe sementes de algodão de Yuan e conseguiu cultivá-las, estabelecendo as bases para a produção têxtil de algodão."
+  },
+  "q_goryeo_11_012": {
+    "question": "Qual era a instituição que fabricava armas de pólvora em Goryeo?",
+    "correct": "Hwatong Dogam",
+    "wrong": [
+      "Gyojeong Dogam",
+      "Jeongbang",
+      "Jeonmin Byeonjeong Dogam",
+      "Jeongdong Haengseong"
+    ],
+    "hint": "Era um órgão governamental que fabricava hwatong (tubos de fogo).",
+    "explanation": "Hwatong Dogam era uma instituição de fabricação de armas de pólvora estabelecida por sugestão de Choe Mu-seon. As armas fabricadas aqui foram usadas para repelir os piratas japoneses."
+  },
+  "q_goryeo_12_001": {
+    "question": "Quais eram as características do celadon de Goryeo?",
+    "correct": "A beleza da cor verde-jade (Bisaek) e a técnica de incrustação",
+    "wrong": [
+      "A elegância da cor branca",
+      "O esplendor da cor vermelha",
+      "A dignidade da cor preta",
+      "O brilho da cor amarela"
+    ],
+    "hint": "São cerâmicas caracterizadas pela cor verde-jade (azul-esverdeada).",
+    "explanation": "O celadon de Goryeo é caracterizado por sua bela cor azul-esverdeada (Bisaek) e ganhou fama mundial através da técnica de incrustação desenvolvida no século XII."
+  },
+  "q_goryeo_12_002": {
+    "question": "Qual afirmação sobre este celadon na foto está correta?",
+    "correct": "É um incensário que mostra o excelente nível de artesanato do celadon de Goryeo",
+    "wrong": [
+      "Foi feito durante Silla Unificada",
+      "Foi feito durante o período Joseon",
+      "Foi importado da China",
+      "É um item de uso cotidiano"
+    ],
+    "hint": "É um incensário elaborado com padrões feitos por corte vazado (rendilhado).",
+    "explanation": "A foto mostra o Incensário de Celadon com Design Rendilhado dos Sete Tesouros. O elaborado rendilhado (criando padrões por corte vazado) e o padrão dos sete tesouros mostram o nível de artesanato do celadon de Goryeo."
+  },
+  "q_goryeo_12_003": {
+    "question": "Quais eram as características das pinturas budistas de Goryeo?",
+    "correct": "Cores esplêndidas e expressão delicada",
+    "wrong": [
+      "Principalmente pintura a tinta aguada",
+      "Expressão em uma única cor",
+      "Estilo de pintura popular",
+      "Expressão abstrata"
+    ],
+    "hint": "São pinturas budistas que usam folha de ouro e possuem cores esplêndidas.",
+    "explanation": "As pinturas budistas de Goryeo são caracterizadas por cores esplêndidas e expressão delicada, com obras como o Quadro do Sutra da Visualização sendo representativas."
+  },
+  "q_goryeo_12_004": {
+    "question": "Com base na seguinte fonte, qual estilo arquitetônico de Goryeo está sendo descrito?",
+    "source": "Um estilo simples e contido onde os conjuntos de mísulas são colocados apenas no topo das colunas para sustentar o telhado.",
+    "correct": "Estilo Jusimpo",
+    "wrong": [
+      "Estilo Dapo",
+      "Estilo Ikgong",
+      "Estilo Pagode",
+      "Estilo de Tijolos"
+    ],
+    "hint": "É um estilo onde os conjuntos de mísulas são colocados apenas no topo das colunas.",
+    "explanation": "O Estilo Jusimpo coloca conjuntos de mísulas (estruturas de sustentação do telhado) apenas no topo das colunas. Exemplos representativos incluem o Geungnakjeon do Templo Bongjeongsa e o Muryangsujeon do Templo Buseoksa."
+  },
+  "q_goryeo_12_005": {
+    "question": "Que característica da arte de Goryeo esta foto demonstra?",
+    "correct": "É uma pintura budista com cores esplêndidas e pinceladas delicadas",
+    "wrong": [
+      "É uma pintura a tinta aguada",
+      "É uma pintura popular",
+      "É uma pintura de gênero",
+      "É uma pintura do período Joseon"
+    ],
+    "hint": "São pinturas budistas que retratam Buda ou Bodhisattvas de forma esplêndida.",
+    "explanation": "A foto mostra uma pintura budista de Goryeo. As pinturas budistas de Goryeo são caracterizadas por cores esplêndidas, uso de folha de ouro e pinceladas delicadas, recebendo grande reconhecimento internacional."
+  },
+  "q_goryeo_12_006": {
+    "question": "Quais eram as técnicas artesanais representativas de Goryeo?",
+    "correct": "Técnica de incrustação em prata, Laca com madrepérola",
+    "wrong": [
+      "Técnica de cerâmica Buncheong",
+      "Técnica de porcelana branca",
+      "Técnica de cerâmica vermelha",
+      "Técnica de cerâmica rústica"
+    ],
+    "hint": "É uma técnica de incrustar prata em metal e decorar com pedaços de concha.",
+    "explanation": "Goryeo desenvolveu a incrustação em prata (embutir prata em metal) e a laca com madrepérola (usando pedaços de concha) como técnicas artesanais."
+  },
+  "q_goryeo_12_007": {
+    "question": "Qual afirmação sobre este edifício na foto está correta?",
+    "correct": "É um edifício do período Goryeo em estilo Jusimpo",
+    "wrong": [
+      "É um edifício do período Joseon em estilo Dapo",
+      "É um edifício em estilo Ikgong",
+      "É um edifício do período Silla Unificada",
+      "É um edifício restaurado na era moderna"
+    ],
+    "hint": "É um edifício de templo em Yeongju caracterizado por colunas com êntase.",
+    "explanation": "A foto mostra o Muryangsujeon do Templo Buseoksa. É um edifício representativo de Goryeo em estilo Jusimpo, caracterizado por colunas com êntase."
+  },
+  "q_goryeo_12_008": {
+    "question": "Qual afirmação sobre este pagode de pedra na foto está correta?",
+    "correct": "Mostra o estilo de pagode de pedra de Goryeo com múltiplos ângulos e múltiplos andares",
+    "wrong": [
+      "É o estilo típico de Silla Unificada",
+      "É estilo Baekje",
+      "É um pagode de madeira",
+      "Foi construído durante o período Joseon"
+    ],
+    "hint": "É um pagode de pedra com formato único de 8 lados e 9 andares.",
+    "explanation": "A foto mostra o Pagode de Pedra Octogonal de Nove Andares do Templo Woljeongsa. Os pagodes de pedra de Goryeo apresentam diversos estilos, incluindo formas com múltiplos ângulos e andares, e este pagode possui um formato único octogonal de nove andares."
+  },
+  "q_goryeo_12_009": {
+    "question": "Qual afirmação sobre este pagode de pedra na foto está correta?",
+    "correct": "É um pagode de pedra de Goryeo com estilo incomum feito de mármore",
+    "wrong": [
+      "É um estilo de Silla Unificada feito de granito",
+      "É um pagode de pedra em estilo Baekje",
+      "Foi construído durante o período Joseon",
+      "É estilo de pagode de madeira"
+    ],
+    "hint": "É um pagode de 10 andares feito de pedra branca com influência de Yuan.",
+    "explanation": "A foto mostra o Pagode de Pedra de Dez Andares do Templo Gyeongcheonsa. Feito de mármore, é um pagode de pedra de Goryeo com estilo incomum influenciado por Yuan."
+  },
+  "q_goryeo_12_010": {
+    "question": "Qual é a característica do estilo Jusimpo na arquitetura de Goryeo?",
+    "correct": "Os conjuntos de mísulas são instalados apenas no topo das colunas",
+    "wrong": [
+      "Os conjuntos de mísulas são instalados também entre as colunas",
+      "Conjuntos de mísulas não são utilizados",
+      "O telhado é construído com tijolos",
+      "Apenas telhados sem colunas"
+    ],
+    "hint": "É um estilo simples com suportes de telhado colocados apenas diretamente sobre as colunas.",
+    "explanation": "O estilo Jusimpo instala conjuntos de mísulas (estruturas de sustentação do telhado) apenas no topo das colunas, distinguindo-se do estilo Dapo (conjuntos de mísulas também entre as colunas)."
+  },
+  "q_goryeo_12_011": {
+    "question": "Com base na seguinte fonte, qual artesanato de Goryeo está sendo descrito?",
+    "source": "Um artesanato que expressa padrões esplêndidos processando pedaços de concha e fixando-os sobre um fundo laqueado.",
+    "correct": "Laca com madrepérola (Najeon Chilgi)",
+    "wrong": [
+      "Celadon incrustado",
+      "Incrustação em prata",
+      "Cerâmica Buncheong",
+      "Porcelana branca"
+    ],
+    "hint": "É um artesanato onde pedaços de concha são fixados em recipientes laqueados.",
+    "explanation": "A laca com madrepérola é um artesanato que expressa padrões fixando pedaços de concha (Jagai) sobre um fundo laqueado, tendo se desenvolvido grandemente durante o período Goryeo."
+  },
+  "q_goryeo_12_012": {
+    "question": "Quais eram os edifícios representativos em estilo Jusimpo do período Goryeo?",
+    "correct": "Geungnakjeon do Templo Bongjeongsa, Muryangsujeon do Templo Buseoksa",
+    "wrong": [
+      "Sungnyemun, Heunginjimun",
+      "Daeungjeon do Templo Bulguksa",
+      "Geunjeongjeon do Palácio Gyeongbokgung",
+      "Janggyeong Panjeon do Templo Haeinsa"
+    ],
+    "hint": "São edifícios de templos da era Goryeo em Andong e Yeongju.",
+    "explanation": "O Geungnakjeon do Templo Bongjeongsa e o Muryangsujeon do Templo Buseoksa são edifícios representativos de Goryeo em estilo Jusimpo, estando entre as estruturas de madeira mais antigas ainda existentes."
+  }
+}

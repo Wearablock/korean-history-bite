@@ -53,6 +53,7 @@ class KoreanHistoryApp extends ConsumerWidget {
         Locale('zh'),
         Locale.fromSubtags(languageCode: 'zh', scriptCode: 'Hant'),
         Locale('es'),
+        Locale('pt'),
       ],
       // 사용자가 선택한 언어가 있으면 해당 언어 사용
       locale: appLocale,
@@ -97,6 +98,9 @@ class KoreanHistoryApp extends ConsumerWidget {
         break;
       case 'es':
         targetLocale = 'es';
+        break;
+      case 'pt':
+        targetLocale = 'pt';
         break;
       default:
         // 기타 언어는 영어로 fallback

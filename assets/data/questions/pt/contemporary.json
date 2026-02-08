@@ -1,0 +1,1601 @@
+{
+  "q_contemporary_01_001": {
+    "question": "Que evento ocorreu em 15 de agosto de 1945?",
+    "correct": "Libertação (Gwangbok)",
+    "wrong": [
+      "Início da Guerra da Coreia",
+      "Estabelecimento do governo da República da Coreia",
+      "Revolução de 19 de Abril",
+      "Golpe militar de 16 de Maio"
+    ],
+    "hint": "Este é o dia em que o Japão se rendeu e a Coreia foi libertada de 35 anos de domínio colonial.",
+    "explanation": "Em 15 de agosto de 1945, o Japão se rendeu incondicionalmente às forças Aliadas, e a Coreia foi libertada de 35 anos de domínio colonial japonês."
+  },
+  "q_contemporary_01_002": {
+    "question": "Esta foto mostra uma cena de 15 de agosto de 1945. Qual afirmação sobre este dia está correta?",
+    "correct": "A Coreia foi libertada devido à rendição do Japão",
+    "wrong": [
+      "O governo da República da Coreia foi estabelecido",
+      "A divisão entre Coreia do Norte e Coreia do Sul foi formalizada",
+      "A Guerra da Coreia terminou",
+      "O governo militar dos EUA foi iniciado"
+    ],
+    "hint": "Pense por que o dia 15 de agosto é celebrado todos os anos como 'Dia da Libertação'.",
+    "explanation": "Em 15 de agosto de 1945, com a transmissão de rendição do Imperador japonês, a Coreia foi libertada de 35 anos de domínio colonial."
+  },
+  "q_contemporary_01_003": {
+    "question": "Qual afirmação sobre as tropas estrangeiras que entraram na Península Coreana imediatamente após a libertação está correta?",
+    "correct": "Forças soviéticas no norte e forças americanas no sul entraram, divididas pelo paralelo 38",
+    "wrong": [
+      "Apenas forças americanas entraram em todo o país",
+      "Apenas forças soviéticas entraram em todo o país",
+      "Forças britânicas e francesas entraram",
+      "Forças chinesas entraram"
+    ],
+    "hint": "O norte do paralelo 38 foi ocupado pela União Soviética, o sul pelos Estados Unidos.",
+    "explanation": "Após a libertação em 1945, forças soviéticas entraram ao norte do paralelo 38 e forças americanas entraram ao sul, dividindo e ocupando a Península Coreana."
+  },
+  "q_contemporary_01_004": {
+    "question": "O que está relacionado ao conteúdo desta declaração?",
+    "correct": "Prometeu a independência da Coreia",
+    "wrong": [
+      "Decidiu sobre a divisão entre Norte e Sul",
+      "Resolveu sobre a tutela",
+      "Resolveu sobre a participação na Guerra da Coreia",
+      "Resolveu sobre o reconhecimento do governo da República da Coreia"
+    ],
+    "hint": "Esta é a declaração de 1943 em que os EUA, a Grã-Bretanha e a China prometeram a independência da Coreia 'no devido tempo'.",
+    "explanation": "Na Declaração do Cairo de 1943, os Estados Unidos, a Grã-Bretanha e a China prometeram tornar a Coreia independente 'no devido tempo'.",
+    "source": "Declaração do Cairo (1943): Cientes da escravização do povo da Coreia, [nós] estamos determinados a que, no devido tempo, a Coreia se torne livre e independente."
+  },
+  "q_contemporary_01_005": {
+    "question": "Qual afirmação sobre a situação mostrada neste mapa está correta?",
+    "correct": "Mostra a divisão da Península Coreana entre forças americanas e soviéticas após a libertação",
+    "wrong": [
+      "Mostra a linha de frente durante a Guerra da Coreia",
+      "Mostra os distritos administrativos durante o período colonial japonês",
+      "Mostra o sistema de oito províncias da Dinastia Joseon",
+      "Mostra o território máximo de Goguryeo"
+    ],
+    "hint": "Este mapa mostra o 'paralelo 38' que se tornou o ponto de partida da divisão Norte-Sul.",
+    "explanation": "O paralelo 38 foi uma linha de demarcação militar estabelecida pelos EUA e pela União Soviética para dividir e ocupar a Península Coreana após a libertação, tornando-se a origem da divisão Norte-Sul."
+  },
+  "q_contemporary_01_006": {
+    "question": "Que organização Yeo Un-hyeong formou imediatamente após a libertação?",
+    "correct": "Comitê de Preparação para a Independência da Coreia",
+    "wrong": [
+      "Singanhoe",
+      "Governo Provisório da República da Coreia",
+      "Conselho Central para a Promoção da Independência",
+      "Partido Democrático Coreano"
+    ],
+    "hint": "Uma organização que manteve a ordem pública e preparou a construção do Estado após a libertação, abreviada como 'Geonjun'.",
+    "explanation": "Imediatamente após a libertação, Yeo Un-hyeong organizou o Comitê de Preparação para a Independência da Coreia e realizou atividades de manutenção da ordem pública e preparação para a construção do Estado."
+  },
+  "q_contemporary_01_007": {
+    "question": "O que NÃO foi uma decisão da Conferência de Ministros das Relações Exteriores de Moscou (dezembro de 1945)?",
+    "correct": "Eleição geral imediata em ambas as Coreias do Norte e do Sul",
+    "wrong": [
+      "Estabelecimento de um governo provisório",
+      "Estabelecimento da Comissão Conjunta EUA-URSS",
+      "Tutela por até 5 anos",
+      "Garantia da independência da Coreia"
+    ],
+    "hint": "Esta conferência decidiu sobre a 'tutela', gerando debates entre apoiadores e opositores.",
+    "explanation": "A Conferência de Ministros das Relações Exteriores de Moscou decidiu sobre o estabelecimento de um governo provisório, a Comissão Conjunta EUA-URSS e a tutela por até 5 anos, mas não uma eleição geral imediata."
+  },
+  "q_contemporary_01_008": {
+    "question": "Onde o governo militar dos EUA foi implementado após a libertação?",
+    "correct": "Ao sul do paralelo 38",
+    "wrong": [
+      "Ao norte do paralelo 38",
+      "Em toda a Península Coreana",
+      "Apenas em Seul e na Província de Gyeonggi",
+      "Apenas nas seis principais cidades"
+    ],
+    "hint": "O sul foi ocupado pelas forças americanas, o norte pelas forças soviéticas, cada um estabelecendo governos militares.",
+    "explanation": "Após a libertação, o governo militar dos EUA foi implementado ao sul do paralelo 38, enquanto a administração militar soviética foi implementada ao norte."
+  },
+  "q_contemporary_01_009": {
+    "question": "Qual afirmação sobre a manifestação nesta foto está correta?",
+    "correct": "Foi um movimento contra a tutela",
+    "wrong": [
+      "Foi o Movimento 1º de Março",
+      "Foi a Revolução de 19 de Abril",
+      "Foi a Revolta Democrática de Junho",
+      "Foi o Movimento de Democratização de 18 de Maio"
+    ],
+    "hint": "Uma manifestação contra a decisão de 'tutela' da Conferência de Ministros das Relações Exteriores de Moscou.",
+    "explanation": "Movimentos anti-tutela em grande escala foram realizados em oposição à decisão de tutela da Conferência de Ministros das Relações Exteriores de Moscou."
+  },
+  "q_contemporary_01_010": {
+    "question": "Qual foi o resultado da situação mostrada nesta fonte?",
+    "correct": "Levou ao estabelecimento de um governo separado apenas na Coreia do Sul",
+    "wrong": [
+      "Um governo unificado foi estabelecido",
+      "A independência do Japão foi alcançada",
+      "A Guerra da Coreia estourou",
+      "O sistema Yushin foi estabelecido"
+    ],
+    "hint": "O fracasso da Comissão Conjunta EUA-URSS acabou levando a eleições apenas na Coreia do Sul (Eleição Geral de 10 de Maio).",
+    "explanation": "Com o fracasso da Comissão Conjunta EUA-URSS e a intensificação da Guerra Fria, o governo da República da Coreia acabou sendo estabelecido por meio de uma eleição separada apenas na Coreia do Sul.",
+    "source": "Declaração de Encerramento da Comissão Conjunta EUA-URSS (1947): Ambos os lados não conseguiram chegar a um acordo e estão suspendendo os trabalhos por tempo indeterminado."
+  },
+  "q_contemporary_01_011": {
+    "question": "Quem organizou o Comitê de Preparação para a Independência da Coreia?",
+    "correct": "Yeo Un-hyeong",
+    "wrong": [
+      "Rhee Syngman",
+      "Kim Gu",
+      "Kim Il-sung",
+      "Park Heon-yeong"
+    ],
+    "hint": "Um político de centro-esquerda com o pseudônimo Mongyang (夢陽) que organizou este comitê.",
+    "explanation": "Imediatamente após a libertação, Yeo Un-hyeong organizou o Comitê de Preparação para a Independência da Coreia e trabalhou na manutenção da ordem pública e na preparação para a construção do Estado."
+  },
+  "q_contemporary_01_012": {
+    "question": "Qual foi o contexto da divisão pelo paralelo 38?",
+    "correct": "Acordo entre os EUA e a União Soviética para dividir e ocupar a Península Coreana",
+    "wrong": [
+      "Condições de rendição do Japão",
+      "Pedido do povo coreano",
+      "Decisão das Nações Unidas",
+      "Proposta da China"
+    ],
+    "hint": "Os EUA e a União Soviética concordaram em dividir e ocupar a Coreia usando o paralelo 38 como fronteira para desarmar as forças japonesas.",
+    "explanation": "Em agosto de 1945, os Estados Unidos e a União Soviética concordaram em dividir e ocupar a Península Coreana ao longo do paralelo 38."
+  },
+  "q_contemporary_02_001": {
+    "question": "Em que ano o governo da República da Coreia foi estabelecido?",
+    "correct": "1948",
+    "wrong": [
+      "1945",
+      "1950",
+      "1953",
+      "1960"
+    ],
+    "hint": "Três anos após a libertação (1945), o ano em que Rhee Syngman se tornou o primeiro presidente.",
+    "explanation": "Em 15 de agosto de 1948, o governo da República da Coreia foi oficialmente estabelecido com Rhee Syngman como o primeiro presidente."
+  },
+  "q_contemporary_02_002": {
+    "question": "Qual afirmação sobre a eleição mostrada nesta foto está correta?",
+    "correct": "Foi uma eleição para selecionar os membros da Assembleia Nacional Constituinte",
+    "wrong": [
+      "Foi uma eleição presidencial direta",
+      "Foi uma eleição geral para ambas as Coreias do Norte e do Sul",
+      "Foi uma eleição para o governo local",
+      "Foi um referendo nacional"
+    ],
+    "hint": "A primeira eleição democrática realizada em 10 de maio de 1948, chamada de 'Eleição Geral de 10 de Maio'.",
+    "explanation": "A eleição geral realizada em 10 de maio de 1948 foi conduzida apenas na Coreia do Sul sob supervisão da ONU, elegendo 198 membros da Assembleia Nacional Constituinte."
+  },
+  "q_contemporary_02_003": {
+    "question": "Qual afirmação sobre a Eleição Geral de 10 de Maio NÃO está correta?",
+    "correct": "Foi realizada em toda a Coreia do Norte e do Sul",
+    "wrong": [
+      "Foi realizada sob supervisão da ONU",
+      "Elegeu membros da Assembleia Nacional Constituinte",
+      "O direito de voto foi concedido a cidadãos com 21 anos ou mais",
+      "Kim Gu e Kim Kyu-sik não participaram"
+    ],
+    "hint": "A Coreia do Norte não participou, tornando-a uma 'eleição separada' apenas na Coreia do Sul.",
+    "explanation": "A Eleição Geral de 10 de Maio foi realizada apenas na Coreia do Sul sob supervisão da ONU. Kim Gu e Kim Kyu-sik defendiam o estabelecimento de um governo unificado por meio de negociações Norte-Sul e não participaram."
+  },
+  "q_contemporary_02_004": {
+    "question": "Qual era o conteúdo desta constituição?",
+    "correct": "Estabeleceu eleição presidencial indireta e uma Assembleia Nacional unicameral",
+    "wrong": [
+      "Estabeleceu eleição presidencial direta",
+      "Estabeleceu uma Assembleia Nacional bicameral",
+      "Estabeleceu um sistema de responsabilidade de gabinete",
+      "Estabeleceu a Conferência Nacional para a Unificação"
+    ],
+    "hint": "Na Constituição de 1948, o presidente era eleito pela Assembleia Nacional, não pelo povo.",
+    "explanation": "A Constituição de 1948 estabeleceu a eleição presidencial indireta (eleito pela Assembleia Nacional) e uma Assembleia Nacional unicameral.",
+    "source": "Constituição de 1948, Artigo 53: O Presidente e o Vice-Presidente serão eleitos, cada um, por voto secreto na Assembleia Nacional."
+  },
+  "q_contemporary_02_005": {
+    "question": "Qual afirmação sobre esta pessoa na foto está correta?",
+    "correct": "Foi empossado como o primeiro presidente da República da Coreia",
+    "wrong": [
+      "Serviu como presidente do Governo Provisório",
+      "Liderou o Golpe Militar de 16 de Maio",
+      "Anunciou a Declaração Democrática de 29 de Junho",
+      "Realizou a primeira cúpula intercoreana"
+    ],
+    "hint": "Uma figura que realizou atividades de independência nos Estados Unidos e retornou após a libertação para se tornar o primeiro presidente.",
+    "explanation": "Rhee Syngman foi eleito como o primeiro presidente pela Assembleia Nacional em julho de 1948 e proclamou o estabelecimento do governo da República da Coreia."
+  },
+  "q_contemporary_02_006": {
+    "question": "Quem era o vice-presidente quando o governo da República da Coreia foi estabelecido?",
+    "correct": "Yi Si-yeong",
+    "wrong": [
+      "Kim Gu",
+      "Kim Kyu-sik",
+      "Yeo Un-hyeong",
+      "Jo Bong-am"
+    ],
+    "hint": "Um ativista da independência que contribuiu para o estabelecimento da Academia Militar de Sinheung.",
+    "explanation": "Quando o governo da República da Coreia foi estabelecido em 1948, Rhee Syngman foi eleito presidente e Yi Si-yeong foi eleito vice-presidente."
+  },
+  "q_contemporary_02_007": {
+    "question": "Qual NÃO é uma descrição adequada do significado do estabelecimento do governo da República da Coreia?",
+    "correct": "Um governo unificado Norte-Sul foi estabelecido",
+    "wrong": [
+      "Um governo de república democrática foi lançado",
+      "Foi reconhecido como governo legítimo pelas Nações Unidas",
+      "Proclamou o princípio da soberania popular",
+      "Herdou o espírito do Movimento 1º de Março"
+    ],
+    "hint": "A Coreia do Norte estabeleceu separadamente a RPDC, solidificando a divisão.",
+    "explanation": "O estabelecimento do governo da República da Coreia em 1948 foi um governo separado apenas para a Coreia do Sul. A República Popular Democrática da Coreia foi estabelecida separadamente na Coreia do Norte, solidificando a divisão."
+  },
+  "q_contemporary_02_008": {
+    "question": "Qual lei NÃO foi promulgada pela Assembleia Nacional Constituinte?",
+    "correct": "Constituição Yushin",
+    "wrong": [
+      "Lei de Punição de Atividades Antinacionais",
+      "Lei de Reforma Agrária",
+      "Constituição de 1948",
+      "Lei de Segurança Nacional"
+    ],
+    "hint": "A Constituição Yushin foi criada em 1972 durante o governo de Park Chung-hee.",
+    "explanation": "A Assembleia Nacional Constituinte promulgou a Constituição de 1948, a Lei de Punição de Atividades Antinacionais, a Lei de Reforma Agrária e a Lei de Segurança Nacional. A Constituição Yushin foi promulgada em 1972."
+  },
+  "q_contemporary_02_009": {
+    "question": "Qual afirmação sobre este documento na foto está correta?",
+    "correct": "É a primeira constituição da República da Coreia",
+    "wrong": [
+      "É a constituição do Governo Provisório",
+      "É a Constituição Yushin",
+      "É a Constituição da Quinta República",
+      "É a constituição atual"
+    ],
+    "hint": "Promulgada em 17 de julho de 1948, razão pela qual o dia 17 de julho ainda é celebrado como 'Dia da Constituição'.",
+    "explanation": "A Constituição promulgada em 17 de julho de 1948 foi a primeira constituição da República da Coreia, proclamando o republicanismo democrático e a soberania popular."
+  },
+  "q_contemporary_02_010": {
+    "question": "Em que data foi proclamado o estabelecimento do governo da República da Coreia?",
+    "correct": "15 de agosto de 1948",
+    "wrong": [
+      "10 de maio de 1948",
+      "17 de julho de 1948",
+      "15 de agosto de 1945",
+      "25 de junho de 1950"
+    ],
+    "hint": "O governo foi proclamado no terceiro aniversário da libertação.",
+    "explanation": "O estabelecimento do governo da República da Coreia foi oficialmente proclamado em 15 de agosto de 1948, comemorando o terceiro aniversário da libertação."
+  },
+  "q_contemporary_02_011": {
+    "question": "Como o governo da República da Coreia foi reconhecido pelas Nações Unidas?",
+    "correct": "O único governo legítimo na Península Coreana",
+    "wrong": [
+      "Governo provisório",
+      "Sujeito à tutela",
+      "Nação dividida",
+      "Nação neutra"
+    ],
+    "hint": "Em 1948, a Assembleia Geral da ONU reconheceu a República da Coreia como o 'único governo legítimo' na Península Coreana.",
+    "explanation": "Em dezembro de 1948, a Assembleia Geral da ONU reconheceu a República da Coreia como o único governo legítimo na Península Coreana."
+  },
+  "q_contemporary_02_012": {
+    "question": "Quem não participou da Eleição Geral de 10 de Maio?",
+    "correct": "Kim Gu",
+    "wrong": [
+      "Rhee Syngman",
+      "Yi Si-yeong",
+      "Sin Ik-hui",
+      "Jo Bong-am"
+    ],
+    "hint": "Baekbeom, que se opôs à eleição separada e tentou negociações Norte-Sul para um governo unificado.",
+    "explanation": "Kim Gu se opôs a uma eleição separada apenas na Coreia do Sul, tentou negociações Norte-Sul e não participou da Eleição Geral de 10 de Maio."
+  },
+  "q_contemporary_03_001": {
+    "question": "Em que ano estourou a Guerra da Coreia?",
+    "correct": "1950",
+    "wrong": [
+      "1948",
+      "1953",
+      "1945",
+      "1960"
+    ],
+    "hint": "Dois anos após a fundação do governo (1948), uma guerra que começou com a invasão da Coreia do Norte em 25 de junho.",
+    "explanation": "Em 25 de junho de 1950, a Guerra da Coreia estourou com a invasão da Coreia do Norte ao Sul."
+  },
+  "q_contemporary_03_002": {
+    "question": "Qual afirmação sobre a guerra mostrada nesta foto está correta?",
+    "correct": "Começou com a invasão da Coreia do Norte ao Sul",
+    "wrong": [
+      "Começou com a invasão da Coreia do Sul ao Norte",
+      "Começou com a invasão do Japão",
+      "Começou com a invasão da China",
+      "Começou com a invasão da União Soviética"
+    ],
+    "hint": "Às 4 da manhã de 25 de junho de 1950, as forças norte-coreanas iniciaram a invasão ao longo de todo o paralelo 38.",
+    "explanation": "Na madrugada de 25 de junho de 1950, as forças norte-coreanas lançaram uma invasão rumo ao sul ao longo de todo o paralelo 38, dando início à Guerra da Coreia."
+  },
+  "q_contemporary_03_003": {
+    "question": "O que levou as forças da ONU a participarem da Guerra da Coreia?",
+    "correct": "Resolução do Conselho de Segurança da ONU",
+    "wrong": [
+      "Assinatura do Tratado de Defesa Mútua Coreia do Sul-EUA",
+      "Decisão da OTAN",
+      "Solicitação unilateral da República da Coreia",
+      "Mediação do Japão"
+    ],
+    "hint": "O Conselho de Segurança da ONU condenou a agressão norte-coreana e decidiu enviar forças da ONU.",
+    "explanation": "Imediatamente após a invasão da Coreia do Norte, o Conselho de Segurança da ONU aprovou uma resolução para repelir as forças norte-coreanas e decidiu enviar forças da ONU lideradas pelos Estados Unidos."
+  },
+  "q_contemporary_03_004": {
+    "question": "Qual foi o resultado desta operação?",
+    "correct": "Seul foi recapturada e o rumo da guerra foi revertido",
+    "wrong": [
+      "Um acordo de armistício foi assinado",
+      "As forças norte-coreanas ocuparam toda a Coreia do Sul",
+      "As forças chinesas entraram na guerra",
+      "As forças americanas se retiraram"
+    ],
+    "hint": "A Operação de Desembarque em Incheon, liderada pelo General MacArthur, reverteu o rumo da guerra.",
+    "explanation": "O sucesso da Operação de Desembarque em Incheon em 15 de setembro de 1950 permitiu que as forças da ONU recapturassem Seul e revertessem o rumo da guerra.",
+    "source": "Relatório da Operação de Desembarque em Incheon do General MacArthur: A operação foi um sucesso completo. As linhas de suprimento do inimigo foram cortadas."
+  },
+  "q_contemporary_03_005": {
+    "question": "Qual afirmação sobre esta operação na foto está correta?",
+    "correct": "É a Operação de Desembarque em Incheon comandada pelo General MacArthur",
+    "wrong": [
+      "É a operação de invasão inicial da Coreia do Norte",
+      "É a operação de entrada da China",
+      "É a cena da assinatura do acordo de armistício",
+      "É a Operação de Evacuação de Heungnam"
+    ],
+    "hint": "Uma operação de desembarque em 15 de setembro de 1950 que teve sucesso contra todas as probabilidades.",
+    "explanation": "Em 15 de setembro de 1950, as forças da ONU comandadas pelo General MacArthur executaram com sucesso a Operação de Desembarque em Incheon, revertendo o rumo da guerra."
+  },
+  "q_contemporary_03_006": {
+    "question": "Quando as forças chinesas entraram na Guerra da Coreia?",
+    "correct": "Outubro de 1950",
+    "wrong": [
+      "Junho de 1950",
+      "Julho de 1951",
+      "Julho de 1953",
+      "Janeiro de 1952"
+    ],
+    "hint": "Quando as forças da ONU avançaram até o Rio Yalu, a China interveio com forças massivas.",
+    "explanation": "Quando as forças da ONU avançaram até o Rio Yalu, as forças chinesas entraram na guerra em grande escala em outubro de 1950, revertendo novamente o rumo da guerra."
+  },
+  "q_contemporary_03_007": {
+    "question": "O que NÃO foi um resultado da Guerra da Coreia?",
+    "correct": "A unificação Norte-Sul foi alcançada",
+    "wrong": [
+      "A divisão Norte-Sul se consolidou",
+      "Enormes baixas ocorreram",
+      "Um acordo de armistício foi assinado",
+      "A recuperação pós-guerra e a reconstrução econômica foram necessárias"
+    ],
+    "hint": "O armistício (cessar-fogo) significou apenas a interrupção temporária da guerra, não a unificação.",
+    "explanation": "A Guerra da Coreia terminou com um acordo de armistício em 1953, mas a unificação Norte-Sul não foi alcançada e a divisão se tornou ainda mais consolidada."
+  },
+  "q_contemporary_03_008": {
+    "question": "Em que ano foi assinado o Acordo de Armistício da Guerra da Coreia?",
+    "correct": "1953",
+    "wrong": [
+      "1950",
+      "1951",
+      "1952",
+      "1954"
+    ],
+    "hint": "Três anos após o início da guerra (1950), o armistício foi assinado em Panmunjom em 27 de julho.",
+    "explanation": "Em 27 de julho de 1953, um acordo de armistício foi assinado em Panmunjom, transformando a guerra de três anos em um estado de cessar-fogo."
+  },
+  "q_contemporary_03_009": {
+    "question": "Qual afirmação sobre esta cena na foto está correta?",
+    "correct": "É a cena da assinatura do Acordo de Armistício da Guerra da Coreia",
+    "wrong": [
+      "É a cerimônia de proclamação do governo da República da Coreia",
+      "É uma cena de cúpula intercoreana",
+      "É uma cena da Eleição Geral de 10 de maio",
+      "É uma cena da Revolução de 19 de Abril"
+    ],
+    "hint": "Uma cena histórica da assinatura entre as forças da ONU e os lados da Coreia do Norte-China em Panmunjom.",
+    "explanation": "Em 27 de julho de 1953, um acordo de armistício foi assinado em Panmunjom entre as forças da ONU e a Coreia do Norte-China."
+  },
+  "q_contemporary_03_010": {
+    "question": "Qual tratado foi assinado após a Guerra da Coreia?",
+    "correct": "Tratado de Defesa Mútua Coreia do Sul-EUA",
+    "wrong": [
+      "Tratado Básico Coreia-Japão",
+      "Acordo Básico Norte-Sul",
+      "Tratado Eulsa",
+      "TLC Coreia-EUA"
+    ],
+    "hint": "O tratado que se tornou a base legal para as tropas americanas estacionadas na Coreia.",
+    "explanation": "O Tratado de Defesa Mútua Coreia do Sul-EUA foi assinado em outubro de 1953, fornecendo a base legal para a presença militar americana na Coreia e a cooperação de defesa mútua."
+  },
+  "q_contemporary_03_011": {
+    "question": "Quem foi o Comandante das Forças da ONU durante a Guerra da Coreia?",
+    "correct": "MacArthur",
+    "wrong": [
+      "Eisenhower",
+      "Truman",
+      "Nixon",
+      "Patton"
+    ],
+    "hint": "Um general americano que comandou a Operação de Desembarque em Incheon e foi depois destituído pelo Presidente Truman.",
+    "explanation": "Após o início da Guerra da Coreia, o General MacArthur foi nomeado Comandante Supremo das Forças da ONU e comandou a Operação de Desembarque em Incheon."
+  },
+  "q_contemporary_03_012": {
+    "question": "Em que data foi realizada a Operação de Desembarque em Incheon?",
+    "correct": "15 de setembro de 1950",
+    "wrong": [
+      "25 de junho de 1950",
+      "27 de julho de 1953",
+      "4 de janeiro de 1951",
+      "1 de outubro de 1950"
+    ],
+    "hint": "A operação que reverteu instantaneamente o rumo da guerra quando as forças estavam recuadas na linha de defesa do Rio Nakdong.",
+    "explanation": "A Operação de Desembarque em Incheon teve sucesso em 15 de setembro de 1950, revertendo o rumo da guerra, e Seul foi recapturada em 28 de setembro."
+  },
+  "q_contemporary_04_001": {
+    "question": "Em que ano ocorreu a Revolução de 19 de Abril?",
+    "correct": "1960",
+    "wrong": [
+      "1948",
+      "1953",
+      "1961",
+      "1979"
+    ],
+    "hint": "Uma revolução de estudantes e cidadãos protestando contra a eleição fraudulenta de 15 de março do regime de Rhee Syngman.",
+    "explanation": "Em 19 de abril de 1960, a Revolução de 19 de Abril ocorreu quando estudantes e cidadãos se levantaram contra a fraude eleitoral de 15 de março do regime de Rhee Syngman."
+  },
+  "q_contemporary_04_002": {
+    "question": "Qual afirmação sobre este evento na foto está correta?",
+    "correct": "Foi um movimento de democratização contra a fraude eleitoral do regime de Rhee Syngman",
+    "wrong": [
+      "Foi um movimento de independência contra o domínio colonial japonês",
+      "Foi o Movimento de Democratização de 18 de Maio contra o regime militar",
+      "Foi o movimento contra a tutela",
+      "Foi a Revolta Democrática de Junho"
+    ],
+    "hint": "A primeira revolução democrática da Coreia contra a ditadura, com o lema 'Não podemos viver assim, vamos mudar!'",
+    "explanation": "A Revolução de 19 de Abril foi um movimento de democratização em que estudantes e cidadãos, indignados com a fraude eleitoral de 15 de março de 1960, resistiram à ditadura de Rhee Syngman."
+  },
+  "q_contemporary_04_003": {
+    "question": "Qual foi a causa direta da Revolução de 19 de Abril?",
+    "correct": "Fraude eleitoral de 15 de março",
+    "wrong": [
+      "Golpe Militar de 16 de Maio",
+      "Promulgação da Constituição Yushin",
+      "Movimento de Democratização de Gwangju",
+      "Declaração Democrática de 29 de Junho"
+    ],
+    "hint": "O Partido Liberal cometeu graves fraudes na eleição presidencial de 15 de março de 1960.",
+    "explanation": "Na eleição presidencial e vice-presidencial realizada em 15 de março de 1960, o regime do Partido Liberal cometeu fraude eleitoral massiva, o que se tornou a causa direta da Revolução de 19 de Abril."
+  },
+  "q_contemporary_04_004": {
+    "question": "Qual foi o resultado desta declaração?",
+    "correct": "O Presidente Rhee Syngman renunciou",
+    "wrong": [
+      "O Golpe Militar de 16 de Maio ocorreu",
+      "O sistema Yushin foi estabelecido",
+      "A Guerra da Coreia estourou",
+      "Uma cúpula intercoreana foi realizada"
+    ],
+    "hint": "Uma declaração que encerrou 12 anos de governo dizendo 'Se o povo quiser, eu renunciarei'.",
+    "explanation": "Com os protestos se espalhando por todo o país devido à Revolução de 19 de Abril, o Presidente Rhee Syngman anunciou sua declaração de renúncia em 26 de abril de 1960 e deixou o cargo.",
+    "source": "Declaração de renúncia do Presidente Rhee Syngman (26 de abril de 1960): Se o povo assim desejar, renunciarei à presidência."
+  },
+  "q_contemporary_04_005": {
+    "question": "Qual foi o resultado da Revolução de 19 de Abril?",
+    "correct": "Um governo de sistema parlamentarista foi estabelecido",
+    "wrong": [
+      "O sistema presidencialista foi fortalecido",
+      "Um regime militar foi estabelecido",
+      "O sistema Yushin foi lançado",
+      "A unificação Norte-Sul foi alcançada"
+    ],
+    "hint": "A Segunda República foi lançada com o Primeiro-Ministro detendo o poder real em vez do Presidente.",
+    "explanation": "Após a Revolução de 19 de Abril, a constituição foi emendada e a Segunda República foi lançada com um sistema parlamentarista e Assembleia Nacional bicameral."
+  },
+  "q_contemporary_04_006": {
+    "question": "Quem é a pessoa relacionada a este evento na foto?",
+    "correct": "Kim Ju-yeol",
+    "wrong": [
+      "Park Chung-hee",
+      "Chun Doo-hwan",
+      "Kim Dae-jung",
+      "Roh Moo-hyun"
+    ],
+    "hint": "Um estudante do ensino médio encontrado no porto de Masan com uma granada de gás lacrimogêneo cravada no olho.",
+    "explanation": "Em 11 de abril de 1960, o corpo do estudante Kim Ju-yeol foi descoberto nas águas de Masan, desencadeando protestos por todo o país."
+  },
+  "q_contemporary_04_007": {
+    "question": "Qual NÃO é uma descrição adequada do significado da Revolução de 19 de Abril?",
+    "correct": "Levou à participação política das forças militares",
+    "wrong": [
+      "A ditadura foi derrubada pelo poder do povo",
+      "Tornou-se a pedra angular do desenvolvimento democrático",
+      "Foi um movimento de democratização liderado por estudantes e cidadãos",
+      "Resistiu à fraude eleitoral"
+    ],
+    "hint": "A Revolução de 19 de Abril foi pela democracia, sem relação com a política militar.",
+    "explanation": "A Revolução de 19 de Abril foi um movimento de democratização que derrubou a ditadura pelo poder do povo e não teve relação com a participação política militar."
+  },
+  "q_contemporary_04_008": {
+    "question": "Qual governo foi estabelecido após a Revolução de 19 de Abril?",
+    "correct": "Gabinete de Chang Myon",
+    "wrong": [
+      "Governo de Rhee Syngman",
+      "Governo de Park Chung-hee",
+      "Governo de Chun Doo-hwan",
+      "Governo de Kim Young-sam"
+    ],
+    "hint": "A Segunda República, onde o Primeiro-Ministro se tornou o chefe do Poder Executivo sob o sistema parlamentarista.",
+    "explanation": "Após a Revolução de 19 de Abril, a constituição foi emendada para um sistema parlamentarista, e o Gabinete de Chang Myon (Segunda República), liderado por Chang Myon do Partido Democrático como Primeiro-Ministro, foi lançado."
+  },
+  "q_contemporary_04_009": {
+    "question": "O que NÃO foi uma característica da Segunda República?",
+    "correct": "Adotou o sistema presidencialista",
+    "wrong": [
+      "Adotou o sistema parlamentarista",
+      "Operou uma Assembleia Nacional bicameral",
+      "A liberdade de imprensa foi ampliada",
+      "O Partido Democrático assumiu o poder"
+    ],
+    "hint": "A Segunda República tinha um 'sistema parlamentarista' onde o Primeiro-Ministro detinha o poder real.",
+    "explanation": "A Segunda República adotou um sistema parlamentarista onde o Primeiro-Ministro exercia a função de chefe do Poder Executivo."
+  },
+  "q_contemporary_04_010": {
+    "question": "O que aconteceu após o evento deste documento?",
+    "correct": "O Golpe Militar de 16 de Maio ocorreu",
+    "wrong": [
+      "A Guerra da Coreia estourou",
+      "A Constituição Yushin foi promulgada",
+      "A Revolta Democrática de Junho ocorreu",
+      "O governo da República da Coreia foi estabelecido"
+    ],
+    "hint": "A Segunda República foi derrubada por um golpe militar em menos de um ano.",
+    "explanation": "A Segunda República foi derrubada pelo golpe militar de Park Chung-hee e outras forças militares em 16 de maio de 1961.",
+    "source": "Constituição da Segunda República (1960): A República da Coreia é uma república democrática. A soberania da República da Coreia reside no povo, e todo o poder emana do povo."
+  },
+  "q_contemporary_04_011": {
+    "question": "Qual foi a forma de governo estabelecida após a Revolução de 19 de Abril?",
+    "correct": "Sistema parlamentarista (Sistema de gabinete parlamentar)",
+    "wrong": [
+      "Sistema presidencialista",
+      "Governo militar",
+      "Monarquia",
+      "República popular"
+    ],
+    "hint": "Um sistema onde o Primeiro-Ministro detém o poder real e o Presidente tem apenas um papel simbólico.",
+    "explanation": "Após a Revolução de 19 de Abril, a Segunda República adotou um sistema de gabinete parlamentar onde o Primeiro-Ministro exercia o poder executivo."
+  },
+  "q_contemporary_04_012": {
+    "question": "Em que data o Presidente Rhee Syngman renunciou?",
+    "correct": "26 de abril de 1960",
+    "wrong": [
+      "15 de março de 1960",
+      "19 de abril de 1960",
+      "16 de maio de 1960",
+      "26 de abril de 1961"
+    ],
+    "hint": "Uma semana após a Revolução de 19 de Abril, ele renunciou dizendo 'Se o povo quiser...'.",
+    "explanation": "Com os protestos se espalhando por todo o país devido à Revolução de 19 de Abril, o Presidente Rhee Syngman anunciou sua declaração de renúncia em 26 de abril de 1960."
+  },
+  "q_contemporary_05_001": {
+    "question": "Em que ano ocorreu o Golpe Militar de 16 de Maio?",
+    "correct": "1961",
+    "wrong": [
+      "1960",
+      "1963",
+      "1972",
+      "1979"
+    ],
+    "hint": "Um golpe militar que derrubou a Segunda República, estabelecida após a Revolução de 19 de Abril.",
+    "explanation": "Em 16 de maio de 1961, forças militares lideradas pelo general de brigada Park Chung-hee realizaram um golpe militar e derrubaram o Gabinete de Chang Myon."
+  },
+  "q_contemporary_05_002": {
+    "question": "Qual afirmação sobre este evento na foto está correta?",
+    "correct": "Foi um golpe militar em que os militares tomaram o poder",
+    "wrong": [
+      "Foi um movimento de democratização liderado por estudantes e cidadãos",
+      "Foi uma guerra que começou com a invasão da Coreia do Norte",
+      "Foi um protesto contra fraude eleitoral",
+      "Foi uma greve de trabalhadores"
+    ],
+    "hint": "Um golpe em que soldados entraram em Seul com tanques de madrugada.",
+    "explanation": "O Golpe Militar de 16 de Maio foi um golpe de Estado realizado por Park Chung-hee e outras forças militares em 1961, derrubando a Segunda República e estabelecendo um regime militar."
+  },
+  "q_contemporary_05_003": {
+    "question": "Qual foi a instituição estabelecida imediatamente após o Golpe Militar de 16 de Maio?",
+    "correct": "Conselho Supremo para a Reconstrução Nacional",
+    "wrong": [
+      "Assembleia Nacional Constituinte",
+      "Associação de Amigos Políticos do Yushin",
+      "Conferência Nacional para a Unificação",
+      "Assembleia Nacional"
+    ],
+    "hint": "Uma instituição onde os militares controlavam todos os poderes legislativo, executivo e judiciário.",
+    "explanation": "Imediatamente após o Golpe Militar de 16 de Maio, os militares estabeleceram o Conselho Supremo para a Reconstrução Nacional, assumindo os poderes legislativo, executivo e judiciário."
+  },
+  "q_contemporary_05_004": {
+    "question": "Qual era o conteúdo deste compromisso?",
+    "correct": "Tornar o anticomunismo a política nacional e buscar a reconstrução econômica",
+    "wrong": [
+      "Implementar um sistema de responsabilidade do gabinete",
+      "Buscar a unificação imediata Norte-Sul",
+      "Exigir a retirada das tropas americanas",
+      "Restaurar a monarquia"
+    ],
+    "hint": "Chamados de 'Compromissos Revolucionários', enfatizando o anticomunismo e o desenvolvimento econômico.",
+    "explanation": "As forças do Golpe Militar de 16 de Maio proclamaram o anticomunismo como política nacional e a reconstrução econômica e erradicação da corrupção como seus compromissos.",
+    "source": "Compromisso Revolucionário: O anticomunismo será o primeiro princípio da política nacional, e a postura anticomunista será reorganizada e fortalecida."
+  },
+  "q_contemporary_05_005": {
+    "question": "Qual afirmação sobre esta pessoa na foto está correta?",
+    "correct": "Ele liderou o Golpe Militar de 16 de Maio e se tornou presidente",
+    "wrong": [
+      "Ele renunciou devido à Revolução de 19 de Abril",
+      "Ele foi o comandante das Forças da ONU durante a Guerra da Coreia",
+      "Ele renunciou devido à Revolta Democrática de Junho",
+      "Ele foi o primeiro presidente da República da Coreia"
+    ],
+    "hint": "Um presidente de Gumi, Província de Gyeongsang do Norte, que permaneceu no poder por 18 anos.",
+    "explanation": "Park Chung-hee liderou o Golpe Militar de 16 de Maio e foi eleito presidente em 1963, dando início à Terceira República."
+  },
+  "q_contemporary_05_006": {
+    "question": "Em que ano a Terceira República foi inaugurada?",
+    "correct": "1963",
+    "wrong": [
+      "1960",
+      "1961",
+      "1972",
+      "1979"
+    ],
+    "hint": "Dois anos após o golpe militar (1961), Park Chung-hee venceu a eleição presidencial e o governo civil foi transferido.",
+    "explanation": "Em 1963, Park Chung-hee venceu a eleição presidencial, o governo civil foi transferido e a Terceira República foi inaugurada."
+  },
+  "q_contemporary_05_007": {
+    "question": "Qual política econômica o governo de Park Chung-hee implementou?",
+    "correct": "Plano Quinquenal de Desenvolvimento Econômico",
+    "wrong": [
+      "Reforma Agrária",
+      "Plano de Aumento da Produção de Arroz",
+      "Sistema Financeiro de Nome Real",
+      "Resgate do FMI"
+    ],
+    "hint": "Uma política iniciada em 1962, planejando o crescimento econômico em intervalos de 5 anos.",
+    "explanation": "O governo de Park Chung-hee implementou o Plano Quinquenal de Desenvolvimento Econômico a partir de 1962, liderando o crescimento econômico voltado para exportação."
+  },
+  "q_contemporary_05_008": {
+    "question": "Qual tratado foi assinado em 1965?",
+    "correct": "Tratado Básico Coreia-Japão",
+    "wrong": [
+      "Tratado de Defesa Mútua Coreia do Sul-EUA",
+      "Tratado de Eulsa",
+      "Tratado de Ganghwa",
+      "TLC Coreia-EUA"
+    ],
+    "hint": "Um tratado para normalização das relações com o Japão, assinado em meio a muita oposição.",
+    "explanation": "O Tratado Básico Coreia-Japão foi assinado em 1965, normalizando as relações diplomáticas com o Japão. Este tratado foi assinado em meio a muitos protestos de oposição."
+  },
+  "q_contemporary_05_009": {
+    "question": "Qual afirmação sobre este protesto na foto está correta?",
+    "correct": "É um protesto contra a normalização das relações Coreia-Japão",
+    "wrong": [
+      "É um protesto contra a fraude eleitoral de 15 de Março",
+      "É o Movimento de Democratização de 18 de Maio",
+      "É a Revolta Democrática de Junho",
+      "É o movimento contra a tutela"
+    ],
+    "hint": "Também chamado de 'Protesto de 6·3', que atingiu seu auge em 3 de junho de 1964.",
+    "explanation": "Grandes protestos foram realizados contra as negociações de normalização Coreia-Japão em 1964-1965 (Protestos de 3 de Junho, etc.)."
+  },
+  "q_contemporary_05_010": {
+    "question": "O que NÃO foi um fato durante o período do governo de Park Chung-hee?",
+    "correct": "Ele renunciou devido à Revolta Democrática de Junho",
+    "wrong": [
+      "Tropas foram enviadas para a Guerra do Vietnã",
+      "A Rodovia Gyeongbu foi construída",
+      "O Movimento Saemaul foi promovido",
+      "As indústrias pesada e química foram desenvolvidas"
+    ],
+    "hint": "Park Chung-hee morreu no Incidente de 26 de Outubro em 1979. A Revolta de Junho foi em 1987.",
+    "explanation": "O presidente Park Chung-hee foi assassinado pelo diretor da KCIA Kim Jae-gyu em 26 de outubro de 1979. A Revolta Democrática de Junho ocorreu em 1987."
+  },
+  "q_contemporary_05_011": {
+    "question": "Em que ano o Movimento Saemaul começou?",
+    "correct": "1970",
+    "wrong": [
+      "1962",
+      "1972",
+      "1980",
+      "1965"
+    ],
+    "hint": "Um movimento para modernizar as áreas rurais com o lema 'Vamos viver bem!'",
+    "explanation": "Em 1970, o governo de Park Chung-hee iniciou o Movimento Saemaul para a modernização rural."
+  },
+  "q_contemporary_05_012": {
+    "question": "Qual afirmação sobre a inauguração da Rodovia Gyeongbu está correta?",
+    "correct": "O trecho Seul-Busan foi concluído em 1970",
+    "wrong": [
+      "A construção começou em 1962",
+      "Foi construída com empréstimos americanos",
+      "Foi concluída durante o governo de Kim Young-sam",
+      "Foi planejada durante o domínio colonial japonês"
+    ],
+    "hint": "Uma rodovia de 428 km conectando Seul e Busan, símbolo do desenvolvimento econômico da Coreia.",
+    "explanation": "A Rodovia Gyeongbu foi iniciada em 1968 e concluída em 1970, tornando-se um símbolo do desenvolvimento econômico coreano."
+  },
+  "q_contemporary_06_001": {
+    "question": "Em que ano a Constituição Yushin foi promulgada?",
+    "correct": "1972",
+    "wrong": [
+      "1961",
+      "1979",
+      "1980",
+      "1987"
+    ],
+    "hint": "O ano em que Park Chung-hee declarou o 'Yushin de Outubro' e estabeleceu as bases para uma ditadura de longo prazo.",
+    "explanation": "Em outubro de 1972, o presidente Park Chung-hee declarou lei marcial e promulgou a Constituição Yushin, estabelecendo as bases para um governo de longo prazo."
+  },
+  "q_contemporary_06_002": {
+    "question": "Qual afirmação sobre este documento na foto está correta?",
+    "correct": "Foi uma constituição que possibilitou o governo de longo prazo do presidente",
+    "wrong": [
+      "Foi a primeira constituição da República da Coreia",
+      "Foi uma constituição que estabeleceu o sistema de responsabilidade do gabinete",
+      "Foi uma constituição que estabeleceu a eleição presidencial direta",
+      "Foi uma constituição que estabeleceu a unificação Norte-Sul"
+    ],
+    "hint": "Uma constituição que eliminou os limites de mandato presidencial e permitiu a supressão de direitos básicos por meio de decretos de emergência.",
+    "explanation": "A Constituição Yushin aboliu os limites de mandato presidencial e concedeu poderes de decreto de emergência, possibilitando uma ditadura de longo prazo."
+  },
+  "q_contemporary_06_003": {
+    "question": "O que NÃO era uma característica do sistema Yushin?",
+    "correct": "A eleição presidencial direta foi implementada",
+    "wrong": [
+      "O presidente era eleito pela Conferência Nacional para a Unificação",
+      "Direitos básicos podiam ser restringidos por decretos de emergência",
+      "O presidente nomeava 1/3 dos membros da Assembleia Nacional",
+      "Não havia limite de mandato presidencial"
+    ],
+    "hint": "No sistema Yushin, o presidente não era eleito diretamente pelo povo, mas pela Conferência Nacional para a Unificação.",
+    "explanation": "No sistema Yushin, o presidente era eleito indiretamente pela Conferência Nacional para a Unificação."
+  },
+  "q_contemporary_06_004": {
+    "question": "Qual constituição contém esta disposição?",
+    "correct": "Constituição Yushin",
+    "wrong": [
+      "Constituição Original",
+      "Constituição da Segunda República",
+      "Constituição Atual",
+      "Constituição do Governo Provisório"
+    ],
+    "hint": "Uma disposição que permitia ao presidente restringir os direitos básicos dos cidadãos à vontade, acima da constituição.",
+    "explanation": "O Poder de Decreto de Emergência era um poder emergencial concedido ao presidente pela Constituição Yushin, usado para restringir direitos básicos e suprimir forças de oposição.",
+    "source": "Constituição Yushin, Artigo 53: O Presidente pode tomar medidas de emergência quando necessário para a segurança nacional ou manutenção da ordem pública."
+  },
+  "q_contemporary_06_005": {
+    "question": "Qual instituição elegia o presidente no sistema Yushin?",
+    "correct": "Conferência Nacional para a Unificação",
+    "wrong": [
+      "Assembleia Nacional",
+      "Supremo Tribunal",
+      "Tribunal Constitucional",
+      "Referendo nacional"
+    ],
+    "hint": "Uma instituição criada pela Constituição Yushin, abreviada como 'Tongju'.",
+    "explanation": "Sob a Constituição Yushin, a Conferência Nacional para a Unificação elegia o presidente por meio de eleição indireta."
+  },
+  "q_contemporary_06_006": {
+    "question": "Qual afirmação sobre este movimento na foto está correta?",
+    "correct": "É o Movimento Saemaul voltado para a modernização rural",
+    "wrong": [
+      "É o Movimento 1º de Março de resistência ao domínio colonial japonês",
+      "É a Revolta Democrática de Junho exigindo democratização",
+      "É o movimento contra a tutela",
+      "É o movimento trabalhista"
+    ],
+    "hint": "Um movimento que eliminou os telhados de palha e transformou as áreas rurais, enfatizando 'diligência, autoajuda e cooperação'.",
+    "explanation": "O Movimento Saemaul foi um movimento de modernização rural promovido pelo governo de Park Chung-hee na década de 1970, enfatizando diligência, autoajuda e cooperação."
+  },
+  "q_contemporary_06_007": {
+    "question": "O que NÃO foi um movimento de resistência contra o sistema Yushin?",
+    "correct": "Movimento 1º de Março",
+    "wrong": [
+      "Revolta Democrática de Busan-Masan",
+      "Incidente YH",
+      "Campanha de Um Milhão de Assinaturas pela Emenda Constitucional",
+      "Incidente do Partido Revolucionário do Povo"
+    ],
+    "hint": "O Movimento 1º de Março foi o movimento de independência de 1919 contra o Japão.",
+    "explanation": "O Movimento 1º de Março foi um movimento de independência contra o domínio colonial japonês em 1919. A Revolta Democrática de Busan-Masan e o Incidente YH foram resistências contra o sistema Yushin."
+  },
+  "q_contemporary_06_008": {
+    "question": "Qual evento encerrou o sistema Yushin?",
+    "correct": "Incidente de 26 de Outubro",
+    "wrong": [
+      "Golpe Militar de 16 de Maio",
+      "Golpe de 12 de Dezembro",
+      "Movimento de Democratização de 18 de Maio",
+      "Revolta Democrática de Junho"
+    ],
+    "hint": "Em 26 de outubro de 1979, o presidente Park Chung-hee foi morto por alguém próximo a ele.",
+    "explanation": "Em 26 de outubro de 1979, o presidente Park Chung-hee foi assassinado pelo diretor da KCIA Kim Jae-gyu, encerrando o sistema Yushin."
+  },
+  "q_contemporary_06_009": {
+    "question": "Qual foi a política econômica durante o sistema Yushin?",
+    "correct": "Promoção da indústria pesada e química",
+    "wrong": [
+      "Reforma agrária",
+      "Implementação do sistema financeiro de nome real",
+      "Resgate do FMI",
+      "Plano Quinquenal da Nova Economia"
+    ],
+    "hint": "Uma política que desenvolveu intensivamente 'indústrias de chaminé' como siderurgia, construção naval e petroquímica.",
+    "explanation": "Durante o período Yushin, o governo promoveu políticas de desenvolvimento da indústria pesada e química, desenvolvendo indústrias como siderurgia, construção naval e petroquímica."
+  },
+  "q_contemporary_06_010": {
+    "question": "Qual foi o resultado deste evento?",
+    "correct": "O sistema Yushin chegou ao fim",
+    "wrong": [
+      "A Constituição Yushin foi promulgada",
+      "O Movimento de Democratização de 18 de Maio ocorreu",
+      "A Declaração Democrática de 29 de Junho foi anunciada",
+      "Uma cúpula intercoreana foi realizada"
+    ],
+    "hint": "Os 18 anos de governo de longo prazo de Park Chung-hee terminaram com a morte do presidente.",
+    "explanation": "O Incidente de 26 de Outubro de 1979, no qual o presidente Park Chung-hee morreu, encerrou a era de 18 anos de Park Chung-hee e o sistema Yushin.",
+    "source": "Relatório sobre o Incidente de 26 de Outubro: Na noite de 26 de outubro de 1979, o presidente Park Chung-hee faleceu."
+  },
+  "q_contemporary_06_011": {
+    "question": "O que NÃO era conteúdo da Constituição Yushin?",
+    "correct": "Implementação da eleição presidencial direta",
+    "wrong": [
+      "Mandato presidencial de 6 anos",
+      "Abolição dos limites de mandato presidencial",
+      "Concessão do poder de decreto de emergência",
+      "Eleição presidencial pela Conferência Nacional para a Unificação"
+    ],
+    "hint": "Sob a Constituição Yushin, o presidente era eleito indiretamente pela Conferência Nacional para a Unificação.",
+    "explanation": "A Constituição Yushin estabeleceu a eleição presidencial indireta (eleito pela Conferência Nacional para a Unificação)."
+  },
+  "q_contemporary_06_012": {
+    "question": "Quem NÃO era opositor do sistema Yushin?",
+    "correct": "Park Chung-hee",
+    "wrong": [
+      "Kim Dae-jung",
+      "Kim Young-sam",
+      "Jang Jun-ha",
+      "Moon Ik-hwan"
+    ],
+    "hint": "A pessoa que 'criou' o sistema Yushin não se oporia a ele.",
+    "explanation": "Park Chung-hee foi a pessoa que liderou o sistema Yushin. Kim Dae-jung, Kim Young-sam e outros foram reprimidos por se oporem ao sistema Yushin."
+  },
+  "q_contemporary_07_001": {
+    "question": "Em que ano ocorreu o Movimento de Democratização de 18 de Maio?",
+    "correct": "1980",
+    "wrong": [
+      "1979",
+      "1987",
+      "1960",
+      "1972"
+    ],
+    "hint": "Um movimento de democratização em que os cidadãos de Gwangju resistiram à repressão das novas forças militares.",
+    "explanation": "De 18 a 27 de maio de 1980, o Movimento de Democratização de 18 de Maio, em resistência à tomada de poder pelas novas forças militares, ocorreu em Gwangju."
+  },
+  "q_contemporary_07_002": {
+    "question": "Qual afirmação sobre este evento na foto está correta?",
+    "correct": "Foi um movimento de democratização que resistiu à tomada de poder pelas novas forças militares",
+    "wrong": [
+      "Foi um movimento de resistência à fraude eleitoral do regime de Rhee Syngman",
+      "Foi um movimento de resistência ao domínio colonial japonês",
+      "Foi um movimento de resistência à promulgação da Constituição Yushin",
+      "Foi um movimento de oposição à normalização das relações Coreia-Japão"
+    ],
+    "hint": "Quando as novas forças militares lideradas por Chun Doo-hwan expandiram a lei marcial, os cidadãos de Gwangju resistiram.",
+    "explanation": "O Movimento de Democratização de 18 de Maio ocorreu em Gwangju em 1980, em resistência à tomada de poder e expansão da lei marcial pelas novas forças militares lideradas por Chun Doo-hwan."
+  },
+  "q_contemporary_07_003": {
+    "question": "Qual foi o contexto do Movimento de Democratização de 18 de Maio?",
+    "correct": "As novas forças militares tomaram o poder real através do Golpe de 12 de Dezembro",
+    "wrong": [
+      "O governo prolongado do presidente Rhee Syngman",
+      "O Tratado Básico Coreia-Japão foi assinado",
+      "A Constituição Yushin foi promulgada",
+      "A crise financeira do FMI ocorreu"
+    ],
+    "hint": "Em 12 de dezembro de 1979, Chun Doo-hwan e outros realizaram um motim militar e tomaram o poder militar.",
+    "explanation": "O Golpe de 12 de Dezembro de 1979 permitiu que as novas forças militares, incluindo Chun Doo-hwan, tomassem o poder militar. Em 1980, eles expandiram a lei marcial para todo o país, tornando-se o contexto para o Movimento de Democratização de 18 de Maio."
+  },
+  "q_contemporary_07_004": {
+    "question": "Qual afirmação sobre o evento deste documento está correta?",
+    "correct": "Os cidadãos de Gwangju resistiram às novas forças militares",
+    "wrong": [
+      "Os cidadãos de Seul exigiram a renúncia de Rhee Syngman",
+      "Os cidadãos de Busan exigiram a abolição do Yushin",
+      "A nação exigiu a Declaração de 29 de Junho",
+      "Estudantes resistiram à fraude eleitoral de 15 de Março"
+    ],
+    "hint": "Os cidadãos organizaram a 'Milícia Popular' e pegaram em armas para lutar contra as forças da lei marcial.",
+    "explanation": "Em maio de 1980, os cidadãos de Gwangju organizaram uma milícia popular para resistir às tropas da lei marcial e proteger a democracia.",
+    "source": "Declaração relacionada ao Movimento de Democratização de 18 de Maio: Lutaremos até o fim para proteger a democracia."
+  },
+  "q_contemporary_07_005": {
+    "question": "Qual NÃO é uma descrição adequada da importância do Movimento de Democratização de 18 de Maio?",
+    "correct": "Impediu que as novas forças militares tomassem o poder",
+    "wrong": [
+      "Tornou-se a base para o movimento de democratização dos anos 1980",
+      "Lembrou as pessoas da importância da democracia e dos direitos humanos",
+      "Foi registrado como Memória do Mundo pela UNESCO",
+      "O dia 18 de maio foi designado como dia de memória nacional"
+    ],
+    "hint": "Infelizmente, o movimento foi reprimido pelas forças da lei marcial, e as novas forças militares conseguiram tomar o poder.",
+    "explanation": "O Movimento de Democratização de 18 de Maio foi reprimido pelas tropas da lei marcial e não impediu que as novas forças militares tomassem o poder, mas tornou-se a base espiritual para os movimentos de democratização subsequentes."
+  },
+  "q_contemporary_07_006": {
+    "question": "Qual afirmação sobre esta pessoa na foto está correta?",
+    "correct": "Ele liderou as novas forças militares e se tornou presidente da Quinta República",
+    "wrong": [
+      "Ele renunciou devido à Revolução de 19 de Abril",
+      "Ele promulgou a Constituição Yushin",
+      "Ele anunciou a Declaração Democrática de 29 de Junho",
+      "Ele realizou a primeira cúpula intercoreana"
+    ],
+    "hint": "A figura-chave no incidente de 12·12 e na repressão de 5·18, que se tornou presidente da Quinta República.",
+    "explanation": "Chun Doo-hwan liderou o Golpe de 12 de Dezembro e a expansão da lei marcial em 17 de maio, e foi empossado como presidente da Quinta República em 1980."
+  },
+  "q_contemporary_07_007": {
+    "question": "Qual NÃO era uma característica da Quinta República?",
+    "correct": "A eleição presidencial direta foi implementada",
+    "wrong": [
+      "A eleição presidencial indireta foi implementada",
+      "O controle da imprensa e o Campo de Reeducação Samcheong foram operados",
+      "O beisebol profissional e o futebol profissional foram lançados",
+      "O toque de recolher noturno foi suspenso"
+    ],
+    "hint": "Assim como o sistema Yushin, a Quinta República também não permitia eleições presidenciais diretas.",
+    "explanation": "A Quinta República implementou a eleição presidencial indireta (eleita por colégio eleitoral). A eleição presidencial direta foi introduzida após a Revolta Democrática de Junho."
+  },
+  "q_contemporary_07_008": {
+    "question": "Em que ano a Quinta República foi inaugurada?",
+    "correct": "1981",
+    "wrong": [
+      "1979",
+      "1980",
+      "1987",
+      "1988"
+    ],
+    "hint": "No ano seguinte ao Movimento de Democratização de 5·18 (1980), o presidente Chun Doo-hwan foi empossado.",
+    "explanation": "A Quinta República foi inaugurada em 1981 com a posse do presidente Chun Doo-hwan."
+  },
+  "q_contemporary_07_009": {
+    "question": "Qual NÃO foi um fato durante o governo de Chun Doo-hwan?",
+    "correct": "O sistema financeiro de nome real foi implementado",
+    "wrong": [
+      "O Campo de Reeducação Samcheong foi operado",
+      "A fusão da imprensa foi realizada",
+      "A sede das Olimpíadas de Seul de 1988 foi conquistada",
+      "Medidas de liberalização do uniforme escolar foram implementadas"
+    ],
+    "hint": "O sistema financeiro de nome real foi implementado em 1993 durante o governo de Kim Young-sam.",
+    "explanation": "O sistema financeiro de nome real foi implementado durante o governo de Kim Young-sam em 1993."
+  },
+  "q_contemporary_07_010": {
+    "question": "Qual evento encerrou a Quinta República?",
+    "correct": "Revolta Democrática de Junho e Declaração Democrática de 29 de Junho",
+    "wrong": [
+      "Incidente de 26 de Outubro",
+      "Movimento de Democratização de 18 de Maio",
+      "Revolução de 19 de Abril",
+      "Golpe de 12 de Dezembro"
+    ],
+    "hint": "O resultado da Revolta Democrática de Junho de 1987, quando os cidadãos exigiram eleições presidenciais diretas.",
+    "explanation": "A Revolta Democrática de Junho de 1987 levou à emenda constitucional para eleição presidencial direta, encerrando a Quinta República e inaugurando a Sexta República."
+  },
+  "q_contemporary_07_011": {
+    "question": "Em qual cidade a milícia popular foi formada durante o Movimento de Democratização de 18 de Maio?",
+    "correct": "Gwangju",
+    "wrong": [
+      "Seul",
+      "Busan",
+      "Daegu",
+      "Daejeon"
+    ],
+    "hint": "A cidade lembrada através de 'Maio de Gwangju' e 'Marcha para o Amado'.",
+    "explanation": "Em maio de 1980, em Gwangju, os cidadãos organizaram uma milícia popular para resistir às tropas da lei marcial."
+  },
+  "q_contemporary_07_012": {
+    "question": "Qual NÃO foi uma política do governo Chun Doo-hwan da Quinta República?",
+    "correct": "Emenda constitucional para eleição presidencial direta",
+    "wrong": [
+      "Lançamento do beisebol profissional",
+      "Suspensão do toque de recolher noturno",
+      "Liberalização do uniforme escolar",
+      "Liberalização de viagens ao exterior"
+    ],
+    "hint": "Tentaram desviar a atenção do público com a política dos 3S (Sports, Screen, Sex), mas não buscaram a democratização.",
+    "explanation": "O governo Chun Doo-hwan manteve a eleição presidencial indireta. A eleição presidencial direta foi conquistada após a Revolta Democrática de Junho em 1987."
+  },
+  "q_contemporary_08_001": {
+    "question": "Em que ano ocorreu a Revolta Democrática de Junho?",
+    "correct": "1987",
+    "wrong": [
+      "1980",
+      "1979",
+      "1960",
+      "1988"
+    ],
+    "hint": "O ano em que protestos de democratização em todo o país se opuseram à medida de proteção constitucional do regime de Chun Doo-hwan.",
+    "explanation": "Em junho de 1987, o movimento nacional de democratização conhecido como Revolta Democrática de Junho ocorreu em oposição às medidas de proteção constitucional do regime de Chun Doo-hwan."
+  },
+  "q_contemporary_08_002": {
+    "question": "Qual afirmação sobre este evento na foto está correta?",
+    "correct": "Foi um movimento de democratização que exigia emenda constitucional para eleição presidencial direta",
+    "wrong": [
+      "Foi um movimento de resistência à fraude eleitoral do regime de Rhee Syngman",
+      "Foi um movimento de resistência à tomada de poder pelas novas forças militares",
+      "Foi um movimento de resistência ao domínio colonial japonês",
+      "Foi um movimento de protesto contra a crise financeira do FMI"
+    ],
+    "hint": "Um movimento que conquistou eleições presidenciais diretas, gritando 'Abolir a Constituição! Abaixo a Ditadura!'",
+    "explanation": "A Revolta Democrática de Junho foi um movimento de democratização em 1987 que exigiu emenda constitucional para eleição presidencial direta em oposição às medidas de proteção constitucional de 13 de abril do regime de Chun Doo-hwan."
+  },
+  "q_contemporary_08_003": {
+    "question": "Qual evento foi o estopim direto da Revolta Democrática de Junho?",
+    "correct": "Incidente da morte por tortura de Park Jong-cheol",
+    "wrong": [
+      "Incidente da morte de Kim Ju-yeol",
+      "Incidente YH",
+      "Revolta Democrática de Busan-Masan",
+      "Movimento de Democratização de Gwangju"
+    ],
+    "hint": "A revolta explodiu quando foi revelado que um estudante da Universidade Nacional de Seul morreu por tortura policial.",
+    "explanation": "Quando se soube, em janeiro de 1987, que o estudante da Universidade Nacional de Seul, Park Jong-cheol, morreu por tortura policial, isso se tornou o estopim para a Revolta Democrática de Junho."
+  },
+  "q_contemporary_08_004": {
+    "question": "Qual foi o resultado desta declaração?",
+    "correct": "A emenda constitucional para eleição presidencial direta foi conquistada",
+    "wrong": [
+      "A Constituição Yushin foi promulgada",
+      "O Movimento de Democratização de 18 de Maio ocorreu",
+      "Uma cúpula intercoreana foi realizada",
+      "O resgate do FMI foi recebido"
+    ],
+    "hint": "Em 29 de junho, Roh Tae-woo anunciou a aceitação das eleições presidenciais diretas.",
+    "explanation": "A Declaração Democrática de 29 de Junho, feita por Roh Tae-woo em 29 de junho de 1987, levou à emenda constitucional para eleição presidencial direta.",
+    "source": "Declaração Democrática de 29 de Junho: Prometemos emenda constitucional para eleição presidencial direta, anistia e restauração dos direitos de Kim Dae-jung, garantia da liberdade de imprensa, etc."
+  },
+  "q_contemporary_08_005": {
+    "question": "Qual afirmação sobre esta pessoa na foto está correta?",
+    "correct": "Ele foi a pessoa que desencadeou a Revolta Democrática de Junho",
+    "wrong": [
+      "Ele foi a pessoa que desencadeou a Revolução de 19 de Abril",
+      "Ele foi a pessoa que liderou o Movimento de Democratização de 18 de Maio",
+      "Ele foi a pessoa que anunciou a Declaração Democrática de 29 de Junho",
+      "Ele foi o presidente da Quinta República"
+    ],
+    "hint": "A vítima do incidente que gerou revolta pública com o falso comunicado de que ele 'simplesmente morreu' ao ser atingido uma vez.",
+    "explanation": "O estudante da Universidade Nacional de Seul, Park Jong-cheol, morreu por tortura policial em janeiro de 1987, tornando-se o estopim para a Revolta Democrática de Junho."
+  },
+  "q_contemporary_08_006": {
+    "question": "Quem anunciou a Declaração Democrática de 29 de Junho?",
+    "correct": "Roh Tae-woo",
+    "wrong": [
+      "Chun Doo-hwan",
+      "Kim Young-sam",
+      "Kim Dae-jung",
+      "Lee Han-yeol"
+    ],
+    "hint": "O representante do Partido da Justiça Democrática na época, que se tornou o primeiro presidente da Sexta República.",
+    "explanation": "Em 29 de junho de 1987, o representante do Partido da Justiça Democrática, Roh Tae-woo, anunciou a Declaração Democrática de 29 de Junho, incluindo a aceitação da eleição presidencial direta."
+  },
+  "q_contemporary_08_007": {
+    "question": "Qual NÃO é uma descrição adequada da importância da Revolta Democrática de Junho?",
+    "correct": "Um regime militar foi estabelecido pela primeira vez",
+    "wrong": [
+      "A eleição presidencial direta foi realizada",
+      "Tornou-se a ocasião para o lançamento da Sexta República",
+      "A aspiração do povo pela democracia foi expressa",
+      "A emenda constitucional foi conquistada"
+    ],
+    "hint": "A Revolta de Junho foi um movimento para acabar com a ditadura militar e conquistar a democracia.",
+    "explanation": "A Revolta Democrática de Junho foi um movimento de democratização que resistiu à ditadura militar e conquistou a eleição presidencial direta."
+  },
+  "q_contemporary_08_008": {
+    "question": "Qual foi o resultado da eleição presidencial de dezembro de 1987?",
+    "correct": "Roh Tae-woo foi eleito",
+    "wrong": [
+      "Kim Young-sam foi eleito",
+      "Kim Dae-jung foi eleito",
+      "Chun Doo-hwan foi reeleito",
+      "Park Chung-hee foi eleito"
+    ],
+    "hint": "O candidato do partido governista venceu porque a oposição se dividiu entre Kim Young-sam e Kim Dae-jung.",
+    "explanation": "Na eleição por voto direto em dezembro de 1987, Roh Tae-woo foi eleito e a Sexta República foi inaugurada."
+  },
+  "q_contemporary_08_009": {
+    "question": "Qual NÃO era uma característica da atual Constituição (Constituição da Sexta República)?",
+    "correct": "Estabeleceu a eleição presidencial indireta",
+    "wrong": [
+      "Estabeleceu a eleição presidencial direta",
+      "Estabeleceu um mandato único de 5 anos para o presidente",
+      "Estabeleceu o Tribunal Constitucional",
+      "Estabeleceu a autonomia local"
+    ],
+    "hint": "A conquista mais importante da Revolta de Junho foi a 'eleição presidencial direta'.",
+    "explanation": "A atual Constituição (1987) estabeleceu a eleição presidencial direta, mandato único de 5 anos e a criação do Tribunal Constitucional."
+  },
+  "q_contemporary_08_010": {
+    "question": "Qual afirmação sobre esta cena na foto está correta?",
+    "correct": "É uma cena da eleição presidencial direta de 1987",
+    "wrong": [
+      "É uma cena da Eleição Geral de 10 de Maio",
+      "É uma cena de eleição presidencial do sistema Yushin",
+      "É uma cena de eleição presidencial da Quinta República",
+      "É uma cena de eleição local"
+    ],
+    "hint": "Eleições em que o povo escolheu diretamente o presidente pela primeira vez em 16 anos.",
+    "explanation": "Em 16 de dezembro de 1987, uma eleição por voto direto foi realizada pela primeira vez em 16 anos, e Roh Tae-woo foi eleito."
+  },
+  "q_contemporary_08_011": {
+    "question": "O que os cidadãos exigiram na Revolta Democrática de Junho?",
+    "correct": "Emenda constitucional para eleição presidencial direta",
+    "wrong": [
+      "Promulgação da Constituição Yushin",
+      "Emenda para sistema parlamentarista",
+      "Extensão do governo militar",
+      "Consolidação da divisão"
+    ],
+    "hint": "O clamor dos cidadãos por 'Um presidente que nós mesmos elegemos!'",
+    "explanation": "Na Revolta Democrática de Junho de 1987, os cidadãos exigiram emenda constitucional para eleição presidencial direta, que foi finalmente conquistada através da Declaração Democrática de 29 de Junho."
+  },
+  "q_contemporary_08_012": {
+    "question": "O que aconteceu durante o governo de Roh Tae-woo?",
+    "correct": "Adesão simultânea das duas Coreias à ONU",
+    "wrong": [
+      "Revolta Democrática de Junho",
+      "Movimento de Democratização de 18 de Maio",
+      "Primeira cúpula intercoreana",
+      "Crise financeira do FMI"
+    ],
+    "hint": "O evento histórico de 1991 em que tanto a Coreia do Sul quanto a Coreia do Norte se tornaram membros da ONU.",
+    "explanation": "Em 1991, tanto a Coreia do Norte quanto a Coreia do Sul aderiram simultaneamente às Nações Unidas, obtendo reconhecimento como Estados membros na comunidade internacional."
+  },
+  "q_contemporary_09_001": {
+    "question": "Quem foi o primeiro presidente do governo civil?",
+    "correct": "Kim Young-sam",
+    "wrong": [
+      "Roh Tae-woo",
+      "Kim Dae-jung",
+      "Roh Moo-hyun",
+      "Lee Myung-bak"
+    ],
+    "hint": "Após 32 anos, um presidente que não era militar assumiu o cargo, por isso chamado de 'governo civil'.",
+    "explanation": "Com a posse do presidente Kim Young-sam em 1993, foi inaugurado o primeiro governo civil em 32 anos, com um presidente que não era de origem militar."
+  },
+  "q_contemporary_09_002": {
+    "question": "Qual afirmação sobre essa pessoa na foto está correta?",
+    "correct": "Como presidente do governo civil, implementou o sistema financeiro de nome real",
+    "wrong": [
+      "Anunciou a Declaração Democrática de 29 de Junho",
+      "Realizou a primeira cúpula intercoreana",
+      "Foi presidente da Quinta República",
+      "Promoveu a Política do Sol"
+    ],
+    "hint": "Após ingressar no partido governista por meio da fusão dos três partidos, tornou-se presidente e promoveu reformas como a dissolução do Hanahoe.",
+    "explanation": "O presidente Kim Young-sam liderou o governo civil e promoveu reformas incluindo o sistema financeiro de nome real, a retificação histórica e a divulgação de patrimônio de funcionários públicos."
+  },
+  "q_contemporary_09_003": {
+    "question": "Qual NÃO foi uma política de reforma do governo civil?",
+    "correct": "Promoção da Política do Sol",
+    "wrong": [
+      "Implementação do sistema financeiro de nome real",
+      "Retificação histórica",
+      "Divulgação de patrimônio de funcionários públicos",
+      "Dissolução do Hanahoe"
+    ],
+    "hint": "A Política do Sol foi a política norte-coreana do governo Kim Dae-jung.",
+    "explanation": "A Política do Sol foi a política para a Coreia do Norte do governo Kim Dae-jung. O governo civil promoveu reformas incluindo o sistema financeiro de nome real e a retificação histórica."
+  },
+  "q_contemporary_09_004": {
+    "question": "Qual era o conteúdo dessa medida?",
+    "correct": "Todas as transações financeiras passaram a ser obrigatoriamente realizadas com nome real",
+    "wrong": [
+      "As transações de câmbio foram liberalizadas",
+      "O sistema imobiliário de nome real foi introduzido",
+      "Foi solicitado resgate ao FMI",
+      "A cooperação econômica intercoreana foi promovida"
+    ],
+    "hint": "Uma medida para eliminar contas com nomes falsos e emprestados e prevenir a corrupção.",
+    "explanation": "O sistema financeiro de nome real de 1993 exigiu que todas as transações financeiras fossem realizadas com nome real para erradicar a corrupção e legitimar a economia informal.",
+    "source": "Decreto de Emergência Financeira e Econômica sobre Transações Financeiras com Nome Real e Sigilo (1993): As transações financeiras deverão ser realizadas com nome real."
+  },
+  "q_contemporary_09_005": {
+    "question": "Qual afirmação sobre essa pessoa na foto está correta?",
+    "correct": "Realizou a primeira cúpula intercoreana e recebeu o Prêmio Nobel da Paz",
+    "wrong": [
+      "Foi presidente do governo civil",
+      "Anunciou a Declaração Democrática de 29 de Junho",
+      "Foi presidente da Quinta República",
+      "Implementou o sistema financeiro de nome real"
+    ],
+    "hint": "O primeiro presidente sul-coreano a se encontrar com Kim Jong-il em Pyongyang em 2000.",
+    "explanation": "O presidente Kim Dae-jung realizou a primeira cúpula intercoreana em 2000 e recebeu o Prêmio Nobel da Paz por sua Política do Sol."
+  },
+  "q_contemporary_09_006": {
+    "question": "Em que ano o Governo do Povo foi inaugurado?",
+    "correct": "1998",
+    "wrong": [
+      "1993",
+      "2003",
+      "2008",
+      "1987"
+    ],
+    "hint": "O ano da primeira transferência pacífica de poder entre partidos governista e oposição, em meio à crise do FMI.",
+    "explanation": "O Governo do Povo foi inaugurado com a posse do presidente Kim Dae-jung em 1998. Foi a primeira transferência pacífica de poder entre partidos governista e oposição na história constitucional."
+  },
+  "q_contemporary_09_007": {
+    "question": "Qual foi a política para a Coreia do Norte do governo Kim Dae-jung?",
+    "correct": "Política do Sol",
+    "wrong": [
+      "Política do Norte",
+      "Política de Desnuclearização",
+      "Política de Unificação por Absorção",
+      "Plano de Unificação em Três Etapas"
+    ],
+    "hint": "Nomeada a partir da fábula de Esopo 'O Vento Norte e o Sol', enfatizando o diálogo e a cooperação.",
+    "explanation": "O governo Kim Dae-jung promoveu a Política do Sol (política de engajamento com a Coreia do Norte) e trabalhou para melhorar as relações intercoreanas."
+  },
+  "q_contemporary_09_008": {
+    "question": "Qual NÃO foi uma causa da crise financeira do FMI de 1997?",
+    "correct": "Devastação econômica devido à Guerra da Coreia",
+    "wrong": [
+      "Má gestão de grandes corporações",
+      "Reservas cambiais insuficientes",
+      "Má gestão de instituições financeiras",
+      "Impacto da crise financeira asiática"
+    ],
+    "hint": "A Guerra da Coreia foi na década de 1950, e a crise do FMI foi em 1997.",
+    "explanation": "A crise financeira do FMI de 1997 foi causada por falências empresariais, problemas em instituições financeiras e reservas cambiais insuficientes."
+  },
+  "q_contemporary_09_009": {
+    "question": "Qual NÃO foi uma conquista do governo Kim Dae-jung?",
+    "correct": "Promulgação da Constituição Yushin",
+    "wrong": [
+      "Superação da crise financeira do FMI",
+      "Realização da cúpula intercoreana",
+      "Prêmio Nobel da Paz",
+      "Promulgação da Lei de Segurança Básica de Subsistência Nacional"
+    ],
+    "hint": "A Constituição Yushin foi criada em 1972 sob o governo de Park Chung-hee.",
+    "explanation": "A Constituição Yushin foi promulgada durante o governo de Park Chung-hee em 1972."
+  },
+  "q_contemporary_09_010": {
+    "question": "Qual afirmação sobre esta cena na foto está correta?",
+    "correct": "É a primeira cúpula intercoreana em 2000",
+    "wrong": [
+      "É o anúncio da Declaração Conjunta Norte-Sul de 4 de Julho de 1972",
+      "É a assinatura do Acordo Básico Norte-Sul de 1991",
+      "É a segunda cúpula intercoreana em 2007",
+      "É uma reunião de famílias separadas intercoreanas"
+    ],
+    "hint": "Uma cena histórica, 55 anos após a divisão, quando os líderes do Sul e do Norte se encontraram pela primeira vez.",
+    "explanation": "Em junho de 2000, o presidente Kim Dae-jung e o líder Kim Jong-il se encontraram em Pyongyang para a primeira cúpula intercoreana após a divisão."
+  },
+  "q_contemporary_09_011": {
+    "question": "O que aconteceu durante o período do governo Roh Moo-hyun?",
+    "correct": "A segunda cúpula intercoreana foi realizada",
+    "wrong": [
+      "A primeira cúpula intercoreana foi realizada",
+      "A crise financeira do FMI ocorreu",
+      "A Revolta Democrática de Junho ocorreu",
+      "A Constituição Yushin foi promulgada"
+    ],
+    "hint": "A famosa cena em 2007 quando o presidente Roh Moo-hyun atravessou a pé a Linha de Demarcação Militar.",
+    "explanation": "Em 2007, o presidente Roh Moo-hyun visitou Pyongyang e realizou a segunda cúpula intercoreana com o líder Kim Jong-il."
+  },
+  "q_contemporary_09_012": {
+    "question": "Qual foi um projeto representativo do governo Lee Myung-bak?",
+    "correct": "Projeto dos Quatro Rios",
+    "wrong": [
+      "Construção da Rodovia Gyeongbu",
+      "Movimento Saemaul",
+      "Sistema financeiro de nome real",
+      "Introdução da Previdência Nacional"
+    ],
+    "hint": "Um projeto de grande escala que revitalizou os rios Han, Nakdong, Geum e Yeongsan.",
+    "explanation": "O governo Lee Myung-bak promoveu o Projeto de Restauração dos Quatro Rios, que foi controverso, com apoiadores e opositores."
+  },
+  "q_contemporary_10_001": {
+    "question": "Em que ano o Plano Quinquenal de Desenvolvimento Econômico foi implementado pela primeira vez?",
+    "correct": "1962",
+    "wrong": [
+      "1953",
+      "1972",
+      "1980",
+      "1997"
+    ],
+    "hint": "Um plano de desenvolvimento econômico liderado pelo governo que começou no ano seguinte ao golpe de 16 de maio (1961).",
+    "explanation": "Em 1962, o governo de Park Chung-hee iniciou o Primeiro Plano Quinquenal de Desenvolvimento Econômico, promovendo o crescimento econômico em larga escala."
+  },
+  "q_contemporary_10_002": {
+    "question": "Qual afirmação sobre o período mostrado nesta foto está correta?",
+    "correct": "Planos de desenvolvimento econômico liderados pelo governo foram promovidos",
+    "wrong": [
+      "O resgate do FMI foi recebido",
+      "A reforma agrária foi implementada",
+      "A Guerra da Coreia estava em andamento",
+      "O Plano de Aumento da Produção de Arroz do período colonial japonês estava sendo implementado"
+    ],
+    "hint": "Um período de rápido crescimento econômico, alcançando US$ 10 bilhões em exportações.",
+    "explanation": "Nas décadas de 1960 e 1970, planos quinquenais de desenvolvimento econômico liderados pelo governo foram promovidos, alcançando um rápido crescimento econômico."
+  },
+  "q_contemporary_10_003": {
+    "question": "Qual foi uma característica da política econômica dos anos 1970?",
+    "correct": "Promoção da indústria pesada e química",
+    "wrong": [
+      "Promoção da indústria da informação",
+      "Implementação do sistema financeiro de nome real",
+      "Desregulamentação",
+      "Expansão do bem-estar social"
+    ],
+    "hint": "Um período em que 'indústrias de chaminé' como a POSCO e a Hyundai Shipbuilding foram desenvolvidas.",
+    "explanation": "Na década de 1970, foram adotadas políticas de promoção da indústria pesada e química, desenvolvendo grandemente indústrias como siderurgia, construção naval e petroquímica."
+  },
+  "q_contemporary_10_004": {
+    "question": "Qual evento está relacionado a este documento?",
+    "correct": "Crise financeira do FMI de 1997",
+    "wrong": [
+      "Choque do petróleo de 1973",
+      "Guerra da Coreia",
+      "Democratização de 1987",
+      "Crise financeira global de 2008"
+    ],
+    "hint": "Um evento em que cidadãos doaram voluntariamente alianças de ouro para ajudar a pagar a dívida nacional.",
+    "explanation": "Devido à crise financeira de 1997, a Coreia solicitou resgate ao FMI e superou a crise por meio de esforços nacionais, incluindo a campanha de coleta de ouro.",
+    "source": "Condições do resgate do FMI (1997): Reestruturação financeira, reestruturação corporativa e flexibilização do mercado de trabalho devem ser implementadas."
+  },
+  "q_contemporary_10_005": {
+    "question": "Qual afirmação sobre esta estrada na foto está correta?",
+    "correct": "É a Rodovia Gyeongbu, inaugurada em 1970",
+    "wrong": [
+      "É uma estrada construída durante o domínio colonial japonês",
+      "Foi construída pelas forças americanas após a Guerra da Coreia",
+      "É uma estrada construída após a crise do FMI",
+      "É uma estrada importante da Dinastia Joseon"
+    ],
+    "hint": "Um símbolo do desenvolvimento econômico coreano que conectou Seul e Busan em 4 horas.",
+    "explanation": "A Rodovia Gyeongbu foi inaugurada em 1970, conectando Seul e Busan e tornando-se um símbolo do desenvolvimento econômico coreano."
+  },
+  "q_contemporary_10_006": {
+    "question": "O que é o 'Milagre do Rio Han'?",
+    "correct": "Um termo que se refere ao rápido crescimento econômico da Coreia",
+    "wrong": [
+      "Um termo que se refere ao projeto de desenvolvimento do Rio Han",
+      "Um evento milagroso que ocorreu no Rio Han",
+      "Projeto de melhoria da qualidade da água do Rio Han",
+      "Projeto de construção de pontes sobre o Rio Han"
+    ],
+    "hint": "Uma expressão que compara o notável crescimento econômico da Coreia ao 'Milagre do Reno' da Alemanha.",
+    "explanation": "O Milagre do Rio Han é uma expressão que se refere ao rápido crescimento econômico e à democratização alcançados pela Coreia desde a década de 1960."
+  },
+  "q_contemporary_10_007": {
+    "question": "Qual foi uma característica da economia coreana nos anos 1980?",
+    "correct": "A economia cresceu devido ao boom dos 'Três Baixos'",
+    "wrong": [
+      "O resgate do FMI foi recebido",
+      "O Primeiro Plano de Desenvolvimento Econômico começou",
+      "A promoção da indústria pesada e química começou",
+      "O sistema financeiro de nome real foi implementado"
+    ],
+    "hint": "As exportações aumentaram muito devido aos 'três baixos' — petróleo barato, juros baixos e dólar baixo.",
+    "explanation": "Em meados da década de 1980, a economia coreana desfrutou de um boom devido aos preços baixos do petróleo, juros baixos e dólar desvalorizado (fenômeno dos Três Baixos)."
+  },
+  "q_contemporary_10_008": {
+    "question": "Em que ano a Coreia ingressou na OCDE?",
+    "correct": "1996",
+    "wrong": [
+      "1988",
+      "1991",
+      "2000",
+      "2007"
+    ],
+    "hint": "O ano em que a Coreia ingressou na OCDE, frequentemente chamada de 'clube dos países desenvolvidos'.",
+    "explanation": "Em 1996, a Coreia ingressou na OCDE (Organização para Cooperação e Desenvolvimento Econômico), sendo reconhecida como parte das nações desenvolvidas."
+  },
+  "q_contemporary_10_009": {
+    "question": "Qual evento está relacionado a esta cena na foto?",
+    "correct": "Crise financeira do FMI de 1997",
+    "wrong": [
+      "Choque do petróleo de 1973",
+      "Guerra da Coreia",
+      "Crise financeira global de 2008",
+      "Movimento de democratização dos anos 1980"
+    ],
+    "hint": "O 'movimento de coleta de ouro' em que as pessoas doaram até suas alianças de casamento para salvar o país.",
+    "explanation": "Durante a crise financeira do FMI de 1997, os cidadãos participaram da campanha de coleta de ouro, contribuindo para o aumento das reservas cambiais."
+  },
+  "q_contemporary_10_010": {
+    "question": "Qual NÃO foi um fenômeno durante o processo de recuperação da crise financeira do FMI?",
+    "correct": "Início do Plano Quinquenal de Desenvolvimento Econômico",
+    "wrong": [
+      "Reestruturação corporativa",
+      "Consolidação de instituições financeiras",
+      "Desemprego em massa",
+      "Aumento de trabalhadores temporários"
+    ],
+    "hint": "O Plano Quinquenal de Desenvolvimento Econômico começou em 1962, e a crise do FMI foi em 1997.",
+    "explanation": "O Plano Quinquenal de Desenvolvimento Econômico começou em 1962. Durante o processo de recuperação da crise do FMI, ocorreram reestruturações e aumento do desemprego."
+  },
+  "q_contemporary_10_011": {
+    "question": "Qual evento internacional foi realizado em Seul em 1988?",
+    "correct": "Jogos Olímpicos de Verão",
+    "wrong": [
+      "Copa do Mundo",
+      "Expo",
+      "Jogos Asiáticos",
+      "Cúpula do G20"
+    ],
+    "hint": "Um evento esportivo de nível mundial em que Son Ki-jung foi o último portador da tocha.",
+    "explanation": "As Olimpíadas de Seul de 1988 foram um evento que demonstrou o desenvolvimento econômico e o status internacional da Coreia."
+  },
+  "q_contemporary_10_012": {
+    "question": "Qual NÃO foi uma indústria líder que impulsionou o crescimento econômico coreano nas décadas de 1960 e 1970?",
+    "correct": "Indústria de semicondutores",
+    "wrong": [
+      "Indústria têxtil",
+      "Indústria de calçados",
+      "Indústria de perucas",
+      "Indústria de compensados"
+    ],
+    "hint": "Os semicondutores da Samsung e da SK Hynix cresceram a partir da década de 1980.",
+    "explanation": "A indústria de semicondutores começou a crescer de fato a partir da década de 1980. Nas décadas de 1960 e 1970, as indústrias exportadoras centradas na indústria leve eram predominantes."
+  },
+  "q_contemporary_11_001": {
+    "question": "Em que ano a Declaração Conjunta Norte-Sul de 4 de Julho foi anunciada?",
+    "correct": "1972",
+    "wrong": [
+      "1991",
+      "2000",
+      "1953",
+      "1987"
+    ],
+    "hint": "Um documento histórico em que Norte e Sul concordaram pela primeira vez com os princípios de unificação após a divisão.",
+    "explanation": "Em 4 de julho de 1972, a Coreia do Norte e a Coreia do Sul anunciaram a Declaração Conjunta Norte-Sul de 4 de Julho, concordando com os princípios de unificação: independência, paz e grande unidade nacional."
+  },
+  "q_contemporary_11_002": {
+    "question": "Qual afirmação sobre esta cena na foto está correta?",
+    "correct": "É uma cena relacionada à Declaração Conjunta Norte-Sul de 4 de Julho de 1972",
+    "wrong": [
+      "É uma cena da cúpula intercoreana de 2000",
+      "É uma cena da assinatura do Acordo Básico Norte-Sul de 1991",
+      "É uma cena da assinatura do armistício em Panmunjom",
+      "É uma cena de reunião de famílias separadas intercoreanas"
+    ],
+    "hint": "Uma declaração que concordou com os três princípios: 'Independência, Paz e Grande Unidade Nacional'.",
+    "explanation": "A Declaração Conjunta Norte-Sul de 4 de Julho de 1972 foi um documento histórico em que Norte e Sul concordaram com os princípios de unificação pela primeira vez desde a divisão."
+  },
+  "q_contemporary_11_003": {
+    "question": "Em que ano o Acordo Básico Norte-Sul foi adotado?",
+    "correct": "1991",
+    "wrong": [
+      "1972",
+      "2000",
+      "2007",
+      "1988"
+    ],
+    "hint": "Um acordo adotado no mesmo ano da adesão simultânea das duas Coreias à ONU.",
+    "explanation": "O Acordo Básico Norte-Sul foi adotado em 1991, estabelecendo a estrutura básica para as relações intercoreanas."
+  },
+  "q_contemporary_11_004": {
+    "question": "Qual era o conteúdo desta declaração?",
+    "correct": "Proclamou os princípios de unificação: independência, paz e grande unidade nacional",
+    "wrong": [
+      "Um acordo de armistício foi assinado",
+      "A realização de uma cúpula intercoreana foi acordada",
+      "A criação do Complexo Industrial de Kaesong foi acordada",
+      "Reuniões de famílias separadas foram acordadas"
+    ],
+    "hint": "O conteúdo central foi o acordo de unificar 'independentemente', sem depender de potências estrangeiras.",
+    "explanation": "A Declaração Conjunta Norte-Sul de 4 de Julho de 1972 foi o primeiro acordo intercoreano sobre os três princípios: independência, unificação pacífica e grande unidade nacional.",
+    "source": "Declaração Conjunta Norte-Sul de 4 de Julho: A unificação será alcançada de forma independente, sem depender de ou sofrer interferência de potências estrangeiras."
+  },
+  "q_contemporary_11_005": {
+    "question": "Qual afirmação sobre esta cena na foto está correta?",
+    "correct": "É a adesão simultânea Norte-Sul à ONU em 1991",
+    "wrong": [
+      "É a fundação do governo da República da Coreia",
+      "É uma cúpula intercoreana",
+      "É a assinatura do acordo de armistício",
+      "É a adesão à OCDE"
+    ],
+    "hint": "Um evento em que ambas as Coreias se tornaram estados membros da ONU e foram reconhecidas pela comunidade internacional.",
+    "explanation": "Em setembro de 1991, tanto a Coreia do Norte quanto a Coreia do Sul ingressaram simultaneamente nas Nações Unidas, obtendo reconhecimento como dois governos legítimos pela comunidade internacional."
+  },
+  "q_contemporary_11_006": {
+    "question": "Em que ano ocorreu a primeira reunião de famílias separadas intercoreanas?",
+    "correct": "1985",
+    "wrong": [
+      "1972",
+      "1991",
+      "2000",
+      "2018"
+    ],
+    "hint": "Famílias separadas se encontraram pela primeira vez durante o governo de Chun Doo-hwan.",
+    "explanation": "Em 1985, ocorreram as primeiras visitas às cidades natais de famílias separadas intercoreanas e intercâmbios de apresentações artísticas."
+  },
+  "q_contemporary_11_007": {
+    "question": "Qual foi a política para a Coreia do Norte do governo Roh Tae-woo?",
+    "correct": "Política do Norte",
+    "wrong": [
+      "Política do Sol",
+      "Política de Desnuclearização",
+      "Política de Unificação por Absorção",
+      "Política de Paz e Prosperidade"
+    ],
+    "hint": "Uma política que estabeleceu relações diplomáticas com países socialistas como a União Soviética e a China.",
+    "explanation": "O governo Roh Tae-woo promoveu a Política do Norte, estabelecendo relações diplomáticas com países socialistas como a União Soviética e a China e trabalhando para melhorar as relações intercoreanas."
+  },
+  "q_contemporary_11_008": {
+    "question": "Qual NÃO foi conteúdo da Declaração Conjunta Norte-Sul de 15 de Junho?",
+    "correct": "A unificação imediata Norte-Sul foi acordada",
+    "wrong": [
+      "A resolução independente da questão da unificação foi acordada",
+      "A cooperação econômica intercoreana foi acordada",
+      "A resolução da questão das famílias separadas foi acordada",
+      "Foi assinada pelo presidente Kim Dae-jung e pelo líder Kim Jong-il"
+    ],
+    "hint": "Eles concordaram com uma unificação gradual, passo a passo, e não com uma unificação imediata.",
+    "explanation": "A Declaração Conjunta Norte-Sul de 15 de Junho de 2000 concordou com a busca gradual da unificação, e não com a unificação imediata."
+  },
+  "q_contemporary_11_009": {
+    "question": "Em que ano o Complexo Industrial de Kaesong começou a operar?",
+    "correct": "2004",
+    "wrong": [
+      "2000",
+      "1991",
+      "2007",
+      "2018"
+    ],
+    "hint": "O ano em que empresas sul-coreanas começaram a operar fábricas em Kaesong, na Coreia do Norte.",
+    "explanation": "O Complexo Industrial de Kaesong começou a operar em 2004 e se tornou um projeto simbólico da cooperação econômica intercoreana."
+  },
+  "q_contemporary_11_010": {
+    "question": "Qual é o nome desta declaração?",
+    "correct": "Declaração Conjunta Norte-Sul de 15 de Junho",
+    "wrong": [
+      "Declaração Conjunta Norte-Sul de 4 de Julho",
+      "Acordo Básico Norte-Sul",
+      "Declaração Conjunta Norte-Sul de 4 de Outubro",
+      "Declaração de Panmunjom"
+    ],
+    "hint": "Foi chamada de Declaração '6·15' porque foi anunciada em 15 de junho de 2000, na primeira cúpula.",
+    "explanation": "Esta declaração, anunciada na cúpula intercoreana em 15 de junho de 2000, é chamada de Declaração Conjunta Norte-Sul de 15 de Junho.",
+    "source": "Declaração Conjunta Norte-Sul de 15 de Junho (2000): O Sul e o Norte concordaram em resolver a questão da unificação de forma independente, pelos esforços do próprio povo coreano, como donos da nação."
+  },
+  "q_contemporary_11_011": {
+    "question": "Qual afirmação sobre a Declaração de Panmunjom de 2018 NÃO está correta?",
+    "correct": "A Coreia do Norte e a Coreia do Sul ingressaram simultaneamente nas Nações Unidas",
+    "wrong": [
+      "O presidente Moon Jae-in e o líder Kim Jong-un se encontraram",
+      "Visava a desnuclearização completa da Península Coreana",
+      "Foi anunciada na Casa da Paz em Panmunjom",
+      "Foi acordada a busca por uma declaração de fim da guerra e um acordo de paz"
+    ],
+    "hint": "A adesão simultânea à ONU já havia sido alcançada em 1991.",
+    "explanation": "A adesão simultânea Norte-Sul à ONU ocorreu em 1991. A Declaração de Panmunjom de 2018 visava a desnuclearização e a construção de um regime de paz."
+  },
+  "q_contemporary_11_012": {
+    "question": "Em que ano o turismo ao Monte Kumgang começou?",
+    "correct": "1998",
+    "wrong": [
+      "1991",
+      "2000",
+      "2004",
+      "2007"
+    ],
+    "hint": "Famoso pela cena de Chung Ju-yung, presidente da Hyundai, cruzando a fronteira com 1.001 cabeças de gado.",
+    "explanation": "O projeto de turismo ao Monte Kumgang do Grupo Hyundai começou em 1998, abrindo caminho para a cooperação econômica intercoreana."
+  }
+}

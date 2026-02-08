@@ -1,0 +1,1462 @@
+{
+  "q_joseon_late_01_001": {
+    "question": "Qual foi o debate ocorrido durante o reinado do Rei Hyeonjong sobre o período de luto da Rainha Viúva Jaeui no funeral do Rei Hyojong?",
+    "correct": "Controvérsia Yesong (Controvérsia Ritual)",
+    "wrong": [
+      "Política Hwanguk",
+      "Política Tangpyeong",
+      "Política Sedo",
+      "Sahwa"
+    ],
+    "hint": "Um debate sobre a propriedade ritual (禮) e o traje de luto (喪), no qual as facções Seoin e Namin se confrontaram.",
+    "explanation": "A Controvérsia Yesong foi um debate entre as facções Seoin e Namin sobre o período de luto da Rainha Viúva Jaeui (madrasta do Rei Hyojong) após sua morte. Houve a Primeira Yesong (1659) e a Segunda Yesong (1674)."
+  },
+  "q_joseon_late_01_002": {
+    "question": "Qual período de luto a facção Seoin defendia para a Rainha Viúva Jaeui na Primeira Yesong (Gihae Yesong)?",
+    "correct": "1 ano",
+    "wrong": [
+      "3 anos",
+      "9 meses",
+      "5 meses",
+      "1 mês"
+    ],
+    "hint": "Os Seoin defendiam um período mais curto, pois o Rei Hyojong era o segundo filho, enquanto os Namin defendiam um período mais longo, pois ele era o rei.",
+    "explanation": "Na Primeira Yesong, os Seoin defendiam 1 ano de luto, pois o Rei Hyojong era o segundo filho, enquanto os Namin defendiam 3 anos, alegando que o rei deveria ser tratado como o filho primogênito legítimo. A posição dos Seoin foi adotada."
+  },
+  "q_joseon_late_01_003": {
+    "question": "Qual foi o resultado da Segunda Yesong (Gabin Yesong)?",
+    "correct": "A posição dos Namin foi adotada e os Seoin perderam o poder",
+    "wrong": [
+      "A posição dos Seoin foi adotada e os Namin perderam o poder",
+      "Um compromisso de 9 meses foi adotado por ambos os lados",
+      "O Rei Sukjong declarou a controvérsia sem sentido",
+      "O debate terminou sem conclusão"
+    ],
+    "hint": "A conclusão foi oposta a da Primeira Yesong, e o governo mudou de mãos.",
+    "explanation": "Na Segunda Yesong (1674), a posição dos Namin foi adotada, fazendo os Seoin perderem o poder e os Namin assumirem o controle do governo."
+  },
+  "q_joseon_late_01_004": {
+    "question": "Com base na seguinte fonte, que forma de política esta sendo descrita?",
+    "source": "Segundo a vontade do rei, qualquer facção podia tomar o poder ou cair da noite para o dia. No ano Gyeongsin, os Namin cairam e os Seoin tomaram o poder; no ano Gisa, os Seoin cairam e os Namin tomaram o poder.",
+    "correct": "Hwanguk (Mudanças Políticas Súbitas)",
+    "wrong": [
+      "Tangpyeong",
+      "Sedo",
+      "Sahwa",
+      "Banjeong"
+    ],
+    "hint": "Significando mudança política súbita (換), isso ocorreu frequentemente durante o reinado do Rei Sukjong.",
+    "explanation": "A fonte descreve a política Hwanguk durante o reinado do Rei Sukjong. Hwanguk refere-se a mudanças políticas súbitas que contribuiram para o fortalecimento da autoridade real, mas intensificaram os conflitos políticos."
+  },
+  "q_joseon_late_01_005": {
+    "question": "Qual é a ordem cronológica correta dos eventos Hwanguk durante o reinado do Rei Sukjong?",
+    "correct": "Hwanguk Gyeongsin → Hwanguk Gisa → Hwanguk Gapsul",
+    "wrong": [
+      "Hwanguk Gisa → Hwanguk Gyeongsin → Hwanguk Gapsul",
+      "Hwanguk Gapsul → Hwanguk Gyeongsin → Hwanguk Gisa",
+      "Hwanguk Gyeongsin → Hwanguk Gapsul → Hwanguk Gisa",
+      "Hwanguk Gisa → Hwanguk Gapsul → Hwanguk Gyeongsin"
+    ],
+    "hint": "Na ordem de 1680 → 1689 → 1694, nomeados de acordo com seus respectivos anos do ciclo sexagenário.",
+    "explanation": "Os eventos Hwanguk durante o reinado do Rei Sukjong ocorreram nesta ordem: Hwanguk Gyeongsin (1680, Seoin toma o poder) → Hwanguk Gisa (1689, Namin toma o poder) → Hwanguk Gapsul (1694, Seoin retoma o poder)."
+  },
+  "q_joseon_late_01_006": {
+    "question": "Qual evento desencadeou o Hwanguk Gisa?",
+    "correct": "Ocorreu quando o filho de Lady Jang (futuro Rei Gyeongjong) foi designado como Príncipe Herdeiro",
+    "wrong": [
+      "Ocorreu quando a Rainha Inhyeon faleceu",
+      "Ocorreu quando os Seoin conspiraram uma rebelião",
+      "Ocorreu quando a China Qing exerceu pressão",
+      "Ocorreu quando os Namin realizaram um golpe"
+    ],
+    "hint": "A causa foi a questão da designação como Príncipe Herdeiro do filho nascido da concubina do Rei Sukjong.",
+    "explanation": "O Hwanguk Gisa (1689) ocorreu quando o Rei Sukjong tentou designar o filho de Lady Jang como Príncipe Herdeiro e os Seoin se opuseram. Como resultado, os Seoin perderam o poder e os Namin assumiram o controle."
+  },
+  "q_joseon_late_01_007": {
+    "question": "Qual afirmação sobre esta pessoa esta correta?",
+    "correct": "Ele foi executado pelo regime Namin durante o Hwanguk Gisa",
+    "wrong": [
+      "Ele era um lider Namin que conduziu a política Hwanguk",
+      "Ele implementou a política Tangpyeong para fortalecer a autoridade real",
+      "Ele iniciou a política Sedo permitindo que o cla Andong Kim tomasse o poder",
+      "Ele foi executado durante o Hwanguk Gapsul"
+    ],
+    "hint": "O lider dos Seoin que apoiou a Expedição ao Norte do Rei Hyojong e foi um grande erudito.",
+    "explanation": "A foto mostra Song Si-yeol. Como lider dos Seoin, Song Si-yeol foi exilado na Ilha de Jeju e executado pelo regime Namin durante o Hwanguk Gisa (1689)."
+  },
+  "q_joseon_late_01_008": {
+    "question": "Em quais facções os Seoin se dividiram após o Hwanguk Gapsul?",
+    "correct": "Noron e Soron",
+    "wrong": [
+      "Dongin e Seoin",
+      "Namin e Bukin",
+      "Sipa e Byeokpa",
+      "Hungu e Sarim"
+    ],
+    "hint": "Eles se dividiram em facções dos 'mais velhos (老)' e 'mais jovens (少)' em relação ao tratamento de Song Si-yeol.",
+    "explanation": "Após o Hwanguk Gapsul (1694), os Seoin se dividiram em Noron (facção de Song Si-yeol) e Soron (facção de Yun Jeung)."
+  },
+  "q_joseon_late_01_009": {
+    "question": "Com base na seguinte fonte, qual foi o resultado da situação política descrita?",
+    "source": "Quando uma facção tomava o poder, rotulava a facção opositora como traidora e a punia. Isso levou a vinganças repetidas entre os funcionários eruditos yangban e intensificou os conflitos políticos.",
+    "correct": "A supressão das facções opositoras se intensificou e o domínio de um único partido surgiu",
+    "wrong": [
+      "O equilíbrio político foi alcançado por meio de controle mútuo entre as facções",
+      "A política Tangpyeong começou e a política faccional se estabilizou",
+      "A autoridade real enfraqueceu levando a política Sedo",
+      "A Guerra Imjin eclodiu"
+    ],
+    "hint": "A política faccional se deteriorou, levando ao monopólio do poder por um único partido.",
+    "explanation": "A fonte descreve a deterioração da política faccional. Através dos Hwanguk, a supressão das facções opositoras se intensificou e o domínio de um único partido surgiu."
+  },
+  "q_joseon_late_01_010": {
+    "question": "Qual facção chegou ao poder através do Hwanguk Gyeongsin?",
+    "correct": "Seoin",
+    "wrong": [
+      "Namin",
+      "Bukin",
+      "Dongin",
+      "Soron"
+    ],
+    "hint": "A facção que tomou o poder após a queda dos Namin devido ao caso de traição de Heo Jeok e Heo Gyeon em 1680.",
+    "explanation": "O Hwanguk Gyeongsin (1680) foi um evento em que os Namin foram expulsos devido ao envolvimento em um caso de traição de Heo Gyeon (filho ilegítimo de Heo Jeok), e os Seoin chegaram ao poder."
+  },
+  "q_joseon_late_01_011": {
+    "question": "Qual é a importância da Controvérsia Yesong na história política?",
+    "correct": "Foi um debate político sobre a legitimidade da sucessão e a natureza da autoridade real",
+    "wrong": [
+      "Foi um debate que determinou a direção da política econômica",
+      "Foi um debate que determinou a direção da política diplomática",
+      "Foi um debate para a reforma do sistema fundiário",
+      "Foi um debate para a reforma do sistema militar"
+    ],
+    "hint": "Não era simplesmente sobre o período de luto, mas sobre se o Rei Hyojong era o herdeiro legítimo.",
+    "explanation": "A Controvérsia Yesong não foi meramente um debate sobre estudos rituais, mas um debate político sobre a legitimidade da sucessão do Rei Hyojong e a natureza da autoridade real."
+  },
+  "q_joseon_late_01_012": {
+    "question": "Qual NÃO e uma característica da deterioração da política faccional no período Joseon tardio?",
+    "correct": "A crítica mútua e o controle entre as facções foram fortalecidos",
+    "wrong": [
+      "A situação política mudou drasticamente através dos Hwanguk",
+      "As facções opositoras eram rotuladas como traidoras e suprimidas",
+      "A tendência ao domínio de um único partido surgiu",
+      "Certas facções monopolizaram o poder político"
+    ],
+    "hint": "As vantagens da política faccional inicial desapareceram e os conflitos políticos se intensificaram.",
+    "explanation": "No período Joseon tardio, a crítica mútua e o controle entre as facções enfraqueceram, e a política faccional se deteriorou através dos Hwanguk e do domínio de um único partido."
+  },
+  "q_joseon_late_02_001": {
+    "question": "Qual política o Rei Yeongjo implementou para prevenir os efeitos nocivos do faccionalismo?",
+    "correct": "Política Tangpyeong",
+    "wrong": [
+      "Daedongbeop",
+      "Gyunyeokbeop",
+      "Sachangje",
+      "Hopaebeop"
+    ],
+    "hint": "Significando 'imparcial e justo' (蕩蕩平平), uma política de empregar pessoas talentosas igualmente sem tendência faccional.",
+    "explanation": "O Rei Yeongjo implementou a Política Tangpyeong para prevenir os efeitos nocivos do faccionalismo, empregando igualmente indivíduos talentosos de todas as facções."
+  },
+  "q_joseon_late_02_002": {
+    "question": "Qual rei implementou a política descrita na seguinte fonte?",
+    "source": "Para reduzir o fardo do tecido militar dos agricultores, foi reduzido de 2 peças para 1 peça, e o deficit foi suplementado com gyeoljak (imposto sobre terras), seonmu gunganpo (imposto sobre oficiais militares) e imposto sobre áreas de pesca.",
+    "correct": "Rei Yeongjo",
+    "wrong": [
+      "Rei Jeongjo",
+      "Rei Sukjong",
+      "Rei Sejong",
+      "Rei Sejo"
+    ],
+    "hint": "O rei que criou uma lei com o significado de equalizar (均) o serviço militar (軍役).",
+    "explanation": "A fonte descreve a Gyunyeokbeop (Lei do Serviço Igualitário) implementada pelo Rei Yeongjo (1750). Por meio desta lei, o fardo do tecido militar dos agricultores foi reduzido pela metade."
+  },
+  "q_joseon_late_02_003": {
+    "question": "Qual NÃO e uma realização do Rei Yeongjo?",
+    "correct": "Estabeleceu o Jangyongyeong para fortalecer a autoridade real",
+    "wrong": [
+      "Implementou a Gyunyeokbeop para reduzir o fardo dos agricultores",
+      "Buscou harmonia entre as facções através da Política Tangpyeong",
+      "Reviveu o Sinmungo para resolver as queixas do povo",
+      "Compilou o Sokdaejeon para sistematizar o código legal"
+    ],
+    "hint": "Foi um monarca Tangpyeong diferente, não o Rei Yeongjo, que estabeleceu a guarda real.",
+    "explanation": "O Jangyongyeong foi uma guarda real estabelecida pelo Rei Jeongjo. As realizações do Rei Yeongjo incluem a Gyunyeokbeop, a Política Tangpyeong, a revitalização do Sinmungo e a compilação do Sokdaejeon."
+  },
+  "q_joseon_late_02_004": {
+    "question": "Qual instituição esta pessoa na foto estabeleceu?",
+    "correct": "Gyujanggak",
+    "wrong": [
+      "Bibyeonsa",
+      "Uigeumbu",
+      "Saheonbu",
+      "Seungjeongwon"
+    ],
+    "hint": "Uma biblioteca real e instituição de pesquisa política que apoiou as reformas deste rei.",
+    "explanation": "A foto mostra o Rei Jeongjo. O Rei Jeongjo estabeleceu o Gyujanggak para formar eruditos e fazê-los pesquisar políticas."
+  },
+  "q_joseon_late_02_005": {
+    "question": "Qual era o propósito do Rei Jeongjo ao construir a Fortaleza de Hwaseong em Suwon?",
+    "correct": "Construir uma cidade planejada para fortalecer a autoridade real e promover o comércio e a indústria",
+    "wrong": [
+      "Estabelecer uma base militar para a Expedição ao Norte",
+      "Construir um porto para o comércio exterior",
+      "Transferir a capital para escapar da influência dos yangban",
+      "Criar uma base para a supressão do catolicismo"
+    ],
+    "hint": "Ele transferiu o túmulo de seu pai, o Príncipe Herdeiro Sado, e construiu uma nova cidade planejada.",
+    "explanation": "O Rei Jeongjo transferiu o túmulo de seu pai, o Príncipe Herdeiro Sado, para Suwon e construiu Hwaseong como uma cidade planejada para fortalecer a autoridade real e promover o comércio e a indústria."
+  },
+  "q_joseon_late_02_006": {
+    "question": "Qual afirmação sobre este edifício na foto esta correta?",
+    "correct": "Foi construído pelo Rei Jeongjo, utilizando novas tecnologias como o geojunggi (guindaste)",
+    "wrong": [
+      "E uma fortaleza de defesa construída pelo Rei Sejong",
+      "E um palácio construído durante o período Goryeo",
+      "E uma fortaleza construída durante o período colonial japonês",
+      "E parte da muralha da capital construída no início de Joseon"
+    ],
+    "hint": "Um Patrimônio Mundial da UNESCO, uma fortaleza projetada com a participação de Jeong Yak-yong.",
+    "explanation": "A foto mostra Hwaseong em Suwon. Foi construída durante o reinado do Rei Jeongjo com projetos de Jeong Yak-yong, utilizando novas tecnologias como o geojunggi e o nokro (polia)."
+  },
+  "q_joseon_late_02_007": {
+    "question": "Qual afirmação sobre a política do Rei Jeongjo NÃO esta correta?",
+    "correct": "Ele expulsou as forças Noron e promoveu os Namin através do Hwanguk Gyeongsin",
+    "wrong": [
+      "Ele promoveu políticas acadêmicas através do Gyujanggak",
+      "Ele fortaleceu o poder militar estabelecendo o Jangyongyeong",
+      "Ele formou talentos através do sistema Chogyemunsin",
+      "Ele também empregou pessoas de nascimento ilegítimo em cargos governamentais"
+    ],
+    "hint": "O Hwanguk Gyeongsin ocorreu durante o reinado do Rei Sukjong, mais de 100 anos antes do Rei Jeongjo.",
+    "explanation": "O Hwanguk Gyeongsin (1680) ocorreu durante o reinado do Rei Sukjong. O Rei Jeongjo implementou o Gyujanggak, o Jangyongyeong, o sistema Chogyemunsin e o seoja heo-tong (permitindo que filhos ilegítimos servissem no governo)."
+  },
+  "q_joseon_late_02_008": {
+    "question": "Qual afirmação sobre o Gyujanggak esta correta?",
+    "correct": "Foi uma instituição acadêmica e de pesquisa política estabelecida pelo Rei Jeongjo",
+    "wrong": [
+      "Foi uma instituição de criação do Hangeul estabelecida pelo Rei Sejong",
+      "Foi uma instituição militar estabelecida pelo Rei Yeongjo",
+      "Foi uma instituição educacional estabelecida durante o período Goryeo",
+      "Foi uma instituição de imprensa estabelecida pelo Rei Sukjong"
+    ],
+    "hint": "Uma instituição que armazenava livros reais (奎章) e reeducava jovens eruditos.",
+    "explanation": "O Gyujanggak foi uma biblioteca real e instituição de pesquisa acadêmica estabelecida pelo Rei Jeongjo, apoiando sua política reformista."
+  },
+  "q_joseon_late_02_009": {
+    "question": "Qual afirmação sobre o sistema Chogyemunsin implementado pelo Rei Jeongjo esta correta?",
+    "correct": "Foi um sistema de reeducação de jovens funcionários civis no Gyujanggak",
+    "wrong": [
+      "Foi um sistema para incluir questões sobre plantas nos exames civis",
+      "Foi um sistema de emprego preferencial de oficiais militares",
+      "Foi um sistema que impedia filhos ilegítimos de ingressar no governo",
+      "Foi um sistema de homenagem a funcionários civis idosos"
+    ],
+    "hint": "Jovens funcionários eram selecionados e reeducados no Gyujanggak para se tornarem apoiadores leais do rei.",
+    "explanation": "O sistema Chogyemunsin era um sistema em que o Rei Jeongjo selecionava jovens funcionários civis (menores de 37 anos, abaixo do 3o grau) e os reeducava no Gyujanggak, formando-os como apoiadores leais do rei."
+  },
+  "q_joseon_late_02_010": {
+    "question": "Qual era o objetivo comum da política Tangpyeong do Rei Yeongjo e do Rei Jeongjo?",
+    "correct": "Prevenir os efeitos nocivos do faccionalismo e fortalecer a autoridade real",
+    "wrong": [
+      "Operar o governo centrado nos Bukin",
+      "Abolir o Bibyeonsa e fortalecer as funções do Uijeongbu",
+      "Abandonar a Expedição ao Norte fazendo paz com os Qing",
+      "Reconhecer oficialmente o catolicismo e permitir a liberdade religiosa"
+    ],
+    "hint": "Ambos os reis buscaram reduzir os conflitos faccionais e fortalecer a autoridade real.",
+    "explanation": "A política Tangpyeong tanto do Rei Yeongjo quanto do Rei Jeongjo compartilhava o objetivo comum de prevenir os efeitos nocivos do faccionalismo e fortalecer a autoridade real."
+  },
+  "q_joseon_late_02_011": {
+    "question": "Com base na seguinte fonte, qual instituição esta sendo descrita?",
+    "source": "Soldados de elite foram selecionados dos Cinco Acampamentos Militares para guardar o rei. Dividido em acampamentos internos e externos, servia como a guarda real do rei.",
+    "correct": "Jangyongyeong",
+    "wrong": [
+      "Hullyeondogam",
+      "Eoyeongcheong",
+      "Geumwiyeong",
+      "Samgunbu"
+    ],
+    "hint": "Uma guarda real criada pelo Rei Jeongjo, com um acampamento externo também localizado em Hwaseong.",
+    "explanation": "A fonte descreve o Jangyongyeong estabelecido pelo Rei Jeongjo. O Jangyongyeong era a guarda real do Rei Jeongjo que contribuiu para o fortalecimento da autoridade real."
+  },
+  "q_joseon_late_02_012": {
+    "question": "Qual foi a limitação da política Tangpyeong?",
+    "correct": "Ela se deteriorou em política Sedo após a morte do rei",
+    "wrong": [
+      "A política faccional se tornou mais intensa",
+      "Os Hwanguk ocorreram com mais frequência",
+      "A Guerra Imjin eclodiu",
+      "Os Sahwa ocorreram novamente"
+    ],
+    "hint": "Como dependia de uma forte autoridade real, era difícil mantê-la quando o rei mudava.",
+    "explanation": "A política Tangpyeong era mantida com base em uma forte autoridade real, então quando um jovem rei ascendeu após a morte do Rei Jeongjo, ela se deteriorou em política Sedo."
+  },
+  "q_joseon_late_03_001": {
+    "question": "Quais foram as familias representativas que tomaram o poder durante o período da Política Sedo?",
+    "correct": "Cla Andong Kim, Cla Pungyang Jo",
+    "wrong": [
+      "Cla Yeoheung Min, Cla Papyeong Yun",
+      "Cla Jeonju Yi, Cla Gyeongju Kim",
+      "Cla Cheongju Han, Cla Miryang Park",
+      "Cla Haeju O, Cla Gwangsan Kim"
+    ],
+    "hint": "Kim Jo-sun, sogro do Rei Sunjo, e o cla Jo, familia materna do Rei Heonjong.",
+    "explanation": "Durante o período da Política Sedo (de Sunjo a Cheoljong), o cla Andong Kim (Kim Jo-sun) e o cla Pungyang Jo (Jo Man-yeong) foram as familias representativas que tomaram o poder."
+  },
+  "q_joseon_late_03_002": {
+    "question": "Qual era uma característica da Política Sedo?",
+    "correct": "As familias aparentadas da realeza monopolizavam o poder controlando o Bibyeonsa",
+    "wrong": [
+      "Crítica mútua ativa e controle entre as facções ocorriam",
+      "A autoridade real se fortaleceu e os apoiadores leais do rei cresceram",
+      "As forças Sarim dominavam as áreas rurais centradas nos Seowon",
+      "Os eunucos controlavam a política"
+    ],
+    "hint": "As familias natais das rainhas e rainhas viúvas dominavam a política.",
+    "explanation": "Durante o período da Política Sedo, algumas familias aparentadas da realeza controlavam o Bibyeonsa e monopolizavam as nomeações de pessoal, enfraquecendo a autoridade real."
+  },
+  "q_joseon_late_03_003": {
+    "question": "Durante qual período os problemas descritos na seguinte fonte apareceram?",
+    "source": "Os problemas das três administrações — imposto sobre terras, serviço militar e empréstimo de grãos — eram graves. Os funcionários exploravam os impostos, tornando a vida dos agricultores extremamente difícil.",
+    "correct": "Período da Política Sedo",
+    "wrong": [
+      "Período da política faccional",
+      "Período da política Tangpyeong",
+      "Início de Joseon",
+      "Período Goryeo"
+    ],
+    "hint": "Um período em que a Desordem das Três Administrações atingiu seu auge, causando revoltas camponesas.",
+    "explanation": "A fonte descreve a Desordem das Três Administrações (imposto sobre terras, serviço militar, empréstimo de grãos) que se intensificou durante o período da Política Sedo."
+  },
+  "q_joseon_late_03_004": {
+    "question": "Qual era o problema da 'administração militar' entre a Desordem das Três Administrações?",
+    "correct": "O imposto do tecido militar era cobrado de crianças e até de pessoas falecidas",
+    "wrong": [
+      "As terras eram medidas em excesso para cobrar mais impostos",
+      "Os empréstimos de grãos eram operados como agiotagem para lucro",
+      "O sal e o ferro eram monopolizados para explorar o povo",
+      "Os direitos de mineração eram monopolizados causando danos aos civis"
+    ],
+    "hint": "O imposto do tecido militar era cobrado até dos mortos (baekgol jingpo) e de crianças (hwanggu cheomjeong).",
+    "explanation": "Os problemas na administração militar incluiam baekgol jingpo (cobrança de falecidos), hwanggu cheomjeong (cobrança de crianças) e injing (cobrança de vizinhos em substituição)."
+  },
+  "q_joseon_late_03_005": {
+    "question": "Qual foi o nome da grande revolta camponesa ocorrida na Província de Pyeongan em 1811?",
+    "correct": "Rebelião de Hong Gyeong-rae",
+    "wrong": [
+      "Rebelião de Yi Gwal",
+      "Revolta Camponesa de Imsul",
+      "Movimento Camponês Donghak",
+      "Rebelião de Manjok"
+    ],
+    "hint": "Uma revolta contra a discriminação da região noroeste, com uma última resistência na Fortaleza de Jeongju.",
+    "explanation": "A Rebelião de Hong Gyeong-rae (1811) foi uma grande revolta camponesa liderada por Hong Gyeong-rae na Província de Pyeongan, surgida dos efeitos nocivos da Política Sedo e da discriminação contra a região noroeste."
+  },
+  "q_joseon_late_03_006": {
+    "question": "Com base na seguinte fonte, qual evento esta relacionado?",
+    "source": "A região de Gwanseo (Pyeongan) foi a capital desde os tempos de Goryeo, mas agora a corte a discrimina. Que os funcionários e plebeus se levantem em Cheolsan no ano Gabo.",
+    "correct": "Rebelião de Hong Gyeong-rae",
+    "wrong": [
+      "Revolta Camponesa de Imsul",
+      "Movimento Camponês Donghak",
+      "Golpe Gapsin",
+      "Byeonginyangyo"
+    ],
+    "hint": "Uma proclamação de uma revolta contra a discriminação da região de Pyeongan (Gwanseo).",
+    "explanation": "A fonte e uma proclamação relacionada a Rebelião de Hong Gyeong-rae (1811), que surgiu da discriminação contra a região noroeste e dos efeitos nocivos da Política Sedo."
+  },
+  "q_joseon_late_03_007": {
+    "question": "Qual revolta camponesa começou em Jinju, Província de Gyeongsang, em 1862 e se espalhou por todo o país?",
+    "correct": "Revolta Camponesa de Imsul",
+    "wrong": [
+      "Rebelião de Hong Gyeong-rae",
+      "Movimento Camponês Donghak",
+      "Reforma Gabo",
+      "Incidente Eulmi"
+    ],
+    "hint": "No ano de Imsul (1862), espalhou-se por 37 regiões em todo o país em protesto contra a Desordem das Três Administrações.",
+    "explanation": "A Revolta Camponesa de Imsul (1862) foi uma revolta camponesa que começou em Jinju em protesto contra a Desordem das Três Administrações e se espalhou por 37 regiões em todo o país."
+  },
+  "q_joseon_late_03_008": {
+    "question": "Qual questão tributária foi a causa direta da Revolta Camponesa de Imsul?",
+    "correct": "Hwangok (Empréstimo de Grãos)",
+    "wrong": [
+      "Gongap (Tributo)",
+      "Yeok (Corveia)",
+      "Alfândega",
+      "Imposto sobre o sal"
+    ],
+    "hint": "A causa foi a exploração do sistema de empréstimo de grãos pelo Comandante do Exército Provincial Baek Nak-sin.",
+    "explanation": "A Revolta Camponesa de Imsul foi diretamente causada pela exploração do empréstimo de grãos pelo Comandante do Exército Provincial de Gyeongsang, Baek Nak-sin."
+  },
+  "q_joseon_late_03_009": {
+    "question": "Qual NÃO e um problema político durante o período da Política Sedo?",
+    "correct": "A autoridade real foi fortalecida e políticas reformistas foram implementadas",
+    "wrong": [
+      "A compra e venda de cargos governamentais era prevalente",
+      "As Três Administrações ficaram desordenadas piorando a vida dos agricultores",
+      "A autoridade do Bibyeonsa foi fortalecida",
+      "As familias aparentadas da realeza monopolizaram o poder político"
+    ],
+    "hint": "Ao contrário da política Tangpyeong, a autoridade real era muito fraca neste período.",
+    "explanation": "Durante o período da Política Sedo, a autoridade real foi enfraquecida, e problemas como a venda de cargos governamentais e a Desordem das Três Administrações ocorreram."
+  },
+  "q_joseon_late_03_010": {
+    "question": "Qual afirmação sobre esta pessoa na foto esta correta?",
+    "correct": "Ele era do cla Andong Kim e iniciou a Política Sedo",
+    "wrong": [
+      "Ele implementou a Política Tangpyeong",
+      "Ele era o lider dos Noron e participou da Controvérsia Yesong",
+      "Ele tomou o poder através do Hwanguk",
+      "Ele fundou o Donghak"
+    ],
+    "hint": "O pai da Rainha Sunwon que tomou o poder a partir do reinado do Rei Sunjo.",
+    "explanation": "A foto mostra Kim Jo-sun. Ele era do cla Andong Kim, pai da Rainha Sunwon, e iniciou a Política Sedo após a ascensão do Rei Sunjo."
+  },
+  "q_joseon_late_03_011": {
+    "question": "Qual era o problema do sistema de exames civis durante o período da Política Sedo?",
+    "correct": "Cargos governamentais eram comprados e vendidos através de maegwan maejik (venda de cargos)",
+    "wrong": [
+      "Os exames militares foram abolidos impossibilitando nomeações de oficiais militares",
+      "O acesso aos exames para filhos ilegítimos foi completamente proibido",
+      "Os exames foram abolidos e substituídos por um sistema de recomendação",
+      "As mulheres passaram a poder prestar os exames"
+    ],
+    "hint": "A corrupção da compra (買官) e venda (賣職) de cargos governamentais era grave.",
+    "explanation": "Durante o período da Política Sedo, o maegwan maejik (compra e venda de cargos) era prevalente, resultando em um declínio na qualidade dos funcionários."
+  },
+  "q_joseon_late_03_012": {
+    "question": "Qual era a situação social durante o período da Política Sedo?",
+    "correct": "Revoltas populares ocorriam com frequência",
+    "wrong": [
+      "A sociedade se estabilizou e a cultura floresceu grandemente",
+      "A autoridade real se fortaleceu e reformas foram buscadas",
+      "O equilíbrio entre as facções foi alcançado e a política se estabilizou",
+      "O intercâmbio com países estrangeiros se tornou ativo"
+    ],
+    "hint": "A resistência popular continuou com a Rebelião de Hong Gyeong-rae, a Revolta Camponesa de Imsul e outras.",
+    "explanation": "Durante o período da Política Sedo, revoltas populares como a Rebelião de Hong Gyeong-rae e a Revolta Camponesa de Imsul ocorriam com frequência devido a Desordem das Três Administrações e a corrupção política."
+  },
+  "q_joseon_late_04_001": {
+    "question": "Qual foi um avanço na tecnologia agrícola no final do período Joseon?",
+    "correct": "O Iangbeop (transplante de mudas de arroz) se espalhou por todo o país",
+    "wrong": [
+      "Ferramentas agrícolas de ferro começaram a ser usadas pela primeira vez",
+      "O cultivo de arroz começou pela primeira vez",
+      "A agricultura de corte e queima começou",
+      "Fazendas coletivas foram formadas"
+    ],
+    "hint": "Um método de cultivar e transplantar mudas de arroz que reduziu enormemente a mão de obra.",
+    "explanation": "No final do período Joseon, o Iangbeop (transplante de mudas de arroz) se espalhou por todo o país, reduzindo a mão de obra e possibilitando o cultivo duplo de arroz e cevada."
+  },
+  "q_joseon_late_04_002": {
+    "question": "Qual NÃO é uma mudança trazida pelo Iangbeop no final do período Joseon?",
+    "correct": "A demanda por mão de obra aumentou, tornando a vida dos agricultores mais difícil",
+    "wrong": [
+      "O cultivo duplo se tornou possível, aumentando a produção",
+      "A mão de obra foi reduzida, permitindo tempo para outras atividades",
+      "A agricultura em larga escala se tornou possível e agricultores ricos surgiram",
+      "A gestão agrícola se expandiu para o cultivo de lavouras comerciais"
+    ],
+    "hint": "O Iangbeop na verdade reduziu a necessidade de mão de obra.",
+    "explanation": "O Iangbeop reduziu a mão de obra, permitindo que os agricultores usassem o tempo economizado para outras atividades."
+  },
+  "q_joseon_late_04_003": {
+    "question": "A qual fenômeno do final do período Joseon a seguinte descrição se refere?",
+    "source": "Agricultores ricos compravam ou alugavam terras de outros agricultores para cultivar grandes áreas.",
+    "correct": "Gwangjak (agricultura em larga escala)",
+    "wrong": [
+      "Dojobeop",
+      "Jeonsigwa",
+      "Gwajeonbeop",
+      "Nokbongje"
+    ],
+    "hint": "Agricultura em larga escala, significando cultivar (作) amplamente (廣).",
+    "explanation": "Gwangjak refere-se a agricultores ricos que reuniam terras de várias pessoas para cultivar em larga escala, fenômeno que surgiu no final do período Joseon."
+  },
+  "q_joseon_late_04_004": {
+    "question": "Qual moeda circulou no final do período Joseon?",
+    "correct": "Sangpyeong Tongbo",
+    "wrong": [
+      "Haedong Tongbo",
+      "Geonwon Jungbo",
+      "Osujeon",
+      "Banyangjeon"
+    ],
+    "hint": "Uma moeda com um furo quadrado no centro, usada em todo o país a partir do reinado do Rei Sukjong.",
+    "explanation": "O Sangpyeong Tongbo foi uma moeda que circulou em todo o país a partir do reinado do Rei Sukjong, contribuindo para o desenvolvimento comercial no final do período Joseon."
+  },
+  "q_joseon_late_04_005": {
+    "question": "Qual afirmação sobre o período em que a moeda da foto circulou está correta?",
+    "correct": "Mercados locais se espalharam por todo o país e o comércio se desenvolveu",
+    "wrong": [
+      "Apenas o escambo ocorria",
+      "O Estado proibia o comércio",
+      "Apenas moeda chinesa era usada",
+      "Apenas arroz e tecido eram usados como moeda"
+    ],
+    "hint": "Mercados de cinco em cinco dias surgiram em cerca de 1.000 localidades em todo o país, e os comerciantes se tornaram muito ativos.",
+    "explanation": "A foto mostra o Sangpyeong Tongbo. Durante o final do período Joseon, quando o Sangpyeong Tongbo circulava, mercados locais se espalharam por todo o país e o comércio se desenvolveu muito."
+  },
+  "q_joseon_late_04_006": {
+    "question": "Quais eram as atividades dos sasang (comerciantes privados) no final do período Joseon?",
+    "correct": "Comerciantes como os Songsang e Mansang eram ativos no comércio com a China Qing e o Japão",
+    "wrong": [
+      "Apenas os comerciantes do sijeon podiam exercer atividades comerciais",
+      "Apenas os bobusang eram ativos nas áreas rurais",
+      "O Estado controlava todas as atividades comerciais",
+      "Apenas estrangeiros tinham permissão para exercer o comércio"
+    ],
+    "hint": "Comerciantes privados cresceram, incluindo os Songsang de Gaeseong, os Mansang de Uiju e os Naesang de Dongnae.",
+    "explanation": "No final do período Joseon, comerciantes privados como os Songsang (comerciantes de Gaeseong), Mansang (comerciantes de Uiju), Naesang (comerciantes de Dongnae) e comerciantes do Gyeonggang eram muito ativos."
+  },
+  "q_joseon_late_04_007": {
+    "question": "Qual era uma característica dos mercados locais (jangsi) no final do período Joseon?",
+    "correct": "Eram mercados periódicos realizados a cada 5 dias, com cerca de 1.000 em todo o país",
+    "wrong": [
+      "Eram mercados permanentes abertos diariamente",
+      "Existiam apenas na capital",
+      "Apenas os yangban podiam utilizá-los",
+      "Apenas produtos agrícolas eram comercializados"
+    ],
+    "hint": "Mercados rurais realizados a cada 5 dias, como nos dias 1 e 6, ou nos dias 2 e 7.",
+    "explanation": "Os jangsi eram mercados periódicos realizados a cada 5 dias, com cerca de 1.000 formados em todo o país no final do período Joseon, contribuindo para o desenvolvimento econômico rural."
+  },
+  "q_joseon_late_04_008": {
+    "question": "Como foi a disseminação do cultivo de lavouras comerciais no final do período Joseon?",
+    "correct": "Tabaco, ginseng, algodão, etc. eram cultivados como lavouras comerciais",
+    "wrong": [
+      "Apenas arroz era cultivado",
+      "O cultivo de lavouras comerciais era proibido",
+      "O Estado monopolizava a compra de todos os produtos agrícolas",
+      "Apenas cultivos para exportação eram permitidos"
+    ],
+    "hint": "Aumentaram os cultivos destinados à venda e ao lucro.",
+    "explanation": "No final do período Joseon, lavouras comerciais como tabaco, ginseng, algodão e hortaliças se espalharam, aumentando a renda dos agricultores."
+  },
+  "q_joseon_late_04_009": {
+    "question": "Qual foi a mudança no artesanato no final do período Joseon?",
+    "correct": "O artesanato privado se desenvolveu e o sistema de produção por encomenda surgiu",
+    "wrong": [
+      "Existia apenas o artesanato governamental",
+      "O artesanato declinou, dependendo de importações",
+      "A indústria mecanizada de fábricas começou",
+      "Os artesãos eram tratados como classe inferior"
+    ],
+    "hint": "Um sistema em que os comerciantes adiantavam (先貸) materiais e fundos, e depois recebiam os produtos acabados.",
+    "explanation": "No final do período Joseon, o artesanato governamental declinou e o artesanato privado se desenvolveu, surgindo o sistema de produção por encomenda, onde comerciantes forneciam materiais e encomendavam a produção."
+  },
+  "q_joseon_late_04_010": {
+    "question": "Qual foi a mudança nas operações de mineração no final do período Joseon?",
+    "correct": "Deokdae (administradores de minas) gerenciavam as minas e a mineração privada se tornou ativa",
+    "wrong": [
+      "O Estado operava diretamente todas as minas",
+      "A mineração era completamente proibida",
+      "Os direitos de mineração foram transferidos a estrangeiros",
+      "Apenas nobres podiam possuir minas"
+    ],
+    "hint": "Operadores privados de minas podiam minerar desde que pagassem impostos.",
+    "explanation": "No final do período Joseon, foi implementado o sistema seoljeom suseje, em que os deokdae (administradores de minas) pagavam impostos e mineravam, tornando a mineração privada comum."
+  },
+  "q_joseon_late_04_011": {
+    "question": "A qual forma de comércio do final do período Joseon a seguinte descrição se refere?",
+    "source": "Comerciantes chineses e de Joseon se encontravam em Uiju para comercializar ginseng, seda e medicamentos.",
+    "correct": "Junggang Gaesi",
+    "wrong": [
+      "Gongmuyeok",
+      "Comércio do Waegwan",
+      "Comércio do Norte",
+      "Comércio Tributário"
+    ],
+    "hint": "Comércio realizado pela abertura de um mercado (開市) em Junggang, no curso médio do rio Yalu.",
+    "explanation": "O Junggang Gaesi era uma forma de comércio privado em que comerciantes da China Qing e de Joseon se encontravam em Junggang, em Uiju, para realizar transações."
+  },
+  "q_joseon_late_04_012": {
+    "question": "Qual foi o resultado das mudanças econômicas no final do período Joseon?",
+    "correct": "O sistema de status social foi abalado e mudanças sociais surgiram",
+    "wrong": [
+      "O sistema de status social foi ainda mais fortalecido",
+      "A produção agrícola diminuiu, causando fomes frequentes",
+      "O comércio com países estrangeiros foi completamente cortado",
+      "Todas as atividades comerciais ficaram sob controle estatal"
+    ],
+    "hint": "Surgiram mudanças como agricultores e comerciantes que enriqueceram comprando status de yangban.",
+    "explanation": "O desenvolvimento econômico no final do período Joseon levou agricultores e comerciantes a acumular riqueza, abalando o sistema de status social e provocando mudanças sociais."
+  },
+  "q_joseon_late_05_001": {
+    "question": "Qual foi o contexto para o abalo do sistema de status social no final do período Joseon?",
+    "correct": "Aumentou o número de plebeus que acumularam riqueza por meio do desenvolvimento agrícola e comercial",
+    "wrong": [
+      "O Estado declarou a abolição do sistema de status social",
+      "O número de yangban diminuiu, enfraquecendo seu controle",
+      "O sistema de status social foi abalado devido à pressão estrangeira",
+      "O rei promulgou uma lei tornando todos os status sociais iguais"
+    ],
+    "hint": "Plebeus com poder econômico começaram a se passar por yangban.",
+    "explanation": "No final do período Joseon, aumentou o número de plebeus que acumularam riqueza por meio do desenvolvimento agrícola e comercial e, ao comprarem status de yangban ou se passarem por yangban, o sistema de status social foi abalado."
+  },
+  "q_joseon_late_05_002": {
+    "question": "Qual NÃO é uma causa do aumento da população yangban no final do período Joseon?",
+    "correct": "O Estado realizou exames de qualificação de yangban e reconheceu como yangban aqueles que foram aprovados",
+    "wrong": [
+      "Genealogias eram falsificadas para se passar por yangban",
+      "Gongmyeongcheop (certificados de nomeação em branco) eram comprados para obter status de yangban",
+      "Plebeus ricos compravam status de yangban",
+      "Pessoas eram adotadas por famílias yangban para se tornarem yangban"
+    ],
+    "hint": "O aumento de yangban ocorreu por meios não oficiais, não por sistemas oficiais.",
+    "explanation": "O aumento de yangban no final do período Joseon ocorreu por meios não oficiais, como falsificação de genealogias, compra de gongmyeongcheop e compra de status de yangban."
+  },
+  "q_joseon_late_05_003": {
+    "question": "Qual documento a seguinte fonte descreve?",
+    "source": "O Estado o emitia por uma quantia em dinheiro para garantir as finanças. Quem o comprasse poderia receber isenção de obrigações de serviço.",
+    "correct": "Gongmyeongcheop",
+    "wrong": [
+      "Registro Domiciliar",
+      "Documento de Terras",
+      "Certificado de Aprovação em Exame",
+      "Placa de Identificação"
+    ],
+    "hint": "Documentos vazios (空) com apenas o nome (名) escrito eram vendidos para arrecadar finanças do Estado.",
+    "explanation": "O Gongmyeongcheop era um documento emitido mediante pagamento para garantir as finanças do Estado, oferecendo benefícios como isenção de obrigações de serviço aos compradores."
+  },
+  "q_joseon_late_05_004": {
+    "question": "Qual foi o movimento de ascensão de status dos jungin no final do período Joseon?",
+    "correct": "Eles lançaram o Movimento Socheong exigindo acesso a cargos governamentais",
+    "wrong": [
+      "Já haviam obtido elegibilidade para os exames civis",
+      "Receberam tratamento igual ao dos yangban",
+      "Foram proibidos de exercer atividades de comércio e indústria",
+      "Não tinham interesse em ascensão de status"
+    ],
+    "hint": "Um movimento que exigia a abolição da discriminação por meio de petições (疏呈).",
+    "explanation": "No final do período Joseon, os jungin lançaram o Movimento Socheong exigindo acesso a cargos governamentais, como o de Geomseogwan no Gyujanggak."
+  },
+  "q_joseon_late_05_005": {
+    "question": "Qual foi a mudança no status dos escravos no final do período Joseon?",
+    "correct": "Os escravos governamentais foram emancipados durante o reinado do Rei Sunjo",
+    "wrong": [
+      "O sistema de escravidão foi ainda mais fortalecido",
+      "O número de escravos aumentou muito",
+      "Os escravos se tornaram elegíveis para os exames civis",
+      "Os escravos receberam tratamento igual ao dos yangban"
+    ],
+    "hint": "Em 1801, os escravos de propriedade estatal (escravos governamentais) foram emancipados.",
+    "explanation": "Durante o reinado do Rei Sunjo (1801), foi emitido um decreto de emancipação dos escravos governamentais, libertando os escravos de propriedade estatal."
+  },
+  "q_joseon_late_05_006": {
+    "question": "A qual fenômeno do final do período Joseon a seguinte descrição se refere?",
+    "source": "O número de yangban aumentou rapidamente até representar mais da metade da população total, enquanto o número de plebeus diminuiu.",
+    "correct": "Rápido aumento da população yangban e diminuição dos plebeus",
+    "wrong": [
+      "Diminuição da população yangban e aumento dos plebeus",
+      "Rápido aumento da população de escravos",
+      "Fortalecimento do sistema de status social",
+      "Diminuição geral da população"
+    ],
+    "hint": "Os yangban aumentaram por meio da compra e venda de genealogias, enquanto os plebeus pagadores de impostos diminuíram.",
+    "explanation": "No final do período Joseon, a população yangban aumentou rapidamente enquanto a população de plebeus (agricultores) diminuiu."
+  },
+  "q_joseon_late_05_007": {
+    "question": "Qual foi a medida para reduzir a discriminação contra os seoja (filhos ilegítimos) no final do período Joseon?",
+    "correct": "O Rei Jeongjo implementou a política seoja heo-tong",
+    "wrong": [
+      "O Rei Sejong permitiu que os seoja fizessem exames civis",
+      "O Rei Seongjong permitiu que os seoja acessassem cargos governamentais",
+      "O Rei Yeongjo aboliu o sistema de seoja",
+      "O Rei Sunjo tratou os seoja igualmente aos yangban"
+    ],
+    "hint": "O rei que nomeou pessoas de nascimento ilegítimo para cargos de Geomseogwan no Gyujanggak.",
+    "explanation": "O Rei Jeongjo implementou a política seoja heo-tong, ampliando as oportunidades para filhos ilegítimos ingressarem no serviço governamental."
+  },
+  "q_joseon_late_05_008": {
+    "question": "Qual foi o fenômeno relacionado à fuga de escravos no final do período Joseon?",
+    "correct": "As fugas de escravos aumentaram e a população escrava diminuiu",
+    "wrong": [
+      "As leis que puniam escravos fugitivos foram reforçadas",
+      "Quase não houve escravos fugitivos",
+      "As fugas de escravos raramente tinham sucesso",
+      "A fuga de escravos era incentivada como política estatal"
+    ],
+    "hint": "À medida que os controles de status social se afrouxaram, mais escravos fugiram.",
+    "explanation": "No final do período Joseon, as fugas de escravos aumentaram, reduzindo muito a população escrava e abalando o sistema de status social."
+  },
+  "q_joseon_late_05_009": {
+    "question": "Qual foi a mudança na sociedade rural no final do período Joseon?",
+    "correct": "Agricultores ricos e comerciantes expandiram sua influência nas áreas rurais",
+    "wrong": [
+      "O controle dos yangban sobre as áreas rurais foi ainda mais fortalecido",
+      "Todos os agricultores se mudaram para as cidades",
+      "A autogovernança rural foi completamente abolida",
+      "O Estado controlava diretamente as áreas rurais"
+    ],
+    "hint": "Agricultores ricos e comerciantes ganharam influência nas aldeias.",
+    "explanation": "No final do período Joseon, novas forças como agricultores ricos e comerciantes expandiram sua influência nas áreas rurais, enfraquecendo o controle tradicional dos yangban."
+  },
+  "q_joseon_late_05_010": {
+    "question": "Qual é o significado das mudanças no sistema de status social no final do período Joseon?",
+    "correct": "Mostra a tendência rumo à igualdade na sociedade Joseon",
+    "wrong": [
+      "Mostra que o sistema de status social foi ainda mais fortalecido",
+      "Causou a invasão estrangeira",
+      "Causou diretamente a queda da dinastia Joseon",
+      "Impediu o desenvolvimento econômico"
+    ],
+    "hint": "A rígida ordem de status social desmoronou gradualmente, caminhando em direção à igualdade.",
+    "explanation": "As mudanças no sistema de status social no final do período Joseon têm importância por mostrar que a sociedade Joseon estava gradualmente caminhando em direção à igualdade."
+  },
+  "q_joseon_late_05_011": {
+    "question": "Qual fenômeno do final do período Joseon a seguinte fonte descreve?",
+    "source": "Para serem incluídas em uma genealogia, as pessoas pagavam dinheiro para serem registradas em famílias yangban, ou até mesmo falsificavam genealogias.",
+    "correct": "Compra e venda e falsificação de genealogias",
+    "wrong": [
+      "Abolição do sistema de exames",
+      "Fortalecimento do sistema de escravidão",
+      "Proibição da herança de yangban",
+      "Introdução de um sistema de registro de status social"
+    ],
+    "hint": "As pessoas buscavam ascensão de status ingressando falsamente em famílias yangban ou falsificando genealogias.",
+    "explanation": "No final do período Joseon, a compra, venda e falsificação de genealogias se tornaram prevalentes, com muitos plebeus adquirindo status de yangban."
+  },
+  "q_joseon_late_05_012": {
+    "question": "Como era o estilo de vida dos yangban decadentes no final do período Joseon?",
+    "correct": "Viviam na pobreza mantendo a dignidade de yangban ou se dedicavam à agricultura",
+    "wrong": [
+      "Todos os yangban decadentes se dedicaram ao comércio",
+      "Os yangban decadentes automaticamente se tornavam plebeus",
+      "O Estado apoiava financeiramente os yangban decadentes",
+      "Os yangban decadentes se mudavam para as cidades para se tornarem trabalhadores"
+    ],
+    "hint": "Tornaram-se 'yangban decadentes' que cultivavam a terra usando chapéus tradicionais e mantendo a dignidade de yangban apesar da pobreza.",
+    "explanation": "Os yangban decadentes no final do período Joseon viviam na pobreza mantendo a dignidade de yangban ou se dedicavam à agricultura para seu sustento."
+  },
+  "q_joseon_late_06_001": {
+    "question": "Qual foi o contexto para o surgimento do Silhak (Estudos Práticos) no final do período Joseon?",
+    "correct": "Reconheceram as limitações do Neoconfucionismo e buscaram reformas sociais",
+    "wrong": [
+      "O Neoconfucionismo foi suprimido, limitando a liberdade acadêmica",
+      "A China Qing impôs o Silhak a eles",
+      "O rei adotou o Silhak como ideologia de Estado",
+      "O Silhak foi transmitido do Japão"
+    ],
+    "hint": "Um campo de estudos que abordou problemas do mundo real após as guerras Imjin e Byeongja.",
+    "explanation": "O Silhak surgiu quando as contradições sociais se aprofundaram após as duas guerras, levando os acadêmicos a reconhecer as limitações do Neoconfucionismo e buscar soluções para problemas do mundo real."
+  },
+  "q_joseon_late_06_002": {
+    "question": "Qual acadêmico do Silhak fez o seguinte argumento?",
+    "source": "A terra deve ser distribuída igualmente entre os agricultores, e a posse de terras excedentes deve ser proibida.",
+    "correct": "Yu Hyeong-won",
+    "wrong": [
+      "Park Ji-won",
+      "Park Je-ga",
+      "Hong Dae-yong",
+      "Jeong Yak-yong"
+    ],
+    "hint": "Um pioneiro do Silhak que escreveu 'Bangye Surok' e defendeu o Gyunjeonron.",
+    "explanation": "Yu Hyeong-won defendeu o Gyunjeonron (teoria da distribuição igualitária de terras) em 'Bangye Surok', argumentando que a terra deveria ser distribuída igualmente entre os agricultores."
+  },
+  "q_joseon_late_06_003": {
+    "question": "Qual era a característica da escola Gyeongse Chiyong?",
+    "correct": "Buscavam estabilizar a vida dos agricultores por meio da reforma do sistema fundiário",
+    "wrong": [
+      "Enfatizavam a promoção do comércio, da indústria e da inovação tecnológica",
+      "Defendiam ativamente a adoção da cultura Qing",
+      "Enfatizavam a introdução da ciência e tecnologia ocidentais",
+      "Concentravam-se na pesquisa de estudos coreanos"
+    ],
+    "hint": "Uma escola que defendia governar o mundo (經世) e ser útil ao povo (致用).",
+    "explanation": "A escola Gyeongse Chiyong (Yu Hyeong-won, Yi Ik, Jeong Yak-yong) buscava estabilizar a vida dos agricultores por meio da reforma do sistema fundiário."
+  },
+  "q_joseon_late_06_004": {
+    "question": "Qual era a teoria de reforma do sistema fundiário de Yi Ik?",
+    "correct": "Hanjeonron",
+    "wrong": [
+      "Gyunjeonron",
+      "Jeongjeonron",
+      "Yeojeonron",
+      "Jeonsigwa"
+    ],
+    "hint": "Um argumento para prevenir a concentração de terras (田) estabelecendo limites (限) à propriedade.",
+    "explanation": "Yi Ik defendeu o Hanjeonron (teoria da propriedade limitada de terras), estabelecendo um limite máximo para a propriedade de terras e restringindo vendas para prevenir a concentração fundiária."
+  },
+  "q_joseon_late_06_005": {
+    "question": "Qual afirmação sobre a pessoa da foto está correta?",
+    "correct": "Foi um acadêmico do Silhak que escreveu Mongmin Simseo, Gyeongse Yupyo e outras obras",
+    "wrong": [
+      "Escreveu Yeolha Ilgi e apresentou a cultura Qing",
+      "Defendeu a teoria heliocêntrica em Uisan Mundap",
+      "Escreveu Bukhagui e defendeu a promoção do comércio e da indústria",
+      "Escreveu Dongui Bogam e sistematizou a medicina"
+    ],
+    "hint": "Um acadêmico que sistematizou o Silhak, também famoso por seu pseudônimo 'Dasan'.",
+    "explanation": "A foto mostra Jeong Yak-yong. Jeong Yak-yong sistematizou o Silhak escrevendo obras como 'Mongmin Simseo', 'Gyeongse Yupyo' e 'Heumheum Sinseo'."
+  },
+  "q_joseon_late_06_006": {
+    "question": "Qual era a teoria de reforma do sistema fundiário de Jeong Yak-yong?",
+    "correct": "Yeojeonron",
+    "wrong": [
+      "Gyunjeonron",
+      "Hanjeonron",
+      "Jeongjeonron",
+      "Gwajeonbeop"
+    ],
+    "hint": "Um argumento em favor do cultivo comunal (田) no nível da aldeia (閭).",
+    "explanation": "Jeong Yak-yong defendeu o Yeojeonron (teoria do campo comunal), propondo o cultivo comunal no nível da aldeia com distribuição da colheita de acordo com a contribuição de trabalho."
+  },
+  "q_joseon_late_06_007": {
+    "question": "Qual era a característica da escola Iyong Husaeng?",
+    "correct": "Buscavam a riqueza nacional e o poderio militar por meio da promoção do comércio/indústria e da inovação tecnológica",
+    "wrong": [
+      "Buscavam estabilizar a vida dos agricultores por meio da reforma do sistema fundiário",
+      "Tentavam fortalecer a ordem neoconfucionista",
+      "Tentavam cortar o intercâmbio com países estrangeiros",
+      "Defendiam o fortalecimento do sistema de status social"
+    ],
+    "hint": "Uma escola que defendia tornar as coisas úteis (利用) e enriquecer a vida (厚生).",
+    "explanation": "A escola Iyong Husaeng (Yu Su-won, Hong Dae-yong, Park Ji-won, Park Je-ga) defendia a promoção do comércio/indústria, a inovação tecnológica e a adoção da cultura Qing."
+  },
+  "q_joseon_late_06_008": {
+    "question": "Quem é o autor da seguinte fonte?",
+    "source": "Indo a Yanjing, vi que as ruas eram limpas e as carruagens circulavam por elas. Nós também deveríamos seguir esse exemplo e desenvolver o comércio e a tecnologia.",
+    "correct": "Park Ji-won",
+    "wrong": [
+      "Yi Ik",
+      "Yu Hyeong-won",
+      "Jeong Yak-yong",
+      "Kim Jeong-hui"
+    ],
+    "hint": "Um acadêmico do Silhak que escreveu 'Yeolha Ilgi', 'Heo Saengjeon' e 'Yangbanjeon'.",
+    "explanation": "O conteúdo está relacionado ao 'Yeolha Ilgi' de Park Ji-won. Park Ji-won visitou a China Qing e defendeu a adoção de sua cultura."
+  },
+  "q_joseon_late_06_009": {
+    "question": "Qual era a obra de Park Je-ga e qual era seu argumento?",
+    "correct": "Bukhagui - Adoção da cultura Qing e promoção do comércio/indústria",
+    "wrong": [
+      "Bangye Surok - Gyunjeonron",
+      "Mongmin Simseo - Conduta adequada do magistrado local",
+      "Seongho Saseol - Hanjeonron",
+      "Uisan Mundap - Teoria heliocêntrica"
+    ],
+    "hint": "Ele escreveu um livro cujo significado é aprender (學) com o norte (a China Qing).",
+    "explanation": "Park Je-ga defendeu a adoção da cultura Qing, a promoção do comércio/indústria e o uso ampliado de carruagens e navios em 'Bukhagui'."
+  },
+  "q_joseon_late_06_010": {
+    "question": "O que Hong Dae-yong argumentou em 'Uisan Mundap'?",
+    "correct": "Ele defendeu a teoria heliocêntrica de que a Terra gira",
+    "wrong": [
+      "Argumentou pela distribuição igualitária de terras",
+      "Argumentou pela abolição do sistema yangban",
+      "Argumentou pelo rompimento diplomático com a China Qing",
+      "Argumentou que o budismo deveria ser a religião de Estado"
+    ],
+    "hint": "Uma afirmação revolucionária para a época de que a Terra gira (地轉).",
+    "explanation": "Hong Dae-yong defendeu a teoria heliocêntrica (teoria da rotação da Terra) em 'Uisan Mundap', desafiando a visão de mundo geocêntrica vigente."
+  },
+  "q_joseon_late_06_011": {
+    "question": "Qual era a limitação do Silhak?",
+    "correct": "Permaneceu acadêmico e não foi refletido na política estatal",
+    "wrong": [
+      "Rejeitou a ciência e tecnologia ocidentais",
+      "Enfatizou apenas o comércio em detrimento da agricultura",
+      "Defendeu o sistema de status social",
+      "Rejeitou completamente a cultura Qing"
+    ],
+    "hint": "Boas propostas de reforma foram apresentadas, mas não puderam ser aplicadas à política real.",
+    "explanation": "O Silhak propôs diversos planos de reforma, mas, por não estar conectado ao poder político da época, teve a limitação de não ser refletido na política estatal."
+  },
+  "q_joseon_late_06_012": {
+    "question": "A qual acadêmico do Silhak a seguinte descrição se refere?",
+    "source": "Esta pessoa teve contato com a cultura ocidental na China Qing e defendeu a teoria heliocêntrica e a teoria do universo infinito. Também se opôs à discriminação de status social e defendeu a igualdade humana.",
+    "correct": "Hong Dae-yong",
+    "wrong": [
+      "Jeong Yak-yong",
+      "Park Ji-won",
+      "Park Je-ga",
+      "Yu Hyeong-won"
+    ],
+    "hint": "Um acadêmico que argumentou pela rotação da Terra e pela igualdade humana em 'Uisan Mundap'.",
+    "explanation": "Hong Dae-yong interagiu com missionários ocidentais na China Qing e defendeu a teoria heliocêntrica, a teoria do universo infinito e a igualdade humana."
+  },
+  "q_joseon_late_07_001": {
+    "question": "Qual foi o contexto para o desenvolvimento dos Estudos Coreanos (Gukhak) no final do período Joseon?",
+    "correct": "O orgulho nacional e a consciência identitária aumentaram",
+    "wrong": [
+      "A China Qing forçou a pesquisa de Estudos Coreanos",
+      "A pesquisa de Estudos Coreanos foi proibida por decreto real",
+      "O saber ocidental foi introduzido, causando o declínio dos Estudos Coreanos",
+      "Somente os estudos chineses eram permitidos para pesquisa"
+    ],
+    "hint": "Um período em que o interesse pela própria história, geografia e língua aumentou.",
+    "explanation": "No final do período Joseon, à medida que o orgulho nacional e a consciência identitária aumentaram, os Estudos Coreanos focados na própria história, geografia e língua se desenvolveram."
+  },
+  "q_joseon_late_07_002": {
+    "question": "Qual foi a obra de An Jeong-bok?",
+    "correct": "Dongsa Gangmok",
+    "wrong": [
+      "Balhaego",
+      "Daedongyeojido",
+      "Taengni Ji",
+      "Yeolha Ilgi"
+    ],
+    "hint": "Um livro que organizou a história coreana (Donguk) no estilo gangmok (crônica).",
+    "explanation": "An Jeong-bok escreveu 'Dongsa Gangmok', organizando a história desde Gojoseon até Goryeo."
+  },
+  "q_joseon_late_07_003": {
+    "question": "A qual pessoa a seguinte descrição se refere?",
+    "source": "Ele reconheceu Balhae como parte da história coreana, defendeu a teoria do período dos Estados Norte-Sul e escreveu 'Balhaego'.",
+    "correct": "Yu Deuk-gong",
+    "wrong": [
+      "An Jeong-bok",
+      "Yi Ik",
+      "Jeong Yak-yong",
+      "Park Ji-won"
+    ],
+    "hint": "Um estudioso que chamou o período em que Silla e Balhae coexistiram de 'Estados Norte-Sul'.",
+    "explanation": "Yu Deuk-gong escreveu 'Balhaego', organizando a história de Balhae, e definiu o período em que Silla e Balhae coexistiram como o período dos Estados Norte-Sul."
+  },
+  "q_joseon_late_07_004": {
+    "question": "Qual afirmação sobre o 'Taengni Ji' de Yi Jung-hwan está correta?",
+    "correct": "É um livro de geografia que organizou de forma abrangente o ambiente natural e a geografia humana do país",
+    "wrong": [
+      "É um livro de história que organiza a história de Gojoseon até Goryeo",
+      "É um livro de história que organiza a história de Balhae",
+      "É um livro de estudos linguísticos coreanos que pesquisa o Hangeul",
+      "É um livro de medicina que organiza o conhecimento médico"
+    ],
+    "hint": "Um livro de geografia que organiza critérios para escolher (擇) bons lugares para viver (宅里).",
+    "explanation": "O 'Taengni Ji' de Yi Jung-hwan é um livro de geografia que organizou de forma abrangente o ambiente natural, a economia, os costumes e as paisagens do país."
+  },
+  "q_joseon_late_07_005": {
+    "question": "Qual afirmação sobre este mapa na foto está correta?",
+    "correct": "É um mapa nacional impresso em xilogravura feito por Kim Jeong-ho, marcando distâncias com pontos a cada 10 li",
+    "wrong": [
+      "É um mapa-múndi feito durante o reinado do Rei Sejong",
+      "É um mapa feito durante o período Goryeo",
+      "É um mapa feito durante o período colonial japonês",
+      "É um mapa importado da China"
+    ],
+    "hint": "Um grande (大) mapa unificado (同) do país (輿地) que pode ser dobrado para facilitar o transporte.",
+    "explanation": "A foto mostra o Daedongyeojido feito por Kim Jeong-ho. Impresso a partir de blocos de madeira, marcava distâncias com pontos a cada 10 li."
+  },
+  "q_joseon_late_07_006": {
+    "question": "Qual NÃO é uma característica do Daedongyeojido?",
+    "correct": "Usava cores para representar o relevo",
+    "wrong": [
+      "A distância podia ser conhecida por meio de pontos marcados a cada 10 li",
+      "A impressão em massa era possível por meio da xilogravura",
+      "As cadeias de montanhas e cursos d'água eram detalhados",
+      "Estava em formato de livro dobrável para fácil transporte"
+    ],
+    "hint": "Como era impresso em xilogravura, não possui cores e é em preto e branco.",
+    "explanation": "O Daedongyeojido foi feito como uma impressão em xilogravura sem cores, representando cadeias de montanhas e cursos d'água com linhas."
+  },
+  "q_joseon_late_07_007": {
+    "question": "Quais foram as realizações de Kim Jeong-ho na cartografia?",
+    "correct": "Ele fez o Cheonggu-do e o Daedongyeojido",
+    "wrong": [
+      "Ele fez o Honil Gangni Yeokdae Gukdo Jido",
+      "Ele fez o Cheonhado",
+      "Ele fez o Haedong Jido",
+      "Ele fez o Dongguk Jido"
+    ],
+    "hint": "Ele fez o Cheonggu-do manuscrito em 1834 e o Daedongyeojido em xilogravura em 1861.",
+    "explanation": "Kim Jeong-ho fez o Cheonggu-do (1834) e o Daedongyeojido (1861), contribuindo para o desenvolvimento da cartografia do final do período Joseon."
+  },
+  "q_joseon_late_07_008": {
+    "question": "Qual foi a conquista na pesquisa da língua coreana no final do período Joseon?",
+    "correct": "Sin Gyeong-jun escreveu 'Hunminjeongeum Unhae'",
+    "wrong": [
+      "O Rei Sejong criou o Hangeul",
+      "Ju Si-gyeong estabeleceu a ortografia coreana",
+      "Yi Gwang-su escreveu romances coreanos",
+      "Choe Hyeon-bae sistematizou a linguística coreana"
+    ],
+    "hint": "Um livro que pesquisou o sistema fonológico (sonoro) do Hunminjeongeum.",
+    "explanation": "Sin Gyeong-jun escreveu 'Hunminjeongeum Unhae', pesquisando o sistema fonológico do Hangeul."
+  },
+  "q_joseon_late_07_009": {
+    "question": "A qual livro de história a seguinte fonte se refere?",
+    "source": "Organizou a história desde a fundação de Gojoseon até a queda de Goryeo no estilo gangmok, enfatizando a legitimidade da história coreana.",
+    "correct": "Dongsa Gangmok",
+    "wrong": [
+      "Samguk Sagi",
+      "Samguk Yusa",
+      "Balhaego",
+      "Taengni Ji"
+    ],
+    "hint": "Um livro de história no estilo crônica (gangmok) escrito por An Jeong-bok.",
+    "explanation": "'Dongsa Gangmok' é um livro de história escrito por An Jeong-bok, organizando a história desde Gojoseon até Goryeo no estilo gangmok."
+  },
+  "q_joseon_late_07_010": {
+    "question": "Qual era a característica da pesquisa histórica no final do período Joseon?",
+    "correct": "Métodos de pesquisa empírica e uma perspectiva histórica centrada na nação se desenvolveram",
+    "wrong": [
+      "Existia apenas uma perspectiva histórica centrada na China",
+      "A pesquisa histórica era proibida",
+      "Somente a história real era registrada",
+      "A história era transmitida apenas por tradição oral"
+    ],
+    "hint": "Os fatos eram comprovados com base em fontes, e a história era vista da perspectiva da própria nação.",
+    "explanation": "A pesquisa histórica no final do período Joseon se desenvolveu com base em métodos de pesquisa empírica e uma perspectiva histórica centrada na nação."
+  },
+  "q_joseon_late_07_011": {
+    "question": "Qual é um exemplo de compilação enciclopédica no final do período Joseon?",
+    "correct": "'Cheongjanggwan Jeonseo' de Yi Deok-mu",
+    "wrong": [
+      "'Hunminjeongeum' do Rei Sejong",
+      "'Seonghak Sipdo' de Yi Hwang",
+      "'Seonghak Jibyo' de Yi I",
+      "'Joseon Gyeonggukjeon' de Jeong Do-jeon"
+    ],
+    "hint": "A obra completa de um estudioso com o pseudônimo 'Cheongjanggwan' (Estúdio da Hera Azul).",
+    "explanation": "O 'Cheongjanggwan Jeonseo' de Yi Deok-mu é uma obra enciclopédica que organizou conhecimentos em diversas áreas."
+  },
+  "q_joseon_late_07_012": {
+    "question": "Qual é a importância da pesquisa de Estudos Coreanos no final do período Joseon?",
+    "correct": "Elevou a consciência autônoma da cultura nacional",
+    "wrong": [
+      "Fortaleceu o sadaejuui (servilismo) em relação à cultura chinesa",
+      "Contribuiu para a rejeição da cultura ocidental",
+      "Fortaleceu a ordem de status centrada nos yangban",
+      "Solidificou a visão de mundo neoconfucionista"
+    ],
+    "hint": "A pesquisa sobre o patrimônio nacional aumentou a consciência e o orgulho nacionais.",
+    "explanation": "A pesquisa de Estudos Coreanos no final do período Joseon contribuiu para aumentar o interesse pela própria história, geografia e língua, elevando assim a consciência autônoma da cultura nacional."
+  },
+  "q_joseon_late_08_001": {
+    "question": "Qual foi o contexto para o desenvolvimento da cultura popular no final do período Joseon?",
+    "correct": "O desenvolvimento econômico elevou o poder econômico e o status social dos populares",
+    "wrong": [
+      "O rei implementou políticas de incentivo à cultura popular",
+      "A cultura popular foi transmitida da China",
+      "Os yangban adotaram ativamente a cultura popular",
+      "Missionários estrangeiros difundiram a cultura popular"
+    ],
+    "hint": "Os populares que ganharam dinheiro com o desenvolvimento agrícola e comercial começaram a apreciar cultura.",
+    "explanation": "No final do período Joseon, o desenvolvimento econômico elevou o poder econômico e o status social dos populares, levando ao desenvolvimento da cultura popular."
+  },
+  "q_joseon_late_08_002": {
+    "question": "Qual afirmação sobre este estilo de pintura na foto está correta?",
+    "correct": "São pinturas de gênero de Kim Hong-do, Sin Yun-bok e outros, retratando a vida dos populares",
+    "wrong": [
+      "São pinturas budistas populares durante o período Goryeo",
+      "São pinturas de paisagem do início do período Joseon",
+      "São pinturas de paisagem realista de Jeong Seon",
+      "São pinturas de paisagem idealistas de An Gyeon"
+    ],
+    "hint": "Pinturas retratando a vida cotidiana das pessoas, como luta coreana, escolas de aldeia e forjas.",
+    "explanation": "A foto mostra pinturas de gênero. No final do período Joseon, Kim Hong-do, Sin Yun-bok e outros pintaram pinturas de gênero retratando a vida dos populares."
+  },
+  "q_joseon_late_08_003": {
+    "question": "Qual afirmação sobre as pinturas de paisagem realista de Jeong Seon está correta?",
+    "correct": "São pinturas de paisagem feitas a partir da observação direta das paisagens do país",
+    "wrong": [
+      "São pinturas de paisagem imaginando cenários chineses",
+      "São pinturas de gênero retratando a vida dos populares",
+      "São pinturas budistas expressando a doutrina budista",
+      "São pinturas que aplicam técnicas ocidentais"
+    ],
+    "hint": "Pinturas de paisagem que significam terem sido desenhadas a partir da observação de paisagens reais (眞景).",
+    "explanation": "Jeong Seon desenvolveu pinturas de paisagem realista feitas a partir da observação direta das paisagens naturais do país. Obras representativas incluem Inwangjesaekdo e Geumgangjeondo."
+  },
+  "q_joseon_late_08_004": {
+    "question": "Quem é o artista desta obra?",
+    "correct": "Jeong Seon",
+    "wrong": [
+      "Kim Hong-do",
+      "Sin Yun-bok",
+      "An Gyeon",
+      "Gang Hui-an"
+    ],
+    "hint": "Um mestre da pintura de paisagem realista que pintou o monte Inwangsan após a chuva cessar.",
+    "explanation": "A foto mostra o Inwangjesaekdo de Jeong Seon. Jeong Seon foi um mestre das pinturas de paisagem realista que pintou as montanhas do país a partir de observação direta."
+  },
+  "q_joseon_late_08_005": {
+    "question": "Qual afirmação sobre o pansori no final do período Joseon está correta?",
+    "correct": "É uma arte performática em que um cantor apresenta canções ao ritmo de um percussionista",
+    "wrong": [
+      "É um coro cantado por muitas pessoas juntas",
+      "Era apresentado somente na corte real",
+      "Somente os yangban podiam apreciá-lo",
+      "É uma música transmitida da China"
+    ],
+    "hint": "Contar uma longa história por meio do canto (sori) em um amplo palco (pan/pátio).",
+    "explanation": "O pansori é uma arte performática em que um cantor apresenta uma longa história ao ritmo de um gosu (percussionista), sendo popular entre os populares."
+  },
+  "q_joseon_late_08_006": {
+    "question": "Quais eram os romances coreanos representativos do final do período Joseon?",
+    "correct": "Honggildongjeon, Chunhyangjeon",
+    "wrong": [
+      "Samguk Sagi, Samguk Yusa",
+      "Geumo Sinhwa, Guunmong",
+      "Somente Simcheongjeon era um romance coreano",
+      "Romances coreanos não existiam"
+    ],
+    "hint": "Livros de histórias escritos em Hangeul que os populares gostavam de ler.",
+    "explanation": "No final do período Joseon, romances coreanos como Honggildongjeon, Chunhyangjeon, Simcheongjeon e Heungbujeon eram amplamente lidos entre os populares."
+  },
+  "q_joseon_late_08_007": {
+    "question": "Qual era o conteúdo e a importância de Honggildongjeon?",
+    "correct": "Criticava a discriminação contra filhos ilegítimos e funcionários corruptos, defendendo a reforma social",
+    "wrong": [
+      "Tratava de uma história de amor ambientada na China",
+      "Explicava a doutrina budista",
+      "Elogiava o estilo de vida dos yangban",
+      "Era um conto heroico que tratava de uma guerra com um país estrangeiro"
+    ],
+    "hint": "Um romance de Heo Gyun em que o protagonista, um filho ilegítimo, estabelece um mundo ideal.",
+    "explanation": "Honggildongjeon, de Heo Gyun, criticava a discriminação contra filhos ilegítimos e funcionários corruptos, contendo uma consciência reformista com o tema da construção de uma sociedade ideal."
+  },
+  "q_joseon_late_08_008": {
+    "question": "A qual fenômeno cultural a seguinte fonte se refere?",
+    "source": "Retratava cenas de um professor ensinando o Cheonjamun em uma escola de aldeia, um ferreiro em uma forja e pessoas lutando.",
+    "correct": "Popularização das pinturas de gênero",
+    "wrong": [
+      "Desenvolvimento das pinturas de paisagem realista",
+      "Popularização das pinturas budistas",
+      "Desenvolvimento das pinturas de letrados",
+      "Introdução das pinturas ocidentais"
+    ],
+    "hint": "Pinturas retratando cenas da vida cotidiana das pessoas (風俗/costumes).",
+    "explanation": "A descrição se refere às pinturas de gênero do final do período Joseon. Kim Hong-do, Sin Yun-bok e outros pintaram pinturas de gênero retratando a vida dos populares."
+  },
+  "q_joseon_late_08_009": {
+    "question": "Qual afirmação sobre a dança de máscaras (talchum) no final do período Joseon está correta?",
+    "correct": "Satirizava os yangban e os monges enquanto expressava as alegrias e tristezas dos populares",
+    "wrong": [
+      "Era apresentada somente em eventos reais",
+      "É uma arte teatral transmitida do exterior",
+      "Era um passatempo refinado dos yangban",
+      "Apresentava traduções de clássicos chineses"
+    ],
+    "hint": "Uma apresentação folclórica usando máscaras, zombando dos yangban e proporcionando risos.",
+    "explanation": "As danças de máscaras do final do período Joseon (Bongsan Talchum, Yangju Byeolsandae Nori, etc.) eram artes folclóricas que satirizavam os yangban e os monges enquanto expressavam as alegrias e tristezas dos populares."
+  },
+  "q_joseon_late_08_010": {
+    "question": "Qual era a característica das pinturas de Sin Yun-bok?",
+    "correct": "Ele expressava com elegância o entretenimento urbano e os relacionamentos amorosos",
+    "wrong": [
+      "Ele pintava principalmente a vida dos agricultores rurais",
+      "Ele pintava as montanhas do país a partir de observação direta",
+      "Ele pintava principalmente conteúdo budista",
+      "Ele pintava paisagens chinesas"
+    ],
+    "hint": "Um pintor que retratava homens e mulheres urbanos, incluindo cortesãs e amantes.",
+    "explanation": "Sin Yun-bok pintou pinturas de gênero expressando com elegância o entretenimento urbano e os relacionamentos amorosos. Obras representativas incluem Danopungjeong e Wolhajeong-in."
+  },
+  "q_joseon_late_08_011": {
+    "question": "Qual afirmação sobre as minhwa (pinturas populares) no final do período Joseon está correta?",
+    "correct": "Eram pinturas criadas e apreciadas pelos populares, caracterizadas por uma beleza simples",
+    "wrong": [
+      "Eram criadas e apreciadas somente na corte real",
+      "Eram pintadas principalmente por pintores yangban",
+      "A representação realista era sua característica",
+      "Técnicas ocidentais eram utilizadas"
+    ],
+    "hint": "Pinturas como as do tigre com a pega e pinturas de caracteres que os populares penduravam em suas casas.",
+    "explanation": "As minhwa eram pinturas criadas e apreciadas pelos populares, caracterizadas por uma beleza humorística e simples, usadas como decoração."
+  },
+  "q_joseon_late_08_012": {
+    "question": "Qual era a característica da cultura popular no final do período Joseon?",
+    "correct": "Satirizava a sociedade yangban e expressava livremente a vida e as emoções dos populares",
+    "wrong": [
+      "Simplesmente imitava a cultura yangban",
+      "Traduzia e aceitava a cultura chinesa",
+      "Tratava apenas de conteúdo religioso",
+      "Não utilizava linguagem escrita"
+    ],
+    "hint": "Uma cultura que zombava dos yangban e expressava as alegrias e tristezas dos populares.",
+    "explanation": "A cultura popular no final do período Joseon era caracterizada por satirizar a sociedade yangban e expressar livremente a vida e as emoções dos populares."
+  },
+  "q_joseon_late_09_001": {
+    "question": "Qual afirmação sobre o desenvolvimento de manuais agrícolas no final de Joseon está correta?",
+    "correct": "'Saekgyeong' de Park Se-dang e 'Gwanong Socho' de Park Ji-won foram escritos para organizar técnicas agrícolas",
+    "wrong": [
+      "'Nongsa Jikseol' foi compilado pela primeira vez neste período",
+      "A compilação de manuais agrícolas era proibida",
+      "Somente manuais agrícolas chineses eram utilizados",
+      "As técnicas agrícolas regrediram"
+    ],
+    "hint": "Novos manuais agrícolas surgiram, como 'Saekgyeong' de Park Se-dang e 'Gwanong Socho' de Park Ji-won.",
+    "explanation": "No final de Joseon, 'Saekgyeong' de Park Se-dang e 'Gwanong Socho' de Park Ji-won foram escritos, organizando as técnicas agrícolas da época."
+  },
+  "q_joseon_late_09_002": {
+    "question": "A qual texto médico a seguinte descrição se refere?",
+    "source": "Foi escrito por Heo Jun durante o reinado do Rei Gwanghaegun e sistematizou o conhecimento médico coreano e chinês.",
+    "correct": "Dongui Bogam",
+    "wrong": [
+      "Uibang Yuchwi",
+      "Hyangyak Jipseongbang",
+      "Chimgu Gyeongheombang",
+      "Dongui Susebowon"
+    ],
+    "hint": "Um texto médico que é um tesouro da medicina oriental e Patrimônio Documental da UNESCO.",
+    "explanation": "O Dongui Bogam é um texto médico escrito por Heo Jun durante o reinado do Rei Gwanghaegun (1610), que sistematizou a medicina do Leste Asiático e foi registrado como Patrimônio Documental da UNESCO."
+  },
+  "q_joseon_late_09_003": {
+    "question": "Qual afirmação sobre o desenvolvimento da astronomia no final de Joseon está correta?",
+    "correct": "Kim Seok-mun defendeu a teoria heliocêntrica e Hong Dae-yong a desenvolveu ainda mais",
+    "wrong": [
+      "Somente a teoria geocêntrica era aceita",
+      "A pesquisa astronômica era proibida",
+      "A astronomia ocidental foi completamente rejeitada",
+      "O interesse pela astronomia diminuiu"
+    ],
+    "hint": "Surgiu uma nova teoria de que a Terra gira sobre seu próprio eixo (地轉).",
+    "explanation": "No final de Joseon, Kim Seok-mun defendeu a teoria heliocêntrica e Hong Dae-yong a desenvolveu ainda mais, argumentando sobre a rotação da Terra."
+  },
+  "q_joseon_late_09_004": {
+    "question": "Quais foram as realizações de Jeong Yak-yong na ciência e tecnologia?",
+    "correct": "Ele projetou o geojunggi e o nokro para uso na construção da Fortaleza Hwaseong",
+    "wrong": [
+      "Ele inventou o pluviômetro",
+      "Ele projetou o navio-tartaruga",
+      "Ele criou o relógio de água",
+      "Ele construiu a esfera armilar"
+    ],
+    "hint": "Ele projetou um dispositivo para levantar pedras pesadas durante a construção de Suwon Hwaseong.",
+    "explanation": "Jeong Yak-yong projetou o geojunggi (guindaste) e o nokro (polia) para uso na construção de Suwon Hwaseong."
+  },
+  "q_joseon_late_09_005": {
+    "question": "Qual afirmação sobre este dispositivo na foto está correta?",
+    "correct": "Foi projetado por Jeong Yak-yong e usado para levantar objetos pesados",
+    "wrong": [
+      "Foi inventado por Jang Yeong-sil durante o reinado do Rei Sejong",
+      "É um dispositivo de irrigação para agricultura",
+      "É um dispositivo de observação astronômica",
+      "É um dispositivo para medir o tempo"
+    ],
+    "hint": "Significa um dispositivo (機) para levantar (擧) objetos pesados (重).",
+    "explanation": "A foto mostra o geojunggi. Projetado por Jeong Yak-yong, foi utilizado para levantar pedras pesadas durante a construção de Suwon Hwaseong."
+  },
+  "q_joseon_late_09_006": {
+    "question": "Qual foi a rota pela qual a ciência e tecnologia ocidentais foram introduzidas no final de Joseon?",
+    "correct": "Livros científicos de missionários ocidentais foram transmitidos através da China Qing",
+    "wrong": [
+      "A ciência ocidental foi transmitida através do Japão",
+      "Ocidentais vieram diretamente a Joseon para difundi-la",
+      "Enviados de Joseon visitaram a Europa para aprendê-la",
+      "A introdução da ciência ocidental foi completamente proibida"
+    ],
+    "hint": "Enviados que iam a Pequim traziam de volta livros de missionários ocidentais.",
+    "explanation": "A ciência e tecnologia ocidentais no final de Joseon foram transmitidas principalmente através da China Qing, onde livros científicos escritos por missionários ocidentais foram introduzidos."
+  },
+  "q_joseon_late_09_007": {
+    "question": "Qual conhecimento científico ocidental foi introduzido no final de Joseon?",
+    "correct": "A teoria de que a Terra é redonda (teoria da Terra esférica) e mapas-múndi",
+    "wrong": [
+      "Motor a vapor",
+      "Eletricidade",
+      "Genética",
+      "Teoria da relatividade"
+    ],
+    "hint": "Ao ver o Gonyeo Manguk Jeondo (mapa-múndi), as pessoas aprenderam que a Terra é redonda.",
+    "explanation": "No final de Joseon, conhecimentos científicos ocidentais como a teoria da Terra esférica, mapas-múndi (Gonyeo Manguk Jeondo, etc.) e o calendário ocidental (Siheonyeok) foram introduzidos."
+  },
+  "q_joseon_late_09_008": {
+    "question": "Qual afirmação sobre o Siheonyeok (Calendário Temporal) está correta?",
+    "correct": "Era um calendário feito na China Qing com base na astronomia ocidental e introduzido em Joseon",
+    "wrong": [
+      "Era um calendário desenvolvido de forma independente durante o reinado do Rei Sejong",
+      "Era um calendário transmitido pelo Japão",
+      "Era um calendário usado desde o período Goryeo",
+      "Era um calendário feito puramente por métodos tradicionais"
+    ],
+    "hint": "Um calendário de estilo ocidental feito pelo Padre Adam Schall, que era mais preciso.",
+    "explanation": "O Siheonyeok era um calendário feito na China Qing com base na astronomia ocidental e introduzido em Joseon durante o reinado do Rei Hyojong."
+  },
+  "q_joseon_late_09_009": {
+    "question": "Qual afirmação sobre o desenvolvimento médico no final de Joseon NÃO está correta?",
+    "correct": "A medicina ocidental se difundiu amplamente e substituiu a medicina tradicional",
+    "wrong": [
+      "O Dongui Bogam foi escrito sistematizando a medicina",
+      "A vacinação contra varíola foi introduzida para prevenção",
+      "A medicina Sasang foi estabelecida no Dongui Susebowon",
+      "O número de médicos aumentou, difundindo os cuidados de saúde ao povo"
+    ],
+    "hint": "A medicina ocidental não foi plenamente introduzida até o período do Iluminismo.",
+    "explanation": "A medicina tradicional permaneceu predominante no final de Joseon, e a medicina ocidental não foi introduzida efetivamente até o período do Iluminismo."
+  },
+  "q_joseon_late_09_010": {
+    "question": "Qual afirmação sobre o 'Dongui Susebowon' de Yi Je-ma está correta?",
+    "correct": "Estabeleceu a medicina Sasang, classificando as constituições das pessoas em quatro tipos para tratamento",
+    "wrong": [
+      "Sistematizou a medicina chinesa",
+      "Introduziu a medicina ocidental",
+      "Classificou as ervas medicinais",
+      "Organizou métodos cirúrgicos"
+    ],
+    "hint": "Um sistema médico que divide as pessoas em quatro constituições: Taeyangin, Taeeumin, Soyangin e Soeumin.",
+    "explanation": "O 'Dongui Susebowon' de Yi Je-ma estabeleceu a medicina Sasang, classificando as constituições das pessoas em Taeyangin, Taeeumin, Soyangin e Soeumin para tratamento."
+  },
+  "q_joseon_late_09_011": {
+    "question": "Qual afirmação sobre o desenvolvimento da cartografia no final de Joseon está correta?",
+    "correct": "Kim Jeong-ho criou o Daedongyeojido, avançando a cartografia",
+    "wrong": [
+      "A produção de mapas era proibida",
+      "Somente mapas chineses eram utilizados",
+      "Mapas usando fotos de satélite foram feitos",
+      "A cartografia mundial era predominante"
+    ],
+    "hint": "Um mapa nacional feito pelo maior cartógrafo do final de Joseon.",
+    "explanation": "No final de Joseon, Kim Jeong-ho criou o Cheonggu-do e o Daedongyeojido, avançando significativamente a cartografia."
+  },
+  "q_joseon_late_09_012": {
+    "question": "Qual era a característica da ciência e tecnologia no final de Joseon?",
+    "correct": "A ciência ocidental foi adotada seletivamente e a tecnologia prática se desenvolveu",
+    "wrong": [
+      "O interesse em ciência e tecnologia diminuiu",
+      "A ciência ocidental foi completamente rejeitada",
+      "Somente a ciência teórica se desenvolveu, enquanto a tecnologia prática declinou",
+      "O Estado proibiu a pesquisa científica"
+    ],
+    "hint": "Apenas o que era necessário do Ocidente foi adotado seletivamente, e tecnologias práticas se desenvolveram.",
+    "explanation": "No final de Joseon, a ciência ocidental foi adotada seletivamente, e tecnologias práticas em agricultura, medicina e cartografia se desenvolveram."
+  },
+  "q_joseon_late_10_001": {
+    "question": "Qual foi a rota pela qual o catolicismo foi transmitido a Joseon?",
+    "correct": "Enviados à China Qing o conheceram como Estudo Ocidental e o estudaram antes de aceitá-lo como fé",
+    "wrong": [
+      "Missionários ocidentais vieram diretamente a Joseon para pregá-lo",
+      "Foi transmitido através do Japão",
+      "Foi transmitido por mar a partir da Índia",
+      "Existia desde o período Goryeo"
+    ],
+    "hint": "Foi inicialmente estudado como disciplina acadêmica (Estudo Ocidental) e depois aceito como fé.",
+    "explanation": "O catolicismo foi inicialmente introduzido como Estudo Ocidental (Seohak), e depois que Yi Seung-hun recebeu o batismo na China Qing (1784), desenvolveu-se como uma fé."
+  },
+  "q_joseon_late_10_002": {
+    "question": "Por que o catolicismo foi perseguido em Joseon?",
+    "correct": "Entrou em conflito com os valores confucionistas ao rejeitar os rituais ancestrais",
+    "wrong": [
+      "O rei pessoalmente não gostava do catolicismo",
+      "A China Qing exigiu a supressão do catolicismo",
+      "Os católicos iniciaram uma rebelião",
+      "Os católicos não pagavam impostos"
+    ],
+    "hint": "Entrou em conflito com o confucionismo (que valoriza a piedade filial) ao rejeitar os rituais ancestrais como idolatria.",
+    "explanation": "O catolicismo entrou em conflito com os valores confucionistas (piedade filial) ao rejeitar os rituais ancestrais, levando à perseguição."
+  },
+  "q_joseon_late_10_003": {
+    "question": "Qual foi a perseguição católica que ocorreu durante o reinado do Rei Sunjo em 1801?",
+    "correct": "Perseguição Sinyu",
+    "wrong": [
+      "Perseguição Byeongin",
+      "Perseguição Gihae",
+      "Perseguição Byeongo",
+      "Golpe Gapsin"
+    ],
+    "hint": "Uma perseguição católica em grande escala que ocorreu no ano Sinyu (1801).",
+    "explanation": "A Perseguição Sinyu (1801) foi uma perseguição católica em grande escala que ocorreu logo após a ascensão do Rei Sunjo, na qual Yi Seung-hun e Jeong Yak-jong foram executados."
+  },
+  "q_joseon_late_10_004": {
+    "question": "A qual pessoa a seguinte fonte se refere?",
+    "source": "Durante a Perseguição Sinyu, essa pessoa escreveu secretamente uma carta para ser enviada a um bispo na China Qing. Quando a carta foi descoberta, ele foi executado.",
+    "correct": "Hwang Sa-yeong",
+    "wrong": [
+      "Jeong Yak-yong",
+      "Yi Seung-hun",
+      "Choe Je-u",
+      "Jeong Ha-sang"
+    ],
+    "hint": "Ele foi descoberto solicitando assistência militar ocidental em uma carta escrita em seda (carta de seda).",
+    "explanation": "Durante a Perseguição Sinyu, Hwang Sa-yeong foi descoberto escrevendo uma carta em seda (Hwang Sa-yeong Baekseo) para informar um bispo na China Qing sobre a situação do catolicismo em Joseon e foi executado."
+  },
+  "q_joseon_late_10_005": {
+    "question": "Quem fundou o Donghak?",
+    "correct": "Choe Je-u",
+    "wrong": [
+      "Choe Si-hyeong",
+      "Jeon Bong-jun",
+      "Kim Ok-gyun",
+      "Jeong Yak-yong"
+    ],
+    "hint": "O primeiro patriarca que fundou o Donghak em Gyeongju em 1860.",
+    "explanation": "O Donghak foi fundado por Choe Je-u em 1860. O Donghak era uma religião baseada no pensamento tradicional oriental, em resposta ao Estudo Ocidental (catolicismo)."
+  },
+  "q_joseon_late_10_006": {
+    "question": "Qual era a ideologia central do Donghak?",
+    "correct": "Innaecheon (O Ser Humano é o Céu)",
+    "wrong": [
+      "Chunghyo (Lealdade e Piedade Filial)",
+      "Samgang Oryun",
+      "Umyang Ohaeng",
+      "Pensamento Hwa-i"
+    ],
+    "hint": "Uma ideologia de igualdade que significa que os seres humanos (人) são (乃) o céu (天).",
+    "explanation": "A ideologia central do Donghak era Innaecheon (人乃天, O Ser Humano é o Céu), contendo o significado de que todas as pessoas são iguais."
+  },
+  "q_joseon_late_10_007": {
+    "question": "Qual foi o contexto para o surgimento do Donghak?",
+    "correct": "O descontentamento popular aumentou em meio à instabilidade social causada pelos efeitos nocivos da Política Sedo",
+    "wrong": [
+      "Foi uma reação contra a supressão do catolicismo",
+      "A China Qing difundiu o Donghak",
+      "A família real incentivou o Donghak",
+      "Os yangban fundaram o Donghak"
+    ],
+    "hint": "Uma religião que deu esperança ao povo em meio ao caos causado pela Desordem das Três Administrações e pela invasão estrangeira.",
+    "explanation": "O Donghak surgiu como uma religião que prometia salvação ao povo em meio à instabilidade social causada pelos efeitos nocivos da Política Sedo, pela Desordem das Três Administrações e pela invasão estrangeira."
+  },
+  "q_joseon_late_10_008": {
+    "question": "A qual religião a seguinte descrição se refere?",
+    "source": "Contém elementos do confucionismo, budismo e taoísmo, enfatizando as ideologias de Sicheonju (servir ao Senhor Celestial) e Hucheon Gaebyeok (o novo mundo do Céu Posterior).",
+    "correct": "Donghak",
+    "wrong": [
+      "Catolicismo",
+      "Budismo",
+      "Confucionismo",
+      "Protestantismo"
+    ],
+    "hint": "Uma religião que fundiu o pensamento tradicional oriental e ensinou que um novo mundo se abriria.",
+    "explanation": "O Donghak é uma religião nacional que contém elementos do confucionismo, budismo e taoísmo, enfatizando as ideologias de Sicheonju e Hucheon Gaebyeok."
+  },
+  "q_joseon_late_10_009": {
+    "question": "Qual foi o motivo da execução de Choe Je-u?",
+    "correct": "Foi executado sob a acusação de Hokse Mumin (enganar o mundo e iludir o povo)",
+    "wrong": [
+      "Foi executado por se comunicar com países estrangeiros",
+      "Foi executado por conspirar uma rebelião",
+      "Foi executado por não pagar impostos",
+      "Foi executado por cometer assassinato"
+    ],
+    "hint": "A acusação de enganar o mundo (惑世) e iludir o povo (誣民).",
+    "explanation": "Choe Je-u foi executado em Daegu em 1864 sob a acusação de Hokse Mumin (惑世誣民, enganar o mundo e iludir o povo)."
+  },
+  "q_joseon_late_10_010": {
+    "question": "O que o catolicismo e o Donghak tinham em comum?",
+    "correct": "Ambos possuíam a ideologia de igualdade entre os seres humanos",
+    "wrong": [
+      "Ambos eram religiões estrangeiras",
+      "Ambos enfatizavam os rituais ancestrais",
+      "Ambos eram baseados no confucionismo",
+      "Ambos eram incentivados pela família real"
+    ],
+    "hint": "Ambos ganharam popularidade entre o povo com a ideologia de que todas as pessoas são iguais.",
+    "explanation": "Tanto o catolicismo quanto o Donghak possuíam a ideologia de igualdade entre os seres humanos, conquistando apoio do povo que sofria com a discriminação de status."
+  },
+  "q_joseon_late_10_011": {
+    "question": "Qual é a importância das novas religiões no final de Joseon?",
+    "correct": "Resistiram à ordem de status existente e difundiram a ideologia de igualdade",
+    "wrong": [
+      "Fortaleceram a ordem neoconfucionista",
+      "Cortaram o intercâmbio com países estrangeiros",
+      "Solidificaram a sociedade centrada nos yangban",
+      "Suprimiram as revoltas camponesas"
+    ],
+    "hint": "Difundiram a ideia de que yangban, plebeus e pessoas de baixo status são todos iguais.",
+    "explanation": "O catolicismo e o Donghak no final de Joseon resistiram à ordem de status existente e contribuíram para a mudança social ao difundir a ideologia de igualdade."
+  },
+  "q_joseon_late_10_012": {
+    "question": "Quem liderou o Donghak após a execução de Choe Je-u?",
+    "correct": "Choe Si-hyeong",
+    "wrong": [
+      "Jeon Bong-jun",
+      "Kim Gae-nam",
+      "Son Byeong-hui",
+      "Jeong Yak-yong"
+    ],
+    "hint": "Como segundo patriarca, ele organizou o Donghak e compilou as escrituras.",
+    "explanation": "Após a execução de Choe Je-u, Choe Si-hyeong tornou-se o segundo patriarca a liderar o Donghak, organizando a igreja e compilando as escrituras."
+  }
+}
