@@ -260,6 +260,12 @@ class StudySessionController extends StateNotifier<StudySessionState> {
     final studyService = _ref.read(studyServiceProvider);
     await studyService.completeSession(session);
 
+    // 세션 완료 시 전면 광고 표시 (프리미엄 사용자 제외, 쿨타임 적용)
+    final isPremium = _ref.read(isPremiumProvider);
+    if (!isPremium) {
+      await AdService().showInterstitialAd();
+    }
+
     // 상태 갱신을 위해 providers 무효화
     _invalidateProgressProviders();
 

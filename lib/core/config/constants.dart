@@ -13,9 +13,8 @@ class StudyConstants {
   /// 완전 습득 레벨
   static const int masteryLevel = 5;
 
-  /// 세션 내 최대 문제 유형별 할당
-  static const int maxWrongReviewCount = 10;
-  static const int maxSpacedReviewCount = 10;
+  /// 복습 세션 최대 문제 수 (오답 + 망각곡선 합산)
+  static const int maxReviewCount = 10;
   static const int minNewLearningCount = 5;
 }
 

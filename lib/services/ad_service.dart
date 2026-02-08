@@ -1,5 +1,6 @@
 // lib/services/ad_service.dart
 
+import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 import '../core/config/ad_config.dart';
@@ -80,8 +81,10 @@ class AdService {
 
   RewardedAd? _rewardedAd;
   bool _isRewardedAdReady = false;
+  int _rewardedRetryCount = 0;
+  static const int _maxRetryCount = 5;
 
-  /// 보상형 광고 미리 로드
+  /// 보상형 광고 미리 로드 (실패 시 지수 백오프 재시도)
   void loadRewardedAd() {
     if (!AdConfig.adsEnabled) return;
 
@@ -92,13 +95,55 @@ class AdService {
         onAdLoaded: (ad) {
           _rewardedAd = ad;
           _isRewardedAdReady = true;
+          _rewardedRetryCount = 0;
         },
         onAdFailedToLoad: (error) {
-          debugPrint('보상형 광고 로드 실패: $error');
+          debugPrint('보상형 광고 로드 실패 (시도 ${_rewardedRetryCount + 1}): $error');
           _isRewardedAdReady = false;
+          _retryLoadRewardedAd();
         },
       ),
     );
+  }
+
+  void _retryLoadRewardedAd() {
+    if (_rewardedRetryCount >= _maxRetryCount) {
+      debugPrint('보상형 광고 재시도 횟수 초과 ($_maxRetryCount회)');
+      _rewardedRetryCount = 0;
+      return;
+    }
+    final delay = Duration(seconds: 1 << _rewardedRetryCount); // 1, 2, 4, 8, 16초
+    _rewardedRetryCount++;
+    Future.delayed(delay, () {
+      if (!_isRewardedAdReady) {
+        loadRewardedAd();
+      }
+    });
+  }
+
+  /// 보상형 광고 즉석 로드 (힌트 탭 시 광고 미준비 상태에서 사용)
+  Future<bool> tryLoadRewardedAd({Duration timeout = const Duration(seconds: 5)}) async {
+    if (_isRewardedAdReady) return true;
+    if (!AdConfig.adsEnabled) return false;
+
+    final completer = Completer<bool>();
+    RewardedAd.load(
+      adUnitId: AdConfig.rewardedAdUnitId,
+      request: const AdRequest(),
+      rewardedAdLoadCallback: RewardedAdLoadCallback(
+        onAdLoaded: (ad) {
+          _rewardedAd = ad;
+          _isRewardedAdReady = true;
+          _rewardedRetryCount = 0;
+          if (!completer.isCompleted) completer.complete(true);
+        },
+        onAdFailedToLoad: (error) {
+          debugPrint('보상형 광고 즉석 로드 실패: $error');
+          if (!completer.isCompleted) completer.complete(false);
+        },
+      ),
+    );
+    return completer.future.timeout(timeout, onTimeout: () => false);
   }
 
   /// 보상형 광고 표시 (콜백으로 보상 지급)

@@ -101,13 +101,13 @@ class QuestionSelector {
     required int availableReviewCount,
     required int availableNewCount,
   }) {
-    // 오답 복습: 최대 maxWrongReviewCount개 또는 목표의 1/3
-    final maxWrong = min(StudyConstants.maxWrongReviewCount, dailyGoal ~/ 3);
-    var wrongAllocation = min(availableWrongCount, maxWrong);
-
-    // 망각곡선 복습: 최대 maxSpacedReviewCount개 또는 목표의 1/3
-    final maxReview = min(StudyConstants.maxSpacedReviewCount, dailyGoal ~/ 3);
-    var spacedAllocation = min(availableReviewCount, maxReview);
+    // 복습 총 할당: 최대 maxReviewCount개 또는 목표의 2/3
+    final maxReview = min(StudyConstants.maxReviewCount, dailyGoal * 2 ~/ 3);
+    // 오답 복습 우선 배분
+    var wrongAllocation = min(availableWrongCount, maxReview);
+    // 나머지를 망각곡선 복습에 배분
+    final remainingReview = maxReview - wrongAllocation;
+    var spacedAllocation = min(availableReviewCount, remainingReview);
 
     // 신규 학습: 나머지 (최소 minNewLearningCount개 보장)
     var newAllocation = dailyGoal - wrongAllocation - spacedAllocation;
@@ -281,27 +281,25 @@ class QuestionSelector {
   /// 레벨 0: 오답 복습 (오답으로 리셋된 문제)
   /// 레벨 1+: 망각곡선 복습
   Future<DailyQuestionSelection> selectReviewQuestions({
-    int? maxWrong,
-    int? maxSpaced,
+    int? maxTotal,
   }) async {
-    maxWrong ??= StudyConstants.maxWrongReviewCount;
-    maxSpaced ??= StudyConstants.maxSpacedReviewCount;
+    maxTotal ??= StudyConstants.maxReviewCount;
 
     // 복습 대상 문제 조회 (레벨 낮은 순 = 오답 먼저)
     final reviewRecords = await _db.studyRecordsDao.getReviewQuestions(
-      limit: maxWrong + maxSpaced,
+      limit: maxTotal,
     );
 
-    // 레벨 0 (오답 복습)과 레벨 1+ (망각곡선 복습) 분리
+    // 레벨 0 (오답 복습) 우선, 나머지를 망각곡선 복습으로 채움
     final wrongReviewIds = reviewRecords
         .where((r) => r.level == 0)
-        .take(maxWrong)
         .map((r) => r.questionId)
         .toList();
 
+    final remaining = maxTotal - wrongReviewIds.length;
     final spacedReviewIds = reviewRecords
         .where((r) => r.level > 0)
-        .take(maxSpaced)
+        .take(remaining)
         .map((r) => r.questionId)
         .toList();
 
@@ -390,14 +388,15 @@ class QuestionSelector {
     final wrongRecords = reviewRecords.where((r) => r.level == 0).toList();
     final spacedRecords = reviewRecords.where((r) => r.level > 0).toList();
 
-    // 복습 문제 배분 (오답 최대 10개, 망각곡선 최대 10개)
+    // 복습 문제 배분 (오답 + 망각곡선 합산 최대 maxReviewCount개, 오답 우선)
     final wrongReviewIds = wrongRecords
-        .take(StudyConstants.maxWrongReviewCount)
+        .take(StudyConstants.maxReviewCount)
         .map((r) => r.questionId)
         .toList();
 
+    final remainingSlots = StudyConstants.maxReviewCount - wrongReviewIds.length;
     final spacedReviewIds = spacedRecords
-        .take(StudyConstants.maxSpacedReviewCount)
+        .take(max(0, remainingSlots))
         .map((r) => r.questionId)
         .toList();
 

@@ -53,6 +53,8 @@ class _QuizCardState extends ConsumerState<QuizCard> {
     }
   }
 
+  bool _isLoadingAd = false;
+
   Future<void> _onHintTap() async {
     final isPremium = ref.read(isPremiumProvider);
     final adService = AdService();
@@ -62,23 +64,31 @@ class _QuizCardState extends ConsumerState<QuizCard> {
       setState(() {
         _showHint = true;
       });
-    } else if (adService.isRewardedAdReady) {
-      // 보상형 광고 시청 후 힌트 표시
-      await adService.showRewardedAd(
-        onRewarded: (reward) {
-          if (mounted) {
-            setState(() {
-              _showHint = true;
-            });
-          }
-        },
-      );
-    } else {
-      // 광고가 준비되지 않은 경우 그냥 힌트 표시
-      setState(() {
-        _showHint = true;
-      });
+      return;
     }
+
+    // 광고가 준비되지 않은 경우 즉석 로드 시도
+    if (!adService.isRewardedAdReady) {
+      setState(() => _isLoadingAd = true);
+      final loaded = await adService.tryLoadRewardedAd();
+      if (mounted) setState(() => _isLoadingAd = false);
+      if (!loaded) {
+        // 즉석 로드도 실패하면 그냥 힌트 표시
+        if (mounted) setState(() => _showHint = true);
+        return;
+      }
+    }
+
+    // 보상형 광고 시청 후 힌트 표시
+    await adService.showRewardedAd(
+      onRewarded: (reward) {
+        if (mounted) {
+          setState(() {
+            _showHint = true;
+          });
+        }
+      },
+    );
   }
 
   int get _correctIndex => _shuffledOptions.indexOf(widget.question.correct);
@@ -168,7 +178,7 @@ class _QuizCardState extends ConsumerState<QuizCard> {
                   if (!_showHint)
                     Center(
                       child: TextButton(
-                        onPressed: _onHintTap,
+                        onPressed: _isLoadingAd ? null : _onHintTap,
                         style: TextButton.styleFrom(
                           padding: const EdgeInsets.symmetric(
                             horizontal: 16,
@@ -193,24 +203,34 @@ class _QuizCardState extends ConsumerState<QuizCard> {
                             ),
                             if (!isPremium) ...[
                               const SizedBox(width: 8),
-                              Container(
-                                padding: const EdgeInsets.symmetric(
-                                  horizontal: 6,
-                                  vertical: 2,
-                                ),
-                                decoration: BoxDecoration(
-                                  color: AppColors.secondary,
-                                  borderRadius: BorderRadius.circular(4),
-                                ),
-                                child: const Text(
-                                  'AD',
-                                  style: TextStyle(
-                                    fontSize: 10,
-                                    fontWeight: FontWeight.bold,
-                                    color: Colors.white,
+                              if (_isLoadingAd)
+                                const SizedBox(
+                                  width: 14,
+                                  height: 14,
+                                  child: CircularProgressIndicator(
+                                    strokeWidth: 2,
+                                    color: AppColors.secondary,
+                                  ),
+                                )
+                              else
+                                Container(
+                                  padding: const EdgeInsets.symmetric(
+                                    horizontal: 6,
+                                    vertical: 2,
+                                  ),
+                                  decoration: BoxDecoration(
+                                    color: AppColors.secondary,
+                                    borderRadius: BorderRadius.circular(4),
+                                  ),
+                                  child: const Text(
+                                    'AD',
+                                    style: TextStyle(
+                                      fontSize: 10,
+                                      fontWeight: FontWeight.bold,
+                                      color: Colors.white,
+                                    ),
                                   ),
                                 ),
-                              ),
                             ],
                           ],
                         ),
