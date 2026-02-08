@@ -1,0 +1,7 @@
+v1.1.1 Atualização
+
+[Novidades]
+- Suporte ao português (brasileiro) adicionado
+
+[Melhorias]
+- Melhorias gerais de estabilidade

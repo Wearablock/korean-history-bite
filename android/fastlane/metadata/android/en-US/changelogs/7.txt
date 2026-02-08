@@ -1,7 +1,4 @@
 v1.1.1 Update
 
-[New Features]
 - Added Portuguese (Brazilian) language support
-
-[Improvements]
 - Overall stability improvements

@@ -1,7 +1,7 @@
 name: korean_history_bite
 description: Boost Your Korean History IQ
 publish_to: "none"
-version: 1.1.0+6
+version: 1.1.1+7
 
 environment:
   sdk: ^3.5.0

@@ -1,7 +1,4 @@
 v1.1.1 Actualización
 
-[Nuevas funciones]
 - Soporte para portugués (brasileño) añadido
-
-[Mejoras]
 - Mejoras generales de estabilidad
