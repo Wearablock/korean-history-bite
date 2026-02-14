@@ -308,5 +308,9 @@
   "soundEffects": "효과음",
   "soundEffectsDesc": "정답/오답 시 효과음 재생",
   "vibration": "진동",
-  "vibrationDesc": "정답/오답 시 진동 피드백"
+  "vibrationDesc": "정답/오답 시 진동 피드백",
+
+  "eraStudy": "시대별 학습",
+  "studyThisEra": "이 시대 학습하기",
+  "eraAllStudied": "학습 완료"
 }

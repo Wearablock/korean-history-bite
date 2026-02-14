@@ -46,7 +46,7 @@ class StudyCtaButton extends StatelessWidget {
     if (summary.allChaptersCompleted) {
       return l10n.startReview;
     }
-    if (summary.questionsStudied > 0) {
+    if (summary.todayStudiedChapters > 0) {
       return l10n.continueStudy;
     }
     return l10n.startStudy;

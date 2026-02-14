@@ -12,6 +12,7 @@ import 'widgets/today_study_card.dart';
 import 'widgets/study_cta_button.dart';
 import 'widgets/overall_progress_card.dart';
 import 'widgets/review_alert_card.dart';
+import 'widgets/era_study_section.dart';
 import '../../debug/debug_panel.dart';
 import '../../core/config/ad_config.dart';
 
@@ -74,6 +75,11 @@ class HomeScreen extends ConsumerWidget {
 
           // 전체 진행률
           OverallProgressCard(summary: summary),
+
+          const SizedBox(height: 24),
+
+          // 시대별 학습
+          const EraStudySection(),
 
           // 디버그 패널 (개발 모드 & 스크린샷 모드 아닐 때만 표시)
           if (kDebugMode && !AdConfig.screenshotMode) ...[

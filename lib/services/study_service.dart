@@ -52,6 +52,21 @@ class StudyService {
     return createDailySession(chapterCount: chapterCount);
   }
 
+  /// 시대별 학습 세션 생성
+  Future<StudySession> createEraSession(String eraId) async {
+    final selection = await _questionSelector.selectEraQuestions(eraId);
+
+    return StudySession(
+      id: DebugUtils.now.millisecondsSinceEpoch.toString(),
+      startedAt: DebugUtils.now,
+      wrongReviewIds: selection.wrongReviewIds,
+      spacedReviewIds: selection.spacedReviewIds,
+      newQuestionIds: selection.newQuestionIds,
+      newChapterIds: selection.newChapterIds,
+      newQuestionsByChapter: selection.newQuestionsByChapter,
+    );
+  }
+
   /// 복습 전용 세션 생성
   Future<StudySession> createReviewSession() async {
     final selection = await _questionSelector.selectReviewQuestions();

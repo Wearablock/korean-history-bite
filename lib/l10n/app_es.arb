@@ -305,5 +305,9 @@
   "soundEffects": "Efectos de Sonido",
   "soundEffectsDesc": "Reproducir sonido al responder correcto/incorrecto",
   "vibration": "Vibración",
-  "vibrationDesc": "Retroalimentación háptica al responder correcto/incorrecto"
+  "vibrationDesc": "Retroalimentación háptica al responder correcto/incorrecto",
+
+  "eraStudy": "Estudio por Era",
+  "studyThisEra": "Estudiar esta era",
+  "eraAllStudied": "Completado"
 }

@@ -305,5 +305,9 @@
   "soundEffects": "効果音",
   "soundEffectsDesc": "正解/不正解時に効果音を再生",
   "vibration": "振動",
-  "vibrationDesc": "正解/不正解時に振動フィードバック"
+  "vibrationDesc": "正解/不正解時に振動フィードバック",
+
+  "eraStudy": "時代別学習",
+  "studyThisEra": "この時代を学習",
+  "eraAllStudied": "学習完了"
 }

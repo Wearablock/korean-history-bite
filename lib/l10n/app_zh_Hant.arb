@@ -305,5 +305,9 @@
   "soundEffects": "音效",
   "soundEffectsDesc": "正確/錯誤時播放音效",
   "vibration": "振動",
-  "vibrationDesc": "正確/錯誤時振動回饋"
+  "vibrationDesc": "正確/錯誤時振動回饋",
+
+  "eraStudy": "按時代學習",
+  "studyThisEra": "學習此時代",
+  "eraAllStudied": "已完成"
 }

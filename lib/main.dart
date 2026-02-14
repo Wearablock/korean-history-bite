@@ -11,7 +11,6 @@ import 'app.dart';
 import 'core/config/app_config.dart';
 import 'data/database/app_database.dart';
 import 'firebase_options.dart';
-import 'services/ad_service.dart';
 import 'services/iap_service.dart';
 import 'services/notification_service.dart';
 import 'core/services/feedback_service.dart';
@@ -33,9 +32,6 @@ void main() async {
 
   // AdMob 초기화
   await MobileAds.instance.initialize();
-
-  // 전면/보상형 광고 미리 로드
-  AdService().preloadAds();
 
   // IAP 초기화
   await IAPService().initialize();

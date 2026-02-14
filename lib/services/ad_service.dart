@@ -18,8 +18,10 @@ class AdService {
   InterstitialAd? _interstitialAd;
   bool _isInterstitialAdReady = false;
   DateTime? _lastInterstitialShowTime;
+  int _interstitialRetryCount = 0;
+  static const int _maxInterstitialRetryCount = 5;
 
-  /// 전면 광고 미리 로드
+  /// 전면 광고 미리 로드 (실패 시 지수 백오프 재시도)
   void loadInterstitialAd() {
     if (!AdConfig.adsEnabled) return;
 
@@ -30,6 +32,7 @@ class AdService {
         onAdLoaded: (ad) {
           _interstitialAd = ad;
           _isInterstitialAdReady = true;
+          _interstitialRetryCount = 0;
 
           ad.fullScreenContentCallback = FullScreenContentCallback(
             onAdDismissedFullScreenContent: (ad) {
@@ -46,11 +49,27 @@ class AdService {
           );
         },
         onAdFailedToLoad: (error) {
-          debugPrint('전면 광고 로드 실패: $error');
+          debugPrint('전면 광고 로드 실패 (시도 ${_interstitialRetryCount + 1}): $error');
           _isInterstitialAdReady = false;
+          _retryLoadInterstitialAd();
         },
       ),
     );
+  }
+
+  void _retryLoadInterstitialAd() {
+    if (_interstitialRetryCount >= _maxInterstitialRetryCount) {
+      debugPrint('전면 광고 재시도 횟수 초과 ($_maxInterstitialRetryCount회)');
+      _interstitialRetryCount = 0;
+      return;
+    }
+    final delay = Duration(seconds: 1 << _interstitialRetryCount); // 1, 2, 4, 8, 16초
+    _interstitialRetryCount++;
+    Future.delayed(delay, () {
+      if (!_isInterstitialAdReady) {
+        loadInterstitialAd();
+      }
+    });
   }
 
   /// 전면 광고 표시 (최소 간격 체크)
@@ -188,10 +207,12 @@ class AdService {
   // 초기화
   // ============================================================
 
-  /// 모든 광고 미리 로드
+  /// 모든 광고 미리 로드 (전면 먼저, 보상형은 지연 로드)
   void preloadAds() {
     loadInterstitialAd();
-    loadRewardedAd();
+    Future.delayed(const Duration(seconds: 3), () {
+      loadRewardedAd();
+    });
   }
 
   /// 리소스 정리

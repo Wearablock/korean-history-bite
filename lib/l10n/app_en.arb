@@ -305,5 +305,9 @@
   "soundEffects": "Sound Effects",
   "soundEffectsDesc": "Play sound on correct/wrong answers",
   "vibration": "Vibration",
-  "vibrationDesc": "Haptic feedback on correct/wrong answers"
+  "vibrationDesc": "Haptic feedback on correct/wrong answers",
+
+  "eraStudy": "Study by Era",
+  "studyThisEra": "Study this era",
+  "eraAllStudied": "Completed"
 }

@@ -9,6 +9,7 @@ import 'data/providers/chapter_providers.dart';
 import 'data/providers/database_providers.dart';
 import 'features/main/main_shell.dart';
 import 'features/onboarding/daily_goal_onboarding_screen.dart';
+import 'services/ad_service.dart';
 import 'services/notification_service.dart';
 
 class KoreanHistoryApp extends ConsumerWidget {
@@ -143,6 +144,12 @@ class _AppHomeState extends ConsumerState<_AppHome> {
   void initState() {
     super.initState();
     _checkOnboardingStatus();
+    // UI 렌더링 후 광고 지연 로드 (시작 시 오디오 재생 방지)
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      Future.delayed(const Duration(seconds: 2), () {
+        AdService().preloadAds();
+      });
+    });
   }
 
   Future<void> _checkOnboardingStatus() async {

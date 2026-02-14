@@ -148,6 +148,36 @@ class StudySessionController extends StateNotifier<StudySessionState> {
     }
   }
 
+  /// 시대별 세션 시작
+  Future<void> startEraSession(String eraId) async {
+    state = state.copyWith(status: StudySessionStatus.loading);
+
+    try {
+      final studyService = _ref.read(studyServiceProvider);
+      final session = await studyService.createEraSession(eraId);
+
+      if (session.isEmpty) {
+        state = state.copyWith(
+          status: StudySessionStatus.completed,
+          session: session,
+        );
+        return;
+      }
+
+      state = state.copyWith(
+        status: StudySessionStatus.inProgress,
+        session: session,
+      );
+
+      await _loadCurrentQuestion();
+    } catch (e) {
+      state = state.copyWith(
+        status: StudySessionStatus.error,
+        errorMessage: e.toString(),
+      );
+    }
+  }
+
   /// 현재 퀴즈 문제 로드
   Future<void> _loadCurrentQuestion() async {
     final item = state.currentItem;

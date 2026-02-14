@@ -447,4 +447,48 @@ class QuestionSelector {
       studiedIds: allStudiedIds,
     );
   }
+
+  /// 시대별 문제 선택 (해당 시대의 미학습 챕터에서 1챕터씩)
+  Future<DailyQuestionSelection> selectEraQuestions(String eraId) async {
+    // 병렬로 데이터 로드
+    final results = await Future.wait([
+      _questionRepository.loadMetaByEra(eraId),
+      _getAllStudiedQuestionIds(),
+    ]);
+    final eraMeta = results[0] as List<QuestionMeta>;
+    final allStudiedIds = results[1] as Set<String>;
+
+    // 시대 내 미학습 챕터 찾기
+    final unstudiedChapters = _findUnstudiedChapters(
+      allMeta: eraMeta,
+      studiedIds: allStudiedIds,
+    );
+
+    if (unstudiedChapters.isEmpty) {
+      return const DailyQuestionSelection(
+        wrongReviewIds: [],
+        spacedReviewIds: [],
+        newQuestionIds: [],
+        newChapterIds: [],
+        newQuestionsByChapter: {},
+      );
+    }
+
+    // 첫 번째 미학습 챕터의 문제 선택
+    final targetChapter = unstudiedChapters.first;
+    final chapterMap = _buildChapterMap(eraMeta);
+    final chapterMeta = chapterMap[targetChapter] ?? [];
+    final chapterQuestions = chapterMeta
+        .where((m) => !allStudiedIds.contains(m.id))
+        .map((m) => m.id)
+        .toList();
+
+    return DailyQuestionSelection(
+      wrongReviewIds: [],
+      spacedReviewIds: [],
+      newQuestionIds: chapterQuestions,
+      newChapterIds: [targetChapter],
+      newQuestionsByChapter: {targetChapter: chapterQuestions},
+    );
+  }
 }

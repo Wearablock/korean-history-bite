@@ -305,5 +305,9 @@
   "soundEffects": "Efeitos Sonoros",
   "soundEffectsDesc": "Reproduzir som ao acertar/errar",
   "vibration": "Vibração",
-  "vibrationDesc": "Feedback tátil ao acertar/errar"
+  "vibrationDesc": "Feedback tátil ao acertar/errar",
+
+  "eraStudy": "Estudo por Era",
+  "studyThisEra": "Estudar esta era",
+  "eraAllStudied": "Concluído"
 }

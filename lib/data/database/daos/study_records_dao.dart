@@ -241,7 +241,8 @@ class StudyRecordsDao extends DatabaseAccessor<AppDatabase>
     return records.length;
   }
 
-  /// 오늘 학습한 챕터 수 (고유 챕터 ID 기준)
+  /// 오늘 신규 학습한 챕터 수 (오늘 처음 생성된 레코드의 고유 챕터 ID 기준)
+  /// 복습은 제외하고 신규 학습만 카운트
   Future<int> getTodayStudiedChapterCount() async {
     final today = DebugUtils.now; // 디버그 모드 지원
     final startOfDay = DateTime(today.year, today.month, today.day);
@@ -249,8 +250,8 @@ class StudyRecordsDao extends DatabaseAccessor<AppDatabase>
 
     final query = select(studyRecords)
       ..where((t) =>
-          t.lastStudiedAt.isBiggerOrEqualValue(startOfDay) &
-          t.lastStudiedAt.isSmallerThanValue(endOfDay));
+          t.createdAt.isBiggerOrEqualValue(startOfDay) &
+          t.createdAt.isSmallerThanValue(endOfDay));
 
     final records = await query.get();
 

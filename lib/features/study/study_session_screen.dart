@@ -16,9 +16,13 @@ class StudySessionScreen extends ConsumerStatefulWidget {
   /// 복습 전용 세션인지 여부
   final bool isReviewOnly;
 
+  /// 시대별 학습 시 시대 ID
+  final String? eraId;
+
   const StudySessionScreen({
     super.key,
     this.isReviewOnly = false,
+    this.eraId,
   });
 
   @override
@@ -33,7 +37,9 @@ class _StudySessionScreenState extends ConsumerState<StudySessionScreen> {
     super.initState();
     WidgetsBinding.instance.addPostFrameCallback((_) {
       final controller = ref.read(studySessionControllerProvider.notifier);
-      if (widget.isReviewOnly) {
+      if (widget.eraId != null) {
+        controller.startEraSession(widget.eraId!);
+      } else if (widget.isReviewOnly) {
         controller.startReviewSession();
       } else {
         controller.startSession();
